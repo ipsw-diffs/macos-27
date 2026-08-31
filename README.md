@@ -12,12 +12,7 @@ release sequence is implied.
 
 | Device | Comparison | Manifest |
 | --- | --- | --- |
-| `Mac17,6` | [27.0 (26A5353q) → 27.0 (26A5368g)](diffs/27_0_26A5353q_vs_27_0_26A5368g/README.md) | [provenance](manifests/27_0_26A5353q_vs_27_0_26A5368g.json) |
-| `Mac17,6` | [27.0 (26A5368g) → 27.0 (26A5378j)](diffs/27_0_26A5368g_vs_27_0_26A5378j/README.md) | [provenance](manifests/27_0_26A5368g_vs_27_0_26A5378j.json) |
-| `Mac17,6` | [27.0 (26A5378j) → 27.0 (26A5378n)](diffs/27_0_26A5378j_vs_27_0_26A5378n/README.md) | [provenance](manifests/27_0_26A5378j_vs_27_0_26A5378n.json) |
-| `Mac17,6` | [27.0 (26A5378n) → 27.0 (26A5388g)](diffs/27_0_26A5378n_vs_27_0_26A5388g/README.md) | [provenance](manifests/27_0_26A5378n_vs_27_0_26A5388g.json) |
-| `Mac17,6` | [27.0 (26A5388g) → 27.0 (26A5406e)](diffs/27_0_26A5388g_vs_27_0_26A5406e/README.md) | [provenance](manifests/27_0_26A5388g_vs_27_0_26A5406e.json) |
-| `Mac17,6` | [27.0 (26A5416b) → 27.0 (26A5421a)](diffs/27_0_26A5416b_vs_27_0_26A5421a/README.md) | [provenance](manifests/27_0_26A5416b_vs_27_0_26A5421a.json) |
+| `Mac17,6` | [27.0 (26A5421a) → 27.0 (26A5425a)](diffs/27_0_26A5421a_vs_27_0_26A5425a/README.md) | [provenance](manifests/27_0_26A5421a_vs_27_0_26A5425a.json) |
 
 ## Layout and integrity
 
