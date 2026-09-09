@@ -1,0 +1,64 @@
+## TextInputCore
+
+> `/System/Library/PrivateFrameworks/TextInputCore.framework/Versions/A/TextInputCore`
+
+```diff
+
+ 3567.400.0.0.0
+-  __TEXT.__text: 0x201334
++  __TEXT.__text: 0x201350
+   __TEXT.__init_offsets: 0xc0
+   __TEXT.__objc_methlist: 0x10068
+   __TEXT.__const: 0x2e10
+Functions:
+~ -[TISKMetricCollector _coalesceTaps] : 864 -> 872
+~ __ZNSt3__16vectorImNS_9allocatorImEEE24__emplace_back_slow_pathIJmEEEPmDpOT_ : 208 -> 200
+~ __Z14asMCNearbyKeysRKN3WTF6VectorINS_6RefPtrIN2TI8Favonius8KeyMatchEEELm0EEEm : 304 -> 300
+~ __ZNK2KB16LanguageModelStr30conditional_likelihood_batchedERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS2_INS2_IN17language_modeling2v113TokenMetadataENS4_ISB_EEEENS4_ISD_EEEERKNS_20LanguageModelContextEP10__CFStringb : 1768 -> 1764
+~ __ZNSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_ : 208 -> 200
+~ __ZNSt3__16vectorIjNS_9allocatorIjEEE24__emplace_back_slow_pathIJjEEEPjDpOT_ : 208 -> 200
+~ __ZNSt3__16vectorIN17language_modeling2v114CompletionStemENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_ : 276 -> 268
+~ -[TIKeyboardInputManagerMecabra saveGeometryForInput:atIndex:] : 720 -> 724
+~ __ZN3WTF6VectorINS_6RefPtrIN2TI8Favonius8KeyMatchEEELm0EEC2ERKS6_ : 152 -> 148
+~ __ZN2TI2CP4Path6resizeEj : 420 -> 424
+~ _UnikeySetup : 932 -> 948
+~ +[TIKeyboardSecureCandidateTextRendering drawSecureHeaders:secureContents:inContexts:traits:truncationSentinel:] : 2040 -> 2044
+~ __ZNSt3__16vectorIN10applesauce2CF13DictionaryRefENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_ : 312 -> 304
+~ __ZNSt3__16vectorIN10applesauce2CF8ArrayRefENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_ : 288 -> 272
+~ __ZNSt3__115__inplace_mergeINS_17_ClassicAlgPolicyERZN2KB22CandidateFilterFactory21FilterStackDefinitionC1ERKNS_6vectorIN10applesauce2CF8ArrayRefENS_9allocatorIS8_EEEEE3$_0NS_11__wrap_iterIPNS7_13DictionaryRefEEEEEvT1_SK_SK_OT0_NS_15iterator_traitsISK_E15difference_typeESP_PNSO_10value_typeEl : 1684 -> 1672
+~ __ZNK2KB22LanguageModelContainer17lexicon_id_vectorEv : 368 -> 372
+~ __ZNK2KB22LanguageModelContainer32active_locale_identifiers_vectorEv : 364 -> 368
+~ __ZNK2KB22LanguageModelContainer27prior_lexicon_probabilitiesEv : 384 -> 388
+~ ____ZNK2KB22LanguageModelContainer30conditional_likelihood_batchedERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS2_INS2_IN17language_modeling2v113TokenMetadataENS4_ISB_EEEENS4_ISD_EEEERKNS_20LanguageModelContextEP10__CFStringb_block_invoke : 984 -> 992
+~ __ZN14TIInputManager9add_inputERKN2KB6StringEj : 1064 -> 1056
+~ __ZN14TIInputManager13text_acceptedERKN2KB6StringES3_j14TIShiftContextb : 1764 -> 1760
+~ __ZNK14TIInputManager18apply_case_changesERN2KB9CandidateERKNSt3__16vectorINS0_5InputENS3_9allocatorIS5_EEEEj14TIShiftContextbRKN3WTF6RefPtrINS0_19DictionaryContainerEEEP10__CFString : 2588 -> 2592
+~ __ZNSt3__110__function6__funcIZNK14TIInputManager21candidates_for_stringERKN2KB6StringE14TIShiftContextE3$_0FvRNS3_19CandidateCollectionENS3_20CandidateFilterFlagsEbEEclESA_OSB_Ob : 1584 -> 1604
+~ __ZNSt3__110__function6__funcIZNK14TIInputManager22predictions_for_stringERKN2KB6StringENS3_10LookupTypeEE3$_0FvRNS3_19CandidateCollectionENS3_20CandidateFilterFlagsEbEEclESA_OSB_Ob : 2060 -> 2064
+~ -[TIProactiveQuickTypeManager renderItems:withAdditionalPredictions:withSecureCandidateRenderer:withRenderTraits:withInput:] : 2900 -> 2912
+~ __ZNSt3__16vectorIN2KB10retain_ptrIPK10_LXLexiconEENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJS6_EEEPS6_DpOT_ : 224 -> 228
+~ __ZN3WTF6VectorIjLm32EEaSERKS1_ : 228 -> 232
+~ __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKS2_EEEPS2_DpOT_ : 224 -> 232
+~ __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_ : 244 -> 252
+~ __ZNK2TI2CP13PathResampler19is_inflection_pointEj : 656 -> 664
+~ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius16SearchNodeSourceEEENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJS6_EEEPS6_DpOT_ : 224 -> 228
+~ __ZN2TI8Favonius14KeyboardLayoutC2ERKN3WTF6VectorINS2_6RefPtrINS0_9LayoutKeyEEELm0EEE : 212 -> 208
+~ __ZNK2TI8Favonius10SearchNode23get_language_extensionsERN3WTF6VectorINS2_6RefPtrINS0_16TypingHypothesisEEELm0EEERKNS4_INS0_3KeyEEE : 508 -> 504
+~ __ZN2TI8Favonius10SearchNode30create_key_sequence_extensionsERNSt3__16vectorIN3WTF6RefPtrIS1_EENS2_9allocatorIS6_EEEERKNS3_INS2_4pairINS5_INS0_12TouchHistoryEEENS5_INS0_8KeyMatchEEEEENS7_ISG_EEEEf : 948 -> 944
+~ __ZN3WTF6VectorINS_6RefPtrIN2TI8Favonius16TypingHypothesisEEELm0EEC2ERKS6_ : 156 -> 152
+~ __ZNK2TI8Favonius10BeamSearch6extendEN3WTF10PassRefPtrINS0_12TouchHistoryEEENS3_INS0_8KeyMatchEEEb : 3992 -> 3988
+~ __ZNK2TI8Favonius10BeamSearch21extend_with_backspaceEN3WTF10PassRefPtrINS0_12TouchHistoryEEENS3_INS0_6SearchEEERKNSt3__16vectorINS8_4pairINS2_6RefPtrIS4_EENSB_INS0_8KeyMatchEEEEENS8_9allocatorISF_EEEE : 1516 -> 1520
+~ __ZNK2TI8Favonius10BeamSearch12drop_touchesERKNSt3__16vectorIbNS2_9allocatorIbEEEERKN2KB20LanguageModelContextERKNS9_6StringEN3WTF10PassRefPtrINS0_11TypingModelEEENSH_INS0_18CandidateGeneratorEEE : 476 -> 480
+~ __ZN2TI8Favonius26FavoniusStrokeBuildManager19InputTouchAlignment17replace_alignmentEjjRKN2KB9AlignmentE : 584 -> 600
+~ __ZNK2TI8Favonius26FavoniusStrokeBuildManager24is_ml_tap_typing_enabledEv : 224 -> 220
+~ __ZNK2TI8Favonius26FavoniusStrokeBuildManager27extended_latham_conversionsERKN2KB19CandidateCollectionERKNS2_6StringERKNS2_20LanguageModelContextERKNSt3__13mapIS6_S3_NSC_4lessIS6_EENSC_9allocatorINSC_4pairIS7_S3_EEEEEEm : 2656 -> 2652
+~ __ZNSt3__16vectorIPN2TI8Favonius16SearchNodeSourceENS_9allocatorIS4_EEE24__emplace_back_slow_pathIJS4_EEEPS4_DpOT_ : 208 -> 200
+~ __ZNK20TIFitAffineMLLMatrix6valuesEv : 348 -> 352
+~ __ZNK20TIFitAffineMLLMatrix8coFactorEv : 824 -> 820
+~ ____ZNK2KB23DynamicDictionaryCursor35merge_children_with_static_siblingsERNSt3__16vectorINS_17DictionaryCursorsENS1_9allocatorIS3_EEEERKNS_16StaticDictionaryERKNS_17DynamicDictionaryE_block_invoke_2 : 1296 -> 1304
+~ __ZN2TI2CP6Search17initialize_searchEv : 472 -> 468
+~ __ZNK2TI2CP6Search9loop_costEjj : 188 -> 192
+~ __ZNK2KB22StaticDictionaryCursor14finishes_wordsEv : 80 -> 76
+~ __ZNK2KB22NgramCandidateRefinery27add_context_weights_batchedERNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEE : 1328 -> 1332
+~ __ZL33_sortkey_for_string_with_collatorRKN2KB6StringEPK9UCollator : 876 -> 868
+```

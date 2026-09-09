@@ -1,0 +1,23 @@
+## AccessoryAccess
+
+> `/System/Library/Frameworks/AccessoryAccess.framework/Versions/A/AccessoryAccess`
+
+```diff
+
+ 308.1.7.0.0
+-  __TEXT.__text: 0x2991c
++  __TEXT.__text: 0x29950
+   __TEXT.__objc_methlist: 0x404
+   __TEXT.__const: 0x3850
+   __TEXT.__swift5_typeref: 0x154
+Functions:
+~ __ZNSt3__118__visit_format_argB9fqe220106IZNS_8__format26__handle_replacement_fieldB9fqe220106IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SD_SD_RT0_RT1_EUlSD_E_SC_EEDcOSD_NS_16basic_format_argISE_EE : 16976 -> 17008
+~ __ZNSt3__111__formatter16__format_integerB9fqe220106IoPccNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT2_8iteratorET_RSA_NS_13__format_spec23__parsed_specificationsIT1_EEbT0_SI_PKci : 3632 -> 3584
+~ __ZNSt3__15dequeIN4Base3Xpc6ObjectENS_9allocatorIS3_EEE19__add_back_capacityEv : 1516 -> 1536
+~ __ZNSt3__110__function6__funcIZN4Base9Messenger7HandlerC1I27AaAccessoryManagerMessengerJN8AaShared13UsbDeviceInfoEEEERT_MS9_FvDpT0_EEUlRKNS2_3Xpc10DictionaryENSF_6ObjectEE_FbSI_SJ_EEclESI_OSJ_ : 860 -> 868
+~ __ZZN4Base8BlockPtrIFvPU24objcproto13OS_xpc_object8NSObjectEE13from_callableIZNS_9Messenger15send_with_replyINS_3Xpc6ObjectEZZ99-[AAUSBAccessoryManager _executeListenerRegistryTransaction:withNewListenerInfo:completionHandler:]EN3$_4clEvEUlNSt3__18expectedISA_NS9_5ErrorEEEE_JN8AaShared33DeviceListenerRegistryTransactionILNSH_18DeviceListenerTypeE0EEEEEEvS3_PKcONSC_5tupleIJDpT1_EEENS_13DispatchQueueET0_EUlS3_E_EES5_OT_ENUlPvS3_E_8__invokeESX_S3_ : 8104 -> 8096
+~ -[AAUSBAccessoryMatchingCriteria initWithDeviceMatchingDictionary:interfaceMatchingDictionaries:interfaceMatchingOption:] : 1912 -> 1932
+~ __ZN4Base13Serialization10XpcDecoderD2Ev : 368 -> 372
+~ __ZN4Base13Serialization10XpcEncoderD2Ev : 524 -> 528
+~ __ZNSt3__15dequeImNS_9allocatorImEEE19__add_back_capacityEv : 1544 -> 1564
+```

@@ -1,0 +1,7 @@
+## wait4path
+
+> `/bin/wait4path`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`

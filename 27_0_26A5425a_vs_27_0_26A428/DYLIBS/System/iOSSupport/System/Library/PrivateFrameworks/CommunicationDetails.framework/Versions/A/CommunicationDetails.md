@@ -1,0 +1,26 @@
+## CommunicationDetails
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/CommunicationDetails.framework/Versions/A/CommunicationDetails`
+
+```diff
+
+-1491.100.1.1.9
+-  __TEXT.__text: 0xa7204
++1491.100.1.1.11
++  __TEXT.__text: 0xa7238
+   __TEXT.__objc_methlist: 0x1508
+   __TEXT.__const: 0x8504
+   __TEXT.__constg_swiftt: 0x43a8
+Functions:
+~ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy12CoreGraphics7CGFloatVG_s010CollectionH3OneVyANGTg5 : 244 -> 248
+~ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy20CommunicationDetails0K3TabVG_s010CollectionH3OneVyANGTB5Tf4nngn_n : 372 -> 376
+~ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy20CommunicationDetails0K18ContentOffsetProxyCG_s010CollectionH3OneVyANGTg5Tf4nngn_n : 364 -> 368
+~ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy20CommunicationDetails0K22ContentOffsetProviding_So16UIViewControllerCXcG_s010CollectionH3OneVyAlM_AOXcGTg5Tf4nngn_n : 328 -> 332
+~ _$s10Foundation12NotificationV20CommunicationDetailsE5parse3forxSgAD0B4InfoO_tlFSayAD0cD7ContactVG_Tg5 : 336 -> 340
+~ _$s10Foundation12NotificationV20CommunicationDetailsE5parse3forxSgAD0B4InfoO_tlFSo15CNGroupIdentityC_Tg5 : 340 -> 344
+~ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_So6CGRectV_Tg50124$s20CommunicationDetails34GesturePassthroughSegmentedControl33_14FE08E8F5222DE52E4C6E817780A66FLLC18cleanSegmentFramesSaySo6E18VGyFSbAG_AGtXEfU1_Tf1nnncn_n : 1508 -> 1520
+~ _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSrySo6CGRectVG_Tg50124$s20CommunicationDetails34GesturePassthroughSegmentedControl33_14FE08E8F5222DE52E4C6E817780A66FLLC18cleanSegmentFramesSaySo6I18VGyFSbAG_AGtXEfU1_Tf1nncn_n : 388 -> 392
+~ _$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_yps11AnyHashableVypTg5 : 680 -> 684
+~ _$ss17_NativeDictionaryV4copyyyFSS_SbTg5 : 352 -> 356
+~ _$ss17_NativeDictionaryV4copyyyFSS_20CommunicationDetails29PhotosGridQuickLookDataSourceC16MediaPreviewItemCTg5 : 356 -> 360
+```

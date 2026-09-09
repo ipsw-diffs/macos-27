@@ -1,0 +1,258 @@
+## SiriTTS
+
+> `/System/Library/PrivateFrameworks/SiriTTS.framework/Versions/A/SiriTTS`
+
+```diff
+
+ 3600.83.1.14.2
+-  __TEXT.__text: 0x7edeb8
++  __TEXT.__text: 0x7ee200
+   __TEXT.__objc_methlist: 0x20
+   __TEXT.__const: 0xe39cc
+   __TEXT.__cstring: 0x6aadc
+-  __TEXT.__gcc_except_tab: 0x3b5a8
++  __TEXT.__gcc_except_tab: 0x3b5b8
+   __TEXT.__oslogstring: 0x9feb
+   __TEXT.__ustring: 0x494
+-  __TEXT.__unwind_info: 0x18050
++  __TEXT.__unwind_info: 0x18048
+   __TEXT.__eh_frame: 0x208
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libxml2.2.dylib
+-  Functions: 22247
++  Functions: 22245
+   Symbols:   33671
+   CStrings:  16984
+ 
+Functions:
+~ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPKfEES9_EENS6_IPfEES9_T0_T1_l : 564 -> 580
+~ __ZNSt3__15dequeINS_10shared_ptrI11AgglomerateEENS_9allocatorIS3_EEED2B9nqe220106Ev : 316 -> 328
+~ __ZN5kaldi12CuMatrixBaseIfE8DiffReluERKS1_S3_ : 232 -> 244
+~ __ZNSt3__15dequeIPcNS_9allocatorIS1_EEE19__add_back_capacityEv : 468 -> 472
+~ __ZNSt3__114__split_bufferIPPcNS_9allocatorIS2_EEE12emplace_backIJRS2_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__114__split_bufferIPPcRNS_9allocatorIS2_EEE12emplace_backIJS2_EEEvDpOT_ : 256 -> 260
+~ __ZNK5kaldi16CompressedMatrix9CopyToMatIfEEvPNS_10MatrixBaseIT_EE : 544 -> 552
+~ __ZNK5kaldi16CompressedMatrix9CopyToMatIdEEvPNS_10MatrixBaseIT_EE : 548 -> 556
+~ __ZN5kaldi10MatrixBaseIfE12AddVecToRowsIfEEvfRKNS_10VectorBaseIT_EE : 156 -> 160
+~ __ZN5kaldi10MatrixBaseIfE12AddVecToColsIfEEvfRKNS_10VectorBaseIT_EE : 160 -> 164
+~ __ZN5kaldi10MatrixBaseIfE6AddMatEfRKS1_NS_19MatrixTransposeTypeEf : 764 -> 776
+~ __ZN5kaldi10MatrixBaseIdE6AddMatEdRKS1_NS_19MatrixTransposeTypeEd : 764 -> 776
+~ __ZN5kaldi10MatrixBaseIfE15CopyRowsFromVecERKNS_10VectorBaseIfEE : 360 -> 364
+~ __ZN5kaldi10MatrixBaseIfE11MulElementsERKS1_ : 384 -> 392
+~ __ZN5kaldi10MatrixBaseIfE5ScaleEf : 208 -> 212
+~ __ZN5kaldi10MatrixBaseIfE15MulRowsGroupMatERKS1_ : 284 -> 288
+~ __ZN5kaldi10MatrixBaseIfE8CopyColsERKS1_RKNSt3__16vectorIiNS4_9allocatorIiEEEE : 232 -> 240
+~ __ZN5kaldi10MatrixBaseIfE8CopyRowsERKS1_RKNSt3__16vectorIiNS4_9allocatorIiEEEE : 336 -> 340
+~ __ZN5kaldi10MatrixBaseIfE16CopyIndexedItemsERKS1_PKiS5_mi : 204 -> 208
+~ __ZN5kaldi10MatrixBaseIfE16CopySelectedRowsERKS1_RKNS_10VectorBaseIfEEb : 348 -> 352
+~ __ZN5kaldi10MatrixBaseIfE11DiffSigmoidERKS1_S3_ : 216 -> 228
+~ __ZN5kaldi10MatrixBaseIfE8DiffTanhERKS1_S3_ : 216 -> 228
+~ __ZN5kaldi10MatrixBaseIfE13AddDiagVecMatEfRKNS_10VectorBaseIfEERKS1_NS_19MatrixTransposeTypeEf : 372 -> 380
+~ __ZN5kaldi10MatrixBaseIfE13AddMatDiagVecEfRKS1_NS_19MatrixTransposeTypeERKNS_10VectorBaseIfEEf : 376 -> 380
+~ __ZN5kaldi10MatrixBaseIfE12AddMatEwpMatEfRKS1_NS_19MatrixTransposeTypeES3_S4_f : 440 -> 448
+~ __ZN5kaldi10MatrixBaseIdE5ScaleEd : 208 -> 212
+~ __ZNK5kaldi19QuantizedMatrixBaseIsE5RangeEiiii : 216 -> 220
+~ __ZN5kaldi10VectorBaseIfE15CopyRowsFromMatIaEEvRKNS_19QuantizedMatrixBaseIT_EE : 272 -> 276
+~ __ZN5kaldi10VectorBaseIfE15CopyRowsFromMatIsEEvRKNS_19QuantizedMatrixBaseIT_EE : 272 -> 276
+~ __ZN5kaldi6VectorIfE6ResizeEiNS_16MatrixResizeTypeE : 452 -> 456
+~ __ZN5kaldi6VectorIdE6ResizeEiNS_16MatrixResizeTypeE : 452 -> 456
+~ __ZN5kaldi10VectorBaseIfE15CopyRowsFromMatERKNS_10MatrixBaseIfEE : 336 -> 340
+~ __ZN5kaldi10VectorBaseIfE11AddDiagMat2EfRKNS_10MatrixBaseIfEENS_19MatrixTransposeTypeEf : 384 -> 388
+~ __ZN5kaldi10VectorBaseIfE13AddDiagMatMatEfRKNS_10MatrixBaseIfEENS_19MatrixTransposeTypeES5_S6_f : 340 -> 348
+~ __ZNSt3__16vectorINS_10unique_ptrIN5kaldi12CuMatrixBaseIfEENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE6resizeEm : 332 -> 336
+~ __ZNSt3__16vectorINS_10unique_ptrIN5kaldi12CuVectorBaseIfEENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE6resizeEm : 332 -> 336
+~ __ZNSt3__16vectorIN5kaldi8CuVectorIfEENS_9allocatorIS3_EEE6resizeEm : 444 -> 436
+~ __ZNK5kaldi5nnet131BidirectionalRecurrentComponent15GetHistoryStateEPNS_8CuMatrixIfEEi : 480 -> 484
+~ __ZN5kaldi5nnet19Recurrent13EnsureBuffersEv : 468 -> 472
+~ __ZNK5kaldi5nnet121FramePoolingComponent9GetParamsEPNS_6VectorIfEE : 324 -> 328
+~ __ZN5kaldi5nnet121FramePoolingComponent9SetParamsERKNS_10VectorBaseIfEE : 380 -> 384
+~ __ZNSt3__16vectorIN5kaldi6VectorIfEENS_9allocatorIS3_EEE6resizeEm : 456 -> 444
+~ __ZN5kaldi5nnet118GatedRecurrentUnit12PropagateFncERKNS_12CuMatrixBaseIfEEPS3_i : 3296 -> 3232
+~ __ZN5kaldi5nnet118GatedRecurrentUnit14AccumGradientsERKNS_12CuMatrixBaseIfEES5_Pvi : 1556 -> 1564
+~ __ZN5kaldi5nnet118GatedRecurrentUnit13EnsureBuffersEv : 272 -> 276
+~ __ZN5kaldi5nnet113LstmComponentINS_12CuMatrixBaseIfEEE12PropagateFncERKS3_PS3_i : 3996 -> 4000
+~ __ZN5kaldi5nnet113LstmComponentINS_12CuMatrixBaseIfEEE13SaveLastStateEi : 732 -> 736
+~ __ZN5kaldi5nnet113LstmComponentINS_12CuMatrixBaseIfEEE16BackpropagateFncERKS3_S6_S6_PS3_i : 6336 -> 6344
+~ __ZN5kaldi5nnet113LstmComponentINS_12CuMatrixBaseIfEEE14AccumGradientsERKS3_S6_Pvi : 2384 -> 2376
+~ __ZN5kaldi5nnet113LstmComponentINS_12CuMatrixBaseIfEEE13EnsureBuffersEv : 256 -> 260
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIaEEE12PropagateFncERKNS_12CuMatrixBaseIfEEPS6_i : 3996 -> 4000
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIaEEE13SaveLastStateEi : 732 -> 736
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIaEEE16BackpropagateFncERKNS_12CuMatrixBaseIfEES8_S8_PS6_i : 6336 -> 6344
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIaEEE14AccumGradientsERKNS_12CuMatrixBaseIfEES8_Pvi : 2384 -> 2376
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIaEEE13EnsureBuffersEv : 256 -> 260
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIsEEE12PropagateFncERKNS_12CuMatrixBaseIfEEPS6_i : 3996 -> 4000
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIsEEE13SaveLastStateEi : 732 -> 736
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIsEEE16BackpropagateFncERKNS_12CuMatrixBaseIfEES8_S8_PS6_i : 6336 -> 6344
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIsEEE14AccumGradientsERKNS_12CuMatrixBaseIfEES8_Pvi : 2384 -> 2376
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIsEEE13EnsureBuffersEv : 256 -> 260
+~ __ZNK5kaldi5nnet124MovingAttentionComponent19GetOverallAlignmentEPNSt3__16vectorINS3_IiNS2_9allocatorIiEEEENS4_IS6_EEEE : 376 -> 364
+~ __ZN5kaldi5nnet14Nnet16ReleaseComponentEi : 296 -> 300
+~ __ZNSt3__16vectorIPN5kaldi5nnet122RecurrentBaseComponentENS_9allocatorIS4_EEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPS4_EESC_EESC_NSA_IPKS4_EET0_T1_l : 492 -> 508
+~ __ZN5kaldi6quasar15TranslationUtil25ComputeBackwardAlignmentsEPNSt3__16vectorINS1_12NbestElementENS2_9allocatorIS4_EEEE : 376 -> 380
+~ __ZNSt3__15dequeINS_4pairIiiEENS_9allocatorIS2_EEE19__add_back_capacityEv : 468 -> 472
+~ __ZNSt3__114__split_bufferIPNS_4pairIiiEENS_9allocatorIS3_EEE12emplace_backIJRS3_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__114__split_bufferIPNS_4pairIiiEERNS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__16vectorIiNS_9allocatorIiEEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyENS_21__hash_const_iteratorIPNS_11__hash_nodeIiPvEEEESB_EENS_11__wrap_iterIPiEENSC_IPKiEET0_T1_l : 576 -> 592
+~ __ZNK5kaldi6quasar20EspressoV2TensorData12CopyToMatrixEPNS_6MatrixIfEE : 600 -> 612
+~ __ZNSt3__16vectorINS_10unique_ptrIN5kaldi6quasar22ComputeEngineBufferItfENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE24__emplace_back_slow_pathIJNS1_INS3_20EspressoV2TensorDataENS5_ISC_EEEEEEEPS7_DpOT_ : 224 -> 228
+~ __ZNSt3__16vectorINS_10unique_ptrIN5kaldi6quasar22ComputeEngineBufferItfENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE6resizeEm : 332 -> 336
+~ __ZN5kaldi6quasar13BNNSGraphData15CopyFromMatrixTINS_10MatrixBaseIfEEEEvRKT_ : 508 -> 512
+~ __ZNK5kaldi6quasar15EspressoNDArray8ToMatrixINS_6MatrixIfEEEEvPT_ : 592 -> 584
+~ __ZNK5kaldi6quasar15EspressoNDArray8ToMatrixINS_8CuMatrixIfEEEEvPT_ : 592 -> 584
+~ __ZN5kaldi6quasar15EspressoNDArray10FromMatrixINS_12CuMatrixBaseIfEEEEvRKT_ : 320 -> 324
+~ __ZN5kaldi6quasar15EspressoNDArray10FromMatrixINS_10MatrixBaseIfEEEEvRKT_ : 252 -> 256
+~ __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyEPKS2_S9_EENS_11__wrap_iterIPS2_EENSA_IS9_EET0_T1_l : 556 -> 572
+~ __ZNSt3__16vectorIiNS_9allocatorIiEEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyEPKiS7_EENS_11__wrap_iterIPiEENS8_IS7_EET0_T1_l : 556 -> 572
+~ __ZN15LPCFilterModule12process_dataENSt3__110shared_ptrI11AgglomerateEE : 3100 -> 3108
+~ __ZN14PromptDatabaseC2EPK19FrontendEnvironment : 2648 -> 2660
+~ __ZNSt3__15dequeINS_10shared_ptrI11AgglomerateEENS_9allocatorIS3_EEE19__add_back_capacityEv : 444 -> 448
+~ __ZNSt3__114__split_bufferIPNS_10shared_ptrI11AgglomerateEENS_9allocatorIS4_EEE12emplace_backIJRS4_EEEvDpOT_ : 248 -> 252
+~ __ZN22JoinPronunciationsImpl15generate_tokensEv : 2152 -> 2164
+~ __ZNSt3__110__function6__funcIZN20FrontendModuleBroker15register_moduleI15ReplaceText_FSTEEvRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESC_EUlNS_10shared_ptrI14FrontendModuleEEPK19FrontendEnvironmentE_FSF_SF_SI_EEclEOSF_OSI_ : 2492 -> 2488
+~ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEENS5_IS8_EEE24__emplace_back_slow_pathIJRS7_RjEEEPS8_DpOT_ : 332 -> 340
+~ __ZNSt3__16vectorItNS_9allocatorItEEE24__emplace_back_slow_pathIJRKtEEEPtDpOT_ : 180 -> 172
+~ __ZN5boost9algorithm6detail22process_segment_helperILb0EEclINSt3__15dequeIcNS5_9allocatorIcEEEENS5_12basic_stringIcNS5_11char_traitsIcEES8_EENS5_11__wrap_iterIPcEEEET1_RT_RT0_SH_SH_SH_ : 672 -> 676
+~ __ZNSt3__114__split_bufferIPcNS_9allocatorIS1_EEE12emplace_backIJRS1_EEEvDpOT_ : 248 -> 252
+~ __ZNSt3__114__split_bufferIPcRNS_9allocatorIS1_EEE12emplace_backIJRS1_EEEvDpOT_ : 252 -> 256
+~ __ZN16FrontendNNModule23reconstruct_from_tokensENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS0_10shared_ptrINS0_6vectorINS0_5tupleIJS6_mmEEENS4_ISA_EEEEEEbb : 13004 -> 12980
+~ __ZNSt3__15dequeINS_10shared_ptrI11AgglomerateEENS_9allocatorIS3_EEE8pop_backEv : 108 -> 112
+~ __Z16get_f0_mod_valueffiRK14PsolaInputDataPfi : 180 -> 176
+~ __Z14get_volume_modfRK14PsolaInputData : 136 -> 132
+~ __Z16get_f0_mod_rangeffiRNSt3__16vectorIfNS_9allocatorIfEEEERK14PsolaInputData : 352 -> 348
+~ __ZN20AsyncContainerModule8retrieveEv : 928 -> 940
+~ __ZN15ANETECProcessor7processERKNSt3__16vectorIfNS0_9allocatorIfEEEERS4_ : 3800 -> 3792
+~ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPiEES8_EENS6_IPfEENS6_IPKfEET0_T1_l : 552 -> 576
+~ __ZN12FastRewriter5mergeENSt3__110shared_ptrINS0_6vectorI13FRReplaceInstNS0_9allocatorIS3_EEEEEERS3_RKNS0_12basic_stringIcNS0_11char_traitsIcEENS4_IcEEEERNS2_INS0_5arrayImLm4EEENS4_ISH_EEEERNS2_INSG_IiLm5EEENS4_ISL_EEEE : 4060 -> 4068
+~ __ZN28FeatureProcessingFastspeech221process_user_featuresENSt3__110shared_ptrI15TacotronFeatureEE : 2128 -> 2132
+~ __ZN25FeatureProcessingTacotron21process_user_featuresENSt3__110shared_ptrI15TacotronFeatureEE : 1288 -> 1292
+~ __ZN6Module8retrieveEv : 140 -> 144
+~ __ZNSt3__15dequeINS_10shared_ptrI11AgglomerateEENS_9allocatorIS3_EEE9pop_frontEv : 108 -> 112
+~ __ZN6Module7processENSt3__110shared_ptrI11AgglomerateEE : 428 -> 440
+~ __ZN6Module8clean_upEv : 296 -> 308
+~ __ZN8Pipeline13insert_moduleENSt3__111__wrap_iterIPKNS0_10shared_ptrI6ModuleEEEES4_ : 760 -> 764
+~ __ZN8Pipeline4readEv : 76 -> 80
+~ __ZN17StreamingPipeline7processENSt3__110shared_ptrI11AgglomerateEE : 3976 -> 4032
+~ __ZNSt3__15dequeINS_10shared_ptrI6ModuleEENS_9allocatorIS3_EEE9push_backERKS3_ : 460 -> 464
+~ __ZNSt3__15dequeINS_10shared_ptrI10ConnectionEENS_9allocatorIS3_EEED2B9nqe220106Ev : 344 -> 356
+~ __ZN14Tokenize_Hanzi15generate_tokensEv : 1728 -> 1732
+~ __ZN11PsolaStream12process_dataENSt3__110shared_ptrI11AgglomerateEE : 5376 -> 5400
+~ __ZN18Pronounce_RuleImpl15generate_tokensEv : 6264 -> 6284
+~ __ZNSt3__112basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEE7replaceEmmPKDsm : 460 -> 468
+~ __ZNSt3__112basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEE21__grow_by_and_replaceEmmmmmmPKDs : 276 -> 268
+~ __ZN17TextPreprocessing12process_dataENSt3__110shared_ptrI11AgglomerateEE : 6136 -> 6156
+~ __ZN40EspressoWaveRNNFusedSubscaleCPUProcessor7processERK14WaveNetFeature : 2216 -> 2232
+~ __ZN6FRCode7compileENSt3__110shared_ptrI6FRRuleEE : 11008 -> 11012
+~ __ZNSt3__16vectorIN6FRCode2OpENS_9allocatorIS2_EEE6insertENS_11__wrap_iterIPKS2_EEOS2_ : 644 -> 648
+~ __ZN8FRBMatch35rollback_to_previous_matched_bufferEv : 2492 -> 2496
+~ __ZN12TTSACDecoder6decodeEjPKvRKNSt3__16vectorItNS2_9allocatorItEEEEjPs : 224 -> 228
+~ __ZN17TranslatePhonemes9pronounceERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERKS6_ : 2656 -> 2648
+~ __ZN17TransliterateImpl21merge_transliterationENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERNS0_10shared_ptrINS0_6vectorIN9Alignment9ReplChunkENS4_ISA_EEEEEESD_ : 7068 -> 7072
+~ __ZN19NeuralAdapterModule12process_dataENSt3__110shared_ptrI11AgglomerateEE : 13352 -> 13360
+~ __ZNSt3__16vectorIP11VoiceConfigNS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_ : 184 -> 176
+~ __ZN10FSTGrammar6createERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEb : 5932 -> 5948
+~ __ZNSt3__15dequeIPN3fst8DfsStateINS1_6ArcTplINS1_17TropicalWeightTplIfEEiEEEENS_9allocatorIS8_EEE9push_backEOS8_ : 524 -> 528
+~ __ZNSt3__16vectorIN3fst24DefaultComposeStateTupleIiNS1_18IntegerFilterStateIaEEEENS_9allocatorIS5_EEE24__emplace_back_slow_pathIJRKS5_EEEPS5_DpOT_ : 252 -> 248
+~ __ZNSt3__15dequeIiNS_9allocatorIiEEE10push_frontERKi : 764 -> 780
+~ __ZN3fst17ComputePropertiesINS_10ReverseArcINS_6ArcTplINS_17TropicalWeightTplIfEEiEEEEEEyRKNS_3FstIT_EEyPyb : 2316 -> 2320
+~ __ZNSt3__15dequeIPN3fst8DfsStateINS1_10ReverseArcINS1_6ArcTplINS1_17TropicalWeightTplIfEEiEEEEEENS_9allocatorISA_EEE9push_backEOSA_ : 1216 -> 1228
+~ __ZNSt3__114__split_bufferIPPN3fst8DfsStateINS1_10ReverseArcINS1_6ArcTplINS1_17TropicalWeightTplIfEEiEEEEEENS_9allocatorISB_EEE12emplace_backIJRSB_EEEvDpOT_ : 248 -> 252
+~ __ZN3fst9RmEpsilonINS_6ArcTplINS_17TropicalWeightTplIfEEiEENS_9AutoQueueIiEEEEvPNS_10MutableFstIT_EEPNSt3__16vectorINS8_6WeightENSB_9allocatorISD_EEEERKNS_16RmEpsilonOptionsIS8_T0_EE : 10624 -> 10620
+~ __ZNSt3__15dequeIiNS_9allocatorIiEEE9push_backERKi : 656 -> 664
+~ __ZN26UnitSelectionFeatureStream12process_dataENSt3__110shared_ptrI11AgglomerateEE : 14072 -> 14060
+~ __ZN24DiagRefineMergeAlignment4growEMS_KFbiiEbRK7Array2DIbE : 1032 -> 1040
+~ __ZN12RnnComponent15activation_funcEv : 5172 -> 5180
+~ __ZL6to_stdIffENSt3__16vectorINS1_IT0_NS0_9allocatorIS2_EEEENS3_IS5_EEEERKN5roost6matrixIT_EE : 404 -> 408
+~ __ZNSt3__110__function6__funcIZN13ModuleFactory17ModuleFactoryImpl15register_moduleI22EspressoTacotronModuleEEvRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESD_EUlRKN8nlohmann10basic_jsonINS_3mapENS_6vectorESB_bxydS9_NSE_14adl_serializerENSH_IhNS9_IhEEEEEENS_10shared_ptrI16SharedObjectPoolEEE_FNSO_I6ModuleEESN_SQ_EEclESN_OSQ_ : 4820 -> 4824
+~ __ZNSt3__110__function6__funcINS_6__bindIM28TTSSynthesizerCallbackResultFi25InternalCallbackContainerEJPS3_RKNS_12placeholders4__phILi1EEEEEEFiS4_EEclEOS4_ : 88 -> 92
+~ __ZN12TAPExtractor15extract_promptsERK15FrontendFeature : 15008 -> 15016
+~ __ZN5kaldi6quasar21TranslationBeamSearchINS0_6EncdecEE6DecodeIN3fst31BackoffDeterministicOnDemandFstINS5_6ArcTplINS5_17TropicalWeightTplIfEEiEENS5_3FstISA_EEEEEEfRKNSt3__112basic_stringIcNSE_11char_traitsIcEENSE_9allocatorIcEEEERKNS0_13DecodeOptionsIT_EEPNSE_6vectorINS0_15TranslationUtil12NbestElementENSI_ISU_EEEE : 9232 -> 9240
+~ __ZN3fst17ComputePropertiesINS_6ArcTplINS_25LatticeWeightWithStateTplINS_16LatticeWeightTplIfEEfNSt3__16vectorIfNS5_9allocatorIfEEEEEEiEEEEyRKNS_3FstIT_EEyPyb : 2540 -> 2544
+~ __ZNSt3__15dequeIPN3fst8DfsStateINS1_6ArcTplINS1_25LatticeWeightWithStateTplINS1_16LatticeWeightTplIfEEfNS_6vectorIfNS_9allocatorIfEEEEEEiEEEENS8_ISE_EEE9push_backEOSE_ : 1216 -> 1228
+~ __ZN3fst12ShortestPathINS_6ArcTplINS_25LatticeWeightWithStateTplINS_16LatticeWeightTplIfEEfNSt3__16vectorIfNS5_9allocatorIfEEEEEEiEENS_9AutoQueueIiEENS_12AnyArcFilterISB_EEEEvRKNS_3FstIT_EEPNS_10MutableFstISH_EEPNS6_INSH_6WeightENS7_ISO_EEEERNS_19ShortestPathOptionsISH_T0_T1_EE : 10380 -> 10384
+~ __ZN3fst16ShortestDistanceINS_6ArcTplINS_25LatticeWeightWithStateTplINS_16LatticeWeightTplIfEEfNSt3__16vectorIfNS5_9allocatorIfEEEEEEiEENS_9AutoQueueIiEENS_12AnyArcFilterISB_EEEEvRKNS_3FstIT_EEPNS6_INSH_6WeightENS7_ISL_EEEERKNS_23ShortestDistanceOptionsISH_T0_T1_EE : 3876 -> 3848
+~ __ZNSt3__15dequeIPN3fst8DfsStateINS1_10ReverseArcINS1_6ArcTplINS1_25LatticeWeightWithStateTplINS1_16LatticeWeightTplIfEEfNS_6vectorIfNS_9allocatorIfEEEEEEiEEEEEENS9_ISG_EEE9push_backEOSG_ : 1216 -> 1228
+~ __ZNSt3__16vectorIN3fst9VectorFstINS1_6ArcTplINS1_25LatticeWeightWithStateTplINS1_16LatticeWeightTplIfEEfNS0_IfNS_9allocatorIfEEEEEEiEENS1_11VectorStateISB_NS7_ISB_EEEEEENS7_ISF_EEE6resizeEm : 404 -> 408
+~ __ZNSt3__16vectorIiNS_9allocatorIiEEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPiEES8_EES8_NS6_IPKiEET0_T1_l : 552 -> 568
+~ __ZN5kaldi6quasar18NNMTTransliterator13TransliterateINSt3__16vectorINS0_15TranslationUtil12NbestElementENS3_9allocatorIS6_EEEEEEvPT_RKNS3_12basic_stringIcNS3_11char_traitsIcEENS7_IcEEEE : 8588 -> 8536
+~ __ZZN5kaldi6quasar18NNMTTransliterator13TransliterateERKNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_bEN18VectorUReplaceable7replaceEPPviiPKti : 640 -> 656
+~ __ZZN5kaldi6quasar18NNMTTransliterator13TransliterateERKNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_bEN18VectorUReplaceable4copyEPPviii : 624 -> 640
+~ __ZN5kaldi6quasar21TranslationBeamSearchINS0_19TorchEncoderDecoderEE6DecodeIN3fst31BackoffDeterministicOnDemandFstINS5_6ArcTplINS5_17TropicalWeightTplIfEEiEENS5_3FstISA_EEEEEEfRKNSt3__112basic_stringIcNSE_11char_traitsIcEENSE_9allocatorIcEEEERKNS0_13DecodeOptionsIT_EEPNSE_6vectorINS0_15TranslationUtil12NbestElementENSI_ISU_EEEE : 9276 -> 9284
+~ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPtEES8_EENS6_IPfEENS6_IPKfEET0_T1_l : 552 -> 576
+~ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPsEES8_EENS6_IPfEENS6_IPKfEET0_T1_l : 552 -> 576
+~ __ZN15ParseLegacyImpl19parse_hydra_markupsERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS0_8functionIFvNS0_5dequeINS0_10shared_ptrI11AgglomerateEENS4_ISC_EEEEEEERSE_m : 3184 -> 3212
+~ __ZNSt3__15dequeINS_10shared_ptrI11AgglomerateEENS_9allocatorIS3_EEE18__append_with_sizeB9nqe220106INS_16__deque_iteratorIS3_PKS3_RS9_PKSA_lLl256EEEEEvT_m : 1220 -> 1236
+~ __ZNKSt3__116__deque_iteratorINS_10shared_ptrI11AgglomerateEEPS3_RS3_PS4_lLl256EEplB9nqe220106El : 76 -> 92
+~ __ZNSt3__15dequeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE9push_backEOS6_ : 1268 -> 1280
+~ __ZNSt3__16vectorIiNS_9allocatorIiEEE6insertENS_11__wrap_iterIPKiEERS5_ : 592 -> 596
+~ __ZNSt3__15dequeINS_5tupleIJNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorINS_4pairImS7_EENS5_ISA_EEEEmNS_6bitsetILm3EEEEEENS5_ISF_EEE9push_backERKSF_ : 1228 -> 1240
+~ __ZN12BreaksNNImpl5clearEv : 564 -> 568
+~ __ZNSt3__15dequeINS_5tupleIJNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorINS_4pairImS7_EENS5_ISA_EEEEmNS_6bitsetILm3EEEEEENS5_ISF_EEED2B9nqe220106Ev : 336 -> 344
+~ __ZNSt3__15dequeINS_5tupleIJNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbNS_10shared_ptrI11AgglomerateEEEEENS5_ISB_EEED2B9nqe220106Ev : 360 -> 364
+~ __ZN15FastSpeechUtils17emit_word_markersEiimiNSt3__110shared_ptrI17TacotronAlignmentEENS1_I16SharedObjectPoolEENS1_I15TacotronFeatureEER6ModuleMS8_Fi25InternalCallbackContainerE : 988 -> 992
+~ __ZZN15PronounceNNImpl17postfix_alignmentEvENK3$_2clERNSt3__16vectorImNS1_9allocatorImEEEE : 2960 -> 3040
+~ __ZN17OverrideRulesImpl5clearEv : 404 -> 412
+~ __ZN17OverrideRulesImpl15generate_tokensEv : 2672 -> 2680
+~ __ZN17OverrideRulesImpl11cache_tokenEm : 2796 -> 2840
+~ __ZN17OverrideRulesImpl10match_ruleEj : 5216 -> 5228
+~ __ZN17OverrideRulesImpl9end_groupEb : 792 -> 796
+~ __ZNSt3__15dequeI14TokenBasicItemNS_9allocatorIS1_EEED2B9nqe220106Ev : 336 -> 344
+~ __ZN17OverlappingPrompt13store_overlapERKNSt3__16vectorIfNS0_9allocatorIfEEEE : 2844 -> 2856
+~ __ZNKSt3__116__deque_iteratorIfPfRfPS1_lLl1024EEplB9nqe220106El : 84 -> 92
+~ __ZN17OverlappingPrompt20overlap_if_availableENSt3__110shared_ptrI16SharedObjectPoolEERNS0_6vectorIfNS0_9allocatorIfEEEE : 756 -> 764
+~ __ZNKSt3__116__deque_iteratorIfPfRfPS1_lLl1024EEmiB9nqe220106El : 88 -> 96
+~ __ZNSt3__114__split_bufferIPfRNS_9allocatorIS1_EEE12emplace_backIJRS1_EEEvDpOT_ : 252 -> 256
+~ __ZNKSt3__120__move_backward_implINS_17_ClassicAlgPolicyEEclB9nqe220106IPfNS_16__deque_iteratorIfS4_RfPS4_lLl1024EEELi0EEENS_4pairIT_T0_EESA_SA_SB_ : 244 -> 248
+~ __ZN14FrontendModule13delete_tokensEv : 268 -> 280
+~ __ZN14FrontendModule5tokenEm : 548 -> 552
+~ __ZN15NormInputBinary15labelled_tokensEv : 1280 -> 1272
+~ __ZN15NormInputBinary12token_labelsERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE : 364 -> 372
+~ __ZNSt3__15dequeINS_4pairIjNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEED2B9nqe220106Ev : 356 -> 360
+~ __ZNSt3__15dequeINS_4pairIjNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEE19__add_back_capacityEv : 1208 -> 1236
+~ __ZN16HydraUserDctImpl15generate_tokensEv : 6500 -> 6516
+~ __ZN31FastSpeech2DecoderBaseInference14split_featuresENSt3__110shared_ptrI24FastSpeechDecoderFeatureEEb : 1036 -> 1044
+~ __ZN15PreselectStream12process_dataENSt3__110shared_ptrI11AgglomerateEE : 10208 -> 10112
+~ __ZNSt3__110__function6__funcIZN10MarkupImpl13parse_markupsERNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE3$_0FvNS_5dequeINS_10shared_ptrI11AgglomerateEENS6_ISE_EEEEEEclEOSG_ : 2172 -> 2176
+~ __ZNSt3__16vectorIbNS_9allocatorIbEEE5eraseENS_14__bit_iteratorIS3_Lb1ELm0EEES5_ : 188 -> 192
+~ __ZN13NormalizeImpl12output_tokenERKN16NormalizerEngine11OutputTokenE : 1328 -> 1344
+~ __ZN13NormalizeImpl14generate_tokenERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEER14TokenBasicItemRK19TokenNormalizerItemPK17TokenOverrideItemRNS0_10shared_ptrI11AgglomerateEE : 1764 -> 1768
+~ __ZNSt3__110__function6__funcINS_6__bindIM13NormalizeImplFvRKN16NormalizerEngine11OutputTokenEEJPS3_RKNS_12placeholders4__phILi1EEEEEEFvS7_EEclES7_ : 72 -> 76
+~ __ZN15InferenceEngine10DataTensor12get_5d_arrayIfEENSt3__16vectorINS3_INS3_INS3_INS3_IT_NS2_9allocatorIS4_EEEENS5_IS7_EEEENS5_IS9_EEEENS5_ISB_EEEENS5_ISD_EEEEv : 1008 -> 1012
+~ __ZN21HydraEncoderInference14split_featuresENSt3__110shared_ptrI4BBPEEENS1_INS0_6vectorI9ByteTokenNS0_9allocatorIS5_EEEEEE : 2840 -> 2848
+~ __ZNSt3__16vectorIPKhNS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_ : 184 -> 176
+~ __ZN13ParseSSMLImpl19parse_hydra_markupsERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS0_8functionIFvNS0_5dequeINS0_10shared_ptrI11AgglomerateEENS4_ISC_EEEEEEERSE_m : 1236 -> 1268
+~ __ZN16NormalizerEngineC2ERK19FrontendEnvironment : 19792 -> 19796
+~ __ZN16NormalizerEngine5resetEv : 368 -> 376
+~ __ZNSt3__15dequeIN16NormalizerEngine10InputTokenENS_9allocatorIS2_EEE9push_backERKS2_ : 1340 -> 1352
+~ __ZN16NormalizerEngine9add_tokenERKNS_10InputTokenENSt3__18functionIFvRKNS_11OutputTokenEEEE : 13456 -> 13472
+~ __ZNSt3__16vectorINS_17reference_wrapperIN16NormalizerEngine10InputTokenEEENS_9allocatorIS4_EEE6insertB9nqe220106INS_16__deque_iteratorIS3_PS3_RS3_PSA_lLl64EEELi0EEENS_11__wrap_iterIPS4_EENSE_IPKS4_EET_SK_ : 772 -> 800
+~ __ZNKSt3__116__deque_iteratorIN16NormalizerEngine10InputTokenEPS2_RS2_PS3_lLl64EEplB9nqe220106El : 84 -> 92
+~ __ZNSt3__15dequeIN16NormalizerEngine10InputTokenENS_9allocatorIS2_EEED2B9nqe220106Ev : 336 -> 344
+~ __ZN13FRBinaryState15get_replacementEj : 896 -> 892
+~ __ZN13FRBinaryState13update_statesERNSt3__16vectorIPK10BinaryCellNS0_9allocatorIS4_EEEENS0_10shared_ptrINS1_INS0_4pairIbjEENS5_ISB_EEEEEENS9_I8FRBMatchEEib : 6884 -> 6868
+~ _pcre2_match_8 : 4740 -> 4732
+~ _match : 49696 -> 49720
+~ _pcre2_compile_8 : 3600 -> 3604
+~ _parse_regex : 13508 -> 13512
+~ _parsed_skip : 260 -> 264
+~ _add_to_class_internal : 1004 -> 1008
+~ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPfEES8_EES8_NS6_IPKfEET0_T1_l : 492 -> 508
+~ __ZNSt3__16vectorIN8nlohmann10basic_jsonINS_3mapES0_NS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbxydS7_NS1_14adl_serializerENS0_IhNS7_IhEEEEEENS7_ISD_EEE24__emplace_back_slow_pathIJNS1_6detail7value_tEEEEPSD_DpOT_ : 288 -> 292
+~ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE6assignEmRKS4_ : 340 -> 336
+~ __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE29__match_at_start_posix_nosubsINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb : 1296 -> 1300
+~ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEED2B9nqe220106Ev : 340 -> 344
+~ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE20__add_front_capacityEv : 580 -> 584
+~ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE19__add_back_capacityEv : 444 -> 448
+~ __ZNSt3__16vectorIiNS_9allocatorIiEEE6insertENS_11__wrap_iterIPKiEEOi : 456 -> 452
+~ __ZNSt3__16vectorImNS_9allocatorImEEE6insertENS_11__wrap_iterIPKmEEOm : 456 -> 452
+~ __ZNSt3__114__split_bufferImRNS_9allocatorImEEE12emplace_backIJmEEEvDpOT_ : 256 -> 260
+- __ZNSt3__16vectorINS_4pairIiiEENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_
+~ __ZN3fst17ComputePropertiesINS_6ArcTplINS_17TropicalWeightTplIfEEiEEEEyRKNS_3FstIT_EEyPyb : 2320 -> 2324
+~ __ZNSt3__16vectorIbNS_9allocatorIbEEE6resizeEmb : 128 -> 132
+- __ZNSt3__16vectorIsNS_9allocatorIsEEE24__emplace_back_slow_pathIJRKsEEEPsDpOT_
+~ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEdNS_4lessIS6_EENS4_INS_4pairIKS6_dEEEEEC2B9nqe220106ESt16initializer_listISB_ERKS8_ : 84 -> 88
+~ __ZNSt3__16vectorIbNS_9allocatorIbEEE6insertENS_14__bit_iteratorIS3_Lb1ELm0EEERKb : 552 -> 568
+```

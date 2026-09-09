@@ -1,0 +1,57 @@
+## MTLCompilerService
+
+> `/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__gcc_except_tab`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+
+```diff
+
+ 382.5.3.0.0
+-  __TEXT.__text: 0x513c
++  __TEXT.__text: 0x4ff4
+   __TEXT.__auth_stubs: 0x760
+   __TEXT.__gcc_except_tab: 0x38c
+   __TEXT.__const: 0xb0
+   __TEXT.__oslogstring: 0x569
+   __TEXT.__cstring: 0x660
+-  __TEXT.__unwind_info: 0x2f0
++  __TEXT.__unwind_info: 0x388
+   __DATA_CONST.__const: 0x1a0
+   __DATA_CONST.__cfstring: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+Functions:
+~ ___compileRequestMain_block_invoke : 152 -> 140
+~ __ZN18MTLCompilerServiceI23CompilerPluginInterfaceE9sendReplyERKPU24objcproto13OS_xpc_object8NSObjectS6_jPKvmPKc : 228 -> 216
+~ __ZN18MTLCompilerServiceI23CompilerPluginInterfaceE14messageHandlerEPU24objcproto13OS_xpc_object8NSObject : 1284 -> 1272
+~ ____ZN18MTLCompilerServiceI23CompilerPluginInterfaceE14messageHandlerEPU24objcproto13OS_xpc_object8NSObject_block_invoke : 200 -> 180
+~ __ZN18MTLCompilerServiceI23CompilerPluginInterfaceE20assignContextToArrayERKNSt3__110shared_ptrI21MTLCompilationContextEE : 136 -> 124
+~ __ZN18MTLCompilerServiceI23CompilerPluginInterfaceE22removeContextFromArrayERKNSt3__110shared_ptrI21MTLCompilationContextEE : 120 -> 108
+~ __ZN18MTLCompilerServiceI23CompilerPluginInterfaceE14endCompilationEb : 164 -> 152
+~ ____ZN18MTLCompilerServiceI23CompilerPluginInterfaceE12eventHandlerEPU24objcproto13OS_xpc_object8NSObject_block_invoke : 200 -> 176
+~ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm : 68 -> 56
+~ __ZNSt3__110unique_ptrI23MTLCompilerServiceTimerNS_14default_deleteIS1_EEE5resetB9nqe220106EPS1_ : 76 -> 64
+~ ____ZZN18MTLCompilerServiceI23CompilerPluginInterfaceE15createHangTimerERKPU24objcproto13OS_xpc_object8NSObjectRKPU28objcproto17OS_dispatch_queueS2_ENK3$_0clEv_block_invoke : 752 -> 756
+~ __ZNSt3__120__shared_ptr_emplaceI21MTLCompilationContextNS_9allocatorIS1_EEED0Ev : 84 -> 72
+~ __ZNSt3__119__shared_weak_count16__release_sharedB9nqe220106Ev : 100 -> 88
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_5arrayINS_10unique_ptrI16MTLConnectionCtxI23CompilerPluginInterfaceENS_14default_deleteIS6_EEEELm64EEEEENS_22__unordered_map_hasherIxNS_4pairIKxSA_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxSF_SJ_SH_EENS_9allocatorISF_EEE17__deallocate_nodeB9nqe220106EPNS_11__hash_nodeISB_PvEE : 96 -> 84
+~ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_5arrayINS_10unique_ptrI16MTLConnectionCtxI23CompilerPluginInterfaceENS_14default_deleteIS6_EEEELm64EEEEENS_22__unordered_map_hasherIxNS_4pairIKxSA_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxSF_SJ_SH_EENS_9allocatorISF_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJOxEEENSU_IJEEEEEENSD_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEEDpOT_ENKUlRSE_ST_OSW_OSX_E_clES18_ST_S19_S1A_ : 660 -> 656
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_5arrayINS_10unique_ptrI16MTLConnectionCtxI23CompilerPluginInterfaceENS_14default_deleteIS6_EEEELm64EEEEENS_22__unordered_map_hasherIxNS_4pairIKxSA_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxSF_SJ_SH_EENS_9allocatorISF_EEE8__rehashILb1EEEvm : 228 -> 212
+~ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_5arrayINS_10unique_ptrI16MTLConnectionCtxI23CompilerPluginInterfaceENS_14default_deleteIS8_EEEELm64EEEEEPvEEEEEclB9nqe220106EPSF_ : 132 -> 120
+~ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5rfindB9nqe220106EPKcm : 184 -> 180
+~ __ZNSt3__110unique_ptrI16MTLConnectionCtxI23CompilerPluginInterfaceENS_14default_deleteIS3_EEE5resetB9nqe220106EPS3_ : 76 -> 64
+~ __ZN16MTLConnectionCtxI23CompilerPluginInterfaceED2Ev : 116 -> 104
+~ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9nqe220106Ev : 84 -> 72
+~ __ZNSt3__16vectorIxNS_9allocatorIxEEE24__emplace_back_slow_pathIJRxEEEPxDpOT_ : 196 -> 192
+~ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJRPKcEEEPS6_DpOT_ : 324 -> 320
+~ __ZNSt3__16vectorIyNS_9allocatorIyEEE24__emplace_back_slow_pathIJiEEEPyDpOT_ : 196 -> 192
+~ __ZZ4mainEN3$_08__invokeEPU24objcproto13OS_xpc_object8NSObject : 56 -> 44
+~ _ZN18MTLCompilerServiceI23CompilerPluginInterfaceEC2Ev.cold.1 : 176 -> 164
+~ _ZN19MTLEnvVarAggregator33GET_MTL_IDLE_EXIT_TIMEOUT_SECONDSEbi.cold.1 : 88 -> 76
+~ _ZN19MTLEnvVarAggregator36GET_MTL_HANG_TIMER_LENGTH_IN_SECONDSEbi.cold.1 : 88 -> 76
+~ _ZN28MTLSandboxExtensionContainer28MTLCompilerSandboxExtensionsEv.cold.1 : 136 -> 124
+~ _ZN18MTLCompilerServiceI23CompilerPluginInterfaceEC2Ev.cold.1 : 168 -> 156
+```

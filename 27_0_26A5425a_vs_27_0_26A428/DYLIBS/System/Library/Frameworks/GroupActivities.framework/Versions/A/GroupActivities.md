@@ -1,0 +1,26 @@
+## GroupActivities
+
+> `/System/Library/Frameworks/GroupActivities.framework/Versions/A/GroupActivities`
+
+```diff
+
+ 303.100.1.0.0
+-  __TEXT.__text: 0x1d8210
++  __TEXT.__text: 0x1d8244
+   __TEXT.__objc_methlist: 0x608
+   __TEXT.__const: 0x11a0c
+   __TEXT.__cstring: 0x29d7
+Functions:
+~ _$s15GroupActivities0A7SessionC26registerPlaybackSyncerLinkyyAC0acefG0Cyx_xGFy10Foundation12NotificationVcfU0_ : 2776 -> 2788
+~ _$s15GroupActivities0A7SessionC26registerPlaybackSyncerLinkyyAC0acefG0Cyx_xGFy10Foundation12NotificationVcfU1_ : 3424 -> 3436
+~ _$sSD16compactMapValuesySDyxqd__Gqd__Sgq_KXEKlFSS_SDySo46AVPlaybackCoordinationTransportControlStateKeyaypG10Foundation4DataVTg506$sSo21d42CoordinatorC15GroupActivitiesE25getTrackedf24StatesSDySS10Foundation4k8VGyFAGSgu6So0a12e3G15gH12KeyaypGXEfU_Tf1cn_n : 692 -> 696
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_Se_SEs8SendablepXpTg5 : 696 -> 700
+~ _$ss17_NativeDictionaryV4copyyyFSS_So12NSDictionaryCTg5 : 364 -> 368
+~ _$ss17_NativeDictionaryV4copyyyFSS_Se_SEs8SendablepXpTg5 : 376 -> 380
+~ _$ss17_NativeDictionaryV4copyyyFSS_15GroupActivities19SharedValueMetadataOTg5 : 600 -> 592
+~ _$ss17_NativeDictionaryV4copyyyFSS_7Combine14AnyCancellableCTg5 : 364 -> 368
+~ _$s15GroupActivities15TypedPayloadBoxV4fromACs7Decoder_p_tKcfC : 1372 -> 1376
+~ _$ss17_NativeDictionaryV5merge_8isUnique16uniquingKeysWithyqd__n_Sbq_q__q_tqd_0_YKXEtqd_0_YKSTRd__s5ErrorRd_0_x_q_t7ElementRtd__r0_lFSS_Se_SEs8SendablepXps15LazyMapSequenceVySDySSSe_SEsAIpXpGSS_Se_SEsAIpXptGs5NeverOTg5216$s15GroupActivities22SharedStateCoordinatorC7session10identifier19sharedValueProvider0H6Values011participantdK0A2C0A15SessionProtocol_p_SSAC0iJ0_pSDySSSe_SEs8SendablepXpGALtcfcSe_SEsAKpXpSe_SEsAKpXp_Se_SEsAKpXptXEfU_Tf1nncn_n : 636 -> 640
+~ _$s10Foundation19PropertyListDecoderC15GroupActivitiesE34messageDecodersByMessageIdentifier33_7F6FED5A36F2E7FBC6D91B446E55DE7FLLSDySSAD20TypedPayloadDecoding_pGvg : 460 -> 464
+~ _$s15GroupActivities0A16ActivityMetadataV014infoDictionaryC4TypeAC0cG0VSgvg : 1264 -> 1268
+```

@@ -1,0 +1,38 @@
+## dssetup.bundle
+
+> `/usr/lib/rpcsvc/dssetup.bundle`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__gcc_except_tab`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA.__data`
+
+```diff
+
+ 676.0.0.0.0
+-  __TEXT.__text: 0x3df0
++  __TEXT.__text: 0x3d94
+   __TEXT.__auth_stubs: 0x5c0
+   __TEXT.__init_offsets: 0x4
+   __TEXT.__const: 0x454
+   __TEXT.__cstring: 0x249
+   __TEXT.__gcc_except_tab: 0x340
+   __TEXT.__oslogstring: 0xbe
+-  __TEXT.__unwind_info: 0x2d8
++  __TEXT.__unwind_info: 0x330
+   __DATA_CONST.__const: 0x1e8
+   __DATA_CONST.__cfstring: 0x1a0
+   __DATA_CONST.__auth_got: 0x2e8
+Functions:
+~ _OUTLINED_FUNCTION_0 : 32 -> 20
+~ __ZN6darwin16cfstring_convertEPK10__CFStringj : 416 -> 404
+~ __ZN8platform12config_value20placeholder_specificINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEED0Ev : 112 -> 100
+~ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm : 68 -> 56
+~ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJRKS6_EEEPS6_DpOT_ : 320 -> 316
+~ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9nqe220106Ev : 84 -> 72
+~ __ZNSt3__130__default_three_way_comparatorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_vEclB9nqe220106ERKS6_S9_ : 112 -> 108
+~ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8platform12config_valueEEEEEvPT_ : 108 -> 96
+~ __ZN8platform12config_value18invalid_conversionD0Ev : 56 -> 44
+```

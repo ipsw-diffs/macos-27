@@ -1,0 +1,20 @@
+## StrokeAnimation
+
+> `/System/Library/PrivateFrameworks/StrokeAnimation.framework/Versions/A/StrokeAnimation`
+
+```text
+Functions:
+~ _OUTLINED_FUNCTION_21 : 12 -> 20
+~ _OUTLINED_FUNCTION_22 : 40 -> 12
+~ _OUTLINED_FUNCTION_23 : 12 -> 40
+~ _OUTLINED_FUNCTION_24 : 56 -> 12
+~ _OUTLINED_FUNCTION_25 : 12 -> 56
+~ _OUTLINED_FUNCTION_27 : 32 -> 12
+~ _OUTLINED_FUNCTION_28 : 16 -> 32
+~ _OUTLINED_FUNCTION_29 : 12 -> 16
+~ _OUTLINED_FUNCTION_30 : 40 -> 12
+~ _OUTLINED_FUNCTION_31 : 36 -> 40
+~ _OUTLINED_FUNCTION_32 : 20 -> 36
+~ _OUTLINED_FUNCTION_1 : 12 -> 20
+~ _OUTLINED_FUNCTION_2 : 20 -> 12
+```

@@ -1,0 +1,35 @@
+## PaperKit
+
+> `/System/Library/Frameworks/PaperKit.framework/Versions/A/PaperKit`
+
+```diff
+
+ 379.0.0.0.0
+-  __TEXT.__text: 0x434778
++  __TEXT.__text: 0x43476c
+   __TEXT.__objc_methlist: 0x24b0
+   __TEXT.__const: 0x1d064
+   __TEXT.__gcc_except_tab: 0xcc
+Functions:
+~ _$s8PaperKit18AnnotationImporterV016translateStrokedC0yAA12ShapeElementVSgSo09AKStrokedC0CFZ : 10052 -> 10000
+~ _$sSD8PaperKitSo21NSAttributedStringKeyaRszypRs_rlE7scaleByyy12CoreGraphics7CGFloatVF : 328 -> 332
+~ _$s8PaperKit12ShapeElementV6update3use3ref13pdfAnnotation2in7capsule7optionsyAA0A8DocumentV14PDFDocumentUseO_AA012SharedCanvasD0OSgSo13PDFAnnotationCSo6CGRectVSg9Coherence7CapsuleVyxGAA0A17RenderableOptionsVSgtAW4CRDTRzlF : 5852 -> 5864
+~ _$s9Coherence18CRAttributedStringV10AttributesV8PaperKitAF18TextAttributeScopeVRszrlE06nsTypeD8ScaledByySDySo012NSAttributedC3KeyaypG12CoreGraphics7CGFloatVF : 376 -> 380
+~ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVy8PaperKit11ToolbarViewV24ToolAttributeDescriptionOG_Tg503$s8f5Kit11hi2V4j32O16weightAttributes3forSayAC0E20kL58OG06PencilB008PKInkingE0V7InkTypeO_tFZSbAI_AItcfu_Tf4nnd_nTf1cn_nTm : 348 -> 352
+~ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_8PaperKit11ToolbarViewV24ToolAttributeDescriptionO_Tg503$s8e5Kit11gh2V4i32O16weightAttributes3forSayAC0E20jK58OG06PencilB008PKInkingE0V7InkTypeO_tFZSbAI_AItcfu_Tf4nnd_nTf1nnncn_nTm : 852 -> 856
+~ _$s9Coherence7CRAssetV8PaperKitE9loadImage20maxDimensionInPixels17waitIfUnavailable12isHDRAllowedSo10CGImageRefaSgSi_S2btYaFTY0_ : 696 -> 704
+~ _$sSlsSQ7ElementRpzrlE10firstIndex2of0C0QzSgAB_tFSay8PaperKit20SignatureDescriptionOG_TB5 : 660 -> 664
+~ _$sSo12NSDictionaryC8PaperKitE05paperC8HashInto_7version11includeAPPL7visitedy06CryptoC06SHA256Vz_s5UInt8VSbShySOGztF : 2176 -> 2188
+~ _$s8PaperKit4FontV012detectSystemC4Kind33_7F03F0BD2FBC62346EEF44AA7D3DA92FLL4fromAC0cF0OSgSo6NSFontC_tFZTf4nd_n : 900 -> 904
+~ _$s9Coherence18CRAttributedStringV10AttributesV8PaperKitAF18TextAttributeScopeVRszrlE02nsD08darkModeAEyAH_GSDySo012NSAttributedC3KeyaypG_SbtcfC : 2224 -> 2248
+~ _$s9Coherence18CRAttributedStringV8PaperKitAD18TextAttributeScopeVRszrlE012nsAttributedC05scaleACyAFGSo012NSAttributedC0C_12CoreGraphics7CGFloatVtcfcAC10AttributesVyAF_GSDySo0lC3KeyaypGXEfU_ : 396 -> 400
+~ _$s8PaperKit27CalculateDocumentControllerC11trackResult3for8itemUUIDy0C00C10ExpressionC_10Foundation0J0VtF : 1280 -> 1284
+~ _$s8PaperKit27CalculateDocumentControllerC11trackTokens3for8itemUUIDy0C00C10ExpressionC_10Foundation0J0VtF : 1164 -> 1168
+~ _$s9Calculate0A10ExpressionC8PaperKitE13isDeclarationSbvg : 1636 -> 1656
+~ _$s8PaperKit16BezierPathSourceV4fromAC9Coherence9CRDecoderC_tKcfC : 1720 -> 1620
+~ _$s8PaperKit0aB7PDFPageC4draw4with2in0E7OptionsySo13PDFDisplayBoxV_So12CGContextRefaSDySo0c8DrawWithI6OptionaypGtF : 436 -> 440
+~ _$sSDsSQR_rlE2eeoiySbSDyxq_G_ABtFZ10Foundation4UUIDV_8PaperKit27SortableCalculateExpression33_E3D731F3B4C1040BE7071FABB2CF7A67LLVTt1g5 : 1316 -> 1320
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_10Foundation4UUIDVTg5 : 908 -> 916
+~ _$ss17_NativeDictionaryV4copyyyFSS_SDy12CoreGraphics7CGFloatVSSGTg5 : 364 -> 368
+~ _$ss17_NativeDictionaryV4copyyyFSS_10Foundation4UUIDVTg5 : 648 -> 656
+```

@@ -1,0 +1,62 @@
+## PhotosRendering
+
+> `/System/Library/PrivateFrameworks/PhotosRendering.framework/Versions/A/PhotosRendering`
+
+```diff
+
+ 911.0.134.0.0
+-  __TEXT.__text: 0x1a0bc
++  __TEXT.__text: 0x1a0c8
+   __TEXT.__objc_methlist: 0x314
+   __TEXT.__const: 0x1140
+   __TEXT.__constg_swiftt: 0xa68
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 946
+-  Symbols:   770
++  Functions: 947
++  Symbols:   771
+   CStrings:  49
+ 
+Symbols:
++ _OUTLINED_FUNCTION_153
+Functions:
+~ _OUTLINED_FUNCTION_14 : 12 -> 20
+~ _OUTLINED_FUNCTION_16 : 20 -> 12
+~ _OUTLINED_FUNCTION_24 : 16 -> 24
+~ _OUTLINED_FUNCTION_26 : 24 -> 16
+~ _OUTLINED_FUNCTION_61 : 28 -> 20
+~ _OUTLINED_FUNCTION_62 : 20 -> 28
+~ _OUTLINED_FUNCTION_75 : 12 -> 16
+~ _OUTLINED_FUNCTION_76 : 16 -> 12
+~ _OUTLINED_FUNCTION_84 : 32 -> 12
+~ _OUTLINED_FUNCTION_89 : 12 -> 32
+~ _OUTLINED_FUNCTION_90 : 28 -> 12
+~ _OUTLINED_FUNCTION_91 : 12 -> 28
+~ _OUTLINED_FUNCTION_93 : 28 -> 12
+~ _OUTLINED_FUNCTION_95 : 16 -> 28
+~ _OUTLINED_FUNCTION_96 : 24 -> 16
+~ _OUTLINED_FUNCTION_97 : 40 -> 24
+~ _OUTLINED_FUNCTION_98 : 12 -> 40
+~ _OUTLINED_FUNCTION_101 : 24 -> 12
+~ _OUTLINED_FUNCTION_103 : 12 -> 24
+~ _OUTLINED_FUNCTION_106 : 36 -> 12
+~ _OUTLINED_FUNCTION_107 : 24 -> 36
+~ _OUTLINED_FUNCTION_109 : 36 -> 24
+~ _OUTLINED_FUNCTION_111 : 28 -> 36
+~ _OUTLINED_FUNCTION_112 : 24 -> 28
+~ _OUTLINED_FUNCTION_116 : 12 -> 24
+~ _OUTLINED_FUNCTION_121 : 20 -> 12
+~ _OUTLINED_FUNCTION_122 : 12 -> 20
+~ _OUTLINED_FUNCTION_123 : 20 -> 12
+~ _OUTLINED_FUNCTION_133 : 12 -> 20
+~ _OUTLINED_FUNCTION_137 : 20 -> 12
+~ _OUTLINED_FUNCTION_139 : 12 -> 20
+~ _OUTLINED_FUNCTION_140 : 44 -> 12
+~ _OUTLINED_FUNCTION_141 : 28 -> 44
+~ _OUTLINED_FUNCTION_144 : 32 -> 28
+~ _OUTLINED_FUNCTION_150 : 24 -> 32
++ _OUTLINED_FUNCTION_153
+```

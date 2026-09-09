@@ -1,0 +1,106 @@
+## CoreNLP
+
+> `/System/Library/PrivateFrameworks/CoreNLP.framework/Versions/A/CoreNLP`
+
+```diff
+
+ 371.0.0.0.0
+-  __TEXT.__text: 0xf782c
++  __TEXT.__text: 0xf78a8
+   __TEXT.__objc_methlist: 0x1b8
+   __TEXT.__const: 0x35e0
+   __TEXT.__gcc_except_tab: 0xf7f8
+
+   __TEXT.__oslogstring: 0xb59
+   __TEXT.__dlopen_cstrs: 0x181
+   __TEXT.__ustring: 0x32
+-  __TEXT.__unwind_info: 0x6620
++  __TEXT.__unwind_info: 0x6618
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   - /usr/lib/liblangid.dylib
+   - /usr/lib/libmecab.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 4408
++  Functions: 4407
+   Symbols:   6773
+   CStrings:  1337
+ 
+Functions:
+~ __ZN7CoreNLP19EnglishCompoundWord42enumerateSubTokensOfTokenWithCharacterTypeEPK7CFRangemU13block_pointerFvP7NLTokenPbE : 896 -> 884
+~ __ZN7CoreNLP19KoreanSubWordTagger12getNextTokenEP7CFRange : 404 -> 416
+~ __ZN7CoreNLP17MeCabSubTokenizer36fastEnumerateTokensWithSpecifiedStopEmRbU13block_pointerFvP7NLTokenPbEU13block_pointerFv7CFRangeE : 356 -> 364
+~ __ZNK7CoreNLP17MeCabSubTokenizer18makeUnhandledRangeEPK12mecab_node_t : 892 -> 904
+~ __ZN10applesauce2CF7details20make_CFDictionaryRefERKSt16initializer_listINS0_11TypeRefPairEE : 432 -> 428
+~ __ZN7CoreNLP13BERTEmbedding16fillTokenVectorsEPK9__CFArraymjPfPKfS6_ : 1420 -> 1424
+~ __ZNSt3__16vectorIlNS_9allocatorIlEEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPlEES8_EES8_NS6_IPKlEET0_T1_l : 492 -> 508
+~ __ZNSt3__16vectorIbNS_9allocatorIbEEE6resizeEmb : 128 -> 132
+~ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPfEES8_EES8_NS6_IPKfEET0_T1_l : 492 -> 508
+~ -[TransferSeqTagMLFHelper removeBatchingFromDataAndLabels:batchedLabels:inputSentences:inputLabels:maxLength:] : 436 -> 440
+~ -[TransferSeqTagMLFHelper getMaxIndicesFromOneHotVectors:maxIndicesBatch:] : 572 -> 576
+~ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE6resizeEmRKS3_ : 424 -> 428
+~ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPiEES8_EENS6_IPfEENS6_IPKfEET0_T1_l : 548 -> 568
+~ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfNS_4lessIS6_EENS4_INS_4pairIKS6_fEEEEEC2B9nqe220106ESt16initializer_listISB_ERKS8_ : 84 -> 88
+~ __ZNSt3__16vectorIiNS_9allocatorIiEEE6insertENS_11__wrap_iterIPKiEEOi : 456 -> 452
+- __ZNSt3__16vectorIlNS_9allocatorIlEEE24__emplace_back_slow_pathIJlEEEPlDpOT_
+~ __Z29NLModelReadSamplesIntoTrainerPvPFPK14__CFDictionaryS_PbES_S_ : 1388 -> 1392
+~ __ZNSt3__13mapIlPK10__CFStringNS_4lessIlEENS_9allocatorINS_4pairIKlS3_EEEEEC2B9nqe220106ESt16initializer_listIS9_ERKS5_ : 84 -> 88
+~ __ZNSt3__13mapI12NLLanguageIDNS0_IlPK10__CFStringNS_4lessIlEENS_9allocatorINS_4pairIKlS4_EEEEEENS5_IS1_EENS7_INS8_IKS1_SC_EEEEEC2B9nqe220106ESt16initializer_listISF_ERKSD_ : 84 -> 88
+~ __ZN6corelm13GreedySampler11sampleWordsERNS_22LanguageModelWithStateEm : 1020 -> 1024
+~ __ZN6corelm13LanguageModel24calculateProbsOnSequenceIlvEENS_4util6MatrixIfEERKNSt3__16vectorINS6_IT_NS5_9allocatorIS7_EEEENS8_ISA_EEEEm : 1436 -> 1440
+~ __ZNSt3__111__sift_downB9nqe220106INS_17_ClassicAlgPolicyELb0ERZN6corelm4util15topKWithIndicesIfmEEDaRKNS_6vectorIT_NS_9allocatorIS7_EEEEiE11PairGreaterNS_11__wrap_iterIPNS_4pairIfmEEEEEEvT2_OT1_NS_15iterator_traitsISK_E15difference_typeESP_ : 220 -> 224
+~ __ZN7CoreNLP16ProductQuantizer18recomputeCentroidsEPKfPfPKhi : 348 -> 356
+~ __ZNK7CoreNLP16ProductQuantizer14chooseCentroidEPKfS2_Ph : 184 -> 188
+~ __ZN7CoreNLP19TransferSeqTagModel9inferenceENSt3__16vectorINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS6_IS8_EEEEm : 844 -> 848
+~ __ZN7CoreNLP16BERTANEEmbedding16fillTokenVectorsEPK9__CFArraymjPfPKfS6_ : 924 -> 928
+~ __ZNSt3__118__bitset_partitionB9nqe220106INS_17_ClassicAlgPolicyEPmRNS_7greaterImEEEENS_4pairIT0_bEES7_S7_T1_ : 936 -> 932
+~ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE12NLLanguageIDNS_4lessIS6_EENS4_INS_4pairIKS6_S7_EEEEEC2B9nqe220106ESt16initializer_listISC_ERKS9_ : 84 -> 88
+~ __ZNSt3__16vectorIlNS_9allocatorIlEEE6insertENS_11__wrap_iterIPKlEERS5_ : 476 -> 472
+~ __ZNSt3__114__split_bufferIlRNS_9allocatorIlEEE12emplace_backIJRKlEEEvDpOT_ : 256 -> 260
+~ __ZN10applesauce2CF7details15make_CFArrayRefINSt3__16vectorIlNS3_9allocatorIlEEEEEEDaRKSt16initializer_listIT_ENS1_15counterpart_tagE : 232 -> 228
+~ __ZNSt3__13mapI12NLLanguageIDPK10__CFStringNS_4lessIS1_EENS_9allocatorINS_4pairIKS1_S4_EEEEEC2B9nqe220106ESt16initializer_listISA_ERKS6_ : 84 -> 88
+~ __ZN7CoreNLP16chunkNounPhrasesERKNS_14ParseStructureE : 3132 -> 3160
+~ __ZN5boost9algorithm6detail21find_format_all_impl2INSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS1_13first_finderFINS3_11__wrap_iterIPKcEENS0_8is_equalEEENS1_13const_formatFINS_14iterator_rangeISE_EEEENSI_INSB_IPcEEEESJ_EEvRT_T0_T1_T2_T3_ : 560 -> 584
+~ __ZNSt3__15dequeIcNS_9allocatorIcEEE19__add_back_capacityEv : 468 -> 472
+~ __ZNSt3__114__split_bufferIPcNS_9allocatorIS1_EEE12emplace_backIJRS1_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__114__split_bufferIPcRNS_9allocatorIS1_EEE12emplace_backIJS1_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__15dequeIcNS_9allocatorIcEEE22__insert_bidirectionalB9nqe220106INS_11__wrap_iterIPKcEEEENS_16__deque_iteratorIcPcRcPSA_lLl4096EEENS9_IcS7_RS6_PKS7_lLl4096EEET_SI_m : 1108 -> 1120
+~ __ZNSt3__15dequeIcNS_9allocatorIcEEE20__add_front_capacityEm : 800 -> 804
+~ __ZNKSt3__116__deque_iteratorIcPcRcPS1_lLl4096EEplB9nqe220106El : 100 -> 108
+~ __ZNSt3__15dequeIcNS_9allocatorIcEEE19__add_back_capacityEm : 780 -> 784
+~ __ZNKSt3__116__deque_iteratorIcPcRcPS1_lLl4096EEmiB9nqe220106El : 100 -> 108
+~ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiNS_4lessIS6_EENS4_INS_4pairIKS6_iEEEEEC2B9nqe220106ESt16initializer_listISB_ERKS8_ : 84 -> 88
+~ __ZN7CoreNLP13WordEmbedding19getNearestNeighborsERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEif : 660 -> 664
+~ __ZNSt3__16vectorIN10applesauce2CF7TypeRefENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJbEEEPS3_DpOT_ : 308 -> 304
+~ __ZNSt3__16vectorIN10applesauce2CF7TypeRefENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJS3_EEEPS3_DpOT_ : 284 -> 280
+~ __ZNSt3__16vectorIN10applesauce2CF7TypeRefENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJEEEPS3_DpOT_ : 272 -> 268
+~ __ZN8minijson6detail12parse_doubleEPKc : 224 -> 228
+~ __ZNSt3__15dequeIiNS_9allocatorIiEEE10push_frontERKi : 128 -> 132
+~ __ZNSt3__15dequeIiNS_9allocatorIiEEE19__add_back_capacityEv : 468 -> 472
+~ __ZNSt3__15dequeIiNS_9allocatorIiEEE20__add_front_capacityEv : 572 -> 576
+~ __ZNSt3__15dequeIZNK5Darts15DoubleArrayImplIvvivE16predictiveSearchINS3_16result_pair_typeEEEmPKcPT_mmiE5StateNS_9allocatorISA_EEE19__add_back_capacityEv : 468 -> 472
+~ __ZNSt3__114__split_bufferIPZNK5Darts15DoubleArrayImplIvvivE16predictiveSearchINS3_16result_pair_typeEEEmPKcPT_mmiE5StateNS_9allocatorISB_EEE12emplace_backIJRSB_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__114__split_bufferIPZNK5Darts15DoubleArrayImplIvvivE16predictiveSearchINS3_16result_pair_typeEEEmPKcPT_mmiE5StateRNS_9allocatorISB_EEE12emplace_backIJSB_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__111__find_boolB9nqe220106ILb0ENS_6vectorIbNS_9allocatorIbEEEELb0EEENS_14__bit_iteratorIT0_XT1_EXLi0EEEES7_NS_29__size_difference_type_traitsIS6_vE9size_typeE : 224 -> 228
+~ __ZN5Darts7Details18DoubleArrayBuilder15build_from_dawgERKNS0_11DawgBuilderE : 772 -> 776
+~ __ZN5Darts7Details18DoubleArrayBuilder17build_from_keysetIiEEvRKNS0_6KeysetIT_EE : 664 -> 668
+~ __ZN5Darts7Details18DoubleArrayBuilder12expand_unitsEv : 528 -> 532
+~ __ZNK13sentencepiece10normalizer10Normalizer9NormalizeENSt3__117basic_string_viewIcNS2_11char_traitsIcEEEEPNS2_12basic_stringIcS5_NS2_9allocatorIcEEEEPNS2_6vectorImNS8_ImEEEE : 2220 -> 2224
+~ __ZNK13sentencepiece7unigram5Model15EncodeOptimizedENSt3__117basic_string_viewIcNS2_11char_traitsIcEEEE : 1164 -> 1168
+~ __ZNK13sentencepiece7unigram5Model20SampleEncodeAndScoreENSt3__117basic_string_viewIcNS2_11char_traitsIcEEEEfibb : 2964 -> 2968
+~ __ZZNK13sentencepiece3bpe5Model12SampleEncodeENSt3__117basic_string_viewIcNS2_11char_traitsIcEEEEfENK3$_1clEii : 708 -> 716
+~ __ZNSt3__114__split_bufferIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE6SymbolRNS_9allocatorIS8_EEEC1EmmSB_ : 120 -> 124
+~ __ZNKSt3__114default_deleteIN13sentencepiece4util6Status3RepEEclB9nqe220106EPS4_ : 100 -> 96
+~ __ZN6google8protobuf8internal11SerialArena5BlockC2EmPS3_bb : 176 -> 180
+~ __ZNK6google8protobuf8internal12ExtensionSet8ByteSizeEv : 148 -> 140
+~ __ZN6google8protobuf8internal18EpsCopyInputStream16ReadPackedVarintIZNS1_19PackedEnumParserArgINSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEEEPKcPvSD_PNS1_12ParseContextEPFbPKviESI_PNS1_16InternalMetadataEiEUlyE_EESD_SD_T_ : 592 -> 596
+~ __ZN6google8protobuf8internal18EpsCopyInputStream16ReadPackedVarintIZNS1_12VarintParserIiLb0EEEPKcPvS6_PNS1_12ParseContextEEUlyE_EES6_S6_T_ : 544 -> 548
+~ __ZN6google8protobuf8internal18EpsCopyInputStream16ReadPackedVarintIZNS1_12VarintParserIjLb0EEEPKcPvS6_PNS1_12ParseContextEEUlyE_EES6_S6_T_ : 544 -> 548
+~ __ZN6google8protobuf8internal18EpsCopyInputStream16ReadPackedVarintIZNS1_12VarintParserIxLb0EEEPKcPvS6_PNS1_12ParseContextEEUlyE_EES6_S6_T_ : 544 -> 548
+~ __ZN6google8protobuf8internal18EpsCopyInputStream16ReadPackedVarintIZNS1_12VarintParserIyLb0EEEPKcPvS6_PNS1_12ParseContextEEUlyE_EES6_S6_T_ : 544 -> 548
+~ __ZN6google8protobuf8internal18EpsCopyInputStream16ReadPackedVarintIZNS1_12VarintParserIiLb1EEEPKcPvS6_PNS1_12ParseContextEEUlyE_EES6_S6_T_ : 544 -> 548
+~ __ZN6google8protobuf8internal18EpsCopyInputStream16ReadPackedVarintIZNS1_12VarintParserIxLb1EEEPKcPvS6_PNS1_12ParseContextEEUlyE_EES6_S6_T_ : 544 -> 548
+~ __ZN6google8protobuf8internal18EpsCopyInputStream16ReadPackedVarintIZNS1_12VarintParserIbLb0EEEPKcPvS6_PNS1_12ParseContextEEUlyE_EES6_S6_T_ : 544 -> 548
+```

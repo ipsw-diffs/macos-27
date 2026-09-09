@@ -1,0 +1,31 @@
+## OTSVG
+
+> `/System/Library/PrivateFrameworks/OTSVG.framework/Versions/A/OTSVG`
+
+```diff
+
+ 904.0.0.0.0
+-  __TEXT.__text: 0x36578
++  __TEXT.__text: 0x365cc
+   __TEXT.__objc_methlist: 0x320
+   __TEXT.__const: 0xb60
+   __TEXT.__cstring: 0xbc4
+Functions:
+~ __ZNSt3__15dequeIN3SVG17BoundingRectState5StateENS_9allocatorIS3_EEE19__add_back_capacityEv : 372 -> 376
+~ __ZNSt3__114__split_bufferIPN3SVG17BoundingRectState5StateENS_9allocatorIS4_EEE12emplace_backIJRS4_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__114__split_bufferIPN3SVG17BoundingRectState5StateERNS_9allocatorIS4_EEE12emplace_backIJS4_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__15dequeIN3SVG8Recorder5StateENS_9allocatorIS3_EEED2B9nqn220106Ev : 352 -> 356
+~ __ZNSt3__16vectorINS_7variantIJN3SVG9SaveStateENS2_12RestoreStateENS2_9ConcatCTMENS2_9DrawImageENS2_8FillPathENS2_18DrawLinearGradientENS2_18DrawRadialGradientENS2_11ClipToPathsENS2_10ClipToMaskENS2_7SetFillENS2_22BeginTransparencyLayerENS2_20EndTransparencyLayerENS2_8SetAlphaENS2_6GetCTMEEEENS_9allocatorISH_EEE24__emplace_back_slow_pathIJSH_EEEPSH_DpOT_ : 380 -> 376
+~ __ZNSt3__15dequeIN3SVG8Recorder5StateENS_9allocatorIS3_EEE9push_backERKS3_ : 1100 -> 1112
+~ __ZNSt3__114__split_bufferIPN3SVG8Recorder5StateENS_9allocatorIS4_EEE12emplace_backIJRS4_EEEvDpOT_ : 248 -> 252
+~ _OTSVGTableEnumerateGlyphs : 216 -> 212
+~ _OTSVGTableGetDocumentIndexForGlyph : 240 -> 236
+~ __ZN3SVG6Record19processShapeElementERKNS_12ShapeElementERKNS_12PresentationE : 1500 -> 1508
+~ __ZNSt3__110__function6__funcIZN3SVG6Record19processPresentationERKNS2_7ElementERKNS2_12PresentationEE3$_0FvRKNS2_22ApplyPresentationStateEEEclESD_ : 1168 -> 1180
+~ __ZNSt3__16vectorINS_10unique_ptrIN3SVG7ElementENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJS6_EEEPS6_DpOT_ : 224 -> 228
+~ __ZN3SVG17ApplyPresentationC2ERNS_8RecorderERKNS_12PresentationERKNS_7ElementERKNSt3__113unordered_mapIPK7__CFURLNS9_17reference_wrapperIS7_EENS9_4hashISD_EENS9_8equal_toISD_EENS9_9allocatorINS9_4pairIKSD_SF_EEEEEERKNSA_IPKNS_11MaskElementENS_8Document8MaskDataENSG_ISU_EENSI_ISU_EENSK_INSL_IKSU_SW_EEEEEERKNSA_IPS7_S3_NSG_IS15_EENSI_IS15_EENSK_INSL_IKS15_S3_EEEEEE6CGRectNS9_8functionIFvRKNS_22ApplyPresentationStateEEEE : 3152 -> 3156
+~ -[_OTSVGParserDelegate parser:didStartMappingPrefix:toURI:] : 1584 -> 1588
+~ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_5stackIS6_NS_5dequeIS6_NS4_IS6_EEEEEEEC2B9nqn220106ERKSD_ : 236 -> 240
+~ __ZNSt3__15dequeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE18__append_with_sizeB9nqn220106INS_16__deque_iteratorIS6_PKS6_RSB_PKSC_lLl170EEEEEvT_m : 1188 -> 1208
+~ __ZNSt3__15dequeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEaSERKS8_ : 840 -> 848
+```

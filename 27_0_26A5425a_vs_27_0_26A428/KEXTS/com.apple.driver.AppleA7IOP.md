@@ -1,0 +1,165 @@
+## com.apple.driver.AppleA7IOP
+
+> `com.apple.driver.AppleA7IOP`
+
+```diff
+
+ 342.0.1.0.0
+   __TEXT.__cstring: 0xff7
+-  __TEXT_EXEC.__text: 0x66a4
++  __TEXT_EXEC.__text: 0x68fc
+   __TEXT_EXEC.__auth_stubs: 0x310
+   __DATA.__data: 0xc8
+   __DATA.__common: 0xb0
+Functions:
+~ __ZN10AppleA7IOP9MetaClassC1Ev : 72 -> 76
+~ __ZN10AppleA7IOPC2EPK11OSMetaClass : 72 -> 76
+~ __ZN10AppleA7IOP9MetaClassC2Ev : 72 -> 76
+~ __ZN10AppleA7IOP5startEP9IOService : 2572 -> 2576
+~ __ZN10AppleA7IOP20publishNumberToIORegEPKcy : 184 -> 188
+~ __ZN10AppleA7IOP13_publishBelowEP15IORegistryEntry : 396 -> 400
+~ __ZN10AppleA7IOP12_enablePowerEbj : 164 -> 168
+~ __ZN10AppleA7IOP19startCPUWithOptionsEP15IOSlaveFirmwarej : 848 -> 852
+~ __ZN10AppleA7IOP7stopCPUEbb : 600 -> 604
+~ __ZN10AppleA7IOP16disablePowerLateEv : 132 -> 136
+~ __ZN10AppleA7IOP21_dartMapiBootFirmwareEP8IOMapper : 1112 -> 1116
+~ __ZN10AppleA7IOP24_dartMapMemoryDescriptorEP8IOMapperP18IOMemoryDescriptorPy : 312 -> 316
+~ __ZN10AppleA7IOP14_isSingleRangeEP18IOMemoryDescriptor : 168 -> 172
+~ __ZN10AppleA7IOP12ringDoorbellEj : 136 -> 140
+~ __ZN10AppleA7IOP17setDoorbellActionEPFvP8OSObjectPvjES1_S2_j : 172 -> 176
+~ __ZN10AppleA7IOP23enableMailboxInterruptsEb : 276 -> 280
+~ __ZN10AppleA7IOP14_outboxHandlerEP22IOInterruptEventSource : 76 -> 80
+~ __ZN10AppleA7IOP14waitForMailboxEj : 220 -> 224
+~ __ZN10AppleA7IOP10getMailboxEjPvb : 308 -> 312
+~ __ZN10AppleA7IOP14getMailboxBulkEPvPj : 192 -> 196
+~ __ZN10AppleA7IOP13_inboxHandlerEP22IOInterruptEventSource : 216 -> 220
+~ __ZN10AppleA7IOP11postMailboxEjPvjb : 676 -> 680
+~ __ZN10AppleA7IOP25getWrapperPhysicalAddressEv : 44 -> 48
+~ __ZN10AppleA7IOP21getMailboxDebugStatusEv : 176 -> 180
+~ __ZN10AppleA7IOP21_get_integer_propertyEP15IORegistryEntryPKcPj : 252 -> 256
+~ __ZN10AppleA7IOP29_get_integer_property_defaultEP15IORegistryEntryPKcj : 64 -> 68
+~ __ZN8AppleIOP10_lockInboxEv : 68 -> 72
+~ __ZN8AppleIOP12_unlockInboxEv : 64 -> 68
+~ __ZN8AppleIOP11_lockOutboxEv : 68 -> 72
+~ __ZN8AppleIOP13_unlockOutboxEv : 64 -> 68
+~ _GLOBAL__sub_I_AppleA7IOP.cpp : 80 -> 84
+~ __ZN13AppleA7IOPNub9MetaClassC1Ev : 72 -> 76
+~ __ZN13AppleA7IOPNubC2EPK11OSMetaClass : 52 -> 56
+~ __ZN13AppleA7IOPNubC1EPK11OSMetaClass : 52 -> 56
+~ __ZN13AppleA7IOPNubD0Ev : 68 -> 72
+~ __ZN13AppleA7IOPNub9MetaClassC2Ev : 72 -> 76
+~ __ZNK13AppleA7IOPNub9MetaClass5allocEv : 104 -> 108
+~ __ZN13AppleA7IOPNubC1Ev : 88 -> 92
+~ __ZN13AppleA7IOPNubC2Ev : 88 -> 92
+~ __ZN13AppleA7IOPNub17withRegistryEntryEP15IORegistryEntryP9IOService : 436 -> 440
+~ __ZNK13AppleA7IOPNub11compareNameEP8OSStringPS1_ : 128 -> 132
+~ _GLOBAL__sub_I_AppleA7IOPNub.cpp : 80 -> 84
+~ __ZN20AppleIOPBufferWriter5writeEPKcz : 144 -> 148
+~ __ZN19AppleWrapperMailbox9MetaClassC1Ev : 72 -> 76
+~ __ZN19AppleWrapperMailboxC2EPK11OSMetaClass : 64 -> 68
+~ __ZN19AppleWrapperMailbox9MetaClassC2Ev : 72 -> 76
+~ __ZN19AppleWrapperMailbox5startEP9IOService : 1608 -> 1612
+~ __ZN19AppleWrapperMailbox20publishNumberToIORegEPKcy : 184 -> 188
+~ __ZN19AppleWrapperMailbox13_publishBelowEP15IORegistryEntry : 396 -> 400
+~ __ZN19AppleWrapperMailbox12_enablePowerEbj : 164 -> 168
+~ __ZN19AppleWrapperMailbox12ringDoorbellEj : 108 -> 112
+~ __ZN19AppleWrapperMailbox17setDoorbellActionEPFvP8OSObjectPvjES1_S2_j : 172 -> 176
+~ __ZN19AppleWrapperMailbox23enableMailboxInterruptsEb : 256 -> 260
+~ __ZN19AppleWrapperMailbox14_outboxHandlerEP22IOInterruptEventSource : 76 -> 80
+~ __ZN19AppleWrapperMailbox14waitForMailboxEj : 220 -> 224
+~ __ZN19AppleWrapperMailbox10getMailboxEjPvb : 280 -> 284
+~ __ZN19AppleWrapperMailbox14getMailboxBulkEPvPj : 192 -> 196
+~ __ZN19AppleWrapperMailbox13_inboxHandlerEP22IOInterruptEventSource : 216 -> 220
+~ __ZN19AppleWrapperMailbox11postMailboxEjPvjb : 636 -> 640
+~ __ZN19AppleWrapperMailbox25getWrapperPhysicalAddressEv : 44 -> 48
+~ __ZN19AppleWrapperMailbox21getMailboxDebugStatusEv : 176 -> 180
+~ __ZN19AppleWrapperMailbox21_get_integer_propertyEP15IORegistryEntryPKcPj : 252 -> 256
+~ __ZN19AppleWrapperMailbox29_get_integer_property_defaultEP15IORegistryEntryPKcj : 64 -> 68
+~ __ZN8AppleIOP10_lockInboxEv : 68 -> 72
+~ __ZN8AppleIOP12_unlockInboxEv : 64 -> 68
+~ __ZN8AppleIOP11_lockOutboxEv : 68 -> 72
+~ __ZN8AppleIOP13_unlockOutboxEv : 64 -> 68
+~ _GLOBAL__sub_I_AppleWrapperMailbox.cpp : 80 -> 84
+~ __ZN8AppleIOP9MetaClassC1Ev : 72 -> 76
+~ __ZN8AppleIOPC2EPK11OSMetaClass : 60 -> 64
+~ __ZN8AppleIOPD2Ev : 100 -> 104
+~ __ZN8AppleIOP9MetaClassC2Ev : 72 -> 76
+~ __ZN8AppleIOP10_lockInboxEv : 68 -> 72
+~ __ZN8AppleIOP12_unlockInboxEv : 64 -> 68
+~ __ZN8AppleIOP11_lockOutboxEv : 68 -> 72
+~ __ZN8AppleIOP13_unlockOutboxEv : 64 -> 68
+~ _GLOBAL__sub_I_AppleIOP.cpp : 80 -> 84
+~ __ZN18AppleIOPMailboxLog4initEjPKcj : 136 -> 140
+~ __ZN18AppleIOPMailboxLog6logMsgEPvjyj : 1024 -> 1028
+~ __ZN18AppleIOPMailboxLog10logTimeoutEy : 56 -> 60
+~ __ZN18AppleIOPMailboxLog10getMessageEjjPy : 328 -> 332
+~ __ZN18AppleIOPMailboxLog9formatLogER20AppleIOPBufferWriter : 812 -> 816
+~ __ZN10AppleA7IOP12_mapFirmwareEyP18IOMemoryDescriptorj : 24 -> 28
+~ __ZN10AppleA7IOP14_unmapFirmwareEv : 24 -> 28
+~ __ZN10AppleA7IOP7_runCPUEb : 24 -> 28
+~ __ZN10AppleA7IOP12_generateNMIEv : 24 -> 28
+~ __ZN10AppleA7IOP16_syncIOPTimebaseEv : 24 -> 28
+~ __ZN9os_detail21panic_trapping_policy4trapEPKc : 48 -> 52
+~ _ZN10AppleA7IOP5startEP9IOService.cold.1 : 44 -> 48
+~ _ZN10AppleA7IOP5startEP9IOService.cold.2 : 44 -> 48
+~ _ZN10AppleA7IOP5startEP9IOService.cold.3 : 44 -> 48
+~ _ZN10AppleA7IOP5startEP9IOService.cold.4 : 44 -> 48
+~ _ZN10AppleA7IOP5startEP9IOService.cold.5 : 44 -> 48
+~ _ZN10AppleA7IOP5startEP9IOService.cold.6 : 44 -> 48
+~ _ZN10AppleA7IOP5startEP9IOService.cold.7 : 44 -> 48
+~ _ZN10AppleA7IOP5startEP9IOService.cold.8 : 44 -> 48
+~ _ZN10AppleA7IOP5startEP9IOService.cold.9 : 44 -> 48
+~ _ZN10AppleA7IOP5startEP9IOService.cold.10 : 44 -> 48
+~ _ZN10AppleA7IOP19startCPUWithOptionsEP15IOSlaveFirmwarej.cold.1 : 56 -> 60
+~ _ZN10AppleA7IOP19startCPUWithOptionsEP15IOSlaveFirmwarej.cold.2 : 56 -> 60
+~ _ZN10AppleA7IOP7stopCPUEbb.cold.1 : 60 -> 64
+~ _ZN10AppleA7IOP16disablePowerLateEv.cold.1 : 44 -> 48
+~ _ZN10AppleA7IOP21_dartMapiBootFirmwareEP8IOMapper.cold.1 : 44 -> 48
+~ _ZN10AppleA7IOP21_dartMapiBootFirmwareEP8IOMapper.cold.2 : 24 -> 28
+~ _ZN10AppleA7IOP21_dartMapiBootFirmwareEP8IOMapper.cold.3 : 44 -> 48
+~ _ZN10AppleA7IOP21_dartMapiBootFirmwareEP8IOMapper.cold.5 : 44 -> 48
+~ _ZN10AppleA7IOP21_dartMapiBootFirmwareEP8IOMapper.cold.6 : 24 -> 28
+~ _ZN10AppleA7IOP21_dartMapiBootFirmwareEP8IOMapper.cold.7 : 24 -> 28
+~ _ZN10AppleA7IOP21_dartMapiBootFirmwareEP8IOMapper.cold.8 : 44 -> 48
+~ _ZN10AppleA7IOP21_dartMapiBootFirmwareEP8IOMapper.cold.9 : 44 -> 48
+~ _ZN10AppleA7IOP21_dartMapiBootFirmwareEP8IOMapper.cold.10 : 44 -> 48
+~ _ZN10AppleA7IOP21_dartMapiBootFirmwareEP8IOMapper.cold.11 : 44 -> 48
+~ _ZN10AppleA7IOP21_dartMapiBootFirmwareEP8IOMapper.cold.14 : 24 -> 28
+~ _ZN10AppleA7IOP24_dartMapMemoryDescriptorEP8IOMapperP18IOMemoryDescriptorPy.cold.1 : 56 -> 60
+~ _ZN10AppleA7IOP24_dartMapMemoryDescriptorEP8IOMapperP18IOMemoryDescriptorPy.cold.2 : 56 -> 60
+~ _ZN10AppleA7IOP17setDoorbellActionEPFvP8OSObjectPvjES1_S2_j.cold.1 : 56 -> 60
+~ _ZN10AppleA7IOP14_outboxHandlerEP22IOInterruptEventSource.cold.1 : 56 -> 60
+~ _ZN10AppleA7IOP14getMailboxBulkEPvPj.cold.1 : 56 -> 60
+~ _ZN10AppleA7IOP14getMailboxBulkEPvPj.cold.2 : 56 -> 60
+~ _ZN10AppleA7IOP11postMailboxEjPvjb.cold.1 : 56 -> 60
+~ _ZN10AppleA7IOP25getWrapperPhysicalAddressEv.cold.1 : 56 -> 60
+~ _ZN10AppleA7IOP25getWrapperPhysicalAddressEv.cold.2 : 56 -> 60
+~ _ZN20AppleIOPBufferWriter5writeEPKcz.cold.1 : 76 -> 80
+~ __ZN19AppleWrapperMailbox12_mapFirmwareEyP18IOMemoryDescriptorj : 24 -> 28
+~ __ZN19AppleWrapperMailbox14_unmapFirmwareEv : 24 -> 28
+~ __ZN19AppleWrapperMailbox7_runCPUEb : 24 -> 28
+~ __ZN19AppleWrapperMailbox12_generateNMIEv : 24 -> 28
+~ __ZN19AppleWrapperMailbox16_syncIOPTimebaseEv : 24 -> 28
+~ __ZN19AppleWrapperMailbox19startCPUWithOptionsEP15IOSlaveFirmwarej : 24 -> 28
+~ __ZN19AppleWrapperMailbox7stopCPUEbb : 24 -> 28
+~ __ZN19AppleWrapperMailbox16disablePowerLateEv : 24 -> 28
+~ __ZN19AppleWrapperMailbox21supportReleaseOnEntryEv : 24 -> 28
+~ _ZN19AppleWrapperMailbox5startEP9IOService.cold.1 : 44 -> 48
+~ _ZN19AppleWrapperMailbox5startEP9IOService.cold.2 : 44 -> 48
+~ _ZN19AppleWrapperMailbox5startEP9IOService.cold.3 : 44 -> 48
+~ _ZN19AppleWrapperMailbox5startEP9IOService.cold.4 : 44 -> 48
+~ _ZN19AppleWrapperMailbox5startEP9IOService.cold.5 : 44 -> 48
+~ _ZN19AppleWrapperMailbox5startEP9IOService.cold.6 : 44 -> 48
+~ _ZN19AppleWrapperMailbox5startEP9IOService.cold.7 : 44 -> 48
+~ _ZN19AppleWrapperMailbox5startEP9IOService.cold.8 : 44 -> 48
+~ _ZN19AppleWrapperMailbox17setDoorbellActionEPFvP8OSObjectPvjES1_S2_j.cold.1 : 56 -> 60
+~ _ZN19AppleWrapperMailbox14_outboxHandlerEP22IOInterruptEventSource.cold.1 : 56 -> 60
+~ _ZN19AppleWrapperMailbox14getMailboxBulkEPvPj.cold.1 : 56 -> 60
+~ _ZN19AppleWrapperMailbox14getMailboxBulkEPvPj.cold.2 : 56 -> 60
+~ _ZN19AppleWrapperMailbox25getWrapperPhysicalAddressEv.cold.1 : 56 -> 60
+~ _ZN19AppleWrapperMailbox25getWrapperPhysicalAddressEv.cold.2 : 56 -> 60
+~ _ZN18AppleIOPMailboxLog6logMsgEPvjyj.cold.1 : 16 -> 20
+~ _ZN18AppleIOPMailboxLog6logMsgEPvjyj.cold.2 : 16 -> 20
+~ _ZN18AppleIOPMailboxLog6logMsgEPvjyj.cold.9 : 16 -> 20
+~ _ZN18AppleIOPMailboxLog6logMsgEPvjyj.cold.10 : 16 -> 20
+```

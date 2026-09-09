@@ -1,0 +1,19 @@
+## uuidgen
+
+> `/usr/bin/uuidgen`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+
+```diff
+
+ 5027.0.69.0.0
+-  __TEXT.__text: 0x220
++  __TEXT.__text: 0x214
+   __TEXT.__auth_stubs: 0x90
+   __TEXT.__const: 0x40
+   __TEXT.__cstring: 0x1af
+Functions:
+~ sub_100000708 : 120 -> 108
+```

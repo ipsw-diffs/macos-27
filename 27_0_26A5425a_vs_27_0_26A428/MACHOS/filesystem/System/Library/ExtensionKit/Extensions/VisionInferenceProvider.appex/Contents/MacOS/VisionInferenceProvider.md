@@ -1,0 +1,36 @@
+## VisionInferenceProvider
+
+> `/System/Library/ExtensionKit/Extensions/VisionInferenceProvider.appex/Contents/MacOS/VisionInferenceProvider`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__eh_frame`
+- `__DATA.__objc_const`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+ 10.0.44.0.0
+-  __TEXT.__text: 0x2cec
++  __TEXT.__text: 0x2a34
+   __TEXT.__auth_stubs: 0x3f0
+   __TEXT.__const: 0x192
+   __TEXT.__swift5_typeref: 0x37
+
+   __TEXT.__swift_as_entry: 0x28
+   __TEXT.__swift_as_ret: 0x1c
+   __TEXT.__swift_as_cont: 0x14
+-  __TEXT.__unwind_info: 0x120
++  __TEXT.__unwind_info: 0x130
+   __TEXT.__eh_frame: 0x2c0
+   __DATA_CONST.__const: 0xa0
+   __DATA_CONST.__objc_imageinfo: 0x8
+```

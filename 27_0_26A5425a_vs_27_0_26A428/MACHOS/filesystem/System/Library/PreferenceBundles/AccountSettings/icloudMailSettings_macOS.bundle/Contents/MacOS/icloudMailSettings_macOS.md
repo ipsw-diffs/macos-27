@@ -1,0 +1,177 @@
+## icloudMailSettings_macOS
+
+> `/System/Library/PreferenceBundles/AccountSettings/icloudMailSettings_macOS.bundle/Contents/MacOS/icloudMailSettings_macOS`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+ 2027.0.5.0.0
+-  __TEXT.__text: 0x122ec
++  __TEXT.__text: 0x1178c
+   __TEXT.__auth_stubs: 0xb10
+   __TEXT.__objc_stubs: 0x260
+   __TEXT.__objc_methlist: 0xd0
+
+   __TEXT.__swift_as_entry: 0x70
+   __TEXT.__swift_as_ret: 0x54
+   __TEXT.__swift_as_cont: 0x2c
+-  __TEXT.__unwind_info: 0x620
++  __TEXT.__unwind_info: 0x7e8
+   __TEXT.__eh_frame: 0x864
+   __DATA_CONST.__const: 0xac0
+   __DATA_CONST.__objc_classlist: 0x40
+Functions:
+~ -[EndToEndEncryptionViewController .cxx_destruct] : 104 -> 92
+~ -[ICloudMailViewControllerProvider viewController] : 180 -> 168
+~ -[ICloudMailViewControllerProvider .cxx_destruct] : 80 -> 68
+~ __MSLogSystem : 68 -> 56
+~ ____MSLogSystem_block_invoke : 72 -> 60
+~ _$s24icloudMailSettings_macOS05EndToF22EncryptionViewProviderC24getSwiftUIViewController12appleAccount12dismissSheetSo06NSViewN0CSo9ACAccountC_yyctFZTo : 280 -> 268
+~ _$s24icloudMailSettings_macOS05EndToF22EncryptionViewProviderCACycfC : 44 -> 32
+~ _$s24icloudMailSettings_macOS11SwiftUIViewV4bodyQrvg : 1212 -> 1152
+~ _$s24icloudMailSettings_macOS11doSomethingyyF : 460 -> 440
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV22NavigationLinkWithDestV6_store33_9890905CA3F802B7A7885AFDE84FD034LL7SwiftUI17EnvironmentObjectVy04LiftW016RemoteStateStoreCGvpfi : 116 -> 104
+~ ___swift_closure_destructor : 72 -> 60
+~ ___swift_project_value_buffer : 56 -> 36
+~ _$s24icloudMailSettings_macOS11SwiftUIViewVwet : 72 -> 68
+~ __swift_closure_destructor.5 : 56 -> 44
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV4bodyQrvg7SwiftUI4ViewP04LiftM0E15contentRegistryyQrAH07ContentQ0CFQOyAgHE10dataSourceyQrAH0o6UIDataT0_pFQOyAH06RemoterN0V_Qo__Qo_yXEfU_ : 1176 -> 1116
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV22NavigationLinkWithDestV5title6LiftUI16StringResolvableOvg : 116 -> 104
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV22NavigationLinkWithDestV11destination6LiftUI13ReferenceableOyAC013RemoteContentM9ExtraDataVGvg : 128 -> 116
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV22NavigationLinkWithDestV9modifiersSay6LiftUI15AnyViewModifierVGvg : 56 -> 44
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV22NavigationLinkWithDestV5store6LiftUI16RemoteStateStoreCvg : 160 -> 148
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV22NavigationLinkWithDestV6$store7SwiftUI17EnvironmentObjectV7WrapperVy04LiftQ016RemoteStateStoreC_Gvg : 156 -> 144
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV22NavigationLinkWithDestV17resolveRemoteView33_9890905CA3F802B7A7885AFDE84FD034LLAC0p7ContentM9ExtraDataVSgyF : 880 -> 860
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV22NavigationLinkWithDestV10CodingKeys33_9890905CA3F802B7A7885AFDE84FD034LLOSHAASH4hash4intoys6HasherVz_tFTW : 136 -> 124
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV22NavigationLinkWithDestV10CodingKeys33_9890905CA3F802B7A7885AFDE84FD034LLOs23CustomStringConvertibleAAsAIP11descriptionSSvgTW : 60 -> 48
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV22NavigationLinkWithDestV10CodingKeys33_9890905CA3F802B7A7885AFDE84FD034LLOs28CustomDebugStringConvertibleAAsAIP16debugDescriptionSSvgTW : 60 -> 48
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV22NavigationLinkWithDestV4fromAEs7Decoder_p_tKcfC : 1444 -> 1364
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV22NavigationLinkWithDestV7SwiftUI4ViewAafGP4body4BodyQzvgTW : 136 -> 124
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV22NavigationLinkWithDestV6LiftUI14AnyViewContentAafGP03anyR005SwiftP00qR0VvgTW : 128 -> 116
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV22NavigationLinkWithDestV6LiftUI14AnyViewContentAafGP4view05SwiftP00R0_pvgTW : 128 -> 116
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV22NavigationLinkWithDestV6LiftUI14AnyViewContentAafGP11partialBody05SwiftP00R0_pvgTW : 136 -> 124
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataV11asDecodable6LiftUI0Q5StateOvg : 592 -> 572
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataV14unmodifiedBodyQrvg : 1724 -> 1644
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataV14unmodifiedBodyQrvgyycfU_ : 2768 -> 2752
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataV10CodingKeys33_9890905CA3F802B7A7885AFDE84FD034LLOSHAASH4hash4intoys6HasherVz_tFTW : 92 -> 80
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataV10CodingKeys33_9890905CA3F802B7A7885AFDE84FD034LLOs23CustomStringConvertibleAAsAIP11descriptionSSvgTW : 60 -> 48
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataV10CodingKeys33_9890905CA3F802B7A7885AFDE84FD034LLOs28CustomDebugStringConvertibleAAsAIP16debugDescriptionSSvgTW : 60 -> 48
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataV6create4withAE6LiftUI14DecodableStateO_tKFZ : 236 -> 216
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataV7PageIdsOSHAASH4hash4intoys6HasherVz_tFTW : 112 -> 100
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataV11QueryParamsOSHAASH4hash4intoys6HasherVz_tFTW : 128 -> 116
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataV7SwiftUI4ViewAafGP4body4BodyQzvgTW : 84 -> 72
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataV6LiftUI07AnyViewL0AafGP03anyS005SwiftQ00rS0VvgTW : 76 -> 64
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataV6LiftUI07AnyViewL0AafGP4view05SwiftQ00S0_pvgTW : 76 -> 64
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataV6LiftUI07AnyViewL0AafGP11partialBody05SwiftQ00S0_pvgTW : 84 -> 72
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV06TogglefgfH0C10CodingKeys33_9890905CA3F802B7A7885AFDE84FD034LLOSHAASH4hash4intoys6HasherVz_tFTW : 124 -> 112
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV06TogglefgfH0C10CodingKeys33_9890905CA3F802B7A7885AFDE84FD034LLOs23CustomStringConvertibleAAsAIP11descriptionSSvgTW : 60 -> 48
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV06TogglefgfH0C10CodingKeys33_9890905CA3F802B7A7885AFDE84FD034LLOs28CustomDebugStringConvertibleAAsAIP16debugDescriptionSSvgTW : 60 -> 48
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV06TogglefgfH0C4fromAEs7Decoder_p_tKcfc : 1764 -> 1664
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV06TogglefgfH0C13performAction4with10localStorey6LiftUI011RemoteStateP0C_AI05LocaltP0CtYaKF : 172 -> 160
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV06TogglefgfH0C13performAction4with10localStorey6LiftUI011RemoteStateP0C_AI05LocaltP0CtYaKFTQ0_ : 244 -> 192
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV06TogglefgfH0CfD : 256 -> 224
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV06TogglefgfH0C6LiftUI12RemoteActionAafGP07performO0yyYaKFTW : 168 -> 156
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV06TogglefgfH0C6LiftUI12RemoteActionAafGP07performO04withyAF0N10StateStoreC_tYaKFTW : 176 -> 164
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV06TogglefgfH0C6LiftUI12RemoteActionAafGP07performO04with10localStoreyAF0n5StateS0C_AF05LocaltS0CtYaKFTW : 176 -> 164
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV15AddressesLoadedC13performAction4with10localStorey6LiftUI011RemoteStateQ0C_AI05LocaluQ0CtYaKF : 160 -> 148
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV18RefreshCertificateC10CodingKeys33_9890905CA3F802B7A7885AFDE84FD034LLOSHAASH4hash4intoys6HasherVz_tFTW : 108 -> 96
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV18RefreshCertificateC10CodingKeys33_9890905CA3F802B7A7885AFDE84FD034LLOs23CustomStringConvertibleAAsAIP11descriptionSSvgTW : 60 -> 48
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV18RefreshCertificateC10CodingKeys33_9890905CA3F802B7A7885AFDE84FD034LLOs28CustomDebugStringConvertibleAAsAIP16debugDescriptionSSvgTW : 60 -> 48
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV18RefreshCertificateC4fromAEs7Decoder_p_tKcfc : 1436 -> 1356
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV18RefreshCertificateC13performAction4with10localStorey6LiftUI011RemoteStateQ0C_AI05LocaluQ0CtYaKF : 172 -> 160
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV18RefreshCertificateCfD : 216 -> 184
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV18RefreshCertificateC6LiftUI12RemoteActionAafGP07performP04with10localStoreyAF0o5StateT0C_AF05LocaluT0CtYaKFTW : 176 -> 164
+~ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_6LiftUI14DecodableStateOTt0g5Tf4g_n : 456 -> 436
+~ ___swift_project_boxed_opaque_existential_1 : 68 -> 48
+~ ___swift__destructor : 56 -> 44
+~ __swift__destructor.4 : 56 -> 44
+~ ___swift_closure_destructor : 184 -> 172
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataV14unmodifiedBodyQrvgyycfU_TA : 140 -> 108
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV22NavigationLinkWithDestV10CodingKeys33_9890905CA3F802B7A7885AFDE84FD034LLO8rawValueAHSgSS_tcfCTf4nd_n : 76 -> 68
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataV011updateStoreO033_9890905CA3F802B7A7885AFDE84FD034LL6forKey5valueySS_yptFTf4nnx_n : 524 -> 504
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataV4fromAE6LiftUI14DecodableStateO_tKcfCTf4nd_n : 2020 -> 1960
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataV4fromAEs7Decoder_p_tKcfCTf4nd_n : 740 -> 700
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataV11QueryParamsO8rawValueAGSgSS_tcfCTf4nd_n : 76 -> 68
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV06TogglefgfH0C10CodingKeys33_9890905CA3F802B7A7885AFDE84FD034LLO8rawValueAHSgSS_tcfCTf4nd_n : 76 -> 68
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV06TogglefgfH0C13performAction4with10localStorey6LiftUI011RemoteStateP0C_AI05LocaltP0CtYaKFTf4ndn_n : 296 -> 244
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV06TogglefgfH0C13performAction4with10localStorey6LiftUI011RemoteStateP0C_AI05LocaltP0CtYaKFTf4ndn_nTY0_ : 1228 -> 1204
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV06TogglefgfH0C13performAction4with10localStorey6LiftUI011RemoteStateP0C_AI05LocaltP0CtYaKFTf4ndn_nTQ1_ : 296 -> 244
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV06TogglefgfH0C13performAction4with10localStorey6LiftUI011RemoteStateP0C_AI05LocaltP0CtYaKFTf4ndn_nTQ2_ : 344 -> 292
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV15AddressesLoadedC13performAction4with10localStorey6LiftUI011RemoteStateQ0C_AI05LocaluQ0CtYaKFTf4ddd_n : 188 -> 156
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV15AddressesLoadedC13performAction4with10localStorey6LiftUI011RemoteStateQ0C_AI05LocaluQ0CtYaKFTf4ddd_nTY0_ : 752 -> 736
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV18RefreshCertificateC13performAction4with10localStorey6LiftUI011RemoteStateQ0C_AI05LocaluQ0CtYaKFTf4ndn_n : 308 -> 256
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV18RefreshCertificateC13performAction4with10localStorey6LiftUI011RemoteStateQ0C_AI05LocaluQ0CtYaKFTf4ndn_nTY0_ : 896 -> 884
+~ sub_b878 -> sub_b190 : 252 -> 216
+~ sub_b988 -> sub_b27c : 248 -> 216
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV26RemoteContentWithExtraDataVwet : 72 -> 68
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV06TogglefgfH0CMr : 260 -> 220
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV18RefreshCertificateCMr : 168 -> 148
+~ ___swift_destroy_boxed_opaque_existential_1Tm : 68 -> 48
+~ _$s2os6LoggerV24icloudMailSettings_macOSE7currentACvau : 100 -> 88
+~ _$s2os6LoggerV24icloudMailSettings_macOSE7currentACvsZ : 244 -> 224
+~ ___swift_allocate_value_buffer : 100 -> 80
+~ _$s10Foundation3URLV24icloudMailSettings_macOSE7baseUrlACSgyF : 564 -> 544
+~ _$s10Foundation3URLV24icloudMailSettings_macOSE15queryParametersSDyS2SGSgvg : 1112 -> 1072
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC03setfgfH6Status9isEnabled7account8callbackySb_So9ACAccountCySbctYaKFZ : 160 -> 148
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC14setEmailStatus12emailAddress8certType9isEnabled7accountySS_SSSbSo9ACAccountCtYaKFZ : 216 -> 204
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC24generateCertsIfNecessaryyyYaFZ : 188 -> 156
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC24generateCertsIfNecessaryyyYaFZTY0_ : 748 -> 732
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC7refreshyyF : 1128 -> 1108
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC07fetchIsfgfH2On7account8callbackySo9ACAccountC_ySbctYaKFZ : 160 -> 148
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC7refreshyyFSDySSSDyS2SGGSSXEfU0_ : 976 -> 956
+~ _$s10Foundation3URLV24icloudMailSettings_macOSE15appendQueryItem4name5valueySS_SSSgtF : 1148 -> 1088
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC7refreshyyFyyYaKcfU1_ : 192 -> 160
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC7refreshyyFyyYaKcfU1_TY0_ : 848 -> 836
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC18fetchEmailStatuses12emailAddress7account8callbackySS_So9ACAccountCySb_SbtctYaKFZ : 180 -> 168
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC15updateStoreData33_73AEF342233A3B22E66544BD029C7F83LL6forKey5valueySS_yptF : 524 -> 504
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelCfD : 72 -> 60
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfH4DataV15contentRegistry6LiftUI07ContentM0CvgZ : 132 -> 120
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfH4DataV15contentRegistry6LiftUI07ContentM0CvpZAEmTK : 140 -> 128
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation12URLQueryItemV_Tg5 : 480 -> 432
+~ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_SayAFGTgq5 : 244 -> 240
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 116 -> 112
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5 : 244 -> 236
+~ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5 : 120 -> 108
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_SSTg5 : 688 -> 668
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_SDyS2SGTg5 : 672 -> 652
+~ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_SDyS2SGTg5 : 380 -> 356
+~ _$ss17_NativeDictionaryV4copyyyFSS_SSTg5 : 376 -> 368
+~ _$ss17_NativeDictionaryV4copyyyFSS_SDyS2SGTg5 : 364 -> 360
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSDySSSDyS2SGG_Tg5 : 308 -> 300
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfH4DataV23certDetailsDestinations5emailSDySSSDyS2SGGSS_tFZTf4nd_n : 916 -> 896
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC03setfgfH6Status9isEnabled7account8callbackySb_So9ACAccountCySbctYaKFZTf4dddd_n : 188 -> 156
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC03setfgfH6Status9isEnabled7account8callbackySb_So9ACAccountCySbctYaKFZTf4dddd_nTY0_ : 440 -> 428
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC14setEmailStatus12emailAddress8certType9isEnabled7accountySS_SSSbSo9ACAccountCtYaKFZTf4nnndd_n : 200 -> 168
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC14setEmailStatus12emailAddress8certType9isEnabled7accountySS_SSSbSo9ACAccountCtYaKFZTf4nnndd_nTY0_ : 656 -> 644
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC7refreshyyFyyYaKcfU_TA : 180 -> 168
+~ ___swift_closure_destructorTm : 64 -> 52
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC7refreshyyFyyYaKcfU1_TA : 180 -> 168
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC7refreshyyFyyYaKcfU1_TATQ0_ : 220 -> 168
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC07fetchIsfgfH2On7account8callbackySo9ACAccountC_ySbctYaKFZTf4ddd_n : 188 -> 156
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC07fetchIsfgfH2On7account8callbackySo9ACAccountC_ySbctYaKFZTf4ddd_nTY0_ : 440 -> 428
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC18fetchEmailStatuses12emailAddress7account8callbackySS_So9ACAccountCySb_SbtctYaKFZTf4nddd_n : 192 -> 160
+~ _$s24icloudMailSettings_macOS05EndToF19EncryptionMacOSViewV0fgfhiJ5ModelC18fetchEmailStatuses12emailAddress7account8callbackySS_So9ACAccountCySb_SbtctYaKFZTf4nddd_nTY0_ : 556 -> 544
+~ _$s24icloudMailSettings_macOS05EndToF31EncryptionMacOSLiftUIDataSourceC7request3for10Foundation10URLRequestVAF3URLV_tKF : 1048 -> 1008
+~ _$s24icloudMailSettings_macOS05EndToF31EncryptionMacOSLiftUIDataSourceC4data3for10Foundation4DataVAF10URLRequestV_tYaKFTY0_ : 188 -> 176
+~ _$s24icloudMailSettings_macOS05EndToF31EncryptionMacOSLiftUIDataSourceC4data3for10Foundation4DataVAF10URLRequestV_tYaKFTQ1_ : 352 -> 288
+~ _$s24icloudMailSettings_macOS05EndToF31EncryptionMacOSLiftUIDataSourceCfD : 56 -> 44
+~ _$s24icloudMailSettings_macOS05EndToF31EncryptionMacOSLiftUIDataSourceC6LiftUI0mkL0AadEP4data3for10Foundation4DataVAI10URLRequestV_tYaKFTWTY0_ : 188 -> 176
+```

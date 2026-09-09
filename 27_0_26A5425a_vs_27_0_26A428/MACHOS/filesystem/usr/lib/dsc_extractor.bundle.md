@@ -1,0 +1,82 @@
+## dsc_extractor.bundle
+
+> `/usr/lib/dsc_extractor.bundle`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+
+```diff
+
+ 27062.0.0.0.0
+-  __TEXT.__text: 0xbd4c
++  __TEXT.__text: 0xbbd4
+   __TEXT.__auth_stubs: 0x340
+   __TEXT.__const: 0x178
+-  __TEXT.__cstring: 0xf4b
++  __TEXT.__cstring: 0xfb6
+   __DATA_CONST.__const: 0xb30
+   __DATA_CONST.__auth_got: 0x1a0
+   __DATA_CONST.__got: 0x28
+
+   - /usr/lib/libc++.1.dylib
+   Functions: 180
+   Symbols:   311
+-  CStrings:  123
++  CStrings:  131
+ 
+Functions:
+~ __ZN14CStringBuilder6appendENSt3__117basic_string_viewIcNS0_11char_traitsIcEEEE : 140 -> 136
+~ __ZN11Diagnostics10clearErrorEv : 100 -> 80
+~ __ZN11Diagnostics5errorEPKc12va_list_wrap : 296 -> 276
+~ __ZN13dsc_extractor20SharedCacheExtractor12extractCacheEPvm : 120 -> 108
+~ __ZN13dsc_extractor10CacheFiles6unloadEv : 96 -> 84
+~ __ZNSt3__16vectorINS_4pairIyyEENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_ : 192 -> 188
+~ __ZNSt3__16vectorIN13dsc_extractor11MappedCacheENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKS2_EEEPS2_DpOT_ : 232 -> 228
+~ __ZNSt3__16vectorIN13dsc_extractor8seg_infoENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_ : 192 -> 188
+~ __ZNSt3__16vectorIN13dsc_extractor25SharedCacheDylibExtractorENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKPKcRNS0_INS1_8seg_infoENS3_ISB_EEEEEEEPS2_DpOT_ : 276 -> 272
+~ __ZNSt3__16vectorIN13dsc_extractor25SharedCacheDylibExtractorENS_9allocatorIS2_EEE16__destroy_vectorclB9fqn220106Ev : 84 -> 72
+~ __ZNSt3__16vectorIhNS_9allocatorIhEEE7reserveEm : 184 -> 172
+~ __ZN13dsc_extractor17LinkeditOptimizerI3x86E17optimize_linkeditERNSt3__16vectorIhNS3_9allocatorIhEEEEyNS3_8optionalIPK15DyldSharedCacheEE : 2640 -> 2644
+~ __ZNSt3__16vectorIhNS_9allocatorIhEEE24__emplace_back_slow_pathIJRKhEEEPhDpOT_ : 196 -> 192
+~ ____ZN13dsc_extractor17LinkeditOptimizerI3x86E21optimize_loadcommandsEPN5dyld313MachOAnalyzerEPK15DyldSharedCache_block_invoke : 752 -> 740
+~ ___copy_helper_block_8_32r40r : 80 -> 68
+~ ___destroy_helper_block_8_32r40r : 68 -> 56
+~ __ZNSt3__16vectorIP21linkedit_data_commandNS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_ : 208 -> 204
+~ __ZNSt3__16vectorI11macho_nlistI9Pointer32I12LittleEndianEENS_9allocatorIS5_EEE7reserveEm : 196 -> 184
+~ __ZNSt3__16vectorIhNS_9allocatorIhEEE18__insert_with_sizeB9fqn220106INS_17_ClassicAlgPolicyEPKhS7_EENS_11__wrap_iterIPhEENS8_IS7_EET0_T1_l : 548 -> 544
+~ __ZNSt3__16vectorIZN13dsc_extractor17LinkeditOptimizerI3x86E17optimize_linkeditERNS0_IhNS_9allocatorIhEEEEyNS_8optionalIPK15DyldSharedCacheEEE8ReExportNS5_ISE_EEE16__destroy_vectorclB9fqn220106Ev : 132 -> 120
+~ __ZNSt3__112__destroy_atB9fqn220106IZN13dsc_extractor17LinkeditOptimizerI3x86E17optimize_linkeditERNS_6vectorIhNS_9allocatorIhEEEEyNS_8optionalIPK15DyldSharedCacheEEE8ReExportEEvPT_ : 88 -> 76
+~ __ZNSt3__16vectorIZN13dsc_extractor17LinkeditOptimizerI3x86E17optimize_linkeditERNS0_IhNS_9allocatorIhEEEEyNS_8optionalIPK15DyldSharedCacheEEE8ReExportNS5_ISE_EEE24__emplace_back_slow_pathIJSE_EEEPSE_DpOT_ : 268 -> 264
+~ __ZNSt3__16vectorI11macho_nlistI9Pointer32I12LittleEndianEENS_9allocatorIS5_EEE24__emplace_back_slow_pathIJRKS5_EEEPS5_DpOT_ : 232 -> 228
+~ __ZNSt3__16vectorIhNS_9allocatorIhEEE18__insert_with_sizeB9fqn220106INS_17_ClassicAlgPolicyEPhS6_EENS_11__wrap_iterIS6_EENS7_IPKhEET0_T1_l : 516 -> 512
+~ __ZNSt3__16vectorIhNS_9allocatorIhEEE18__insert_with_sizeB9fqn220106INS_17_ClassicAlgPolicyEPcS6_EENS_11__wrap_iterIPhEENS7_IPKhEET0_T1_l : 564 -> 560
+~ __ZN13dsc_extractor17LinkeditOptimizerI6x86_64E17optimize_linkeditERNSt3__16vectorIhNS3_9allocatorIhEEEEyNS3_8optionalIPK15DyldSharedCacheEE : 2552 -> 2556
+~ ____ZN13dsc_extractor17LinkeditOptimizerI6x86_64E21optimize_loadcommandsEPN5dyld313MachOAnalyzerEPK15DyldSharedCache_block_invoke : 752 -> 740
+~ __ZNSt3__16vectorI11macho_nlistI9Pointer64I12LittleEndianEENS_9allocatorIS5_EEE7reserveEm : 164 -> 152
+~ __ZN13dsc_extractor17LinkeditOptimizerI3armE17optimize_linkeditERNSt3__16vectorIhNS3_9allocatorIhEEEEyNS3_8optionalIPK15DyldSharedCacheEE : 2640 -> 2644
+~ ____ZN13dsc_extractor17LinkeditOptimizerI3armE21optimize_loadcommandsEPN5dyld313MachOAnalyzerEPK15DyldSharedCache_block_invoke : 752 -> 740
+~ __ZN13dsc_extractor17LinkeditOptimizerI5arm64E17optimize_linkeditERNSt3__16vectorIhNS3_9allocatorIhEEEEyNS3_8optionalIPK15DyldSharedCacheEE : 2552 -> 2556
+~ ____ZN13dsc_extractor17LinkeditOptimizerI5arm64E21optimize_loadcommandsEPN5dyld313MachOAnalyzerEPK15DyldSharedCache_block_invoke : 752 -> 740
+~ __ZN13dsc_extractor17LinkeditOptimizerI8arm64_32E17optimize_linkeditERNSt3__16vectorIhNS3_9allocatorIhEEEEyNS3_8optionalIPK15DyldSharedCacheEE : 2640 -> 2644
+~ ____ZN13dsc_extractor17LinkeditOptimizerI8arm64_32E21optimize_loadcommandsEPN5dyld313MachOAnalyzerEPK15DyldSharedCache_block_invoke : 752 -> 740
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKcNS_6vectorIN13dsc_extractor8seg_infoENS_9allocatorIS6_EEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS5_11CStringHashENS5_13CStringEqualsEEENS_21__unordered_map_equalIS3_SE_SG_SF_EENS7_ISE_EEE17__deallocate_nodeB9fqn220106EPNS_11__hash_nodeISA_PvEE : 68 -> 56
+~ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIPKcNS_6vectorIN13dsc_extractor8seg_infoENS_9allocatorIS6_EEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS5_11CStringHashENS5_13CStringEqualsEEENS_21__unordered_map_equalIS3_SE_SG_SF_EENS7_ISE_EEE16__emplace_uniqueB9fqn220106IJRKNS_21piecewise_construct_tENS_5tupleIJRSD_EEENSQ_IJEEEEEENSC_INS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEEbEEDpOT_ENKUlSR_SP_OSS_OST_E_clESR_SP_S14_S15_ : 540 -> 536
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKcNS_6vectorIN13dsc_extractor8seg_infoENS_9allocatorIS6_EEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS5_11CStringHashENS5_13CStringEqualsEEENS_21__unordered_map_equalIS3_SE_SG_SF_EENS7_ISE_EEE8__rehashILb1EEEvm : 228 -> 212
+~ ___copy_helper_block_8_32b40r : 80 -> 68
+~ ___destroy_helper_block_8_32b40r : 68 -> 56
+~ __ZNK6mach_o11GenericTrie14recursiveVisitEmmmRbU13block_pointerFvNSt3__14spanIKhLm18446744073709551615EEES1_EU13block_pointerFb7CStringymmS1_EPNS_5ErrorE : 760 -> 752
+~ ____ZNK6mach_o11GenericTrie7forEachEU13block_pointerFv7CStringNSt3__14spanIKhLm18446744073709551615EEERbE_block_invoke : 136 -> 124
+~ ___copy_helper_block_8_32b40rc : 80 -> 68
+~ __ZNK6mach_o11ExportsTrie23terminalPayloadToSymbolE7CStringNSt3__14spanIKhLm18446744073709551615EEERNS_6SymbolE : 956 -> 928
+~ __ZNK6mach_o12UnsafeHeader18forEachLoadCommandEU13block_pointerFvPK12load_commandRbE : 488 -> 476
+CStrings:
++ "16777228--2147483636"
++ "arm64.x1"
++ "arm64.x2"
++ "arm64e.x1"
++ "arm64e.x1.kernel"
++ "arm64e.x1.old"
++ "arm64e.x2"
++ "arm64e.x2.kernel"
+```

@@ -1,0 +1,44 @@
+## DeviceTreeKit
+
+> `/System/Library/PrivateFrameworks/DeviceTreeKit.framework/Versions/A/DeviceTreeKit`
+
+```diff
+
+ 509.0.3.0.0
+-  __TEXT.__text: 0x680c
++  __TEXT.__text: 0x67fc
+   __TEXT.__const: 0x93e
+   __TEXT.__cstring: 0xde
+   __TEXT.__swift5_typeref: 0x21b
+Functions:
+~ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlF13DeviceTreeKit0gH14NodePropertiesV_TB5 : 464 -> 460
+~ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlF13DeviceTreeKit0gH8NodePathV_TB5 : 588 -> 576
+~ _OUTLINED_FUNCTION_20 : 32 -> 24
+~ _OUTLINED_FUNCTION_21 : 64 -> 32
+~ _OUTLINED_FUNCTION_22 : 20 -> 64
+~ _OUTLINED_FUNCTION_23 : 28 -> 20
+~ _OUTLINED_FUNCTION_24 : 36 -> 28
+~ _OUTLINED_FUNCTION_25 : 20 -> 36
+~ _OUTLINED_FUNCTION_27 : 36 -> 20
+~ _OUTLINED_FUNCTION_28 : 16 -> 36
+~ _OUTLINED_FUNCTION_29 : 12 -> 16
+~ _OUTLINED_FUNCTION_30 : 8 -> 20
+~ _OUTLINED_FUNCTION_31 : 52 -> 12
+~ _OUTLINED_FUNCTION_32 : 48 -> 8
+~ _OUTLINED_FUNCTION_33 : 28 -> 52
+~ _OUTLINED_FUNCTION_34 : 44 -> 48
+~ _OUTLINED_FUNCTION_35 : 44 -> 28
+~ _OUTLINED_FUNCTION_36 : 28 -> 44
+~ _OUTLINED_FUNCTION_38 : 16 -> 28
+~ _OUTLINED_FUNCTION_39 : 16 -> 44
+~ _OUTLINED_FUNCTION_41 : 40 -> 16
+~ _OUTLINED_FUNCTION_42 : 40 -> 16
+~ _OUTLINED_FUNCTION_43 : 24 -> 40
+~ _OUTLINED_FUNCTION_44 : 24 -> 40
+~ _OUTLINED_FUNCTION_47 : 8 -> 24
+~ _OUTLINED_FUNCTION_49 : 20 -> 8
+~ _OUTLINED_FUNCTION_50 : 12 -> 20
+~ _OUTLINED_FUNCTION_51 : 20 -> 12
+~ _OUTLINED_FUNCTION_52 : 12 -> 20
+~ _OUTLINED_FUNCTION_55 : 20 -> 12
+```

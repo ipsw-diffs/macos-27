@@ -1,0 +1,424 @@
+## icloudmailagent
+
+> `/usr/libexec/icloudmailagent`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+ 2027.0.5.0.0
+-  __TEXT.__text: 0x4111c
++  __TEXT.__text: 0x3ef98
+   __TEXT.__auth_stubs: 0x15d0
+   __TEXT.__objc_stubs: 0xb00
+   __TEXT.__objc_methlist: 0x60c
+
+   __TEXT.__swift_as_ret: 0x54
+   __TEXT.__swift_as_cont: 0xc4
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0xe50
+-  __TEXT.__eh_frame: 0x16d0
++  __TEXT.__unwind_info: 0x10f8
++  __TEXT.__eh_frame: 0x16e0
+   __DATA_CONST.__const: 0x1c70
+   __DATA_CONST.__objc_classlist: 0x58
+   __DATA_CONST.__objc_protolist: 0x60
+Functions:
+~ _$s15icloudmailagent21MCCSecretAgentServiceC6sharedACvgZ : 92 -> 80
+~ _$s15icloudmailagent21MCCSecretAgentServiceCACyc33_FD030EA9734CAEA132D0BB2655CEB72CLlfc : 644 -> 624
+~ _$s15icloudmailagent21MCCSecretAgentServiceC18pingWithcompletionyyySb_s5Error_pSgtcF : 472 -> 452
+~ _$s15icloudmailagent21MCCSecretAgentServiceC18pingWithcompletionyyySb_s5Error_pSgtcFTo : 92 -> 80
+~ _$s15icloudmailagent21MCCSecretAgentServiceC20predictCommerceEmail4with10completionySo18MCCCategoryContextC_ySDys11AnyHashableVypGSg_s5Error_pSgtctF : 536 -> 516
+~ _$s15icloudmailagent21MCCSecretAgentServiceC20predictCommerceEmail4with10completionySo18MCCCategoryContextC_ySDys11AnyHashableVypGSg_s5Error_pSgtctFTo : 176 -> 164
+~ _$s15icloudmailagent21MCCSecretAgentServiceC12isModelReady10completionyySb_s5Error_pSgtc_tF : 528 -> 508
+~ _$s15icloudmailagent21MCCSecretAgentServiceC19invokeModelDownload10completionyySb_s5Error_pSgtc_tF : 528 -> 508
+~ _$s15icloudmailagent21MCCSecretAgentServiceC16getIABCategoryID_10completionySS_ySi_s5Error_pSgtctF : 588 -> 568
+~ _$s15icloudmailagent21MCCSecretAgentServiceC13getPKCategory9forDomain10completionySS_ySo18PKMerchantCategoryV_s5Error_pSgtctF : 588 -> 568
+~ _$s15icloudmailagent21MCCSecretAgentServiceC16isPersonalDomain_10completionySS_ySb_s5Error_pSgtctF : 588 -> 568
+~ _$s15icloudmailagent21MCCSecretAgentServiceC16getIABCategoryID_10completionySS_ySi_s5Error_pSgtctFToTm : 200 -> 188
+~ _$s15icloudmailagent21MCCSecretAgentServiceC20getBlackPearlVersion10completionyySDys11AnyHashableVypGSg_s5Error_pSgtc_tF : 528 -> 508
+~ _$s15icloudmailagent21MCCSecretAgentServiceC12isModelReady10completionyySb_s5Error_pSgtc_tFToTm : 156 -> 144
+~ _$s15icloudmailagent21MCCSecretAgentServiceC25isCategorizationSupported9forLocale10completionySS_ySb_s5Error_pSgtXEtF : 588 -> 568
+~ _$s15icloudmailagent21MCCSecretAgentServiceC37registerCategoryRulesCallbackListener_17notificationTypes10completionySo21NSXPCListenerEndpointC_So08MCCRulesI16NotificationTypeVySb_s5Error_pSgtctFTo : 152 -> 140
+~ _$s15icloudmailagent21MCCSecretAgentServiceC25syncRecategorizationRules_10completionySaySo14RCOverrideRuleCG_ySb_s5Error_pSgtctF : 924 -> 884
+~ _$s15icloudmailagent21MCCSecretAgentServiceC25syncRecategorizationRules_10completionySaySo14RCOverrideRuleCG_ySb_s5Error_pSgtctFTo : 160 -> 148
+~ _$s15icloudmailagent21MCCSecretAgentServiceC21clearAllUserOverrides13withTimestamp10completionySd_ySb_s5Error_pSgtctF : 564 -> 544
+~ _$s15icloudmailagent21MCCSecretAgentServiceC21clearAllUserOverrides13withTimestamp10completionySd_ySb_s5Error_pSgtctFTo : 108 -> 96
+~ _$s15icloudmailagent21MCCSecretAgentServiceC28syncNewOldCategoryTimestampsyySDySSSo8NSNumberCGF : 472 -> 452
+~ _$s15icloudmailagent21MCCSecretAgentServiceC28syncNewOldCategoryTimestampsyySDySSSo8NSNumberCGFTo : 140 -> 128
+~ _$s15icloudmailagent21MCCSecretAgentServiceC13notifyWebRuleyySo010RCOverrideG0CF : 140 -> 128
+~ _$s15icloudmailagent21MCCSecretAgentServiceC13notifyWebRuleyySo010RCOverrideG0CFTo : 180 -> 168
+~ _$s15icloudmailagent21MCCSecretAgentServiceC31notifyFullSyncCategoryOverridesyySaySo14RCOverrideRuleCGFTo : 144 -> 132
+~ _$s15icloudmailagent21MCCSecretAgentServiceCfETo : 76 -> 64
+~ _$s15icloudmailagent25CategorizationSyncManagerC10newOldLock33_D3B0FCFF93C920EE1A43E2A9ED08676CLLSo6NSLockCvpfi : 48 -> 36
+~ _$s15icloudmailagent11APNSManagerC15connectionQueue33_998E1D3CCAB34753418533F4D78E05C6LLSo17OS_dispatch_queueCvpfi : 600 -> 580
+~ _$s15icloudmailagent11APNSManagerC19pdsRegistrarService33_998E1D3CCAB34753418533F4D78E05C6LLAA012PDSRegistrarE0Cvpfi : 48 -> 36
+~ _$s15icloudmailagent18DeviceLockObserverC5queue33_97E0FB811766326C1D34F8E6B30218F9LLSo012OS_dispatch_E0Cvpfi : 600 -> 580
+~ ___swift_project_value_buffer : 56 -> 36
+~ _$s15icloudmailagent10APIManagerC5queue33_D65B718F5C28AC3F7B0CC41A5A0186BCLLSo012OS_dispatch_C7_serialCvpfi : 600 -> 580
+~ _$s15icloudmailagent25CategorizationSyncManagerC9syncToWeb33_D3B0FCFF93C920EE1A43E2A9ED08676CLL5rulesySaySo14RCOverrideRuleCG_tFyyYacfU_TA : 192 -> 180
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5 : 248 -> 196
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TQ0_ : 224 -> 172
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA : 184 -> 172
+~ _$s15icloudmailagent21MCCSecretAgentServiceC18pingWithcompletionyyySb_s5Error_pSgtcF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5G12_pSgIegyg_TR0I1C0kL0VSo0N0CSgIeyByy_Tf1En_nTf4dg_n : 472 -> 452
+~ _$s15icloudmailagent21MCCSecretAgentServiceC25syncRecategorizationRules_10completionySaySo14RCOverrideRuleCG_ySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5K12_pSgIegyg_TR0M1C0oP0VSo0R0CSgIeyByy_Tf1nEn_nTf4nng_n : 916 -> 876
+~ _$s15icloudmailagent21MCCSecretAgentServiceC21clearAllUserOverrides13withTimestamp10completionySd_ySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5L12_pSgIegyg_TR0N1C0pQ0VSo0S0CSgIeyByy_Tf1nEn_nTf4nng_n : 556 -> 536
+~ ___swift_allocate_boxed_opaque_existential_1 : 100 -> 80
+~ ___swift_closure_destructorTm : 72 -> 60
+~ $s15icloudmailagent25CategorizationSyncManagerC9syncToWeb33_D3B0FCFF93C920EE1A43E2A9ED08676CLL5rulesySaySo14RCOverrideRuleCG_tFyyYacfU_TA.12 : 192 -> 180
+~ $s15icloudmailagent25CategorizationSyncManagerC9syncToWeb33_D3B0FCFF93C920EE1A43E2A9ED08676CLL5rulesySaySo14RCOverrideRuleCG_tFyyYacfU_TA.12TQ0_ : 220 -> 168
+~ __swift_closure_destructor.15 : 56 -> 44
+~ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.17 : 184 -> 172
+~ __swift_closure_destructor.20 : 56 -> 44
+~ _$s15icloudmailagent25MCCAgentConnectionManagerCACycfC : 44 -> 32
+~ _$s15icloudmailagent25MCCAgentConnectionManagerC14sharedInstanceACvgZ : 92 -> 80
+~ _$s15icloudmailagent25MCCAgentConnectionManagerC14sharedInstanceACvgZTo : 92 -> 80
+~ sub_100007088 -> sub_100006cf4 : 60 -> 48
+~ _$s15icloudmailagent25MCCAgentConnectionManagerC5startyyFTm : 760 -> 740
+~ _$s15icloudmailagent25MCCAgentConnectionManagerC8listener_015shouldAcceptNewC0SbSo13NSXPCListenerC_So15NSXPCConnectionCtF : 1476 -> 1456
+~ _$s15icloudmailagent25MCCAgentConnectionManagerC8listener_015shouldAcceptNewC0SbSo13NSXPCListenerC_So15NSXPCConnectionCtFyycfU_Tm : 444 -> 424
+~ ___swift_destroy_boxed_opaque_existential_0 : 68 -> 48
+~ _$s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_ : 116 -> 104
+~ _$s15icloudmailagent25CategorizationSyncManagerC37registerCategoryRulesCallbackListener8endpoint17notificationTypes10completionySo21NSXPCListenerEndpointC_So08MCCRulesI16NotificationTypeVySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5S12_pSgIegyg_TR0U1C0wX0VSo0Z0CSgIeyByy_Tf1nnEn_n : 2992 -> 2972
+~ _$s15icloudmailagent25CategorizationSyncManagerC37registerCategoryRulesCallbackListener8endpoint17notificationTypes10completionySo21NSXPCListenerEndpointC_So08MCCRulesI16NotificationTypeVySb_s5Error_pSgtctF : 2992 -> 2972
+~ _$s15icloudmailagent25CategorizationSyncManagerC25syncRecategorizationRules_10completionySaySo14RCOverrideRuleCG_ySb_s5Error_pSgtctF : 488 -> 468
+~ _$s15icloudmailagent25CategorizationSyncManagerC28syncNewOldCategoryTimestampsyySDySSSo8NSNumberCGF : 3100 -> 3000
+~ _$s15icloudmailagent25CategorizationSyncManagerC19notifyRuleListeners9overridesSbSaySo010RCOverrideF0CG_tF : 1596 -> 1576
+~ _$s15icloudmailagent25CategorizationSyncManagerC06notifyC12AllListeners9overridesSbSaySo14RCOverrideRuleCG_tF : 1596 -> 1576
+~ _$s15icloudmailagent25CategorizationSyncManagerC21notifyNewOldListeners10categoriesSbSDySSSdG_tF : 1924 -> 1896
+~ _$sIeg_IeyB_TR : 68 -> 56
+~ _$s15icloudmailagent25CategorizationSyncManagerC14sharedInstanceACvgZ : 92 -> 80
+~ _$s15icloudmailagent25CategorizationSyncManagerC14sharedInstanceACvgZTo : 92 -> 80
+~ _$s15icloudmailagent25CategorizationSyncManagerC19listenForDeviceLock33_D3B0FCFF93C920EE1A43E2A9ED08676CLLyyFySbcfU_ : 512 -> 492
+~ _$s15icloudmailagent25CategorizationSyncManagerC21retryAnyPendingPushes33_D3B0FCFF93C920EE1A43E2A9ED08676CLLyyF : 752 -> 732
+~ _$s15icloudmailagent25CategorizationSyncManagerC16handleNewOldPush5stateySDySSSdG_tF : 1108 -> 1080
+~ _$s15icloudmailagent25CategorizationSyncManagerC07initApiD8IfNeeded33_D3B0FCFF93C920EE1A43E2A9ED08676CLLyyF : 728 -> 696
+~ _$s15icloudmailagent25CategorizationSyncManagerC9syncToWeb33_D3B0FCFF93C920EE1A43E2A9ED08676CLL5rulesySaySo14RCOverrideRuleCG_tFyyYacfU_ : 288 -> 256
+~ _$s15icloudmailagent25CategorizationSyncManagerC9syncToWeb33_D3B0FCFF93C920EE1A43E2A9ED08676CLL5rulesySaySo14RCOverrideRuleCG_tFyyYacfU_TY0_ : 1088 -> 1064
+~ _$s15icloudmailagent25CategorizationSyncManagerC9syncToWeb33_D3B0FCFF93C920EE1A43E2A9ED08676CLL5rulesySaySo14RCOverrideRuleCG_tFyyYacfU_TQ1_ : 256 -> 204
+~ _$s15icloudmailagent25CategorizationSyncManagerC9syncToWeb33_D3B0FCFF93C920EE1A43E2A9ED08676CLL5rulesySaySo14RCOverrideRuleCG_tFyyYacfU_TY2_ : 564 -> 540
+~ _$s15icloudmailagent25CategorizationSyncManagerC9syncToWeb33_D3B0FCFF93C920EE1A43E2A9ED08676CLL5rulesySaySo14RCOverrideRuleCG_tFyyYacfU_TY3_ : 904 -> 880
+~ _$s15icloudmailagent25CategorizationSyncManagerC5startyyF : 904 -> 884
+~ _$s15icloudmailagent25CategorizationSyncManagerC5startyyFTo : 60 -> 48
+~ _$s15icloudmailagent25CategorizationSyncManagerC14startPingTimer33_D3B0FCFF93C920EE1A43E2A9ED08676CLLyyF : 688 -> 668
+~ _$s15icloudmailagent25CategorizationSyncManagerC14startPingTimer33_D3B0FCFF93C920EE1A43E2A9ED08676CLLyyFySo7NSTimerCYbcfU_ : 656 -> 636
+~ _$s15icloudmailagent25CategorizationSyncManagerC14startPingTimer33_D3B0FCFF93C920EE1A43E2A9ED08676CLLyyFySo7NSTimerCYbcfU_yAC16ClientConnectionAELLVXEfU_ : 852 -> 832
+~ _$sSo7NSTimerCIeghg_ABIeyBhy_TR : 100 -> 88
+~ _$s15icloudmailagent25CategorizationSyncManagerC10fetchRulesyyF : 2208 -> 2108
+~ _$s15icloudmailagent25CategorizationSyncManagerC10fetchRulesyyFySScfU_ : 484 -> 464
+~ _$s15icloudmailagent25CategorizationSyncManagerC21clearAllUserOverrides9timestampySd_tF : 900 -> 860
+~ _$s15icloudmailagent25CategorizationSyncManagerC21clearAllUserOverrides9timestampySd_tFyyYacfU_ : 268 -> 236
+~ _$s15icloudmailagent25CategorizationSyncManagerC21clearAllUserOverrides9timestampySd_tFyyYacfU_TY0_ : 568 -> 544
+~ _$s15icloudmailagent25CategorizationSyncManagerC21clearAllUserOverrides9timestampySd_tFyyYacfU_TQ1_ : 284 -> 232
+~ _$s15icloudmailagent25CategorizationSyncManagerC21clearAllUserOverrides9timestampySd_tFyyYacfU_TY2_ : 412 -> 400
+~ _$s15icloudmailagent25CategorizationSyncManagerC21clearAllUserOverrides9timestampySd_tFyyYacfU_TY3_ : 732 -> 720
+~ _$s15icloudmailagent25CategorizationSyncManagerC19fetchRecatOverrides33_D3B0FCFF93C920EE1A43E2A9ED08676CLL13callingMethodySS_tFyyYacfU_ : 448 -> 416
+~ _$s15icloudmailagent25CategorizationSyncManagerC19fetchRecatOverrides33_D3B0FCFF93C920EE1A43E2A9ED08676CLL13callingMethodySS_tFyyYacfU_TQ0_ : 240 -> 188
+~ _$s15icloudmailagent25CategorizationSyncManagerC19fetchRecatOverrides33_D3B0FCFF93C920EE1A43E2A9ED08676CLL13callingMethodySS_tFyyYacfU_TY1_ : 1816 -> 1772
+~ _$s15icloudmailagent25CategorizationSyncManagerC19fetchRecatOverrides33_D3B0FCFF93C920EE1A43E2A9ED08676CLL13callingMethodySS_tFyyYacfU_TQ2_ : 296 -> 244
+~ _$s15icloudmailagent25CategorizationSyncManagerC19fetchRecatOverrides33_D3B0FCFF93C920EE1A43E2A9ED08676CLL13callingMethodySS_tFyyYacfU_TY3_ : 1960 -> 1948
+~ _$s15icloudmailagent25CategorizationSyncManagerC19fetchRecatOverrides33_D3B0FCFF93C920EE1A43E2A9ED08676CLL13callingMethodySS_tFyyYacfU_TY4_ : 740 -> 728
+~ _$s15icloudmailagent25CategorizationSyncManagerC06shouldC3All33_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushS2b_tYaF : 220 -> 188
+~ _$s15icloudmailagent25CategorizationSyncManagerC06shouldC3All33_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushS2b_tYaFTY0_ : 984 -> 960
+~ _$s15icloudmailagent25CategorizationSyncManagerC06shouldC3All33_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushS2b_tYaFTQ1_ : 380 -> 316
+~ _$s15icloudmailagent25CategorizationSyncManagerC06shouldC3All33_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushS2b_tYaFTY2_ : 416 -> 404
+~ _$s15icloudmailagent25CategorizationSyncManagerC21monitorNetworkChanges33_D3B0FCFF93C920EE1A43E2A9ED08676CLLyyF : 1012 -> 972
+~ _$s15icloudmailagent25CategorizationSyncManagerC21monitorNetworkChanges33_D3B0FCFF93C920EE1A43E2A9ED08676CLLyyFy0F06NWPathVcfU_ : 1168 -> 1128
+~ _$s15icloudmailagent25CategorizationSyncManagerC8newTimer33_D3B0FCFF93C920EE1A43E2A9ED08676CLLSo7NSTimerCyFyAGYbcfU_ : 632 -> 612
+~ _$s15icloudmailagent25CategorizationSyncManagerC16syncPendingRules33_D3B0FCFF93C920EE1A43E2A9ED08676CLLyyF : 904 -> 864
+~ _$s15icloudmailagent25CategorizationSyncManagerCfETo : 284 -> 272
+~ _$s15icloudmailagent25CategorizationSyncManagerC015throttledNewOldC8ToServer33_D3B0FCFF93C920EE1A43E2A9ED08676CLLyyF : 1628 -> 1588
+~ _$s15icloudmailagent25CategorizationSyncManagerC015throttledNewOldC8ToServer33_D3B0FCFF93C920EE1A43E2A9ED08676CLLyyFyyYacfU_ : 192 -> 160
+~ _$s15icloudmailagent25CategorizationSyncManagerC015throttledNewOldC8ToServer33_D3B0FCFF93C920EE1A43E2A9ED08676CLLyyFyyYacfU_TY0_ : 248 -> 224
+~ _$s15icloudmailagent25CategorizationSyncManagerC015throttledNewOldC8ToServer33_D3B0FCFF93C920EE1A43E2A9ED08676CLLyyFyyYacfU_TQ1_ : 336 -> 272
+~ _$s15icloudmailagent25CategorizationSyncManagerC015throttledNewOldC8ToServer33_D3B0FCFF93C920EE1A43E2A9ED08676CLLyyFyyYacfU_TY2_ : 552 -> 540
+~ _$s15icloudmailagent25CategorizationSyncManagerC06handleC7AllPushyyF : 456 -> 436
+~ _$s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_ : 416 -> 364
+~ _$s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TQ0_ : 240 -> 188
+~ _$s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TY1_ : 2280 -> 2256
+~ _$s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TQ2_ : 308 -> 256
+~ _$s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TY3_ : 1188 -> 1176
+~ _$s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TY4_ : 548 -> 536
+~ _$s15icloudmailagent25CategorizationSyncManagerC37registerCategoryRulesCallbackListener8endpoint17notificationTypes10completionySo21NSXPCListenerEndpointC_So08MCCRulesI16NotificationTypeVySb_s5Error_pSgtctFyycfU_ : 540 -> 520
+~ _$s15icloudmailagent25CategorizationSyncManagerC37registerCategoryRulesCallbackListener8endpoint17notificationTypes10completionySo21NSXPCListenerEndpointC_So08MCCRulesI16NotificationTypeVySb_s5Error_pSgtctFyycfU0_ : 1932 -> 1912
+~ _$s15icloudmailagent25CategorizationSyncManagerC17eligibleListeners33_D3B0FCFF93C920EE1A43E2A9ED08676CLL2ofSaySo15NSXPCConnectionCGSo32MCCRulesListenerNotificationTypeV_tF : 552 -> 548
+~ _$s15icloudmailagent25CategorizationSyncManagerC20didReceiveNewPayload7payload5topicySDys11AnyHashableVypG_SStF : 3016 -> 2988
+~ _$s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_10Foundation3URLV_Tg5 : 296 -> 276
+~ _$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5ErrorRd__lFSS_So8NSNumberCs5NeverOTg5087$s15icloudmailagent25CategorizationSyncManagerC28syncNewOldCategoryTimestampsyySDySSSo8G28CGFSbSS3key_AF5valuet_tXEfU_Tf1cn_n : 648 -> 640
+~ _$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5ErrorRd__lFADs13_UnsafeBitsetVqd__YKXEfU_SS_So8NSNumberCs5NeverOTg5 : 412 -> 408
+~ _$ss17_NativeDictionaryV07extractB05using5countAByxq_Gs13_UnsafeBitsetV_SitFSS_So8NSNumberCTg5 : 576 -> 560
+~ _$s2os18OSLogInterpolationV06appendC0_7privacy10attributesys5Error_pyXA_AA0B7PrivacyVSStFSo8NSObjectCycfu_ : 56 -> 44
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF15icloudmailagent25CategorizationSyncManagerC16ClientConnection33_D3B0FCFF93C920EE1A43E2A9ED08676CLLV_Tg5 : 268 -> 260
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF15icloudmailagent13GroupedSenderV_Tg5 : 284 -> 276
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF15icloudmailagent15GroupedOverrideV_Tg5 : 268 -> 260
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC15icloudmailagent15GroupedOverrideV_Tt1g5 : 132 -> 128
+~ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_SayAFGTgq5 : 244 -> 240
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 116 -> 112
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5 : 244 -> 236
+~ _$sxq_xq_Iegnnrr_x3key_q_5valuetx_q_tIegnr_SHRzs5ErrorRd__r0__lTRSS_So8NSNumberCs5NeverOTG5064$sSD5merge_16uniquingKeysWithySDyxq_Gn_q_q__q_tqd__YKXEtqd__YKs5c26Rd__lFx_q_tx_q_tcfU_SS_So8d3Cs5E4OTG5Tf3nnpf_n : 76 -> 64
+~ ___swift_closure_destructor : 56 -> 44
+~ ___swift__destructor : 56 -> 44
+~ _$s15icloudmailagent25CategorizationSyncManagerC11syncAllowed33_D3B0FCFF93C920EE1A43E2A9ED08676CLL13callingMethodSbSS_tFTf4nd_n : 2128 -> 2112
+~ _$s15icloudmailagent25CategorizationSyncManagerC15getAppleAccount33_D3B0FCFF93C920EE1A43E2A9ED08676CLLSo9ACAccountCSgyFTf4d_n : 1344 -> 1324
+~ _$s15icloudmailagent25CategorizationSyncManagerC12getFrequency33_D3B0FCFF93C920EE1A43E2A9ED08676CLL3forSiSgSS_tFTf4nd_n : 1496 -> 1480
+~ _$s15icloudmailagent25CategorizationSyncManagerC21clearAllUserOverrides9timestampySd_tFyyYacfU_TA : 196 -> 184
+~ _$s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA : 196 -> 184
+~ _$s15icloudmailagent25CategorizationSyncManagerC16ClientConnection33_D3B0FCFF93C920EE1A43E2A9ED08676CLLVwet : 72 -> 68
+~ __swift_closure_destructor.4Tm : 64 -> 52
+~ _$s15icloudmailagent25CategorizationSyncManagerC06isFullC7Enabled33_D3B0FCFF93C920EE1A43E2A9ED08676CLLSbyFTf4d_n : 1376 -> 1360
+~ _$s15icloudmailagent25CategorizationSyncManagerC013isTimeForFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLLSbyFTf4d_n : 1304 -> 1264
+~ _$s15icloudmailagent25CategorizationSyncManagerC19fetchRecatOverrides33_D3B0FCFF93C920EE1A43E2A9ED08676CLL13callingMethodySS_tFyyYacfU_TA : 180 -> 168
+~ __swift_closure_destructor.126 : 56 -> 44
+~ _$s15icloudmailagent25CategorizationSyncManagerC015throttledNewOldC8ToServer33_D3B0FCFF93C920EE1A43E2A9ED08676CLLyyFyyYacfU_TA : 192 -> 180
+~ __swift_closure_destructor.24Tm : 76 -> 64
+~ _$s15icloudmailagent19PDSRegistrarServiceCACycfc : 740 -> 720
+~ _$s15icloudmailagent19PDSRegistrarServiceC10deregister4dsidySS_tF : 1744 -> 1724
+~ _$s15icloudmailagent19PDSRegistrarServiceC10getPDSUser33_C04E6B8FDA9EA30026389657049B319CLL4dsidSo0E0CSgSSSg_tFTf4nd_n : 664 -> 644
+~ _$s15icloudmailagent19PDSRegistrarServiceC8register4dsid11environment5topicySSSg_So18PDSPushEnvironmentVAA9ConstantsV5TopicOtFTf4nndn_n : 2064 -> 2044
+~ _$sSa15icloudmailagentE7chunked4intoSaySayxGGSi_tFAA13GroupedSenderV_Tg5 : 880 -> 872
+~ _$sSa15icloudmailagentE7chunked4intoSaySayxGGSi_tFADSiXEfU_ : 212 -> 208
+~ _$sSTsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lF : 1700 -> 1600
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF15icloudmailagent25CategorizationSyncManagerC16ClientConnection33_D3B0FCFF93C920EE1A43E2A9ED08676CLLV_Tg5 : 268 -> 260
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSay15icloudmailagent13GroupedSenderVG_Tg5Tm : 308 -> 300
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 268 -> 260
+~ _$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFSD6ValuesVySS15icloudmailagent15GroupedOverrideV_G_Tg5 : 384 -> 380
+~ _$s15icloudmailagent13GroupedSenderVwet : 92 -> 88
+~ _$s15icloudmailagent15GroupedOverrideVwet : 72 -> 68
+~ _$s15icloudmailagent10HTTPMethodOSHAASH4hash4intoys6HasherVz_tFTW : 96 -> 84
+~ ___swift_project_boxed_opaque_existential_1 : 68 -> 48
+~ _$s10Foundation4DataV15_RepresentationOWOe : 84 -> 72
+~ $s15icloudmailagent15APIRequestModelC4body10Foundation4DataVSgvM.resume.0 : 328 -> 316
+~ _$s10Foundation4DataV15_RepresentationOWOy : 84 -> 72
+~ $s15icloudmailagent15APIRequestModelC10httpMethodAA10HTTPMethodOvM.resume.0 : 224 -> 212
+~ $s15icloudmailagent15APIRequestModelC4uuidSSvM.resume.0Tm : 288 -> 276
+~ $s15icloudmailagent15APIRequestModelC10authMethodAC04AuthE0OvM.resume.0 : 224 -> 212
+~ _$s15icloudmailagent15APIRequestModelC9savedDate10Foundation0E0Vvi : 236 -> 224
+~ _$s15icloudmailagent15APIRequestModelC9savedDate10Foundation0E0VvM : 480 -> 460
+~ $s15icloudmailagent15APIRequestModelC9savedDate10Foundation0E0VvM.resume.0 : 448 -> 436
+~ $s15icloudmailagent15APIRequestModelC10retryCountSivM.resume.0 : 220 -> 208
+~ _$s15icloudmailagent15APIRequestModelC4uuid4body10httpMethod13accountBagKey04authG09savedDateACSS_10Foundation4DataVSgAA10HTTPMethodOAC07AccountiJ0VAC04AuthG0OAJ0M0Vtcfc : 1204 -> 1184
+~ _$s15icloudmailagent10HTTPMethodO13mccHttpMethod13MCCFoundationABOvgTm : 128 -> 116
+~ _$s15icloudmailagent15APIRequestModelC10AuthMethodO0D28TokenOrBasicHeaderCodingKeys33_213BE74E6AAB6583624EFB301234668FLLOs23CustomStringConvertibleAAsAIP11descriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent15APIRequestModelC10AuthMethodO0D28TokenOrBasicHeaderCodingKeys33_213BE74E6AAB6583624EFB301234668FLLOs28CustomDebugStringConvertibleAAsAIP16debugDescriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent15APIRequestModelC10AuthMethodO05BasicD10CodingKeys33_213BE74E6AAB6583624EFB301234668FLLOs23CustomStringConvertibleAAsAIP11descriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent15APIRequestModelC10AuthMethodO05BasicD10CodingKeys33_213BE74E6AAB6583624EFB301234668FLLOs28CustomDebugStringConvertibleAAsAIP16debugDescriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent15APIRequestModelC10AuthMethodO10CodingKeys33_213BE74E6AAB6583624EFB301234668FLLOs23CustomStringConvertibleAAsAIP11descriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent15APIRequestModelC10AuthMethodO10CodingKeys33_213BE74E6AAB6583624EFB301234668FLLOs28CustomDebugStringConvertibleAAsAIP16debugDescriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent15APIRequestModelC10AuthMethodO6encode2toys7Encoder_p_tKF : 704 -> 644
+~ _$s15icloudmailagent15APIRequestModelC13AccountBagKeyV10CodingKeys33_213BE74E6AAB6583624EFB301234668FLLOs23CustomStringConvertibleAAsAIP11descriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent15APIRequestModelC13AccountBagKeyV10CodingKeys33_213BE74E6AAB6583624EFB301234668FLLOs28CustomDebugStringConvertibleAAsAIP16debugDescriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent15APIRequestModelC13AccountBagKeyV6encode2toys7Encoder_p_tKF : 408 -> 388
+~ _$s15icloudmailagent15APIRequestModelC11ACDataClassO10CodingKeys33_213BE74E6AAB6583624EFB301234668FLLOs23CustomStringConvertibleAAsAIP11descriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent15APIRequestModelC11ACDataClassO10CodingKeys33_213BE74E6AAB6583624EFB301234668FLLOs28CustomDebugStringConvertibleAAsAIP16debugDescriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent15APIRequestModelC11ACDataClassO14MailCodingKeys33_213BE74E6AAB6583624EFB301234668FLLOs23CustomStringConvertibleAAsAIP11descriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent15APIRequestModelC11ACDataClassO14MailCodingKeys33_213BE74E6AAB6583624EFB301234668FLLOs28CustomDebugStringConvertibleAAsAIP16debugDescriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent15APIRequestModelC11ACDataClassO6encode2toys7Encoder_p_tKF : 472 -> 432
+~ _$s15icloudmailagent15APIRequestModelC11backingDataAC05SwiftE007BackingE0_pAC0C0AeFPRts_XP_tcfc : 584 -> 564
+~ _$s15icloudmailagent15APIRequestModelCfD : 160 -> 128
+~ _$s15icloudmailagent15APIRequestModelC9hashValueSivg : 172 -> 152
+~ $s15icloudmailagent15APIRequestModelC21persistentBackingData05SwiftF00eF0_pAC0C0AeFPRts_XPvM.resume.0Tm : 152 -> 140
+~ _$s15icloudmailagent15APIRequestModelCSQAASQ2eeoiySbx_xtFZTW : 128 -> 116
+~ _$s15icloudmailagent15APIRequestModelC10AuthMethodO4fromAEs7Decoder_p_tKcfCTf4nd_n : 1120 -> 1060
+~ _$s15icloudmailagent15APIRequestModelC13AccountBagKeyV4fromAEs7Decoder_p_tKcfCTf4nd_n : 444 -> 424
+~ _$s15icloudmailagent15APIRequestModelC11ACDataClassO4fromAEs7Decoder_p_tKcfCTf4nd_n : 748 -> 708
+~ ___swift_assign_boxed_opaque_existential_1 : 532 -> 448
+~ _$s15icloudmailagent15APIRequestModelC14schemaMetadataSay9SwiftData6SchemaC08PropertyE0VGvgZTf4d_n : 1008 -> 968
+~ _$s15icloudmailagent15APIRequestModelCMr : 192 -> 172
+~ _$s15icloudmailagent15APIRequestModelC13AccountBagKeyVwet : 72 -> 68
+~ _$s15icloudmailagent34FetchSenderOverridesAPIRequestBodyV10CodingKeys33_2C2590EA5471944A1C9DD788A7FAA326LLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent34FetchSenderOverridesAPIRequestBodyV10CodingKeys33_2C2590EA5471944A1C9DD788A7FAA326LLOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent34FetchSenderOverridesAPIRequestBodyV6encode2toys7Encoder_p_tKF : 476 -> 456
+~ _$s15icloudmailagent31FetchSenderOverridesAPIResponseV10CodingKeys33_2C2590EA5471944A1C9DD788A7FAA326LLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent31FetchSenderOverridesAPIResponseV10CodingKeys33_2C2590EA5471944A1C9DD788A7FAA326LLOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent31FetchSenderOverridesAPIResponseV6encode2toys7Encoder_p_tKF : 412 -> 392
+~ _$s15icloudmailagent14SenderOverrideV10CodingKeys33_2C2590EA5471944A1C9DD788A7FAA326LLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent14SenderOverrideV10CodingKeys33_2C2590EA5471944A1C9DD788A7FAA326LLOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent14SenderOverrideV6encode2toys7Encoder_p_tKF : 512 -> 492
+~ _$s15icloudmailagent27StartFullSyncAPIRequestBodyV10CodingKeys33_2C2590EA5471944A1C9DD788A7FAA326LLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent27StartFullSyncAPIRequestBodyV10CodingKeys33_2C2590EA5471944A1C9DD788A7FAA326LLOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent27StartFullSyncAPIRequestBodyV6encode2toys7Encoder_p_tKF : 320 -> 300
+~ _$s15icloudmailagent27StartFullSyncAPIRequestBodyVSEAASE6encode2toys7Encoder_p_tKFTW : 316 -> 296
+~ _$s15icloudmailagent24StartFullSyncAPIResponseV10CodingKeys33_2C2590EA5471944A1C9DD788A7FAA326LLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent24StartFullSyncAPIResponseV10CodingKeys33_2C2590EA5471944A1C9DD788A7FAA326LLOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW : 60 -> 48
+~ _$s15icloudmailagent24StartFullSyncAPIResponseV4fromACs7Decoder_p_tKcfC : 340 -> 320
+~ _$s15icloudmailagent24StartFullSyncAPIResponseVSeAASe4fromxs7Decoder_p_tKcfCTW : 356 -> 336
+~ _$s15icloudmailagent31FetchSenderOverridesAPIResponseV4fromACs7Decoder_p_tKcfCTf4nd_n : 436 -> 416
+~ _$s15icloudmailagent14SenderOverrideV4fromACs7Decoder_p_tKcfCTf4nd_n : 904 -> 884
+~ _$s15icloudmailagent14SenderOverrideVwet : 72 -> 68
+~ _$s15icloudmailagent11APNSManagerC5startyyF : 732 -> 692
+~ $s15icloudmailagent11APNSManagerC8delegateAA0B8Delegate_pSgvM.resume.0 : 136 -> 124
+~ ___swift__destructor : 56 -> 44
+~ _$s15icloudmailagent11APNSManagerC6sharedACvgZ : 92 -> 80
+~ _$s15icloudmailagent11APNSManagerC6sharedACvgZTo : 92 -> 80
+~ _$s15icloudmailagent11APNSManagerCACyc33_998E1D3CCAB34753418533F4D78E05C6Llfc : 740 -> 720
+~ _$s15icloudmailagent11APNSManagerC21observeAccountChanges33_998E1D3CCAB34753418533F4D78E05C6LLyyF : 652 -> 632
+~ _$s15icloudmailagent11APNSManagerC5startyyFyyYbcfU_ : 836 -> 816
+~ _$s15icloudmailagent11APNSManagerC15setupConnection33_998E1D3CCAB34753418533F4D78E05C6LLyyF : 652 -> 632
+~ _$s15icloudmailagent11APNSManagerC5startyyFTo : 60 -> 48
+~ _$s15icloudmailagent11APNSManagerC15setupConnection33_998E1D3CCAB34753418533F4D78E05C6LLyyFySo18AAURLConfigurationCSg_s5Error_pSgtYbcfU_ : 2088 -> 2068
+~ _$sSo18AAURLConfigurationCSgs5Error_pSgIeghgg_ACSo7NSErrorCSgIeyBhyy_TR : 144 -> 132
+~ _$s15icloudmailagent11APNSManagerC4stopyyF : 460 -> 440
+~ _$s15icloudmailagent11APNSManagerCfETo : 124 -> 112
+~ _$s15icloudmailagent11APNSManagerC21observeAccountChanges33_998E1D3CCAB34753418533F4D78E05C6LLyyFySo9ACAccountCSg_So22ACXPCAccountChangeTypeatcfU_ : 1564 -> 1544
+~ _$sSo9ACAccountCSgSo22ACXPCAccountChangeTypeaIeggy_AcEIeyByy_TR : 124 -> 112
+~ _$s15icloudmailagent11APNSManagerC10connection_21didReceivePublicTokenySo13APSConnectionCSg_10Foundation4DataVSgtFTo : 184 -> 172
+~ _$s15icloudmailagent11APNSManagerC10connection_10didReceiveySo13APSConnectionCSg_So18APSIncomingMessageCSgtFTo : 124 -> 112
+~ _$s15icloudmailagent11APNSManagerC10connection_21didReceivePublicTokenySo13APSConnectionCSg_10Foundation4DataVSgtFTf4dnd_n : 780 -> 760
+~ _$s15icloudmailagent11APNSManagerC10connection_10didReceiveySo13APSConnectionCSg_So18APSIncomingMessageCSgtFTf4dnn_n : 1132 -> 1112
+~ ___swift_closure_destructor : 64 -> 52
+~ _$s15icloudmailagent18DeviceLockObserverCACycfc : 732 -> 712
+~ _$s15icloudmailagent18DeviceLockObserverC011registerForC18StateNotifications33_97E0FB811766326C1D34F8E6B30218F9LLyyF : 660 -> 640
+~ _$s15icloudmailagent18DeviceLockObserverC17updateLockedState33_97E0FB811766326C1D34F8E6B30218F9LLyyF : 1044 -> 1024
+~ _$ss5Int32VIegy_ABIeyBy_TR : 84 -> 72
+~ _$s15icloudmailagent18DeviceLockObserverCfD : 72 -> 60
+~ ___swift__destructor : 56 -> 44
+~ _$s2os6LoggerV15icloudmailagentE18secretAgentServiceACvauTm : 84 -> 72
+~ _$s2os6LoggerV15icloudmailagentE18secretAgentServiceACvgZTm : 144 -> 132
+~ ___swift_allocate_value_buffer : 100 -> 80
+~ _$s15icloudmailagent9ConstantsV13APNSEventNameOSHAASH4hash4intoys6HasherVz_tFTW : 144 -> 132
+~ _$s15icloudmailagent9ConstantsV13APNSEventNameO8rawValueAESgSS_tcfCTf4nd_n : 76 -> 68
+~ _$s15icloudmailagent10APIManagerC24syncRecategorizationRule4ruleAA16EmptyAPIResponseVAA15GroupedOverrideV_tYaKF : 340 -> 288
+~ _$s15icloudmailagent10APIManagerC24syncRecategorizationRule4ruleAA16EmptyAPIResponseVAA15GroupedOverrideV_tYaKFTY0_ : 1776 -> 1752
+~ _$s15icloudmailagent10APIManagerC24syncRecategorizationRule4ruleAA16EmptyAPIResponseVAA15GroupedOverrideV_tYaKFTQ1_ : 296 -> 244
+~ _$s15icloudmailagent10APIManagerC24syncRecategorizationRule4ruleAA16EmptyAPIResponseVAA15GroupedOverrideV_tYaKFTY2_ : 184 -> 172
+~ _$s15icloudmailagent10APIManagerC24syncRecategorizationRule4ruleAA16EmptyAPIResponseVAA15GroupedOverrideV_tYaKFTY3_ : 184 -> 172
+~ _$s15icloudmailagent10APIManagerC21clearAllUserOverrides9timestampAA16EmptyAPIResponseVSd_tYaKF : 332 -> 280
+~ _$s15icloudmailagent10APIManagerC21clearAllUserOverrides9timestampAA16EmptyAPIResponseVSd_tYaKFTY0_ : 1760 -> 1748
+~ _$s15icloudmailagent10APIManagerC21clearAllUserOverrides9timestampAA16EmptyAPIResponseVSd_tYaKFTQ1_ : 296 -> 244
+~ _$s15icloudmailagent10APIManagerC21clearAllUserOverrides9timestampAA16EmptyAPIResponseVSd_tYaKFTY2_ : 184 -> 172
+~ _$s15icloudmailagent10APIManagerC21clearAllUserOverrides9timestampAA16EmptyAPIResponseVSd_tYaKFTY3_ : 184 -> 172
+~ _$s15icloudmailagent10APIManagerC26fetchRecategorizationRules12changedSince11includeKeys5limit0H16SyncedFromDeviceAA31FetchSenderOverridesAPIResponseVSd_SbSiSbSgtYaKF : 296 -> 244
+~ _$s15icloudmailagent10APIManagerC26fetchRecategorizationRules12changedSince11includeKeys5limit0H16SyncedFromDeviceAA31FetchSenderOverridesAPIResponseVSd_SbSiSbSgtYaKFTY0_ : 1536 -> 1524
+~ _$s15icloudmailagent10APIManagerC26fetchRecategorizationRules12changedSince11includeKeys5limit0H16SyncedFromDeviceAA31FetchSenderOverridesAPIResponseVSd_SbSiSbSgtYaKFTQ1_ : 276 -> 224
+~ _$s15icloudmailagent10APIManagerC26fetchRecategorizationRules12changedSince11includeKeys5limit0H16SyncedFromDeviceAA31FetchSenderOverridesAPIResponseVSd_SbSiSbSgtYaKFTY2_ : 144 -> 132
+~ _$s15icloudmailagent10APIManagerC26fetchRecategorizationRules12changedSince11includeKeys5limit0H16SyncedFromDeviceAA31FetchSenderOverridesAPIResponseVSd_SbSiSbSgtYaKFTY3_ : 140 -> 128
+~ _$s15icloudmailagent10APIManagerC20retryPendingRequestsyyF : 736 -> 676
+~ _$s15icloudmailagent10APIManagerC28syncNewOldCategoryTimestamps10categoriesAA16EmptyAPIResponseVSDySSSo8NSNumberCG_tYaKF : 328 -> 276
+~ _$s15icloudmailagent10APIManagerC28syncNewOldCategoryTimestamps10categoriesAA16EmptyAPIResponseVSDySSSo8NSNumberCG_tYaKFTY0_ : 2616 -> 2596
+~ _$s15icloudmailagent10APIManagerC28syncNewOldCategoryTimestamps10categoriesAA16EmptyAPIResponseVSDySSSo8NSNumberCG_tYaKFTQ1_ : 296 -> 244
+~ _$s15icloudmailagent10APIManagerC28syncNewOldCategoryTimestamps10categoriesAA16EmptyAPIResponseVSDySSSo8NSNumberCG_tYaKFTY2_ : 208 -> 196
+~ _$s15icloudmailagent10APIManagerC28syncNewOldCategoryTimestamps10categoriesAA16EmptyAPIResponseVSDySSSo8NSNumberCG_tYaKFTY3_ : 208 -> 196
+~ _$s15icloudmailagent10APIManagerC19shouldStartFullSyncSbyYaKF : 284 -> 232
+~ _$s15icloudmailagent10APIManagerC19shouldStartFullSyncSbyYaKFTY0_ : 1512 -> 1500
+~ _$s15icloudmailagent10APIManagerC19shouldStartFullSyncSbyYaKFTQ1_ : 280 -> 228
+~ _$s15icloudmailagent10APIManagerC19shouldStartFullSyncSbyYaKFTY2_ : 144 -> 132
+~ _$s15icloudmailagent10APIManagerC19shouldStartFullSyncSbyYaKFTY3_ : 144 -> 132
+~ _$s15icloudmailagent15APIRequestModelC9savedDate10Foundation0E0VvpACTk : 392 -> 372
+~ _$s15icloudmailagent10APIManagerCACyKcfc : 1316 -> 1236
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA16EmptyAPIResponseV_Tg5 : 680 -> 568
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA16EmptyAPIResponseV_Tg5TY0_ : 660 -> 648
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA16EmptyAPIResponseV_Tg5TQ1_ : 276 -> 224
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA16EmptyAPIResponseV_Tg5TY2_ : 2296 -> 2284
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA16EmptyAPIResponseV_Tg5TY3_ : 1416 -> 1404
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA16EmptyAPIResponseV_Tg5TQ4_ : 392 -> 340
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA16EmptyAPIResponseV_Tg5TY5_ : 892 -> 880
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA16EmptyAPIResponseV_Tg5TY6_ : 1540 -> 1528
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA24StartFullSyncAPIResponseV_Tg5 : 680 -> 568
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA24StartFullSyncAPIResponseV_Tg5TY0_ : 664 -> 652
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA24StartFullSyncAPIResponseV_Tg5TQ1_ : 276 -> 224
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA24StartFullSyncAPIResponseV_Tg5TY2_ : 2300 -> 2288
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA24StartFullSyncAPIResponseV_Tg5TY3_ : 1424 -> 1412
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA24StartFullSyncAPIResponseV_Tg5TQ4_ : 392 -> 340
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA24StartFullSyncAPIResponseV_Tg5TY5_ : 900 -> 888
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA24StartFullSyncAPIResponseV_Tg5TY6_ : 1548 -> 1536
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA31FetchSenderOverridesAPIResponseV_Tg5 : 680 -> 568
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA31FetchSenderOverridesAPIResponseV_Tg5TY0_ : 660 -> 648
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA31FetchSenderOverridesAPIResponseV_Tg5TQ1_ : 276 -> 224
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA31FetchSenderOverridesAPIResponseV_Tg5TY2_ : 2300 -> 2288
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA31FetchSenderOverridesAPIResponseV_Tg5TY3_ : 1420 -> 1408
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA31FetchSenderOverridesAPIResponseV_Tg5TQ4_ : 392 -> 340
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA31FetchSenderOverridesAPIResponseV_Tg5TY5_ : 900 -> 888
+~ _$s15icloudmailagent10APIManagerC7perform33_D65B718F5C28AC3F7B0CC41A5A0186BCLL5model10retryLater7attemptxAA15APIRequestModelC_SbSiSgtYaKSeRzlFAA31FetchSenderOverridesAPIResponseV_Tg5TY6_ : 1544 -> 1532
+~ _$s15icloudmailagent10APIManagerC13insertRequest33_D65B718F5C28AC3F7B0CC41A5A0186BCLLyyAA15APIRequestModelCFTm : 692 -> 652
+~ _$s15icloudmailagent10APIManagerC15getModelContext33_D65B718F5C28AC3F7B0CC41A5A0186BCLL9SwiftData0dE0CSgyF : 1444 -> 1404
+~ _$s15icloudmailagent10APIManagerC6saveDB33_D65B718F5C28AC3F7B0CC41A5A0186BCLLyyF : 932 -> 912
+~ _$s15icloudmailagent10APIManagerC13insertRequest33_D65B718F5C28AC3F7B0CC41A5A0186BCLLyyAA15APIRequestModelCFyyYbcfU_Tm : 928 -> 908
+~ _$s15icloudmailagent10APIManagerCfD : 88 -> 56
+~ _$s15icloudmailagent10APIManagerC20retryPendingRequestsyyFyyYbcfU_ : 2416 -> 2356
+~ _$s15icloudmailagent10APIManagerC20retryPendingRequestsyyFyyYbcfU_yyYacfU_ : 356 -> 304
+~ _$s15icloudmailagent10APIManagerC20retryPendingRequestsyyFyyYbcfU_yyYacfU_TY0_ : 1292 -> 1268
+~ _$s15icloudmailagent10APIManagerC20retryPendingRequestsyyFyyYbcfU_yyYacfU_TQ1_ : 256 -> 204
+~ _$s15icloudmailagent10APIManagerC20retryPendingRequestsyyFyyYbcfU_yyYacfU_TY2_ : 1752 -> 1728
+~ _$s15icloudmailagent10APIManagerC20retryPendingRequestsyyFyyYbcfU_yyYacfU_TY3_ : 3192 -> 3168
+~ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5 : 68 -> 56
+~ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo8NSStringC_Tg5 : 68 -> 56
+~ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5 : 120 -> 108
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSo8NSStringC_ypTg5 : 640 -> 620
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_So8NSNumberCTg5 : 672 -> 652
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_15icloudmailagent15GroupedOverrideVTg5 : 728 -> 712
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_SSTg5 : 688 -> 668
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_ypTg5 : 700 -> 680
+~ _$ss17_NativeDictionaryV4copyyyFSo8NSStringC_ypTg5 : 384 -> 376
+~ _$ss17_NativeDictionaryV4copyyyFSS_So8NSNumberCTg5 : 364 -> 360
+~ _$ss17_NativeDictionaryV4copyyyFSS_15icloudmailagent15GroupedOverrideVTg5 : 404 -> 400
+~ _$ss17_NativeDictionaryV4copyyyFSS_SSTg5 : 376 -> 368
+~ _$ss17_NativeDictionaryV4copyyyFSS_ypTg5 : 392 -> 384
+~ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSo8NSStringC_ypTg5 : 316 -> 292
+~ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_15icloudmailagent15GroupedOverrideVTg5 : 444 -> 420
+~ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_SSTg5 : 384 -> 360
+~ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_ypTg5 : 328 -> 304
+~ ___swift_closure_destructor : 56 -> 44
+~ ___swift_assign_boxed_opaque_existential_0 : 524 -> 440
+~ _$s15icloudmailagent10APIManagerCMr : 192 -> 172
+~ __swift_closure_destructor.42Tm : 64 -> 52
+~ __swift_closure_destructor.54 : 72 -> 60
+~ _$s15icloudmailagent10APIManagerC20retryPendingRequestsyyFyyYbcfU_yyYacfU_TA : 200 -> 188
+~ __swift_closure_destructor.58 : 56 -> 44
+~ _$sSo12NSDictionaryCSgSo7NSErrorCSgIeyByy_SDys11AnyHashableVypGSgs5Error_pSgIeggg_TR : 164 -> 152
+~ _$sSiSo7NSErrorCSgIeyByy_Sis5Error_pSgIegyg_TRTm : 112 -> 100
+~ _$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5Error_pSgIegyg_TRTm : 112 -> 100
+~ _$s15icloudmailagent21CategorizationManagerC14sharedInstanceACvgZ : 92 -> 80
+~ _$s15icloudmailagent21CategorizationManagerC14sharedInstanceACvgZTo : 92 -> 80
+~ _$s15icloudmailagent21CategorizationManagerC8nlpQueue33_2419FC311BFE9A5B14C85B80D07E0512LL_WZ : 608 -> 588
+~ _$s15icloudmailagent21CategorizationManagerCACyc33_2419FC311BFE9A5B14C85B80D07E0512Llfc : 640 -> 620
+~ _$s15icloudmailagent21CategorizationManagerC8fetchNlp33_2419FC311BFE9A5B14C85B80D07E0512LL06MCCKitB6_macOS6MCCNLPCSgyF : 1068 -> 1028
+~ _$s15icloudmailagent21CategorizationManagerC14nextNlpTimeout33_2419FC311BFE9A5B14C85B80D07E0512LL8Dispatch0O4TimeVycvpfiAHycfU_ : 420 -> 380
+~ _$s15icloudmailagent21CategorizationManagerC13setupNlpTimer33_2419FC311BFE9A5B14C85B80D07E0512LLyyF : 3068 -> 2948
+~ _$s15icloudmailagent21CategorizationManagerC13setupNlpTimer33_2419FC311BFE9A5B14C85B80D07E0512LLyyFyycfU_ : 496 -> 476
+~ _$s15icloudmailagent21CategorizationManagerC17nlpTimerTriggered33_2419FC311BFE9A5B14C85B80D07E0512LLyyF : 1468 -> 1428
+~ _$s15icloudmailagent21CategorizationManagerC20predictCommerceEmail4with10completionySo18MCCCategoryContextC_ySDys11AnyHashableVypGSg_s5Error_pSgtctF031$sSo12NSDictionaryCSgSo7NSErrorq13IeyByy_SDys11kl8VypGSgs5M12_pSgIeggg_TRSo0P0CSgSo0S0CSgIeyByy_Tf1nEn_n : 300 -> 288
+~ _$s15icloudmailagent21CategorizationManagerC20predictCommerceEmail4with10completionySo18MCCCategoryContextC_ySDys11AnyHashableVypGSg_s5Error_pSgtctF : 180 -> 168
+~ _$s15icloudmailagent21CategorizationManagerC20predictCommerceEmail4with10completionySo18MCCCategoryContextC_ySDys11AnyHashableVypGSg_s5Error_pSgtctFyyXEfU_ : 6252 -> 6112
+~ _$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSo8NSStringC_yps11AnyHashableVypTg5 : 708 -> 696
+~ _$s15icloudmailagent21CategorizationManagerC20predictCommerceEmail4with10completionySo18MCCCategoryContextC_ySDys11AnyHashableVypGSg_s5Error_pSgtctFTo : 124 -> 112
+~ _$s15icloudmailagent21CategorizationManagerC12isModelReady10completionyySb_s5Error_pSgtc_tF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5H12_pSgIegyg_TR0J1C0lM0VSo0O0CSgIeyByy_Tf1En_n : 304 -> 280
+~ _$s15icloudmailagent21CategorizationManagerC12isModelReady10completionyySb_s5Error_pSgtc_tF : 268 -> 244
+~ _$s15icloudmailagent21CategorizationManagerC12isModelReady10completionyySb_s5Error_pSgtc_tFTo : 84 -> 72
+~ _$s15icloudmailagent21CategorizationManagerC19invokeModelDownload10completionyySb_s5Error_pSgtc_tF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5H12_pSgIegyg_TR0J1C0lM0VSo0O0CSgIeyByy_Tf1En_n : 308 -> 284
+~ _$s15icloudmailagent21CategorizationManagerC19invokeModelDownload10completionyySb_s5Error_pSgtc_tF : 276 -> 252
+~ _$s15icloudmailagent21CategorizationManagerC19invokeModelDownload10completionyySb_s5Error_pSgtc_tFTo : 84 -> 72
+~ _$s15icloudmailagent21CategorizationManagerC16getIABCategoryID4with10completionySS_ySi_s5Error_pSgtctF028$sSiSo7NSErrorCSgIeyByy_Sis5I12_pSgIegyg_TRSiSo0M0CSgIeyByy_Tf1nEn_nTm : 340 -> 316
+~ _$s15icloudmailagent21CategorizationManagerC16getIABCategoryID4with10completionySS_ySi_s5Error_pSgtctFTm : 308 -> 284
+~ _$s15icloudmailagent21CategorizationManagerC16getIABCategoryID4with10completionySS_ySi_s5Error_pSgtctFToTm : 148 -> 136
+~ _$s15icloudmailagent21CategorizationManagerC16isPersonalDomain4with10completionySS_ySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5I12_pSgIegyg_TR0K1C0mN0VSo0P0CSgIeyByy_Tf1nEn_n : 320 -> 296
+~ _$s15icloudmailagent21CategorizationManagerC16isPersonalDomain4with10completionySS_ySb_s5Error_pSgtctF : 296 -> 272
+~ _$s15icloudmailagent21CategorizationManagerC16isPersonalDomain4with10completionySS_ySb_s5Error_pSgtctFTo : 132 -> 120
+~ _$s15icloudmailagent21CategorizationManagerC20getBlackPearlVersion10completionyySDys11AnyHashableVypGSg_s5Error_pSgtc_tF031$sSo12NSDictionaryCSgSo7NSErroro13IeyByy_SDys11ij8VypGSgs5K12_pSgIeggg_TRSo0N0CSgSo0Q0CSgIeyByy_Tf1En_n : 896 -> 864
+~ _$s15icloudmailagent21CategorizationManagerC20getBlackPearlVersion10completionyySDys11AnyHashableVypGSg_s5Error_pSgtc_tF : 772 -> 740
+~ _$s15icloudmailagent21CategorizationManagerC20getBlackPearlVersion10completionyySDys11AnyHashableVypGSg_s5Error_pSgtc_tFTo : 84 -> 72
+~ _$s15icloudmailagent21CategorizationManagerC02isB9Supported9forLocale10completionySS_ySb_s5Error_pSgtXEtF : 276 -> 264
+~ _$s15icloudmailagent21CategorizationManagerC02isB9Supported9forLocale10completionySS_ySb_s5Error_pSgtXEtFTo : 116 -> 104
+~ ___swift__destructor : 56 -> 44
+~ _$s15icloudmailagent21CategorizationManagerC02isB9Supported9forLocale10completionySS_ySb_s5Error_pSgtXEtF047$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIyByy_Sbs5I12_pSgIegyg_TR0K1C0mN0VSo0P0CSgIyByy_Tf1ncn_nTf4ndn_n : 308 -> 284
+~ ___swift_closure_destructor : 56 -> 44
+~ _$s15icloudmailagent19OSTransactionHelperC6sharedACvgZ : 48 -> 36
+~ _$s15icloudmailagent19OSTransactionHelperC15makeTransactionSo17OS_os_transaction_pSgyF : 668 -> 648
+```

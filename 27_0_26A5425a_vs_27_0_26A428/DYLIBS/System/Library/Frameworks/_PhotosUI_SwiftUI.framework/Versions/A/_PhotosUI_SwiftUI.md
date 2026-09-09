@@ -1,0 +1,416 @@
+## _PhotosUI_SwiftUI
+
+> `/System/Library/Frameworks/_PhotosUI_SwiftUI.framework/Versions/A/_PhotosUI_SwiftUI`
+
+```diff
+
+ 911.0.134.0.0
+-  __TEXT.__text: 0x20368
+-  __TEXT.__swift5_typeref: 0x127a
+-  __TEXT.__const: 0x2a78
+-  __TEXT.__swift5_capture: 0x2f4
+-  __TEXT.__constg_swiftt: 0x1674
++  __TEXT.__text: 0x30e28
++  __TEXT.__objc_methlist: 0x524
++  __TEXT.__swift5_typeref: 0x1d47
++  __TEXT.__const: 0x34b0
++  __TEXT.__swift5_capture: 0x700
++  __TEXT.__constg_swiftt: 0x1dfc
+   __TEXT.__swift5_builtin: 0xc8
+-  __TEXT.__swift5_reflstr: 0x6ad
+-  __TEXT.__swift5_fieldmd: 0x724
+-  __TEXT.__swift5_assocty: 0x640
+-  __TEXT.__swift5_proto: 0x15c
+-  __TEXT.__swift5_types: 0xd4
+-  __TEXT.__swift_as_entry: 0x24
+-  __TEXT.__swift_as_cont: 0x24
+-  __TEXT.__oslogstring: 0x145
+-  __TEXT.__swift_as_ret: 0xc
+-  __TEXT.__cstring: 0x4a0
+-  __TEXT.__unwind_info: 0x960
+-  __TEXT.__eh_frame: 0x4ec
++  __TEXT.__swift5_reflstr: 0x97a
++  __TEXT.__swift5_fieldmd: 0x9ec
++  __TEXT.__swift5_assocty: 0x6b8
++  __TEXT.__swift5_proto: 0x180
++  __TEXT.__swift5_types: 0x108
++  __TEXT.__swift_as_entry: 0x3c
++  __TEXT.__swift_as_cont: 0x38
++  __TEXT.__cstring: 0x72b
++  __TEXT.__oslogstring: 0x405
++  __TEXT.__swift_as_ret: 0x10
++  __TEXT.__unwind_info: 0xe28
++  __TEXT.__eh_frame: 0x84c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0xb8
+-  __DATA_CONST.__objc_classlist: 0x8
++  __DATA_CONST.__objc_classlist: 0x20
++  __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x58
++  __DATA_CONST.__objc_selrefs: 0x4d8
++  __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xef0
+-  __AUTH_CONST.__objc_const: 0xb0
+-  __AUTH_CONST.__auth_got: 0x9e0
+-  __AUTH.__data: 0x288
+-  __DATA.__data: 0x950
+-  __DATA.__bss: 0x25e8
++  __AUTH_CONST.__const: 0x19b0
++  __AUTH_CONST.__objc_const: 0x800
++  __AUTH_CONST.__auth_got: 0xc78
++  __AUTH.__objc_data: 0x220
++  __AUTH.__data: 0x688
++  __DATA.__data: 0xff0
++  __DATA.__bss: 0x2ac0
++  __DATA.__common: 0x10
+   __DATA_DIRTY.__objc_data: 0x50
+-  __DATA_DIRTY.__data: 0x7e0
++  __DATA_DIRTY.__data: 0x7f0
+   __DATA_DIRTY.__bss: 0x680
++  - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
++  - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+   - /System/Library/Frameworks/CoreTransferable.framework/Versions/A/CoreTransferable
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/Photos.framework/Versions/A/Photos
+
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1119
+-  Symbols:   692
+-  CStrings:  38
++  Functions: 1652
++  Symbols:   973
++  CStrings:  67
+ 
+Symbols:
++ _CGRectGetMaxX
++ _CGRectGetMidX
++ _CGRectGetMidY
++ _CGRectGetMinX
++ _CGRectGetWidth
++ _NSLocalizedDescriptionKey
++ _OBJC_CLASS_$_NSBundle
++ _OBJC_CLASS_$_NSLayoutConstraint
++ _OBJC_CLASS_$_NSPanel
++ _OBJC_CLASS_$_NSScreen
++ _OBJC_CLASS_$_NSTitlebarAccessoryViewController
++ _OBJC_CLASS_$_NSVisualEffectView
++ _OBJC_CLASS_$_NSWindow
++ _OBJC_CLASS_$_NSXPCInterface
++ _OBJC_CLASS_$_PHAsset
++ _OBJC_CLASS_$__TtC17_PhotosUI_SwiftUI25PVSProvenanceHostDelegate
++ _OBJC_METACLASS_$_NSObject
++ _OBJC_METACLASS_$__TtC17_PhotosUI_SwiftUI25PVSProvenanceHostDelegate
++ _OBJC_METACLASS_$__TtC17_PhotosUI_SwiftUIP33_7CD5D1BBFE16D8A02F3DC3FDB776D6AF13PanelDelegate
++ _OUTLINED_FUNCTION_118
++ _OUTLINED_FUNCTION_119
++ _OUTLINED_FUNCTION_120
++ _OUTLINED_FUNCTION_121
++ _OUTLINED_FUNCTION_122
++ _OUTLINED_FUNCTION_123
++ _PROTOCOLS__TtC17_PhotosUI_SwiftUIP33_7CD5D1BBFE16D8A02F3DC3FDB776D6AF13PanelDelegate
++ __DATA__TtC17_PhotosUI_SwiftUI25PVSProvenanceHostDelegate
++ __DATA__TtC17_PhotosUI_SwiftUI26PVSProvenanceControlBridge
++ __DATA__TtC17_PhotosUI_SwiftUIP33_7CD5D1BBFE16D8A02F3DC3FDB776D6AF13PanelDelegate
++ __INSTANCE_METHODS__TtC17_PhotosUI_SwiftUIP33_7CD5D1BBFE16D8A02F3DC3FDB776D6AF13PanelDelegate
++ __INSTANCE_METHODS__TtC17_PhotosUI_SwiftUIP33_7CD5D1BBFE16D8A02F3DC3FDB776D6AF22NonDraggingHostingView
++ __IVARS__TtC17_PhotosUI_SwiftUI25PVSProvenanceHostDelegate
++ __IVARS__TtC17_PhotosUI_SwiftUI26PVSProvenanceControlBridge
++ __IVARS__TtC17_PhotosUI_SwiftUIP33_7CD5D1BBFE16D8A02F3DC3FDB776D6AF13PanelDelegate
++ __METACLASS_DATA__TtC17_PhotosUI_SwiftUI25PVSProvenanceHostDelegate
++ __METACLASS_DATA__TtC17_PhotosUI_SwiftUI26PVSProvenanceControlBridge
++ __METACLASS_DATA__TtC17_PhotosUI_SwiftUIP33_7CD5D1BBFE16D8A02F3DC3FDB776D6AF13PanelDelegate
++ __OBJC_$_INSTANCE_METHODS__TtC17_PhotosUI_SwiftUI25PVSProvenanceHostDelegate(_PhotosUI_SwiftUI|_PhotosUI_SwiftUI1)
++ __OBJC_$_PROP_LIST_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSRemoteViewControllerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSRemoteViewControllerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSWindowDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSRemoteViewControllerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSWindowDelegate
++ __OBJC_$_PROTOCOL_REFS_NSRemoteViewControllerDelegate
++ __OBJC_$_PROTOCOL_REFS_NSWindowDelegate
++ __OBJC_CLASS_PROTOCOLS_$__TtC17_PhotosUI_SwiftUI25PVSProvenanceHostDelegate(_PhotosUI_SwiftUI|_PhotosUI_SwiftUI1)
++ __OBJC_LABEL_PROTOCOL_$_NSObject
++ __OBJC_LABEL_PROTOCOL_$_NSRemoteViewControllerDelegate
++ __OBJC_LABEL_PROTOCOL_$_NSWindowDelegate
++ __OBJC_PROTOCOL_$_NSObject
++ __OBJC_PROTOCOL_$_NSRemoteViewControllerDelegate
++ __OBJC_PROTOCOL_$_NSWindowDelegate
++ __PROPERTIES__TtC17_PhotosUI_SwiftUIP33_7CD5D1BBFE16D8A02F3DC3FDB776D6AF22NonDraggingHostingView
++ __PROTOCOLS__TtC17_PhotosUI_SwiftUIP33_7CD5D1BBFE16D8A02F3DC3FDB776D6AF13PanelDelegate
++ __PROTOCOL_INSTANCE_METHODS__TtP8PhotosUI21PVSProvenanceProtocol_
++ __PROTOCOL_INSTANCE_METHODS__TtP8PhotosUI26PVSProvenanceReplyProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP8PhotosUI21PVSProvenanceProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP8PhotosUI26PVSProvenanceReplyProtocol_
++ __PROTOCOL__TtP8PhotosUI21PVSProvenanceProtocol_
++ __PROTOCOL__TtP8PhotosUI26PVSProvenanceReplyProtocol_
++ ___swift__destructor
++ ___swift_memcpy1_1
++ ___swift_noop_void_return
++ ___unnamed_11
++ __swift_closure_destructor.17Tm
++ __swift_closure_destructor.23Tm
++ __swift_closure_destructor.26Tm
++ __swift_closure_destructor.60Tm
++ __swift_closure_destructor.69Tm
++ __swift_closure_destructor.8Tm
++ __swift_stdlib_bridgeErrorToNSError
++ __swift_stdlib_reportUnimplementedInitializer
++ _associated conformance 015_PhotosUI_SwiftB019ProvenanceSheetView33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLV0cB00F0AA4BodyAeFP_AeF
++ _associated conformance 015_PhotosUI_SwiftB023ProvenancePanelModifier33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLVyxG0cB004ViewF0AA4BodyAfGP_AF0Q0
++ _associated conformance 015_PhotosUI_SwiftB023ProvenanceTitlebarTitleV0cB04ViewAA4BodyAdEP_AdE
++ _associated conformance 015_PhotosUI_SwiftB024PVSProvenanceWrapperViewV0cB00F0AA4BodyAdEP_AdE
++ _associated conformance 015_PhotosUI_SwiftB025PVSProvenanceHostDelegateC0aB007PVSHostF0AASH
++ _associated conformance 015_PhotosUI_SwiftB025ProvenanceProcessingErrorOSHAASQ
++ _associated conformance 015_PhotosUI_SwiftB026ProvenanceTitlebarControlsV0cB04ViewAA4BodyAdEP_AdE
++ _flat unique 8PhotosUI21PVSProvenanceProtocol_p
++ _get_enum_tag_for_layout_string 015_PhotosUI_SwiftB026ProvenanceProcessingPolicyO
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx07_Photosb1_aB023ProvenancePanelModifier33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLVyAE0g5SheetC0AGLLVGGAaBHPxAaBHD1__AkA0cI0HPyHCHCTm
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx07_Photosb1_aB023ProvenancePanelModifier33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLVyAE0g5SheetC0AGLLVSgGGAaBHPxAaBHD1__AlA0cI0HPyHCHCTm
++ _objc_autoreleaseReturnValue
++ _objc_msgSend$activateConstraints:
++ _objc_msgSend$addSubview:
++ _objc_msgSend$addTitlebarAccessoryViewController:
++ _objc_msgSend$bottomAnchor
++ _objc_msgSend$bounds
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$close
++ _objc_msgSend$constraintEqualToAnchor:
++ _objc_msgSend$convertRect:toView:
++ _objc_msgSend$fetchAssetsWithLocalIdentifiers:options:
++ _objc_msgSend$firstObject
++ _objc_msgSend$fittingSize
++ _objc_msgSend$frame
++ _objc_msgSend$initWithContentRect:styleMask:backing:defer:
++ _objc_msgSend$initWithFrame:
++ _objc_msgSend$initWithPhotoLibraryURL:
++ _objc_msgSend$interfaceWithProtocol:
++ _objc_msgSend$layoutIfNeeded
++ _objc_msgSend$layoutSubtreeIfNeeded
++ _objc_msgSend$leadingAnchor
++ _objc_msgSend$librarySpecificFetchOptions
++ _objc_msgSend$localIdentifier
++ _objc_msgSend$localizedDescription
++ _objc_msgSend$mainScreen
++ _objc_msgSend$minSize
++ _objc_msgSend$openPhotoLibraryWithWellKnownIdentifier:error:
++ _objc_msgSend$orderFront:
++ _objc_msgSend$photoLibrary
++ _objc_msgSend$photoLibraryURL
++ _objc_msgSend$setAssetWithLocalIdentifier:allowProcessing:photoLibraryURL:reply:
++ _objc_msgSend$setBecomesKeyOnlyIfNeeded:
++ _objc_msgSend$setBlendingMode:
++ _objc_msgSend$setContentView:
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setFileURL:allowProcessing:sandboxExtensionToken:reply:
++ _objc_msgSend$setFloatingPanel:
++ _objc_msgSend$setFrame:
++ _objc_msgSend$setHasShadow:
++ _objc_msgSend$setHidden:
++ _objc_msgSend$setHidesOnDeactivate:
++ _objc_msgSend$setLayoutAttribute:
++ _objc_msgSend$setMaterial:
++ _objc_msgSend$setMinSize:
++ _objc_msgSend$setMovableByWindowBackground:
++ _objc_msgSend$setOpaque:
++ _objc_msgSend$setReleasedWhenClosed:
++ _objc_msgSend$setShowingMetadata:
++ _objc_msgSend$setShowsPhoto:
++ _objc_msgSend$setState:
++ _objc_msgSend$setTitleVisibility:
++ _objc_msgSend$setTitlebarAppearsTransparent:
++ _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
++ _objc_msgSend$setView:
++ _objc_msgSend$setZoomScale:
++ _objc_msgSend$standardWindowButton:
++ _objc_msgSend$topAnchor
++ _objc_msgSend$trailingAnchor
++ _objc_msgSend$view
++ _objc_msgSend$visibleFrame
++ _objc_msgSendSuper2
++ _swift_allocateGenericClassMetadata
++ _swift_cvw_enumFn_getEnumTag
++ _swift_dynamicCast
++ _swift_getErrorValue
++ _swift_getObjCClassFromMetadata
++ _swift_initClassMetadata2
++ _swift_isaMask
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _symbolic SS15localIdentifier______15photoLibraryURLt 10Foundation3URLV
++ _symbolic SSIego_
++ _symbolic Sd
++ _symbolic So33NSTitlebarAccessoryViewControllerCSgXw
++ _symbolic So33NSTitlebarAccessoryViewControllerCSgXwz_Xx
++ _symbolic So7NSErrorC
++ _symbolic So7NSErrorCSg
++ _symbolic So7NSPanelCSg
++ _symbolic So7PHAssetC
++ _symbolic So8NSObjectC
++ _symbolic So8NSObjectCIego_
++ _symbolic So8NSObjectCSg
++ _symbolic So8NSObjectCSgIego_
++ _symbolic _____ 015_PhotosUI_SwiftB013PanelDelegate33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLC
++ _symbolic _____ 015_PhotosUI_SwiftB019ProvenanceSheetView33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLV
++ _symbolic _____ 015_PhotosUI_SwiftB020ProvenanceSheetInput33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLO
++ _symbolic _____ 015_PhotosUI_SwiftB022NonDraggingHostingView33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLC
++ _symbolic _____ 015_PhotosUI_SwiftB023ProvenancePanelModifier33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLV
++ _symbolic _____ 015_PhotosUI_SwiftB023ProvenanceTitlebarTitleV
++ _symbolic _____ 015_PhotosUI_SwiftB024PVSProvenanceWrapperViewV
++ _symbolic _____ 015_PhotosUI_SwiftB025PVSProvenanceHostDelegateC
++ _symbolic _____ 015_PhotosUI_SwiftB025ProvenanceProcessingErrorO
++ _symbolic _____ 015_PhotosUI_SwiftB026PVSProvenanceControlBridgeC
++ _symbolic _____ 015_PhotosUI_SwiftB026ProvenanceProcessingPolicyO
++ _symbolic _____ 015_PhotosUI_SwiftB026ProvenanceProcessingResultO
++ _symbolic _____ 015_PhotosUI_SwiftB026ProvenanceTitlebarControlsV
++ _symbolic _____ 10Foundation3URLV
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 11Observation0A9RegistrarV
++ _symbolic _____ 7SwiftUI11ControlSizeO
++ _symbolic _____ 7SwiftUI17ButtonBorderShapeV
++ _symbolic _____ 7SwiftUI4TextV14TruncationModeO
++ _symbolic _____ 8PhotosUI24PVSProvenanceImageSourceO
++ _symbolic _____Iegn_ 015_PhotosUI_SwiftB026ProvenanceProcessingResultO
++ _symbolic _____Sg 015_PhotosUI_SwiftB013PanelDelegate33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLC
++ _symbolic _____Sg 015_PhotosUI_SwiftB019ProvenanceSheetView33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLV
++ _symbolic _____Sg 015_PhotosUI_SwiftB026PVSProvenanceControlBridgeC
++ _symbolic _____Sg 10Foundation3URLV
++ _symbolic _____Sg 10Foundation4DataV
++ _symbolic _____Sg 8PhotosUI14PHPickerResultV
++ _symbolic _____SgSg 015_PhotosUI_SwiftB019ProvenanceSheetView33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLV
++ _symbolic _____Sg_ABt 015_PhotosUI_SwiftB00A10PickerItemV
++ _symbolic _____Sg_ABt 10Foundation3URLV
++ _symbolic _____Sg_ABt 8PhotosUI14PHPickerResultV
++ _symbolic ______SSSgt 10Foundation3URLV
++ _symbolic ______p 8PhotosUI21PVSProvenanceProtocolP
++ _symbolic ______pIego_ s5ErrorP
++ _symbolic ______pSg 8PhotosUI21PVSProvenanceProtocolP
++ _symbolic _____yAAyAAyAAy__________ySiSgGGACy_____GG_____G_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AE14TruncationModeO AA14_PaddingLayoutV AA010_FlexFrameM0V
++ _symbolic _____yAAyAAyAAy_____y_____yAAy_____y__________G_____G______y_____yAFG______Qo_AAy_____yAJy_____G_ALQo______ySbGGQPGG_____y_____GGAVy_____GG_____GARG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV AA0I0PAAE11toggleStyleyQrqd__AA06ToggleN0Rd__lFQO AA0O0V AA06ButtonoN0V AqAEARyQrqd__AaSRd__lFQO AA5ImageV AA32_EnvironmentKeyTransformModifierV AA01_rs7WritingU0V AA11ControlSizeO AA0P11BorderShapeV AA08_PaddingL0V
++ _symbolic _____yAAyAAy__________ySiSgGGACy_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AE14TruncationModeO AA14_PaddingLayoutV
++ _symbolic _____yAAyAAy_____y_____yAAy_____y__________G_____G______y_____yAFG______Qo_AAy_____yAJy_____G_ALQo______ySbGGQPGG_____y_____GGAVy_____GG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV AA0I0PAAE11toggleStyleyQrqd__AA06ToggleN0Rd__lFQO AA0O0V AA06ButtonoN0V AqAEARyQrqd__AaSRd__lFQO AA5ImageV AA32_EnvironmentKeyTransformModifierV AA01_rs7WritingU0V AA11ControlSizeO AA0P11BorderShapeV AA08_PaddingL0V
++ _symbolic _____yAAy__________ySiSgGGACy_____GG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AE14TruncationModeO
++ _symbolic _____yAAy_____y_____yAAy_____y__________G_____G______y_____yAFG______Qo_AAy_____yAJy_____G_ALQo______ySbGGQPGG_____y_____GGAVy_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV AA0I0PAAE11toggleStyleyQrqd__AA06ToggleN0Rd__lFQO AA0O0V AA06ButtonoN0V AqAEARyQrqd__AaSRd__lFQO AA5ImageV AA32_EnvironmentKeyTransformModifierV AA01_rs7WritingU0V AA11ControlSizeO AA0P11BorderShapeV
++ _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
++ _symbolic _____ySbG 7SwiftUI32_EnvironmentKeyTransformModifierV
++ _symbolic _____ySo7NSPanelCSgG 7SwiftUI9LazyStateV
++ _symbolic _____ySo7NSPanelCSg_G 7SwiftUI9LazyStateV7StorageO
++ _symbolic _____ySo7NSPanelCSg_G_yXlSgt 7SwiftUI9LazyStateV7StorageO
++ _symbolic _____ySo7PHAssetCSgG 7SwiftUI7BindingV
++ _symbolic _____ySo7PHAssetC______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo7PHAssetC______pGIegg_Sg s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____y_____ABG 7SwiftUI19_ConditionalContentV 07_Photosb1_aB024PVSProvenanceWrapperViewV
++ _symbolic _____y_____AB_G 7SwiftUI19_ConditionalContentV7StorageO 07_Photosb1_aB024PVSProvenanceWrapperViewV
++ _symbolic _____y_____G 015_PhotosUI_SwiftB017PVSViewBridgeViewV AA25PVSProvenanceHostDelegateC
++ _symbolic _____y_____G 015_PhotosUI_SwiftB023ProvenancePanelModifier33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLV AA0D9SheetViewACLLV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA11ControlSizeO
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA17ButtonBorderShapeV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA4TextV14TruncationModeO
++ _symbolic _____y_____G 7SwiftUI6ToggleV AA4TextV
++ _symbolic _____y_____G 7SwiftUI6ToggleV AA5ImageV
++ _symbolic _____y_____G 7SwiftUI8BindableV 07_Photosb1_aB026PVSProvenanceControlBridgeC
++ _symbolic _____y_____G 7SwiftUI9LazyStateV 07_Photosb1_aB026PVSProvenanceControlBridgeC
++ _symbolic _____y_____G 8PhotosUI26PVSViewBridgeConfigurationV 01_ab6_SwiftB025PVSProvenanceHostDelegateC
++ _symbolic _____y_____GSg 8PhotosUI26PVSViewBridgeConfigurationV 01_ab6_SwiftB025PVSProvenanceHostDelegateC
++ _symbolic _____y_____SgG 015_PhotosUI_SwiftB023ProvenancePanelModifier33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLV AA0D9SheetViewACLLV
++ _symbolic _____y_____SgG 7SwiftUI7BindingV 06PhotosB014PHPickerResultV
++ _symbolic _____y_____SgG 7SwiftUI7BindingV 10Foundation3URLV
++ _symbolic _____y_____SgG 7SwiftUI9LazyStateV 07_Photosb1_aB013PanelDelegate33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLC
++ _symbolic _____y_____SgSgG 015_PhotosUI_SwiftB023ProvenancePanelModifier33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLV AA0D9SheetViewACLLV
++ _symbolic _____y_____Sg_G 7SwiftUI9LazyStateV7StorageO 07_Photosb1_aB013PanelDelegate33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLC
++ _symbolic _____y_____Sg_G_yXlSgt 7SwiftUI9LazyStateV7StorageO 07_Photosb1_aB013PanelDelegate33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLC
++ _symbolic _____y______G 7SwiftUI9LazyStateV7StorageO 07_Photosb1_aB026PVSProvenanceControlBridgeC
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 10Foundation3URLV s5ErrorP
++ _symbolic _____y___________pGIegn_ s6ResultOsRi_zRi0_zrlE 10Foundation3URLV s5ErrorP
++ _symbolic _____y___________pGIegn_Sg s6ResultOsRi_zRi0_zrlE 10Foundation3URLV s5ErrorP
++ _symbolic _____y___________y_____y_____y__________G_____G______y_____yAGG______Qo_ADy_____yAKy_____G_AMQo______ySbGGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA08ModifiedI0V AA6SliderV AA05EmptyD0V AA4TextV AA06_FrameG0V AA0D0PAAE11toggleStyleyQrqd__AA06ToggleP0Rd__lFQO AA0Q0V AA06ButtonqP0V AuAEAVyQrqd__AaWRd__lFQO AA5ImageV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y__________ySiSgGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____y__________y_____ADGG 7SwiftUI15NavigationStackV AA0C4PathV AA19_ConditionalContentV 07_Photosb1_aB024PVSProvenanceWrapperViewV
++ _symbolic _____y_____y_____GG 7SwiftUI5StateV 06PhotosB026PVSViewBridgeConfigurationV 01_db1_aB025PVSProvenanceHostDelegateC
++ _symbolic _____y_____y_____GSgG 7SwiftUI7BindingV 06PhotosB026PVSViewBridgeConfigurationV 01_db1_aB025PVSProvenanceHostDelegateC
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV 07_Photosb1_aB017PVSViewBridgeViewV AD25PVSProvenanceHostDelegateC AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____y_____G______Qo_ 7SwiftUI4ViewPAAE11toggleStyleyQrqd__AA06ToggleE0Rd__lFQO AA0F0V AA4TextV AA06ButtonfE0V
++ _symbolic _____y_____y__________G_____G 7SwiftUI15ModifiedContentV AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV
++ _symbolic _____y_____y__________G_____G______y_____yADG______Qo_AAy_____yAHy_____G_AJQo______ySbGGt 7SwiftUI15ModifiedContentV AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV AA0G0PAAE11toggleStyleyQrqd__AA06ToggleL0Rd__lFQO AA0M0V AA06ButtonmL0V AmAEANyQrqd__AaORd__lFQO AA5ImageV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____yAAy_____y__________G_____G______y_____yAFG______Qo_AAy_____yAJy_____G_ALQo______ySbGGQPGG_____y_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV AA0I0PAAE11toggleStyleyQrqd__AA06ToggleN0Rd__lFQO AA0O0V AA06ButtonoN0V AqAEARyQrqd__AaSRd__lFQO AA5ImageV AA32_EnvironmentKeyTransformModifierV AA01_rs7WritingU0V AA11ControlSizeO
++ _symbolic _____y_____y_____y_____G______Qo______ySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11toggleStyleyQrqd__AA06ToggleG0Rd__lFQO AA0H0V AA5ImageV AA06ButtonhG0V AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____y_____y__________G_____G______y_____yAFG______Qo_ACy_____yAJy_____G_ALQo______ySbGGQPGG 7SwiftUI6HStackV AA12TupleContentV AA08ModifiedE0V AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV AA0I0PAAE11toggleStyleyQrqd__AA06ToggleN0Rd__lFQO AA0O0V AA06ButtonoN0V AqAEARyQrqd__AaSRd__lFQO AA5ImageV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____yxGG_SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA01_C16Modifier_ContentV 07_Photosb1_aB0015ProvenancePanelH033_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLV
++ _symbolic _____yxG 015_PhotosUI_SwiftB023ProvenancePanelModifier33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLV
++ _symbolic _____yxG 7SwiftUI13NSHostingViewC
++ _symbolic _____yx_____y_____GG 7SwiftUI15ModifiedContentV 07_Photosb1_aB023ProvenancePanelModifier33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLV AD0F9SheetViewAFLLV
++ _symbolic _____yx_____y_____SgGG 7SwiftUI15ModifiedContentV 07_Photosb1_aB023ProvenancePanelModifier33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLV AD0F9SheetViewAFLLV
++ _symbolic _____yx_____y_____SgSgGG 7SwiftUI15ModifiedContentV 07_Photosb1_aB023ProvenancePanelModifier33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLV AD0F9SheetViewAFLLV
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
++ _symbolic x_____c 015_PhotosUI_SwiftB026PVSProvenanceControlBridgeC
++ _symbolic ySo8NSWindowCcSg
++ _symbolic y_____c 015_PhotosUI_SwiftB026ProvenanceProcessingResultO
++ _symbolic y_____ySo7PHAssetC______pGcSg s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic y_____y___________pGcSg s6ResultOsRi_zRi0_zrlE 10Foundation3URLV s5ErrorP
++ _symbolic ypSg
++ _symbolic ytSg
++ _symbolic ytSgIeAgHr_
++ _type_layout_string 015_PhotosUI_SwiftB026ProvenanceProcessingPolicyO
++ block_copy_helper
++ block_descriptor
++ block_destroy_helper
++ get_witness_table 7SwiftUI15ModifiedContentVy07_Photosb1_aB017PVSViewBridgeViewVyAD25PVSProvenanceHostDelegateCGAA30_SafeAreaRegionsIgnoringLayoutVGAA0H0HPAiaMHPyHC_AkA0H8ModifierHPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAGyAE14TruncationModeOGGAA14_PaddingLayoutVGAA010_FlexFrameM0VGAA4ViewHPAqaUHPAnaUHPAjaUHPAeaUHPyHC_AiA0pI0HPyHCHC_AmaVHPyHCHC_ApaVHPyHCHC_AsaVHPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA6HStackVyAA05TupleD0VyACyAA6SliderVyAA9EmptyViewVAA4TextVGAA12_FrameLayoutVG_AA0I0PAAE11toggleStyleyQrqd__AA06ToggleN0Rd__lFQOyAA0O0VyAMG_AA06ButtonoN0VQo_ACyAsAEATyQrqd__AaURd__lFQOyAWyAA5ImageVG_AZQo_AA32_EnvironmentKeyTransformModifierVySbGGQPGGAA01_rs7WritingU0VyAA11ControlSizeOGGA11_yAA0P11BorderShapeVGGAA08_PaddingL0VGA6_GAaRHPA22_AaRHPA19_AaRHPA15_AaRHPA9_AaRHPyHC_A14_AA0iU0HPyHCHC_A18_AAA24_HPyHCHC_A21_AAA24_HPyHCHC_A6_AAA24_HPyHCHC
++ get_witness_table 7SwiftUI15NavigationStackVyAA0C4PathVAA19_ConditionalContentVy07_Photosb1_aB024PVSProvenanceWrapperViewVAJGGAA0K0HPyHC
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx07_Photosb1_aB023ProvenancePanelModifier33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLVyAE0g5SheetC0AGLLVGGAaBHPxAaBHD1__AkA0cI0HPyHCHC
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx07_Photosb1_aB023ProvenancePanelModifier33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLVyAE0g5SheetC0AGLLVSgGGAaBHPxAaBHD1__AlA0cI0HPyHCHC
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx07_Photosb1_aB023ProvenancePanelModifier33_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLVyAE0g5SheetC0AGLLVSgSgGGAaBHPxAaBHD1__AmA0cI0HPyHCHC
++ get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA01_C16Modifier_ContentVy07_Photosb1_aB0015ProvenancePanelH033_7CD5D1BBFE16D8A02F3DC3FDB776D6AFLLVyxGG_SbQo_HO
+- _OUTLINED_FUNCTION_78
+- _OUTLINED_FUNCTION_79
+CStrings:
++ "%s"
++ "%s: Remote view controller did activate."
++ "Bookmark is stale for processed image"
++ "Failed to fetch developed PHAsset with identifier: %s"
++ "Failed to fetch developed asset"
++ "Failed to get sandbox extension for fileURL: %@"
++ "Failed to resolve bookmark for processed image: %s"
++ "Failed to start accessing security scoped resource"
++ "LocalizableProvenance"
++ "No asset identifier or error provided"
++ "No bookmark data or error provided"
++ "PROVENANCE_ORIGINAL_SENSOR_CAPTURE"
++ "PROVENANCE_SHOW_PHOTO"
++ "PVSProvenanceError"
++ "PVSProvenanceHostDelegate: remote controller terminated with error: %@"
++ "PVSProvenanceHostDelegate: remote controller terminated."
++ "PVSProvenanceServiceViewController"
++ "PhotosViewService terminated before replying."
++ "Processing completed but no asset identifier or error provided"
++ "Processing completed but no bookmark data or error provided"
++ "Processing failed with error: %s"
++ "Received asset identifier reply for file URL input"
++ "Unexpected asset reply for file URL input"
++ "Unhandled image source case "
++ "XPC connection replied with success: %{bool}d"
++ "_PhotosUI_SwiftUI.PVSProvenanceHostDelegate"
++ "_PhotosUI_SwiftUI.PanelDelegate"
++ "_PhotosUI_SwiftUI/PVSProvenanceHostDelegate.swift"
++ "init()"
+```

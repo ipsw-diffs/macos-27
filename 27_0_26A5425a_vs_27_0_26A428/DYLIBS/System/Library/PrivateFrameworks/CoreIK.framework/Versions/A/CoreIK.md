@@ -1,0 +1,91 @@
+## CoreIK
+
+> `/System/Library/PrivateFrameworks/CoreIK.framework/Versions/A/CoreIK`
+
+```diff
+
+ 271.0.1.0.0
+-  __TEXT.__text: 0x6d41c
++  __TEXT.__text: 0x6d514
+   __TEXT.__const: 0x2158
+   __TEXT.__cstring: 0x28392
+   __TEXT.__oslogstring: 0x112c
+Functions:
+~ __ZN3FIK7Segment14setEulerLimitsERKNS_11EulerLimitsEb : 2676 -> 2688
+~ __ZNSt3__16vectorINS_10unique_ptrIN3FIK4TaskENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJS6_EEEPS6_DpOT_ : 224 -> 228
+~ __ZNSt3__16vectorINS_10unique_ptrIN3FIK15FIKRedBlackTreeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPNS2_7SegmentEE4NodeENS_14default_deleteISD_EEEENS7_ISG_EEE24__emplace_back_slow_pathIJSG_EEEPSG_DpOT_ : 224 -> 228
+~ __ZN5JSONS23getMemberOrLegacyMemberEPKN9rapidjson12GenericValueINS0_4UTF8IcEENS0_19MemoryPoolAllocatorINS0_12CrtAllocatorEEEEEPKcSt16initializer_listISB_E : 144 -> 152
+~ __ZN5JSONS16JSONfromMoCapRigERKN3FIK8MoCapRigE : 2052 -> 2056
+~ __ZN5JSONS15JSONfromGameRigERKN3FIK7GameRigE : 1100 -> 1104
+~ __ZN3FIK10IKRigUtils19updateParentIndicesINS_9MoCapBoneEEEvRNSt3__16vectorIT_NS3_9allocatorIS5_EEEE : 144 -> 148
+~ __ZN3FIK10IKRigUtils19updateParentIndicesINS_11RigBoneBaseEEEvRNSt3__16vectorIT_NS3_9allocatorIS5_EEEE : 144 -> 148
+~ __ZN3FIK10IKRigUtils19updateTargetIndicesINS_9MoCapTaskENS_9MoCapBoneEEEvRNSt3__16vectorIT_NS4_9allocatorIS6_EEEERKNS5_IT0_NS7_ISB_EEEE : 140 -> 148
+~ __ZN3FIK10IKRigUtils19updateParentIndicesINS_7RigBoneEEEvRNSt3__16vectorIT_NS3_9allocatorIS5_EEEE : 124 -> 132
+~ __ZN3FIK10IKRigUtils19updateTargetIndicesINS_8GameTaskENS_7RigBoneEEEvRNSt3__16vectorIT_NS4_9allocatorIS6_EEEERKNS5_IT0_NS7_ISB_EEEE : 168 -> 172
+~ __ZNSt3__16vectorIN3FIK9MoCapTaskENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKS2_EEEPS2_DpOT_ : 460 -> 468
+~ __ZNSt3__16vectorIN3FIK7RigBoneENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKS2_EEEPS2_DpOT_ : 424 -> 432
+~ __ZN3FIK10IKRigUtils12getBoneIndexINS_7RigBoneEvEEiNSt3__117basic_string_viewIcNS3_11char_traitsIcEEEERKNS3_6vectorIT_NS3_9allocatorIS9_EEEE : 144 -> 148
+~ __ZN7ikinema32SourceRotatesDependentsAlgorithm6createERKN3FIK8MoCapRigEmNS1_11IKArrayViewIKmEENS_9BufferKeyE : 408 -> 420
+~ __ZNK3FIK9Hierarchy19descendentIndicesOfENS0_5IndexE : 452 -> 456
+~ __ZNK3FIK9Hierarchy16chainIndicesFromENS0_5IndexE : 740 -> 744
+~ __ZNSt3__15dequeIN3FIK9Hierarchy5IndexENS_9allocatorIS3_EEE19__add_back_capacityEv : 372 -> 376
+~ __ZNSt3__114__split_bufferIPN3FIK9Hierarchy5IndexENS_9allocatorIS4_EEE12emplace_backIJRS4_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__114__split_bufferIPN3FIK9Hierarchy5IndexERNS_9allocatorIS4_EEE12emplace_backIJS4_EEEvDpOT_ : 256 -> 260
+~ __ZN3FIK25QuadrupedCharacterisationclERKNS_9HierarchyE : 5892 -> 5888
+~ __ZN3FIK12_GLOBAL__N_114searchForKneesENS_9Hierarchy5IndexES2_RNSt3__16vectorIS2_NS3_9allocatorIS2_EEEE : 488 -> 492
+~ __ZNSt3__16vectorIN3FIK9Hierarchy5IndexENS_9allocatorIS3_EEE6insertENS_11__wrap_iterIPKS3_EERS8_ : 420 -> 416
+~ __ZN3FIK12_GLOBAL__N_127getDuplicateCountToInputMapENS_11IKArrayViewIKmEE : 188 -> 196
+~ __ZNSt3__114__split_bufferIN3FIK9Hierarchy5IndexERNS_9allocatorIS3_EEE12emplace_backIJRKS3_EEEvDpOT_ : 252 -> 256
+~ __ZN3FIK21createHelperHierarchyENS_11IKArrayViewIKNS_29HelperHierarchyBoneDefinitionEEE : 328 -> 336
+~ __ZNSt3__16vectorIN3FIK6VectorENS_9allocatorIS2_EEE7reserveEm : 176 -> 172
+~ __ZNSt3__16vectorIbNS_9allocatorIbEEE6resizeEmb : 128 -> 132
+~ __ZNSt3__16vectorIN3FIK6VectorENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_ : 204 -> 200
+~ __ZNSt3__16vectorIN3FIK9TransformENS_9allocatorIS2_EEE7reserveEm : 156 -> 160
+~ __ZN7ikinema23TaskFilterAlgorithmImplC2ERKN3FIK8MoCapRigEiNS_9BufferKeyE : 304 -> 308
+~ __ZN3FIK12_GLOBAL__N_120characteriseArmChainERKNS_9HierarchyENS1_5IndexEbRNS_20CharacterisationDataE : 1864 -> 1860
+~ __ZN3FIK22CharacterisationHelper25findLikelyParentOfFingersENSt3__16vectorINS2_INS_9Hierarchy5IndexENS1_9allocatorIS4_EEEENS5_IS7_EEEERKS3_i : 848 -> 852
+~ __ZZNSt3__16vectorIN3FIK12_GLOBAL__N_114ThreeWayBranchENS_9allocatorIS3_EEE12emplace_backIJRKS3_EEERS3_DpOT_ENKUlvE0_clEv : 252 -> 260
+~ __ZN3FIK13GenericSolver17ConfigureSegmentsERKNS_11IKArrayViewINS_9TransformEEE : 388 -> 392
+~ __ZNK3FIK13GenericSolver20ConstructImportBonesENS_11IKArrayViewIKNS_9TransformEEE : 204 -> 208
+~ __ZNSt3__16vectorIN3FIK7RigBoneENS_9allocatorIS2_EEE11__vallocateB9nqn220106Em : 64 -> 68
+~ __ZN3FIK15RetargetingNode13solveInternalENS_11IKArrayViewIKNS_9TransformEEENS1_IS2_EE : 308 -> 304
+~ __ZNSt3__16vectorINS_10unique_ptrIN7ikinema14AlgorithmBlockENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJS6_EEEPS6_DpOT_ : 224 -> 228
+~ __ZN3FIK20SourceToTargetMapper17mapSourceToTargetERKNS_22CharacterisedHierarchyES3_NS_11IKArrayViewIKNS_16BipedIdentifiers5JointEEENS4_IKNS5_5GroupEEE : 784 -> 776
+~ __ZN3FIK20SourceToTargetMapper26mapSourceToTargetQuadrupedERKNS_22CharacterisedHierarchyES3_NS_11IKArrayViewIKNS_20QuadrupedIdentifiers5JointEEENS4_IKNS5_5GroupEEE : 784 -> 776
+~ __ZN3FIK15RigBuilderUtils17cullJointsFromRigINS_7GameRigENS_7RigBoneENS_16BipedIdentifiers5JointENS4_5GroupEEEvRKNS_22CharacterisedHierarchyET1_NS_11IKArrayViewIKSA_EENSB_IKT2_EERT_ : 1432 -> 1428
+~ __ZNSt3__16vectorIN3FIK7RigBoneENS_9allocatorIS2_EEE18__construct_at_endEm : 292 -> 296
+~ __ZN3FIK15RigBuilderUtils15addTargetsToRigINS_7GameRigEEEvRKNS_9HierarchyERT_ : 336 -> 340
+~ __ZNSt3__16vectorIN3FIK7RigBoneENS_9allocatorIS2_EEE6resizeEm : 356 -> 376
+~ __ZN3FIK12_GLOBAL__N_114getWristTargetERNS_22CharacterisedHierarchyERKNS_7GameRigEb : 1224 -> 1228
+~ __ZN3FIK15RigBuilderUtils14stringContainsENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEESt16initializer_listIS5_E : 232 -> 220
+~ __ZN3FIK13PoseConverterC2INS_7RigBoneEEENS_11IKArrayViewIKT_EE : 220 -> 224
+~ __ZN3FIK15MoCapRigBuilder14createMoCapRigERKNS_22CharacterisedHierarchyES3_RKNS_9TransformES6_NS_11IKArrayViewIKNS_16BipedIdentifiers5JointEEESB_NS7_IKNS8_5GroupEEE : 1824 -> 1820
+~ __ZN3FIK15RigBuilderUtils17cullJointsFromRigINS_8MoCapRigENS_9MoCapBoneENS_16BipedIdentifiers5JointENS4_5GroupEEEvRKNS_22CharacterisedHierarchyET1_NS_11IKArrayViewIKSA_EENSB_IKT2_EERT_ : 1456 -> 1452
+~ __ZN3FIK15MoCapRigBuilder23createQuadrupedMoCapRigERKNS_22CharacterisedHierarchyES3_RKNS_9TransformES6_NS_11IKArrayViewIKNS_20QuadrupedIdentifiers5JointEEESB_NS7_IKNS8_5GroupEEESB_SE_ : 1996 -> 1992
+~ __ZN3FIK12_GLOBAL__N_126updateRigSourceToTargetMapERKNS_22CharacterisedHierarchyENS_11IKArrayViewIKmEERNS_8MoCapRigE : 212 -> 220
+~ __ZNSt3__16vectorIN3FIK9MoCapTaskENS_9allocatorIS2_EEE11__vallocateB9nqn220106Em : 64 -> 68
+~ __ZNSt3__16vectorIN3FIK10ImportBoneENS_9allocatorIS2_EEE7reserveEm : 168 -> 172
+~ __ZNSt3__114__split_bufferINS_10unique_ptrIN7ikinema14AlgorithmBlockENS_14default_deleteIS3_EEEERNS_9allocatorIS6_EEE12emplace_backIJS6_EEEvDpOT_ : 272 -> 276
+~ __ZN3FIK10IKRigUtils13GetAnimTargetINS_7GameRigEEENS_9TransformEiNS_11IKArrayViewIKS3_EERKT_ : 384 -> 388
+~ __ZN3FIK10RTGameTask14initPoleVectorERKNS_7GameRigE : 720 -> 732
+~ __ZN3FIK10IKRigUtils26getGlobalRestTransformSlowINS_7RigBoneEEENS_9TransformERKNSt3__16vectorIT_NS4_9allocatorIS6_EEEEi : 192 -> 196
+~ __ZN7ikinema30BoneNormalisationAlgorithmImpl7processERNS_15SolverAccessorsERNS_15BufferContainerE : 364 -> 360
+~ __ZN12_GLOBAL__N_121getChildToParentChainERKN3FIK9HierarchyENS1_5IndexES4_ : 388 -> 392
+~ __ZNK9CoreIKRig15sourceJointNameEm : 212 -> 216
+~ __ZNK9CoreIKRig15targetJointNameEm : 212 -> 216
+~ __ZNK9CoreIKRig21sourceJointParentNameEm : 212 -> 216
+~ __ZNK9CoreIKRig21targetJointParentNameEm : 212 -> 216
+~ __ZNK9CoreIKRig14constraintNameEm : 72 -> 76
+~ __ZN9CoreIKRig19getRigJointSettingsENSt3__117basic_string_viewIcNS0_11char_traitsIcEEEE : 544 -> 540
+~ __ZL20validateRigHierarchyIN3FIK7GameRigEEbRT_PP9__CFError : 1244 -> 1252
+~ __ZL20validateRigHierarchyIN3FIK8MoCapRigEEbRT_PP9__CFError : 1232 -> 1240
+~ __ZN3FIK10IKRigUtils18GetTaskIndexByNameINS_8MoCapRigEEEiNSt3__117basic_string_viewIcNS3_11char_traitsIcEEEERKT_ : 132 -> 136
+~ __ZN3FIK10IKRigUtils22GetTaskIndexByBoneNameINS_8MoCapRigEEEiNSt3__117basic_string_viewIcNS3_11char_traitsIcEEEERKT_ : 136 -> 140
+~ __ZN6CoreIK15IKSolverGeneric13despatchSolveEN3FIK11IKArrayViewIKNS1_9TransformEEEN12CoreIKSolver11SourceSpaceENS2_IS3_EES8_ : 156 -> 152
+~ __ZNK6CoreIK15IKSolverGeneric20despatchGetInputNameEm : 32 -> 36
+~ __ZNK6CoreIK15IKSolverGeneric21despatchGetOutputNameEm : 32 -> 36
+~ __ZNK6CoreIK15IKSolverGeneric27despatchGetOutputParentNameEm : 32 -> 36
+~ __ZN6CoreIK16IKSolverRetarget21despatchGetConstraintENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEE : 232 -> 236
+~ _CoreIKGenericSolverGetTargetRestPose : 108 -> 112
+~ _ZN9CoreIKRig11removeJointENSt3__117basic_string_viewIcNS0_11char_traitsIcEEEEPP9__CFError.cold.1 : 60 -> 64
+```

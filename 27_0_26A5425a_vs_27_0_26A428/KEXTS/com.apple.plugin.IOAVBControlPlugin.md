@@ -1,0 +1,169 @@
+## com.apple.plugin.IOAVBControlPlugin
+
+> `com.apple.plugin.IOAVBControlPlugin`
+
+```diff
+
+   __TEXT.__cstring: 0xcf4
+   __TEXT.__os_log: 0x16b6
+   __TEXT.__const: 0x8
+-  __TEXT_EXEC.__text: 0x84d4
++  __TEXT_EXEC.__text: 0x8738
+   __TEXT_EXEC.__auth_stubs: 0x390
+   __DATA.__data: 0xd4
+   __DATA.__common: 0x1c8
+Functions:
+~ __ZN15IOAVBMACAddress9MetaClassC1Ev : 72 -> 76
+~ __ZN15IOAVBMACAddressC2EPK11OSMetaClass : 52 -> 56
+~ __ZN15IOAVBMACAddressC1EPK11OSMetaClass : 52 -> 56
+~ __ZN15IOAVBMACAddressD0Ev : 68 -> 72
+~ __ZN15IOAVBMACAddress9MetaClassC2Ev : 72 -> 76
+~ __ZNK15IOAVBMACAddress9MetaClass5allocEv : 104 -> 108
+~ __ZN15IOAVBMACAddressC1Ev : 88 -> 92
+~ __ZN15IOAVBMACAddressC2Ev : 88 -> 92
+~ __ZN15IOAVBMACAddress4initEPhP20IOAVBMACAddressRange : 84 -> 88
+~ _GLOBAL__sub_I_IOAVBMACAddress.cpp : 80 -> 84
+~ __ZN44IOAVB1722ApplicationControlServiceUserClient9MetaClassC1Ev : 72 -> 76
+~ __ZN44IOAVB1722ApplicationControlServiceUserClientC2EPK11OSMetaClass : 52 -> 56
+~ __ZN44IOAVB1722ApplicationControlServiceUserClientC1EPK11OSMetaClass : 52 -> 56
+~ __ZN44IOAVB1722ApplicationControlServiceUserClientD0Ev : 68 -> 72
+~ __ZN44IOAVB1722ApplicationControlServiceUserClient9MetaClassC2Ev : 72 -> 76
+~ __ZNK44IOAVB1722ApplicationControlServiceUserClient9MetaClass5allocEv : 104 -> 108
+~ __ZN44IOAVB1722ApplicationControlServiceUserClientC1Ev : 88 -> 92
+~ __ZN44IOAVB1722ApplicationControlServiceUserClientC2Ev : 88 -> 92
+~ __ZN44IOAVB1722ApplicationControlServiceUserClient12initWithTaskEP4taskPvjP12OSDictionary : 304 -> 308
+~ __ZN44IOAVB1722ApplicationControlServiceUserClient4freeEv : 124 -> 128
+~ __ZN44IOAVB1722ApplicationControlServiceUserClient5startEP9IOService : 1112 -> 1116
+~ __ZN44IOAVB1722ApplicationControlServiceUserClient4stopEP9IOService : 288 -> 292
+~ __ZN44IOAVB1722ApplicationControlServiceUserClient11clientCloseEv : 284 -> 288
+~ __ZN44IOAVB1722ApplicationControlServiceUserClient19addControlRoutingIDEy : 392 -> 396
+~ __ZN44IOAVB1722ApplicationControlServiceUserClient22removeControlRoutingIDEy : 424 -> 428
+~ __ZN44IOAVB1722ApplicationControlServiceUserClient20receivedControlFrameEP27IOAVB1722ControlServiceInfoPhm : 512 -> 516
+~ __ZN44IOAVB1722ApplicationControlServiceUserClient16pushControlFrameEP27IOAVB1722ControlServiceInfoPhm : 420 -> 424
+~ __ZN44IOAVB1722ApplicationControlServiceUserClient16sendControlFrameEyj : 472 -> 476
+~ __ZN44IOAVB1722ApplicationControlServiceUserClient19clientMemoryForTypeEjPjPP18IOMemoryDescriptor : 116 -> 120
+~ _GLOBAL__sub_I_IOAVB1722ApplicationControlServiceUserClient.cpp : 80 -> 84
+~ __ZN23IOAVB1722ControlService9MetaClassC1Ev : 72 -> 76
+~ __ZN23IOAVB1722ControlServiceC2EPK11OSMetaClass : 52 -> 56
+~ __ZN23IOAVB1722ControlServiceC1EPK11OSMetaClass : 52 -> 56
+~ __ZN23IOAVB1722ControlServiceD0Ev : 68 -> 72
+~ __ZN23IOAVB1722ControlService9MetaClassC2Ev : 72 -> 76
+~ __ZNK23IOAVB1722ControlService9MetaClass5allocEv : 104 -> 108
+~ __ZN23IOAVB1722ControlServiceC1Ev : 88 -> 92
+~ __ZN23IOAVB1722ControlServiceC2Ev : 88 -> 92
+~ __ZN23IOAVB1722ControlService4initEhPhbP12OSDictionary : 268 -> 272
+~ __ZN23IOAVB1722ControlService5startEP9IOService : 1816 -> 1820
+~ __ZN23IOAVB1722ControlService19filterInputCallbackEPvP7__ifnetjPP6__mbufPPc : 36 -> 40
+~ __ZN23IOAVB1722ControlService4stopEP9IOService : 300 -> 304
+~ __ZN23IOAVB1722ControlService7messageEjP9IOServicePv : 772 -> 776
+~ __ZN23IOAVB1722ControlService16linkStateUpAsyncEPvS0_ : 144 -> 148
+~ __ZN23IOAVB1722ControlService18linkStateDownAsyncEPvS0_ : 144 -> 148
+~ __ZN23IOAVB1722ControlService16sendControlFrameEP27IOAVB1722ControlServiceInfoPhm : 852 -> 856
+~ __ZN23IOAVB1722ControlService14cableUnpluggedEv : 116 -> 120
+~ __ZN23IOAVB1722ControlService14cableRepluggedEv : 120 -> 124
+~ __ZN23IOAVB1722ControlService9logPacketEPKhm : 476 -> 480
+~ __ZN23IOAVB1722ControlService19filterReceivedFrameEPP6__mbufPPc : 616 -> 620
+~ _GLOBAL__sub_I_IOAVB1722ControlService.cpp : 80 -> 84
+~ __ZN31IOAVB17221ACMPServiceUserClient9MetaClassC1Ev : 72 -> 76
+~ __ZN31IOAVB17221ACMPServiceUserClientC2EPK11OSMetaClass : 52 -> 56
+~ __ZN31IOAVB17221ACMPServiceUserClientC1EPK11OSMetaClass : 52 -> 56
+~ __ZN31IOAVB17221ACMPServiceUserClientD0Ev : 68 -> 72
+~ __ZN31IOAVB17221ACMPServiceUserClient9MetaClassC2Ev : 72 -> 76
+~ __ZNK31IOAVB17221ACMPServiceUserClient9MetaClass5allocEv : 104 -> 108
+~ __ZN31IOAVB17221ACMPServiceUserClientC1Ev : 88 -> 92
+~ __ZN31IOAVB17221ACMPServiceUserClientC2Ev : 88 -> 92
+~ __ZN31IOAVB17221ACMPServiceUserClient20receivedControlFrameEP27IOAVB1722ControlServiceInfoPhm : 512 -> 516
+~ _GLOBAL__sub_I_IOAVB17221ACMPServiceUserClient.cpp : 80 -> 84
+~ __ZN31IOAVB17221AECPServiceUserClient9MetaClassC1Ev : 72 -> 76
+~ __ZN31IOAVB17221AECPServiceUserClientC2EPK11OSMetaClass : 52 -> 56
+~ __ZN31IOAVB17221AECPServiceUserClientC1EPK11OSMetaClass : 52 -> 56
+~ __ZN31IOAVB17221AECPServiceUserClientD0Ev : 68 -> 72
+~ __ZN31IOAVB17221AECPServiceUserClient9MetaClassC2Ev : 72 -> 76
+~ __ZNK31IOAVB17221AECPServiceUserClient9MetaClass5allocEv : 104 -> 108
+~ __ZN31IOAVB17221AECPServiceUserClientC1Ev : 88 -> 92
+~ __ZN31IOAVB17221AECPServiceUserClientC2Ev : 88 -> 92
+~ __ZN31IOAVB17221AECPServiceUserClient20receivedControlFrameEP27IOAVB1722ControlServiceInfoPhm : 484 -> 488
+~ _GLOBAL__sub_I_IOAVB17221ACEPServiceUserClient.cpp : 80 -> 84
+~ __ZN21IOAVB17221ACMPService9MetaClassC1Ev : 72 -> 76
+~ __ZN21IOAVB17221ACMPServiceC2EPK11OSMetaClass : 52 -> 56
+~ __ZN21IOAVB17221ACMPServiceC1EPK11OSMetaClass : 52 -> 56
+~ __ZN21IOAVB17221ACMPServiceD0Ev : 68 -> 72
+~ __ZN21IOAVB17221ACMPService9MetaClassC2Ev : 72 -> 76
+~ __ZNK21IOAVB17221ACMPService9MetaClass5allocEv : 104 -> 108
+~ __ZN21IOAVB17221ACMPServiceC1Ev : 88 -> 92
+~ __ZN21IOAVB17221ACMPServiceC2Ev : 88 -> 92
+~ _GLOBAL__sub_I_IOAVB17221ACMPService.cpp : 80 -> 84
+~ __ZN20IOAVBMACAddressRange9MetaClassC1Ev : 72 -> 76
+~ __ZN20IOAVBMACAddressRangeC2EPK11OSMetaClass : 52 -> 56
+~ __ZN20IOAVBMACAddressRangeC1EPK11OSMetaClass : 52 -> 56
+~ __ZN20IOAVBMACAddressRangeD0Ev : 68 -> 72
+~ __ZN20IOAVBMACAddressRange9MetaClassC2Ev : 72 -> 76
+~ __ZNK20IOAVBMACAddressRange9MetaClass5allocEv : 104 -> 108
+~ __ZN20IOAVBMACAddressRangeC1Ev : 88 -> 92
+~ __ZN20IOAVBMACAddressRangeC2Ev : 88 -> 92
+~ __ZN20IOAVBMACAddressRange4freeEv : 100 -> 104
+~ __ZN20IOAVBMACAddressRange4initEPhjb : 384 -> 388
+~ _GLOBAL__sub_I_IOAVBMACAddressRange.cpp : 80 -> 84
+~ __ZN30IOAVB1722MAAPServiceUserClient9MetaClassC1Ev : 72 -> 76
+~ __ZN30IOAVB1722MAAPServiceUserClientC2EPK11OSMetaClass : 52 -> 56
+~ __ZN30IOAVB1722MAAPServiceUserClientC1EPK11OSMetaClass : 52 -> 56
+~ __ZN30IOAVB1722MAAPServiceUserClientD0Ev : 68 -> 72
+~ __ZN30IOAVB1722MAAPServiceUserClient9MetaClassC2Ev : 72 -> 76
+~ __ZNK30IOAVB1722MAAPServiceUserClient9MetaClass5allocEv : 104 -> 108
+~ __ZN30IOAVB1722MAAPServiceUserClientC1Ev : 88 -> 92
+~ __ZN30IOAVB1722MAAPServiceUserClientC2Ev : 88 -> 92
+~ __ZN30IOAVB1722MAAPServiceUserClient12initWithTaskEP4taskPvjP12OSDictionary : 332 -> 336
+~ __ZN30IOAVB1722MAAPServiceUserClient4freeEv : 124 -> 128
+~ __ZN30IOAVB1722MAAPServiceUserClient5startEP9IOService : 676 -> 680
+~ __ZN30IOAVB1722MAAPServiceUserClient4stopEP9IOService : 176 -> 180
+~ __ZN30IOAVB1722MAAPServiceUserClient20allocateMulticastMACEyPyS0_ : 424 -> 428
+~ __ZN30IOAVB1722MAAPServiceUserClient22deallocateMulticastMACEy : 304 -> 308
+~ _GLOBAL__sub_I_IOAVB1722MAAPServiceUserClient.cpp : 80 -> 84
+~ __ZN20IOAVB1722MAAPService9MetaClassC1Ev : 72 -> 76
+~ __ZN20IOAVB1722MAAPServiceC2EPK11OSMetaClass : 52 -> 56
+~ __ZN20IOAVB1722MAAPServiceC1EPK11OSMetaClass : 52 -> 56
+~ __ZN20IOAVB1722MAAPServiceD0Ev : 68 -> 72
+~ __ZN20IOAVB1722MAAPService9MetaClassC2Ev : 72 -> 76
+~ __ZNK20IOAVB1722MAAPService9MetaClass5allocEv : 104 -> 108
+~ __ZN20IOAVB1722MAAPServiceC1Ev : 88 -> 92
+~ __ZN20IOAVB1722MAAPServiceC2Ev : 88 -> 92
+~ __ZN20IOAVB1722MAAPService5startEP9IOService : 2124 -> 2128
+~ __ZN20IOAVB1722MAAPService17allocatePoolRangeEtb : 592 -> 596
+~ __ZN20IOAVB1722MAAPService4stopEP9IOService : 780 -> 784
+~ __ZN20IOAVB1722MAAPService14sendMAAPDefendEP25IOAVB1722MAAPFramePayloadPht : 152 -> 156
+~ __ZN20IOAVB1722MAAPService13sendMAAPProbeEP20IOAVBMACAddressRange : 196 -> 200
+~ __ZN20IOAVB1722MAAPService16sendMAAPAnnounceEP20IOAVBMACAddressRange : 196 -> 200
+~ __ZN20IOAVB1722MAAPService15handleMAAPProbeEP25IOAVB1722MAAPFramePayload : 396 -> 400
+~ __ZN20IOAVB1722MAAPService16handleMAAPDefendEP25IOAVB1722MAAPFramePayload : 616 -> 620
+~ __ZN20IOAVB1722MAAPService21generateRandomMAAPMACEPht : 516 -> 520
+~ __ZN20IOAVB1722MAAPService18maapProbeTimerFireEv : 796 -> 800
+~ __ZN20IOAVB1722MAAPService21maapAnnounceTimerFireEv : 332 -> 336
+~ __ZN20IOAVB1722MAAPService20allocateMulticastMACEPhPP15IOAVBMACAddress : 964 -> 968
+~ __ZN20IOAVB1722MAAPService22deallocateMulticastMACEP15IOAVBMACAddress : 292 -> 296
+~ _GLOBAL__sub_I_IOAVB1722MAAPService.cpp : 80 -> 84
+~ __ZN21IOAVB17221AECPService9MetaClassC1Ev : 72 -> 76
+~ __ZN21IOAVB17221AECPServiceC2EPK11OSMetaClass : 52 -> 56
+~ __ZN21IOAVB17221AECPServiceC1EPK11OSMetaClass : 52 -> 56
+~ __ZN21IOAVB17221AECPServiceD0Ev : 68 -> 72
+~ __ZN21IOAVB17221AECPService9MetaClassC2Ev : 72 -> 76
+~ __ZNK21IOAVB17221AECPService9MetaClass5allocEv : 104 -> 108
+~ __ZN21IOAVB17221AECPServiceC1Ev : 88 -> 92
+~ __ZN21IOAVB17221AECPServiceC2Ev : 88 -> 92
+~ _GLOBAL__sub_I_IOAVB17221AECPService.cpp : 80 -> 84
+~ __ZN34IOAVB1722ApplicationControlService9MetaClassC1Ev : 72 -> 76
+~ __ZN34IOAVB1722ApplicationControlServiceC2EPK11OSMetaClass : 52 -> 56
+~ __ZN34IOAVB1722ApplicationControlServiceC1EPK11OSMetaClass : 52 -> 56
+~ __ZN34IOAVB1722ApplicationControlServiceD0Ev : 68 -> 72
+~ __ZN34IOAVB1722ApplicationControlService9MetaClassC2Ev : 72 -> 76
+~ __ZNK34IOAVB1722ApplicationControlService9MetaClass5allocEv : 104 -> 108
+~ __ZN34IOAVB1722ApplicationControlServiceC1Ev : 88 -> 92
+~ __ZN34IOAVB1722ApplicationControlServiceC2Ev : 88 -> 92
+~ __ZN34IOAVB1722ApplicationControlService4initEhPhbP12OSDictionary : 368 -> 372
+~ __ZN34IOAVB1722ApplicationControlService4freeEv : 128 -> 132
+~ __ZN34IOAVB1722ApplicationControlService28sendServiceInfoToUserClientsEP27IOAVB1722ControlServiceInfoPhm : 304 -> 308
+~ __ZN34IOAVB1722ApplicationControlService16sendControlFrameEP27IOAVB1722ControlServiceInfoPhm : 132 -> 136
+~ __ZN34IOAVB1722ApplicationControlService16removeUserClientEP44IOAVB1722ApplicationControlServiceUserClient : 264 -> 268
+~ _GLOBAL__sub_I_IOAVB1722ApplicationControlService.cpp : 80 -> 84
+~ _ZN44IOAVB1722ApplicationControlServiceUserClient16sendControlFrameEyj.cold.1 : 100 -> 104
+~ _ZN34IOAVB1722ApplicationControlService4initEhPhbP12OSDictionary.cold.1 : 100 -> 104
+```
