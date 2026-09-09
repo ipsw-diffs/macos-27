@@ -1,0 +1,26 @@
+## VDAF
+
+> `/System/Library/PrivateFrameworks/VDAF.framework/Versions/A/VDAF`
+
+```diff
+
+ 35.5.0.0.0
+-  __TEXT.__text: 0xf1848
++  __TEXT.__text: 0xf1810
+   __TEXT.__const: 0x6b10
+   __TEXT.__constg_swiftt: 0x2454
+   __TEXT.__swift5_typeref: 0x1fae
+Functions:
+~ _$s4VDAF17DPFOneBlockSparseC16evalNextChildren5nonce4node14internalCwListAA8EvalNodeV_AItSays5UInt8VG_AISayAA03OnecD15InnerCorrectionVGtKF : 1336 -> 1340
+~ _$s19CollectionsInternal5DequeV13_UnsafeHandleV12copyElementsAC8_StorageVyx_GyFyAEyx_GXEfU0_4VDAF19EvaluatorLevelInputV_Tg5 : 212 -> 204
+~ _$s19CollectionsInternal5DequeV13_UnsafeHandleV12copyElements15minimumCapacityAC8_StorageVyx_GSi_tFyAEyx_GXEfU0_4VDAF8EvalNodeV_Tg5 : 240 -> 236
+~ _$s19CollectionsInternal5DequeV13_UnsafeHandleV12copyElements15minimumCapacityAC8_StorageVyx_GSi_tFyAEyx_GXEfU0_4VDAF19EvaluatorLevelInputV_Tg5 : 228 -> 224
+~ _$ss12Zip2SequenceV19underestimatedCountSivg10Foundation4DataV_AFTg5 : 132 -> 140
+~ _$s4VDAF10LeafParentC04makeB7Parents17dimensionBitCount9blockSize4fromSayACyxGGSi_SiSDySiqd__GtKSzRd__lFZySDySiSayAA0B0VyxGGGz_Si3key_qd__5valuettXEfU_AA7Field32V_s5Int32VTg5 : 528 -> 524
+~ _$s4VDAF12DPFEvaluatorV19evaluateAllInternal4seed5nonce16innerCorrections10untilLevelSayAA09EvaluatorK5InputVG10Foundation4DataV_ANSayAA05InnerI0VGSiSgtKFAA7Field32V_AA19XofHmacSha256Aes128CTB5 : 3256 -> 3244
+~ _$s4VDAF13PreambleProofV11prepareInit9verifyKey12aggregatorID5nonce11publicShare05inputL09parameterAA0bC12PrepareStateVyxG_AA0bcoL0Vyxq0_GtSays5UInt8VG_SiAsA0bc6PublicL0Vyxq0_GAA0bc5InputL0Vyxq0_GAA11VoidCodableVtKFAA7Field32V_s5Int32VAA19XofHmacSha256Aes128CTB5 : 5268 -> 5228
+~ _$s4VDAF5Prio3V5shard_5nonce9seedBytesAA0B11PublicShareVyxq_G_SayAA0b5InputH0Vyxq_GGt11MeasurementQz_Says5UInt8VGqd__tKSkRd__AQ7ElementRtd__lFAA13SumVectorTypeVyAA7Field64VSWG_AA19XofHmacSha256Aes128C10Foundation4DataVTB5 : 5844 -> 5840
+~ _$s4VDAF13SumVectorTypeV6encode11measurementSayxGq__tKFAA7Field64V_SWTB5 : 960 -> 964
+~ _$s4VDAF11ParallelSumV013chunkEvaluateC0_3for_1FQzs10ArraySliceVyAGG_AA16GadgetEvaluationOyAGGyAJ_SayAGGztKXEtKF : 1056 -> 1068
+~ _$s4VDAF12DPFEvaluatorV19evaluateAllInternal4seed5nonce16innerCorrections10untilLevelSayAA09EvaluatorK5InputVG10Foundation4DataV_ANSayAA05InnerI0VGSiSgtKF : 3280 -> 3272
+```

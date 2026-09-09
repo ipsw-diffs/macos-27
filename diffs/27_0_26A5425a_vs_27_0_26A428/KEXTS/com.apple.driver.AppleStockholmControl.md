@@ -1,0 +1,174 @@
+## com.apple.driver.AppleStockholmControl
+
+> `com.apple.driver.AppleStockholmControl`
+
+```diff
+
+ 370.42.1.0.0
+   __TEXT.__cstring: 0x45a3
+   __TEXT.__const: 0x30
+-  __TEXT_EXEC.__text: 0x149c0
++  __TEXT_EXEC.__text: 0x14c40
+   __TEXT_EXEC.__auth_stubs: 0x500
+   __DATA.__data: 0x219
+   __DATA.__common: 0x17e
+Functions:
+~ __ZN27AppleStockholmControlConfig9MetaClassC1Ev : 72 -> 76
+~ __ZN27AppleStockholmControlConfigC2EPK11OSMetaClass : 52 -> 56
+~ __ZN27AppleStockholmControlConfigC1EPK11OSMetaClass : 52 -> 56
+~ __ZN27AppleStockholmControlConfigD0Ev : 68 -> 72
+~ __ZN27AppleStockholmControlConfig9MetaClassC2Ev : 72 -> 76
+~ __ZNK27AppleStockholmControlConfig9MetaClass5allocEv : 104 -> 108
+~ __ZN27AppleStockholmControlConfigC1Ev : 88 -> 92
+~ __ZN27AppleStockholmControlConfigC2Ev : 88 -> 92
+~ __ZN27AppleStockholmControlConfig5startEP9IOService : 116 -> 120
+~ __ZNK27AppleStockholmControlConfig11compareNameEP8OSStringPS1_ : 128 -> 132
+~ _GLOBAL__sub_I_AppleStockholmControlConfig.cpp : 80 -> 84
+~ __ZN31AppleStockholmControlUserClient9MetaClassC1Ev : 72 -> 76
+~ __ZN31AppleStockholmControlUserClientC2EPK11OSMetaClass : 56 -> 60
+~ __ZN31AppleStockholmControlUserClientC1EPK11OSMetaClass : 56 -> 60
+~ __ZN31AppleStockholmControlUserClientD2Ev : 120 -> 124
+~ __ZN31AppleStockholmControlUserClientD1Ev : 120 -> 124
+~ __ZN31AppleStockholmControlUserClientD0Ev : 68 -> 72
+~ __ZN31AppleStockholmControlUserClient9MetaClassC2Ev : 72 -> 76
+~ __ZNK31AppleStockholmControlUserClient9MetaClass5allocEv : 108 -> 112
+~ __ZN31AppleStockholmControlUserClientC1Ev : 92 -> 96
+~ __ZN31AppleStockholmControlUserClientC2Ev : 92 -> 96
+~ __ZN31AppleStockholmControlUserClient5startEP9IOService : 492 -> 496
+~ __ZN31AppleStockholmControlUserClient11clientCloseEv : 64 -> 68
+~ __ZN31AppleStockholmControlUserClient12extSetEnableEP8OSObjectPvP25IOExternalMethodArguments : 152 -> 156
+~ __ZN31AppleStockholmControlUserClient21extSetDownloadRequestEP8OSObjectPvP25IOExternalMethodArguments : 152 -> 156
+~ __ZN31AppleStockholmControlUserClient24extPMUStandbyPowerEnableEP8OSObjectPvP25IOExternalMethodArguments : 152 -> 156
+~ __ZN31AppleStockholmControlUserClient16extSetDeviceWakeEP8OSObjectPvP25IOExternalMethodArguments : 152 -> 156
+~ __ZN31AppleStockholmControlUserClient16extSetVBATEnableEP8OSObjectPvP25IOExternalMethodArguments : 152 -> 156
+~ __ZN31AppleStockholmControlUserClient21extValidateSPMIConfigEP8OSObjectPvP25IOExternalMethodArguments : 76 -> 80
+~ __ZN31AppleStockholmControlUserClient26extConfigureHammerfestSPMIEP8OSObjectPvP25IOExternalMethodArguments : 76 -> 80
+~ __ZN31AppleStockholmControlUserClient16extFollowerResetEP8OSObjectPvP25IOExternalMethodArguments : 76 -> 80
+~ __ZN31AppleStockholmControlUserClient26extSetNFCCBootMeasurementsEP8OSObjectPvP25IOExternalMethodArguments : 152 -> 156
+~ __ZN31AppleStockholmControlUserClient24extSetSEBootMeasurementsEP8OSObjectPvP25IOExternalMethodArguments : 152 -> 156
+~ __ZN31AppleStockholmControlUserClient12extSPMIvGPIOEP8OSObjectPvP25IOExternalMethodArguments : 100 -> 104
+~ __ZN31AppleStockholmControlUserClient16extBootStopStateEP8OSObjectPvP25IOExternalMethodArguments : 192 -> 196
+~ __ZN31AppleStockholmControlUserClient18extSetEnableToggleEP8OSObjectPvP25IOExternalMethodArguments : 144 -> 148
+~ _GLOBAL__sub_I_AppleStockholmControlUserClient.cpp : 80 -> 84
+~ __ZN24AppleStockholmRingBuffer9MetaClassC1Ev : 72 -> 76
+~ __ZN24AppleStockholmRingBufferC2EPK11OSMetaClass : 68 -> 72
+~ __ZN24AppleStockholmRingBufferC1EPK11OSMetaClass : 68 -> 72
+~ __ZN24AppleStockholmRingBufferD2Ev : 96 -> 100
+~ __ZN24AppleStockholmRingBufferD1Ev : 96 -> 100
+~ __ZN24AppleStockholmRingBufferD0Ev : 68 -> 72
+~ __ZN24AppleStockholmRingBuffer9MetaClassC2Ev : 72 -> 76
+~ __ZNK24AppleStockholmRingBuffer9MetaClass5allocEv : 52 -> 56
+~ __ZN24AppleStockholmRingBufferC2Ev : 104 -> 108
+~ __ZN24AppleStockholmRingBuffer10createWithEmmb : 448 -> 452
+~ __ZN24AppleStockholmRingBuffer8initWithEmmb : 544 -> 548
+~ __ZN24AppleStockholmRingBuffer7addDataEN7libkern17bounded_array_refIhN9os_detail21panic_trapping_policyEEEm : 1048 -> 1060
+~ __ZN24AppleStockholmRingBuffer10removeDataEP3uiom : 840 -> 844
+~ __ZN24AppleStockholmRingBuffer10removeDataEP3uio : 120 -> 124
+~ __ZN24AppleStockholmRingBuffer16bufferDataLengthEv : 160 -> 164
+~ __ZN24AppleStockholmRingBuffer11resetBufferEv : 136 -> 140
+~ __ZN24AppleStockholmRingBuffer13bufferHasRoomEv : 172 -> 176
+~ _GLOBAL__sub_I_AppleStockholmRingBuffer.cpp : 80 -> 84
+~ __ZN18AppleStockholmSPMI9MetaClassC1Ev : 72 -> 76
+~ __ZN18AppleStockholmSPMIC2EPK11OSMetaClass : 68 -> 72
+~ __ZN18AppleStockholmSPMIC1EPK11OSMetaClass : 68 -> 72
+~ __ZN18AppleStockholmSPMID2Ev : 440 -> 444
+~ __ZN18AppleStockholmSPMID1Ev : 440 -> 444
+~ __ZN18AppleStockholmSPMID0Ev : 68 -> 72
+~ __ZN18AppleStockholmSPMI9MetaClassC2Ev : 72 -> 76
+~ __ZNK18AppleStockholmSPMI9MetaClass5allocEv : 52 -> 56
+~ __ZN18AppleStockholmSPMIC2Ev : 104 -> 108
+~ __ZN18AppleStockholmSPMI17_requiresFunctionEPKc : 1216 -> 1220
+~ __Z16OSDynamicPtrCastI6OSData8OSObjectE11OSSharedPtrIT_ERKS2_IT0_E : 88 -> 92
+~ __ZN18AppleStockholmSPMI14_matchPropertyEPKcS1_ : 1224 -> 1228
+~ __ZN18AppleStockholmSPMI12publishBelowEP15IORegistryEntry : 2440 -> 2444
+~ __ZN18AppleStockholmSPMI12getNfccModelEv : 2092 -> 2096
+~ __ZN18AppleStockholmSPMI5startEP9IOService : 6384 -> 6388
+~ __ZN18AppleStockholmSPMI11ctl_connectEPvP12sockaddr_ctlPS0_ : 644 -> 648
+~ __ZN18AppleStockholmSPMI14ctl_disconnectEPvjS0_ : 212 -> 216
+~ __ZN18AppleStockholmSPMI8ctl_sendEPvjS0_P6__mbufi : 188 -> 192
+~ __ZN18AppleStockholmSPMI9initForPMEP9IOService : 372 -> 376
+~ __ZN18AppleStockholmSPMI4stopEP9IOService : 816 -> 820
+~ __ZN18AppleStockholmSPMI26sleepWakeNotificationGatedEj : 704 -> 708
+~ __ZN18AppleStockholmSPMI22_setStandbyEnableGatedEb : 836 -> 840
+~ __ZN18AppleStockholmSPMI20callPlatformFunctionEPK8OSSymbolbPvS3_S3_S3_ : 900 -> 904
+~ __ZN18AppleStockholmSPMI23_sendFollowerResetGatedEv : 468 -> 472
+~ __ZN18AppleStockholmSPMI20supportFollowerResetEv : 80 -> 84
+~ __ZN18AppleStockholmSPMI20_setVirtualGPIOGatedEh : 844 -> 848
+~ __ZN18AppleStockholmSPMI11_txSPMIDataEPKhm : 1132 -> 1136
+~ __ZN18AppleStockholmSPMI11_rxSPMIDataEPhm : 840 -> 844
+~ __ZN18AppleStockholmSPMI26_spmiErrorInterruptHandlerEP22IOInterruptEventSourcei : 992 -> 996
+~ __ZN18AppleStockholmSPMI24requestDebugRegisterInfoEPhPmb : 4376 -> 4380
+~ __ZN18AppleStockholmSPMI19_rxInterruptHandlerEP22IOInterruptEventSourcei : 240 -> 244
+~ __ZN18AppleStockholmSPMI13_dataReadMbufEv : 2476 -> 2480
+~ __ZN18AppleStockholmSPMI23_rxMbufInterruptHandlerEP22IOInterruptEventSourcei : 484 -> 488
+~ __ZN18AppleStockholmSPMI13_dataPushMbufEv : 960 -> 964
+~ __ZN18AppleStockholmSPMI10_allocMbufEPS_m : 484 -> 488
+~ __ZN18AppleStockholmSPMI16_freeMbufClusterEPcjS0_ : 192 -> 196
+~ __ZN18AppleStockholmSPMI11_rxSPMIDataEP6__mbufm : 1292 -> 1296
+~ __ZN18AppleStockholmSPMI17ctl_data_callbackEv : 680 -> 684
+~ __ZN18AppleStockholmSPMI10_dataWriteEP6__mbuf : 680 -> 684
+~ __ZN18AppleStockholmSPMI16_vGPIOWriteGatedEhi : 560 -> 564
+~ __ZN18AppleStockholmSPMI22clearDebugRegisterInfoEh : 640 -> 644
+~ __ZN18AppleStockholmSPMI24_validateSPMIConfigGatedEv : 2072 -> 2076
+~ __ZN18AppleStockholmSPMI10followerIDEv : 556 -> 560
+~ __ZN18AppleStockholmSPMI16skipSPMIReconfigEv : 80 -> 84
+~ __ZN18AppleStockholmSPMI29_configureHammerfestSPMIGatedEv : 1680 -> 1684
+~ __ZN18AppleStockholmSPMI5ioctlEmPvPmj : 2588 -> 2592
+~ __ZN18AppleStockholmSPMI16ctl_connectGatedEPvP12sockaddr_ctl : 760 -> 764
+~ __ZN18AppleStockholmSPMI19ctl_disconnectGatedEPvj : 340 -> 344
+~ __ZN18AppleStockholmSPMI13ctl_sendGatedEPvP6__mbufi : 108 -> 112
+~ __ZN18AppleStockholmSPMI15ctl_setoptGatedEPviS0_m : 300 -> 304
+~ __ZN18AppleStockholmSPMI15ctl_getoptGatedEPviS0_Pm : 308 -> 312
+~ _GLOBAL__sub_I_AppleStockholmSPMI.cpp : 92 -> 96
+~ __GLOBAL__D_a : 96 -> 100
+~ __ZN21AppleStockholmControl9MetaClassC1Ev : 72 -> 76
+~ __ZN21AppleStockholmControlC2EPK11OSMetaClass : 72 -> 76
+~ __ZN21AppleStockholmControlD2Ev : 560 -> 564
+~ __ZN21AppleStockholmControlD1Ev : 560 -> 564
+~ __ZN21AppleStockholmControlD0Ev : 68 -> 72
+~ __ZN21AppleStockholmControl9MetaClassC2Ev : 72 -> 76
+~ __ZNK21AppleStockholmControl9MetaClass5allocEv : 52 -> 56
+~ __ZN21AppleStockholmControlC2Ev : 108 -> 112
+~ __ZN21AppleStockholmControl25_bootStopInterruptHandlerEP22IOInterruptEventSourcei : 724 -> 728
+~ __Z13strcontainstrPKcS0_j : 320 -> 324
+~ __ZN21AppleStockholmControl13_requiresGPIOEPKc : 1216 -> 1220
+~ __ZN21AppleStockholmControl14_matchPropertyEPKcS1_ : 1224 -> 1228
+~ __ZN21AppleStockholmControl11initForSPMIEv : 1224 -> 1228
+~ __ZN21AppleStockholmControl5startEP9IOService : 7892 -> 7896
+~ __ZN21AppleStockholmControl10_initForPMEP9IOService : 916 -> 920
+~ __ZN21AppleStockholmControl23_needsPowerEnableOnBootEv : 156 -> 160
+~ __ZN21AppleStockholmControl4stopEP9IOService : 180 -> 184
+~ __ZN21AppleStockholmControl9setEnableEb : 660 -> 664
+~ __ZN21AppleStockholmControl12toggleEnableEy : 1620 -> 1624
+~ __ZN21AppleStockholmControl13setVBATEnableEb : 268 -> 272
+~ __ZN21AppleStockholmControl18setDownloadRequestEb : 284 -> 288
+~ __ZN21AppleStockholmControl23setNFCCBootMeasurementsEb : 280 -> 284
+~ __ZN21AppleStockholmControl21setSEBootMeasurementsEb : 280 -> 284
+~ __ZN21AppleStockholmControl16getBootStopStateEPy : 880 -> 884
+~ __ZN21AppleStockholmControl24setPMUStandbyPowerEnableEb : 280 -> 284
+~ __ZN21AppleStockholmControl16setStandbyEnableEb : 584 -> 588
+~ __ZN21AppleStockholmControl17sendFollowerResetEv : 556 -> 560
+~ __ZN21AppleStockholmControl9sendvGPIOEh : 348 -> 352
+~ __ZN21AppleStockholmControl18_requiresPowerToSEEv : 488 -> 492
+~ _GLOBAL__sub_I_AppleStockholmControl.cpp : 80 -> 84
+~ __ZN25AppleStockholmDebugDevice9MetaClassC1Ev : 72 -> 76
+~ __ZN25AppleStockholmDebugDeviceC2EPK11OSMetaClass : 52 -> 56
+~ __ZN25AppleStockholmDebugDeviceC1EPK11OSMetaClass : 52 -> 56
+~ __ZN25AppleStockholmDebugDeviceD0Ev : 68 -> 72
+~ __ZN25AppleStockholmDebugDevice9MetaClassC2Ev : 72 -> 76
+~ __ZNK25AppleStockholmDebugDevice9MetaClass5allocEv : 104 -> 108
+~ __ZN25AppleStockholmDebugDeviceC1Ev : 88 -> 92
+~ __ZN25AppleStockholmDebugDeviceC2Ev : 88 -> 92
+~ __ZN25AppleStockholmDebugDevice13_debugDevOpenEiiiP4proc : 92 -> 96
+~ __ZN25AppleStockholmDebugDevice14_debugDevCloseEiiiP4proc : 80 -> 84
+~ __ZN25AppleStockholmDebugDevice14_debugDevWriteEiP3uioi : 392 -> 396
+~ __ZN25AppleStockholmDebugDevice18_configDebugDeviceEjm : 368 -> 372
+~ __ZN25AppleStockholmDebugDevice13_debugDevReadEiP3uioi : 160 -> 164
+~ __ZN25AppleStockholmDebugDevice8instanceEv : 76 -> 80
+~ __ZN25AppleStockholmDebugDevice11get_time_msEv : 80 -> 84
+~ __ZN25AppleStockholmDebugDevice10_debugLogVEPKcPc : 200 -> 204
+~ __ZN25AppleStockholmDebugDevice11_debugDumpVEN7libkern17bounded_array_refIhN9os_detail21panic_trapping_policyEEEmPKcPc : 720 -> 724
+~ _GLOBAL__sub_I_AppleStockholmDebug.cpp : 92 -> 96
+~ __GLOBAL__D_a : 140 -> 144
+~ __ZN9os_detail21panic_trapping_policy4trapEPKc : 48 -> 52
+```

@@ -1,0 +1,40 @@
+## _SpatialPreview_USDKit
+
+> `/System/Library/Frameworks/_SpatialPreview_USDKit.framework/Versions/A/_SpatialPreview_USDKit`
+
+```diff
+
+ 34.0.7.0.0
+-  __TEXT.__text: 0x91884
++  __TEXT.__text: 0x918d8
+   __TEXT.__const: 0x2fe8
+   __TEXT.__cstring: 0x2b02
+   __TEXT.__oslogstring: 0x2214
+Functions:
+~ __Z36createModelDescriptorFromUsdGeomMeshRKN32pxrInternal__aapl__pxrReserved__11UsdGeomMeshERKNS_7TfTokenEbb : 14948 -> 14956
+~ _replaceMeshData : 7652 -> 7660
+~ __ZNSt3__16vectorIjNS_9allocatorIjEEE6resizeEmRKj : 624 -> 636
+~ __Z39convertAndAddAttributeToModelDescriptorIN32pxrInternal__aapl__pxrReserved__7GfVec3fEDv3_fEbRP25geom_mp_mesh_descriptor_sRKNS0_12UsdAttributeEPKcRKNS0_7TfTokenEb : 1752 -> 1756
+~ __Z39convertAndAddAttributeToModelDescriptorIN32pxrInternal__aapl__pxrReserved__7GfVec2fEDv2_fEbRP25geom_mp_mesh_descriptor_sRKNS0_12UsdAttributeEPKcRKNS0_7TfTokenEb : 1728 -> 1732
+~ __Z39convertAndAddAttributeToModelDescriptorIN32pxrInternal__aapl__pxrReserved__7GfVec3dEDv3_fEbRP25geom_mp_mesh_descriptor_sRKNS0_12UsdAttributeEPKcRKNS0_7TfTokenEb : 1760 -> 1764
+~ __Z39convertAndAddAttributeToModelDescriptorIN32pxrInternal__aapl__pxrReserved__7GfVec2dEDv2_fEbRP25geom_mp_mesh_descriptor_sRKNS0_12UsdAttributeEPKcRKNS0_7TfTokenEb : 1736 -> 1740
+~ __Z39convertAndAddAttributeToModelDescriptorIN32pxrInternal__aapl__pxrReserved__7GfVec3hEDv3_fEbRP25geom_mp_mesh_descriptor_sRKNS0_12UsdAttributeEPKcRKNS0_7TfTokenEb : 1788 -> 1792
+~ __Z39convertAndAddAttributeToModelDescriptorIN32pxrInternal__aapl__pxrReserved__7GfVec2hEDv2_fEbRP25geom_mp_mesh_descriptor_sRKNS0_12UsdAttributeEPKcRKNS0_7TfTokenEb : 1760 -> 1764
+~ __Z39convertAndAddAttributeToModelDescriptorIN32pxrInternal__aapl__pxrReserved__7GfVec4fEDv4_fEbRP25geom_mp_mesh_descriptor_sRKNS0_12UsdAttributeEPKcRKNS0_7TfTokenEb : 1732 -> 1736
+~ __Z39convertAndAddAttributeToModelDescriptorIN32pxrInternal__aapl__pxrReserved__7GfVec4dEDv4_fEbRP25geom_mp_mesh_descriptor_sRKNS0_12UsdAttributeEPKcRKNS0_7TfTokenEb : 1744 -> 1748
+~ __Z39convertAndAddAttributeToModelDescriptorIN32pxrInternal__aapl__pxrReserved__7GfVec4hEDv4_fEbRP25geom_mp_mesh_descriptor_sRKNS0_12UsdAttributeEPKcRKNS0_7TfTokenEb : 1780 -> 1784
+~ __Z39convertAndAddAttributeToModelDescriptorIiiEbRP25geom_mp_mesh_descriptor_sRKN32pxrInternal__aapl__pxrReserved__12UsdAttributeEPKcRKNS3_7TfTokenEb : 1676 -> 1680
+~ __Z39convertAndAddAttributeToModelDescriptorIjjEbRP25geom_mp_mesh_descriptor_sRKN32pxrInternal__aapl__pxrReserved__12UsdAttributeEPKcRKNS3_7TfTokenEb : 1676 -> 1680
+~ __Z39convertAndAddAttributeToModelDescriptorIhhEbRP25geom_mp_mesh_descriptor_sRKN32pxrInternal__aapl__pxrReserved__12UsdAttributeEPKcRKNS3_7TfTokenEb : 1668 -> 1672
+~ __Z39convertAndAddAttributeToModelDescriptorIffEbRP25geom_mp_mesh_descriptor_sRKN32pxrInternal__aapl__pxrReserved__12UsdAttributeEPKcRKNS3_7TfTokenEb : 1676 -> 1680
+~ __Z39convertAndAddAttributeToModelDescriptorIddEbRP25geom_mp_mesh_descriptor_sRKN32pxrInternal__aapl__pxrReserved__12UsdAttributeEPKcRKNS3_7TfTokenEb : 1672 -> 1676
+~ _OUTLINED_FUNCTION_12 : 16 -> 48
+~ _OUTLINED_FUNCTION_13 : 12 -> 48
+~ _OUTLINED_FUNCTION_14 : 28 -> 48
+~ _OUTLINED_FUNCTION_15 : 48 -> 16
+~ _OUTLINED_FUNCTION_16 : 48 -> 36
+~ _OUTLINED_FUNCTION_17 : 48 -> 12
+~ _OUTLINED_FUNCTION_18 : 36 -> 28
+~ __ZNSt3__16vectorIN32pxrInternal__aapl__pxrReserved__7UsdPrimENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_ : 428 -> 424
+~ _$s6USDKit8USDStageV016_SpatialPreview_A0E16estimateStrategy4from10categoriesAcDE015UsdOptimizationF0O8category_Sd10confidencetAA0I5StageV01_A11_RealityKitE0iM4InfoV_SayAcDE23FuzzyCategoryDefinitionVGtF : 1644 -> 1648
+```

@@ -1,0 +1,171 @@
+## com.apple.driver.usb.cdc.ncm
+
+> `com.apple.driver.usb.cdc.ncm`
+
+```diff
+
+ 397.0.0.0.0
+   __TEXT.__cstring: 0x240c
+   __TEXT.__const: 0xca
+-  __TEXT_EXEC.__text: 0xdaa4
++  __TEXT_EXEC.__text: 0xdd10
+   __TEXT_EXEC.__auth_stubs: 0x5b0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x100
+Functions:
+~ __ZN17AppleUSBNCM11Data9MetaClassC1Ev : 72 -> 76
+~ __ZN17AppleUSBNCM11DataC2EPK11OSMetaClass : 52 -> 56
+~ __ZN17AppleUSBNCM11DataC1EPK11OSMetaClass : 52 -> 56
+~ __ZN17AppleUSBNCM11DataD0Ev : 68 -> 72
+~ __ZN17AppleUSBNCM11Data9MetaClassC2Ev : 72 -> 76
+~ __ZNK17AppleUSBNCM11Data9MetaClass5allocEv : 104 -> 108
+~ __ZN17AppleUSBNCM11DataC1Ev : 88 -> 92
+~ __ZN17AppleUSBNCM11DataC2Ev : 88 -> 92
+~ __ZN17AppleUSBNCM11Data15selectNTBFormatEv : 160 -> 164
+~ _GLOBAL__sub_I_AppleUSBNCM11Data.cpp : 80 -> 84
+~ __ZN21AppleUSBNCMDataPoller9MetaClassC1Ev : 72 -> 76
+~ __ZN21AppleUSBNCMDataPollerC2EPK11OSMetaClass : 52 -> 56
+~ __ZN21AppleUSBNCMDataPollerD0Ev : 68 -> 72
+~ __ZNK21AppleUSBNCMDataPoller9MetaClass5allocEv : 104 -> 108
+~ __ZN21AppleUSBNCMDataPollerC1Ev : 88 -> 92
+~ __ZN21AppleUSBNCMDataPoller12checkForWorkEv : 260 -> 264
+~ __ZN15AppleUSBNCMData15processTransferEP15InputPipeRecordj : 176 -> 180
+~ __ZN15AppleUSBNCMData7armReadEv : 328 -> 332
+~ __ZN42AppleUSBHostNCMRestrictedEthernetInterface9MetaClassC1Ev : 72 -> 76
+~ __ZN42AppleUSBHostNCMRestrictedEthernetInterfaceC2EPK11OSMetaClass : 52 -> 56
+~ __ZN42AppleUSBHostNCMRestrictedEthernetInterfaceC1EPK11OSMetaClass : 52 -> 56
+~ __ZN42AppleUSBHostNCMRestrictedEthernetInterfaceD0Ev : 68 -> 72
+~ __ZN42AppleUSBHostNCMRestrictedEthernetInterface9MetaClassC2Ev : 72 -> 76
+~ __ZNK42AppleUSBHostNCMRestrictedEthernetInterface9MetaClass5allocEv : 104 -> 108
+~ __ZN42AppleUSBHostNCMRestrictedEthernetInterfaceC1Ev : 88 -> 92
+~ __ZN42AppleUSBHostNCMRestrictedEthernetInterfaceC2Ev : 88 -> 92
+~ __ZN15AppleUSBNCMData9MetaClassC1Ev : 72 -> 76
+~ __ZN15AppleUSBNCMDataC2EPK11OSMetaClass : 88 -> 92
+~ __ZN15AppleUSBNCMDataD2Ev : 88 -> 92
+~ __ZN15AppleUSBNCMDataD1Ev : 88 -> 92
+~ __ZN15AppleUSBNCMDataD0Ev : 108 -> 112
+~ __ZN15AppleUSBNCMData9MetaClassC2Ev : 72 -> 76
+~ __ZNK15AppleUSBNCMData9MetaClass5allocEv : 52 -> 56
+~ __ZN15AppleUSBNCMDataC2Ev : 116 -> 120
+~ __ZN15AppleUSBNCMData5startEP9IOService : 3592 -> 3596
+~ __ZN15AppleUSBNCMData17setLinkStatusDownEv : 108 -> 112
+~ __ZN15AppleUSBNCMData29setPropertiesForInterfaceRoleEv : 232 -> 236
+~ __ZN15AppleUSBNCMData31configureBSDInterfaceThreadCallEPvS0_ : 860 -> 864
+~ __ZN15AppleUSBNCMData13willTerminateEP9IOServicej : 576 -> 580
+~ __ZN15AppleUSBNCMData4stopEP9IOService : 616 -> 620
+~ __ZN15AppleUSBNCMData4freeEv : 352 -> 356
+~ __ZN15AppleUSBNCMData11freeRecordsEv : 228 -> 232
+~ __ZN15AppleUSBNCMData26waitBSDInterfaceNamedGatedEv : 184 -> 188
+~ __ZN15AppleUSBNCMData16setDataAlternateEv : 144 -> 148
+~ __ZN15AppleUSBNCMData9lockNetifEv : 140 -> 144
+~ __ZN15AppleUSBNCMData18flushDataTransfersEv : 232 -> 236
+~ __ZN15AppleUSBNCMData18setHardwareAddressEPKvj : 140 -> 144
+~ ____ZN15AppleUSBNCMData18setHardwareAddressEPKvj_block_invoke : 200 -> 204
+~ __ZN15AppleUSBNCMData16setMulticastModeEb : 184 -> 188
+~ __ZN15AppleUSBNCMData11outputStartEP18IONetworkInterfacej : 188 -> 192
+~ __ZN15AppleUSBNCMData25dequeueAndTransmitPacketsEP18IONetworkInterfaceP16OutputPipeRecord : 400 -> 404
+~ __ZN15AppleUSBNCMData15createInterfaceEv : 232 -> 236
+~ __ZN15AppleUSBNCMData17dataWriteCompleteEPvij : 464 -> 468
+~ __ZN15AppleUSBNCMData16zlpWriteCompleteEPvij : 120 -> 124
+~ __ZN15AppleUSBNCMData16dataReadCompleteEPvij : 456 -> 460
+~ __ZN15AppleUSBNCMData15setLinkStatusUpEv : 292 -> 296
+~ __ZN15AppleUSBNCMData7armReadEP15InputPipeRecord : 400 -> 404
+~ __ZN15AppleUSBNCMData20setCarPlayPropertiesEv : 1104 -> 1108
+~ __ZN15AppleUSBNCMData15selectNTBFormatEv : 456 -> 460
+~ _GLOBAL__sub_I_AppleUSBNCMData.cpp : 200 -> 204
+~ __GLOBAL__D_a : 68 -> 72
+~ __ZN18AppleUSBNCMControl9MetaClassC1Ev : 72 -> 76
+~ __ZN18AppleUSBNCMControlC2EPK11OSMetaClass : 52 -> 56
+~ __ZN18AppleUSBNCMControlC1EPK11OSMetaClass : 52 -> 56
+~ __ZN18AppleUSBNCMControlD0Ev : 68 -> 72
+~ __ZN18AppleUSBNCMControl9MetaClassC2Ev : 72 -> 76
+~ __ZNK18AppleUSBNCMControl9MetaClass5allocEv : 104 -> 108
+~ __ZN18AppleUSBNCMControlC1Ev : 88 -> 92
+~ __ZN18AppleUSBNCMControlC2Ev : 88 -> 92
+~ __ZN18AppleUSBNCMControl34getInterfaceAssociationDescriptorsEv : 140 -> 144
+~ __ZN18AppleUSBNCMControl24getFunctionalDescriptorsEv : 200 -> 204
+~ __ZN18AppleUSBNCMControl5startEP9IOService : 932 -> 936
+~ __ZN18AppleUSBNCMControl4freeEv : 112 -> 116
+~ _GLOBAL__sub_I_AppleUSBNCMControl.cpp : 80 -> 84
+~ __ZN20AppleUSBNCM11Control9MetaClassC1Ev : 72 -> 76
+~ __ZN20AppleUSBNCM11ControlC2EPK11OSMetaClass : 52 -> 56
+~ __ZN20AppleUSBNCM11ControlC1EPK11OSMetaClass : 52 -> 56
+~ __ZN20AppleUSBNCM11ControlD0Ev : 68 -> 72
+~ __ZN20AppleUSBNCM11Control9MetaClassC2Ev : 72 -> 76
+~ __ZNK20AppleUSBNCM11Control9MetaClass5allocEv : 104 -> 108
+~ __ZN20AppleUSBNCM11ControlC1Ev : 88 -> 92
+~ __ZN20AppleUSBNCM11ControlC2Ev : 88 -> 92
+~ __ZN20AppleUSBNCM11Control5startEP9IOService : 940 -> 944
+~ _GLOBAL__sub_I_AppleUSBNCM11Control.cpp : 80 -> 84
+~ __ZN17AppleUSBNCM11Data13configureDataEv : 96 -> 100
+~ __ZN17AppleUSBNCM11Data23configureMediumHandlingEv : 212 -> 216
+~ __ZN17AppleUSBNCM11Data25notificationCallbackGatedEP18AppleUSBNCMControlPvP18USBCDCNotification : 348 -> 352
+~ __ZN15AppleUSBNCMData4initEP12OSDictionary : 328 -> 332
+~ __ZN15AppleUSBNCMData19initStatsIOReporterEv : 576 -> 580
+~ __ZN15AppleUSBNCMData20notificationCallbackEP18AppleUSBNCMControlPvP18USBCDCNotification : 312 -> 316
+~ __ZN15AppleUSBNCMData18createMediumTablesEv : 260 -> 264
+~ __ZN15AppleUSBNCMData12allocRecordsEv : 800 -> 804
+~ __ZN15AppleUSBNCMData32setAppleInternalCoProcPropertiesEv : 156 -> 160
+~ __ZN15AppleUSBNCMData27matchedBSDInterfaceNotifierEPvP9IOServiceP10IONotifier : 216 -> 220
+~ __ZN15AppleUSBNCMData22powerStateWillChangeToEmmP9IOService : 384 -> 388
+~ __ZN15AppleUSBNCMData21powerStateDidChangeToEmmP9IOService : 448 -> 452
+~ __ZN15AppleUSBNCMData21enableNetifThreadCallEP11thread_call : 288 -> 292
+~ __ZN15AppleUSBNCMData12setAlternateEt : 288 -> 292
+~ __ZN15AppleUSBNCMData13configureDataEv : 452 -> 456
+~ __ZN15AppleUSBNCMData6enableEP18IONetworkInterface : 768 -> 772
+~ __ZN15AppleUSBNCMData18setupDataTransfersEv : 432 -> 436
+~ __ZN15AppleUSBNCMData7disableEP18IONetworkInterface : 488 -> 492
+~ __ZN15AppleUSBNCMData18setPromiscuousModeEb : 148 -> 152
+~ __ZN15AppleUSBNCMData18configureInterfaceEP18IONetworkInterface : 440 -> 444
+~ __ZN15AppleUSBNCMData18chooseIdlePoliciesEv : 488 -> 492
+~ __ZN15AppleUSBNCMData14transmitRecordEP16OutputPipeRecord : 360 -> 364
+~ __ZN15AppleUSBNCMData11transmitZLPEv : 364 -> 368
+~ __ZN15AppleUSBNCMData25notificationCallbackGatedEP18AppleUSBNCMControlPvP18USBCDCNotification : 592 -> 596
+~ _ZN15AppleUSBNCMData7armReadEv.cold.1 : 140 -> 144
+~ _ZN15AppleUSBNCMData5startEP9IOService.cold.1 : 52 -> 56
+~ _ZN15AppleUSBNCMData5startEP9IOService.cold.2 : 152 -> 156
+~ _ZN15AppleUSBNCMData29setPropertiesForInterfaceRoleEv.cold.1 : 184 -> 188
+~ _ZN15AppleUSBNCMData29setPropertiesForInterfaceRoleEv.cold.2 : 168 -> 172
+~ _ZN15AppleUSBNCMData31configureBSDInterfaceThreadCallEPvS0_.cold.1 : 172 -> 176
+~ _ZN15AppleUSBNCMData13willTerminateEP9IOServicej.cold.1 : 168 -> 172
+~ _ZN15AppleUSBNCMData4stopEP9IOService.cold.1 : 144 -> 148
+~ _ZN15AppleUSBNCMData16setDataAlternateEv.cold.1 : 144 -> 148
+~ _ZN15AppleUSBNCMData7armReadEP15InputPipeRecord.cold.1 : 152 -> 156
+~ _ZN15AppleUSBNCMData7armReadEP15InputPipeRecord.cold.2 : 140 -> 144
+~ _ZN15AppleUSBNCMData7armReadEP15InputPipeRecord.cold.3 : 140 -> 144
+~ __ZN18AppleUSBNCMControl5probeEP9IOServicePi : 368 -> 372
+~ __ZN18AppleUSBNCMControl17copyDataInterfaceEv : 236 -> 240
+~ __ZN18AppleUSBNCMControl27getMACAddressFromDescriptorEh : 496 -> 500
+~ __ZN18AppleUSBNCMControl18cacheNTBParametersEv : 692 -> 696
+~ __ZN18AppleUSBNCMControl24cacheAppleInterfaceFlagsEv : 520 -> 524
+~ __ZN18AppleUSBNCMControl18chooseIdlePoliciesEv : 448 -> 452
+~ __ZN18AppleUSBNCMControl18setMulticastFilterEP17IOEthernetAddressj : 264 -> 268
+~ __ZN18AppleUSBNCMControl15getPacketFilterEPt : 268 -> 272
+~ __ZN18AppleUSBNCMControl15setPacketFilterEt : 240 -> 244
+~ __ZN18AppleUSBNCMControl17setNetworkAddressEPht : 464 -> 468
+~ __ZN18AppleUSBNCMControl22setNetworkAddressGatedEPhPt : 172 -> 176
+~ __ZN18AppleUSBNCMControl12getNTBFormatEPt : 260 -> 264
+~ __ZN18AppleUSBNCMControl12setNTBFormatEt : 240 -> 244
+~ __ZN18AppleUSBNCMControl15getNTBInputSizeEPj : 260 -> 264
+~ __ZN18AppleUSBNCMControl15setNTBInputSizeEj : 252 -> 256
+~ __ZN18AppleUSBNCMControl20setNTBInputSizeGatedEPj : 132 -> 136
+~ __ZN18AppleUSBNCMControl16getDatagramLimitEPt : 260 -> 264
+~ __ZN18AppleUSBNCMControl16setDatagramLimitEt : 240 -> 244
+~ __ZN18AppleUSBNCMControl21setDatagramLimitGatedEPt : 140 -> 144
+~ __ZN18AppleUSBNCMControl10getCRCModeEPt : 260 -> 264
+~ __ZN18AppleUSBNCMControl10setCRCModeEt : 240 -> 244
+~ __ZN20AppleUSBNCM11Control5probeEP9IOServicePi : 432 -> 436
+~ __ZN20AppleUSBNCM11Control24cacheExtendedDescriptorsEv : 596 -> 600
+~ __ZN20AppleUSBNCM11Control25getExtendedCapabilityModeEP25NCMExtendedCapabilityMode : 376 -> 380
+~ __ZN20AppleUSBNCM11Control25setExtendedCapabilityModeE25NCMExtendedCapabilityMode : 388 -> 392
+~ __ZN20AppleUSBNCM11Control23getExtendedCapabilitiesEPvPt : 384 -> 388
+~ __ZN20AppleUSBNCM11Control32getExtendedFeatureMediumHandlingEP9NCMMedium : 376 -> 380
+~ __ZN20AppleUSBNCM11Control32setExtendedFeatureMediumHandlingE9NCMMedium : 384 -> 388
+~ __ZN20AppleUSBNCM11Control22getExtendedFeatureWakeE15NCMWakeTypeCodePvPth : 380 -> 384
+~ __ZN20AppleUSBNCM11Control22setExtendedFeatureWakeE15NCMWakeTypeCodePvt : 380 -> 384
+~ __ZN20AppleUSBNCM11Control33getExtendedFeaturePresenceOffloadE26NCMPresenceOffloadTypeCodePvPt : 376 -> 380
+~ __ZN20AppleUSBNCM11Control33setExtendedFeaturePresenceOffloadE26NCMPresenceOffloadTypeCodePvt : 368 -> 372
+~ __ZN20AppleUSBNCM11Control32getExtendedFeatureReceiveOffloadE25NCMReceiveOffloadTypeCodePvPt : 376 -> 380
+~ __ZN20AppleUSBNCM11Control32setExtendedFeatureReceiveOffloadE25NCMReceiveOffloadTypeCodePvt : 368 -> 372
+~ _ZN20AppleUSBNCM11Control5startEP9IOService.cold.1 : 56 -> 60
+```

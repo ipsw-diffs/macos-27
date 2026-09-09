@@ -1,0 +1,7 @@
+## trash
+
+> `/usr/bin/trash`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`

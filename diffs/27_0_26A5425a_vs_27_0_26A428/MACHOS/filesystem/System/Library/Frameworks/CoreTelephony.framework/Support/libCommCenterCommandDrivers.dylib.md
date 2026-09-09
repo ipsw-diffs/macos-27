@@ -1,0 +1,141 @@
+## libCommCenterCommandDrivers.dylib
+
+> `/System/Library/Frameworks/CoreTelephony.framework/Support/libCommCenterCommandDrivers.dylib`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__TEXT.__gcc_except_tab`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+
+```diff
+
+ 13487.1.0.0.0
+-  __TEXT.__text: 0x34948
++  __TEXT.__text: 0x342c0
+   __TEXT.__init_offsets: 0x8
+   __TEXT.__const: 0x4640
+   __TEXT.__gcc_except_tab: 0x4d2c
+   __TEXT.__cstring: 0x148d
+   __TEXT.__oslogstring: 0x17af
+-  __TEXT.__unwind_info: 0x1880
++  __TEXT.__unwind_info: 0x1ad0
+   __TEXT.__auth_stubs: 0xec0
+   __DATA_CONST.__const: 0x768
+   __DATA_CONST.__weak_got: 0x10
+Functions:
+~ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm : 68 -> 56
+~ __ZNSt3__16vectorI19VinylProfileDetailsNS_9allocatorIS1_EEE16__destroy_vectorclB9nqe220106Ev : 132 -> 120
+~ __ZN28BBDataCommandDriverInterfaceD2Ev : 180 -> 140
+~ __ZNSt3__16vectorIN3ctu2cf11CFSharedRefIK14__CFDictionaryEENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJRKS6_EEEPS6_DpOT_ : 204 -> 200
+~ __ZNSt3__16vectorIN3ctu2cf11CFSharedRefIK14__CFDictionaryEENS_9allocatorIS6_EEE16__destroy_vectorclB9nqe220106Ev : 112 -> 100
+~ __ZNSt3__119__shared_weak_count16__release_sharedB9nqe220106Ev : 100 -> 88
+~ __ZNSt3__120__shared_ptr_emplaceIZN3awd10AppContext6createENS1_5AppIDEN8dispatch5queueENS4_8workloopEE19make_shared_enablerNS_9allocatorIS7_EEED0Ev : 84 -> 72
+~ __ZNSt3__120__shared_ptr_emplaceIZN3awd10AppContext6createENS1_5AppIDEN8dispatch5queueENS4_8workloopEE19make_shared_enablerNS_9allocatorIS7_EEE16__on_zero_sharedEv : 188 -> 176
+~ ___destroy_helper_block_e8_32b40c45_ZTSNSt3__110shared_ptrIKN3awd10AppContextEEE : 68 -> 56
+~ __ZN21CommandDriversFactoryD0Ev : 56 -> 44
+~ __ZNSt3__120__shared_ptr_pointerIP21CommandDriversFactoryNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEED0Ev : 56 -> 44
+~ __ZN11DisplayTextD0Ev : 112 -> 100
+~ __ZN8GetInkeyD0Ev : 112 -> 100
+~ __ZN8GetInputD0Ev : 56 -> 44
+~ __ZN8PlayToneD0Ev : 112 -> 100
+~ __ZN16SendShortMessageD0Ev : 56 -> 44
+~ __ZN6SendSSD0Ev : 56 -> 44
+~ __ZN8SendUSSDD0Ev : 56 -> 44
+~ __ZN9SetupCallD0Ev : 56 -> 44
+~ __ZN25SetupCallUserConfirmationD0Ev : 56 -> 44
+~ __ZN21SetupCallAlphaDisplayD0Ev : 56 -> 44
+~ __ZN9SetupMenuD0Ev : 56 -> 44
+~ __ZN10SelectItemD0Ev : 56 -> 44
+~ __ZN13SetupIdleTextD0Ev : 112 -> 100
+~ __ZN8SendDTMFD0Ev : 56 -> 44
+~ __ZN20LanguageNotificationD0Ev : 112 -> 100
+~ __ZN23SetupEventNotificationsD0Ev : 104 -> 92
+~ __ZN11OpenChannelD0Ev : 112 -> 100
+~ __ZN12CloseChannelD0Ev : 112 -> 100
+~ __ZN8SendDataD0Ev : 112 -> 100
+~ __ZN11ReceiveDataD0Ev : 112 -> 100
+~ __ZN12RefreshAlphaD0Ev : 112 -> 100
+~ __ZNSt3__16vectorI13SelectionItemNS_9allocatorIS1_EEE16__destroy_vectorclB9nqe220106Ev : 132 -> 120
+~ __ZN13CCPreferencesD0Ev : 56 -> 44
+~ __ZNSt3__120__shared_ptr_emplaceI13CCPreferencesNS_9allocatorIS1_EEED0Ev : 84 -> 72
+~ __ZN21NetworkListScanResult11addOperatorEPKN3ctu11OsLogLoggerERK19NetworkListOperator : 1748 -> 1744
+~ __ZNSt3__16vectorI19NetworkListOperatorNS_9allocatorIS1_EEE18__assign_with_sizeB9nqe220106INS_17_ClassicAlgPolicyEPS1_S7_EEvT0_T1_l : 428 -> 424
+~ __ZNSt3__116allocator_traitsINS_9allocatorI19NetworkListOperatorEEE7destroyB9nqe220106IS2_Li0EEEvRS3_PT_ : 104 -> 92
+~ __ZNSt3__110__function6__funcIZN14HSFilerManager13sendFile_syncERKNS_10shared_ptrIK8RegistryEEN10subscriber7SimSlotE8FileTypeRKNS3_INS_13basic_istreamIcNS_11char_traitsIcEEEEEERKNS_12basic_stringIcSE_NS_9allocatorIcEEEEE3$_0Fv25HiSpeedFileTransferStatusEED0Ev : 108 -> 96
+~ __ZN22BasebandSettingsDriver29reportFileTransferStatus_syncEN10subscriber7SimSlotE18FileTransferStatus8FileType : 1328 -> 1316
+~ __ZN22BasebandSettingsDriver8sendFileEv : 164 -> 152
+~ __ZN22BasebandSettingsDriver8sendFileER13SendFileProxy : 2196 -> 2156
+~ __ZN22BasebandSettingsDriver13sendCsimFilesEN10subscriber7SimSlotENSt3__110shared_ptrINS2_13basic_istreamIcNS2_11char_traitsIcEEEEEEm : 960 -> 940
+~ __ZN22BasebandSettingsDriver11readSegmentERKNSt3__110shared_ptrINS0_13basic_istreamIcNS0_11char_traitsIcEEEEEE : 384 -> 372
+~ __ZNSt3__16vectorIhN3ctu21malloc_zone_allocatorIhEEE6resizeEm : 292 -> 276
+~ __ZNKSt3__114default_deleteIN3ctu10MallocZoneEEclB9nqe220106EPS2_ : 80 -> 68
+~ __ZN24SimInstanceLoggerDefaultIN3ctu11OsLogLoggerEN10subscriber7SimSlotENSt3__18functionIFKPKcS3_EEEED0Ev : 108 -> 96
+~ __ZNSt3__120__shared_ptr_emplaceINS_14basic_ifstreamIcNS_11char_traitsIcEEEENS_9allocatorIS4_EEED0Ev : 84 -> 72
+~ __ZNSt3__120__shared_ptr_emplaceINS_6vectorIhNS_9allocatorIhEEEENS2_IS4_EEED0Ev : 84 -> 72
+~ __ZNSt3__110__function6__funcIZN22BasebandSettingsDriver13sendCsimFilesEN10subscriber7SimSlotENS_10shared_ptrINS_13basic_istreamIcNS_11char_traitsIcEEEEEEmE3$_0FvbEED0Ev : 108 -> 96
+~ __ZNSt3__110__function6__funcIZN22BasebandSettingsDriver13sendCsimFilesEN10subscriber7SimSlotENS_10shared_ptrINS_13basic_istreamIcNS_11char_traitsIcEEEEEEmE3$_0FvbEEclEOb : 180 -> 168
+~ __ZN25InterfaceAppMapperService6createEv : 344 -> 332
+~ __ZN25InterfaceAppMapperServiceD0Ev : 56 -> 44
+~ ____ZN25InterfaceAppMapperService22removeInterfaceMappingEj_block_invoke : 272 -> 260
+~ __ZNSt3__120__shared_ptr_pointerIP25InterfaceAppMapperServiceNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEED0Ev : 56 -> 44
+~ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeI9MCCAndMNC14FrequencyHintsEEPvEEEEEclB9nqe220106EPS8_ : 136 -> 124
+~ __ZNSt3__16vectorI7LteHintNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKjRKNS_8optionalIhEEEEEPS1_DpOT_ : 236 -> 232
+~ __ZZNSt3__16vectorI6NrHintNS_9allocatorIS1_EEE12emplace_backIJRKjS7_RKhRKtSB_EEERS1_DpOT_ENKUlvE0_clEv : 248 -> 244
+~ __ZN17CallCommandDriver29fillUpDefaultCallCapabilitiesEN10subscriber7SimSlotE : 984 -> 752
+~ __ZN15CallAudioDriver31handleOperatorBundleChange_syncERKN4rest15BundleInfoEventE : 204 -> 192
+~ __ZNSt3__110__function6__funcIZN3ctu4rest17event_sink_impl_tIN4rest15BundleInfoEventENS3_16path_generator_tINS5_21operator_bundle_eventEEEE9bind_implIRM15CallAudioDriverFvRKS6_ESC_EEvRNS2_10RestModuleEPT0_OT_NS_17integral_constantIbLb0EEEEUlRKN3xpc6objectEE_FvSR_EEclEOSR_ : 212 -> 196
+~ __ZNSt3__110__function6__funcIZN15CallAudioDriver19playLocalDtmfDigitsERKNS_6vectorIhNS_9allocatorIhEEEEE3$_0FvvEED0Ev : 136 -> 124
+~ __ZNSt3__110__function6__funcIZN15CallAudioDriver19playLocalDtmfDigitsERKNS_6vectorIhNS_9allocatorIhEEEEE3$_0FvvEE7destroyEv : 96 -> 84
+~ __ZN10subscribereqERKNS_13SimDriverInfoES2_ : 408 -> 396
+~ __ZN10subscriber16SimCommandDriver9writeFileERKNS_11SimCardInfoENS_11SimFilePathERKNSt3__16vectorIhNS5_9allocatorIhEEEEU13block_pointerFvbE : 232 -> 220
+~ __ZN5boost8signals26signalIFvN10subscriber7SimSlotENS2_7SimCardEENS0_19optional_last_valueIvEEiNSt3__14lessIiEENS_8functionIS5_EENSB_IFvRKNS0_10connectionES3_S4_EEENS0_5mutexEED0Ev : 100 -> 88
+~ __ZNSt3__16vectorIN10subscriber9NpAppInfoENS_9allocatorIS2_EEE16__destroy_vectorclB9nqe220106Ev : 68 -> 56
+~ __ZNSt3__116allocator_traitsINS_9allocatorIN10subscriber13SimDriverInfoEEEE7destroyB9nqe220106IS3_Li0EEEvRS4_PT_ : 112 -> 100
+~ __ZNSt3__16vectorIN10subscriber13SimDriverInfoENS_9allocatorIS2_EEE16__destroy_vectorclB9nqe220106Ev : 124 -> 112
+~ __ZN24SimInstanceLoggerDefaultIN3ctu11OsLogLoggerEN10subscriber15HardwareSimSlotENSt3__18functionIFKPKcS3_EEEED0Ev : 108 -> 96
+~ __ZNSt3__16vectorIhNS_9allocatorIhEEE24__emplace_back_slow_pathIJhEEEPhDpOT_ : 220 -> 216
+~ __ZNSt3__16vectorIN10subscriber13SimDriverInfoENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJEEEPS2_DpOT_ : 528 -> 524
+~ __ZNSt3__16vectorIhNS_9allocatorIhEEE18__assign_with_sizeB9nqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPKhEES9_EEvT0_T1_l : 308 -> 304
+~ __ZN5event11EventLoggerIFvN10subscriber7SimSlotENS1_7SimCardEENS_14CSIEventLoggerEED0Ev : 100 -> 88
+~ __ZN5boost14checked_deleteINS_8signals26detail12grouped_listIiNSt3__14lessIiEENS_10shared_ptrINS2_15connection_bodyINS4_4pairINS2_15slot_meta_groupENS_8optionalIiEEEENS1_4slotIFvN10subscriber7SimSlotENSF_7SimCardEENS_8functionISI_EEEENS1_5mutexEEEEEEEEEvPT_ : 84 -> 72
+~ __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail12grouped_listIiNSt3__14lessIiEENS_10shared_ptrINS3_15connection_bodyINS5_4pairINS3_15slot_meta_groupENS_8optionalIiEEEENS2_4slotIFvN10subscriber7SimSlotENSG_7SimCardEENS_8functionISJ_EEEENS2_5mutexEEEEEEEE7disposeEv : 100 -> 88
+~ __ZN5boost14checked_deleteINS_8signals26detail11signal_implIFvN10subscriber7SimSlotENS4_7SimCardEENS1_19optional_last_valueIvEEiNSt3__14lessIiEENS_8functionIS7_EENSD_IFvRKNS1_10connectionES5_S6_EEENS1_5mutexEE16invocation_stateEEEvPT_ : 84 -> 72
+~ __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvN10subscriber7SimSlotENS5_7SimCardEENS2_19optional_last_valueIvEEiNSt3__14lessIiEENS_8functionIS8_EENSE_IFvRKNS2_10connectionES6_S7_EEENS2_5mutexEE16invocation_stateEE7disposeEv : 100 -> 88
+~ __ZN5boost6detail17sp_counted_impl_pINS_8signals25mutexEE7disposeEv : 68 -> 56
+~ __ZN5boost14checked_deleteINS_8signals26detail11signal_implIFvN10subscriber7SimSlotENS4_7SimCardEENS1_19optional_last_valueIvEEiNSt3__14lessIiEENS_8functionIS7_EENSD_IFvRKNS1_10connectionES5_S6_EEENS1_5mutexEEEEEvPT_ : 84 -> 72
+~ __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvN10subscriber7SimSlotENS5_7SimCardEENS2_19optional_last_valueIvEEiNSt3__14lessIiEENS_8functionIS8_EENSE_IFvRKNS2_10connectionES6_S7_EEENS2_5mutexEEEE7disposeEv : 100 -> 88
+~ __ZNSt3__110__function6__funcIZN10subscriber16SimCommandDriver8readFileERKNS2_11SimCardInfoENS2_11SimFilePathERKNS_8functionIFvNS_10shared_ptrINS_6vectorIhNS_9allocatorIhEEEEEEEEEE3$_0FvNS_8optionalINS2_17SimFileAttributesEEENS2_11SimFileTypeEEED0Ev : 132 -> 120
+~ __ZNSt3__110__function6__funcIZN10subscriber16SimCommandDriver8readFileERKNS2_11SimCardInfoENS2_11SimFilePathERKNS_8functionIFvNS_10shared_ptrINS_6vectorIhNS_9allocatorIhEEEEEEEEEE3$_0FvNS_8optionalINS2_17SimFileAttributesEEENS2_11SimFileTypeEEE7destroyEv : 96 -> 84
+~ __ZNSt3__110__function6__funcIZN10subscriber16SimCommandDriver8readFileERKNS2_11SimCardInfoERKNS2_6FileIdERKNS_8functionIFvNS_10shared_ptrINS_6vectorIhNS_9allocatorIhEEEEEEEEEE3$_0FvNS_8optionalINS2_17SimFileAttributesEEENS2_11SimFileTypeEEED0Ev : 132 -> 120
+~ __ZNSt3__110__function6__funcIZN10subscriber16SimCommandDriver8readFileERKNS2_11SimCardInfoERKNS2_6FileIdERKNS_8functionIFvNS_10shared_ptrINS_6vectorIhNS_9allocatorIhEEEEEEEEEE3$_0FvNS_8optionalINS2_17SimFileAttributesEEENS2_11SimFileTypeEEE7destroyEv : 96 -> 84
+~ __ZNSt3__110__function6__funcIZN10subscriber16SimCommandDriver8readFileERKNS2_11SimCardInfoERKNS2_6FileIdERKNS_8functionIFvNS_10shared_ptrINS_6vectorIhNS_9allocatorIhEEEEEEEEEE3$_0FvNS_8optionalINS2_17SimFileAttributesEEENS2_11SimFileTypeEEEclEOSO_OSP_ : 624 -> 612
+~ ___destroy_helper_block_e8_32b48c39_ZTSNSt3__16vectorIhNS_9allocatorIhEEEE : 72 -> 60
+~ ___destroy_helper_block_e8_32b48c58_ZTSNSt3__16vectorINS_5arrayIhLm16EEENS_9allocatorIS2_EEEE : 72 -> 60
+~ ____ZN18VinylCommandDriver22tapeSetProprietaryDataEN10subscriber7SimSlotENSt3__16vectorIhNS2_9allocatorIhEEEEU13block_pointerFvN3ctu6resultIS6_NS2_5tupleIJ16VinylDriverErrorhhEEEEEE_block_invoke : 196 -> 176
+~ ____ZN18VinylCommandDriver19tapeGetNotificationEN10subscriber7SimSlotENSt3__16vectorIhNS2_9allocatorIhEEEEU13block_pointerFvN3ctu6resultIS6_NS2_5tupleIJ16VinylDriverErrorhhEEEEEE_block_invoke : 196 -> 176
+~ ____ZN18VinylCommandDriver22tapeDeleteNotificationEN10subscriber7SimSlotENSt3__16vectorIhNS2_9allocatorIhEEEEU13block_pointerFvN3ctu6resultIS6_NS2_5tupleIJ16VinylDriverErrorhhEEEEEE_block_invoke : 196 -> 176
+~ ____ZN18VinylCommandDriver17tapeCancelSessionEN10subscriber7SimSlotENSt3__16vectorIhNS2_9allocatorIhEEEEU13block_pointerFvN3ctu6resultIS6_NS2_5tupleIJ16VinylDriverErrorhhEEEEEE_block_invoke : 196 -> 176
+~ ____ZN18VinylCommandDriver15tapeSetNicknameEN10subscriber7SimSlotENSt3__16vectorIhNS2_9allocatorIhEEEEU13block_pointerFvN3ctu6resultIS6_NS2_5tupleIJ16VinylDriverErrorhhEEEEEE_block_invoke : 196 -> 176
+~ ____ZN18VinylCommandDriver4stopEv_block_invoke : 120 -> 108
+~ ___copy_helper_block_e8_40c30_ZTSN8dispatch13group_sessionE : 84 -> 72
+~ ___destroy_helper_block_e8_40c30_ZTSN8dispatch13group_sessionE : 80 -> 68
+~ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIN10subscriber8AuthInfoENS_6vectorIhNS1_IhEEEEEEPvEEEEEclB9nqe220106EPSB_ : 100 -> 88
+~ ___destroy_helper_block_e8_32b40c47_ZTSNSt3__110shared_ptrIK18VinylCommandDriverEE : 68 -> 56
+~ __ZNSt3__123__optional_storage_baseI9MCCAndMNCLb0EE13__assign_fromB9nqe220106INS_27__optional_move_assign_baseIS1_Lb0EEEEEvOT_ : 172 -> 136
+~ __ZNSt3__1ssB9nqe220106IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_ : 124 -> 120
+~ __ZN16DMSCommandDriver4stopEv : 220 -> 208
+~ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIN10subscriber7SimSlotENS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPvEEEEEclB9nqe220106EPSD_ : 72 -> 60
+~ __ZN28BBDataContextDriverInterfaceC2ENSt3__110shared_ptrI27BBDataContextDriverObserverEE : 164 -> 124
+~ __ZN28BBDataContextDriverInterfaceD2Ev : 180 -> 140
+~ __ZN15ATCommandDriver18handleCommand_syncENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS0_8functionIFvN2at10ResultTypeEEEE : 1440 -> 1432
+~ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIKNS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN15ATCommandDriver5EventEEEPvEEEEEclB9nqe220106EPSE_ : 72 -> 60
+~ __ZNSt3__16vectorI8DataModeNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJEEEPS1_DpOT_ : 172 -> 168
+~ ___destroy_helper_block_e8_32b40c45_ZTSNSt3__110shared_ptrIK16EosCommandDriverEE : 68 -> 56
+~ ___destroy_helper_block_e8_32c47_ZTSNSt3__110shared_ptrI19CSISMSCommandDriverEE48c50_ZTSNSt3__110shared_ptrI22SmsControllerInterfaceEE : 80 -> 68
+~ __ZN19CSISMSCommandDriver13clientStartedEN10subscriber7SimSlotE : 164 -> 152
+~ __ZN19CSISMSCommandDriver13clientStoppedEN10subscriber7SimSlotE : 164 -> 152
+~ ___destroy_helper_block_e8_32b40c48_ZTSNSt3__110shared_ptrIK19CSISMSCommandDriverEE : 68 -> 56
+```

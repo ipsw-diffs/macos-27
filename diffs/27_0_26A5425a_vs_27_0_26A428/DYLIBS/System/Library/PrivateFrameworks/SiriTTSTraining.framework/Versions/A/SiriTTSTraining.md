@@ -1,0 +1,153 @@
+## SiriTTSTraining
+
+> `/System/Library/PrivateFrameworks/SiriTTSTraining.framework/Versions/A/SiriTTSTraining`
+
+```diff
+
+ 3600.8.2.0.0
+-  __TEXT.__text: 0x20ab44
++  __TEXT.__text: 0x20ab9c
+   __TEXT.__init_offsets: 0x4
+   __TEXT.__objc_methlist: 0x7a4
+   __TEXT.__const: 0x10cc8
+
+   __TEXT.__swift5_capture: 0x30
+   __TEXT.__gcc_except_tab: 0x1fe20
+   __TEXT.__oslogstring: 0x1a3f
+-  __TEXT.__unwind_info: 0xb5d8
++  __TEXT.__unwind_info: 0xb5d0
+   __TEXT.__eh_frame: 0x70
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 7723
++  Functions: 7721
+   Symbols:   12197
+   CStrings:  3109
+ 
+Functions:
+~ __ZNSt3__16vectorIbNS_9allocatorIbEEE6resizeEmb : 128 -> 132
+~ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPKfEES9_EENS6_IPfEES9_T0_T1_l : 516 -> 532
+~ __ZNSt3__16vectorIN5kaldi6VectorIfEENS_9allocatorIS3_EEE6resizeEm : 456 -> 444
+~ __ZNSt3__16vectorIN5kaldi15TransitionModel5TupleENS_9allocatorIS3_EEE6resizeEm : 244 -> 248
+~ __ZN5kaldi11GetHmmAsFstENSt3__16vectorIiNS0_9allocatorIiEEEERKNS_26ContextDependencyInterfaceERKNS_15TransitionModelERKNS_17HTransducerConfigEPNS0_13unordered_mapINS0_4pairIiS4_EEPN3fst9VectorFstINSH_6ArcTplINSH_17TropicalWeightTplIfEEEENSH_11VectorStateISM_NS2_ISM_EEEEEENS_12HmmCacheHashENS0_8equal_toISG_EENS2_INSF_IKSG_SR_EEEEEE : 2180 -> 2184
+~ __ZN3fst17ComputePropertiesINS_6ArcTplINS_17TropicalWeightTplIfEEEEEEyRKNS_3FstIT_EEyPyb : 2312 -> 2316
+~ __ZNSt3__15dequeIPN3fst8DfsStateINS1_6ArcTplINS1_17TropicalWeightTplIfEEEEEENS_9allocatorIS8_EEE19__add_back_capacityEv : 468 -> 472
+~ __ZNSt3__114__split_bufferIPPN3fst8DfsStateINS1_6ArcTplINS1_17TropicalWeightTplIfEEEEEENS_9allocatorIS9_EEE12emplace_backIJRS9_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__114__split_bufferIPPN3fst8DfsStateINS1_6ArcTplINS1_17TropicalWeightTplIfEEEEEERNS_9allocatorIS9_EEE12emplace_backIJS9_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__15dequeIPN3fst8DfsStateINS1_6ArcTplINS1_12LogWeightTplIfEEEEEENS_9allocatorIS8_EEE19__add_back_capacityEv : 468 -> 472
+~ __ZNSt3__15dequeIiNS_9allocatorIiEEE10push_frontERKi : 128 -> 132
+~ __ZNSt3__15dequeIiNS_9allocatorIiEEE20__add_front_capacityEv : 572 -> 576
+~ __ZNSt3__114__split_bufferIPiNS_9allocatorIS1_EEE12emplace_backIJS1_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__114__split_bufferIPiRNS_9allocatorIS1_EEE12emplace_backIJS1_EEEvDpOT_ : 256 -> 260
+~ __ZN3fst17ComputePropertiesINS_10ReverseArcINS_6ArcTplINS_12LogWeightTplIfEEEEEEEEyRKNS_3FstIT_EEyPyb : 2312 -> 2316
+~ __ZNSt3__15dequeIPN3fst8DfsStateINS1_10ReverseArcINS1_6ArcTplINS1_12LogWeightTplIfEEEEEEEENS_9allocatorISA_EEE19__add_back_capacityEv : 468 -> 472
+- __ZNSt3__16vectorIN3fst12LogWeightTplIfEENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJS3_EEEPS3_DpOT_
+~ __ZN3fst17ComputePropertiesINS_9GallicArcINS_6ArcTplINS_12LogWeightTplIfEEEELNS_10GallicTypeE0EEEEEyRKNS_3FstIT_EEyPyb : 3012 -> 3016
+~ __ZNSt3__15dequeIPN3fst8DfsStateINS1_9GallicArcINS1_6ArcTplINS1_12LogWeightTplIfEEEELNS1_10GallicTypeE0EEEEENS_9allocatorISB_EEE19__add_back_capacityEv : 468 -> 472
+~ __ZNSt3__16vectorIN3fst12GallicWeightIiNS1_12LogWeightTplIfEELNS1_10GallicTypeE0EEENS_9allocatorIS6_EEE6resizeEmRKS6_ : 420 -> 424
+~ __ZN3fst17ComputePropertiesINS_10ReverseArcINS_9GallicArcINS_6ArcTplINS_12LogWeightTplIfEEEELNS_10GallicTypeE0EEEEEEEyRKNS_3FstIT_EEyPyb : 3012 -> 3016
+~ __ZNSt3__15dequeIPN3fst8DfsStateINS1_10ReverseArcINS1_9GallicArcINS1_6ArcTplINS1_12LogWeightTplIfEEEELNS1_10GallicTypeE0EEEEEEENS_9allocatorISD_EEE19__add_back_capacityEv : 468 -> 472
+~ __ZN3fst21ShortestDistanceStateINS_10ReverseArcINS_9GallicArcINS_6ArcTplINS_12LogWeightTplIfEEEELNS_10GallicTypeE0EEEEENS_9AutoQueueIiEENS_12AnyArcFilterIS9_EEE16ShortestDistanceEi : 3820 -> 3844
+~ __ZNSt3__16vectorIN3fst12GallicWeightIiNS1_12LogWeightTplIfEELNS1_10GallicTypeE1EEENS_9allocatorIS6_EEE6resizeEmRKS6_ : 420 -> 424
+~ __ZN3fst17ComputePropertiesINS_6ArcTplINS_12LogWeightTplIfEEEEEEyRKNS_3FstIT_EEyPyb : 2312 -> 2316
+~ __ZNSt3__16vectorIN3fst6ArcTplINS1_16LatticeWeightTplIfEEEENS_9allocatorIS5_EEE7reserveEm : 300 -> 304
+~ __ZN3fst17ComputePropertiesINS_10ReverseArcINS_6ArcTplINS_17TropicalWeightTplIfEEEEEEEEyRKNS_3FstIT_EEyPyb : 2312 -> 2316
+~ __ZNSt3__15dequeIPN3fst8DfsStateINS1_10ReverseArcINS1_6ArcTplINS1_17TropicalWeightTplIfEEEEEEEENS_9allocatorISA_EEE19__add_back_capacityEv : 468 -> 472
+~ __ZNSt3__16vectorIN3fst24DefaultComposeStateTupleIiNS1_18IntegerFilterStateIaEEEENS_9allocatorIS5_EEE24__emplace_back_slow_pathIJRKS5_EEEPS5_DpOT_ : 252 -> 248
+~ __ZN5kaldi11HmmTopology4ReadERNSt3__113basic_istreamIcNS1_11char_traitsIcEEEEb : 4516 -> 4520
+~ __ZN3fst17ComputePropertiesINS_6ArcTplINS_16LatticeWeightTplIfEEEEEEyRKNS_3FstIT_EEyPyb : 2416 -> 2420
+~ __ZNSt3__15dequeIPN3fst8DfsStateINS1_6ArcTplINS1_16LatticeWeightTplIfEEEEEENS_9allocatorIS8_EEE19__add_back_capacityEv : 468 -> 472
+- __ZNSt3__16vectorINS_4pairIiiEENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_
+~ __ZNK5kaldi17ContextDependency10GetPdfInfoERKNSt3__16vectorIiNS1_9allocatorIiEEEERKNS2_INS2_INS1_4pairIiiEENS3_IS9_EEEENS3_ISB_EEEEPNS2_ISD_NS3_ISD_EEEE : 788 -> 792
+~ __ZNK5kaldi17ContextDependency10GetPdfInfoERKNSt3__16vectorIiNS1_9allocatorIiEEEES7_PNS2_INS2_INS1_4pairIiiEENS3_IS9_EEEENS3_ISB_EEEE : 1372 -> 1376
+~ __ZNSt3__15dequeINS_4pairIPNS_6vectorIN3fst16DeterminizerStarINS3_6ArcTplINS3_12LogWeightTplIfEEEEE7ElementENS_9allocatorISA_EEEEiEENSB_ISF_EEE10push_frontEOSF_ : 128 -> 140
+~ __ZNSt3__15dequeINS_4pairIPNS_6vectorIN3fst16DeterminizerStarINS3_6ArcTplINS3_12LogWeightTplIfEEEEE7ElementENS_9allocatorISA_EEEEiEENSB_ISF_EEE20__add_front_capacityEv : 572 -> 576
+~ __ZNSt3__114__split_bufferIPNS_4pairIPNS_6vectorIN3fst16DeterminizerStarINS3_6ArcTplINS3_12LogWeightTplIfEEEEE7ElementENS_9allocatorISA_EEEEiEENSB_ISG_EEE12emplace_backIJSG_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__114__split_bufferIPNS_4pairIPNS_6vectorIN3fst16DeterminizerStarINS3_6ArcTplINS3_12LogWeightTplIfEEEEE7ElementENS_9allocatorISA_EEEEiEERNSB_ISG_EEE12emplace_backIJSG_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__15dequeINS_4pairIPNS_6vectorIN3fst16DeterminizerStarINS3_6ArcTplINS3_12LogWeightTplIfEEEEE7ElementENS_9allocatorISA_EEEEiEENSB_ISF_EEE19__add_back_capacityEv : 468 -> 472
+~ __ZNSt3__16vectorIN3fst16DeterminizerStarINS1_6ArcTplINS1_12LogWeightTplIfEEEEE7ElementENS_9allocatorIS8_EEE6resizeEm : 372 -> 376
+~ __ZN5kaldi12CuMatrixBaseIfE8DiffReluERKS1_S3_ : 232 -> 244
+~ __ZNSt3__15dequeIPcNS_9allocatorIS1_EEE19__add_back_capacityEv : 468 -> 472
+~ __ZN5kaldi10MatrixBaseIfE12AddVecToRowsIfEEvfRKNS_10VectorBaseIT_EE : 156 -> 160
+~ __ZN5kaldi10MatrixBaseIfE12AddVecToColsIfEEvfRKNS_10VectorBaseIT_EE : 160 -> 164
+~ __ZN5kaldi10MatrixBaseIfE6AddMatEfRKS1_NS_19MatrixTransposeTypeEf : 764 -> 776
+~ __ZN5kaldi10MatrixBaseIdE6AddMatEdRKS1_NS_19MatrixTransposeTypeEd : 764 -> 776
+~ __ZN5kaldi10MatrixBaseIfE15CopyRowsFromVecERKNS_10VectorBaseIfEE : 360 -> 364
+~ __ZN5kaldi10MatrixBaseIfE11MulElementsERKS1_ : 384 -> 392
+~ __ZN5kaldi10MatrixBaseIfE5ScaleEf : 204 -> 208
+~ __ZN5kaldi10MatrixBaseIfE15MulRowsGroupMatERKS1_ : 288 -> 292
+~ __ZN5kaldi10MatrixBaseIfE8CopyColsERKS1_RKNSt3__16vectorIiNS4_9allocatorIiEEEE : 304 -> 312
+~ __ZN5kaldi10MatrixBaseIfE8CopyRowsERKS1_RKNSt3__16vectorIiNS4_9allocatorIiEEEE : 336 -> 340
+~ __ZN5kaldi10MatrixBaseIfE16CopyIndexedItemsERKS1_PKiS5_mi : 204 -> 208
+~ __ZN5kaldi10MatrixBaseIfE16CopySelectedRowsERKS1_RKNS_10VectorBaseIfEEb : 392 -> 396
+~ __ZN5kaldi10MatrixBaseIfE11DiffSigmoidERKS1_S3_ : 216 -> 228
+~ __ZN5kaldi10MatrixBaseIfE8DiffTanhERKS1_S3_ : 216 -> 228
+~ __ZN5kaldi10MatrixBaseIfE13AddDiagVecMatEfRKNS_10VectorBaseIfEERKS1_NS_19MatrixTransposeTypeEf : 368 -> 376
+~ __ZN5kaldi10MatrixBaseIfE13AddMatDiagVecEfRKS1_NS_19MatrixTransposeTypeERKNS_10VectorBaseIfEEf : 372 -> 376
+~ __ZN5kaldi10MatrixBaseIfE12AddMatEwpMatEfRKS1_NS_19MatrixTransposeTypeES3_S4_f : 440 -> 448
+~ __ZN5kaldi10MatrixBaseIdE5ScaleEd : 204 -> 208
+~ __ZNK5kaldi19QuantizedMatrixBaseIsE5RangeEiiii : 216 -> 220
+~ __ZN5kaldi10VectorBaseIfE15CopyRowsFromMatIaEEvRKNS_19QuantizedMatrixBaseIT_EE : 236 -> 240
+~ __ZN5kaldi10VectorBaseIfE15CopyRowsFromMatIsEEvRKNS_19QuantizedMatrixBaseIT_EE : 236 -> 240
+~ __ZN5kaldi6VectorIfE6ResizeEiNS_16MatrixResizeTypeE : 452 -> 456
+~ __ZN5kaldi6VectorIdE6ResizeEiNS_16MatrixResizeTypeE : 452 -> 456
+~ __ZN5kaldi10VectorBaseIfE15CopyRowsFromMatERKNS_10MatrixBaseIfEE : 336 -> 340
+~ __ZN5kaldi10VectorBaseIfE11AddDiagMat2EfRKNS_10MatrixBaseIfEENS_19MatrixTransposeTypeEf : 376 -> 380
+~ __ZN5kaldi10VectorBaseIfE13AddDiagMatMatEfRKNS_10MatrixBaseIfEENS_19MatrixTransposeTypeES5_S6_f : 336 -> 344
+~ __ZN5kaldi9FactorizeIiEEvT_PNSt3__16vectorIS1_NS2_9allocatorIS1_EEEE : 548 -> 556
+~ __ZN5kaldi19ComplexFftRecursiveIfEEvPT_iiPKiS4_bPNS_6VectorIS1_EE : 1104 -> 1112
+~ __ZNK5kaldi20SplitRadixComplexFftIfE16ComputeRecursiveEPfS2_i : 1016 -> 1024
+~ __ZNK5kaldi20SplitRadixComplexFftIfE17BitReversePermuteEPfi : 124 -> 128
+~ __ZNSt3__16vectorINS_10unique_ptrIN5kaldi12CuMatrixBaseIfEENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE6resizeEm : 332 -> 336
+~ __ZNSt3__16vectorINS_10unique_ptrIN5kaldi12CuVectorBaseIfEENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE6resizeEm : 332 -> 336
+~ __ZNSt3__16vectorIN5kaldi8CuVectorIfEENS_9allocatorIS3_EEE6resizeEm : 444 -> 436
+~ __ZNK5kaldi5nnet131BidirectionalRecurrentComponent15GetHistoryStateEPNS_8CuMatrixIfEEi : 480 -> 484
+~ __ZN5kaldi5nnet19Recurrent13EnsureBuffersEv : 468 -> 472
+~ __ZNK5kaldi5nnet121FramePoolingComponent9GetParamsEPNS_6VectorIfEE : 324 -> 328
+~ __ZN5kaldi5nnet121FramePoolingComponent9SetParamsERKNS_10VectorBaseIfEE : 380 -> 384
+~ __ZN5kaldi5nnet118GatedRecurrentUnit12PropagateFncERKNS_12CuMatrixBaseIfEEPS3_i : 3296 -> 3232
+~ __ZN5kaldi5nnet118GatedRecurrentUnit14AccumGradientsERKNS_12CuMatrixBaseIfEES5_Pvi : 1556 -> 1564
+~ __ZN5kaldi5nnet118GatedRecurrentUnit13EnsureBuffersEv : 272 -> 276
+~ __ZN5kaldi5nnet113LstmComponentINS_12CuMatrixBaseIfEEE12PropagateFncERKS3_PS3_i : 3996 -> 4000
+~ __ZN5kaldi5nnet113LstmComponentINS_12CuMatrixBaseIfEEE13SaveLastStateEi : 732 -> 736
+~ __ZN5kaldi5nnet113LstmComponentINS_12CuMatrixBaseIfEEE16BackpropagateFncERKS3_S6_S6_PS3_i : 6336 -> 6344
+~ __ZN5kaldi5nnet113LstmComponentINS_12CuMatrixBaseIfEEE14AccumGradientsERKS3_S6_Pvi : 2384 -> 2376
+~ __ZN5kaldi5nnet113LstmComponentINS_12CuMatrixBaseIfEEE13EnsureBuffersEv : 256 -> 260
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIaEEE12PropagateFncERKNS_12CuMatrixBaseIfEEPS6_i : 3996 -> 4000
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIaEEE13SaveLastStateEi : 732 -> 736
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIaEEE16BackpropagateFncERKNS_12CuMatrixBaseIfEES8_S8_PS6_i : 6336 -> 6344
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIaEEE14AccumGradientsERKNS_12CuMatrixBaseIfEES8_Pvi : 2384 -> 2376
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIaEEE13EnsureBuffersEv : 256 -> 260
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIsEEE12PropagateFncERKNS_12CuMatrixBaseIfEEPS6_i : 3996 -> 4000
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIsEEE13SaveLastStateEi : 732 -> 736
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIsEEE16BackpropagateFncERKNS_12CuMatrixBaseIfEES8_S8_PS6_i : 6336 -> 6344
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIsEEE14AccumGradientsERKNS_12CuMatrixBaseIfEES8_Pvi : 2384 -> 2376
+~ __ZN5kaldi5nnet113LstmComponentINS_15QuantizedMatrixIsEEE13EnsureBuffersEv : 256 -> 260
+~ __ZNK5kaldi5nnet124MovingAttentionComponent19GetOverallAlignmentEPNSt3__16vectorINS3_IiNS2_9allocatorIiEEEENS4_IS6_EEEE : 376 -> 364
+~ __ZNSt3__16vectorIPN5kaldi5nnet122RecurrentBaseComponentENS_9allocatorIS4_EEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPS4_EESC_EESC_NSA_IPKS4_EET0_T1_l : 492 -> 508
+~ __ZNSt3__16vectorIfNS_9allocatorIfEEE6insertENS_11__wrap_iterIPKfEEOf : 456 -> 452
+~ __ZNSt3__16vectorIdNS_9allocatorIdEEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPdEES8_EES8_NS6_IPKdEET0_T1_l : 492 -> 508
+~ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPfEES8_EES8_NS6_IPKfEET0_T1_l : 492 -> 508
+~ __ZNSt3__16vectorIsNS_9allocatorIsEEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPdEES8_EENS6_IPsEENS6_IPKsEET0_T1_l : 540 -> 560
+~ __ZN7AutocF014estimate_pitchERNSt3__16vectorIsNS0_9allocatorIsEEEEi : 11044 -> 11048
+~ __ZN3SRH14estimate_pitchERNSt3__16vectorIsNS0_9allocatorIsEEEEi : 8348 -> 8356
+~ __ZNSt3__16vectorIN8nlohmann10basic_jsonINS_3mapES0_NS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbxydS7_NS1_14adl_serializerENS0_IhNS7_IhEEEEEENS7_ISD_EEE24__emplace_back_slow_pathIJNS1_6detail7value_tEEEEPSD_DpOT_ : 296 -> 300
+~ __ZN15PCMDeinterleaveIsE7processEPvPKvm : 36 -> 40
+~ __ZN15PCMDeinterleaveIiE7processEPvPKvm : 36 -> 40
+~ __ZN17WaveRNNDataFeeder14OneBatchReader10fetch_dataEv : 548 -> 552
+~ __Z27assess_audio_quality_onewayRKNSt3__16vectorINS_5tupleIJmPKfEEENS_9allocatorIS4_EEEERK18NormalizationParamb : 1300 -> 1304
+~ __ZNSt3__13mapI18AudioQualityMetricdNS_4lessIS1_EENS_9allocatorINS_4pairIKS1_dEEEEEC2B9nqe220106ESt16initializer_listIS7_ERKS3_ : 84 -> 88
+~ __ZN8nlohmann6detail9dtoa_impl36get_cached_power_for_binary_exponentEi : 184 -> 188
+~ _OUTLINED_FUNCTION_13 : 44 -> 28
+~ _OUTLINED_FUNCTION_17 : 28 -> 44
+~ __ZN19WaveRNNDataFeederV214OneBatchReader10fetch_dataEv : 564 -> 568
+~ __ZNSt3__16vectorIiNS_9allocatorIiEEE6insertENS_11__wrap_iterIPKiEEOi : 456 -> 452
+~ __ZNSt3__16vectorImNS_9allocatorImEEE6insertENS_11__wrap_iterIPKmEEOm : 456 -> 452
+~ __ZNSt3__114__split_bufferImRNS_9allocatorImEEE12emplace_backIJmEEEvDpOT_ : 256 -> 260
+~ _ZN8nlohmann6detail5lexerINS_10basic_jsonINSt3__13mapENS3_6vectorENS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEbxydS9_NS_14adl_serializerENS5_IhNS9_IhEEEEEENS0_20input_stream_adapterEE18next_byte_in_rangeESt16initializer_listIiE.cold.1 : 156 -> 164
+~ _ZN8nlohmann6detail5lexerINS_10basic_jsonINSt3__13mapENS3_6vectorENS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEbxydS9_NS_14adl_serializerENS5_IhNS9_IhEEEEEENS0_22iterator_input_adapterINS3_11__wrap_iterIPKcEEEEE18next_byte_in_rangeESt16initializer_listIiE.cold.1 : 120 -> 128
+```

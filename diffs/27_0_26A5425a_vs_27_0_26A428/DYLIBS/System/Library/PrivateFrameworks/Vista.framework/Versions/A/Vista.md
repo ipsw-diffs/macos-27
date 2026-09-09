@@ -1,0 +1,46 @@
+## Vista
+
+> `/System/Library/PrivateFrameworks/Vista.framework/Versions/A/Vista`
+
+```diff
+
+ 20.0.0.0.0
+-  __TEXT.__text: 0x84214
++  __TEXT.__text: 0x841f4
+   __TEXT.__objc_methlist: 0x35a4
+   __TEXT.__const: 0x15a8
+-  __TEXT.__gcc_except_tab: 0xaac8
++  __TEXT.__gcc_except_tab: 0xaacc
+   __TEXT.__cstring: 0x3027
+   __TEXT.__oslogstring: 0x3399
+   __TEXT.__dlopen_cstrs: 0x4c
+Functions:
+~ -[VSTProxyRenderer renderTargetDescriptorWithResolutionOptions:extents:] : 916 -> 912
+~ __ZNSt3__114__thread_proxyB9nqe220106INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEMN3vst10controller10ServerImplEFvvEPS9_EEEEEPvSE_ : 140 -> 144
+~ +[NSArray(VST) vst_arrayWithNumbersFromFloatSpan:] : 232 -> 228
+~ __ZN3vst4core3obj27uniqueVertexFromObjContentsERKNS0_11ObjContentsE : 2152 -> 2156
+~ __ZNSt3__16vectorINS_5arrayIjLm3EEENS_9allocatorIS2_EEE6resizeEm : 372 -> 376
+~ __ZN3vst4core17DebugRendererImpl6updateERKNS0_13DebugRenderer10UpdateInfoE : 1008 -> 1012
+~ __ZN3vst4core31RasterizationRateControllerImpl6updateERKNS0_27RasterizationRateController10UpdateInfoE : 1324 -> 1316
+~ __ZN3vst4core31RasterizationRateControllerImpl16_checkUpdateInfoERKNS0_27RasterizationRateController10UpdateInfoEj : 376 -> 368
+~ __ZN3vst4core14DebugQueueImpl7addLineERKNS0_10DebugQueue9DebugLineE : 168 -> 176
+~ __ZN3vst4core14DebugQueueImpl8addPointERKNS0_10DebugQueue10DebugPointE : 168 -> 172
+~ __ZN3vst4core14DebugQueueImpl15_addSphereSolidERKNS0_10DebugQueue11DebugSphereE : 1256 -> 1260
+~ __ZN3vst5splat23GaussianSplatRasterizer6updateERKNS0_19PrimitiveRasterizer10UpdateInfoE : 2344 -> 2336
+~ __ZN3vst5splat23GaussianSplatRasterizer13dumpPipelinesERNS_4core17PipelineStateDumpERKNS0_19PrimitiveRasterizer8DumpInfoE : 1108 -> 1092
+~ __ZN3vst5splat12HWRasterizer6updateERKNS0_12BaseRenderer10UpdateInfoE : 14172 -> 14196
+~ __ZNSt3__16vectorIN3vst5splat6shared13PixelFragmentENS_9allocatorIS4_EEE6resizeEm : 372 -> 376
+~ __ZNSt3__16vectorIN3vst5splat19PrimitiveRasterizer10CreateInfoENS_9allocatorIS4_EEE7reserveEm : 144 -> 148
+~ __ZNSt3__16vectorIN3vst4core16SharedRingBufferIU8__strongPU35objcproto24MTLIndirectCommandBuffer11objc_objectE5EntryENS_9allocatorIS8_EEE24__emplace_back_slow_pathIJS8_EEEPS8_DpOT_ : 220 -> 216
+~ __ZNK3vst5splat17ProxyRendererImpl28createRenderTargetDescriptorERKNS0_13ProxyRenderer26RenderTargetDescriptorInfoE : 1224 -> 1196
+~ __ZNK3vst5splat17ProxyRendererImpl29createProxyBuffersDescriptorsERKNS0_13ProxyRenderer25ProxyBufferDescriptorInfoE : 608 -> 604
+~ __ZN3vst5splat17ProxyRendererImpl29_recreateRenderTargetIfNeededENSt3__14spanIKNS1_30ViewInfosForRenderTargetUpdateELm18446744073709551615EEEjRKNS2_8optionalINS0_13ProxyRenderer21RasterizationRateInfoEEENS0_12BaseRenderer12GridTileSizeE : 1824 -> 1816
+~ __ZN3vst5splat17ProxyRendererImpl31_updateRasterizationRateOptionsERKNS0_29ProxyRendererImplRenderTargetERKNS0_13ProxyRenderer21RasterizationRateInfoENSt3__14spanIKNS1_30ViewInfosForRenderTargetUpdateELm18446744073709551615EEENSA_IKNS1_32VolumeInfosForRenderTargetUpdateELm18446744073709551615EEE : 928 -> 920
+~ __ZN3vst5splat17ProxyRendererImpl35_recreateVolumeProxyBuffersIfNeededENSt3__14spanIKNS1_30ViewInfosForRenderTargetUpdateELm18446744073709551615EEENS3_IKNS1_32VolumeInfosForRenderTargetUpdateELm18446744073709551615EEEjNS0_12BaseRenderer12GridTileSizeEt : 1512 -> 1508
+~ __ZN3vst5splat16MeshRendererImpl6updateERKNS0_12MeshRenderer10UpdateInfoE : 1056 -> 1060
+~ __ZN3vst5splat19LayerCompositorImpl6updateERKNS0_15LayerCompositor10UpdateInfoE : 2420 -> 2416
+~ __ZN3vst5splat2io29makePlyElementsFromVolumeDataERKNS0_10VolumeDataERKNS2_15PlyWriteOptionsE : 7996 -> 8000
+~ __ZNK3vst5splat14VolumeDataImpl23_makePersonaModelOutputINS0_14packing_shared2V1EEENSt3__18optionalINS5_6vectorIDhNS5_9allocatorIDhEEEEEERKNS0_10VolumeData26MakePersonaModelOutputInfoE : 1736 -> 1732
+~ __ZZNK3vst5splat14VolumeDataImpl15_makePackedDataINS0_14packing_shared4NoneEEENSt3__18optionalINS0_8Data3DGSEEEvENKUlmE_clEm : 412 -> 416
+~ __ZZNK3vst5splat14VolumeDataImpl17_makeUnpackedDataINS0_14packing_shared4NoneEEENSt3__18optionalINS0_8Data3DGSEEEvENKUlmE_clEm : 408 -> 412
+```

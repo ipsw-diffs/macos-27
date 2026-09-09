@@ -1,0 +1,297 @@
+## MediaMLExtension
+
+> `/System/Library/ExtensionKit/Extensions/MediaMLExtension.appex/Contents/MacOS/MediaMLExtension`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__data`
+
+```diff
+
+ 124.1.0.0.0
+-  __TEXT.__text: 0x61d88
++  __TEXT.__text: 0x5fd74
+   __TEXT.__auth_stubs: 0xef0
+   __TEXT.__objc_stubs: 0xe0
+   __TEXT.__const: 0xcd2
+
+   __TEXT.__swift_as_entry: 0x64
+   __TEXT.__swift_as_ret: 0x70
+   __TEXT.__swift_as_cont: 0x22c
+-  __TEXT.__unwind_info: 0x10e0
++  __TEXT.__unwind_info: 0x17a0
+   __TEXT.__eh_frame: 0x2678
+   __DATA_CONST.__const: 0x2318
+   __DATA_CONST.__objc_classlist: 0x20
+Functions:
+~ ___swift_project_value_buffer : 88 -> 68
+~ ___swift_allocate_value_buffer : 156 -> 136
+~ ___swift_destroy_boxed_opaque_existential_0 : 152 -> 132
+~ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA : 116 -> 104
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.87 : 116 -> 104
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.106 : 116 -> 104
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.125 : 116 -> 104
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.144 : 116 -> 104
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.163 : 116 -> 104
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.218 : 116 -> 104
+~ _$s16MediaMLExtension8SQLiteDBC8DBHandle33_68352457B510574EF8602DDCF0892AB3LLC8locationAfC8LocationO_tKcfc : 624 -> 604
+~ ___swift_project_boxed_opaque_existential_1 : 108 -> 88
+~ ___swift_destroy_boxed_opaque_existential_1 : 152 -> 132
+~ _$s16MediaMLExtension8SQLiteDBCyA2C8LocationOKcfc : 1164 -> 1144
+~ _$ss15ContiguousArrayV23withUnsafeBufferPointeryqd__qd__SRyxGqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lF : 412 -> 392
+~ _$s16MediaMLExtension0A8MLWorkerV9shouldRun7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFTY0_ : 164 -> 136
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFTY0_ : 444 -> 416
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_ : 5264 -> 5244
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_ : 884 -> 832
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ0_ : 356 -> 304
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ1_ : 424 -> 372
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ2_ : 512 -> 448
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ3_ : 512 -> 448
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ4_ : 516 -> 452
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ5_ : 672 -> 568
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ6_ : 580 -> 516
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ7_ : 468 -> 404
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY8_ : 1092 -> 1080
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ9_ : 472 -> 408
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ10_ : 476 -> 412
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ11_ : 632 -> 528
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ12_ : 540 -> 476
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ13_ : 348 -> 284
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY14_ : 9472 -> 9420
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ15_ : 348 -> 284
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY16_ : 1336 -> 1324
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ17_ : 348 -> 284
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY18_ : 1068 -> 1056
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ19_ : 348 -> 284
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY20_ : 1288 -> 1276
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ21_ : 348 -> 284
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY22_ : 5332 -> 5292
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ23_ : 348 -> 284
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY24_ : 1288 -> 1276
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ25_ : 348 -> 284
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY26_ : 1024 -> 1012
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ27_ : 348 -> 284
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY28_ : 1288 -> 1276
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TQ29_ : 348 -> 284
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY30_ : 1648 -> 1620
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY31_ : 2180 -> 2152
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY32_ : 2180 -> 2152
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY33_ : 2212 -> 2184
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY34_ : 2260 -> 2232
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY35_ : 2296 -> 2268
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY36_ : 2296 -> 2268
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY37_ : 2296 -> 2268
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY38_ : 2296 -> 2268
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY39_ : 2332 -> 2304
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY40_ : 2368 -> 2340
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY41_ : 2368 -> 2340
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY42_ : 2420 -> 2392
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY43_ : 2420 -> 2392
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY44_ : 2420 -> 2392
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY45_ : 2420 -> 2392
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY46_ : 2420 -> 2392
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY47_ : 2420 -> 2392
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY48_ : 2420 -> 2392
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY49_ : 2420 -> 2392
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKF : 304 -> 272
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY0_ : 616 -> 576
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY1_ : 292 -> 268
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY2_ : 4108 -> 4044
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY3_ : 304 -> 280
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY4_ : 184 -> 172
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY5_ : 304 -> 280
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY6_ : 2160 -> 2136
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY7_ : 268 -> 244
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY8_ : 156 -> 144
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY9_ : 268 -> 244
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY10_ : 220 -> 192
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY11_ : 232 -> 204
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY12_ : 252 -> 224
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY13_ : 252 -> 224
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY14_ : 252 -> 224
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY15_ : 252 -> 224
+~ _$s16MediaMLExtension0A8MLWorkerV20getRawCellDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularG00G5FrameVyYaKFTY0_ : 1120 -> 1080
+~ _$s16MediaMLExtension0A8MLWorkerV20getRawCellDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularG00G5FrameVyYaKFTY1_ : 332 -> 308
+~ _$s16MediaMLExtension0A8MLWorkerV20getRawCellDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularG00G5FrameVyYaKFTY2_ : 144 -> 116
+~ _$s16MediaMLExtension0A8MLWorkerV20getRawCellDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularG00G5FrameVyYaKFTY3_ : 188 -> 160
+~ _$s16MediaMLExtension0A8MLWorkerV28getCellDataStandardDeviation33_981092F5866D74394B6898E35C682BBDLL07TabularF00F5FrameVyYaKFTY0_ : 584 -> 544
+~ _$s16MediaMLExtension0A8MLWorkerV28getCellDataStandardDeviation33_981092F5866D74394B6898E35C682BBDLL07TabularF00F5FrameVyYaKFTY1_ : 332 -> 308
+~ _$s16MediaMLExtension0A8MLWorkerV28getCellDataStandardDeviation33_981092F5866D74394B6898E35C682BBDLL07TabularF00F5FrameVyYaKFTY2_ : 144 -> 116
+~ _$s16MediaMLExtension0A8MLWorkerV28getCellDataStandardDeviation33_981092F5866D74394B6898E35C682BBDLL07TabularF00F5FrameVyYaKFTY3_ : 188 -> 160
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedCellData9dataFrame07TabularJ00jL0VAH_tYaKF : 1076 -> 984
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedCellData9dataFrame07TabularJ00jL0VAH_tYaKFTY0_ : 12548 -> 12496
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedCellData9dataFrame07TabularJ00jL0VAH_tYaKFTY1_ : 384 -> 360
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedCellData9dataFrame07TabularJ00jL0VAH_tYaKFTY2_ : 4760 -> 4736
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedCellData9dataFrame07TabularJ00jL0VAH_tYaKFTQ3_ : 336 -> 272
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedCellData9dataFrame07TabularJ00jL0VAH_tYaKFTY4_ : 3084 -> 3056
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedCellData9dataFrame07TabularJ00jL0VAH_tYaKFTY5_ : 632 -> 604
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedCellData9dataFrame07TabularJ00jL0VAH_tYaKFTY6_ : 516 -> 488
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawCellDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY0_ : 584 -> 544
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawCellDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY1_ : 292 -> 268
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawCellDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY2_ : 156 -> 144
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawCellDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY3_ : 292 -> 268
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawCellDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY4_ : 144 -> 116
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawCellDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY5_ : 148 -> 120
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawCellDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY6_ : 148 -> 120
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKF : 304 -> 272
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY0_ : 616 -> 576
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY1_ : 292 -> 268
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY2_ : 4108 -> 4044
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY3_ : 304 -> 280
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY4_ : 184 -> 172
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY5_ : 304 -> 280
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY6_ : 2160 -> 2136
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY7_ : 268 -> 244
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY8_ : 156 -> 144
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY9_ : 268 -> 244
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY10_ : 220 -> 192
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY11_ : 232 -> 204
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY12_ : 252 -> 224
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY13_ : 252 -> 224
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY14_ : 252 -> 224
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY15_ : 252 -> 224
+~ _$s16MediaMLExtension0A8MLWorkerV20getRawWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularH00H5FrameVyYaKFTY0_ : 584 -> 544
+~ _$s16MediaMLExtension0A8MLWorkerV20getRawWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularH00H5FrameVyYaKFTY1_ : 332 -> 308
+~ _$s16MediaMLExtension0A8MLWorkerV20getRawWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularH00H5FrameVyYaKFTY2_ : 144 -> 116
+~ _$s16MediaMLExtension0A8MLWorkerV20getRawWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularH00H5FrameVyYaKFTY3_ : 188 -> 160
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedWifiData9dataFrame07TabularJ00jL0VAH_tYaKF : 1352 -> 1240
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedWifiData9dataFrame07TabularJ00jL0VAH_tYaKFTY0_ : 18292 -> 18240
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedWifiData9dataFrame07TabularJ00jL0VAH_tYaKFTY1_ : 408 -> 384
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedWifiData9dataFrame07TabularJ00jL0VAH_tYaKFTY2_ : 15388 -> 15364
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedWifiData9dataFrame07TabularJ00jL0VAH_tYaKFTQ3_ : 336 -> 272
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedWifiData9dataFrame07TabularJ00jL0VAH_tYaKFTY4_ : 3056 -> 3028
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedWifiData9dataFrame07TabularJ00jL0VAH_tYaKFTY5_ : 1056 -> 1028
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedWifiData9dataFrame07TabularJ00jL0VAH_tYaKFTY6_ : 604 -> 576
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY0_ : 584 -> 544
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY1_ : 292 -> 268
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY2_ : 156 -> 144
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY3_ : 292 -> 268
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY4_ : 144 -> 116
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY5_ : 148 -> 120
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY6_ : 148 -> 120
+~ _$s16MediaMLExtension0A8MLWorkerV18saveModelStatsToDB05modelF0y0A2ML0eF0V_tYaKFTY0_ : 620 -> 580
+~ _$s16MediaMLExtension0A8MLWorkerV18saveModelStatsToDB05modelF0y0A2ML0eF0V_tYaKFTY1_ : 296 -> 272
+~ _$s16MediaMLExtension0A8MLWorkerV18saveModelStatsToDB05modelF0y0A2ML0eF0V_tYaKFTY2_ : 148 -> 120
+~ _$s16MediaMLExtension0A8MLWorkerV18saveModelStatsToDB05modelF0y0A2ML0eF0V_tYaKFTY3_ : 156 -> 128
+~ _$s16MediaMLExtension0A8MLWorkerV30deletePreviousModelStatsFromDB05modelG0y0A2ML0fG0V_tYaKFTY0_ : 916 -> 876
+~ _$s16MediaMLExtension0A8MLWorkerV30deletePreviousModelStatsFromDB05modelG0y0A2ML0fG0V_tYaKFTY1_ : 260 -> 236
+~ _$s16MediaMLExtension0A8MLWorkerV30deletePreviousModelStatsFromDB05modelG0y0A2ML0fG0V_tYaKFTY2_ : 148 -> 120
+~ _$s16MediaMLExtension0A8MLWorkerV30deletePreviousModelStatsFromDB05modelG0y0A2ML0fG0V_tYaKFTY3_ : 156 -> 128
+~ _$s16MediaMLExtension0A8MLWorkerV29saveWiFiDataStandardDeviationyyYaKF : 1040 -> 928
+~ _$s16MediaMLExtension0A8MLWorkerV29saveWiFiDataStandardDeviationyyYaKFTY0_ : 860 -> 820
+~ _$s16MediaMLExtension0A8MLWorkerV29saveWiFiDataStandardDeviationyyYaKFTQ1_ : 336 -> 272
+~ _$s16MediaMLExtension0A8MLWorkerV29saveWiFiDataStandardDeviationyyYaKFTY2_ : 10848 -> 10780
+~ _$s16MediaMLExtension0A8MLWorkerV29saveWiFiDataStandardDeviationyyYaKFTY3_ : 360 -> 336
+~ _$s16MediaMLExtension0A8MLWorkerV29saveWiFiDataStandardDeviationyyYaKFTY4_ : 9028 -> 8988
+~ _$s16MediaMLExtension0A8MLWorkerV29saveWiFiDataStandardDeviationyyYaKFTY5_ : 384 -> 356
+~ _$s16MediaMLExtension0A8MLWorkerV29saveWiFiDataStandardDeviationyyYaKFTY6_ : 788 -> 760
+~ _$s16MediaMLExtension0A8MLWorkerV26deletePreviousWiFiStdDevDB10modelStatsy0A2ML05ModelL0V_tYaKFTY0_ : 820 -> 780
+~ _$s16MediaMLExtension0A8MLWorkerV26deletePreviousWiFiStdDevDB10modelStatsy0A2ML05ModelL0V_tYaKFTY1_ : 260 -> 236
+~ _$s16MediaMLExtension0A8MLWorkerV26deletePreviousWiFiStdDevDB10modelStatsy0A2ML05ModelL0V_tYaKFTY2_ : 148 -> 120
+~ _$s16MediaMLExtension0A8MLWorkerV26deletePreviousWiFiStdDevDB10modelStatsy0A2ML05ModelL0V_tYaKFTY3_ : 156 -> 128
+~ _$s16MediaMLExtension0A8MLWorkerV29saveCellDataStandardDeviation9dataFramey07TabularF00fJ0V_tYaKF : 1148 -> 1036
+~ _$s16MediaMLExtension0A8MLWorkerV29saveCellDataStandardDeviation9dataFramey07TabularF00fJ0V_tYaKFTY0_ : 12608 -> 12540
+~ _$s16MediaMLExtension0A8MLWorkerV29saveCellDataStandardDeviation9dataFramey07TabularF00fJ0V_tYaKFTY1_ : 368 -> 344
+~ _$s16MediaMLExtension0A8MLWorkerV29saveCellDataStandardDeviation9dataFramey07TabularF00fJ0V_tYaKFTY2_ : 10280 -> 10240
+~ _$s16MediaMLExtension0A8MLWorkerV29saveCellDataStandardDeviation9dataFramey07TabularF00fJ0V_tYaKFTY3_ : 912 -> 884
+~ _$s16MediaMLExtension0A8MLWorkerV26deletePreviousCellStdDevDB10modelStatsy0A2ML05ModelK0V_tYaKFTY0_ : 820 -> 780
+~ _$s16MediaMLExtension0A8MLWorkerV26deletePreviousCellStdDevDB10modelStatsy0A2ML05ModelK0V_tYaKFTY1_ : 260 -> 236
+~ _$s16MediaMLExtension0A8MLWorkerV26deletePreviousCellStdDevDB10modelStatsy0A2ML05ModelK0V_tYaKFTY2_ : 148 -> 120
+~ _$s16MediaMLExtension0A8MLWorkerV26deletePreviousCellStdDevDB10modelStatsy0A2ML05ModelK0V_tYaKFTY3_ : 156 -> 128
+~ _$s16MediaMLExtension0A8MLWorkerV26getProcessedCellDataFromDB07TabularG00G5FrameVyYaKFTY0_ : 584 -> 544
+~ _$s16MediaMLExtension0A8MLWorkerV26getProcessedCellDataFromDB07TabularG00G5FrameVyYaKFTY1_ : 332 -> 308
+~ _$s16MediaMLExtension0A8MLWorkerV26getProcessedCellDataFromDB07TabularG00G5FrameVyYaKFTY2_ : 144 -> 116
+~ _$s16MediaMLExtension0A8MLWorkerV26getProcessedCellDataFromDB07TabularG00G5FrameVyYaKFTY3_ : 188 -> 160
+~ _$s16MediaMLExtension0A8MLWorkerV26getProcessedWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularH00H5FrameVyYaKFTY0_ : 584 -> 544
+~ _$s16MediaMLExtension0A8MLWorkerV26getProcessedWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularH00H5FrameVyYaKFTY1_ : 332 -> 308
+~ _$s16MediaMLExtension0A8MLWorkerV26getProcessedWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularH00H5FrameVyYaKFTY2_ : 144 -> 116
+~ _$s16MediaMLExtension0A8MLWorkerV26getProcessedWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularH00H5FrameVyYaKFTY3_ : 188 -> 160
+~ _$s16MediaMLExtension0A8MLWorkerV28getWiFiDataStandardDeviation33_981092F5866D74394B6898E35C682BBDLL07TabularG00G5FrameVyYaKFTY0_ : 584 -> 544
+~ _$s16MediaMLExtension0A8MLWorkerV28getWiFiDataStandardDeviation33_981092F5866D74394B6898E35C682BBDLL07TabularG00G5FrameVyYaKFTY1_ : 332 -> 308
+~ _$s16MediaMLExtension0A8MLWorkerV28getWiFiDataStandardDeviation33_981092F5866D74394B6898E35C682BBDLL07TabularG00G5FrameVyYaKFTY2_ : 144 -> 116
+~ _$s16MediaMLExtension0A8MLWorkerV28getWiFiDataStandardDeviation33_981092F5866D74394B6898E35C682BBDLL07TabularG00G5FrameVyYaKFTY3_ : 188 -> 160
+~ _$s16MediaMLExtension0A8MLWorkerV20LighthouseBackground15MLHostExtensionAadEP9shouldRun7contextAD0F6ResultCAD0fG7ContextC_tYaFTW : 192 -> 180
+~ _$s16MediaMLExtension0A8MLWorkerV20LighthouseBackground15MLHostExtensionAadEP9shouldRun7contextAD0F6ResultCAD0fG7ContextC_tYaFTWTQ0_ : 264 -> 196
+~ _$s16MediaMLExtension0A8MLWorkerV20LighthouseBackground15MLHostExtensionAadEP6doWork7contextAD0F6ResultCAD0fG7ContextC_tYaFTW : 192 -> 180
+~ _$s16MediaMLExtension0A8MLWorkerV20LighthouseBackground15MLHostExtensionAadEP6doWork7contextAD0F6ResultCAD0fG7ContextC_tYaFTWTQ0_ : 264 -> 196
+~ _$s16MediaMLExtension0A8MLWorkerV20LighthouseBackground15MLHostExtensionAadEP10loadConfig7contextAD0F10ParametersVyqd__GSgAD0fG7ContextC_tYaSeRd__SERd__lFTW : 240 -> 228
+~ _$s16MediaMLExtension0A8MLWorkerV20LighthouseBackground15MLHostExtensionAadEP10loadConfig7contextAD0F10ParametersVyqd__GSgAD0fG7ContextC_tYaSeRd__SERd__lFTWTQ0_ : 256 -> 188
+~ _$s2os21OSAllocatedUnfairLockV14uncheckedStateACyxGx_tcfcxs13ManagedBufferCyxSo0A14_unfair_lock_sVGXEfU_ : 212 -> 172
+~ _$s2os21OSAllocatedUnfairLockV04withD17UncheckedInternal4bodyqd__qd__xzKXE_tKlF : 244 -> 204
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR : 288 -> 236
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTQ0_ : 260 -> 192
+~ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA : 116 -> 104
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.52 : 116 -> 104
+~ __swift_closure_destructor.58 : 196 -> 176
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedCellData9dataFrame07TabularJ00jL0VAH_tYaKFSiycfu11_TA : 100 -> 68
+~ __swift_closure_destructor.61 : 196 -> 176
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedCellData9dataFrame07TabularJ00jL0VAH_tYaKFSiycfu12_TA : 100 -> 68
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.78 : 116 -> 104
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.94 : 116 -> 104
+~ __swift_closure_destructor.97 : 196 -> 176
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedCellData9dataFrame07TabularJ00jL0VAH_tYaKFSiycfu8_TA : 100 -> 68
+~ __swift_closure_destructor.100 : 196 -> 176
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedCellData9dataFrame07TabularJ00jL0VAH_tYaKFSiycfu9_TA : 100 -> 68
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.117 : 116 -> 104
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.133 : 116 -> 104
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.152 : 116 -> 104
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.174 : 116 -> 104
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.190 : 116 -> 104
+~ __swift_closure_destructor.195 : 196 -> 176
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedWifiData9dataFrame07TabularJ00jL0VAH_tYaKFSiycfu10_TA : 100 -> 68
+~ __swift_closure_destructor.198 : 196 -> 176
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedWifiData9dataFrame07TabularJ00jL0VAH_tYaKFSiycfu11_TA : 100 -> 68
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.215 : 116 -> 104
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.231 : 116 -> 104
+~ __swift_closure_destructor.234 : 196 -> 176
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedWifiData9dataFrame07TabularJ00jL0VAH_tYaKFSiycfu6_TA : 100 -> 68
+~ __swift_closure_destructor.237 : 196 -> 176
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedWifiData9dataFrame07TabularJ00jL0VAH_tYaKFSiycfu7_TA : 100 -> 68
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.254 : 116 -> 104
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.270 : 116 -> 104
+~ _$s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_TA : 104 -> 92
+~ __swift_closure_destructor.316 : 196 -> 176
+~ _$s16MediaMLExtension0A8MLWorkerV29saveWiFiDataStandardDeviationyyYaKFSiycfu3_TA : 100 -> 68
+~ __swift_closure_destructor.319 : 196 -> 176
+~ _$s16MediaMLExtension0A8MLWorkerV29saveWiFiDataStandardDeviationyyYaKFSiycfu4_TA : 100 -> 68
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.336 : 116 -> 104
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.352 : 116 -> 104
+~ __swift_closure_destructor.355 : 196 -> 176
+~ _$s16MediaMLExtension0A8MLWorkerV29saveWiFiDataStandardDeviationyyYaKFSiycfu1_TA : 100 -> 68
+~ __swift_closure_destructor.358 : 196 -> 176
+~ _$s16MediaMLExtension0A8MLWorkerV29saveWiFiDataStandardDeviationyyYaKFSiycfu2_TA : 100 -> 68
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.375 : 116 -> 104
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.391 : 116 -> 104
+~ __swift_closure_destructor.395 : 196 -> 176
+~ _$s16MediaMLExtension0A8MLWorkerV29saveCellDataStandardDeviation9dataFramey07TabularF00fJ0V_tYaKFSiycfu4_TA : 100 -> 68
+~ __swift_closure_destructor.398 : 196 -> 176
+~ _$s16MediaMLExtension0A8MLWorkerV29saveCellDataStandardDeviation9dataFramey07TabularF00fJ0V_tYaKFSiycfu5_TA : 100 -> 68
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.415 : 116 -> 104
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.431 : 116 -> 104
+~ __swift_closure_destructor.434 : 196 -> 176
+~ _$s16MediaMLExtension0A8MLWorkerV29saveCellDataStandardDeviation9dataFramey07TabularF00fJ0V_tYaKFSiycfu2_TA : 100 -> 68
+~ __swift_closure_destructor.437 : 196 -> 176
+~ _$s16MediaMLExtension0A8MLWorkerV29saveCellDataStandardDeviation9dataFramey07TabularF00fJ0V_tYaKFSiycfu3_TA : 100 -> 68
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.454 : 116 -> 104
+~ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.470 : 116 -> 104
+~ __swift_closure_destructor.504 : 308 -> 288
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TA : 368 -> 336
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TATQ0_ : 256 -> 188
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTA : 260 -> 248
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTATQ0_ : 256 -> 188
+~ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTA.531 : 260 -> 248
+~ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTA.531TQ0_ : 256 -> 188
+```

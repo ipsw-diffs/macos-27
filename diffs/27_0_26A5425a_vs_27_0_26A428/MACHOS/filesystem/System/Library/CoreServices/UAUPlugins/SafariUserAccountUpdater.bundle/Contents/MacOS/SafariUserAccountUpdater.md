@@ -1,0 +1,16 @@
+## SafariUserAccountUpdater
+
+> `/System/Library/CoreServices/UAUPlugins/SafariUserAccountUpdater.bundle/Contents/MacOS/SafariUserAccountUpdater`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+
+```diff
+
+-7625.1.29.11.26
++7625.1.29.11.27
+   __TEXT.__text: 0xc0
+   __TEXT.__auth_stubs: 0x40
+   __TEXT.__objc_stubs: 0x60
+```

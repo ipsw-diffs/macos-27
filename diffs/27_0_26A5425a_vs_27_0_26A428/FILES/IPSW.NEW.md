@@ -1,0 +1,137 @@
+## IPSW — NEW (135)
+
+- `Firmware/AOP/aopfw-j775caop.RELEASE.im4p`
+- `Firmware/AOP/aopfw-j775daop.RELEASE.im4p`
+- `Firmware/AOP/aopfw-j873gaop.RELEASE.im4p`
+- `Firmware/AOP/aopfw-j873saop.RELEASE.im4p`
+- `Firmware/AOP2/aop2fw-j775caop2.RELEASE.im4p`
+- `Firmware/AOP2/aop2fw-j775daop2.RELEASE.im4p`
+- `Firmware/AOP2/aop2fw-j873gaop2.RELEASE.im4p`
+- `Firmware/AOP2/aop2fw-j873saop2.RELEASE.im4p`
+- `Firmware/Ace3/j775c/usbcfw_j775c.uarp`
+- `Firmware/Ace3/j775d/usbcfw_j775d.uarp`
+- `Firmware/Ace3/j873g/usbcfw_j873g.uarp`
+- `Firmware/Ace3/j873s/usbcfw_j873s.uarp`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.j775cap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.j775cap.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.j775cap.insecure.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.j775dap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.j775dap.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.j775dap.insecure.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.j873gap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.j873gap.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.j873gap.insecure.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.j873sap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.j873sap.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.j873sap.insecure.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.j775cap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.j775cap.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.j775cap.insecure.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.j775dap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.j775dap.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.j775dap.insecure.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.j873gap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.j873gap.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.j873gap.insecure.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.j873sap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.j873sap.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.j873sap.insecure.im4m`
+- `Firmware/Manifests/restore/cryptex1/macOS Customer/apticket.j775cap.im4m`
+- `Firmware/Manifests/restore/cryptex1/macOS Customer/apticket.j775dap.im4m`
+- `Firmware/Manifests/restore/cryptex1/macOS Customer/apticket.j873gap.im4m`
+- `Firmware/Manifests/restore/cryptex1/macOS Customer/apticket.j873sap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/apticket.j775cap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/apticket.j775dap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/apticket.j873gap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/apticket.j873sap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.j775cap.dev.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.j775cap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.j775cap.insecure.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.j775dap.dev.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.j775dap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.j775dap.insecure.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.j873gap.dev.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.j873gap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.j873gap.insecure.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.j873sap.dev.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.j873sap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.j873sap.insecure.im4m`
+- `Firmware/SmartIOFirmware_ASCv8.im4p`
+- `Firmware/agx/armfw1_g18g.im4p`
+- `Firmware/agx/armfw_g18g.im4p`
+- `Firmware/all_flash/DeviceTree.j775cap.im4p`
+- `Firmware/all_flash/DeviceTree.j775dap.im4p`
+- `Firmware/all_flash/DeviceTree.j873gap.im4p`
+- `Firmware/all_flash/DeviceTree.j873sap.im4p`
+- `Firmware/all_flash/LLB.j775c.RELEASE.im4p`
+- `Firmware/all_flash/LLB.j775d.RELEASE.im4p`
+- `Firmware/all_flash/LLB.j873g.RELEASE.im4p`
+- `Firmware/all_flash/LLB.j873s.RELEASE.im4p`
+- `Firmware/all_flash/iBoot.j775c.RELEASE.im4p`
+- `Firmware/all_flash/iBoot.j775d.RELEASE.im4p`
+- `Firmware/all_flash/iBoot.j873g.RELEASE.im4p`
+- `Firmware/all_flash/iBoot.j873s.RELEASE.im4p`
+- `Firmware/all_flash/iBootData.j775c.RELEASE.im4p`
+- `Firmware/all_flash/iBootData.j775d.RELEASE.im4p`
+- `Firmware/all_flash/iBootData.j873g.RELEASE.im4p`
+- `Firmware/all_flash/iBootData.j873s.RELEASE.im4p`
+- `Firmware/all_flash/iBootDataStage1.j775c.RELEASE.im4p`
+- `Firmware/all_flash/iBootDataStage1.j775d.RELEASE.im4p`
+- `Firmware/all_flash/iBootDataStage1.j873g.RELEASE.im4p`
+- `Firmware/all_flash/iBootDataStage1.j873s.RELEASE.im4p`
+- `Firmware/all_flash/sep-firmware.j775c.RELEASE.im4p`
+- `Firmware/all_flash/sep-firmware.j775c.RELEASE.im4p.plist`
+- `Firmware/all_flash/sep-firmware.j775d.RELEASE.im4p`
+- `Firmware/all_flash/sep-firmware.j775d.RELEASE.im4p.plist`
+- `Firmware/all_flash/sep-firmware.j873g.RELEASE.im4p`
+- `Firmware/all_flash/sep-firmware.j873g.RELEASE.im4p.plist`
+- `Firmware/all_flash/sep-firmware.j873s.RELEASE.im4p`
+- `Firmware/all_flash/sep-firmware.j873s.RELEASE.im4p.plist`
+- `Firmware/all_flash/sep-patches.j775c.im4p`
+- `Firmware/all_flash/sep-patches.j775c.im4p.plist`
+- `Firmware/all_flash/sep-patches.j775d.im4p`
+- `Firmware/all_flash/sep-patches.j775d.im4p.plist`
+- `Firmware/all_flash/sep-patches.j873g.im4p`
+- `Firmware/all_flash/sep-patches.j873g.im4p.plist`
+- `Firmware/all_flash/sep-patches.j873s.im4p`
+- `Firmware/all_flash/sep-patches.j873s.im4p.plist`
+- `Firmware/ane/h17_ane1_fw_hyperion_j71y.im4p`
+- `Firmware/ane/h18_ane0_fw_kirkland_j8xx.im4p`
+- `Firmware/ane/h18_ane1_fw_kirkland_j8xx.im4p`
+- `Firmware/ansf.t8152.release.im4p`
+- `Firmware/avd/AppleAVDFW_H18G.im4p`
+- `Firmware/ave/AppleAVE2FW_H18G.im4p`
+- `Firmware/ave/AppleAVE2FW_H18G_AVE0.im4p`
+- `Firmware/ave/AppleAVE2FW_H18G_AVE1.im4p`
+- `Firmware/ave/AppleAVE2FW_H18G_AVE2.im4p`
+- `Firmware/ave/AppleAVE2FW_H18G_AVE3.im4p`
+- `Firmware/ave/AppleAVE2FW_H18G_AVE4.im4p`
+- `Firmware/ave/AppleAVE2FW_H18G_AVE5.im4p`
+- `Firmware/ave/AppleAVE2FW_H18G_AVE6.im4p`
+- `Firmware/ave/AppleAVE2FW_H18G_AVE7.im4p`
+- `Firmware/ave/AppleAVE2FW_H18G_AVE8.im4p`
+- `Firmware/dcp/t8152dcp.im4p`
+- `Firmware/dcp/t8152dcp_restore.im4p`
+- `Firmware/dfu/iBEC.j775c.RELEASE.im4p`
+- `Firmware/dfu/iBEC.j775d.RELEASE.im4p`
+- `Firmware/dfu/iBEC.j873g.RELEASE.im4p`
+- `Firmware/dfu/iBEC.j873s.RELEASE.im4p`
+- `Firmware/dfu/iBSS.j775c.RELEASE.im4p`
+- `Firmware/dfu/iBSS.j775d.RELEASE.im4p`
+- `Firmware/dfu/iBSS.j873g.RELEASE.im4p`
+- `Firmware/dfu/iBSS.j873s.RELEASE.im4p`
+- `Firmware/embeddedaudioresources/image4/j775c-boot-chime.im4p`
+- `Firmware/embeddedaudioresources/image4/j775d-boot-chime.im4p`
+- `Firmware/embeddedaudioresources/image4/j873g-boot-chime.im4p`
+- `Firmware/embeddedaudioresources/image4/j873s-boot-chime.im4p`
+- `Firmware/image4/exclavecore_bundle.t8152.RELEASE.im4p`
+- `Firmware/image4/exclavecore_bundle.t8152.RELEASE.restore.im4p`
+- `Firmware/msr/t8152.msrf.im4p`
+- `Firmware/msr/t8152.rmsr.im4p`
+- `Firmware/pmp/t8152pmp.im4p`
+- `Firmware/rans.t8152.release.im4p`
+- `Firmware/sptm.t8152.release.im4p`
+- `Firmware/t2026macG2/Release/ftab.bin`
+- `Firmware/t8152ciofw.im4p`
+- `Firmware/t8152tmufw.im4p`
+- `kernelcache.release.mac18g`

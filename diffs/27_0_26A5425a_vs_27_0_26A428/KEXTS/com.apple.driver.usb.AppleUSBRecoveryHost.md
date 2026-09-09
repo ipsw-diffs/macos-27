@@ -1,0 +1,175 @@
+## com.apple.driver.usb.AppleUSBRecoveryHost
+
+> `com.apple.driver.usb.AppleUSBRecoveryHost`
+
+```diff
+
+   __TEXT.__const: 0x18
+   __TEXT.__cstring: 0xddb
+   __TEXT.__os_log: 0x7da
+-  __TEXT_EXEC.__text: 0xa948
++  __TEXT_EXEC.__text: 0xabc4
+   __TEXT_EXEC.__auth_stubs: 0x370
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x1a0
+Functions:
+~ __ZN20AppleUSBRecoveryHost9MetaClassC1Ev : 72 -> 76
+~ __ZN20AppleUSBRecoveryHostC2EPK11OSMetaClass : 52 -> 56
+~ __ZN20AppleUSBRecoveryHost9MetaClassC2Ev : 72 -> 76
+~ __ZN20AppleUSBRecoveryHost5startEP9IOService : 464 -> 468
+~ __ZN20AppleUSBRecoveryHost19stopThreadCallGatedEv : 272 -> 276
+~ __ZN20AppleUSBRecoveryHost4freeEv : 192 -> 196
+~ __ZN20AppleUSBRecoveryHost15registerServiceEj : 144 -> 148
+~ __ZN20AppleUSBRecoveryHost12createDeviceE31tInternalUSBHostConnectionSpeedjj : 584 -> 588
+~ ____ZN20AppleUSBRecoveryHost12createDeviceE31tInternalUSBHostConnectionSpeedjj_block_invoke : 148 -> 152
+~ __ZN20AppleUSBRecoveryHost13destroyDeviceEP15IOUSBHostDevice : 136 -> 140
+~ ____ZN20AppleUSBRecoveryHost13destroyDeviceEP15IOUSBHostDevice_block_invoke : 216 -> 220
+~ __ZN20AppleUSBRecoveryHost15createPipeGatedEPN22AppleUSBHostController14CreatePipeArgsERP13IOUSBHostPipe : 1524 -> 1528
+~ __ZN20AppleUSBRecoveryHost7ioGatedEP19AppleUSBHostRequest : 508 -> 512
+~ __ZN20AppleUSBRecoveryHost14abortPipeGatedEP13IOUSBHostPipeiP9IOService : 272 -> 276
+~ __ZN20AppleUSBRecoveryHost17suspendPipesGatedEP15IOUSBHostDevice : 108 -> 112
+~ __ZN20AppleUSBRecoveryHost16resumePipesGatedEP15IOUSBHostDevice : 108 -> 112
+~ __ZN20AppleUSBRecoveryHost14closePipeGatedEP13IOUSBHostPipe : 416 -> 420
+~ __ZN20AppleUSBRecoveryHost14closeAllQueuesEv : 276 -> 280
+~ __ZN20AppleUSBRecoveryHost19closeAllQueuesGatedEv : 872 -> 876
+~ __ZN20AppleUSBRecoveryHost17generateBusNumberERh : 404 -> 408
+~ __ZN20AppleUSBRecoveryHost11createPortsEv : 988 -> 992
+~ __ZN20AppleUSBRecoveryHost14filterOccurredEP28IOFilterInterruptEventSource : 396 -> 400
+~ __ZN20AppleUSBRecoveryHost17interruptOccurredEP22IOInterruptEventSourcei : 104 -> 108
+~ _GLOBAL__sub_I_AppleUSBRecoveryHost.cpp : 80 -> 84
+~ __ZN23AppleUSBRecoveryRSMHost9MetaClassC1Ev : 72 -> 76
+~ __ZN23AppleUSBRecoveryRSMHostC2EPK11OSMetaClass : 52 -> 56
+~ __ZN23AppleUSBRecoveryRSMHostC1EPK11OSMetaClass : 52 -> 56
+~ __ZN23AppleUSBRecoveryRSMHostD0Ev : 68 -> 72
+~ __ZN23AppleUSBRecoveryRSMHost9MetaClassC2Ev : 72 -> 76
+~ __ZNK23AppleUSBRecoveryRSMHost9MetaClass5allocEv : 104 -> 108
+~ __ZN23AppleUSBRecoveryRSMHostC1Ev : 88 -> 92
+~ __ZN23AppleUSBRecoveryRSMHostC2Ev : 88 -> 92
+~ __ZN23AppleUSBRecoveryRSMHost5startEP9IOService : 1068 -> 1072
+~ __ZN23AppleUSBRecoveryRSMHost19stopThreadCallGatedEv : 184 -> 188
+~ __ZN23AppleUSBRecoveryRSMHost4freeEv : 152 -> 156
+~ __ZN23AppleUSBRecoveryRSMHost18rsmReceiveCallbackEP12IORSMChannelPKvyh : 1832 -> 1836
+~ __ZN23AppleUSBRecoveryRSMHost4sendEP27AppleUSBRecoveryBufferEntry : 1136 -> 1140
+~ __ZN23AppleUSBRecoveryRSMHost15rsmSendCallbackEP27AppleUSBRecoveryBufferEntryi : 1312 -> 1316
+~ __ZN23AppleUSBRecoveryRSMHost4sendEh : 916 -> 920
+~ _GLOBAL__sub_I_AppleUSBRecoveryRSMHost.cpp : 80 -> 84
+~ __ZN27AppleUSBRecoveryRequestPool9MetaClassC1Ev : 72 -> 76
+~ __ZN27AppleUSBRecoveryRequestPoolC2EPK11OSMetaClass : 52 -> 56
+~ __ZN27AppleUSBRecoveryRequestPoolC1EPK11OSMetaClass : 52 -> 56
+~ __ZN27AppleUSBRecoveryRequestPoolD0Ev : 68 -> 72
+~ __ZN27AppleUSBRecoveryRequestPool9MetaClassC2Ev : 72 -> 76
+~ __ZNK27AppleUSBRecoveryRequestPool9MetaClass5allocEv : 104 -> 108
+~ __ZN27AppleUSBRecoveryRequestPoolC1Ev : 88 -> 92
+~ __ZN27AppleUSBRecoveryRequestPoolC2Ev : 88 -> 92
+~ __ZN27AppleUSBRecoveryRequestPool12withWorkLoopEP10IOWorkLoop : 220 -> 224
+~ __ZN23AppleUSBRecoveryRequest8withPoolEP19AppleUSBRequestPool : 220 -> 224
+~ __ZN23AppleUSBRecoveryRequest9MetaClassC1Ev : 72 -> 76
+~ __ZN23AppleUSBRecoveryRequestC2EPK11OSMetaClass : 52 -> 56
+~ __ZN23AppleUSBRecoveryRequestC1EPK11OSMetaClass : 52 -> 56
+~ __ZN23AppleUSBRecoveryRequestD0Ev : 68 -> 72
+~ __ZN23AppleUSBRecoveryRequest9MetaClassC2Ev : 72 -> 76
+~ __ZNK23AppleUSBRecoveryRequest9MetaClass5allocEv : 104 -> 108
+~ __ZN23AppleUSBRecoveryRequestC1Ev : 88 -> 92
+~ __ZN23AppleUSBRecoveryRequestC2Ev : 88 -> 92
+~ __ZN23AppleUSBRecoveryRequest7prepareEP19AppleUSBHostRequestP21AppleUSBRecoveryQueue : 596 -> 600
+~ __ZN23AppleUSBRecoveryRequest8activateEv : 160 -> 164
+~ __ZN23AppleUSBRecoveryRequest6cancelEv : 176 -> 180
+~ __ZN23AppleUSBRecoveryRequest6updateEP27AppleUSBRecoveryBufferEntry : 2080 -> 2084
+~ __ZN23AppleUSBRecoveryRequest6finishEi : 376 -> 380
+~ __ZN23AppleUSBRecoveryRequest8completeEv : 176 -> 180
+~ __ZN23AppleUSBRecoveryRequest11getDeadlineEv : 144 -> 148
+~ __ZN23AppleUSBRecoveryRequest11hasTimedOutEv : 52 -> 56
+~ __ZN34AppleUSBRecoveryControlRequestPool9MetaClassC1Ev : 72 -> 76
+~ __ZN34AppleUSBRecoveryControlRequestPoolC2EPK11OSMetaClass : 52 -> 56
+~ __ZN34AppleUSBRecoveryControlRequestPoolC1EPK11OSMetaClass : 52 -> 56
+~ __ZN34AppleUSBRecoveryControlRequestPoolD0Ev : 68 -> 72
+~ __ZN34AppleUSBRecoveryControlRequestPool9MetaClassC2Ev : 72 -> 76
+~ __ZNK34AppleUSBRecoveryControlRequestPool9MetaClass5allocEv : 104 -> 108
+~ __ZN34AppleUSBRecoveryControlRequestPoolC1Ev : 88 -> 92
+~ __ZN34AppleUSBRecoveryControlRequestPoolC2Ev : 88 -> 92
+~ __ZN34AppleUSBRecoveryControlRequestPool12withWorkLoopEP10IOWorkLoop : 220 -> 224
+~ __ZN30AppleUSBRecoveryControlRequest8withPoolEP19AppleUSBRequestPool : 220 -> 224
+~ __ZN30AppleUSBRecoveryControlRequest9MetaClassC1Ev : 72 -> 76
+~ __ZN30AppleUSBRecoveryControlRequestC2EPK11OSMetaClass : 52 -> 56
+~ __ZN30AppleUSBRecoveryControlRequestC1EPK11OSMetaClass : 52 -> 56
+~ __ZN30AppleUSBRecoveryControlRequestD0Ev : 68 -> 72
+~ __ZN30AppleUSBRecoveryControlRequest9MetaClassC2Ev : 72 -> 76
+~ __ZNK30AppleUSBRecoveryControlRequest9MetaClass5allocEv : 104 -> 108
+~ __ZN30AppleUSBRecoveryControlRequestC1Ev : 88 -> 92
+~ __ZN30AppleUSBRecoveryControlRequestC2Ev : 88 -> 92
+~ __ZN30AppleUSBRecoveryControlRequest7prepareEP19AppleUSBHostRequestP21AppleUSBRecoveryQueue : 244 -> 248
+~ __ZN30AppleUSBRecoveryControlRequest8activateEv : 880 -> 884
+~ __ZN30AppleUSBRecoveryControlRequest6cancelEv : 148 -> 152
+~ __ZN30AppleUSBRecoveryControlRequest6updateEP27AppleUSBRecoveryBufferEntry : 1788 -> 1792
+~ __ZN30AppleUSBRecoveryControlRequest8completeEv : 148 -> 152
+~ _GLOBAL__sub_I_AppleUSBRecoveryRequest.cpp : 268 -> 272
+~ __GLOBAL__D_a : 80 -> 84
+~ __ZN20AppleUSBRecoveryPort9MetaClassC1Ev : 72 -> 76
+~ __ZN20AppleUSBRecoveryPortC2EPK11OSMetaClass : 52 -> 56
+~ __ZN20AppleUSBRecoveryPortC1EPK11OSMetaClass : 52 -> 56
+~ __ZN20AppleUSBRecoveryPortD0Ev : 68 -> 72
+~ __ZN20AppleUSBRecoveryPort9MetaClassC2Ev : 72 -> 76
+~ __ZNK20AppleUSBRecoveryPort9MetaClass5allocEv : 104 -> 108
+~ __ZN20AppleUSBRecoveryPortC1Ev : 88 -> 92
+~ __ZN20AppleUSBRecoveryPortC2Ev : 88 -> 92
+~ __ZN20AppleUSBRecoveryPort12recoveryPortEv : 176 -> 180
+~ __ZN20AppleUSBRecoveryPort4initEv : 132 -> 136
+~ __ZN20AppleUSBRecoveryPort5startEP9IOService : 552 -> 556
+~ __ZN20AppleUSBRecoveryPort4freeEv : 112 -> 116
+~ __ZN20AppleUSBRecoveryPort7powerOnEv : 64 -> 68
+~ __ZN20AppleUSBRecoveryPort18getPortStatusGatedERj : 84 -> 88
+~ __ZN20AppleUSBRecoveryPort20resetAndCreateDeviceEj : 648 -> 652
+~ __ZN20AppleUSBRecoveryPort17interruptOccurredEP22IOInterruptEventSourcei : 1028 -> 1032
+~ _GLOBAL__sub_I_AppleUSBRecoveryPort.cpp : 80 -> 84
+~ __ZN21AppleUSBRecoveryQueue9MetaClassC1Ev : 72 -> 76
+~ __ZN21AppleUSBRecoveryQueueC2EPK11OSMetaClass : 52 -> 56
+~ __ZN21AppleUSBRecoveryQueueC1EPK11OSMetaClass : 52 -> 56
+~ __ZN21AppleUSBRecoveryQueueD0Ev : 68 -> 72
+~ __ZN21AppleUSBRecoveryQueue9MetaClassC2Ev : 72 -> 76
+~ __ZNK21AppleUSBRecoveryQueue9MetaClass5allocEv : 104 -> 108
+~ __ZN21AppleUSBRecoveryQueueC1Ev : 88 -> 92
+~ __ZN21AppleUSBRecoveryQueueC2Ev : 88 -> 92
+~ __ZN21AppleUSBRecoveryQueue14withParametersEP20AppleUSBRecoveryHostht : 244 -> 248
+~ __ZN21AppleUSBRecoveryQueue18initWithParametersEP20AppleUSBRecoveryHostht : 472 -> 476
+~ __ZN21AppleUSBRecoveryQueue4freeEv : 272 -> 276
+~ __ZN21AppleUSBRecoveryQueue4sendEP27AppleUSBRecoveryBufferEntry : 468 -> 472
+~ __ZN21AppleUSBRecoveryQueue15queueCompletionEP27AppleUSBRecoveryBufferEntry : 132 -> 136
+~ __ZN21AppleUSBRecoveryQueue18processBufferQueueEv : 892 -> 896
+~ __ZN21AppleUSBRecoveryQueue5startEv : 224 -> 228
+~ __ZN21AppleUSBRecoveryQueue5closeEv : 656 -> 660
+~ __ZN21AppleUSBRecoveryQueue14enqueueRequestEP15AppleUSBRequest : 408 -> 412
+~ __ZN21AppleUSBRecoveryQueue16abortAllRequestsEiP9IOService : 656 -> 660
+~ __ZN21AppleUSBRecoveryQueue7timeoutEP18IOTimerEventSource : 632 -> 636
+~ __ZN21AppleUSBRecoveryQueue13adjustTimeoutEv : 376 -> 380
+~ __ZN28AppleUSBRecoveryControlQueue9MetaClassC1Ev : 72 -> 76
+~ __ZN28AppleUSBRecoveryControlQueueC2EPK11OSMetaClass : 52 -> 56
+~ __ZN28AppleUSBRecoveryControlQueueC1EPK11OSMetaClass : 52 -> 56
+~ __ZN28AppleUSBRecoveryControlQueueD0Ev : 68 -> 72
+~ __ZN28AppleUSBRecoveryControlQueue9MetaClassC2Ev : 72 -> 76
+~ __ZNK28AppleUSBRecoveryControlQueue9MetaClass5allocEv : 104 -> 108
+~ __ZN28AppleUSBRecoveryControlQueueC1Ev : 88 -> 92
+~ __ZN28AppleUSBRecoveryControlQueueC2Ev : 88 -> 92
+~ __ZN28AppleUSBRecoveryControlQueue14withParametersEP20AppleUSBRecoveryHostht : 244 -> 248
+~ __ZN28AppleUSBRecoveryControlQueue18processBufferQueueEv : 1220 -> 1224
+~ _GLOBAL__sub_I_AppleUSBRecoveryQueue.cpp : 148 -> 152
+~ __GLOBAL__D_a : 56 -> 60
+~ __ZN20AppleUSBRecoveryPipe9MetaClassC1Ev : 72 -> 76
+~ __ZN20AppleUSBRecoveryPipeC2EPK11OSMetaClass : 52 -> 56
+~ __ZN20AppleUSBRecoveryPipeC1EPK11OSMetaClass : 52 -> 56
+~ __ZN20AppleUSBRecoveryPipeD0Ev : 68 -> 72
+~ __ZN20AppleUSBRecoveryPipe9MetaClassC2Ev : 72 -> 76
+~ __ZNK20AppleUSBRecoveryPipe9MetaClass5allocEv : 104 -> 108
+~ __ZN20AppleUSBRecoveryPipeC1Ev : 88 -> 92
+~ __ZN20AppleUSBRecoveryPipeC2Ev : 88 -> 92
+~ __ZN20AppleUSBRecoveryPipe24withDescriptorsAndOwnersEPKN11StandardUSB18EndpointDescriptorEPKNS0_23ConfigurationDescriptorEP22AppleUSBHostControllerP15IOUSBHostDeviceP18IOUSBHostInterface : 400 -> 404
+~ __ZN20AppleUSBRecoveryPipe4freeEv : 112 -> 116
+~ __ZN20AppleUSBRecoveryPipe16setRecoveryQueueEP21AppleUSBRecoveryQueue : 152 -> 156
+~ _GLOBAL__sub_I_AppleUSBRecoveryPipe.cpp : 80 -> 84
+~ _ZN20AppleUSBRecoveryHost14filterOccurredEP28IOFilterInterruptEventSource.cold.1 : 44 -> 48
+~ _ZN23AppleUSBRecoveryRequest6updateEP27AppleUSBRecoveryBufferEntry.cold.1 : 24 -> 28
+~ _ZN23AppleUSBRecoveryRequest6updateEP27AppleUSBRecoveryBufferEntry.cold.2 : 24 -> 28
+~ _ZN30AppleUSBRecoveryControlRequest6updateEP27AppleUSBRecoveryBufferEntry.cold.1 : 24 -> 28
+~ _ZN30AppleUSBRecoveryControlRequest6updateEP27AppleUSBRecoveryBufferEntry.cold.2 : 24 -> 28
+~ _ZN30AppleUSBRecoveryControlRequest6updateEP27AppleUSBRecoveryBufferEntry.cold.3 : 24 -> 28
+~ _ZN21AppleUSBRecoveryQueue16abortAllRequestsEiP9IOService.cold.1 : 44 -> 48
+```

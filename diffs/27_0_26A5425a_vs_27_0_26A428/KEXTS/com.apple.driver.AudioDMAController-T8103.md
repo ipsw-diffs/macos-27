@@ -1,0 +1,243 @@
+## com.apple.driver.AudioDMAController-T8103
+
+> `com.apple.driver.AudioDMAController-T8103`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
+```diff
+
+ 600.45.0.0.0
+   __TEXT.__const: 0x1b8
+   __TEXT.__cstring: 0x312e
+-  __TEXT_EXEC.__text: 0x15214
++  __TEXT_EXEC.__text: 0x15584
+   __TEXT_EXEC.__auth_stubs: 0x520
+   __DATA.__data: 0x248
+   __DATA.__common: 0x178
+Functions:
+~ __ZN27AudioDMAChannelStateMachine9MetaClassC1Ev : 72 -> 76
+~ __ZN27AudioDMAChannelStateMachineC2EPK11OSMetaClass : 56 -> 60
+~ __ZN27AudioDMAChannelStateMachineC1EPK11OSMetaClass : 56 -> 60
+~ __ZN27AudioDMAChannelStateMachineD0Ev : 68 -> 72
+~ __ZN27AudioDMAChannelStateMachine9MetaClassC2Ev : 72 -> 76
+~ __ZNK27AudioDMAChannelStateMachine9MetaClass5allocEv : 108 -> 112
+~ __ZN27AudioDMAChannelStateMachineC1Ev : 92 -> 96
+~ __ZN27AudioDMAChannelStateMachineC2Ev : 92 -> 96
+~ __ZN15AudioDMAChannel9MetaClassC1Ev : 72 -> 76
+~ __ZN15AudioDMAChannelC2EPK11OSMetaClass : 72 -> 76
+~ __ZN15AudioDMAChannelC1EPK11OSMetaClass : 72 -> 76
+~ __ZN15AudioDMAChannelD0Ev : 68 -> 72
+~ __ZN15AudioDMAChannel9MetaClassC2Ev : 72 -> 76
+~ __ZNK15AudioDMAChannel9MetaClass5allocEv : 52 -> 56
+~ __ZN15AudioDMAChannelC2Ev : 108 -> 112
+~ __ZN15AudioDMAChannel17withRegistryEntryEP15IORegistryEntry : 128 -> 132
+~ __ZN15AudioDMAChannel4stopEP9IOService : 1056 -> 1060
+~ __ZN15AudioDMAChannel17_destroyReportersEv : 316 -> 320
+~ __ZN15AudioDMAChannel9initForPMEP9IOService : 244 -> 248
+~ __ZN15AudioDMAChannel13setPowerStateEmP9IOService : 172 -> 176
+~ __ZN15AudioDMAChannel19_setPowerStateGatedENS_24ChannelPowerStateOrdinalEPS_ : 2652 -> 2656
+~ __ZN15AudioDMAChannel9gatePowerEmb : 2324 -> 2328
+~ __ZN15AudioDMAChannel19setDirectionAndRoleEjj : 856 -> 860
+~ __ZN15AudioDMAChannel22saveAndClearInterruptsEv : 692 -> 696
+~ __ZN15AudioDMAChannel15clearInterruptsEv : 916 -> 920
+~ __ZN15AudioDMAChannel22logInterruptStatusBitsEv : 1632 -> 1636
+~ __ZN15AudioDMAChannel16enableInterruptsEjb : 532 -> 536
+~ __ZN15AudioDMAChannel17disableInterruptsEjb : 544 -> 548
+~ __ZN15AudioDMAChannel14_startTransferEv : 304 -> 308
+~ __ZN15AudioDMAChannel25_buildTransferDescriptorsEP12IODMACommandyy : 1720 -> 1724
+~ __ZN15AudioDMAChannel16_getMyStringRoleEv : 164 -> 168
+~ __ZN15AudioDMAChannel27_programTransferDescriptorsEv : 1380 -> 1384
+~ __ZN15AudioDMAChannel27_applyInputDMAConfigurationEv : 2128 -> 2132
+~ __ZN15AudioDMAChannel25_allocateChannelResourcesEv : 4528 -> 4532
+~ __ZN15AudioDMAChannel25_signalInterruptAvailableEP22IOInterruptEventSourcei : 2648 -> 2652
+~ __ZN15AudioDMAChannel16_createReportersEv : 2684 -> 2688
+~ __ZN15AudioDMAChannel18_initializeChannelEPN15DMAConfigurator21InputDMAConfigurationEP16IODMAEventSourceb : 556 -> 560
+~ __ZN15AudioDMAChannel13_stopTransferEby : 1880 -> 1884
+~ __ZN15AudioDMAChannel15_disableChannelEv : 148 -> 152
+~ __ZN15AudioDMAChannel23processChannelOperationEN27AudioDMAChannelStateMachine21ADMACChannelOperationEPvS2_S2_ : 2484 -> 2488
+~ __ZN15AudioDMAChannel21_processDoneInterruptEb : 1828 -> 1832
+~ _GLOBAL__sub_I_AudioDMAChannel.cpp : 228 -> 232
+~ __GLOBAL__D_a : 56 -> 60
+~ __ZN36AudioDMAChannelSharedResourceManagerC2Ej : 128 -> 132
+~ __ZN36AudioDMAChannelSharedResourceManagerD2Ev : 84 -> 88
+~ __ZN36AudioDMAChannelSharedResourceManagerD1Ev : 84 -> 88
+~ __ZN36AudioDMAChannelSharedResourceManager29allocateChannelBufferApertureEjRjbb : 236 -> 240
+~ __ZN36AudioDMAChannelSharedResourceManager14disableChannelEjbb : 164 -> 168
+~ __ZN36AudioDMAChannelSharedResourceManager19sampleLocalTimebaseEb : 132 -> 136
+~ __ZN27AudioDMAChannelStateMachine25_stateTransitionPostambleEb : 208 -> 212
+~ _GLOBAL__sub_I_AudioDMAChannelStateMachine.cpp : 212 -> 216
+~ __ZN18AudioDMAController9MetaClassC1Ev : 72 -> 76
+~ __ZN18AudioDMAControllerC2EPK11OSMetaClass : 84 -> 88
+~ __ZN18AudioDMAControllerC1EPK11OSMetaClass : 84 -> 88
+~ __ZN18AudioDMAControllerD0Ev : 68 -> 72
+~ __ZN18AudioDMAController9MetaClassC2Ev : 72 -> 76
+~ __ZNK18AudioDMAController9MetaClass5allocEv : 120 -> 124
+~ __ZN18AudioDMAControllerC1Ev : 104 -> 108
+~ __ZN18AudioDMAControllerC2Ev : 104 -> 108
+~ __ZN18AudioDMAController5startEP9IOService : 2024 -> 2028
+~ __ZN18AudioDMAController14_parseBootArgsEPKc : 1028 -> 1032
+~ __ZN18AudioDMAController21_getExecutionPlatformEv : 1212 -> 1216
+~ __ZN18AudioDMAController16_createReportersEv : 2484 -> 2488
+~ __ZN18AudioDMAController4stopEP9IOService : 640 -> 644
+~ __ZN18AudioDMAController17_destroyReportersEv : 272 -> 276
+~ __ZN18AudioDMAController21_initializeControllerEv : 704 -> 708
+~ __ZN18AudioDMAController21_calibrateTimeOffsetsEv : 680 -> 684
+~ __ZN18AudioDMAController13setPowerStateEmP9IOService : 192 -> 196
+~ __ZN18AudioDMAController19_setPowerStateGatedENS_28AudioDMAControllerPowerStateEPS_ : 376 -> 380
+~ __ZN18AudioDMAController24_programInterruptEnablesEv : 1528 -> 1532
+~ __ZN18AudioDMAController10_gatePowerEmjb : 1708 -> 1712
+~ __ZN18AudioDMAController12publishBelowEP15IORegistryEntry : 1704 -> 1708
+~ __ZN18AudioDMAController14initDMAChannelEP9IOServiceP16IODMAEventSourcePjj : 144 -> 148
+~ ____ZN18AudioDMAController14initDMAChannelEP9IOServiceP16IODMAEventSourcePjj_block_invoke : 616 -> 620
+~ __ZN18AudioDMAController28_getDMAConfigurationForIndexEP9IOServicej : 232 -> 236
+~ __ZN18AudioDMAController15startDMACommandEjP12IODMACommandjyy : 652 -> 656
+~ __ZN18AudioDMAController15queryDMACommandEjPP12IODMACommandPyb : 164 -> 168
+~ __ZN18AudioDMAController12setFIFODepthEjy : 324 -> 328
+~ __ZN18AudioDMAController12setFrameSizeEjh : 168 -> 172
+~ __ZN18AudioDMAController12setDMAConfigEjP9IOServicej : 364 -> 368
+~ __ZN18AudioDMAController20callPlatformFunctionEPK8OSSymbolbPvS3_S3_S3_ : 1680 -> 1684
+~ ____ZN18AudioDMAController20callPlatformFunctionEPK8OSSymbolbPvS3_S3_S3__block_invoke : 1480 -> 1484
+~ __ZN18AudioDMAController20_admaInterruptActionEP22IOInterruptEventSourcei : 1532 -> 1536
+~ _GLOBAL__sub_I_AudioDMAController.cpp : 80 -> 84
+~ __ZN12ADMATransfer23AudioDMATransferCommand9MetaClassC1Ev : 72 -> 76
+~ __ZN12ADMATransfer23AudioDMATransferCommandC2EPK11OSMetaClass : 52 -> 56
+~ __ZN12ADMATransfer23AudioDMATransferCommandC1EPK11OSMetaClass : 52 -> 56
+~ __ZN12ADMATransfer23AudioDMATransferCommandD0Ev : 68 -> 72
+~ __ZN12ADMATransfer23AudioDMATransferCommand9MetaClassC2Ev : 72 -> 76
+~ __ZNK12ADMATransfer23AudioDMATransferCommand9MetaClass5allocEv : 104 -> 108
+~ __ZN12ADMATransfer23AudioDMATransferCommandC1Ev : 88 -> 92
+~ __ZN12ADMATransfer23AudioDMATransferCommandC2Ev : 88 -> 92
+~ __ZNK12ADMATransfer23AudioDMATransferCommand13logDescriptorEjj : 544 -> 548
+~ _GLOBAL__sub_I_AudioDMATransferCommand.cpp : 80 -> 84
+~ __ZN16InterruptCommand9MetaClassC1Ev : 72 -> 76
+~ __ZN16InterruptCommandC2EPK11OSMetaClass : 56 -> 60
+~ __ZN16InterruptCommandC1EPK11OSMetaClass : 56 -> 60
+~ __ZN16InterruptCommandD0Ev : 68 -> 72
+~ __ZN16InterruptCommand9MetaClassC2Ev : 72 -> 76
+~ __ZNK16InterruptCommand9MetaClass5allocEv : 108 -> 112
+~ __ZN16InterruptCommandC1Ev : 92 -> 96
+~ __ZN16InterruptCommandC2Ev : 92 -> 96
+~ __ZN27IOInterruptQueueEventSource9MetaClassC1Ev : 72 -> 76
+~ __ZN27IOInterruptQueueEventSourceC2EPK11OSMetaClass : 76 -> 80
+~ __ZN27IOInterruptQueueEventSourceC1EPK11OSMetaClass : 76 -> 80
+~ __ZN27IOInterruptQueueEventSourceD0Ev : 68 -> 72
+~ __ZN27IOInterruptQueueEventSource9MetaClassC2Ev : 72 -> 76
+~ __ZNK27IOInterruptQueueEventSource9MetaClass5allocEv : 52 -> 56
+~ __ZN27IOInterruptQueueEventSourceC2Ev : 112 -> 116
+~ __ZN27IOInterruptQueueEventSource25interruptQueueEventSourceEP8OSObjectPFvS1_P22IOInterruptEventSourceiEP9IOServicei : 188 -> 192
+~ __ZN27IOInterruptQueueEventSource4initEP8OSObjectPFvS1_P22IOInterruptEventSourceiEP9IOServicei : 152 -> 156
+~ __ZN27IOInterruptQueueEventSource11setWorkLoopEP10IOWorkLoop : 396 -> 400
+~ __ZN27IOInterruptQueueEventSource4freeEv : 128 -> 132
+~ __ZN27IOInterruptQueueEventSource23normalInterruptOccurredEPvP9IOServicei : 636 -> 640
+~ __ZN27IOInterruptQueueEventSource12checkForWorkEv : 180 -> 184
+~ __ZN27IOInterruptQueueEventSource22getNextInterruptRefConEv : 444 -> 448
+~ __ZN27IOInterruptQueueEventSource19_trackReturnCommandEv : 40 -> 44
+~ __ZN27IOInterruptQueueEventSource15drainInterruptsEv : 376 -> 380
+~ _GLOBAL__sub_I_IOInterruptQueueEventSource.cpp : 140 -> 144
+~ __GLOBAL__D_a : 56 -> 60
+~ __ZN15AudioDMAChannel5startEP9IOService : 856 -> 860
+~ __ZN15AudioDMAChannel23setOperationalAperturesEPyj : 208 -> 212
+~ __ZN15AudioDMAChannel12resetChannelEv : 528 -> 532
+~ __ZN15AudioDMAChannel26_programNextQueuedTransferEv : 72 -> 76
+~ __ZN15AudioDMAChannel17_setConfigurationEPN15DMAConfigurator21InputDMAConfigurationE : 80 -> 84
+~ __ZN15AudioDMAChannel17_initiateTransferEP12IODMACommandyy : 80 -> 84
+~ __ZN15AudioDMAChannel15_postCompletionEPN12ADMATransfer23AudioDMATransferCommandEyyi : 284 -> 288
+~ _ZN15AudioDMAChannel17withRegistryEntryEP15IORegistryEntry.cold.1 : 60 -> 64
+~ _ZN15AudioDMAChannel17withRegistryEntryEP15IORegistryEntry.cold.2 : 60 -> 64
+~ _ZN15AudioDMAChannel4stopEP9IOService.cold.1 : 60 -> 64
+~ _ZN15AudioDMAChannel4stopEP9IOService.cold.2 : 60 -> 64
+~ _ZN15AudioDMAChannel19_setPowerStateGatedENS_24ChannelPowerStateOrdinalEPS_.cold.1 : 304 -> 308
+~ _ZN15AudioDMAChannel19_setPowerStateGatedENS_24ChannelPowerStateOrdinalEPS_.cold.2 : 288 -> 292
+~ _ZN15AudioDMAChannel22saveAndClearInterruptsEv.cold.1 : 304 -> 308
+~ _ZN15AudioDMAChannel14_startTransferEv.cold.1 : 320 -> 324
+~ _ZN15AudioDMAChannel25_buildTransferDescriptorsEP12IODMACommandyy.cold.1 : 308 -> 312
+~ _ZN15AudioDMAChannel25_buildTransferDescriptorsEP12IODMACommandyy.cold.2 : 308 -> 312
+~ _ZN15AudioDMAChannel27_applyInputDMAConfigurationEv.cold.1 : 308 -> 312
+~ _ZN15AudioDMAChannel27_applyInputDMAConfigurationEv.cold.2 : 308 -> 312
+~ _ZN15AudioDMAChannel25_signalInterruptAvailableEP22IOInterruptEventSourcei.cold.1 : 48 -> 52
+~ _ZN15AudioDMAChannel25_signalInterruptAvailableEP22IOInterruptEventSourcei.cold.2 : 48 -> 52
+~ _ZN15AudioDMAChannel25_signalInterruptAvailableEP22IOInterruptEventSourcei.cold.3 : 48 -> 52
+~ _ZN15AudioDMAChannel25_signalInterruptAvailableEP22IOInterruptEventSourcei.cold.4 : 48 -> 52
+~ _ZN15AudioDMAChannel25_signalInterruptAvailableEP22IOInterruptEventSourcei.cold.5 : 352 -> 356
+~ _ZN15AudioDMAChannel25_signalInterruptAvailableEP22IOInterruptEventSourcei.cold.6 : 316 -> 320
+~ _ZN15AudioDMAChannel25_signalInterruptAvailableEP22IOInterruptEventSourcei.cold.7 : 316 -> 320
+~ _ZN15AudioDMAChannel25_signalInterruptAvailableEP22IOInterruptEventSourcei.cold.8 : 320 -> 324
+~ _ZN15AudioDMAChannel25_signalInterruptAvailableEP22IOInterruptEventSourcei.cold.9 : 320 -> 324
+~ _ZN15AudioDMAChannel25_signalInterruptAvailableEP22IOInterruptEventSourcei.cold.10 : 300 -> 304
+~ _ZN15AudioDMAChannel25_signalInterruptAvailableEP22IOInterruptEventSourcei.cold.11 : 308 -> 312
+~ _ZN15AudioDMAChannel16_createReportersEv.cold.1 : 48 -> 52
+~ _ZN15AudioDMAChannel16_createReportersEv.cold.2 : 156 -> 160
+~ _ZN15AudioDMAChannel16_createReportersEv.cold.3 : 48 -> 52
+~ _ZN15AudioDMAChannel16_createReportersEv.cold.4 : 48 -> 52
+~ _ZN15AudioDMAChannel16_createReportersEv.cold.5 : 48 -> 52
+~ _ZN15AudioDMAChannel13_stopTransferEby.cold.1 : 60 -> 64
+~ _ZN15AudioDMAChannel21_processDoneInterruptEb.cold.1 : 48 -> 52
+~ _ZN15AudioDMAChannel21_processDoneInterruptEb.cold.2 : 48 -> 52
+~ _ZN15AudioDMAChannel21_processDoneInterruptEb.cold.3 : 48 -> 52
+~ _ZN15AudioDMAChannel21_processDoneInterruptEb.cold.4 : 320 -> 324
+~ _ZN15AudioDMAChannel21_processDoneInterruptEb.cold.5 : 236 -> 240
+~ _ZN15AudioDMAChannel21_processDoneInterruptEb.cold.6 : 48 -> 52
+~ _ZN15AudioDMAChannel21_processDoneInterruptEb.cold.7 : 48 -> 52
+~ _ZN36AudioDMAChannelSharedResourceManagerC2Ej.cold.1 : 48 -> 52
+~ _ZN36AudioDMAChannelSharedResourceManagerC2Ej.cold.2 : 48 -> 52
+~ _ZN36AudioDMAChannelSharedResourceManagerC2Ej.cold.3 : 48 -> 52
+~ __ZN27AudioDMAChannelStateMachine24_stateTransitionPreambleENS_21ADMACChannelOperationE : 516 -> 520
+~ __ZN18AudioDMAController29_fetchDeviceRegisterAperturesEv : 404 -> 408
+~ __ZN18AudioDMAController21_initializeInterruptsEv : 120 -> 124
+~ __ZN18AudioDMAController9initForPMEP9IOService : 848 -> 852
+~ __ZN18AudioDMAController14stopDMACommandEjby : 536 -> 540
+~ __ZN18AudioDMAController12getFIFODepthEjj : 248 -> 252
+~ __ZN18AudioDMAController14validFIFODepthEjyj : 272 -> 276
+~ __ZN18AudioDMAController14validDMAConfigEjP9IOServicej : 284 -> 288
+~ _ZN18AudioDMAController5startEP9IOService.cold.1 : 60 -> 64
+~ _ZN18AudioDMAController5startEP9IOService.cold.2 : 60 -> 64
+~ _ZN18AudioDMAController14_parseBootArgsEPKc.cold.1 : 60 -> 64
+~ _ZN18AudioDMAController16_createReportersEv.cold.1 : 60 -> 64
+~ _ZN18AudioDMAController16_createReportersEv.cold.2 : 60 -> 64
+~ _ZN18AudioDMAController16_createReportersEv.cold.3 : 60 -> 64
+~ _ZN18AudioDMAController21_calibrateTimeOffsetsEv.cold.1 : 60 -> 64
+~ _ZN18AudioDMAController21_calibrateTimeOffsetsEv.cold.2 : 60 -> 64
+~ _ZN18AudioDMAController21_calibrateTimeOffsetsEv.cold.3 : 60 -> 64
+~ _ZN18AudioDMAController19_setPowerStateGatedENS_28AudioDMAControllerPowerStateEPS_.cold.1 : 60 -> 64
+~ _ZN18AudioDMAController19_setPowerStateGatedENS_28AudioDMAControllerPowerStateEPS_.cold.2 : 60 -> 64
+~ _ZN18AudioDMAController10_gatePowerEmjb.cold.1 : 224 -> 228
+~ _ZN18AudioDMAController10_gatePowerEmjb.cold.2 : 224 -> 228
+~ _ZN18AudioDMAController10_gatePowerEmjb.cold.3 : 224 -> 228
+~ _ZN18AudioDMAController10_gatePowerEmjb.cold.4 : 224 -> 228
+~ _ZN18AudioDMAController10_gatePowerEmjb.cold.5 : 224 -> 228
+~ _ZN18AudioDMAController10_gatePowerEmjb.cold.6 : 224 -> 228
+~ _ZN18AudioDMAController10_gatePowerEmjb.cold.7 : 284 -> 288
+~ _ZN18AudioDMAController10_gatePowerEmjb.cold.8 : 284 -> 288
+~ _ZN18AudioDMAController10_gatePowerEmjb.cold.9 : 284 -> 288
+~ _ZN18AudioDMAController12publishBelowEP15IORegistryEntry.cold.1 : 48 -> 52
+~ _ZN18AudioDMAController12publishBelowEP15IORegistryEntry.cold.2 : 48 -> 52
+~ _ZN18AudioDMAController12publishBelowEP15IORegistryEntry.cold.3 : 48 -> 52
+~ _ZN18AudioDMAController12publishBelowEP15IORegistryEntry.cold.4 : 48 -> 52
+~ ___ZN18AudioDMAController14initDMAChannelEP9IOServiceP16IODMAEventSourcePjj_block_invoke.cold.1 : 248 -> 252
+~ ___ZN18AudioDMAController14initDMAChannelEP9IOServiceP16IODMAEventSourcePjj_block_invoke.cold.2 : 248 -> 252
+~ _ZN18AudioDMAController15startDMACommandEjP12IODMACommandjyy.cold.1 : 232 -> 236
+~ _ZN18AudioDMAController12setFIFODepthEjy.cold.1 : 232 -> 236
+~ _ZN18AudioDMAController12setDMAConfigEjP9IOServicej.cold.1 : 232 -> 236
+~ ___ZN18AudioDMAController20callPlatformFunctionEPK8OSSymbolbPvS3_S3_S3__block_invoke.cold.1 : 244 -> 248
+~ ___ZN18AudioDMAController20callPlatformFunctionEPK8OSSymbolbPvS3_S3_S3__block_invoke.cold.2 : 164 -> 168
+~ ___ZN18AudioDMAController20callPlatformFunctionEPK8OSSymbolbPvS3_S3_S3__block_invoke.cold.3 : 244 -> 248
+~ _ZN18AudioDMAController20_admaInterruptActionEP22IOInterruptEventSourcei.cold.1 : 60 -> 64
+~ _ZN18AudioDMAController20_admaInterruptActionEP22IOInterruptEventSourcei.cold.2 : 60 -> 64
+~ _ZN12ADMATransfer23AudioDMATransferCommand13setDMACommandEP12IODMACommand.cold.1 : 72 -> 76
+~ _ZN12ADMATransfer23AudioDMATransferCommand30setTransferListAndSegmentCountEPN12IODMACommand9Segment64Ej.cold.1 : 72 -> 76
+~ _ZN27IOInterruptQueueEventSource4initEP8OSObjectPFvS1_P22IOInterruptEventSourceiEP9IOServicei.cold.1 : 60 -> 64
+~ _ZN27IOInterruptQueueEventSource4initEP8OSObjectPFvS1_P22IOInterruptEventSourceiEP9IOServicei.cold.2 : 60 -> 64
+~ _ZN27IOInterruptQueueEventSource11setWorkLoopEP10IOWorkLoop.cold.1 : 60 -> 64
+~ _ZN27IOInterruptQueueEventSource11setWorkLoopEP10IOWorkLoop.cold.2 : 60 -> 64
+~ _ZN27IOInterruptQueueEventSource4freeEv.cold.1 : 60 -> 64
+~ _ZN27IOInterruptQueueEventSource23normalInterruptOccurredEPvP9IOServicei.cold.1 : 60 -> 64
+~ _ZN27IOInterruptQueueEventSource23normalInterruptOccurredEPvP9IOServicei.cold.2 : 60 -> 64
+~ _ZN27IOInterruptQueueEventSource23normalInterruptOccurredEPvP9IOServicei.cold.3 : 60 -> 64
+~ _ZN27IOInterruptQueueEventSource22getNextInterruptRefConEv.cold.1 : 60 -> 64
+~ _ZN27IOInterruptQueueEventSource19_trackReturnCommandEv.cold.1 : 60 -> 64
+CStrings:
++ "20:40:04"
+- "21:40:17"
+```

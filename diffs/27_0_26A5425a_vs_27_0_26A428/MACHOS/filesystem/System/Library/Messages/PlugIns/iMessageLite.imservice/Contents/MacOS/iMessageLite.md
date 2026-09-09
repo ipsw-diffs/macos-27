@@ -1,0 +1,538 @@
+## iMessageLite
+
+> `/System/Library/Messages/PlugIns/iMessageLite.imservice/Contents/MacOS/iMessageLite`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-1491.100.1.1.9
+-  __TEXT.__text: 0x4e69c
++1491.100.1.1.11
++  __TEXT.__text: 0x4bc90
+   __TEXT.__auth_stubs: 0x15a0
+   __TEXT.__objc_stubs: 0x24c0
+   __TEXT.__objc_methlist: 0x3bc
+
+   __TEXT.__swift_as_cont: 0x1f4
+   __TEXT.__swift5_assocty: 0x130
+   __TEXT.__swift5_protos: 0xc
+-  __TEXT.__unwind_info: 0x11d0
++  __TEXT.__unwind_info: 0x1458
+   __TEXT.__eh_frame: 0x2de0
+   __DATA_CONST.__const: 0x2718
+   __DATA_CONST.__cfstring: 0x80
+Functions:
+~ +[IMMessageItem(LiteBlastDoor) messageItemWithLiteIdentifier:liteData:senderID:date:error:] : 980 -> 968
+~ +[IMMessageItem(LiteBlastDoor) messageItemWithLiteRelayIdentifier:liteRelayData:date:error:] : 920 -> 908
+~ +[IMMessageItem(LiteBlastDoor) _associatedMessageItemWithGUID:date:liteRelayTextMessage:] : 1072 -> 1060
+~ ___89+[IMMessageItem(LiteBlastDoor) _associatedMessageItemWithGUID:date:liteRelayTextMessage:]_block_invoke : 204 -> 192
+~ ___copy_helper_block_e8_32s40r48r : 88 -> 76
+~ ___destroy_helper_block_e8_32s40r48r : 76 -> 64
+~ +[IMMessageItem(LiteBlastDoor) _fallbackTextForIMAssociatedMessageItem:] : 400 -> 388
+~ +[IMMessageItem(LiteBlastDoor) _associatedMessageItemWithGUID:senderID:date:liteTextMessage:] : 888 -> 876
+~ ___93+[IMMessageItem(LiteBlastDoor) _associatedMessageItemWithGUID:senderID:date:liteTextMessage:]_block_invoke : 204 -> 192
+~ +[IMMessageItem(LiteBlastDoor) _messageGUIDForLiteIdentifier:] : 312 -> 300
+~ +[IMMessageItem(LiteBlastDoor) _expressiveSendStyleIDForBlastDoorLiteTextMessageEffect:] : 88 -> 64
+~ +[IMMessageItem(LiteBlastDoor) _threadIdentifierForThreadOriginatorUUID:] : 140 -> 128
+~ ___76+[IMMessageItem(LiteBlastDoor) _rangeOfSingleMessagePartForMessageWithGUID:]_block_invoke : 144 -> 132
+~ -[IDSOffGridEncryptionProperties(ForwardDeclare_111063256) __im_encryptionKeyID] : 116 -> 104
+~ -[IDSOffGridMessageContext(ForwardDeclare_145324295) __im_underlyingCommand] : 116 -> 104
+~ _$sSo7IMDChatC12iMessageLiteE17bestSendingHandleSSSgvg : 2456 -> 2436
+~ _$sSo7IMDChatC12iMessageLiteE40updateLastAddressedHandleWithMatchingSIM2toySS_tF : 824 -> 804
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSo7IMDChatC_Tt1g5 : 136 -> 132
+~ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_SayAFGTgq5 : 244 -> 240
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 116 -> 112
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5 : 244 -> 236
+~ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_So7IMDChatC_Tg505$sSo7E54C12iMessageLiteE17bestSendingHandleSSSgvgSbAB_ABtXEfU_Tf1nnncn_n : 936 -> 932
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tgq5 : 260 -> 252
+~ ___swift_destroy_boxed_opaque_existential_0 : 68 -> 48
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27donateHandlesForKeyExchangeyyF : 580 -> 560
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27donateHandlesForKeyExchangeyyFyyYacfU_ : 176 -> 164
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27donateHandlesForKeyExchangeyyFyyYacfU_TQ0_ : 292 -> 240
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27donateHandlesForKeyExchangeyyFyyYacfU_TY1_ : 124 -> 112
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27donateHandlesForKeyExchangeyyFyyYacfU_TA : 148 -> 136
+~ _$sSo25LiteMessageServiceSessionC01ibA0E28donateInitialHandlesIfNeeded031_B3EA8A69507B8D8B33AC42328BB751N0LLyyYaF : 280 -> 248
+~ _$sSo25LiteMessageServiceSessionC01ibA0E28donateInitialHandlesIfNeeded031_B3EA8A69507B8D8B33AC42328BB751N0LLyyYaFTY0_ : 1528 -> 1504
+~ _$sSo25LiteMessageServiceSessionC01ibA0E28donateInitialHandlesIfNeeded031_B3EA8A69507B8D8B33AC42328BB751N0LLyyYaFTQ1_ : 300 -> 248
+~ _$sSo25LiteMessageServiceSessionC01ibA0E28donateInitialHandlesIfNeeded031_B3EA8A69507B8D8B33AC42328BB751N0LLyyYaFTY2_ : 804 -> 792
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15donateHandleMap031_B3EA8A69507B8D8B33AC42328BB751L0LL_8priority9isInitialySDySSSaySo6IDSURICGG_So020IMIDSOffGridDeliveryF8PriorityVSbtYaF : 276 -> 244
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15donateHandleMap031_B3EA8A69507B8D8B33AC42328BB751L0LL_8priority9isInitialySDySSSaySo6IDSURICGG_So020IMIDSOffGridDeliveryF8PriorityVSbtYaFTY0_ : 1256 -> 1228
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15donateHandleMap031_B3EA8A69507B8D8B33AC42328BB751L0LL_8priority9isInitialySDySSSaySo6IDSURICGG_So020IMIDSOffGridDeliveryF8PriorityVSbtYaFTQ1_ : 264 -> 212
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15donateHandleMap031_B3EA8A69507B8D8B33AC42328BB751L0LL_8priority9isInitialySDySSSaySo6IDSURICGG_So020IMIDSOffGridDeliveryF8PriorityVSbtYaFTY2_ : 132 -> 120
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15donateHandleMap031_B3EA8A69507B8D8B33AC42328BB751L0LL_8priority9isInitialySDySSSaySo6IDSURICGG_So020IMIDSOffGridDeliveryF8PriorityVSbtYaFTQ3_ : 264 -> 212
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15donateHandleMap031_B3EA8A69507B8D8B33AC42328BB751L0LL_8priority9isInitialySDySSSaySo6IDSURICGG_So020IMIDSOffGridDeliveryF8PriorityVSbtYaFTY4_ : 1604 -> 1576
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15donateHandleMap031_B3EA8A69507B8D8B33AC42328BB751L0LL_8priority9isInitialySDySSSaySo6IDSURICGG_So020IMIDSOffGridDeliveryF8PriorityVSbtYaFTY5_ : 1652 -> 1624
+~ _$sSo25LiteMessageServiceSessionC01ibA0E31mapLastAddressedHandleToHandles031_B3EA8A69507B8D8B33AC42328BB751O0LL5usingSDySSSaySo6IDSURICGGSaySSG_tF : 1348 -> 1328
+~ _$sSo25LiteMessageServiceSessionC01ibA0E19donateFamilyHandles031_B3EA8A69507B8D8B33AC42328BB751L0LLyySaySSGYaF : 244 -> 212
+~ _$sSo25LiteMessageServiceSessionC01ibA0E19donateFamilyHandles031_B3EA8A69507B8D8B33AC42328BB751L0LLyySaySSGYaFTY0_ : 408 -> 396
+~ _$sSo25LiteMessageServiceSessionC01ibA0E19donateFamilyHandles031_B3EA8A69507B8D8B33AC42328BB751L0LLyySaySSGYaFTQ1_ : 300 -> 248
+~ _$sSo25LiteMessageServiceSessionC01ibA0E19donateFamilyHandles031_B3EA8A69507B8D8B33AC42328BB751L0LLyySaySSGYaFTY2_ : 104 -> 92
+~ _$sSbSo7NSErrorCSgIeyBhyy_SbTz_ : 208 -> 184
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15inviteHandleMap031_B3EA8A69507B8D8B33AC42328BB751L0LLyySDySSSaySo6IDSURICGGYaFSbSScfU0_ : 1276 -> 1256
+~ _$sSo5NSSetCIeyBhy_ShySSGTz_ : 120 -> 108
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15familyDidChangeyyF : 924 -> 884
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15familyDidChangeyyFyyYacfU_ : 152 -> 140
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15familyDidChangeyyFyyYacfU_TY0_ : 304 -> 292
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15familyDidChangeyyFyyYacfU_TQ1_ : 240 -> 188
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15familyDidChangeyyFyyYacfU_TY2_ : 164 -> 152
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15familyDidChangeyyFyyYacfU_TQ3_ : 300 -> 248
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15familyDidChangeyyFyyYacfU_TY4_ : 96 -> 84
+~ _$sSo7NSArrayCIeyBhy_SaySSGTz_ : 112 -> 100
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15familyDidChangeyyFTo : 60 -> 48
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5 : 248 -> 196
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TQ0_ : 224 -> 172
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA : 184 -> 172
+~ ___swift_closure_destructorTm : 64 -> 52
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15familyDidChangeyyFyyYacfU_TA : 148 -> 136
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15familyDidChangeyyFyyYacfU_TATQ0_ : 220 -> 168
+~ __swift_closure_destructor.11 : 56 -> 44
+~ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.13 : 184 -> 172
+~ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5 : 120 -> 108
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_SaySo6IDSURICGTg5 : 672 -> 652
+~ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_SaySo6IDSURICGTg5 : 380 -> 356
+~ _$ss17_NativeDictionaryV4copyyyFSS_SaySo6IDSURICGTg5 : 364 -> 360
+~ _$ss10_NativeSetV_8capacityAByxGs07__CocoaB0Vn_SitcfCSo6IDSURIC_Tt1g5 : 512 -> 504
+~ _$ss10_NativeSetV6resize8capacityySi_tFSS_Tg5 : 612 -> 592
+~ _$ss10_NativeSetV6resize8capacityySi_tFSo6IDSURIC_Tg5 : 556 -> 536
+~ _$ss10_NativeSetV13copyAndResize8capacityySi_tFSS_Tg5 : 552 -> 532
+~ _$ss10_NativeSetV13copyAndResize8capacityySi_tFSo6IDSURIC_Tg5 : 516 -> 496
+~ _$ss10_NativeSetV4copyyyFSS_Tg5 : 344 -> 336
+~ _$ss10_NativeSetV4copyyyFSo6IDSURIC_Tg5 : 336 -> 328
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 268 -> 260
+~ _$sSo25LiteMessageServiceSessionC01ibA0E34lastAddressedHandleToRecentHandles031_B3EA8A69507B8D8B33AC42328BB751O0LLSDySSSaySo6IDSURICGGyFTf4d_n : 2072 -> 2032
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15inviteHandleMap031_B3EA8A69507B8D8B33AC42328BB751L0LLyySDySSSaySo6IDSURICGGYaFTf4nd_n : 256 -> 224
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15inviteHandleMap031_B3EA8A69507B8D8B33AC42328BB751L0LLyySDySSSaySo6IDSURICGGYaFTf4nd_nTY0_ : 1672 -> 1644
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15inviteHandleMap031_B3EA8A69507B8D8B33AC42328BB751L0LLyySDySSSaySo6IDSURICGGYaFTf4nd_nTQ1_ : 240 -> 188
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15inviteHandleMap031_B3EA8A69507B8D8B33AC42328BB751L0LLyySDySSSaySo6IDSURICGGYaFTf4nd_nTY2_ : 1984 -> 1956
+~ ___swift_project_boxed_opaque_existential_0 : 68 -> 48
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_08incomingB07context31clientErrorAcknowledgementBlockySo19IDSOffGridMessengerC_So0lm9EncryptedB0CSo0lmB7ContextCys0I0_pSgctFyyYaYbcfU_ : 312 -> 280
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_08incomingB07context31clientErrorAcknowledgementBlockySo19IDSOffGridMessengerC_So0lm9EncryptedB0CSo0lmB7ContextCys0I0_pSgctFyyYaYbcfU_TQ0_ : 328 -> 276
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_08incomingB07context31clientErrorAcknowledgementBlockySo19IDSOffGridMessengerC_So0lm9EncryptedB0CSo0lmB7ContextCys0I0_pSgctFyyYaYbcfU_TY1_ : 532 -> 520
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_08incomingB07context31clientErrorAcknowledgementBlockySo19IDSOffGridMessengerC_So0lm9EncryptedB0CSo0lmB7ContextCys0I0_pSgctFyyYaYbcfU_TY2_ : 696 -> 684
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_08incomingB07context31clientErrorAcknowledgementBlockySo19IDSOffGridMessengerC_So0lm9EncryptedB0CSo0lmB7ContextCys0I0_pSgctFTo : 236 -> 224
+~ _$sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TR : 92 -> 80
+~ _$ss5Error_pSgIegg_So7NSErrorCSgIeyBy_TR : 104 -> 92
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_015incomingSummaryB07context26clientAcknowledgementBlockySo19IDSOffGridMessengerC_So0lmgB0CSo0lmB7ContextCyyctF : 596 -> 576
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_015incomingSummaryB07context26clientAcknowledgementBlockySo19IDSOffGridMessengerC_So0lmgB0CSo0lmB7ContextCyyctFyyYaScMYccfU_ : 244 -> 212
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_015incomingSummaryB07context26clientAcknowledgementBlockySo19IDSOffGridMessengerC_So0lmgB0CSo0lmB7ContextCyyctFyyYaScMYccfU_TY0_ : 1740 -> 1724
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_44receivedIncomingDeliveryReceiptForIdentifier4from7contextySo19IDSOffGridMessengerC_SSSo6IDSURICSo0noB7ContextCtFyyYaScMYccfU_ : 248 -> 216
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_44receivedIncomingDeliveryReceiptForIdentifier4from7contextySo19IDSOffGridMessengerC_SSSo6IDSURICSo0noB7ContextCtFyyYaScMYccfU_TY0_ : 300 -> 288
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_44receivedIncomingDeliveryReceiptForIdentifier4from7contextySo19IDSOffGridMessengerC_SSSo6IDSURICSo0noB7ContextCtFTo : 204 -> 192
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_08incomingc6UpdateB07context26clientAcknowledgementBlockySo19IDSOffGridMessengerC_So0lmcgB0CSo0lmB7ContextCyyctFyyYaScMYccfU_ : 224 -> 212
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_08incomingc6UpdateB07context26clientAcknowledgementBlockySo19IDSOffGridMessengerC_So0lmcgB0CSo0lmB7ContextCyyctFyyYaScMYccfU_TY0_ : 324 -> 312
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_08incomingc6UpdateB07context26clientAcknowledgementBlockySo19IDSOffGridMessengerC_So0lmcgB0CSo0lmB7ContextCyyctFTo : 232 -> 220
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_08incomingB07context31clientErrorAcknowledgementBlockySo19IDSOffGridMessengerC_So0lm9EncryptedB0CSo0lmB7ContextCys0I0_pSgctFTf4dnnnn_n : 1572 -> 1532
+~ ___swift_closure_destructor : 56 -> 44
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_015incomingSummaryB07context26clientAcknowledgementBlockySo19IDSOffGridMessengerC_So0lmgB0CSo0lmB7ContextCyyctFyyYaScMYccfU_TA : 152 -> 140
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_44receivedIncomingDeliveryReceiptForIdentifier4from7contextySo19IDSOffGridMessengerC_SSSo6IDSURICSo0noB7ContextCtFTf4dnnnn_n : 1240 -> 1200
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_08incomingc6UpdateB07context26clientAcknowledgementBlockySo19IDSOffGridMessengerC_So0lmcgB0CSo0lmB7ContextCyyctFTf4dndnn_n : 1192 -> 1152
+~ __swift_closure_destructor.10 : 56 -> 44
+~ __swift_closure_destructor.2Tm : 72 -> 60
+~ $sSo25LiteMessageServiceSessionC01ibA0E9messenger_015incomingSummaryB07context26clientAcknowledgementBlockySo19IDSOffGridMessengerC_So0lmgB0CSo0lmB7ContextCyyctFyyYaScMYccfU_TA.15 : 152 -> 140
+~ __swift_closure_destructor.32 : 88 -> 76
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_08incomingc6UpdateB07context26clientAcknowledgementBlockySo19IDSOffGridMessengerC_So0lmcgB0CSo0lmB7ContextCyyctFyyYaScMYccfU_TA : 196 -> 184
+~ __swift_closure_destructor.41 : 80 -> 68
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_44receivedIncomingDeliveryReceiptForIdentifier4from7contextySo19IDSOffGridMessengerC_SSSo6IDSURICSo0noB7ContextCtFyyYaScMYccfU_TA : 172 -> 160
+~ ___swift_project_value_buffer : 56 -> 36
+~ __swift_closure_destructor.61 : 80 -> 68
+~ _$sSo25LiteMessageServiceSessionC01ibA0E9messenger_08incomingB07context31clientErrorAcknowledgementBlockySo19IDSOffGridMessengerC_So0lm9EncryptedB0CSo0lmB7ContextCys0I0_pSgctFyyYaYbcfU_TA : 188 -> 176
+~ ___swift_allocate_value_buffer : 100 -> 80
+~ _$sSo25LiteMessageServiceSessionC01ibA0E17PendingSMSMessageV2eeoiySbAE_AEtFZ : 160 -> 148
+~ _$sSo25LiteMessageServiceSessionC01ibA0E17PendingSMSMessageV4hash4intoys6HasherVz_tF : 80 -> 68
+~ _$sSo25LiteMessageServiceSessionC01ibA0E17PendingSMSMessageVSHACSH4hash4intoys6HasherVz_tFTW : 80 -> 68
+~ _$sSo25LiteMessageServiceSessionC01ibA0E17PendingSMSMessageVSQACSQ2eeoiySbx_xtFZTW : 156 -> 144
+~ _$sSo25LiteMessageServiceSessionC01ibA0E18pendingSMSMessagesShyAbCE17PendingSMSMessageVGvpABTk : 80 -> 68
+~ $sSo25LiteMessageServiceSessionC01ibA0E18pendingSMSMessagesShyAbCE17PendingSMSMessageVGvM.resume.0 : 92 -> 80
+~ _$sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB0_6toChat5styleySo13IMMessageItemC_SSSo11IMChatStyleVtF : 964 -> 924
+~ _$sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB033_4B2298B3AA0C6AF99CEFB0F94E835066LL_6toChat5style7commandySo13IMMessageItemC_SSSo11IMChatStyleVSo12IDSCommandIDVtF : 964 -> 924
+~ _$sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB033_4B2298B3AA0C6AF99CEFB0F94E835066LL_6toChat5style7commandySo13IMMessageItemC_SSSo11IMChatStyleVSo12IDSCommandIDVtFyyYaYbcfU_ : 372 -> 340
+~ _$sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB033_4B2298B3AA0C6AF99CEFB0F94E835066LL_6toChat5style7commandySo13IMMessageItemC_SSSo11IMChatStyleVSo12IDSCommandIDVtFyyYaYbcfU_TQ0_ : 332 -> 280
+~ _$sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB033_4B2298B3AA0C6AF99CEFB0F94E835066LL_6toChat5style7commandySo13IMMessageItemC_SSSo11IMChatStyleVSo12IDSCommandIDVtFyyYaYbcfU_TY1_ : 1296 -> 1284
+~ _$sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB033_4B2298B3AA0C6AF99CEFB0F94E835066LL_6toChat5style7commandySo13IMMessageItemC_SSSo11IMChatStyleVSo12IDSCommandIDVtFyyYaYbcfU_TY2_ : 1592 -> 1580
+~ _$sSo25LiteMessageServiceSessionC01ibA0E13overwriteGUID33_4B2298B3AA0C6AF99CEFB0F94E835066LL3for7oldGuid03newQ00O4Chat5styleySo13IMMessageItemC_SSSgAMSSSo11IMChatStyleVtF : 1104 -> 1072
+~ _$sSo25LiteMessageServiceSessionC01ibA0E04sendB0_6toChat5styleySo13IMMessageItemC_SSSo11IMChatStyleVtF : 964 -> 924
+~ _$sSo25LiteMessageServiceSessionC01ibA0E04sendB0_6toChat5styleySo13IMMessageItemC_SSSo11IMChatStyleVtFyyYaYbcfU_ : 264 -> 232
+~ _$sSo25LiteMessageServiceSessionC01ibA0E04sendB0_6toChat5styleySo13IMMessageItemC_SSSo11IMChatStyleVtFyyYaYbcfU_TY0_ : 1700 -> 1676
+~ _$sSo25LiteMessageServiceSessionC01ibA0E04sendB0_6toChat5styleySo13IMMessageItemC_SSSo11IMChatStyleVtFyyYaYbcfU_TQ1_ : 300 -> 248
+~ _$sSo25LiteMessageServiceSessionC01ibA0E04sendB0_6toChat5styleySo13IMMessageItemC_SSSo11IMChatStyleVtFyyYaYbcfU_TY2_ : 1048 -> 1036
+~ _$sSo25LiteMessageServiceSessionC01ibA0E04sendB0_6toChat5styleySo13IMMessageItemC_SSSo11IMChatStyleVtFyyYaYbcfU_TY3_ : 1384 -> 1372
+~ _$sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB0_6toChat5styleySo13IMMessageItemC_SSSo11IMChatStyleVtFToTm : 164 -> 152
+~ _$sSo25LiteMessageServiceSessionC01ibA0E8joinChat_10handleInfo5style7groupID0E10PropertiesySS_SayypGSo11IMChatStyleVSSSgSDys11AnyHashableVypGSgtF : 256 -> 244
+~ _$sSo25LiteMessageServiceSessionC01ibA0E8joinChat_10handleInfo5style7groupID0E10PropertiesySS_SayypGSo11IMChatStyleVSSSgSDys11AnyHashableVypGSgtFTo : 288 -> 276
+~ _$sSo25LiteMessageServiceSessionC01ibA0E8joinChat_10handleInfo5style7groupID19lastAddressedHandle0lM5SIMID0E10PropertiesySS_SayypGSo11IMChatStyleVSSSgA2NSDys11AnyHashableVypGSgtFTo : 436 -> 424
+~ _$sSo25LiteMessageServiceSessionC01ibA0E22sessionDidBecomeActiveyyFTo : 60 -> 48
+~ _$sSo25LiteMessageServiceSessionC01ibA0E33republishOffGridStatusIfNecessaryyyF : 2944 -> 2884
+~ _$sSo25LiteMessageServiceSessionC01ibA0E33republishOffGridStatusIfNecessaryyyFyyYacfU_ : 256 -> 224
+~ _$sSo25LiteMessageServiceSessionC01ibA0E33republishOffGridStatusIfNecessaryyyFyyYacfU_TY0_ : 316 -> 304
+~ _$sSo25LiteMessageServiceSessionC01ibA0E33republishOffGridStatusIfNecessaryyyFyyYacfU_TQ1_ : 288 -> 236
+~ _$sSo25LiteMessageServiceSessionC01ibA0E33republishOffGridStatusIfNecessaryyyFyyYacfU_TY2_ : 360 -> 348
+~ _$sSo25LiteMessageServiceSessionC01ibA0E33republishOffGridStatusIfNecessaryyyFyyYacfU_TY3_ : 548 -> 536
+~ _$sSo14IDSOffGridModeVSo0abC13PublishStatusVSo7NSErrorCSgIeyBhyyy_AB_ADtTz_ : 212 -> 188
+~ _$sSo25LiteMessageServiceSessionC01ibA0E33republishOffGridStatusIfNecessaryyyFTo : 60 -> 48
+~ _$sSo25LiteMessageServiceSessionC01ibA0E13deleteAllDatayyYaF : 256 -> 224
+~ _$sSo25LiteMessageServiceSessionC01ibA0E13deleteAllDatayyYaFTY0_ : 388 -> 376
+~ _$sSo25LiteMessageServiceSessionC01ibA0E13deleteAllDatayyYaFTY1_ : 144 -> 132
+~ _$sSo25LiteMessageServiceSessionC01ibA0E13deleteAllDatayyYaFTY2_ : 112 -> 100
+~ _$sSo25LiteMessageServiceSessionC01ibA0E13deleteAllDatayyYaFTY3_ : 512 -> 500
+~ _$sSo25LiteMessageServiceSessionC01ibA0E13deleteAllDatayyYaFyyYacfU_To : 152 -> 140
+~ _$sSo25LiteMessageServiceSessionC01ibA0E13deleteAllDatayyYaFyyYacfU_ToTY0_ : 164 -> 152
+~ _$sSo25LiteMessageServiceSessionC01ibA0E13deleteAllDatayyYaFyyYacfU_ToTQ1_ : 284 -> 232
+~ _$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_yps11AnyHashableVypTg5 : 684 -> 676
+~ _$sSo25LiteMessageServiceSessionC01ibA0E020relayLegacySatelliteB0_6toChat14localWatchOnlyySo13IMMessageItemC_SSSbtFTo : 136 -> 124
+~ _$sSo25LiteMessageServiceSessionC01ibA0E7handler_017outgoingPlainTextB012toIdentifier04fromJ00K5Token11messageGUID9timeStamp15isBeingReplayed14storageContextySo19IMDRelayPushHandlerCSg_SDys11AnyHashableVypGSSSgAS10Foundation4DataVSgSSSo8NSNumberCSgSbAYtFySo13IMMessageItemCSgYbcfU_ : 824 -> 784
+~ _$sSo13IMMessageItemCSgIeghg_ACIeyBhy_TR : 104 -> 92
+~ _$sSo25LiteMessageServiceSessionC01ibA0E7handler_017outgoingPlainTextB012toIdentifier04fromJ00K5Token11messageGUID9timeStamp15isBeingReplayed14storageContextySo19IMDRelayPushHandlerCSg_SDys11AnyHashableVypGSSSgAS10Foundation4DataVSgSSSo8NSNumberCSgSbAYtFTo : 460 -> 448
+~ _$sSo25LiteMessageServiceSessionC01ibA0E13unifiedMetric011forOutgoingB02in13transportTypeSo09IMUnifiedbF0CSgSo13IMMessageItemCSg_So7IMDChatCSgSo0lbf9TransportK0VtFTo : 156 -> 144
+~ _$sSo25LiteMessageServiceSessionCfETo : 100 -> 88
+~ _$sSo25LiteMessageServiceSessionC01ibA0E29handleDaemonFinishedLaunching12notificationy10Foundation12NotificationV_tFTo : 236 -> 216
+~ _$sIeghH_IeAgH_TR : 232 -> 180
+~ _$sIeAgH_ytIeAgHr_TR : 232 -> 180
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5 : 248 -> 196
+~ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5 : 68 -> 56
+~ _$sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB033_4B2298B3AA0C6AF99CEFB0F94E835066LL_6toChat5style7commandySo13IMMessageItemC_SSSo11IMChatStyleVSo12IDSCommandIDVtFyyYaYbcfU_TA : 196 -> 184
+~ __swift_closure_destructor.4 : 72 -> 60
+~ _$sSo25LiteMessageServiceSessionC01ibA0E04sendB0_6toChat5styleySo13IMMessageItemC_SSSo11IMChatStyleVtFyyYaYbcfU_TA : 192 -> 180
+~ _$sSo25LiteMessageServiceSessionC01ibA0E8joinChat_10handleInfo5style7groupID19lastAddressedHandle0lM5SIMID0E10PropertiesySS_SayypGSo11IMChatStyleVSSSgA2NSDys11AnyHashableVypGSgtFTf4nnnnnndn_n : 768 -> 748
+~ __swift_closure_destructor.8 : 64 -> 52
+~ _$sSo25LiteMessageServiceSessionC01ibA0E33republishOffGridStatusIfNecessaryyyFyyYacfU_TA : 148 -> 136
+~ __swift_closure_destructor.12 : 56 -> 44
+~ _$sSo25LiteMessageServiceSessionC01ibA0E020relayLegacySatelliteB0_6toChat14localWatchOnlyySo13IMMessageItemC_SSSbtFTf4nndn_n : 1640 -> 1620
+~ _$sSo25LiteMessageServiceSessionC01ibA0E7handler_017outgoingPlainTextB012toIdentifier04fromJ00K5Token11messageGUID9timeStamp15isBeingReplayed14storageContextySo19IMDRelayPushHandlerCSg_SDys11AnyHashableVypGSSSgAS10Foundation4DataVSgSSSo8NSNumberCSgSbAYtFTf4dndndnddnn_n : 6212 -> 6188
+~ _$sSo25LiteMessageServiceSessionC01ibA0E13unifiedMetric011forOutgoingB02in13transportTypeSo09IMUnifiedbF0CSgSo13IMMessageItemCSg_So7IMDChatCSgSo0lbf9TransportK0VtFTf4nndn_n : 860 -> 840
+~ _$sSo25LiteMessageServiceSessionC01ibA0E5StateVwet : 72 -> 68
+~ _$sSo25LiteMessageServiceSessionC01ibA0E17PendingSMSMessageVwet : 72 -> 68
+~ _$s10Foundation4DataV15_RepresentationOWOe : 84 -> 72
+~ __swift_closure_destructor.22 : 64 -> 52
+~ _$sSo25LiteMessageServiceSessionC01ibA0E13deleteAllDatayyYaFyyYacfU_ToTA : 172 -> 160
+~ _$sIeghH_IeAgH_TRTA : 192 -> 180
+~ __swift_closure_destructor.26Tm : 64 -> 52
+~ _$sIeAgH_ytIeAgHr_TRTA : 204 -> 192
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA : 184 -> 172
+~ __swift_closure_destructor.47 : 72 -> 60
+~ ___swift_closure_destructorTm : 72 -> 60
+~ _$s2os6LoggerV12iMessageLiteE11liteSessionACvauTm : 84 -> 72
+~ _$s2os6LoggerV12iMessageLiteE11liteSessionACvgZTm : 144 -> 132
+~ _$sSo25LiteMessageServiceSessionC01ibA0E022encryptAndSendSMSRelayB4Item_14chatIdentifier0J5Style7commandSo09IMMessageI0CAI_SSSo06IMChatL0VSo12IDSCommandIDVtYaKF : 148 -> 136
+~ _$sSo25LiteMessageServiceSessionC01ibA0E022encryptAndSendSMSRelayB4Item_14chatIdentifier0J5Style7commandSo09IMMessageI0CAI_SSSo06IMChatL0VSo12IDSCommandIDVtYaKFTY0_ : 164 -> 152
+~ _$sSo25LiteMessageServiceSessionC01ibA0E015didReceiveRelayB15DeliveryReceipt9messageID4dateySS_10Foundation4DateVtF : 1208 -> 1176
+~ _$s12iMessageLite13lastFetchDate33_3BE458A36789957A9C1D9F4344F9A070LL_WZ : 152 -> 140
+~ _$sSo25LiteMessageServiceSessionC01ibA0E28fetchIncomingPendingMessages14fromHandlesIDsySaySSG_tF : 1220 -> 1180
+~ _$sSo25LiteMessageServiceSessionC01ibA0E28fetchIncomingPendingMessages14fromHandlesIDsySaySSG_tFyyYacfU_ : 520 -> 468
+~ _$sSo25LiteMessageServiceSessionC01ibA0E28fetchIncomingPendingMessages14fromHandlesIDsySaySSG_tFyyYacfU_TY0_ : 4008 -> 3976
+~ _$sSo25LiteMessageServiceSessionC01ibA0E28fetchIncomingPendingMessages14fromHandlesIDsySaySSG_tFyyYacfU_TQ1_ : 288 -> 236
+~ _$sSo25LiteMessageServiceSessionC01ibA0E28fetchIncomingPendingMessages14fromHandlesIDsySaySSG_tFyyYacfU_TY2_ : 296 -> 284
+~ _$sSo25LiteMessageServiceSessionC01ibA0E28fetchIncomingPendingMessages14fromHandlesIDsySaySSG_tFyyYacfU_TY3_ : 688 -> 676
+~ _$sSo5NSSetCSgSo7NSErrorCSgIeyBhyy_ShySo6IDSURICGTz_ : 256 -> 232
+~ _$sSo25LiteMessageServiceSessionC01ibA0E28fetchIncomingPendingMessages14fromHandlesIDsySaySSG_tFTo : 108 -> 96
+~ ___swift_closure_destructor : 72 -> 60
+~ _$sSo25LiteMessageServiceSessionC01ibA0E28fetchIncomingPendingMessages14fromHandlesIDsySaySSG_tFyyYacfU_TA : 152 -> 140
+~ __swift_closure_destructor.3 : 56 -> 44
+~ ___swift_allocate_boxed_opaque_existential_0 : 100 -> 80
+~ _$sSo25LiteMessageServiceSessionC01ibA0E30satelliteContinuitySendOptions3for14chatIdentifierSDySSypGSo13IMMessageItemC_SStKF : 3788 -> 3748
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_ypTg5 : 700 -> 680
+~ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_ypTg5 : 328 -> 304
+~ _$ss17_NativeDictionaryV4copyyyFSS_ypTg5 : 392 -> 384
+~ _$s10Foundation4DataV15_RepresentationOWOy : 84 -> 72
+~ _$sSo10IMDServiceC12iMessageLiteE15idsServiceNamesSaySSGvg : 316 -> 320
+~ _$sSo25LiteMessageServiceSessionC01ibA0E6logger3for2os6LoggerVAC0A5TopicO_tF : 124 -> 112
+~ _$sSo25LiteMessageServiceSessionC01ibA0E024processReceivedEncryptedB0_7contextySo010IDSOffGridgB0C_So0ijB7ContextCtYaKF : 260 -> 228
+~ _$sSo25LiteMessageServiceSessionC01ibA0E024processReceivedEncryptedB0_7contextySo010IDSOffGridgB0C_So0ijB7ContextCtYaKFTY0_ : 768 -> 744
+~ _$sSo25LiteMessageServiceSessionC01ibA0E024processReceivedEncryptedB0_7contextySo010IDSOffGridgB0C_So0ijB7ContextCtYaKFTQ1_ : 328 -> 276
+~ _$sSo25LiteMessageServiceSessionC01ibA0E024processReceivedEncryptedB0_7contextySo010IDSOffGridgB0C_So0ijB7ContextCtYaKFTY2_ : 120 -> 108
+~ _$sSo25LiteMessageServiceSessionC01ibA0E024processReceivedEncryptedB0_7contextySo010IDSOffGridgB0C_So0ijB7ContextCtYaKFTQ3_ : 300 -> 248
+~ _$sSo25LiteMessageServiceSessionC01ibA0E024processReceivedEncryptedB0_7contextySo010IDSOffGridgB0C_So0ijB7ContextCtYaKFTY5_ : 128 -> 116
+~ _$sSo25LiteMessageServiceSessionC01ibA0E024processReceivedEncryptedB0_7contextySo010IDSOffGridgB0C_So0ijB7ContextCtYaKFTY6_ : 128 -> 116
+~ _$sSo25LiteMessageServiceSessionC01ibA0E015decryptAndStoreB033_F345E339AC116372E686CB3AE565E62FLL_10identifier7contextySo019IDSOffGridEncryptedB0C_SSSo0qrB7ContextCtYaKF : 352 -> 320
+~ _$sSo25LiteMessageServiceSessionC01ibA0E015decryptAndStoreB033_F345E339AC116372E686CB3AE565E62FLL_10identifier7contextySo019IDSOffGridEncryptedB0C_SSSo0qrB7ContextCtYaKFTY0_ : 304 -> 292
+~ _$sSo25LiteMessageServiceSessionC01ibA0E015decryptAndStoreB033_F345E339AC116372E686CB3AE565E62FLL_10identifier7contextySo019IDSOffGridEncryptedB0C_SSSo0qrB7ContextCtYaKFTQ1_ : 288 -> 236
+~ _$sSo25LiteMessageServiceSessionC01ibA0E015decryptAndStoreB033_F345E339AC116372E686CB3AE565E62FLL_10identifier7contextySo019IDSOffGridEncryptedB0C_SSSo0qrB7ContextCtYaKFTY2_ : 1860 -> 1824
+~ _$sSo25LiteMessageServiceSessionC01ibA0E015decryptAndStoreB033_F345E339AC116372E686CB3AE565E62FLL_10identifier7contextySo019IDSOffGridEncryptedB0C_SSSo0qrB7ContextCtYaKFTQ3_ : 368 -> 316
+~ _$sSo25LiteMessageServiceSessionC01ibA0E015decryptAndStoreB033_F345E339AC116372E686CB3AE565E62FLL_10identifier7contextySo019IDSOffGridEncryptedB0C_SSSo0qrB7ContextCtYaKFTY4_ : 400 -> 388
+~ _$sSo25LiteMessageServiceSessionC01ibA0E015decryptAndStoreB033_F345E339AC116372E686CB3AE565E62FLL_10identifier7contextySo019IDSOffGridEncryptedB0C_SSSo0qrB7ContextCtYaKFTQ5_ : 368 -> 316
+~ _$sSo25LiteMessageServiceSessionC01ibA0E015decryptAndStoreB033_F345E339AC116372E686CB3AE565E62FLL_10identifier7contextySo019IDSOffGridEncryptedB0C_SSSo0qrB7ContextCtYaKFTY6_ : 400 -> 388
+~ _$sSo25LiteMessageServiceSessionC01ibA0E015decryptAndStoreB033_F345E339AC116372E686CB3AE565E62FLL_10identifier7contextySo019IDSOffGridEncryptedB0C_SSSo0qrB7ContextCtYaKFTY7_ : 168 -> 156
+~ _$sSo25LiteMessageServiceSessionC01ibA0E015decryptAndStoreB033_F345E339AC116372E686CB3AE565E62FLL_10identifier7contextySo019IDSOffGridEncryptedB0C_SSSo0qrB7ContextCtYaKFTY8_ : 168 -> 156
+~ _$sSo25LiteMessageServiceSessionC01ibA0E015decryptAndStoreB033_F345E339AC116372E686CB3AE565E62FLL_10identifier7contextySo019IDSOffGridEncryptedB0C_SSSo0qrB7ContextCtYaKFTY9_ : 168 -> 156
+~ _$sSo25LiteMessageServiceSessionC01ibA0E024processReceivedEncryptedB7Segment33_F345E339AC116372E686CB3AE565E62FLL_7contextySo010IDSOffGridgB0C_So0qrB7ContextCtYaKF : 260 -> 228
+~ _$sSo25LiteMessageServiceSessionC01ibA0E024processReceivedEncryptedB7Segment33_F345E339AC116372E686CB3AE565E62FLL_7contextySo010IDSOffGridgB0C_So0qrB7ContextCtYaKFTY0_ : 108 -> 96
+~ _$sSo25LiteMessageServiceSessionC01ibA0E024processReceivedEncryptedB7Segment33_F345E339AC116372E686CB3AE565E62FLL_7contextySo010IDSOffGridgB0C_So0qrB7ContextCtYaKFTY1_ : 148 -> 136
+~ _$sSo25LiteMessageServiceSessionC01ibA0E024processReceivedEncryptedB7Segment33_F345E339AC116372E686CB3AE565E62FLL_7contextySo010IDSOffGridgB0C_So0qrB7ContextCtYaKFTY2_ : 220 -> 196
+~ _$sSo25LiteMessageServiceSessionC01ibA0E024processReceivedEncryptedB7Segment33_F345E339AC116372E686CB3AE565E62FLL_7contextySo010IDSOffGridgB0C_So0qrB7ContextCtYaKFTY3_ : 164 -> 152
+~ _$sSo25LiteMessageServiceSessionC01ibA0E024processReceivedEncryptedB7Segment33_F345E339AC116372E686CB3AE565E62FLL_7contextySo010IDSOffGridgB0C_So0qrB7ContextCtYaKFTY4_ : 1032 -> 1008
+~ _$sSo25LiteMessageServiceSessionC01ibA0E024processReceivedEncryptedB7Segment33_F345E339AC116372E686CB3AE565E62FLL_7contextySo010IDSOffGridgB0C_So0qrB7ContextCtYaKFTQ5_ : 328 -> 276
+~ _$sSo25LiteMessageServiceSessionC01ibA0E024processReceivedEncryptedB7Segment33_F345E339AC116372E686CB3AE565E62FLL_7contextySo010IDSOffGridgB0C_So0qrB7ContextCtYaKFTY6_ : 116 -> 104
+~ _$sSo25LiteMessageServiceSessionC01ibA0E024processReceivedEncryptedB7Segment33_F345E339AC116372E686CB3AE565E62FLL_7contextySo010IDSOffGridgB0C_So0qrB7ContextCtYaKFTY7_ : 116 -> 104
+~ _$sSo25LiteMessageServiceSessionC01ibA0E024processReceivedEncryptedB7Segment33_F345E339AC116372E686CB3AE565E62FLL_7contextySo010IDSOffGridgB0C_So0qrB7ContextCtYaKFTY8_ : 116 -> 104
+~ _$sSo25LiteMessageServiceSessionC01ibA0E024processReceivedEncryptedB7Segment33_F345E339AC116372E686CB3AE565E62FLL_7contextySo010IDSOffGridgB0C_So0qrB7ContextCtYaKFTY9_ : 116 -> 104
+~ _$sSo25LiteMessageServiceSessionC01ibA0E011consolidateB27WithConsolidationIdentifier33_F345E339AC116372E686CB3AE565E62FLL_7contextySS_So010IDSOffGridB7ContextCtYaKF : 272 -> 240
+~ _$sSo25LiteMessageServiceSessionC01ibA0E011consolidateB27WithConsolidationIdentifier33_F345E339AC116372E686CB3AE565E62FLL_7contextySS_So010IDSOffGridB7ContextCtYaKFTY0_ : 108 -> 96
+~ _$sSo25LiteMessageServiceSessionC01ibA0E011consolidateB27WithConsolidationIdentifier33_F345E339AC116372E686CB3AE565E62FLL_7contextySS_So010IDSOffGridB7ContextCtYaKFTY1_ : 148 -> 136
+~ _$sSo25LiteMessageServiceSessionC01ibA0E011consolidateB27WithConsolidationIdentifier33_F345E339AC116372E686CB3AE565E62FLL_7contextySS_So010IDSOffGridB7ContextCtYaKFTY2_ : 1020 -> 996
+~ _$sSo25LiteMessageServiceSessionC01ibA0E011consolidateB27WithConsolidationIdentifier33_F345E339AC116372E686CB3AE565E62FLL_7contextySS_So010IDSOffGridB7ContextCtYaKFTQ3_ : 328 -> 276
+~ _$sSo25LiteMessageServiceSessionC01ibA0E011consolidateB27WithConsolidationIdentifier33_F345E339AC116372E686CB3AE565E62FLL_7contextySS_So010IDSOffGridB7ContextCtYaKFTY4_ : 340 -> 328
+~ _$sSo25LiteMessageServiceSessionC01ibA0E011consolidateB27WithConsolidationIdentifier33_F345E339AC116372E686CB3AE565E62FLL_7contextySS_So010IDSOffGridB7ContextCtYaKFTY5_ : 144 -> 132
+~ _$sSo25LiteMessageServiceSessionC01ibA0E011consolidateB27WithConsolidationIdentifier33_F345E339AC116372E686CB3AE565E62FLL_7contextySS_So010IDSOffGridB7ContextCtYaKFTY6_ : 152 -> 140
+~ _$sSo25LiteMessageServiceSessionC01ibA0E011consolidateB27WithConsolidationIdentifier33_F345E339AC116372E686CB3AE565E62FLL_7contextySS_So010IDSOffGridB7ContextCtYaKFTY7_ : 136 -> 124
+~ _$sSo25LiteMessageServiceSessionC01ibA0E011consolidateB27WithConsolidationIdentifier33_F345E339AC116372E686CB3AE565E62FLL_7contextySS_So010IDSOffGridB7ContextCtYaKFTY8_ : 160 -> 148
+~ _$sSo25LiteMessageServiceSessionC01ibA0E011consolidateB27WithConsolidationIdentifier33_F345E339AC116372E686CB3AE565E62FLL_7contextySS_So010IDSOffGridB7ContextCtYaKFTY9_ : 592 -> 580
+~ _$sSo17IDSOffGridMessageCSgSo8NSStringCSgSo7NSErrorCSgIeyBhyyy_AB_SStTz_ : 244 -> 220
+~ _$sSo26IDSOffGridEncryptedMessageC01iD4LiteE8dateSent10Foundation4DateVvg : 496 -> 464
+~ _$sSo25LiteMessageServiceSessionC01ibA0E026storeAndBroadcastDecryptedB4Data33_F345E339AC116372E686CB3AE565E62FLL_7contextSo7IMDChatC10Foundation0I0V_AC0aB7ContextVtYaKF : 616 -> 564
+~ _$sSo25LiteMessageServiceSessionC01ibA0E026storeAndBroadcastDecryptedB4Data33_F345E339AC116372E686CB3AE565E62FLL_7contextSo7IMDChatC10Foundation0I0V_AC0aB7ContextVtYaKFTY0_ : 4376 -> 4356
+~ _$sSo26IDSOffGridEncryptedMessageC01iD4LiteE07pendingD14CountForHandleSivg : 448 -> 428
+~ _$sSo26IDSOffGridEncryptedMessageC01iD4LiteE07pendingD10CountTotalSivg : 448 -> 428
+~ ___swift__destructor : 56 -> 44
+~ _$s12iMessageLite0bA6EffectO8rawValueACSgSi_tcfCTf4nd_n : 20 -> 12
+~ _$sSo13IMMessageItemC12iMessageLiteE09canSendAsdC0Sbvg : 2988 -> 2948
+~ _$s12iMessageLite0bA6HeaderVwet : 92 -> 88
+~ _$s12iMessageLite0bA12SegmentStoreC7context33_0B0A9E5225E42880DE1275525B76B2CELL9SwiftData12ModelContextCSgvg : 1328 -> 1288
+~ _$s12iMessageLite0bA12SegmentStoreC7context33_0B0A9E5225E42880DE1275525B76B2CELL9SwiftData12ModelContextCSgvgyyYacfU_ : 196 -> 164
+~ _$s12iMessageLite0bA12SegmentStoreC7context33_0B0A9E5225E42880DE1275525B76B2CELL9SwiftData12ModelContextCSgvgyyYacfU_TY0_ : 204 -> 192
+~ _$s12iMessageLite0bA12SegmentStoreC7context33_0B0A9E5225E42880DE1275525B76B2CELL9SwiftData12ModelContextCSgvgyyYacfU_TQ1_ : 288 -> 236
+~ _$s12iMessageLite0bA12SegmentStoreC7context33_0B0A9E5225E42880DE1275525B76B2CELL9SwiftData12ModelContextCSgvgyyYacfU_TY2_ : 136 -> 124
+~ _$s12iMessageLite0bA12SegmentStoreC7context33_0B0A9E5225E42880DE1275525B76B2CELL9SwiftData12ModelContextCSgvgyyYacfU_TY3_ : 144 -> 132
+~ _$s12iMessageLite0bA12SegmentStoreC12clearContextyyF : 128 -> 116
+~ _$s12iMessageLite0bA12SegmentStoreCfD : 64 -> 52
+~ _$s12iMessageLite0bA12SegmentStoreC06insertaC0yySo019IDSOffGridEncryptedA0CKF : 1788 -> 1768
+~ _$s12iMessageLite0bA12SegmentStoreC011hasExistingaC033_0B0A9E5225E42880DE1275525B76B2CELL3forSbSo019IDSOffGridEncryptedA0C_tKF : 1448 -> 1388
+~ _$s12iMessageLite0bA12SegmentStoreC011hasExistingaC033_0B0A9E5225E42880DE1275525B76B2CELL3forSbSo019IDSOffGridEncryptedA0C_tKF10Foundation27StandardPredicateExpression_pSb6OutputAI0uV0PRts_XPAI0U11ExpressionsO8VariableVy_AA0bacD8SchemaV1O0baC0CGXEfU1_ : 1960 -> 1820
+~ _$s12iMessageLite0bA12SegmentStoreC15messageSegments3forSaySo019IDSOffGridEncryptedA0CGSS_tKF : 2612 -> 2532
+~ _$s12iMessageLite0bA12SegmentStoreC05countA8Segments3forSiSS_tKF : 1376 -> 1316
+~ _$s12iMessageLite0bA12SegmentStoreC06deleteA8Segments3forySS_tKF : 1564 -> 1524
+~ _$s12iMessageLite0bA12SegmentStoreC15messageSegments3forSaySo019IDSOffGridEncryptedA0CGSS_tKF10Foundation27StandardPredicateExpression_pSb6OutputAI0mN0PRts_XPAI0M11ExpressionsO8VariableVy_AA0bacD8SchemaV1O0baC0CGXEfU2_Tm : 876 -> 816
+~ _$s12iMessageLite0bA12SegmentStoreC015deleteAbandonedA8SegmentsyyF : 2188 -> 2128
+~ _$s12iMessageLite0bA12SegmentStoreC015deleteAbandonedA8SegmentsyyF10Foundation27StandardPredicateExpression_pSb6OutputAE0jK0PRts_XPAE0J11ExpressionsO8VariableVy_AA0bacD8SchemaV1O0baC0CGXEfU2_ : 1132 -> 1052
+~ _$s12iMessageLite0bA20SegmentStoreSchemaV1O0baC0C12dateReceived10Foundation4DateVvpAETk : 256 -> 216
+~ _$s12iMessageLite0bA12SegmentStoreC06deleteD0yyKF : 2684 -> 2624
+~ _$ss5ClockPsE5sleep3for9tolerancey8DurationQz_AGSgtYaKFs010ContinuousA0V_Tg5 : 252 -> 220
+~ _$ss5ClockPsE5sleep3for9tolerancey8DurationQz_AGSgtYaKFs010ContinuousA0V_Tg5TY0_ : 408 -> 396
+~ _$ss5ClockPsE5sleep3for9tolerancey8DurationQz_AGSgtYaKFs010ContinuousA0V_Tg5TQ1_ : 424 -> 360
+~ _$ss5ClockPsE5sleep3for9tolerancey8DurationQz_AGSgtYaKFs010ContinuousA0V_Tg5TY2_ : 108 -> 96
+~ _$s12iMessageLite0bA12SegmentStoreC23makePersistentContainer33_0B0A9E5225E42880DE1275525B76B2CELL9SwiftData05ModelG0CSgyFZTf4d_n : 2092 -> 2012
+~ ___swift_closure_destructor : 64 -> 52
+~ _$s12iMessageLite0bA12SegmentStoreC7context33_0B0A9E5225E42880DE1275525B76B2CELL9SwiftData12ModelContextCSgvgyyYacfU_TA : 148 -> 136
+~ __swift_closure_destructor.18 : 56 -> 44
+~ _$s12iMessageLite0bA0Vwet : 72 -> 68
+~ _$sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability4with15responseHandlerySo09IMServiceF7RequestC_So0jf8ResponseI0_ptF : 620 -> 600
+~ _$sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability4with15responseHandlerySo09IMServiceF7RequestC_So0jf8ResponseI0_ptFyyYacfU_ : 292 -> 260
+~ _$sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability4with15responseHandlerySo09IMServiceF7RequestC_So0jf8ResponseI0_ptFyyYacfU_TQ0_ : 368 -> 316
+~ _$sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability4with15responseHandlerySo09IMServiceF7RequestC_So0jf8ResponseI0_ptFyyYacfU_TY1_ : 144 -> 132
+~ _$sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability4with15responseHandlerySo09IMServiceF7RequestC_So0jf8ResponseI0_ptFyyYacfU_TY2_ : 692 -> 680
+~ _$sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability33_C78C58FB22A449D302805F96CC198D60LL4withSo09IMServiceF6ResultCSo0pF7RequestC_tYaKF : 260 -> 228
+~ _$sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability33_C78C58FB22A449D302805F96CC198D60LL4withSo09IMServiceF6ResultCSo0pF7RequestC_tYaKFTY0_ : 1684 -> 1636
+~ _$sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability33_C78C58FB22A449D302805F96CC198D60LL4withSo09IMServiceF6ResultCSo0pF7RequestC_tYaKFTQ1_ : 372 -> 320
+~ _$sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability33_C78C58FB22A449D302805F96CC198D60LL4withSo09IMServiceF6ResultCSo0pF7RequestC_tYaKFTY2_ : 148 -> 136
+~ _$sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability33_C78C58FB22A449D302805F96CC198D60LL4withSo09IMServiceF6ResultCSo0pF7RequestC_tYaKFTY3_ : 124 -> 112
+~ _$sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability33_C78C58FB22A449D302805F96CC198D60LL4withSo09IMServiceF6ResultCSo0pF7RequestC_tYaKFTY4_ : 108 -> 96
+~ _$sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability33_C78C58FB22A449D302805F96CC198D60LL4withSo09IMServiceF6ResultCSo0pF7RequestC_tYaKFTY5_ : 116 -> 104
+~ _$sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability33_C78C58FB22A449D302805F96CC198D60LL4withSo09IMServiceF6ResultCSo0pF7RequestC_tYaKFTQ6_ : 312 -> 260
+~ _$sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability33_C78C58FB22A449D302805F96CC198D60LL4withSo09IMServiceF6ResultCSo0pF7RequestC_tYaKFTY7_ : 124 -> 112
+~ _$sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability33_C78C58FB22A449D302805F96CC198D60LL4withSo09IMServiceF6ResultCSo0pF7RequestC_tYaKFTY8_ : 116 -> 104
+~ _$sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability4with15responseHandlerySo09IMServiceF7RequestC_So0jf8ResponseI0_ptFyyYacfU_TA : 168 -> 156
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4withSo09IMServiceH6ResultCSS_So0sH7RequestCtYaKF : 284 -> 252
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4withSo09IMServiceH6ResultCSS_So0sH7RequestCtYaKFTY0_ : 2120 -> 2072
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4withSo09IMServiceH6ResultCSS_So0sH7RequestCtYaKFTQ1_ : 240 -> 188
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4withSo09IMServiceH6ResultCSS_So0sH7RequestCtYaKFTY2_ : 412 -> 400
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4withSo09IMServiceH6ResultCSS_So0sH7RequestCtYaKFTQ3_ : 276 -> 224
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4withSo09IMServiceH6ResultCSS_So0sH7RequestCtYaKFTY4_ : 164 -> 152
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4withSo09IMServiceH6ResultCSS_So0sH7RequestCtYaKFTY5_ : 156 -> 144
+~ _$sSo25LiteMessageServiceSessionC01ibA0E014isAvailableForaB033_C78C58FB22A449D302805F96CC198D60LL3for5token4withSbSS_10Foundation4DataVSgSo28IMServiceReachabilityRequestCtYaKF : 288 -> 256
+~ _$sSo25LiteMessageServiceSessionC01ibA0E014isAvailableForaB033_C78C58FB22A449D302805F96CC198D60LL3for5token4withSbSS_10Foundation4DataVSgSo28IMServiceReachabilityRequestCtYaKFTY0_ : 1160 -> 1136
+~ _$sSo25LiteMessageServiceSessionC01ibA0E014isAvailableForaB033_C78C58FB22A449D302805F96CC198D60LL3for5token4withSbSS_10Foundation4DataVSgSo28IMServiceReachabilityRequestCtYaKFTQ1_ : 288 -> 236
+~ _$sSo25LiteMessageServiceSessionC01ibA0E014isAvailableForaB033_C78C58FB22A449D302805F96CC198D60LL3for5token4withSbSS_10Foundation4DataVSgSo28IMServiceReachabilityRequestCtYaKFTY2_ : 1852 -> 1840
+~ _$sSo25LiteMessageServiceSessionC01ibA0E014isAvailableForaB033_C78C58FB22A449D302805F96CC198D60LL3for5token4withSbSS_10Foundation4DataVSgSo28IMServiceReachabilityRequestCtYaKFTY3_ : 220 -> 208
+~ _$sSbIeyBhy_SbTz_ : 92 -> 80
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4with014isRecipientOffG0So09IMServiceH6ResultCSS_So0vH7RequestCSbtYaKF : 264 -> 232
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4with014isRecipientOffG0So09IMServiceH6ResultCSS_So0vH7RequestCSbtYaKFTY0_ : 1016 -> 968
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4with014isRecipientOffG0So09IMServiceH6ResultCSS_So0vH7RequestCSbtYaKFTQ1_ : 276 -> 224
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4with014isRecipientOffG0So09IMServiceH6ResultCSS_So0vH7RequestCSbtYaKFTY2_ : 668 -> 656
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4with014isRecipientOffG0So09IMServiceH6ResultCSS_So0vH7RequestCSbtYaKFTQ3_ : 372 -> 320
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4with014isRecipientOffG0So09IMServiceH6ResultCSS_So0vH7RequestCSbtYaKFTY4_ : 204 -> 192
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4with014isRecipientOffG0So09IMServiceH6ResultCSS_So0vH7RequestCSbtYaKFTQ5_ : 312 -> 260
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4with014isRecipientOffG0So09IMServiceH6ResultCSS_So0vH7RequestCSbtYaKFTY6_ : 180 -> 168
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4with014isRecipientOffG0So09IMServiceH6ResultCSS_So0vH7RequestCSbtYaKFTY7_ : 160 -> 148
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4with014isRecipientOffG0So09IMServiceH6ResultCSS_So0vH7RequestCSbtYaKFTY8_ : 128 -> 116
+~ _$sSo25LiteMessageServiceSessionC01ibA0E012isExchangingA8Messages33_C78C58FB22A449D302805F96CC198D60LL2in0E16RecipientOffGridSbSo7IMDChatC_SbtF : 1124 -> 1104
+~ _$sSo25LiteMessageServiceSessionC01ibA0E04liteB14ExchangeStatus2in18isRecipientOffGridAbCE0abfG0OSo7IMDChatC_SbtF : 2088 -> 2036
+~ _$sSbSo6NSDataCSgIeyBhyy_Sb_10Foundation4DataVSgtTz_ : 168 -> 156
+~ _$sSo12NSDictionaryCSo7NSErrorCSgIeyBhyy_SDySo6IDSURICSo29IDSOffGridDeliveryQueryResultCGTz_ : 288 -> 264
+~ __swift_closure_destructor.3 : 56 -> 44
+~ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo6IDSURIC_Tg5 : 68 -> 56
+~ _$sSo25LiteMessageServiceSessionC01ibA0E12siblingChats33_C78C58FB22A449D302805F96CC198D60LL2of08haveLastB9OlderThanSbSo7IMDChatC_SdtFTf4nnd_n : 1324 -> 1284
+~ ___swift_closure_destructorTm : 80 -> 68
+~ $sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability4with15responseHandlerySo09IMServiceF7RequestC_So0jf8ResponseI0_ptFyyYacfU_TA.17 : 168 -> 156
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15lastActiveToken33_C78C58FB22A449D302805F96CC198D60LL3for10Foundation4DataVSgSo9IMDHandleC_tYaFTf4nd_n : 152 -> 140
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15lastActiveToken33_C78C58FB22A449D302805F96CC198D60LL3for10Foundation4DataVSgSo9IMDHandleC_tYaFTf4nd_nTY0_ : 272 -> 260
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15lastActiveToken33_C78C58FB22A449D302805F96CC198D60LL3for10Foundation4DataVSgSo9IMDHandleC_tYaFTf4nd_nTQ1_ : 240 -> 188
+~ _$sSo25LiteMessageServiceSessionC01ibA0E15lastActiveToken33_C78C58FB22A449D302805F96CC198D60LL3for10Foundation4DataVSgSo9IMDHandleC_tYaFTf4nd_nTY2_ : 164 -> 152
+~ _$sSo25LiteMessageServiceSessionC01ibA0E016processPreferredC4Type_3for12expiresAfterySo010IDSOffGridfcG0V_SS10Foundation4DateVSgtF : 2592 -> 2552
+~ _$s10Foundation4DataVSgIeghg_So6NSDataCSgIeyBhy_TR : 160 -> 148
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27sendUpgradeMessagesIfNeededyyF : 580 -> 560
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27sendUpgradeMessagesIfNeededyyFyyYacfU_ : 244 -> 212
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27sendUpgradeMessagesIfNeededyyFyyYacfU_TY0_ : 704 -> 676
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27sendUpgradeMessagesIfNeededyyFyyYacfU_TQ1_ : 328 -> 276
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27sendUpgradeMessagesIfNeededyyFyyYacfU_TY2_ : 432 -> 404
+~ _$sSo25LiteMessageServiceSessionC01ibA0E011sendUpgradeB02to4fromySS_SStYaF : 288 -> 256
+~ _$sSo25LiteMessageServiceSessionC01ibA0E011sendUpgradeB02to4fromySS_SStYaFTY0_ : 1676 -> 1652
+~ _$sSo25LiteMessageServiceSessionC01ibA0E011sendUpgradeB02to4fromySS_SStYaFTQ1_ : 288 -> 236
+~ _$sSo25LiteMessageServiceSessionC01ibA0E011sendUpgradeB02to4fromySS_SStYaFTY2_ : 188 -> 176
+~ _$sSo25LiteMessageServiceSessionC01ibA0E011sendUpgradeB02to4fromySS_SStYaFTY3_ : 612 -> 600
+~ _$sSo25LiteMessageServiceSessionC01ibA0E013sendDowngradeB11IfNecessary2to4fromySS_SStYaF : 300 -> 268
+~ _$sSo25LiteMessageServiceSessionC01ibA0E013sendDowngradeB11IfNecessary2to4fromySS_SStYaFTY0_ : 1972 -> 1948
+~ _$sSo25LiteMessageServiceSessionC01ibA0E013sendDowngradeB11IfNecessary2to4fromySS_SStYaFTQ1_ : 288 -> 236
+~ _$sSo25LiteMessageServiceSessionC01ibA0E013sendDowngradeB11IfNecessary2to4fromySS_SStYaFTY2_ : 292 -> 280
+~ _$sSo25LiteMessageServiceSessionC01ibA0E013sendDowngradeB11IfNecessary2to4fromySS_SStYaFTY3_ : 624 -> 612
+~ _$sSo25LiteMessageServiceSessionC01ibA0E20sentDowngradeRequest10toHandleID04fromJ0ySS_SStFTo : 152 -> 140
+~ ___swift_closure_destructor : 64 -> 52
+~ _$sSo25LiteMessageServiceSessionC01ibA0E27sendUpgradeMessagesIfNeededyyFyyYacfU_TA : 148 -> 136
+~ __swift_closure_destructor.3 : 56 -> 44
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_SSTg5 : 688 -> 668
+~ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_SSTg5 : 384 -> 360
+~ _$ss17_NativeDictionaryV4copyyyFSS_SSTg5 : 376 -> 368
+~ _$sSo25LiteMessageServiceSessionC01ibA0E20sentDowngradeRequest10toHandleID04fromJ0ySS_SStFTf4nnd_n : 668 -> 648
+~ ___swift__destructor : 56 -> 44
+~ _$s12iMessageLite0bA7ContextV4date10Foundation4DateVvg : 116 -> 104
+~ sub_39268 -> sub_37124 : 164 -> 148
+~ sub_39320 -> sub_371cc : 156 -> 144
+~ _$s12iMessageLite0bA15AcknowledgementO8rawValueACSgSi_tcfCTf4nd_n : 16 -> 8
+~ _$sSo13IMMessageItemC12iMessageLiteE014liteAssociatedC4TypeAC0dC15AcknowledgementOSgvg : 44 -> 32
+~ __swift_exist.box.addr_destructor : 64 -> 52
+~ __swift_exist.box.addr_destructor.3 : 64 -> 52
+~ _$sSS8_copyingySSSsFZ : 344 -> 332
+~ _$sSo13IMMessageItemC12iMessageLiteE03smsD11RelayHeader33_4A1D7A632388D858D3F0D64B6E070398LLAC0dfcG0Vvg : 648 -> 628
+~ _$sSo13IMMessageItemC12iMessageLiteE03smsd5RelayC4Type33_4A1D7A632388D858D3F0D64B6E070398LLAC0dfcG0Ovg : 488 -> 468
+~ __swift_exist.box.addr_destructor : 72 -> 60
+~ __swift_exist.box.addr_destructor.2 : 64 -> 52
+~ _$s12iMessageLite0b5RelayA0V6headerAA0bcA6HeaderVvg : 84 -> 72
+~ _$s12iMessageLite0b5RelayA0Vwet : 72 -> 68
+~ _$s12iMessageLite0b19RelayAcknowledgmentA7ContentVwet : 72 -> 68
+~ _$s12iMessageLite0b5RelayA6HeaderVwet : 92 -> 88
+~ __swift_exist.box.addr_destructor : 64 -> 52
+~ _$s12iMessageLite0b4TextA7ContentVwet : 72 -> 68
+~ _$s12iMessageLite0b5ReplyA7ContentVwet : 72 -> 68
+~ _$s12iMessageLite0b14AcknowledgmentA7ContentVwet : 72 -> 68
+~ _$sSo25LiteMessageServiceSessionC01ibA0E014encryptAndSendB4Item_2to11sendMetricsySo09IMMessageH0C_So7IMDChatCAbCE0gK0VztYaKF : 316 -> 284
+~ _$sSo25LiteMessageServiceSessionC01ibA0E014encryptAndSendB4Item_2to11sendMetricsySo09IMMessageH0C_So7IMDChatCAbCE0gK0VztYaKFTY0_ : 1736 -> 1712
+~ _$sSo25LiteMessageServiceSessionC01ibA0E014encryptAndSendB4Item_2to11sendMetricsySo09IMMessageH0C_So7IMDChatCAbCE0gK0VztYaKFTQ1_ : 288 -> 236
+~ _$sSo25LiteMessageServiceSessionC01ibA0E014encryptAndSendB4Item_2to11sendMetricsySo09IMMessageH0C_So7IMDChatCAbCE0gK0VztYaKFTY2_ : 1724 -> 1680
+~ _$sSo25LiteMessageServiceSessionC01ibA0E014encryptAndSendB4Item_2to11sendMetricsySo09IMMessageH0C_So7IMDChatCAbCE0gK0VztYaKFTQ3_ : 300 -> 248
+~ _$sSo25LiteMessageServiceSessionC01ibA0E014encryptAndSendB4Item_2to11sendMetricsySo09IMMessageH0C_So7IMDChatCAbCE0gK0VztYaKFTY4_ : 748 -> 736
+~ _$sSo25LiteMessageServiceSessionC01ibA0E014encryptAndSendB4Item_2to11sendMetricsySo09IMMessageH0C_So7IMDChatCAbCE0gK0VztYaKFTY5_ : 244 -> 232
+~ _$sSo25LiteMessageServiceSessionC01ibA0E014encryptAndSendB4Item_2to11sendMetricsySo09IMMessageH0C_So7IMDChatCAbCE0gK0VztYaKFTY6_ : 232 -> 220
+~ _$sSo25LiteMessageServiceSessionC01ibA0E014removePreviousC8Original33_FECEEC0F0059AF8F5B1DD0FB97B4DC0FLL2ofySo13IMMessageItemC_tF : 2068 -> 2048
+~ _$sSo25LiteMessageServiceSessionC01ibA0E013sendEncryptedB0_2to4item7contextySo010IDSOffGridfB0C_So7IMDChatCSo13IMMessageItemCAC0a8OutgoingB7ContextVtYaKF : 256 -> 224
+~ _$sSo25LiteMessageServiceSessionC01ibA0E013sendEncryptedB0_2to4item7contextySo010IDSOffGridfB0C_So7IMDChatCSo13IMMessageItemCAC0a8OutgoingB7ContextVtYaKFTY0_ : 988 -> 976
+~ _$sSo25LiteMessageServiceSessionC01ibA0E013sendEncryptedB0_2to4item7contextySo010IDSOffGridfB0C_So7IMDChatCSo13IMMessageItemCAC0a8OutgoingB7ContextVtYaKFTQ1_ : 328 -> 276
+~ _$sSo25LiteMessageServiceSessionC01ibA0E013sendEncryptedB0_2to4item7contextySo010IDSOffGridfB0C_So7IMDChatCSo13IMMessageItemCAC0a8OutgoingB7ContextVtYaKFTY2_ : 184 -> 172
+~ _$sSo25LiteMessageServiceSessionC01ibA0E013sendEncryptedB0_2to4item7contextySo010IDSOffGridfB0C_So7IMDChatCSo13IMMessageItemCAC0a8OutgoingB7ContextVtYaKFTY3_ : 108 -> 96
+~ _$sSo25LiteMessageServiceSessionC01ibA0E05relayB033_FECEEC0F0059AF8F5B1DD0FB97B4DC0FLL4item2to12viaSatelliteySo13IMMessageItemC_So7IMDChatCSbtF : 440 -> 416
+~ _$sSo25LiteMessageServiceSessionC01ibA0E04sendB10SentMetric3for0E7Metrics4chat17withDetailedErrorySo13IMMessageItemC_AbCE04SendI0VSo7IMDChatCSgAC0abpM0OSgtF : 2520 -> 2500
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16iMessageLiteCore03BitO0V18CompressionResultsV_Tg5 : 276 -> 268
+~ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF16iMessageLiteCore03BitE0V18CompressionResultsV_SayAIGTg5 : 252 -> 248
+~ _$sSo25LiteMessageServiceSessionC01ibA0E08sendableB8Segments33_FECEEC0F0059AF8F5B1DD0FB97B4DC0FLL2ofSaySo019IDSOffGridEncryptedB0CGAH_tFTf4nd_n : 704 -> 684
+~ _$sSo25LiteMessageServiceSessionC01ibA0E013sendEncryptedB8Segments33_FECEEC0F0059AF8F5B1DD0FB97B4DC0FLL_2to4item7contextySaySo010IDSOffGridfB0CG_So7IMDChatCSo13IMMessageItemCAC0a8OutgoingB7ContextVtYaKFTf4ndnnn_n : 268 -> 236
+~ _$sSo25LiteMessageServiceSessionC01ibA0E013sendEncryptedB8Segments33_FECEEC0F0059AF8F5B1DD0FB97B4DC0FLL_2to4item7contextySaySo010IDSOffGridfB0CG_So7IMDChatCSo13IMMessageItemCAC0a8OutgoingB7ContextVtYaKFTf4ndnnn_nTY0_ : 1104 -> 1080
+~ _$sSo25LiteMessageServiceSessionC01ibA0E013sendEncryptedB8Segments33_FECEEC0F0059AF8F5B1DD0FB97B4DC0FLL_2to4item7contextySaySo010IDSOffGridfB0CG_So7IMDChatCSo13IMMessageItemCAC0a8OutgoingB7ContextVtYaKFTf4ndnnn_nTQ1_ : 264 -> 212
+~ _$sSo25LiteMessageServiceSessionC01ibA0E013sendEncryptedB8Segments33_FECEEC0F0059AF8F5B1DD0FB97B4DC0FLL_2to4item7contextySaySo010IDSOffGridfB0CG_So7IMDChatCSo13IMMessageItemCAC0a8OutgoingB7ContextVtYaKFTf4ndnnn_nTY2_ : 1196 -> 1172
+~ _$sSo25LiteMessageServiceSessionC01ibA0E013sendEncryptedB8Segments33_FECEEC0F0059AF8F5B1DD0FB97B4DC0FLL_2to4item7contextySaySo010IDSOffGridfB0CG_So7IMDChatCSo13IMMessageItemCAC0a8OutgoingB7ContextVtYaKFTf4ndnnn_nTY3_ : 168 -> 156
+~ _$sSo25LiteMessageServiceSessionC01ibA0E11SendMetricsVwet : 72 -> 68
+~ _$s12iMessageLite0B5TopicO4withACSgSo30IDSOffGridMessengerServiceTypeV_tcfC : 436 -> 416
+~ _$s12iMessageLite0B5TopicOSHAASH4hash4intoys6HasherVz_tFTW : 108 -> 96
+~ _$sSo24IDSOffGridMessageContextC01iC4LiteE7commandSo12IDSCommandIDVvg : 68 -> 56
+~ _$s12iMessageLite0bA20SegmentStoreSchemaV1O17versionIdentifier9SwiftData0E0C7VersionVvau : 100 -> 88
+~ _$s12iMessageLite0bA20SegmentStoreSchemaV1O17versionIdentifier9SwiftData0E0C7VersionVvsZ : 244 -> 224
+~ $s12iMessageLite0bA20SegmentStoreSchemaV1O0baC0C23consolidationIdentifierSSvM.resume.0 : 316 -> 304
+~ $s12iMessageLite0bA20SegmentStoreSchemaV1O0baC0C13segmentNumberSivM.resume.0 : 220 -> 208
+~ _$s12iMessageLite0bA20SegmentStoreSchemaV1O0baC0C12dateReceived10Foundation4DateVvi : 236 -> 224
+~ _$s12iMessageLite0bA20SegmentStoreSchemaV1O0baC0C12dateReceived10Foundation4DateVvsyyXEfU_ : 208 -> 196
+~ _$s12iMessageLite0bA20SegmentStoreSchemaV1O0baC0C12dateReceived10Foundation4DateVvM : 480 -> 460
+~ $s12iMessageLite0bA20SegmentStoreSchemaV1O0baC0C12dateReceived10Foundation4DateVvM.resume.0 : 448 -> 436
+~ $s12iMessageLite0bA20SegmentStoreSchemaV1O0baC0C4data10Foundation4DataVvM.resume.0 : 328 -> 316
+~ ___swift_assign_boxed_opaque_existential_1 : 532 -> 448
+~ $s12iMessageLite0bA20SegmentStoreSchemaV1O0baC0C21persistentBackingData05SwiftI00hI0_pAE5ModelAgHPRts_XPvM.resume.0 : 104 -> 92
+~ _$s12iMessageLite0bA20SegmentStoreSchemaV1O0baC0C14schemaMetadataSay9SwiftData0E0C08PropertyH0VGvgZ : 496 -> 476
+~ _$s12iMessageLite0bA20SegmentStoreSchemaV1O0baC0C11backingDataAE05SwiftH007BackingH0_pAE5ModelAgHPRts_XP_tcfc : 324 -> 304
+~ _$s12iMessageLite0bA20SegmentStoreSchemaV1O0baC0CfD : 160 -> 128
+~ $s12iMessageLite0bA20SegmentStoreSchemaV1O0baC0C9SwiftData15PersistentModelAafGP017persistentBackingH0AF0lH0_px0J0Rts_XPvMTW.resume.0 : 72 -> 60
+~ _$s12iMessageLite0bA20SegmentStoreSchemaV1O0baC0CSQAASQ2eeoiySbx_xtFZTW : 108 -> 96
+~ _$s12iMessageLite0bA20SegmentStoreSchemaV1O0baC0CMr : 176 -> 156
+~ _$s12iMessageLite0bA4TypeO8rawValueACSgSi_tcfCTf4nd_n : 16 -> 8
+~ _$sSo25LiteMessageServiceSessionC01ibA0E031storeAndBroadcastDecryptedRelayB4Data_7contextSo7IMDChatC10Foundation0J0V_AC0aB7ContextVtYaKF : 448 -> 396
+~ _$sSo25LiteMessageServiceSessionC01ibA0E031storeAndBroadcastDecryptedRelayB4Data_7contextSo7IMDChatC10Foundation0J0V_AC0aB7ContextVtYaKFTY0_ : 2704 -> 2668
+~ _$sSo25LiteMessageServiceSessionC01ibA0E031storeAndBroadcastDecryptedRelayB4Data_7contextSo7IMDChatC10Foundation0J0V_AC0aB7ContextVtYaKFTQ1_ : 388 -> 336
+~ _$sSo25LiteMessageServiceSessionC01ibA0E031storeAndBroadcastDecryptedRelayB4Data_7contextSo7IMDChatC10Foundation0J0V_AC0aB7ContextVtYaKFTQ2_ : 300 -> 248
+~ _$sSo25LiteMessageServiceSessionC01ibA0E031storeAndBroadcastDecryptedRelayB4Data_7contextSo7IMDChatC10Foundation0J0V_AC0aB7ContextVtYaKFTY3_ : 488 -> 476
+~ _$sSo25LiteMessageServiceSessionC01ibA0E031storeAndBroadcastDecryptedRelayB4Data_7contextSo7IMDChatC10Foundation0J0V_AC0aB7ContextVtYaKFTY4_ : 236 -> 224
+~ _$sSo25LiteMessageServiceSessionC01ibA0E10joinedChat4with7commandSo7IMDChatCSgSS_So12IDSCommandIDVtF : 1068 -> 1048
+~ _$sSo25LiteMessageServiceSessionC01ibA0E04sendB8UsingSMS33_213F115F136CE25FC58CF4628A2B5692LL7message4chatySo13IMMessageItemC_So7IMDChatCtYaKF : 260 -> 228
+~ _$sSo25LiteMessageServiceSessionC01ibA0E04sendB8UsingSMS33_213F115F136CE25FC58CF4628A2B5692LL7message4chatySo13IMMessageItemC_So7IMDChatCtYaKFTY0_ : 1080 -> 1068
+~ _$sSo25LiteMessageServiceSessionC01ibA0E20handleSMSMessageSent12notificationy10Foundation12NotificationV_tF : 3784 -> 3756
+~ _$sSo25LiteMessageServiceSessionC01ibA0E20handleSMSMessageSent12notificationy10Foundation12NotificationV_tFTo : 240 -> 220
+~ _$ss10_NativeSetV6resize8capacityySi_tFSo25LiteMessageServiceSessionC01ifE0E17PendingSMSMessageV_Tg5 : 660 -> 640
+~ _$ss10_NativeSetV13copyAndResize8capacityySi_tFSo25LiteMessageServiceSessionC01ihG0E17PendingSMSMessageV_Tg5 : 616 -> 596
+~ _$ss10_NativeSetV4copyyyFSo25LiteMessageServiceSessionC01ieD0E17PendingSMSMessageV_Tg5 : 360 -> 352
+~ _$sSo25LiteMessageServiceSessionC01ibA0E24sendRelayDeliveryReceipt3for6toChatySS_SStYaKF : 148 -> 136
+~ _$sSo25LiteMessageServiceSessionC01ibA0E24sendRelayDeliveryReceipt3for6toChatySS_SStYaKFTY0_ : 100 -> 88
+~ _$sSo25LiteMessageServiceSessionC01ibA0E21prepareForFirstUnlockyyF : 508 -> 476
+~ _$sSo25LiteMessageServiceSessionC01ibA0E23performFirstUnlockTasksyyF : 916 -> 876
+~ _$sSo25LiteMessageServiceSessionC01ibA0E37systemDidLeaveFirstDataProtectionLockyyFTo : 60 -> 48
+~ _$sSo25LiteMessageServiceSessionC01ibA0E23performFirstUnlockTasksyyFyyYacfU_ : 152 -> 140
+~ _$sSo25LiteMessageServiceSessionC01ibA0E23performFirstUnlockTasksyyFyyYacfU_TY0_ : 108 -> 96
+~ _$sSo25LiteMessageServiceSessionC01ibA0E23performFirstUnlockTasksyyFyyYacfU_TY1_ : 108 -> 96
+~ _$sSo25LiteMessageServiceSessionC01ibA0E23performFirstUnlockTasksyyFyyYacfU_TY2_ : 136 -> 124
+~ _$sSo25LiteMessageServiceSessionC01ibA0E23performFirstUnlockTasksyyFyyYacfU_TY3_ : 112 -> 100
+~ _$sSo25LiteMessageServiceSessionC01ibA0E23performFirstUnlockTasksyyFyyYacfU_TY4_ : 96 -> 84
+~ ___swift_closure_destructor : 64 -> 52
+~ _$sSo25LiteMessageServiceSessionC01ibA0E23performFirstUnlockTasksyyFyyYacfU_TA : 148 -> 136
+~ __swift_closure_destructor.3 : 56 -> 44
+~ _$sSo13IMMessageItemC12iMessageLiteE014liteAssociatedC11SummaryInfoSDys11AnyHashableVypGyF : 4068 -> 4048
+~ _$sSo13IMMessageItemC12iMessageLiteE014liteAssociatedC11SummaryInfoSDys11AnyHashableVypGyFTo : 120 -> 108
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs11AnyHashableV_Tt1g5 : 144 -> 140
+~ _$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo8NSObjectCm_Ttg5 : 148 -> 136
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXlXp_Tg5 : 260 -> 252
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo8NSObjectCm_Tg5 : 256 -> 248
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFs11AnyHashableV_ypTg5 : 700 -> 680
+~ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFs11AnyHashableV_ypTg5 : 316 -> 304
+~ _$ss17_NativeDictionaryV4copyyyFs11AnyHashableV_ypTg5 : 388 -> 380
+~ _$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFShys11AnyHashableVG_Tg5 : 348 -> 344
+~ _$sSo13IMMessageItemC12iMessageLiteE0aB11ContentTypeO8rawValueAESgSi_tcfCTf4nd_n : 16 -> 8
+~ _$sSo13IMMessageItemC12iMessageLiteE7summary33_1BC1E26FF7EAE316FD1B216EFFD0ADEELL4fromSSSgSo15IMPluginPayloadC_tFTf4nd_n : 2040 -> 2020
+~ _$ss5ErrorP12iMessageLiteE012liteItemSendA4CodeSo11FZErrorTypeVvg : 256 -> 236
+~ _$s16iMessageLiteCore13BitCollectionV6appendyy10Foundation4DataVF : 324 -> 304
+~ _$s16iMessageLiteCore13BitCollectionV6appendyyACF : 688 -> 676
+~ _$s16iMessageLiteCore13BitCollectionVSlAASly11SubSequenceQzSny5IndexQzGcigTW : 144 -> 132
+~ _$s16iMessageLiteCore13BitCollectionVSlAASl7indices7IndicesQzvgTW : 104 -> 92
+~ _$s16iMessageLiteCore13BitCollectionVSlAASl5index_8offsetBy07limitedH05IndexQzSgAH_SiAHtFTW : 248 -> 240
+~ _$s16iMessageLiteCore13BitCollectionV12binaryStringSSvg : 72 -> 60
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSb_Tt1gq5 : 116 -> 112
+~ _$s16iMessageLiteCore13BitCollectionV17appendAsUTF8BytesyySSKF : 612 -> 572
+~ _$s16iMessageLiteCore13BitCollectionV32appendAsVarint8PrefixedUTF8BytesyySSKF : 712 -> 672
+~ _$s16iMessageLiteCore13BitCollectionV31appendAsNullTerminatedUTF8BytesyySSKF : 688 -> 648
+~ _$s16iMessageLiteCore13BitCollectionV17append16UUIDBytesyy10Foundation4UUIDVKF : 536 -> 508
+~ _$s16iMessageLiteCore13BitCollectionV17append16UUIDBytesyySSKF : 512 -> 492
+~ _$s16iMessageLiteCore03BitA0V23appendAsCompressedBytesyySSKF : 1924 -> 1864
+~ _$s16iMessageLiteCore03BitA0Vwet : 72 -> 68
+```

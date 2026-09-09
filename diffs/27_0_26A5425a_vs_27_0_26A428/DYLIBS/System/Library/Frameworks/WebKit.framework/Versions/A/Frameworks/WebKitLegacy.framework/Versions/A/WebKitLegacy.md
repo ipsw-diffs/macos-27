@@ -1,0 +1,112 @@
+## WebKitLegacy
+
+> `/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebKitLegacy.framework/Versions/A/WebKitLegacy`
+
+```diff
+
+-625.1.29.11.26
+-  __TEXT.__text: 0x1a0f70
++625.1.29.11.27
++  __TEXT.__text: 0x1a10b8
+   __TEXT.__objc_methlist: 0x10258
+   __TEXT.__const: 0x67a
+   __TEXT.__getClass_cstr: 0x30
+-  __TEXT.__gcc_except_tab: 0x1497c
++  __TEXT.__gcc_except_tab: 0x149b8
+   __TEXT.__cstring: 0x1e896
+   __TEXT.__oslogstring: 0x14a
+   __TEXT.__ustring: 0x4
+Functions:
+~ __ZN24WebResourceLoadScheduler20servePendingRequestsEN7WebCore20ResourceLoadPriorityE : 1176 -> 1184
+~ __ZN6WebKit20StorageNamespaceImpl5closeEv : 332 -> 336
+~ -[NSString(WebKitExtras) _web_widthWithFont:] : 908 -> 904
+~ -[WebBasePluginPackage supportsMIMEType:] : 92 -> 100
+~ __ZN22BinaryPropertyListPlan17writeIntegerArrayEPKim : 800 -> 804
+~ __ZN3WTF9HashTableI12IntegerArrayNS_12KeyValuePairIS1_mEENS_24KeyValuePairKeyExtractorIS3_EE16IntegerArrayHashNS_7HashMapIS1_mS6_22IntegerArrayHashTraitsNS_10HashTraitsImEENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsES8_SD_E6rehashENS_7CheckedIjNS_15CrashOnOverflowEEEPS3_ : 456 -> 460
+~ __ZN32LegacyWebPageInspectorController12removeTargetERKN3WTF6StringE : 536 -> 552
+~ __ZN3WTF6Detail15CallableWrapperIZN7WebCore5TimerC1IN6WebKit15StorageAreaImplES6_EERT_MT0_FvvEEUlvE_vJEE4callEv : 208 -> 212
+~ __ZN6WebKit15StorageAreaSync14syncTimerFiredEv : 1832 -> 1840
+~ __ZN3WTF6Detail15CallableWrapperIZN7WebCore5TimerC1IN6WebKit15StorageAreaSyncES6_EERT_MT0_FvvEEUlvE_vJEE4callEv : 388 -> 392
+~ __ZN6WebKit20StorageNamespaceImpl26clearAllOriginsForDeletionEv : 344 -> 356
+~ __ZN6WebKit20StorageNamespaceImpl4syncEv : 248 -> 252
+~ __ZN6WebKit20StorageNamespaceImpl30closeIdleLocalStorageDatabasesEv : 244 -> 256
+~ __ZN3WTF5DequeINSt3__110unique_ptrINS_8FunctionIFvvEEENS1_14default_deleteIS5_EEEELm0EE10destroyAllEv : 408 -> 412
+~ __ZN3WTF5DequeINSt3__110unique_ptrINS_8FunctionIFvvEEENS1_14default_deleteIS5_EEEELm0EE14expandCapacityEv : 332 -> 320
+~ __ZN6WebKit14StorageTracker20willDeleteAllOriginsEv : 220 -> 232
+~ __ZN3WTF6Detail15CallableWrapperIZN6WebKit14StorageTracker23importOriginIdentifiersEvE3$_0vJEE4callEv : 904 -> 908
+~ __ZN3WTF12StreamBufferIhLm1048576EE6appendENSt3__14spanIKhLm18446744073709551615EEE : 848 -> 836
+~ __ZN7WebCore22SocketStreamHandleImplD2Ev : 724 -> 728
+~ __ZN27WebBroadcastChannelRegistry17unregisterChannelERKN7WebCore25PartitionedSecurityOriginERKN3WTF6StringENS4_23ObjectIdentifierGenericINS0_30BroadcastChannelIdentifierTypeENS4_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEE : 328 -> 344
+~ __ZN27WebBroadcastChannelRegistry11postMessageERKN7WebCore25PartitionedSecurityOriginERKN3WTF6StringENS4_23ObjectIdentifierGenericINS0_30BroadcastChannelIdentifierTypeENS4_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEONS4_3RefINS0_21SerializedScriptValueENS4_12RawPtrTraitsISE_EENS4_21DefaultRefDerefTraitsISE_EEEEONS4_17CompletionHandlerIFvvEEE : 668 -> 692
+~ __ZN3WTF5DequeINS_6RefPtrIN7WebCore14ResourceLoaderENS_12RawPtrTraitsIS3_EENS_21DefaultRefDerefTraitsIS3_EEEELm0EE10destroyAllEv : 396 -> 400
+~ __ZN3WTF6Detail15CallableWrapperIZN7WebCore5TimerC1I10PingHandleS5_EERT_MT0_FvvEEUlvE_vJEE4callEv : 188 -> 192
+~ __ZN3WTF13NativePromiseIN7WebCore26WebTransportConnectionInfoEvLj0EE12assertIsDeadEv : 288 -> 296
+~ __ZN3WTF28stringTypeAdapterAccumulatorIDsNS_17StringTypeAdapterINS_6StringEEEJS3_EEEvNSt3__14spanIT_Lm18446744073709551615EEET0_DpT1_ : 1168 -> 1172
+~ __ZN3WTF28stringTypeAdapterAccumulatorIDsNS_17StringTypeAdapterINS_6StringEEEJNS1_IcEES3_S4_EEEvNSt3__14spanIT_Lm18446744073709551615EEET0_DpT1_ : 1240 -> 1244
+~ __ZN3WTF37tryMakeStringImplFromAdaptersInternalIJNS_17StringTypeAdapterINS_6StringEEES3_S3_S3_S3_S3_S3_EEENS_6RefPtrINS_10StringImplENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEEjbDpT_ : 1464 -> 1468
+~ __ZN3WTF28stringTypeAdapterAccumulatorIDsNS_17StringTypeAdapterINS_6StringEEEJS3_S3_S3_S3_S3_EEEvNSt3__14spanIT_Lm18446744073709551615EEET0_DpT1_ : 1296 -> 1300
+~ __ZN3WTF28stringTypeAdapterAccumulatorIDsNS_17StringTypeAdapterINS_6StringEEEJS3_S3_S3_EEEvNSt3__14spanIT_Lm18446744073709551615EEET0_DpT1_ : 1248 -> 1252
+~ __ZN3WTF6Detail15CallableWrapperIZN7WebCore5TimerC1I24WebResourceLoadSchedulerS5_EERT_MT0_FvvEEUlvE_vJEE4callEv : 72 -> 76
+~ __ZN3WTF6Detail15CallableWrapperIZN7WebCore5TimerC1INS2_16WebSocketChannelES5_EERT_MT0_FvvEEUlvE_vJEE4callEv : 192 -> 196
+~ __ZN3WTF5DequeINSt3__110unique_ptrIN7WebCore16WebSocketChannel11QueuedFrameENS1_14default_deleteIS5_EEEELm0EE10destroyAllEv : 672 -> 676
+~ -[DOMNode(DOMNodeExtensionsPendingPublic) textRects] : 500 -> 496
+~ -[DOMRange(DOMRangeExtensions) textRects] : 484 -> 480
+~ -[WebBackForwardList backListWithLimit:] : 624 -> 620
+~ -[WebBackForwardList forwardListWithLimit:] : 624 -> 620
+~ -[WebBasePluginPackage supportsExtension:] : 164 -> 148
+~ __ZN20WebFrameLoaderClient23getLoadDecisionForIconsERKN3WTF6VectorINSt3__14pairIRN7WebCore8LinkIconEyEELm0ENS0_15CrashOnOverflowELm16ENS0_10FastMallocEEE : 988 -> 984
+~ -[WebFrame(WebPrivate) _computePageRectsWithPrintScaleFactor:pageSize:] : 520 -> 516
+~ __ZN3WTF6Detail15CallableWrapperIZNS_7RunLoop5TimerC1I19TextIndicatorWindowEEONS_3RefIS2_NS_12RawPtrTraitsIS2_EENS_21DefaultRefDerefTraitsIS2_EEEENS_12ASCIILiteralEPT_MSE_FvvEEUlvE_vJEE4callEv : 40 -> 44
+~ -[WebHTMLView(WebDocumentPrivateProtocols) selectionTextRects] : 352 -> 348
+~ -[WebHTMLView(WebDocumentInternalProtocols) rectsForTextMatches] : 348 -> 344
+~ -[WebView(WebViewInternal) _getWebCoreDictationAlternatives:fromTextAlternatives:] : 240 -> 236
+~ __ZN7WebCore20CacheStorageProvider27DummyCacheStorageConnection4openERKNS_12ClientOriginERKN3WTF6StringE : 3504 -> 3512
+~ __ZN7WebCore20CacheStorageProvider27DummyCacheStorageConnection6removeENS_16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS_22DOMCacheIdentifierTypeENS3_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEEE : 3500 -> 3508
+~ __ZN7WebCore20CacheStorageProvider27DummyCacheStorageConnection14retrieveCachesERKNS_12ClientOriginEy : 3576 -> 3592
+~ __ZN7WebCore20CacheStorageProvider27DummyCacheStorageConnection15retrieveRecordsENS_16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS_22DOMCacheIdentifierTypeENS3_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEEEONS_22RetrieveRecordsOptionsE : 3540 -> 3548
+~ __ZN7WebCore22CacheStorageConnection25clearMemoryRepresentationERKNS_12ClientOriginE : 3500 -> 3508
+~ __ZN7WebCore22CacheStorageConnection20engineRepresentationEv : 3500 -> 3508
+~ __ZN3WTF13NativePromiseIN7WebCore14DOMCacheEngine30CacheIdentifierOperationResultENS2_5ErrorELj0EE12assertIsDeadEv : 224 -> 236
+~ __ZN3WTF13NativePromiseIN7WebCore14DOMCacheEngine30CacheIdentifierOperationResultENS2_5ErrorELj0EE11dispatchAllERNS_6LockerINS_4LockEEE : 3656 -> 3652
+~ __ZN3WTF6Logger3logIJA32_cNS_13NativePromiseIN7WebCore14DOMCacheEngine30CacheIdentifierOperationResultENS5_5ErrorELj0EEEA21_cPKvA11_cNS0_17LogSiteIdentifierEA2_cEEEvR13WTFLogChannel11WTFLogLevelDpRKT_ : 2548 -> 2552
+~ __ZN3WTF13NativePromiseIbN7WebCore14DOMCacheEngine5ErrorELj0EE12assertIsDeadEv : 224 -> 236
+~ __ZN3WTF13NativePromiseIbN7WebCore14DOMCacheEngine5ErrorELj0EE11dispatchAllERNS_6LockerINS_4LockEEE : 3640 -> 3636
+~ __ZN3WTF6Logger3logIJA32_cNS_13NativePromiseIbN7WebCore14DOMCacheEngine5ErrorELj0EEEA21_cPKvA11_cNS0_17LogSiteIdentifierEA2_cEEEvR13WTFLogChannel11WTFLogLevelDpRKT_ : 2548 -> 2552
+~ __ZN3WTF13NativePromiseIN7WebCore14DOMCacheEngine10CacheInfosENS2_5ErrorELj0EE12assertIsDeadEv : 224 -> 236
+~ __ZN3WTF13NativePromiseIN7WebCore14DOMCacheEngine10CacheInfosENS2_5ErrorELj0EE11dispatchAllERNS_6LockerINS_4LockEEE : 4588 -> 4584
+~ __ZN3WTF6Logger3logIJA32_cNS_13NativePromiseIN7WebCore14DOMCacheEngine10CacheInfosENS5_5ErrorELj0EEEA21_cPKvA11_cNS0_17LogSiteIdentifierEA2_cEEEvR13WTFLogChannel11WTFLogLevelDpRKT_ : 2548 -> 2552
+~ __ZN3WTF13NativePromiseINS_6VectorIN7WebCore14DOMCacheEngine17CrossThreadRecordELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEEENS3_5ErrorELj0EE12assertIsDeadEv : 224 -> 236
+~ __ZN3WTF13NativePromiseINS_6VectorIN7WebCore14DOMCacheEngine17CrossThreadRecordELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEEENS3_5ErrorELj0EE11dispatchAllERNS_6LockerINS_4LockEEE : 4356 -> 4364
+~ __ZN3WTF6Logger3logIJA32_cNS_13NativePromiseINS_6VectorIN7WebCore14DOMCacheEngine17CrossThreadRecordELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEEENS6_5ErrorELj0EEEA21_cPKvA11_cNS0_17LogSiteIdentifierEA2_cEEEvR13WTFLogChannel11WTFLogLevelDpRKT_ : 2548 -> 2552
+~ __ZN3WTF13NativePromiseINS_6VectorIyLm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEEEN7WebCore14DOMCacheEngine5ErrorELj0EE12assertIsDeadEv : 224 -> 236
+~ __ZN3WTF13NativePromiseINS_6VectorIyLm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEEEN7WebCore14DOMCacheEngine5ErrorELj0EE11dispatchAllERNS_6LockerINS_4LockEEE : 4308 -> 4304
+~ __ZN3WTF6Logger3logIJA32_cNS_13NativePromiseINS_6VectorIyLm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEEEN7WebCore14DOMCacheEngine5ErrorELj0EEEA21_cPKvA11_cNS0_17LogSiteIdentifierEA2_cEEEvR13WTFLogChannel11WTFLogLevelDpRKT_ : 2548 -> 2552
+~ __ZN3WTF13NativePromiseIvN7WebCore14DOMCacheEngine5ErrorELj0EE12assertIsDeadEv : 224 -> 236
+~ __ZN3WTF13NativePromiseIvN7WebCore14DOMCacheEngine5ErrorELj0EE11dispatchAllERNS_6LockerINS_4LockEEE : 3684 -> 3680
+~ __ZN3WTF6Logger3logIJA32_cNS_13NativePromiseIvN7WebCore14DOMCacheEngine5ErrorELj0EEEA21_cPKvA11_cNS0_17LogSiteIdentifierEA2_cEEEvR13WTFLogChannel11WTFLogLevelDpRKT_ : 2548 -> 2552
+~ __ZN3WTF13NativePromiseINS_6StringEN7WebCore14DOMCacheEngine5ErrorELj0EE12assertIsDeadEv : 224 -> 236
+~ __ZN3WTF13NativePromiseINS_6StringEN7WebCore14DOMCacheEngine5ErrorELj0EE11dispatchAllERNS_6LockerINS_4LockEEE : 4216 -> 4212
+~ __ZN3WTF6Logger3logIJA32_cNS_13NativePromiseINS_6StringEN7WebCore14DOMCacheEngine5ErrorELj0EEEA21_cPKvA11_cNS0_17LogSiteIdentifierEA2_cEEEvR13WTFLogChannel11WTFLogLevelDpRKT_ : 2548 -> 2552
+~ __ZN3WTF12StringHasher26computeHashAndMaskTop8BitsIDsNS_24ASCIICaseInsensitiveHash8FoldCaseEEEjNSt3__14spanIKT_Lm18446744073709551615EEE : 5052 -> 5032
+~ __ZN3WTF6VectorINS_9RetainPtrI28WebVideoFullscreenControllerEELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE14expandCapacityILNS_13FailureActionE0EEEPS3_mS9_ : 480 -> 488
+~ __ZN3WTF6VectorIN7WebCore20DictationAlternativeELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE14expandCapacityILNS_13FailureActionE0EEEPS2_mS8_ : 472 -> 480
+~ -[WebDatabaseManager databasesWithOrigin:] : 408 -> 404
+~ __ZN19WebDatabaseProvider18deleteAllDatabasesEv : 380 -> 384
+~ -[WebHistoryPrivate rebuildHistoryByDayIfNeeded:] : 960 -> 968
+~ -[WebHistoryPrivate orderedLastVisitedDays] : 612 -> 624
+~ -[WebHistoryPrivate data] : 920 -> 924
+~ -[WebHistoryItem(WebPrivate) children] : 208 -> 204
+~ __ZN3WTF13createNSArrayIRKNS_7HashSetINS_6StringENS_11DefaultHashIS2_EENS_10HashTraitsIS2_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1EEEEENS_9RetainPtrI14NSMutableArrayEEOT_ : 408 -> 412
+~ __ZN3WTF13createNSArrayIRNS_7HashSetINS_6StringENS_24ASCIICaseInsensitiveHashENS_10HashTraitsIS2_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1EEEEENS_9RetainPtrI14NSMutableArrayEEOT_ : 408 -> 412
+~ -[WebHTMLRepresentation elementWithName:inForm:] : 604 -> 600
+~ -[NSString(WebKitExtras) _web_drawAtPoint:font:textColor:] : 1908 -> 1904
+~ __ZN21WebNotificationClient6cancelEON7WebCore16NotificationDataE : 340 -> 344
+~ __ZN21WebNotificationClient27notificationObjectDestroyedEON7WebCore16NotificationDataE : 464 -> 468
+~ __ZN3WTF9HashTableINS_4UUIDENS_12KeyValuePairIS1_NS_9RetainPtrI15WebNotificationEEEENS_24KeyValuePairKeyExtractorIS6_EENS_11DefaultHashIS1_EENS_7HashMapIS1_S5_SA_NS_10HashTraitsIS1_EENSC_IS5_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESD_SH_E6rehashENS_7CheckedIjNS_15CrashOnOverflowEEEPS6_ : 600 -> 604
+~ __ZN6WebKit27WebStorageNamespaceProvider17closeLocalStorageEv : 376 -> 380
+~ __ZN6WebKit27WebStorageNamespaceProvider30clearLocalStorageForAllOriginsEv : 376 -> 380
+~ __ZN6WebKit27WebStorageNamespaceProvider26clearLocalStorageForOriginERKN7WebCore18SecurityOriginDataE : 392 -> 396
+~ __ZN6WebKit27WebStorageNamespaceProvider30closeIdleLocalStorageDatabasesEv : 376 -> 380
+~ __ZN6WebKit27WebStorageNamespaceProvider16syncLocalStorageEv : 376 -> 380
+~ __ZN19WebVisitedLinkStore21removeAllVisitedLinksEv : 468 -> 472
+```

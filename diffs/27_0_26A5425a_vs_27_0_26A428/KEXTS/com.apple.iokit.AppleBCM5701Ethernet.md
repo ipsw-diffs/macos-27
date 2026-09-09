@@ -1,0 +1,173 @@
+## com.apple.iokit.AppleBCM5701Ethernet
+
+> `com.apple.iokit.AppleBCM5701Ethernet`
+
+```diff
+
+   __TEXT.__os_log: 0x95
+   __TEXT.__const: 0x334
+   __TEXT.__cstring: 0x3c4c
+-  __TEXT_EXEC.__text: 0x1b9e0
++  __TEXT_EXEC.__text: 0x1bc54
+   __TEXT_EXEC.__auth_stubs: 0x8f0
+   __DATA.__data: 0x20140
+   __DATA.__common: 0x510
+Functions:
+~ __ZN11BCM5701Enet18setPromiscuousModeEb : 200 -> 204
+~ __ZN11BCM5701Enet16setMulticastListEP17IOEthernetAddressj : 156 -> 160
+~ __ZN11BCM5701Enet19mergeMulticastListsEv : 140 -> 144
+~ __ZN11BCM5701Enet16setMulticastModeEb : 128 -> 132
+~ __ZN11BCM5701Enet10putToSleepE9SleepMode : 1800 -> 1804
+~ __ZN11BCM5701Enet6wakeUpEv : 8920 -> 8928
+~ __ZN11BCM5701Enet13ConfigWrite32EP11IOPCIDevicehj : 116 -> 120
+~ __ZN11BCM5701Enet23checkForHwNotRespondingEv : 160 -> 164
+~ __ZN11BCM5701Enet12startTxTimerEb : 268 -> 272
+~ __ZN11BCM5701Enet10fillTxRingEv : 316 -> 320
+~ __ZN11BCM5701Enet11outputStartEP18IONetworkInterfacej : 100 -> 104
+~ __ZN11BCM5701Enet6enableEP16IOKernelDebugger : 140 -> 144
+~ __ZN11BCM5701Enet18configureInterfaceEP18IONetworkInterface : 624 -> 628
+~ __ZN11BCM5701Enet6enableEP18IONetworkInterface : 532 -> 536
+~ __ZN11BCM5701Enet14updateIdStringEv : 236 -> 240
+~ __ZN11BCM5701Enet13setLinkStatusEjPK15IONetworkMediumyP6OSData : 872 -> 876
+~ __ZN11BCM5701Enet12selectMediumEPK15IONetworkMedium : 812 -> 816
+~ __ZN11BCM5701Enet16setMaxPacketSizeEj : 220 -> 224
+~ __ZNK11BCM5701Enet14newModelStringEv : 324 -> 328
+~ __ZN11BCM5701Enet13newUserClientEP4taskPvjPP12IOUserClient : 544 -> 548
+~ __ZN11BCM5701Enet20callPlatformFunctionEPK8OSSymbolbPvS3_S3_S3_ : 264 -> 268
+~ __ZN11BCM5701Enet4stopEP9IOService : 180 -> 184
+~ __ZN11BCM5701Enet11DoSomethingEP8OSObjectPvS2_S2_S2_ : 10956 -> 10964
+~ __ZN11BCM5701Enet12ConfigRead16EP11IOPCIDeviceh : 100 -> 104
+~ __ZN11BCM5701Enet13ConfigWrite16EP11IOPCIDeviceht : 116 -> 120
+~ __ZN11BCM5701Enet18createMediumTablesEv : 664 -> 668
+~ __ZN11BCM5701Enet8memRdIndEj : 148 -> 152
+~ __ZN11BCM5701Enet15timeoutOccurredEP18IOTimerEventSource : 1868 -> 1872
+~ __ZN11BCM5701Enet18Copy5714StatisticsEv : 1240 -> 1244
+~ __ZN11BCM5701Enet17interruptOccurredEP22IOInterruptEventSourcei : 564 -> 568
+~ __ZN11BCM5701Enet12ConfigWrite8EP11IOPCIDevicehh : 116 -> 120
+~ __ZN11BCM5701Enet11ConfigRead8EP11IOPCIDeviceh : 100 -> 104
+~ __ZN11BCM5701Enet8regWrIndEjj : 156 -> 160
+~ __ZN11BCM5701Enet8regRdIndEj : 140 -> 144
+~ __ZN11BCM5701Enet8memWrIndEjj : 176 -> 180
+~ __ZN11BCM5701Enet5startEP9IOService : 1040 -> 1044
+~ __ZN11BCM5701Enet5probeEP9IOServicePi : 112 -> 116
+~ __ZN11BCM5701Enet13setPropertiesEP8OSObject : 472 -> 476
+~ __ZN11BCM5701Enet4initEP12OSDictionary : 388 -> 392
+~ __ZN11BCM5701Enet4freeEv : 672 -> 676
+~ __ZN11BCM5701EnetD0Ev : 68 -> 72
+~ __ZNK11BCM5701Enet9MetaClass5allocEv : 104 -> 108
+~ _GLOBAL__sub_I_BCM5701.cpp : 80 -> 84
+~ __ZN11BCM5701Enet23registerWithPolicyMakerEP9IOService : 408 -> 412
+~ __ZN11BCM5701Enet19handleSetPowerStateEPvS0_ : 196 -> 200
+~ __ZN11BCM5701Enet18setPowerStateGatedEP8OSObjectPvS2_S2_S2_ : 584 -> 588
+~ __ZN11BCM5701Enet13willTerminateEP9IOServicej : 160 -> 164
+~ __ZN11BCM5701Enet22powerStateWillChangeToEmmP9IOService : 316 -> 320
+~ __ZN11BCM5701Enet21powerStateDidChangeToEmmP9IOService : 184 -> 188
+~ __ZN11BCM5701Enet10UpdateASPMEv : 524 -> 528
+~ __ZN11BCM5701Enet10initConfigEv : 2420 -> 2424
+~ __ZN11BCM5701Enet8GrcResetEv : 1952 -> 1956
+~ __Z18GenerateMacAddressP17IOEthernetAddress : 516 -> 520
+~ __ZN11BCM5701Enet10AdjustSDXCEv : 268 -> 272
+~ __ZN11BCM5701Enet16WriteFirmwareSigEj : 116 -> 120
+~ __ZN11BCM5701Enet11SleepOrSpinEj : 136 -> 140
+~ __ZN11BCM5701Enet13updateGrcModeEj : 180 -> 184
+~ __ZN11BCM5701Enet23getConfigFromDictionaryEP12OSDictionary : 1004 -> 1008
+~ __ZL10GetBooleanP12OSDictionaryPKcPb : 128 -> 132
+~ __ZL9GetNumberP12OSDictionaryPKcPj : 128 -> 132
+~ __ZL10GetNumber8P12OSDictionaryPKcPh : 128 -> 132
+~ __ZN11BCM5701Enet10flushRingsEv : 188 -> 192
+~ __ZN11BCM5701Enet13SetMacAddressEP17IOEthernetAddress : 192 -> 200
+~ __ZN11BCM5701Enet10initRxRingEv : 492 -> 496
+~ __ZN11BCM5701Enet14setReceiveMaskEjb : 804 -> 808
+~ __ZN11BCM5701Enet16Clear5705CounterEv : 532 -> 536
+~ __ZN11BCM5701Enet15enableInterruptEv : 260 -> 264
+~ __ZL16getPacketDetailsP6__mbufPci : 1180 -> 1184
+~ __ZN11BCM5701Enet15MyAllocIOBufferEjjPmPyPPv : 884 -> 888
+~ __ZN11BCM5701Enet14MyFreeIOBufferEPv : 196 -> 200
+~ __ZN11BCM5701Enet14allocateMemoryEv : 1292 -> 1296
+~ __ZN11BCM5701Enet10freeMemoryEv : 368 -> 372
+~ __ZN11BCM5701Enet14transmitPacketEP6__mbuf : 1660 -> 1664
+~ __ZN11BCM5701Enet19transmitTimedPacketEPN20IOEthernetController19IOEthernetAVBPacketE : 404 -> 408
+~ __ZN11BCM5701Enet16pollInputPacketsEP18IONetworkInterfacejP11IOMbufQueuePv : 144 -> 148
+~ __ZN11BCM5701Enet14receivePacketsEjP11IOMbufQueueb : 3212 -> 3216
+~ __ZN11BCM5701Enet10copyToMbufEPviRP6__mbuf : 284 -> 288
+~ __ZN11BCM5701Enet19cleanupTransmitRingEjRij : 1168 -> 1172
+~ __ZN11BCM5701Enet18serviceTxInterruptEbb : 200 -> 204
+~ __ZN11BCM5701Enet10cntrlBlockEjj : 4300 -> 4304
+~ __ZN11BCM5701Enet8setPowerEj : 5196 -> 5200
+~ __ZN11BCM5701Enet14setPowerLevelsEbb : 452 -> 456
+~ __ZN11BCM5701Enet7HaltCpuEjb : 668 -> 672
+~ __ZN11BCM5701Enet27setInputPacketPollingEnableEP18IONetworkInterfaceb : 400 -> 404
+~ __ZN11BCM5701Enet10sendPacketEPvj : 624 -> 628
+~ __ZN11BCM5701Enet13receivePacketEPvPjj : 212 -> 216
+~ __ZN17BCM5701UserClient9doRequestEPvS0_yPy : 1332 -> 1336
+~ __ZN17BCM5701UserClient16getConfigurationEPvS0_yPy : 372 -> 376
+~ __ZN17BCM5701UserClient10clientDiedEv : 108 -> 112
+~ __ZN17BCM5701UserClient11clientCloseEv : 92 -> 96
+~ __ZN17BCM5701UserClient9terminateEj : 196 -> 200
+~ __ZN17BCM5701UserClient5startEP9IOService : 208 -> 212
+~ __ZN17BCM5701UserClientD0Ev : 68 -> 72
+~ __ZNK17BCM5701UserClient9MetaClass5allocEv : 104 -> 108
+~ _GLOBAL__sub_I_BCM5701UserClient.cpp : 80 -> 84
+~ __ZN17BCM5701UserClient9MetaClassC1Ev : 72 -> 76
+~ __ZN17BCM5701UserClientC2EPK11OSMetaClass : 52 -> 56
+~ __ZN17BCM5701UserClientC1EPK11OSMetaClass : 52 -> 56
+~ __ZN17BCM5701UserClient9MetaClassC2Ev : 72 -> 76
+~ __ZN17BCM5701UserClientC1Ev : 88 -> 92
+~ __ZN17BCM5701UserClientC2Ev : 88 -> 92
+~ __ZN17BCM5701UserClient8withTaskEP4task : 196 -> 200
+~ __ZN11BCM5701Enet9InitNVRamEv : 216 -> 220
+~ __ZN11BCM5701Enet7readPhyEj : 208 -> 212
+~ __ZN11BCM5701Enet8writePhyEjj : 208 -> 212
+~ __ZN11BCM5701Enet24set_sleep_status_messageEv : 500 -> 504
+~ __ZN11BCM5701Enet10linkIsDownEv : 296 -> 300
+~ __ZN11BCM5701Enet14setupCopperPhyEv : 5228 -> 5232
+~ __ZN11BCM5701Enet13setFixedSpeedEv : 1064 -> 1068
+~ __ZN11BCM5701Enet11writePhyDSPEtt : 120 -> 124
+~ __ZN11BCM5701Enet8ResetPhyEv : 1136 -> 1140
+~ __ZN11BCM5701Enet13mDNS_CallbackEP21mDNSOffloadUserClientP11mDNSHandoffPv : 6980 -> 6984
+~ __ZN11BCM5701Enet8print_rrEPKhS1_ : 904 -> 908
+~ __ZN11BCM5701Enet16print_dns_stringEPKhS1_ : 220 -> 224
+~ __ZN11BCM5701Enet14flat_append_rrEPvPP10dnsSymListPh : 604 -> 608
+~ __ZN11BCM5701Enet20flat_append_subtypesEPvPP10dnsSymListPh : 612 -> 616
+~ __ZL8dnsMatchPhS_S_S_ : 216 -> 220
+~ __ZL13dnsCopyStringPPhS_S0_S_P10dnsSymList : 396 -> 400
+~ __ZL14add_to_symListPP10dnsSymListPhS2_ : 152 -> 156
+~ __ZN11BCM5701Enet12loadFirmwareEP10FWIMG_INFOjjbb : 1564 -> 1568
+~ __ZN16BCM5701EnetClock4initEP8OSStringP12OSDictionary : 272 -> 276
+~ __ZN16BCM5701EnetClock18takeCrossTimestampERyS0_S0_ : 224 -> 228
+~ __ZN16BCM5701EnetClock5startEP9IOService : 192 -> 196
+~ __ZN16BCM5701EnetClockD0Ev : 68 -> 72
+~ __ZNK16BCM5701EnetClock9MetaClass5allocEv : 104 -> 108
+~ _GLOBAL__sub_I_BCMAVB.cpp : 80 -> 84
+~ __ZN11BCM5701Enet22updateAVBStreamFiltersEv : 500 -> 504
+~ __ZN11BCM5701Enet8setupAVBEv : 152 -> 156
+~ __ZN11BCM5701Enet15setPerfectMatchEiPK17IOEthernetAddress : 292 -> 284
+~ __ZN11BCM5701Enet22transmitTimeSyncPacketEPN20IOEthernetController19IOEthernetAVBPacketEy : 312 -> 316
+~ __ZN11BCM5701Enet23transmitRealtimePacketsEjPPN20IOEthernetController19IOEthernetAVBPacketEjbPj : 980 -> 984
+~ __ZN11BCM5701Enet20cleanupTransmitQueueEj : 640 -> 644
+~ __ZN11BCM5701Enet10DoAVBGatedEPvS0_S0_S0_ : 1264 -> 1268
+~ __ZN11BCM5701Enet17getIsAVBSupportedEv : 100 -> 104
+~ __ZN11BCM5701Enet21setAVBControllerStateE28IOEthernetControllerAVBState : 856 -> 860
+~ __ZN16BCM5701EnetClock11alloc_clockEP9IOServiceP8OSString : 300 -> 304
+~ __ZN11BCM5701Enet29setRealtimeReceiveQueueFilterEjPN20IOEthernetController33IOEthernetAVBIngressFilterElementEj : 228 -> 232
+~ __ZN11BCM5701Enet29getRealtimeReceiveQueueFilterEjPN20IOEthernetController33IOEthernetAVBIngressFilterElementEPj : 172 -> 176
+~ __ZN11BCM5701Enet36setRealtimeReceiveDestinationMACListEjP17IOEthernetAddressi : 388 -> 392
+~ __ZN11BCM5701Enet12barp_disableEv : 160 -> 164
+~ __ZN11BCM5701Enet19mDNS_FilterCallbackEP21mDNSOffloadUserClientyyPv : 284 -> 288
+~ _ethernet_LogToMessageTracer : 276 -> 280
+~ __ZN23AppleBCM5701Placeholder12selectMediumEPK15IONetworkMedium : 172 -> 176
+~ __ZN23AppleBCM5701Placeholder4stopEP9IOService : 176 -> 180
+~ __ZN23AppleBCM5701Placeholder5startEP9IOService : 104 -> 108
+~ __ZN23AppleBCM5701Placeholder11handleStartEP9IOService : 532 -> 536
+~ __ZN23AppleBCM5701Placeholder21publishToNetworkStackEv : 432 -> 436
+~ __ZN23AppleBCM5701Placeholder4freeEv : 112 -> 116
+~ __ZN23AppleBCM5701PlaceholderD0Ev : 68 -> 72
+~ __ZNK23AppleBCM5701Placeholder9MetaClass5allocEv : 104 -> 108
+~ _GLOBAL__sub_I_AppleBCM5701Placeholder.cpp : 80 -> 84
+~ __ZN23AppleBCM5701Placeholder9MetaClassC1Ev : 72 -> 76
+~ __ZN23AppleBCM5701PlaceholderC2EPK11OSMetaClass : 52 -> 56
+~ __ZN23AppleBCM5701PlaceholderC1EPK11OSMetaClass : 52 -> 56
+~ __ZN23AppleBCM5701Placeholder9MetaClassC2Ev : 72 -> 76
+~ __ZN23AppleBCM5701PlaceholderC1Ev : 88 -> 92
+~ __ZN23AppleBCM5701PlaceholderC2Ev : 88 -> 92
+```

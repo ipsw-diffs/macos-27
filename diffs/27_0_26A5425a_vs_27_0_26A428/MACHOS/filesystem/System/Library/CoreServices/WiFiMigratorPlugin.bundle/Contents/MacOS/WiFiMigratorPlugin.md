@@ -1,0 +1,7 @@
+## WiFiMigratorPlugin
+
+> `/System/Library/CoreServices/WiFiMigratorPlugin.bundle/Contents/MacOS/WiFiMigratorPlugin`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`

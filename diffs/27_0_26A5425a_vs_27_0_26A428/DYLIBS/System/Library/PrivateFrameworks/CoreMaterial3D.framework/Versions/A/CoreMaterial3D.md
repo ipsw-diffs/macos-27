@@ -1,0 +1,37 @@
+## CoreMaterial3D
+
+> `/System/Library/PrivateFrameworks/CoreMaterial3D.framework/Versions/A/CoreMaterial3D`
+
+```diff
+
+ 22.0.3.0.0
+-  __TEXT.__text: 0x4dbb0
++  __TEXT.__text: 0x4dc9c
+   __TEXT.__objc_methlist: 0xbdc
+   __TEXT.__const: 0x32c8
+   __TEXT.__swift5_typeref: 0xdd2
+Functions:
+~ _$s14CoreMaterial3D15StageReflectionV7binding6buffer8bundleIdAA13BufferBindingVSgSS_SStF : 212 -> 216
+~ _$s14CoreMaterial3D15StageReflectionV7binding7texture8bundleIdAA14TextureBindingVSgSS_SStF : 212 -> 216
+~ _$s14CoreMaterial3D19StageBindingIndicesV20calculateTotalCounts6device9functions19reservedBufferCount0k7TextureM0AA0dH0VSo9MTLDevice_p_SayAA16MaterialFunctionCGS2itKFZTf4nnnnd_n : 1780 -> 1840
+~ _$s14CoreMaterial3D17EntryPointBuilderV20generateCallSequence33_C4B593F641C4113B2FFE0ED7529547F4LL5stageSSAA20MaterialFunctionTypeO_tF : 2512 -> 2516
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF14CoreMaterial3D16ResourceLocationV_SiTg5 : 652 -> 656
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_SiTg5 : 664 -> 668
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF14CoreMaterial3D13BindingStringV_So32MTLFunctionStitchingFunctionNodeCTg5 : 712 -> 732
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF14CoreMaterial3D13BindingStringV_So11MTLFunction_pTg5 : 712 -> 732
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF14CoreMaterial3D13BindingStringV_AF06BufferM0VTg5Tm : 728 -> 744
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF14CoreMaterial3D13BindingStringV_SaySiG3arg_Si4slottTg5 : 724 -> 744
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF14CoreMaterial3D8MaterialC17BindingIdentifierV_ShySiG8batchSet_AF06BufferN9ParameterV07bindingS0tTg5 : 996 -> 1024
+~ _$ss17_NativeDictionaryV4copyyyFSS_SiTg5 : 356 -> 360
+~ _$ss17_NativeDictionaryV4copyyyFSS_14CoreMaterial3D8MaterialC23InterpolantWithArgIndexVTg5 : 444 -> 448
+~ _$ss17_NativeDictionaryV4copyyyFSS_14CoreMaterial3D11InterpolantVTg5 : 392 -> 396
+~ _$ss17_NativeDictionaryV4copyyyFSS_So32MTLFunctionStitchingFunctionNodeCTg5 : 364 -> 368
+~ _$ss17_NativeDictionaryV4copyyyFSS_So11MTLFunction_pTg5 : 364 -> 368
+~ _$ss17_NativeDictionaryV4copyyyF14CoreMaterial3D13BindingStringV_So32MTLFunctionStitchingFunctionNodeCTg5 : 388 -> 392
+~ _$ss17_NativeDictionaryV4copyyyF14CoreMaterial3D13BindingStringV_So11MTLFunction_pTg5 : 388 -> 392
+~ _$ss17_NativeDictionaryV4copyyyF14CoreMaterial3D13BindingStringV_AD06BufferF0VTg5Tm : 372 -> 376
+~ _$ss17_NativeDictionaryV4copyyyF14CoreMaterial3D13BindingStringV_SaySiG3arg_Si4slottTg5 : 396 -> 400
+~ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_14CoreMaterial3D8MaterialC17BindingIdentifierV3key_ShySiG8batchSet_AD06BufferH9ParameterV07bindingN0t5valuet_Tg504$s14ef2D8g17C27constructTypedm63Indices17entryPointBuilder9stageData10slotOffset7batchesSDyAA13h100StringVSaySiG3arg_Si0M0tGAA05EntryiJ0Vz_AA05StageL0VSiSays10ArraySliceVyAA0C8FunctionCGGtKFZSbAC0P10i18V3key_ShySiG8batchl7_AA0fP9N57V16bindingParametert5valuet_AZA__A0_A1__A3_A4_tA5_ttXEfU_Tf1nnncn_n : 1980 -> 1976
+~ _$sSlsE5split9maxSplits25omittingEmptySubsequences14whereSeparatorSay11SubSequenceQzGSi_S2b7ElementQzKXEtKFSS_Tg5 : 968 -> 972
+~ _$s14CoreMaterial3D16StitchedMaterialC26createMTLPipelineStateDesc021_996E5899A0D3D1D35D05K10B69FA775F4LL014renderPipelineH0So09MTLRenderS10DescriptorCAC06RenderS11DescriptionVn_tKF : 1988 -> 2004
+```
