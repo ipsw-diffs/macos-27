@@ -3,13 +3,13 @@
   "id": "macos-27",
   "platform": "macOS",
   "appledb_platform": "macOS",
-  "device": "Mac17,6",
+  "device": "Mac18,5",
   "major_version": 27,
   "anchor": {
-    "beta": true,
-    "build": "26A5406e",
+    "beta": false,
+    "build": "26A428",
     "rc": false,
-    "released": "2026-08-10T00:00:00Z",
-    "version": "27.0 beta 5"
+    "released": "2026-09-14T00:00:00Z",
+    "version": "27.0"
   }
 }
