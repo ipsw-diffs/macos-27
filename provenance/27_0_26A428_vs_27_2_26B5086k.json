@@ -1,0 +1,107 @@
+{
+  "catalog_commit": "7c796028220ff850bf08d253b6b9084f6ff60a96",
+  "discovery": {
+    "anchor": {
+      "appledb_path": "osFiles/macOS/26x - 27.x/26A5406e.json",
+      "beta": true,
+      "build": "26A5406e",
+      "rc": false,
+      "released": "2026-08-10T00:00:00Z",
+      "source": {
+        "input": "UniversalMac_27.0_26A5406e_Restore.ipsw",
+        "sha256": "8064e8cc9b23dcfc758f51d6ebd3e15e846baae65760bc53f1e7591ff50d56d3",
+        "size": 22743302878,
+        "url": "https://updates.cdn-apple.com/2026SummerSeed/fullrestores/140-81421/E76AF7DE-7F9D-4808-B023-AC9A8313B177/UniversalMac_27.0_26A5406e_Restore.ipsw"
+      },
+      "version": "27.0 beta 5"
+    },
+    "appledb": {
+      "commit": "80c4d6de5d2b1bbe4a0859c86fe160d1a9ef1c1d",
+      "repository": "https://github.com/littlebyteorg/appledb"
+    },
+    "appledb_platform": "macOS",
+    "device": "Mac17,6",
+    "edges": [
+      {
+        "from": {
+          "appledb_path": "osFiles/macOS/26x - 27.x/26A428.json",
+          "beta": false,
+          "build": "26A428",
+          "rc": false,
+          "released": "2026-09-14T00:00:00Z",
+          "source": {
+            "input": "UniversalMac_27.0_26A428_Restore.ipsw",
+            "sha256": "2a5d3c695d501022b7fad9adaffcf2627bcb867d993fb5662dcd41bac99a2836",
+            "size": 26626436228,
+            "url": "https://updates.cdn-apple.com/2026FallFCS/afcfc88e-bbe6-44bf-a5da-07c56eebc06c/UniversalMac_27.0_26A428_Restore.ipsw"
+          },
+          "version": "27.0"
+        },
+        "to": {
+          "appledb_path": "osFiles/macOS/26x - 27.x/26B5086k.json",
+          "beta": true,
+          "build": "26B5086k",
+          "rc": false,
+          "released": "2026-09-16T00:00:00Z",
+          "source": {
+            "input": "UniversalMac_27.2_26B5086k_Restore.ipsw",
+            "sha256": "f2eddac67569b1a5c32e2646d1495a623f9b22db533b5f933377df0856f5d2bf",
+            "size": 26538648422,
+            "url": "https://updates.cdn-apple.com/2026SummerSeed/82ade468-c7d1-4334-ba2a-83b21dfe9f46/UniversalMac_27.2_26B5086k_Restore.ipsw"
+          },
+          "version": "27.2 beta"
+        }
+      }
+    ],
+    "latest": {
+      "appledb_path": "osFiles/macOS/26x - 27.x/26B5086k.json",
+      "beta": true,
+      "build": "26B5086k",
+      "rc": false,
+      "released": "2026-09-16T00:00:00Z",
+      "source": {
+        "input": "UniversalMac_27.2_26B5086k_Restore.ipsw",
+        "sha256": "f2eddac67569b1a5c32e2646d1495a623f9b22db533b5f933377df0856f5d2bf",
+        "size": 26538648422,
+        "url": "https://updates.cdn-apple.com/2026SummerSeed/82ade468-c7d1-4334-ba2a-83b21dfe9f46/UniversalMac_27.2_26B5086k_Restore.ipsw"
+      },
+      "version": "27.2 beta"
+    },
+    "major_version": 27,
+    "platform": "macOS",
+    "schema_version": 2,
+    "source_inventory": {
+      "observed": 11,
+      "selected": 3
+    },
+    "status": "candidate",
+    "track_id": "macos-27"
+  },
+  "generator": {
+    "name": "ipsw",
+    "version": "Version: 3.1.708, BuildCommit: 84f5d9aef45149840bdd00b7b8e661088c1d6881"
+  },
+  "inputs": [
+    {
+      "role": "previous",
+      "sha256": "2a5d3c695d501022b7fad9adaffcf2627bcb867d993fb5662dcd41bac99a2836",
+      "size": 26626436228,
+      "url": "https://updates.cdn-apple.com/2026FallFCS/afcfc88e-bbe6-44bf-a5da-07c56eebc06c/UniversalMac_27.0_26A428_Restore.ipsw"
+    },
+    {
+      "role": "next",
+      "sha256": "f2eddac67569b1a5c32e2646d1495a623f9b22db533b5f933377df0856f5d2bf",
+      "size": 26538648422,
+      "url": "https://updates.cdn-apple.com/2026SummerSeed/82ade468-c7d1-4334-ba2a-83b21dfe9f46/UniversalMac_27.2_26B5086k_Restore.ipsw"
+    }
+  ],
+  "schema_version": 1,
+  "signatures": {
+    "commit": "81178cfe6c8869612ef092f6471fce3e17d95b20",
+    "repository": "https://github.com/blacktop/symbolicator"
+  },
+  "source_commit": "a0d4ee24cf559bc9ad5abfb918ae962acdd99d5b",
+  "source_tag": "payload/27_0_26A428_vs_27_2_26B5086k",
+  "workflow_commit": "817fd00b233519da580833ff625552ee0c563a5d",
+  "workflow_run": "https://github.com/ipsw-diffs/macos-27/actions/runs/35146009509"
+}

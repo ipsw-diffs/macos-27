@@ -12,7 +12,7 @@ release sequence is implied.
 
 | Device | Comparison | Manifest |
 | --- | --- | --- |
-| `Mac17,6` | [27.0 (26A5425a) → 27.0 (26A428)](diffs/27_0_26A5425a_vs_27_0_26A428/README.md) | [provenance](manifests/27_0_26A5425a_vs_27_0_26A428.json) |
+| `Mac17,6` | [27.0 (26A428) → 27.2 (26B5086k)](diffs/27_0_26A428_vs_27_2_26B5086k/README.md) | [provenance](manifests/27_0_26A428_vs_27_2_26B5086k.json) |
 
 ## Layout and integrity
 
