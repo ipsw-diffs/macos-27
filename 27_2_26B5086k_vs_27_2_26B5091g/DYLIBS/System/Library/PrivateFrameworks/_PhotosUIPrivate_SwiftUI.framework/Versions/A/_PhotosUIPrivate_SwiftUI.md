@@ -1,0 +1,140 @@
+## _PhotosUIPrivate_SwiftUI
+
+> `/System/Library/PrivateFrameworks/_PhotosUIPrivate_SwiftUI.framework/Versions/A/_PhotosUIPrivate_SwiftUI`
+
+```diff
+
+-916.41.100.0.0
+-  __TEXT.__text: 0x4ae68
++916.45.110.0.0
++  __TEXT.__text: 0x4f104
+   __TEXT.__objc_methlist: 0xab8
+-  __TEXT.__const: 0x47e0
+-  __TEXT.__constg_swiftt: 0x2140
+-  __TEXT.__swift5_typeref: 0x4ffa
+-  __TEXT.__swift5_reflstr: 0xc8b
+-  __TEXT.__swift5_fieldmd: 0x1030
++  __TEXT.__const: 0x4a88
++  __TEXT.__constg_swiftt: 0x2154
++  __TEXT.__swift5_typeref: 0x51d2
++  __TEXT.__swift5_reflstr: 0xd1b
++  __TEXT.__swift5_fieldmd: 0x1110
+   __TEXT.__swift5_builtin: 0x78
+-  __TEXT.__swift5_assocty: 0x5f8
+-  __TEXT.__cstring: 0x8d6
+-  __TEXT.__oslogstring: 0x98d
+-  __TEXT.__swift5_capture: 0x918
+-  __TEXT.__swift5_proto: 0x158
+-  __TEXT.__swift5_types: 0x17c
++  __TEXT.__swift5_assocty: 0x640
++  __TEXT.__cstring: 0x906
++  __TEXT.__oslogstring: 0xa9d
++  __TEXT.__swift5_capture: 0x974
++  __TEXT.__swift5_proto: 0x164
++  __TEXT.__swift5_types: 0x190
+   __TEXT.__swift_as_entry: 0x48
+   __TEXT.__swift_as_cont: 0x7c
+   __TEXT.__swift_as_ret: 0x34
+   __TEXT.__swift5_mpenum: 0x18
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x1c08
++  __TEXT.__unwind_info: 0x1d40
+   __TEXT.__eh_frame: 0x1204
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0xf0
+-  __DATA_CONST.__objc_classlist: 0x70
++  __DATA_CONST.__objc_classlist: 0x78
+   __DATA_CONST.__objc_protolist: 0xc0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xaa0
+   __DATA_CONST.__objc_protorefs: 0x60
+-  __DATA_CONST.__got: 0x818
+-  __AUTH_CONST.__const: 0x2e50
+-  __AUTH_CONST.__objc_const: 0x1710
++  __DATA_CONST.__got: 0x820
++  __AUTH_CONST.__const: 0x2f38
++  __AUTH_CONST.__objc_const: 0x17e8
+   __AUTH_CONST.__auth_got: 0xfa0
+   __AUTH.__objc_data: 0x600
+-  __AUTH.__data: 0xf20
+-  __DATA.__data: 0x2060
+-  __DATA.__bss: 0x2d48
++  __AUTH.__data: 0x10b0
++  __DATA.__data: 0x2130
++  __DATA.__bss: 0x2ef8
+   __DATA.__common: 0x50
++  __DATA_DIRTY.__data: 0x118
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2426
+-  Symbols:   1447
+-  CStrings:  100
++  Functions: 2548
++  Symbols:   1482
++  CStrings:  106
+ 
+Symbols:
++ __DATA__TtC24_PhotosUIPrivate_SwiftUI32PhotosComponentPresentationProxy
++ __IVARS__TtC24_PhotosUIPrivate_SwiftUI32PhotosComponentPresentationProxy
++ __METACLASS_DATA__TtC24_PhotosUIPrivate_SwiftUI32PhotosComponentPresentationProxy
++ __swift_get_extra_inhabitant_index.40Tm
++ __swift_store_extra_inhabitant_index.41Tm
++ _associated conformance 24_PhotosUIPrivate_SwiftUI0A30ComponentPresentationRegistrar08_7E6D0B1I23DB7AFB14B350375DDEE3B10LLV0cD012ViewModifierAA4BodyAeFP_AE0P0
++ _associated conformance 24_PhotosUIPrivate_SwiftUI0A34ComponentPresentationProxyModifier08_7E6D0B1J23DB7AFB14B350375DDEE3B10LLV0cD004ViewH0AA4BodyAeFP_AE0Q0
++ _symbolic Say_____G 10Foundation4UUIDV
++ _symbolic Say_____G 24_PhotosUIPrivate_SwiftUI0A26ComponentPresentationProxyC0F008_7E6D0B1I23DB7AFB14B350375DDEE3B10LLV
++ _symbolic _____ 24_PhotosUIPrivate_SwiftUI0A26ComponentPresentationProxyC
++ _symbolic _____ 24_PhotosUIPrivate_SwiftUI0A26ComponentPresentationProxyC0F008_7E6D0B1I23DB7AFB14B350375DDEE3B10LLV
++ _symbolic _____ 24_PhotosUIPrivate_SwiftUI0A30ComponentPresentationRegistrar08_7E6D0B1I23DB7AFB14B350375DDEE3B10LLV
++ _symbolic _____ 24_PhotosUIPrivate_SwiftUI0A34ComponentPresentationProxyModifier08_7E6D0B1J23DB7AFB14B350375DDEE3B10LLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV017_PhotosUIPrivate_aB0E38__Key_photosComponentPresentationProxy08_7E6D0B1M23DB7AFB14B350375DDEE3B10LLV
++ _symbolic _____Sg 24_PhotosUIPrivate_SwiftUI0A26ComponentPresentationProxyC
++ _symbolic _____yAAy_____y_____G_____y_____SgGG_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 017_PhotosUIPrivate_aB00g26ComponentPresentationProxyF008_7E6D0B1M23DB7AFB14B350375DDEE3B10LLV AA022_EnvironmentKeyWritingF0V AF0gijK0C AA017_AppearanceActionF0V
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 017_PhotosUIPrivate_aB00F30ComponentPresentationRegistrar08_7E6D0B1L23DB7AFB14B350375DDEE3B10LLV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 017_PhotosUIPrivate_aB00f26ComponentPresentationProxyD008_7E6D0B1L23DB7AFB14B350375DDEE3B10LLV
++ _symbolic _____y_____G 7SwiftUI5StateV 10Foundation4UUIDV
++ _symbolic _____y_____G 7SwiftUI9LazyStateV 017_PhotosUIPrivate_aB00E26ComponentPresentationProxyC
++ _symbolic _____y_____G 7SwiftUI9LazyStateV 10Foundation4UUIDV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation4UUIDV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24_PhotosUIPrivate_SwiftUI0D26ComponentPresentationProxyC0I008_7E6D0B1L23DB7AFB14B350375DDEE3B10LLV
++ _symbolic _____y_____GSg 7SwiftUI5StateV 10Foundation4UUIDV
++ _symbolic _____y_____SgG 7SwiftUI11EnvironmentV 017_PhotosUIPrivate_aB00D26ComponentPresentationProxyC
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV 017_PhotosUIPrivate_aB00G26ComponentPresentationProxyC
++ _symbolic _____y_____SgG 7SwiftUI7BindingV 017_PhotosUIPrivate_aB00D26ComponentPresentationProxyC
++ _symbolic _____y______G 7SwiftUI9LazyStateV7StorageO 017_PhotosUIPrivate_aB00F26ComponentPresentationProxyC
++ _symbolic _____y______G 7SwiftUI9LazyStateV7StorageO 10Foundation4UUIDV
++ _symbolic _____y______G_yXlSgt 7SwiftUI9LazyStateV7StorageO 10Foundation4UUIDV
++ _symbolic _____y_____y_____G_SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA01_C16Modifier_ContentV 017_PhotosUIPrivate_aB00J30ComponentPresentationRegistrar08_7E6D0B1P23DB7AFB14B350375DDEE3B10LLV
++ _symbolic _____y_____y_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 017_PhotosUIPrivate_aB00g26ComponentPresentationProxyF008_7E6D0B1M23DB7AFB14B350375DDEE3B10LLV AA022_EnvironmentKeyWritingF0V AF0gijK0C
++ _symbolic _____y_____y_____y_____y_____y_____G_Qo__Qo__SSSgQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AE8GridZeroE06photosJ11AssetActionyQrySo16PXAssetReferenceC_So25PXAssetsDataSourceManagerCtcFQO AeIE010withPhotosjD10ControlleryQrySo08PXPhotosdW0CcFQO AA01_e9Modifier_D0V 01_v10UIPrivate_aB00v20ComponentOneUpViewerE033_D30B50BFAACB8194026BC05BB4E77163LLV AT0V30ComponentPresentationRegistrar33_7E6D0B1D0DB7AFB14B350375DDEE3B10LLV
++ _symbolic _____y_____y_____y_____y_____yxGG_xQo______G_SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA15ModifiedContentV AcAE5sheet11isPresented0D7Dismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AA01_c9Modifier_I0V 017_PhotosUIPrivate_aB00q14ComponentSheetP0V AS0qS21PresentationRegistrar08_7E6D0B1X23DB7AFB14B350375DDEE3B10LLV
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 017_PhotosUIPrivate_aB00E34ComponentPresentationProxyModifier08_7E6D0B1L23DB7AFB14B350375DDEE3B10LLV
++ get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAE8GridZeroE06photosJ11AssetActionyQrySo16PXAssetReferenceC_So25PXAssetsDataSourceManagerCtcFQOyAeIE010withPhotosjD10ControlleryQrySo08PXPhotosdW0CcFQOyAA01_e9Modifier_D0Vy01_v10UIPrivate_aB00v20ComponentOneUpViewerE033_D30B50BFAACB8194026BC05BB4E77163LLVG_Qo__Qo__SSSgQo_AT0V30ComponentPresentationRegistrar33_7E6D0B1D0DB7AFB14B350375DDEE3B10LLVGAaDHPqd0__AaDHD3_A0_HO_A3_AA0eY0HPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA014_ViewModifier_D0Vy017_PhotosUIPrivate_aB00g26ComponentPresentationProxyF008_7E6D0B1M23DB7AFB14B350375DDEE3B10LLVGAA022_EnvironmentKeyWritingF0VyAF0gijK0CSgGGAA017_AppearanceActionF0VGAA0E0HPAqaUHPAjaUHPyHC_ApA0eF0HPyHCHC_AsaVHPyHCHC
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx017_PhotosUIPrivate_aB00F34ComponentPresentationProxyModifier08_7E6D0B1M23DB7AFB14B350375DDEE3B10LLVGAaBHPxAaBHD1__AhA0cK0HPyHCHC
++ get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA15ModifiedContentVyAcAE5sheet11isPresented0D7Dismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAA01_c9Modifier_I0Vy017_PhotosUIPrivate_aB00q14ComponentSheetP0VyxGG_xQo_AS0qS21PresentationRegistrar08_7E6D0B1X23DB7AFB14B350375DDEE3B10LLVG_SbQo_HO
++ get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA01_C16Modifier_ContentVy017_PhotosUIPrivate_aB00J30ComponentPresentationRegistrar08_7E6D0B1P23DB7AFB14B350375DDEE3B10LLVG_SbQo_HO
+- __swift_get_extra_inhabitant_index.15Tm
+- __swift_store_extra_inhabitant_index.16Tm
+- _symbolic _____y_____y_____y_____yxGG_xQo__SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AcAE5sheet11isPresented0D7Dismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AA01_C16Modifier_ContentV 017_PhotosUIPrivate_aB00p14ComponentSheetN0V
+- get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAcAE5sheet11isPresented0D7Dismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAA01_C16Modifier_ContentVy017_PhotosUIPrivate_aB00p14ComponentSheetN0VyxGG_xQo__SbQo_HO
+- get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAC8GridZeroE06photosH11AssetActionyQrySo16PXAssetReferenceC_So25PXAssetsDataSourceManagerCtcFQOyAcGE010withPhotosH17ContentControlleryQrySo08PXPhotosuV0CcFQOyAA01_c9Modifier_U0Vy01_t10UIPrivate_aB00t20ComponentOneUpViewerC033_D30B50BFAACB8194026BC05BB4E77163LLVG_Qo__Qo__SSSgQo_HO
+CStrings:
++ "Dismissed by the presentation proxy"
++ "Optional<PhotosComponentPresentationProxy>"
++ "PhotosComponentOneUpViewer: dismissed by the presentation proxy"
++ "PhotosComponentOneUpViewer: failed to resolve asset for identifier: %{public}s"
++ "PhotosComponentOneUpViewer: presentation denied"
++ "PhotosComponentOneUpViewer: presentation no longer wanted"
++ "Presentation no longer wanted; skipping"
+- "PhotosComponentOneUpViewer: failed to resolve asset for identifier %{public}s"
+```

@@ -1,0 +1,49 @@
+## com.apple.iokit.IOMobileGraphicsFamily-DCP
+
+> `com.apple.iokit.IOMobileGraphicsFamily-DCP`
+
+```diff
+
+-700.50.103.0.0
+-  __TEXT.__cstring: 0x5fe2
++700.50.104.0.0
++  __TEXT.__cstring: 0x609d
+   __TEXT.__const: 0x32e8
+-  __TEXT_EXEC.__text: 0x2acd4
++  __TEXT_EXEC.__text: 0x2ad0c
+   __TEXT_EXEC.__auth_stubs: 0xf00
+   __DATA.__data: 0xe8
+   __DATA.__common: 0x2720
+
+   __DATA_CONST.__auth_ptr: 0x8
+   Functions: 801
+   Symbols:   1442
+-  CStrings:  498
++  CStrings:  500
+ 
+Symbols:
++ __ZZ21notify_event_callbackP8OSObjectP20IOSurfaceSharedEventyyE21kalloc_type_view_7767
++ __ZZN21IOMobileFramebufferAP13spinner_setupEvE21kalloc_type_view_6446
++ __ZZN21IOMobileFramebufferAP13spinner_setupEvE21kalloc_type_view_6494
++ __ZZN21IOMobileFramebufferAP16spinner_teardownEvE21kalloc_type_view_6500
++ __ZZN21IOMobileFramebufferAP16spinner_teardownEvE21kalloc_type_view_6529
++ __ZZN21IOMobileFramebufferAP17shared_event_waitEPN5IOMFB2AP11SharedEventEP9IOSurfaceP18IOMFBSwapIORequestjjb27IOMFBSharedEventTraceSourceE21kalloc_type_view_7897
++ __ZZN21IOMobileFramebufferAP18flush_cached_stateEvE21kalloc_type_view_2500
++ __ZZN21IOMobileFramebufferAP18flush_cached_stateEvE21kalloc_type_view_2520
++ __ZZN21IOMobileFramebufferAP25shared_event_signal_abortEPN5IOMFB2AP11SharedEventEP9IOSurfacejjb27IOMFBSharedEventTraceSourceE21kalloc_type_view_8027
+- __ZZ21notify_event_callbackP8OSObjectP20IOSurfaceSharedEventyyE21kalloc_type_view_7768
+- __ZZN21IOMobileFramebufferAP13spinner_setupEvE21kalloc_type_view_6447
+- __ZZN21IOMobileFramebufferAP13spinner_setupEvE21kalloc_type_view_6495
+- __ZZN21IOMobileFramebufferAP16spinner_teardownEvE21kalloc_type_view_6501
+- __ZZN21IOMobileFramebufferAP16spinner_teardownEvE21kalloc_type_view_6530
+- __ZZN21IOMobileFramebufferAP17shared_event_waitEPN5IOMFB2AP11SharedEventEP9IOSurfaceP18IOMFBSwapIORequestjjb27IOMFBSharedEventTraceSourceE21kalloc_type_view_7898
+- __ZZN21IOMobileFramebufferAP18flush_cached_stateEvE21kalloc_type_view_2501
+- __ZZN21IOMobileFramebufferAP18flush_cached_stateEvE21kalloc_type_view_2521
+- __ZZN21IOMobileFramebufferAP25shared_event_signal_abortEPN5IOMFB2AP11SharedEventEP9IOSurfacejjb27IOMFBSharedEventTraceSourceE21kalloc_type_view_8028
+Functions:
+~ __ZN19AppleDCPLinkService21bring_up_link_serviceEb : 140 -> 152
+~ __ZZN19AppleDCPLinkService19power_state_handlerEmmEN3$_08__invokeEP8OSObjectPvS3_S3_S3_ : 304 -> 348
+CStrings:
++ "AppleDCPLinkService: endpoint power-down entered with driver_power set, this wait cannot complete: this=%p power2=%d"
++ "AppleDCPLinkService: hibernate-resume re-start of link service failed"
+```

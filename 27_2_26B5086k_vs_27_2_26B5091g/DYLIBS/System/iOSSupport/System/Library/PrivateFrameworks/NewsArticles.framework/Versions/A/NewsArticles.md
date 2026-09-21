@@ -1,0 +1,113 @@
+## NewsArticles
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/NewsArticles.framework/Versions/A/NewsArticles`
+
+```diff
+
+-5960.0.0.0.0
+-  __TEXT.__text: 0x3604c0
+-  __TEXT.__objc_methlist: 0x79b4
+-  __TEXT.__const: 0x2b8e4
++5962.0.0.0.0
++  __TEXT.__text: 0x35fc18
++  __TEXT.__objc_methlist: 0x79c4
++  __TEXT.__const: 0x2b924
+   __TEXT.__cstring: 0x1029a
+-  __TEXT.__constg_swiftt: 0x11b24
+-  __TEXT.__swift5_typeref: 0xd8d8
+-  __TEXT.__swift5_fieldmd: 0xedf4
+-  __TEXT.__swift5_reflstr: 0xd2fa
++  __TEXT.__constg_swiftt: 0x11b48
++  __TEXT.__swift5_typeref: 0xd828
++  __TEXT.__swift5_fieldmd: 0xee34
++  __TEXT.__swift5_reflstr: 0xd31a
+   __TEXT.__swift5_builtin: 0x5dc
+   __TEXT.__swift5_assocty: 0x1618
+   __TEXT.__swift5_protos: 0x534
+-  __TEXT.__swift5_proto: 0x1e90
+-  __TEXT.__swift5_types: 0x1158
++  __TEXT.__swift5_proto: 0x1e94
++  __TEXT.__swift5_types: 0x115c
+   __TEXT.__oslogstring: 0x3105
+-  __TEXT.__swift5_capture: 0x49d0
++  __TEXT.__swift5_capture: 0x4970
+   __TEXT.__swift5_mpenum: 0x15c
+-  __TEXT.__swift_as_entry: 0x278
+-  __TEXT.__swift_as_cont: 0x5a0
++  __TEXT.__swift_as_entry: 0x274
++  __TEXT.__swift_as_cont: 0x59c
+   __TEXT.__swift_as_ret: 0x294
+-  __TEXT.__unwind_info: 0xfeb0
+-  __TEXT.__eh_frame: 0xcc7c
++  __TEXT.__unwind_info: 0xfe68
++  __TEXT.__eh_frame: 0xcc5c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x8d8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4dd8
++  __DATA_CONST.__objc_selrefs: 0x4de0
+   __DATA_CONST.__objc_protorefs: 0x4a0
+   __DATA_CONST.__objc_superrefs: 0x10
+   __DATA_CONST.__objc_arraydata: 0x28
+-  __DATA_CONST.__got: 0x3a98
+-  __AUTH_CONST.__const: 0x1bdb0
++  __DATA_CONST.__got: 0x3a58
++  __AUTH_CONST.__const: 0x1bdc0
+   __AUTH_CONST.__cfstring: 0x4c0
+-  __AUTH_CONST.__objc_const: 0x25398
++  __AUTH_CONST.__objc_const: 0x253b0
+   __AUTH_CONST.__objc_doubleobj: 0x30
+   __AUTH_CONST.__objc_arrayobj: 0x30
+-  __AUTH_CONST.__auth_got: 0x6198
+-  __AUTH.__objc_data: 0x3438
+-  __AUTH.__data: 0x81d8
++  __AUTH_CONST.__auth_got: 0x6128
++  __AUTH.__objc_data: 0x32f0
++  __AUTH.__data: 0x81b8
+   __DATA.__objc_ivar: 0x30
+-  __DATA.__data: 0x9638
++  __DATA.__data: 0x95d8
+   __DATA.__objc_stublist: 0x18
+-  __DATA.__bss: 0x22750
++  __DATA.__bss: 0x22650
+   __DATA.__common: 0x288
+-  __DATA_DIRTY.__objc_data: 0x33e8
+-  __DATA_DIRTY.__data: 0x14c80
+-  __DATA_DIRTY.__bss: 0xfba8
++  __DATA_DIRTY.__objc_data: 0x3530
++  __DATA_DIRTY.__data: 0x14c60
++  __DATA_DIRTY.__bss: 0xfd28
+   __DATA_DIRTY.__common: 0x288
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 18210
++  Functions: 18193
+   Symbols:   8465
+   CStrings:  1419
+ 
+Symbols:
++ __swift_closure_destructor.156Tm
++ _symbolic _____ 12NewsArticles10NowPlayingO8Snapshot33_4BBC3C9FE7900BE83F33085C0558EC6ALLV
++ _symbolic _____Sg 12NewsArticles10NowPlayingO8Snapshot33_4BBC3C9FE7900BE83F33085C0558EC6ALLV
++ _symbolic _____y__________y_____y_____y_xG_____y_____GGACy_____y__________GACy_____y_____yADy__________y_____SgGGG______Qo_ACy_____y_____y_xGSiGACyAOyAPGACy_____yAP_Qo_ACyADyADyAOy_____y_x_GG_____ySbGG_____GACy_____ACy_____y_xG_____GGGGGGGGGGSg 11MediaCoreUI12ViewProviderV AA18NowPlayingLookupIDV AA01_dH4NodeV 05SwiftC015ModifiedContentV 12NewsArticles0fG0O013PublisherLogoD0V AH26_PreferenceWritingModifierV AH23PreferredColorSchemeKeyV AH012_ConditionalM0V AM06NoticeD0V AH05EmptyD0V AH0D0PAHE11buttonStyleyQrqd__AH20PrimitiveButtonStyleRd__lFQO AH6ButtonV AH5ImageV AH012_EnvironmentxsT0V AH4FontV AH16PlainButtonStyleV AH6IDViewV AM4MenuV AA0fg6HostedM12ToggleButtonC7contentQrvpQO AM10ControllerC19PlayNextButtonLabel33_4BBC3C9FE7900BE83F33085C0558EC6ALLV AH012_Environmentx9TransformT0V AH14_OpacityEffectV AM011SpeedPickerD0V AM07ArtworkD0V AA01_dH4TailV
++ _symbolic _____y_____y_____y_xG_____y_____GGAAy_____y__________GAAy_____y_____yABy__________y_____SgGGG______Qo_AAy_____y_____y_xGSiGAAyAMyANGAAy_____yAN_Qo_AAyAByAByAMy_____y_x_GG_____ySbGG_____GAAy_____AAy_____y_xG_____GGGGGGGGG 11MediaCoreUI15_ViewLookupNodeV 05SwiftC015ModifiedContentV 12NewsArticles10NowPlayingO013PublisherLogoD0V AD26_PreferenceWritingModifierV AD23PreferredColorSchemeKeyV AD012_ConditionalI0V AI06NoticeD0V AD05EmptyD0V AD0D0PADE11buttonStyleyQrqd__AD20PrimitiveButtonStyleRd__lFQO AD6ButtonV AD5ImageV AD012_EnvironmentvqR0V AD4FontV AD16PlainButtonStyleV AD6IDViewV AI4MenuV AA0lm6HostedI12ToggleButtonC7contentQrvpQO AI10ControllerC19PlayNextButtonLabel33_4BBC3C9FE7900BE83F33085C0558EC6ALLV AD012_Environmentv9TransformR0V AD14_OpacityEffectV AI011SpeedPickerD0V AI07ArtworkD0V AA01_dE4TailV
++ _type_layout_string 12NewsArticles10NowPlayingO8Snapshot33_4BBC3C9FE7900BE83F33085C0558EC6ALLV
++ get_witness_table 12NewsArticles16NowPlayableTrackRzl11MediaCoreUI15_ViewLookupNodeVy05SwiftH015ModifiedContentVyAA0C7PlayingO013PublisherLogoI0Vy_xGAF26_PreferenceWritingModifierVyAF23PreferredColorSchemeKeyVGGAEyAF012_ConditionalN0VyAJ06NoticeI0VAF05EmptyI0VGAEyAF0I0PAFE11buttonStyleyQrqd__AF20PrimitiveButtonStyleRd__lFQOyAF6ButtonVyAHyAF5ImageVAF012_EnvironmentxsT0VyAF4FontVSgGGG_AF16PlainButtonStyleVQo_AEyAF6IDViewVyAJ4MenuVy_xGSiGAEyA4_yA6_GAEyAC0co6HostedN12ToggleButtonC7contentQrvpQOyA6__Qo_AEyAHyAHyA4_yAJ10ControllerC19PlayNextButtonLabel33_4BBC3C9FE7900BE83F33085C0558EC6ALLVy_x_GGAF012_Environmentx9TransformT0VySbGGAF14_OpacityEffectVGAEyAJ011SpeedPickerI0VAEyAJ07ArtworkI0Vy_xGAC01_iJ4TailVGGGGGGGGGAC0iJ0HPyHC
++ keypath_set.39Tm
+- __swift_closure_destructor.151Tm
+- _symbolic _____ 11MediaCoreUI21NowPlayingSpeedPickerC
+- _symbolic _____y__________y_____y_____y_Qo______y_____y_____GGG______Qo_G 7SwiftUI19_ConditionalContentV 12NewsArticles10NowPlayingO15SpeedPickerViewV AA0K0PAAE11hoverEffect_9isEnabledQrqd___SbtAA011CustomHoverM0Rd__lFQO AA08ModifiedD0V 09MediaCoreB00ghiJ0C7content15activeIndicatorQrAR06ActiveW0V_tFQO AA01_D17ShapeKindModifierV AA06OffsetY0V AA6CircleV AA09AutomaticqM0V
+- _symbolic _____y__________y_____y_____y_xG_____y_____GGACy_____y__________GACy_____y_____yADy__________y_____SgGGG______Qo_ACy_____y_____y_xGSiGACyAOyAPGACy_____yAP_Qo_ACyADyADyAOy_____y_x_GG_____ySbGG_____GACyAKy__________yADy_____y_Qo______y_____y_____GGG______Qo_GACy_____y_xG_____GGGGGGGGGGSg 11MediaCoreUI12ViewProviderV AA18NowPlayingLookupIDV AA01_dH4NodeV 05SwiftC015ModifiedContentV 12NewsArticles0fG0O013PublisherLogoD0V AH26_PreferenceWritingModifierV AH23PreferredColorSchemeKeyV AH012_ConditionalM0V AM06NoticeD0V AH05EmptyD0V AH0D0PAHE11buttonStyleyQrqd__AH20PrimitiveButtonStyleRd__lFQO AH6ButtonV AH5ImageV AH012_EnvironmentxsT0V AH4FontV AH16PlainButtonStyleV AH6IDViewV AM4MenuV AA0fg6HostedM12ToggleButtonC7contentQrvpQO AM10ControllerC19PlayNextButtonLabel33_4BBC3C9FE7900BE83F33085C0558EC6ALLV AH012_Environmentx9TransformT0V AH14_OpacityEffectV AM011SpeedPickerD0V A_AHE11hoverEffect_9isEnabledQrqd___SbtAH17CustomHoverEffectRd__lFQO AA0fG11SpeedPickerCA18_15activeIndicatorQrA34_15ActiveIndicatorV_tFQO AH01_m9ShapeKindT0V AH11OffsetShapeV AH6CircleV AH20AutomaticHoverEffectV AM07ArtworkD0V AA01_dH4TailV
+- _symbolic _____y_____y_____y_xG_____y_____GGAAy_____y__________GAAy_____y_____yABy__________y_____SgGGG______Qo_AAy_____y_____y_xGSiGAAyAMyANGAAy_____yAN_Qo_AAyAByAByAMy_____y_x_GG_____ySbGG_____GAAyAIy__________yABy_____y_Qo______y_____y_____GGG______Qo_GAAy_____y_xG_____GGGGGGGGG 11MediaCoreUI15_ViewLookupNodeV 05SwiftC015ModifiedContentV 12NewsArticles10NowPlayingO013PublisherLogoD0V AD26_PreferenceWritingModifierV AD23PreferredColorSchemeKeyV AD012_ConditionalI0V AI06NoticeD0V AD05EmptyD0V AD0D0PADE11buttonStyleyQrqd__AD20PrimitiveButtonStyleRd__lFQO AD6ButtonV AD5ImageV AD012_EnvironmentvqR0V AD4FontV AD16PlainButtonStyleV AD6IDViewV AI4MenuV AA0lm6HostedI12ToggleButtonC7contentQrvpQO AI10ControllerC19PlayNextButtonLabel33_4BBC3C9FE7900BE83F33085C0558EC6ALLV AD012_Environmentv9TransformR0V AD14_OpacityEffectV AI011SpeedPickerD0V AwDE11hoverEffect_9isEnabledQrqd___SbtAD17CustomHoverEffectRd__lFQO AA0lM11SpeedPickerCA14_15activeIndicatorQrA30_15ActiveIndicatorV_tFQO AD01_i9ShapeKindR0V AD11OffsetShapeV AD6CircleV AD20AutomaticHoverEffectV AI07ArtworkD0V AA01_dE4TailV
+- get_witness_table 12NewsArticles16NowPlayableTrackRzl11MediaCoreUI15_ViewLookupNodeVy05SwiftH015ModifiedContentVyAA0C7PlayingO013PublisherLogoI0Vy_xGAF26_PreferenceWritingModifierVyAF23PreferredColorSchemeKeyVGGAEyAF012_ConditionalN0VyAJ06NoticeI0VAF05EmptyI0VGAEyAF0I0PAFE11buttonStyleyQrqd__AF20PrimitiveButtonStyleRd__lFQOyAF6ButtonVyAHyAF5ImageVAF012_EnvironmentxsT0VyAF4FontVSgGGG_AF16PlainButtonStyleVQo_AEyAF6IDViewVyAJ4MenuVy_xGSiGAEyA4_yA6_GAEyAC0co6HostedN12ToggleButtonC7contentQrvpQOyA6__Qo_AEyAHyAHyA4_yAJ10ControllerC19PlayNextButtonLabel33_4BBC3C9FE7900BE83F33085C0558EC6ALLVy_x_GGAF012_Environmentx9TransformT0VySbGGAF14_OpacityEffectVGAEyAUyAJ011SpeedPickerI0VA0_AFE11hoverEffect_9isEnabledQrqd___SbtAF17CustomHoverEffectRd__lFQOyAHyAC0cO11SpeedPickerCA27_15activeIndicatorQrA49_15ActiveIndicatorV_tFQOy_Qo_AF01_n9ShapeKindT0VyAF11OffsetShapeVyAF6CircleVGGG_AF20AutomaticHoverEffectVQo_GAEyAJ07ArtworkI0Vy_xGAC01_iJ4TailVGGGGGGGGGAC0iJ0HPyHC
+- keypath_get.106Tm
+- keypath_set.36Tm
+```

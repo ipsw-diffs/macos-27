@@ -1,0 +1,16 @@
+## PlatformSSOUIAgent
+
+> `/System/Library/PrivateFrameworks/PlatformSSO.framework/Support/PlatformSSOUIAgent.app/Contents/MacOS/PlatformSSOUIAgent`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-643.40.23.0.0
++643.40.27.0.0
+   __TEXT.__text: 0x3c28
+   __TEXT.__auth_stubs: 0x750
+   __TEXT.__objc_stubs: 0xa0
+```

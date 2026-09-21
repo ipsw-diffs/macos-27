@@ -1,0 +1,169 @@
+## libANGLE-shared.dylib
+
+> `/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework/Versions/A/Frameworks/libANGLE-shared.dylib`
+
+```diff
+
+-625.2.4.1.0
+-  __TEXT.__text: 0x24f064
+-  __TEXT.__const: 0x83740
+-  __TEXT.__cstring: 0x44dee
+-  __TEXT.__gcc_except_tab: 0x2c98
++625.2.5.11.1
++  __TEXT.__text: 0x24fb50
++  __TEXT.__const: 0x83700
++  __TEXT.__cstring: 0x44f7d
++  __TEXT.__gcc_except_tab: 0x2c94
+   __TEXT.__oslogstring: 0xf
+-  __TEXT.__unwind_info: 0x95e8
++  __TEXT.__unwind_info: 0x95e0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_methname: 0x0
+-  __DATA_CONST.__const: 0x12f58
++  __DATA_CONST.__const: 0x12f50
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x838
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x15db8
++  __AUTH_CONST.__const: 0x15d78
+   __AUTH_CONST.__cfstring: 0xa20
+   __AUTH_CONST.__weak_auth_got: 0x30
+-  __AUTH_CONST.__auth_got: 0x658
+-  __DATA.__data: 0x25ef0
++  __AUTH_CONST.__auth_got: 0x668
++  __DATA.__data: 0x6110
+   __DATA.__bss: 0x24
+   __DATA.__common: 0x35c
+-  __DATA_DIRTY.__data: 0xc70
++  __DATA_DIRTY.__data: 0x20a50
+   __DATA_DIRTY.__bss: 0x1b0
+   __DATA_DIRTY.__common: 0x578
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  Functions: 9081
+-  Symbols:   13487
+-  CStrings:  7015
++  Functions: 9077
++  Symbols:   13489
++  CStrings:  7024
+ 
+Symbols:
++ GCC_except_table100
++ GCC_except_table104
++ GCC_except_table106
++ GCC_except_table108
++ GCC_except_table120
++ GCC_except_table126
++ __ZN2gl12AddYUVFormatEPNSt3__113unordered_mapIjNS1_IjNS_14InternalFormatENS0_4hashIjEENS0_8equal_toIjEENS0_9allocatorINS0_4pairIKjS2_EEEEEES4_S6_NS7_INS8_IS9_SC_EEEEEEjbjjjjjjjjbPFbRKNS_7VersionERKNS_10ExtensionsEE
++ __ZN2gl12_GLOBAL__N_133CheckAttachmentSampleCompletenessEPKNS_7ContextERKNS_21FramebufferAttachmentEP8OptionalIiEPS7_IbES9_
++ __ZN2gl17AddPalettedFormatEPNSt3__113unordered_mapIjNS1_IjNS_14InternalFormatENS0_4hashIjEENS0_8equal_toIjEENS0_9allocatorINS0_4pairIKjS2_EEEEEES4_S6_NS7_INS8_IS9_SC_EEEEEEjjjjjPFbRKNS_7VersionERKNS_10ExtensionsEE
++ __ZN2gl19AddCompressedFormatEPNSt3__113unordered_mapIjNS1_IjNS_14InternalFormatENS0_4hashIjEENS0_8equal_toIjEENS0_9allocatorINS0_4pairIKjS2_EEEEEES4_S6_NS7_INS8_IS9_SC_EEEEEEjjjjjjbPFbRKNS_7VersionERKNS_10ExtensionsEE
++ __ZN2gl21AddDepthStencilFormatEPNSt3__113unordered_mapIjNS1_IjNS_14InternalFormatENS0_4hashIjEENS0_8equal_toIjEENS0_9allocatorINS0_4pairIKjS2_EEEEEES4_S6_NS7_INS8_IS9_SC_EEEEEEjbjjjjjjPFbRKNS_7VersionERKNS_10ExtensionsEESO_SO_
++ __ZN2gl5State25onCurrentExecutableRelinkEv
++ __ZN2gl5StateC2EPKS0_PN3egl10ShareGroupEPNS_14TextureManagerEPNS_16SemaphoreManagerEPNS3_12ContextMutexERKNS_7VersionEbbbbbjbbbb
++ __ZN2gl7Context9syncStateEN5angle7BitSetTILm64EymEENS2_ILm14EjmEERKNS2_ILm12EymEENS_7CommandE
++ __ZN2glL13AddLUMAFormatEPNSt3__113unordered_mapIjNS1_IjNS_14InternalFormatENS0_4hashIjEENS0_8equal_toIjEENS0_9allocatorINS0_4pairIKjS2_EEEEEES4_S6_NS7_INS8_IS9_SC_EEEEEEjbjjjjjPFbRKNS_7VersionERKNS_10ExtensionsEESO_
++ __ZN2glL14ETC2EACSupportERKNS_7VersionERKNS_10ExtensionsE
++ __ZN2rx10ContextMtl9syncStateEPKN2gl7ContextEN5angle7BitSetTILm64EymEES7_NS6_ILm14EjmEES8_NS1_7CommandE
++ __ZN2rx21RemoveArraySubscriptsERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
++ __ZN2rx29GetExtractedStructSamplerNameENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPNS0_13unordered_mapIS6_mNS0_4hashIS6_EENS0_8equal_toIS6_EENS4_INS0_4pairIKS6_mEEEEEE
++ __ZN2rx3mtlL23MSLGetMappedSamplerNameERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPNS1_13unordered_mapIS7_mNS1_4hashIS7_EENS1_8equal_toIS7_EENS5_INS1_4pairIS8_mEEEEEE
++ __ZN2sh12_GLOBAL__N_121GetTypeComponentCountERKNS_5TTypeE
++ __ZN2sh12_GLOBAL__N_124ClampIndirectIndicesImplEPNS_9TCompilerEPNS_11TIntermNodeEPNS_12TSymbolTableENS0_14ExtDrawBuffersE
++ __ZN2sh13TParseContext25addAndCheckOutputVaryingsERKNS_9TVariableERKNS_10TSourceLocE
++ __ZN2sh13TParseContext34checkClipCullDistanceWholeArrayUseERKNS_10TSourceLocEPNS_12TIntermTypedEPKc
++ __ZN2sh20ClampIndirectIndicesEPNS_9TCompilerEPNS_11TIntermNodeEPNS_12TSymbolTableERKNSt3__13mapINS_10TExtensionENS_9TBehaviorENS6_4lessIS8_EENS6_9allocatorINS6_4pairIKS8_S9_EEEEEE
++ __ZN2sh27kExtractedSamplerNamePrefixE
++ __ZN5angle10FastVectorIN2rx12_GLOBAL__N_117IndexRewriteRangeELm4ENSt3__15arrayIS3_Lm4EEEE17increase_capacityEm
++ __ZN5angle13GenerateCRC32EPKhm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_mEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_mEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_mEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE8__rehashILb1EEEvm
++ __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEy
++ __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmNS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_mEEEEEixERSC_
++ __ZNSt3__15dequeIjNS_9allocatorIjEEE9pop_frontEv
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_mEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9sqn220106IJRKNS_21piecewise_construct_tENS_5tupleIJRSB_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlSR_SP_OSS_OST_E_clESR_SP_S14_S15_
++ _crc32_z
+- GCC_except_table101
+- GCC_except_table105
+- GCC_except_table107
+- GCC_except_table109
+- GCC_except_table121
+- _GL_CoverageModulationCHROMIUM
+- __ZN2gl12AddYUVFormatEPNSt3__113unordered_mapIjNS1_IjNS_14InternalFormatENS0_4hashIjEENS0_8equal_toIjEENS0_9allocatorINS0_4pairIKjS2_EEEEEES4_S6_NS7_INS8_IS9_SC_EEEEEEjbjjjjjjjjbPFbRKNS_7VersionERKNS_10ExtensionsEESO_SO_SO_SO_
+- __ZN2gl12_GLOBAL__N_133CheckAttachmentSampleCompletenessEPKNS_7ContextERKNS_21FramebufferAttachmentEbP8OptionalIiEPS7_IbES9_
+- __ZN2gl17AddPalettedFormatEPNSt3__113unordered_mapIjNS1_IjNS_14InternalFormatENS0_4hashIjEENS0_8equal_toIjEENS0_9allocatorINS0_4pairIKjS2_EEEEEES4_S6_NS7_INS8_IS9_SC_EEEEEEjjjjjPFbRKNS_7VersionERKNS_10ExtensionsEESO_SO_SO_SO_
+- __ZN2gl19AddCompressedFormatEPNSt3__113unordered_mapIjNS1_IjNS_14InternalFormatENS0_4hashIjEENS0_8equal_toIjEENS0_9allocatorINS0_4pairIKjS2_EEEEEES4_S6_NS7_INS8_IS9_SC_EEEEEEjjjjjjbPFbRKNS_7VersionERKNS_10ExtensionsEESO_SO_SO_SO_
+- __ZN2gl21AddDepthStencilFormatEPNSt3__113unordered_mapIjNS1_IjNS_14InternalFormatENS0_4hashIjEENS0_8equal_toIjEENS0_9allocatorINS0_4pairIKjS2_EEEEEES4_S6_NS7_INS8_IS9_SC_EEEEEEjbjjjjjjPFbRKNS_7VersionERKNS_10ExtensionsEESO_SO_SO_SO_
+- __ZN2gl34ValidateCoverageModulationCHROMIUMERKNS_12PrivateStateEPNS_8ErrorSetEN5angle10EntryPointEj
+- __ZN2gl5StateC2EPKS0_PN3egl10ShareGroupEPNS_14TextureManagerEPNS_16SemaphoreManagerEPNS3_12ContextMutexEPKNS_11MockOverlayERKNS_7VersionEbbbbbjbbbb
+- __ZN2gl7Context9syncStateEN5angle7BitSetTILm64EymEENS2_ILm15EjmEERKNS2_ILm12EymEENS_7CommandE
+- __ZN2glL13AddLUMAFormatEPNSt3__113unordered_mapIjNS1_IjNS_14InternalFormatENS0_4hashIjEENS0_8equal_toIjEENS0_9allocatorINS0_4pairIKjS2_EEEEEES4_S6_NS7_INS8_IS9_SC_EEEEEEjbjjjjjPFbRKNS_7VersionERKNS_10ExtensionsEESO_SO_SO_SO_
+- __ZN2glL14ETC2EACSupportIXadL_ZNS_10Extensions28compressedETC2RGB8TextureOESEEEEEbRKNS_7VersionERKS1_
+- __ZN2glL14ETC2EACSupportIXadL_ZNS_10Extensions29compressedETC2RGBA8TextureOESEEEEEbRKNS_7VersionERKS1_
+- __ZN2glL14ETC2EACSupportIXadL_ZNS_10Extensions29compressedETC2SRGB8TextureOESEEEEEbRKNS_7VersionERKS1_
+- __ZN2glL14ETC2EACSupportIXadL_ZNS_10Extensions32compressedEACR11SignedTextureOESEEEEEbRKNS_7VersionERKS1_
+- __ZN2glL14ETC2EACSupportIXadL_ZNS_10Extensions33compressedEACRG11SignedTextureOESEEEEEbRKNS_7VersionERKS1_
+- __ZN2glL14ETC2EACSupportIXadL_ZNS_10Extensions34compressedEACR11UnsignedTextureOESEEEEEbRKNS_7VersionERKS1_
+- __ZN2glL14ETC2EACSupportIXadL_ZNS_10Extensions35compressedEACRG11UnsignedTextureOESEEEEEbRKNS_7VersionERKS1_
+- __ZN2glL14ETC2EACSupportIXadL_ZNS_10Extensions35compressedETC2SRGB8Alpha8TextureOESEEEEEbRKNS_7VersionERKS1_
+- __ZN2glL14ETC2EACSupportIXadL_ZNS_10Extensions42compressedETC2PunchthroughARGBA8TextureOESEEEEEbRKNS_7VersionERKS1_
+- __ZN2glL14ETC2EACSupportIXadL_ZNS_10Extensions47compressedETC2PunchthroughASRGB8AlphaTextureOESEEEEEbRKNS_7VersionERKS1_
+- __ZN2glL14RequireESOrExtILh3ELh0EXadL_ZNS_10Extensions17depthTextureANGLEEEEEEbRKNS_7VersionERKS1_
+- __ZN2rx10ContextMtl13createOverlayERKN2gl12OverlayStateE
+- __ZN2rx10ContextMtl9syncStateEPKN2gl7ContextEN5angle7BitSetTILm64EymEES7_NS6_ILm15EjmEES8_NS1_7CommandE
+- __ZN2rx11OverlayImpl9onDestroyEPKN2gl7ContextE
+- __ZN2rx11OverlayImplD0Ev
+- __ZN2rx11OverlayImplD1Ev
+- __ZN2rx3mtlL23MSLGetMappedSamplerNameERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN2sh20ClampIndirectIndicesEPNS_9TCompilerEPNS_11TIntermNodeEPNS_12TSymbolTableE
+- __ZTVN2rx11OverlayImplE
+CStrings:
++ " bytes)."
++ " bytes). Program binary will not be saved"
++ ", actual size = "
++ ", computed CRC = "
++ "01872091b79bdf6da3e442f8b3bacf58"
++ "1.5 (ANGLE 2.1.28468 git hash: ff4855759c68)"
++ "2.1.28468 git hash: ff4855759c68"
++ "CRC mismatch after decompression (expected CRC = "
++ "Cannot pass to function unless it is explicitly sized"
++ "Cannot use as left-hand side of assignment unless it is explicitly sized"
++ "Cannot use as right-hand side of assignment unless it is explicitly sized"
++ "Decompressed size mismatch (expected size = "
++ "Failed to allocate enough memory to compress the expected blob size. ("
++ "Failed to compress program binary ("
++ "Failed to decompress program binary."
++ "Failed to load program binary. Invalid magic value ("
++ "Failed to trim program binary to actual size. ("
++ "Program binary is too large to serialize ("
++ "Program binary is too small to load ("
++ "Too many declared shader output varying components for this device"
++ "Uncompressed program binary too large ("
++ "compressProgramBinaryBlob"
++ "loadBinary"
++ "redeclaration of gl_ClipDistance after it is referenced is not allowed"
++ "redeclaration of gl_CullDistance after it is referenced is not allowed"
++ "serialize"
+- "1.5 (ANGLE 2.1.28348 git hash: ef84704aca05)"
+- "2.1.28348 git hash: ef84704aca05"
+- "Framebuffer is incomplete: Depth stencil sample count must be divisible by the color sample count."
+- "GL_CHROMIUM_framebuffer_mixed_samples"
+- "GL_OES_compressed_EAC_R11_signed_texture"
+- "GL_OES_compressed_EAC_R11_unsigned_texture"
+- "GL_OES_compressed_EAC_RG11_signed_texture"
+- "GL_OES_compressed_EAC_RG11_unsigned_texture"
+- "GL_OES_compressed_ETC2_RGB8_texture"
+- "GL_OES_compressed_ETC2_RGBA8_texture"
+- "GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture"
+- "GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture"
+- "GL_OES_compressed_ETC2_sRGB8_alpha8_texture"
+- "GL_OES_compressed_ETC2_sRGB8_texture"
+- "b8f157704d8970fda9f98f7adab5ead8"
+- "components is not one of GL_RGB, GL_RGBA, GL_ALPHA or GL_NONE."
+- "glCoverageModulationCHROMIUM"
+```

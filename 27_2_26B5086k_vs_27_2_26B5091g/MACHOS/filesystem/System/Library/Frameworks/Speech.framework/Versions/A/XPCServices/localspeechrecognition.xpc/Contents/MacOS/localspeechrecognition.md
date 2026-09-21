@@ -1,0 +1,140 @@
+## localspeechrecognition
+
+> `/System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_types2`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__data`
+
+```diff
+
+-3605.18.1.0.0
+-  __TEXT.__text: 0x72890
++3605.21.1.0.0
++  __TEXT.__text: 0x73784
+   __TEXT.__auth_stubs: 0x1f70
+   __TEXT.__objc_stubs: 0x5c20
+-  __TEXT.__objc_methlist: 0x193c
+-  __TEXT.__const: 0x1b98
++  __TEXT.__objc_methlist: 0x1964
++  __TEXT.__const: 0x1bb8
+   __TEXT.__objc_classname: 0xa18
+-  __TEXT.__objc_methname: 0x7ea5
+-  __TEXT.__objc_methtype: 0x218b
+-  __TEXT.__constg_swiftt: 0x1df0
++  __TEXT.__objc_methname: 0x7ec5
++  __TEXT.__objc_methtype: 0x216b
++  __TEXT.__constg_swiftt: 0x1e00
+   __TEXT.__swift5_typeref: 0x1308
+   __TEXT.__swift5_reflstr: 0x15d3
+   __TEXT.__swift5_fieldmd: 0xed4
+   __TEXT.__swift5_builtin: 0x50
+   __TEXT.__swift5_assocty: 0xd8
+-  __TEXT.__oslogstring: 0x3570
++  __TEXT.__oslogstring: 0x3560
+   __TEXT.__cstring: 0x2c92
+   __TEXT.__swift5_proto: 0x84
+   __TEXT.__swift5_types: 0xbc
+-  __TEXT.__swift5_capture: 0x1284
++  __TEXT.__swift5_capture: 0x13a4
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__swift_as_entry: 0xd0
+-  __TEXT.__swift_as_ret: 0x94
+-  __TEXT.__swift_as_cont: 0xc0
++  __TEXT.__swift_as_entry: 0xd8
++  __TEXT.__swift_as_ret: 0x9c
++  __TEXT.__swift_as_cont: 0xcc
+   __TEXT.__swift5_types2: 0x4
+   __TEXT.__gcc_except_tab: 0x4f4
+-  __TEXT.__unwind_info: 0x1e20
+-  __TEXT.__eh_frame: 0x2020
+-  __DATA_CONST.__const: 0x4000
++  __TEXT.__unwind_info: 0x1e68
++  __TEXT.__eh_frame: 0x2140
++  __DATA_CONST.__const: 0x4280
+   __DATA_CONST.__cfstring: 0x7a0
+   __DATA_CONST.__objc_classlist: 0x130
+   __DATA_CONST.__objc_catlist: 0x10
+
+   __DATA_CONST.__objc_superrefs: 0x20
+   __DATA_CONST.__objc_intobj: 0x30
+   __DATA_CONST.__auth_got: 0xfc8
+-  __DATA_CONST.__got: 0x9f8
++  __DATA_CONST.__got: 0x9f0
+   __DATA_CONST.__auth_ptr: 0x398
+-  __DATA.__objc_const: 0x3958
+-  __DATA.__objc_selrefs: 0x1b50
++  __DATA.__objc_const: 0x3960
++  __DATA.__objc_selrefs: 0x1b58
+   __DATA.__objc_ivar: 0x94
+-  __DATA.__objc_data: 0x1a10
++  __DATA.__objc_data: 0x1a20
+   __DATA.__data: 0x3060
+   __DATA.__bss: 0x1010
+   __DATA.__common: 0x268
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2694
+-  Symbols:   6133
+-  CStrings:  1882
++  Functions: 2758
++  Symbols:   6158
++  CStrings:  1884
+ 
+Symbols:
++ $s22localspeechrecognition12SERecognizerC19configureJitProfile33_F770B3D26E206272C31FC46B43636F07LL11jitEntities10clientInfo_yShySSG_So017_SFAnalyzerClientQ0CySaySaySfGG_SaySSGtXEtYaFZAHycfu_TA
++ $s22localspeechrecognition12SERecognizerC19configureJitProfile33_F770B3D26E206272C31FC46B43636F07LL11jitEntities10clientInfo_yShySSG_So017_SFAnalyzerClientQ0CySaySaySfGG_SaySSGtXEtYaFZSdycfu0_TA
++ $s22localspeechrecognition12SERecognizerC19configureJitProfile33_F770B3D26E206272C31FC46B43636F07LL11jitEntities10clientInfo_yShySSG_So017_SFAnalyzerClientQ0CySaySaySfGG_SaySSGtXEtYaFZSiycfu1_TA
++ $s22localspeechrecognition12SERecognizerC19configureJitProfile33_F770B3D26E206272C31FC46B43636F07LL11jitEntities10clientInfo_yShySSG_So017_SFAnalyzerClientQ0CySaySaySfGG_SaySSGtXEtYaFZs5Error_pycfu2_TA
++ $s2os14OSLogArgumentsV6appendyySdycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_ShySSG_Tg5TA
++ $s2os18OSLogInterpolationV06appendC0_6format5align7privacyySdyXA_AA0B15FloatFormattingVAA0B15StringAlignmentVAA0B7PrivacyVtFSdycfu_TA
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.114TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.114Tu
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/SpeechFramework/install/TempContent/Objects/SpeechRecognition.build/localspeechrecognition.build/Objects-normal/arm64e/LSRUtilities-62d43e97423bc76a6ecaea3f82aa452b.o
++ _$s22localspeechrecognition12SERecognizerC16updateJitProfileyyShySSGF
++ _$s22localspeechrecognition12SERecognizerC16updateJitProfileyyShySSGFTo
++ _$s22localspeechrecognition12SERecognizerC16updateJitProfileyyShySSGFTq
++ _$s22localspeechrecognition12SERecognizerC16updateJitProfileyyShySSGFyyYacfU_
++ _$s22localspeechrecognition12SERecognizerC16updateJitProfileyyShySSGFyyYacfU_TA
++ _$s22localspeechrecognition12SERecognizerC16updateJitProfileyyShySSGFyyYacfU_TATQ0_
++ _$s22localspeechrecognition12SERecognizerC16updateJitProfileyyShySSGFyyYacfU_TATu
++ _$s22localspeechrecognition12SERecognizerC16updateJitProfileyyShySSGFyyYacfU_TQ0_
++ _$s22localspeechrecognition12SERecognizerC16updateJitProfileyyShySSGFyyYacfU_Tu
++ _$s22localspeechrecognition12SERecognizerC19configureJitProfile33_F770B3D26E206272C31FC46B43636F07LL11jitEntities10clientInfo_yShySSG_So017_SFAnalyzerClientQ0CySaySaySfGG_SaySSGtXEtYaFZ028$s22localspeechrecognition12b9C16updated28ProfileyyShySSGFyyYacfU_ySayz5SfGG_Z9SSGtXEfU_12SpeechEngine17SpeechRecognizing_pSgXwz_XxTf1nncn_n
++ _$s22localspeechrecognition12SERecognizerC19configureJitProfile33_F770B3D26E206272C31FC46B43636F07LL11jitEntities10clientInfo_yShySSG_So017_SFAnalyzerClientQ0CySaySaySfGG_SaySSGtXEtYaFZ028$s22localspeechrecognition12b9C16updated28ProfileyyShySSGFyyYacfU_ySayz5SfGG_Z9SSGtXEfU_12SpeechEngine17SpeechRecognizing_pSgXwz_XxTf1nncn_nTQ1_
++ _$s22localspeechrecognition12SERecognizerC19configureJitProfile33_F770B3D26E206272C31FC46B43636F07LL11jitEntities10clientInfo_yShySSG_So017_SFAnalyzerClientQ0CySaySaySfGG_SaySSGtXEtYaFZ028$s22localspeechrecognition12b9C16updated28ProfileyyShySSGFyyYacfU_ySayz5SfGG_Z9SSGtXEfU_12SpeechEngine17SpeechRecognizing_pSgXwz_XxTf1nncn_nTY0_
++ _$s22localspeechrecognition12SERecognizerC19configureJitProfile33_F770B3D26E206272C31FC46B43636F07LL11jitEntities10clientInfo_yShySSG_So017_SFAnalyzerClientQ0CySaySaySfGG_SaySSGtXEtYaFZ028$s22localspeechrecognition12b9C16updated28ProfileyyShySSGFyyYacfU_ySayz5SfGG_Z9SSGtXEfU_12SpeechEngine17SpeechRecognizing_pSgXwz_XxTf1nncn_nTY2_
++ _$s22localspeechrecognition12SERecognizerC19configureJitProfile33_F770B3D26E206272C31FC46B43636F07LL11jitEntities10clientInfo_yShySSG_So017_SFAnalyzerClientQ0CySaySaySfGG_SaySSGtXEtYaFZ028$s22localspeechrecognition12b9C16updated28ProfileyyShySSGFyyYacfU_ySayz5SfGG_Z9SSGtXEfU_12SpeechEngine17SpeechRecognizing_pSgXwz_XxTf1nncn_nTY3_
++ _$s22localspeechrecognition12SERecognizerC19configureJitProfile33_F770B3D26E206272C31FC46B43636F07LL11jitEntities10clientInfo_yShySSG_So017_SFAnalyzerClientQ0CySaySaySfGG_SaySSGtXEtYaFZ028$s22localspeechrecognition12b9C16updated28ProfileyyShySSGFyyYacfU_ySayz5SfGG_Z9SSGtXEfU_12SpeechEngine17SpeechRecognizing_pSgXwz_XxTf1nncn_nTu
++ _$s22localspeechrecognition19EARSpeechRecognizerC16updateJitProfileyyShySSGF
++ _$s22localspeechrecognition19EARSpeechRecognizerC16updateJitProfileyyShySSGFTo
++ _$s22localspeechrecognition19EARSpeechRecognizerC16updateJitProfileyyShySSGFTq
++ __swift_closure_destructor.182Tm
++ __swift_closure_destructor.50Tm
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/SpeechFramework/install/TempContent/Objects/SpeechRecognition.build/localspeechrecognition.build/Objects-normal/arm64e/LSRUtilities-36718e8b62f0c62c9bef9bc5760a0338.o
+- _$s22localspeechrecognition17SelfLoggingHelperC02isC10Prohibited33_1EF20FBC7F7D316DF9EF210D23239B8DLLySbSo30SISchemaInstrumentationMessageC_SSSgtFZ
+- _$s22localspeechrecognition17SelfLoggingHelperC15nonTier1Message33_1EF20FBC7F7D316DF9EF210D23239B8DLLySbSo023SISchemaInstrumentationG0CFZ
+- _OBJC_CLASS_$_ASRSchemaASRAssetLoadContext
+- __swift_closure_destructor.114Tm
+CStrings:
++ "Logging prohibited for task: %s"
++ "Vv24@0:8@\"NSSet\"16"
++ "updateJitProfile:"
+- "Logging prohibited for event:%@ task:%s"
+```

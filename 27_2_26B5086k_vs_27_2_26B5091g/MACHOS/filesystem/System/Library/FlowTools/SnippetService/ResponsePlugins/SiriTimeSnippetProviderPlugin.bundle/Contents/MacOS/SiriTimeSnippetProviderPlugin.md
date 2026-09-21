@@ -1,0 +1,32 @@
+## SiriTimeSnippetProviderPlugin
+
+> `/System/Library/FlowTools/SnippetService/ResponsePlugins/SiriTimeSnippetProviderPlugin.bundle/Contents/MacOS/SiriTimeSnippetProviderPlugin`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+ 3605.9.1.0.0
+-  __TEXT.__text: 0x3595c
++  __TEXT.__text: 0x35960
+   __TEXT.__auth_stubs: 0x10d0
+   __TEXT.__objc_stubs: 0x140
+   __TEXT.__const: 0x1444
+Symbols:
++ _$s18AppIntentsServices0A20IntentPerformOptionsV19allowLiveActivities019allowsPrepareBeforeE024assistantDismissalPolicy21confirmationCondition26connectionOperationTimeout18donateToTranscript19executionIdentifier19exportedContentType15interactionMode4kind015preferredBundleY024preferNoticePresentation015processInstanceY021requestUnlockIfNeeded18snippetEnvironmentACSb_SbSo011LNAssistantnO0VSgSo029LNActionExecutionConfirmationQ0VSdSbSg10Foundation4UUIDVSg22UniformTypeIdentifiers6UTTypeVSgSo17LNInteractionModeVSo22LNTranscriptActionKindVSSSgSbA9_SbAA18SnippetEnvironmentVSgtcfC
+- _$s18AppIntentsServices0A20IntentPerformOptionsV19allowLiveActivities019allowsPrepareBeforeE024assistantDismissalPolicy21confirmationCondition26connectionOperationTimeout18donateToTranscript19executionIdentifier19exportedContentType15interactionMode4kind015preferredBundleY024preferNoticePresentation21requestUnlockIfNeeded18snippetEnvironmentACSb_SbSo011LNAssistantnO0VSgSo029LNActionExecutionConfirmationQ0VSdSbSg10Foundation4UUIDVSg22UniformTypeIdentifiers6UTTypeVSgSo17LNInteractionModeVSo22LNTranscriptActionKindVSSSgS2bAA18SnippetEnvironmentVSgtcfC
+Functions:
+~ _$s29SiriTimeSnippetProviderPlugin09StopwatchC7HandlerV6handle7payload7context0A7KitFlow6Output_p012IntelligenceL014SystemResponseV_0l5ToolsC7Service0cR7ContextVtYaFTY0_ : 1580 -> 1584
+```

@@ -1,0 +1,628 @@
+## AppKit
+
+> `/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__ustring`
+
+```diff
+
+-2775.20.109.2.0
+-  __TEXT.__text: 0x126d810
+-  __TEXT.__objc_methlist: 0xe7068
+-  __TEXT.__const: 0x380a0
++2775.20.110.0.0
++  __TEXT.__text: 0x12753f4
++  __TEXT.__objc_methlist: 0xe7278
++  __TEXT.__const: 0x381a0
+   __TEXT.__dlopen_cstrs: 0x1a51
+-  __TEXT.__cstring: 0xce537
+-  __TEXT.__swift5_typeref: 0x14916
+-  __TEXT.__swift5_reflstr: 0xd148
++  __TEXT.__cstring: 0xce779
++  __TEXT.__swift5_typeref: 0x149c2
++  __TEXT.__swift5_reflstr: 0xd168
+   __TEXT.__swift5_assocty: 0x3a80
+   __TEXT.__constg_swiftt: 0x1639c
+-  __TEXT.__swift5_fieldmd: 0xefc8
++  __TEXT.__swift5_fieldmd: 0xefe0
+   __TEXT.__swift5_builtin: 0xc44
+   __TEXT.__swift5_proto: 0x2018
+   __TEXT.__swift5_types: 0x1348
+-  __TEXT.__swift5_capture: 0x51f8
+-  __TEXT.__swift5_mpenum: 0x90
+-  __TEXT.__oslogstring: 0x269aa
++  __TEXT.__swift5_capture: 0x5240
+   __TEXT.__swift5_protos: 0x1c4
+-  __TEXT.__gcc_except_tab: 0xd1864
++  __TEXT.__gcc_except_tab: 0xd1a20
++  __TEXT.__swift5_mpenum: 0x90
++  __TEXT.__oslogstring: 0x26a1d
+   __TEXT.__swift_as_entry: 0x154
+-  __TEXT.__swift_as_cont: 0x224
+   __TEXT.__swift_as_ret: 0x12c
++  __TEXT.__swift_as_cont: 0x224
+   __TEXT.__swift5_types2: 0x4
+   __TEXT.__ustring: 0x1eda
+   __TEXT.__dof_NSTrackin: 0x7e7
+   __TEXT.__dof_NSApplica: 0x809
+   __TEXT.__dof_NSAccessi: 0x1eb
+-  __TEXT.__unwind_info: 0x74368
+-  __TEXT.__eh_frame: 0x85d8
++  __TEXT.__unwind_info: 0x74538
++  __TEXT.__eh_frame: 0x861c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xbbd0
+-  __DATA_CONST.__objc_classlist: 0x55f0
++  __DATA_CONST.__const: 0xbbe8
++  __DATA_CONST.__objc_classlist: 0x5600
+   __DATA_CONST.__objc_nlclslist: 0x20
+   __DATA_CONST.__objc_catlist: 0x228
+-  __DATA_CONST.__objc_protolist: 0x15c0
++  __DATA_CONST.__objc_protolist: 0x15c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x55a08
++  __DATA_CONST.__objc_selrefs: 0x55ad8
+   __DATA_CONST.__objc_protorefs: 0x8a8
+-  __DATA_CONST.__objc_superrefs: 0x40d8
++  __DATA_CONST.__objc_superrefs: 0x40d0
+   __DATA_CONST.__objc_arraydata: 0x5238
+-  __DATA_CONST.__got: 0x6ac8
+-  __AUTH_CONST.__const: 0x50e30
+-  __AUTH_CONST.__cfstring: 0xa02c0
+-  __AUTH_CONST.__objc_const: 0x120e78
++  __DATA_CONST.__got: 0x6ae8
++  __AUTH_CONST.__const: 0x50ed8
++  __AUTH_CONST.__cfstring: 0xa0360
++  __AUTH_CONST.__objc_const: 0x1210f8
+   __AUTH_CONST.__weak_auth_got: 0x18
+   __AUTH_CONST.__objc_intobj: 0x2eb0
+   __AUTH_CONST.__objc_dictobj: 0x820
+   __AUTH_CONST.__objc_doubleobj: 0x450
+   __AUTH_CONST.__objc_arrayobj: 0x1e18
+   __AUTH_CONST.__objc_floatobj: 0x20
+-  __AUTH_CONST.__auth_got: 0xa200
+-  __AUTH.__objc_data: 0x3a2d0
+-  __AUTH.__data: 0x9900
+-  __DATA.__objc_ivar: 0x832c
+-  __DATA.__data: 0x1fa30
++  __AUTH_CONST.__auth_got: 0xa280
++  __AUTH.__objc_data: 0x3a398
++  __AUTH.__data: 0x98f8
++  __DATA.__objc_ivar: 0x8324
++  __DATA.__data: 0x1fae8
+   __DATA.__crash_info: 0x148
+-  __DATA.__bss: 0x3d218
+-  __DATA.__common: 0x1673
+-  __DATA_DIRTY.__objc_ivar: 0x4840
++  __DATA.__bss: 0x3d240
++  __DATA.__common: 0x1683
++  __DATA_DIRTY.__objc_ivar: 0x4854
+   __DATA_DIRTY.__objc_data: 0xb680
+-  __DATA_DIRTY.__data: 0x37c8
++  __DATA_DIRTY.__data: 0x3818
+   __DATA_DIRTY.__common: 0x1d0
+-  __DATA_DIRTY.__bss: 0x84e8
++  __DATA_DIRTY.__bss: 0x84d0
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+   - /System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility
+   - /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 108364
+-  Symbols:   166917
+-  CStrings:  27717
++  Functions: 108476
++  Symbols:   167002
++  CStrings:  27728
+ 
+Symbols:
++ +[_NSFlexiglassInteractionDriverEvent driverEventWithGestureState:startLocationInScreen:currentLocationInScreen:]
++ -[NSCampoTextSuggestionsViewController _sendIsCollapsedToProxy]
++ -[NSCarbonMenuImpl _popUpMenuRelativeToRect:inView:preferredEdge:flags:options:]
++ -[NSCocoaMenuImpl _popUpMenuRelativeToRect:inView:preferredEdge:flags:options:]
++ -[NSCollectionView _canScrollContentAtPoint:]
++ -[NSCollectionView(NSGestureRecognizerDelegatePrivate) _validateGestureRecognizer:atPoint:viewFromTouch:]
++ -[NSCollectionViewFlowLayout _hasScrollableCollapsedSectionContainingPoint:]
++ -[NSFontPanel .cxx_destruct]
++ -[NSMenu _popUpMenuAtLocation:view:selectedItemIndexProvider:minimumWidth:font:flags:options:]
++ -[NSMenu _popUpMenuRelativeToRect:inView:preferredEdge:flags:options:]
++ -[NSNextStepFrame _hitTestToBlockWindowResizingForResizeDirection:context:]
++ -[NSNextStepFrame hitTestForContext:]
++ -[NSOutlineView _legacyDragDataSourceSelector]
++ -[NSOutlineView _modernDragDataSourceSelector]
++ -[NSPopover _newDismissalGestureRecognizer]
++ -[NSPopover _updateDismissalGestureRecognizer]
++ -[NSRemoteSavePanel _notifyHostShowsHiddenFilesChanged:]
++ -[NSScrollView _canScrollContentAtPoint:]
++ -[NSScrollView _setTouchCaughtDeceleration:]
++ -[NSScrollView _touchCaughtDeceleration]
++ -[NSScrollingBehaviorConcurrentVBL _gestureMonitorIfExists]
++ -[NSTableView _handleDragPanGestureRecognizer:]
++ -[NSTableView _handleDragPressGestureRecognizer:]
++ -[NSTableView _legacyDragDataSourceSelector]
++ -[NSTableView _modernDragDataSourceSelector]
++ -[NSTableView _warnIfDataSourceLacksModernDragSupport:]
++ -[NSTextSelectionManager _trackingClipViewBoundsDidChange:]
++ -[NSTextSelectionManager setTrackingGesture:]
++ -[NSTextSelectionManager trackingGesture]
++ -[NSView _usesFocusRingForPunchOut]
++ -[NSWindow(NSForSwiftUI) _isHostedViewSceneWindow]
++ -[NSWindow(NSWindowResizing) _isPointInResizeRegion:forDirectTouch:]
++ -[_NSFlexiglassInteractionDriverEvent currentLocationInScreen]
++ -[_NSFlexiglassInteractionDriverEvent setCurrentLocationInScreen:]
++ -[_NSFlexiglassInteractionDriverEvent setStartLocationInScreen:]
++ -[_NSFlexiglassInteractionDriverEvent startLocationInScreen]
++ -[_NSTableViewPanGestureRecognizer _shouldRecognizeForDelta:]
++ -[_NSTextMultiTapGestureRecognizer touch]
++ -[_NSThemeWidget _usesFocusRingForPunchOut]
++ GCC_except_table1001
++ GCC_except_table1018
++ GCC_except_table1031
++ GCC_except_table1046
++ GCC_except_table1049
++ GCC_except_table1055
++ GCC_except_table1061
++ GCC_except_table1062
++ GCC_except_table1074
++ GCC_except_table1077
++ GCC_except_table1078
++ GCC_except_table1080
++ GCC_except_table1081
++ GCC_except_table1093
++ GCC_except_table1099
++ GCC_except_table1100
++ GCC_except_table1101
++ GCC_except_table1102
++ GCC_except_table1112
++ GCC_except_table1116
++ GCC_except_table1119
++ GCC_except_table1120
++ GCC_except_table1123
++ GCC_except_table1126
++ GCC_except_table1130
++ GCC_except_table1132
++ GCC_except_table1140
++ GCC_except_table1144
++ GCC_except_table1154
++ GCC_except_table1155
++ GCC_except_table1157
++ GCC_except_table1161
++ GCC_except_table1163
++ GCC_except_table1165
++ GCC_except_table1167
++ GCC_except_table1169
++ GCC_except_table1177
++ GCC_except_table1178
++ GCC_except_table1179
++ GCC_except_table1180
++ GCC_except_table1186
++ GCC_except_table1192
++ GCC_except_table1200
++ GCC_except_table1203
++ GCC_except_table1204
++ GCC_except_table1206
++ GCC_except_table1207
++ GCC_except_table1220
++ GCC_except_table1226
++ GCC_except_table1228
++ GCC_except_table1229
++ GCC_except_table1235
++ GCC_except_table1237
++ GCC_except_table1238
++ GCC_except_table1239
++ GCC_except_table1256
++ GCC_except_table1266
++ GCC_except_table558
++ GCC_except_table584
++ GCC_except_table656
++ GCC_except_table689
++ GCC_except_table700
++ GCC_except_table720
++ GCC_except_table721
++ GCC_except_table736
++ GCC_except_table741
++ GCC_except_table754
++ GCC_except_table755
++ GCC_except_table773
++ GCC_except_table782
++ GCC_except_table783
++ GCC_except_table807
++ GCC_except_table837
++ GCC_except_table856
++ GCC_except_table880
++ GCC_except_table902
++ GCC_except_table903
++ GCC_except_table906
++ GCC_except_table920
++ GCC_except_table933
++ GCC_except_table955
++ GCC_except_table965
++ GCC_except_table969
++ GCC_except_table974
++ GCC_except_table982
++ GCC_except_table983
++ OBJC_IVAR_$_NSTextSelectionManager._trackingGesture
++ OBJC_IVAR_$__NSFlexiglassInteractionDriver._flexStartLocation
++ OBJC_IVAR_$__NSFlexiglassInteractionDriverEvent._currentLocationInScreen
++ OBJC_IVAR_$__NSFlexiglassInteractionDriverEvent._startLocationInScreen
++ WarnDeprecatedAPI_dragImageForRows._onceToken_59
++ _NSImmediateTouchDragWhenNotScrollable
++ _NSPopUpMenuExclusionRect
++ _OBJC_CLASS_$__NSTableViewPanGestureRecognizer
++ _OBJC_CLASS_$__NSTransformGestureRecognizer
++ _OBJC_METACLASS_$__NSTableViewPanGestureRecognizer
++ _OBJC_METACLASS_$__NSTransformGestureRecognizer
++ __105-[NSCollectionView(NSGestureRecognizerDelegatePrivate) _validateGestureRecognizer:atPoint:viewFromTouch:]_block_invoke
++ __CLASS_PROPERTIES_NSThemeWidgetAquaduckVisualProvider
++ __DATA__NSTransformGestureRecognizer
++ __INSTANCE_METHODS__NSTransformGestureRecognizer
++ __IVARS__NSTransformGestureRecognizer
++ __METACLASS_DATA__NSTransformGestureRecognizer
++ __NSOpenAndSavePanelServiceRequestsUpdateShowsHiddenFiles
++ __OBJC_$_CATEGORY_NSMutableArray_$_NSMutableRangeArray
++ __OBJC_$_CLASS_METHODS_NSBrowser(NSAnimation|NSBrowserAccessibility|NSIBBrowserIntegration|Debugging)
++ __OBJC_$_CLASS_METHODS_NSButton(NSGlassAwareView|NSIBButtonIntegration|NSButtonAmberSupport|CompressibleUserInterfaceItemSupport|NSGestureRecognizerSupport)
++ __OBJC_$_CLASS_METHODS_NSButtonCell(Swift|NSButtonCellAccessibility|_NSTableViewPrivate|NSButtonCellLegacyAndCompatibility|NSButtonCellAnimationSPI|NSDeprecated|NSButtonCell_ForInterfaceBuilder|NSButtonAnimations|Debugging)
++ __OBJC_$_CLASS_METHODS_NSControl(NSControlAccessibility|NSObjectAccessibilityChildHelpers|NSControlAccessibilityAdditions|NSControlDebugShowInfo|NSConstraintBasedLayout|NSConstraintBasedLayoutInternal|NSControlEvents|Debugging|_NSTracking|NSExposedForCatalyst)
++ __OBJC_$_CLASS_METHODS_NSResponder(NSDPTestSupport|GestureRecognizers_For_Emulation_Private|NSColorFactorySupport|NSInterfaceStyle|NSTouchBarFinder|_NSResponderDebugging|NSViewHosting|NSResponderDebug|NSErrorPresentationAdditions|Gesture_bincompat|NSUIActivityProvider|NSRestorableState|NSPersistentUISupport|NSTouchBarProvider|NSIBResponderIntegration|NSQuickAction|_NSQuickActionItemSource)
++ __OBJC_$_CLASS_METHODS_NSScroller(NSCurrentClickBehavior|NSScroller_Performance|NSScrollerAccessibility|Debugging)
++ __OBJC_$_CLASS_METHODS_NSScrubber(NSScrubberAccessibility|NSTouchBarColorListPicker|NSScrubberDeprecated|NSScrubberPressAndHold)
++ __OBJC_$_CLASS_METHODS_NSSearchFieldCell(NSSearchButtonCellProxy|NSSearchFieldCellAccessibility|Debugging|NSSearchFieldCell_Local|NSSearchFieldCellProKitExtras)
++ __OBJC_$_CLASS_METHODS_NSSegmentedCell(NSSegmentedCellAccessibility|Debugging|StaticMethods|PrivatePressure|LegacyDrawing|Aquaduck)
++ __OBJC_$_CLASS_METHODS_NSSegmentedControl(NSGlassAwareView|NSIBSegmentedControlIntegration|SpringLoading|NSSegmentedControlConvenience|NSGestureRecognizerSupport)
++ __OBJC_$_CLASS_METHODS_NSSlider(NSSliderAccessibility|NSIBSliderIntegration|NSTickMarkLayoutPoints|NSSliderConvenience|NSTouchBarIncrements|NSSliderDelegate|NSGestureRecognizerSupport|NSSliderAccessoryContainer)
++ __OBJC_$_CLASS_METHODS_NSSwitch(NSSwitchAccessibility|Aquaduck)
++ __OBJC_$_CLASS_METHODS_NSTableView(AppKit|AppKit1|NSSwiftImplementation|NSTableViewNonARC|NSInternal_SourceList_Transmorphing|NSInternal_StylesSupport|NSTableViewInternalsInTheWild|NSTableViewAccessibility|NSDeprecatedInternal|NSTableViewViewBased|Debugging)
++ __OBJC_$_CLASS_METHODS_NSTextField(AppKit|AppKit1|AppKit2|AppKit3|AppKit4|AppKit5|AppKit6|AppKit7|NSGlassAwareView|NSIBTextFieldIntegration|NSTextFieldObsolete|NSTextFieldConvenience|NSTextFieldConvenienceDeprecated|NSTextFieldPrivateConvenience|TextSuggestionsAggregation)
++ __OBJC_$_CLASS_METHODS_NSView(CoordinateSpace|AppKit|Interactions_Private|Interactions_Internal|NSObservationTracking|AppKit1|AppIntentsAnnotationsDebugDescription|AppKit2|AppKit3|AppKit4|NSSwiftImplementation|_NSViewMaterialBackdropContext|NSScrollPocket_Internal|AppKit5|AppKit6|AppKit7|NSScrollAnimationHelperFinished|extension|NSOpenGLInternal|CacheDisplay_Internal|CacheDisplay|NSTrackingArea|NSTrackingArea_Internal|NSTrackingAreaRoot|NSFindIndicator|GestureRecognizers_For_Emulation_Private|NSViewDumpDisplayList|NSViewMightNeedToClipToBounds|_UIViewLayoutFeedbackDebuggingSupport|NSViewEnclosingMenuItem|NSSurface|NSPrivateSurfaceColorSpaceSupport|NSPressureConfiguration|NSViewShowKeyboardUI|NSViewDebugMetricsOverlay|NSViewDebugMetricsOverlay_ForIB|NSViewDebugWindowManager|NSViewDebugShowGestureRecognizers|NSViewDebugShowAllDrawing|NSViewDebugShowAllDrawing_ForIB|NSViewDebugDescriptions|NSOpenGLContextAssociation|NSExtendedDynamicRange|NSViewGlassContext|NSViewGlassContextInternal|NSFocusEngine_Private|NSFocusEngine_Internal|NSResponderDebug|NSWritingToolsCoordinator|GeometryInWindowNotifications|AnimatedTextPhrases|__NSTextViewCompatibility|NSStandardWindowButtons|NSHeartBeat|NSPrivateIBSupport|NSPrivateClipPath|NSPrivateFocusRingSupport|NSPrivateJavaSupport|NSDefinition|NSViewControllerSupport|NSViewInsetVisibleRect|NSViewMinSizeMeasurement|NSViewPresentationState|NSViewContentStyle|NSViewTableSelectionState|NSViewTitlebarForcedDividers|NSViewCenteredToolbarItem|NSTouchBarAccidentalTouchMitigation|NSHitTestingPrivate|NSPrivateLayerSupport|AppIntents|NSContentSizeCategory_ToBeAPI|NSViewCornerConfigurations|CornerConfiguration|NSContentSizeCategory_Internal|NSViewAccessibility|Legacy|RecommendedDrawableSize|NSDrag|NSDragInternal|SwiftUI_PointInside|EnvironmentWrapper|NSPrinting2|NSEventRouting_Deprecated|GestureRecognizers_For_Emulation|TextSelectionManager|NSRevealInternal|NSViewRoot|NSLayerKitDebug|NSLayerKitGlue|NSPrinting1|NSPrintingInternal|NSPrintingDeprecatedLongAgo|NSFullScreenMode|NSUIActivityProvider|NSAutomaticInclusiveLayer|NSWantsHeaderView|NSCollectionViewReusable|NSTableViewDragSupport|NSFunctionRow|NSDisplayLinkInternal|NSDisplayLinkPrivate|NSDisplayLink|NSTextFinderConvenience|ViewVisitation|NSCandidateListTouchBarItem|NSPersistentUISupport|NSTouchBarItem|NSPopoverClosing|NSPopoverVisibleRect|NSIBViewIntegration|NSLetScrollersInteractBetterWithResizing|NSControlMetricsBehavior|NSPrivateCompactControlSizeMetrics|NSCompactControlSizeMetrics|NSConstraintBasedLayoutInternal|NSLayoutGuideSupport|NSLayoutMargins|NSSafeAreas|NSSafeAreasPrivate|NSCornerInsets|NSSafeAreasInternal|LayoutRegions|NSConstraintDebugging|NSAlignmentLayoutRect_ProposedAPI|NSDeclarativeConstraintCreation|Pinning|NSAppearanceCustomizationInternal|GestureContainers|NSTitlebarOverhang|NSTitlebar|NSRemoveConstraintWithIdentifier|NSCellHighlight|NSControlGestureTracking|_NSBaselineOffsetLayout|_NSConstraintBasedLayoutEmbedding|_NSConstraintBasedLayoutMeasuring)
++ __OBJC_$_CLASS_METHODS_NSWindow(NSSwiftImplementation|ScrollPocketAppearanceCoordinator|NSWindow_Performance|NSWindowTabbing_Private|NSTrackingAreas|NSCursorRects|NSDrawers|NSDrawerSupportPrivate|SnapshotAnimation|Assertions|NSIPTA|NSTouchBarFinder|_NSResponderDebugging|NSWindowARC|NSSheets|NSSplitViewPreferredThicknessReset|Regions|NSStatusItemInternal|NSResponderDebug|GlassWindow|NSDisplayCycle|MotionCompatibility|NSScreenLayout|TrustedRendering|NSCarbonExtensions|NSWindow_Theme|NSWindow_Carbon|NSWindow_Scale|NSTimeMachineSupport|NSInspectorBarSupport|NSTitleRenamingSupport|NSSavelessDocumentSupport|NSWindowSharedFirstResponder|NSWindowContentsHostedInLayerSurface|NSWMWindowManagement|For_Sidecar|TelemetryAnalytics|NSPopoverClosing|NSWindowDisablesMultiTouchSystemGestures|NSWindowDisablesMultiTouchSystemGestures_Internal|NSWindowAccessibility|NSScripting|NSForSwiftUI|NSDrag|NSWindowsMenu|NSWindow_CarbonEventHandlers|NSEventRouting|NSEventRouting_Deprecated|NSGestureRecognizer_Routing|SwiftUI|NSWindow_NonARC|NSViewRoot|NSUIActivityProvider|_NSWindowAnimator|NSSidecarMenu|NSFunctionRow|NSDisplayLinkInternal|NSDisplayLinkPrivate|NSDisplayLink|NSVBOpenAndSavePanels|NSPersistentUISupport|NSUserInterfaceRestoration|ScrollPockets|NSLayoutConstraintVisualization|NSRemoteWindowAccessibility|NSWindowResizing|NSSharingServicePickerToolbarItem|NSFocusEngine_Private|NSFocusEngine_Internal|NSConstraintBasedLayoutPrivate|NSConstraintBasedLayoutInternal|NSAppearanceCustomizationInternal|NSFullScreen|NSQuietSafeQuit|_NSSegmentedCellToolbarAdditions)
++ __OBJC_$_INSTANCE_METHODS_NSBrowser(NSAnimation|NSBrowserAccessibility|NSIBBrowserIntegration|Debugging)
++ __OBJC_$_INSTANCE_METHODS_NSButton(NSGlassAwareView|NSIBButtonIntegration|NSButtonAmberSupport|CompressibleUserInterfaceItemSupport|NSGestureRecognizerSupport)
++ __OBJC_$_INSTANCE_METHODS_NSButtonCell(Swift|NSButtonCellAccessibility|_NSTableViewPrivate|NSButtonCellLegacyAndCompatibility|NSButtonCellAnimationSPI|NSDeprecated|NSButtonCell_ForInterfaceBuilder|NSButtonAnimations|Debugging)
++ __OBJC_$_INSTANCE_METHODS_NSCell(NSCellAccessibility|NSCellTextAttributesAccessibility|_NSTableViewPrivate|NSPrivate_CellMouseTracking|NSCellControlTint|NSCell_Placeholder|NSCellHitTesting|NSCellBackgroundStyleCompatibility|NSCellBackgroundStyle|Debugging|NSDeprecated|NSCellDeprecatedSPI)
++ __OBJC_$_INSTANCE_METHODS_NSComboBox(NSIBComboBoxIntegration|NSComboBoxCellDataSource|NSComboBoxCellNotifications)
++ __OBJC_$_INSTANCE_METHODS_NSControl(NSControlAccessibility|NSObjectAccessibilityChildHelpers|NSControlAccessibilityAdditions|NSControlDebugShowInfo|NSConstraintBasedLayout|NSConstraintBasedLayoutInternal|NSControlEvents|Debugging|_NSTracking|NSExposedForCatalyst)
++ __OBJC_$_INSTANCE_METHODS_NSDatePicker(NSDatePickerAccessibility|NSIBDatePickerIntegration|Catalyst|NSPrivate)
++ __OBJC_$_INSTANCE_METHODS_NSImageView(AppKit|AppKit1|AppKit2|AppKit3|NSIBImageViewIntegration|NSPrivateFinderSupport)
++ __OBJC_$_INSTANCE_METHODS_NSMutableArray(NSMutableRangeArray|AppKitAdditions|NSComboBoxCellDataSource)
++ __OBJC_$_INSTANCE_METHODS_NSPopUpButtonCell(NSPopUpButtonCellAccessibility|Debugging)
++ __OBJC_$_INSTANCE_METHODS_NSResponder(NSDPTestSupport|GestureRecognizers_For_Emulation_Private|NSColorFactorySupport|NSInterfaceStyle|NSTouchBarFinder|_NSResponderDebugging|NSViewHosting|NSResponderDebug|NSErrorPresentationAdditions|Gesture_bincompat|NSUIActivityProvider|NSRestorableState|NSPersistentUISupport|NSTouchBarProvider|NSIBResponderIntegration|NSQuickAction|_NSQuickActionItemSource)
++ __OBJC_$_INSTANCE_METHODS_NSScroller(NSCurrentClickBehavior|NSScroller_Performance|NSScrollerAccessibility|Debugging)
++ __OBJC_$_INSTANCE_METHODS_NSScrubber(NSScrubberAccessibility|NSTouchBarColorListPicker|NSScrubberDeprecated|NSScrubberPressAndHold)
++ __OBJC_$_INSTANCE_METHODS_NSSearchField(NSBridgedSearchField|NSIBSearchFieldIntegration|Debugging)
++ __OBJC_$_INSTANCE_METHODS_NSSearchFieldCell(NSSearchButtonCellProxy|NSSearchFieldCellAccessibility|Debugging|NSSearchFieldCell_Local|NSSearchFieldCellProKitExtras)
++ __OBJC_$_INSTANCE_METHODS_NSSecureTextFieldCell(NSSecureTextFieldCellAccessibility|NSSecureTextField_KernelMode)
++ __OBJC_$_INSTANCE_METHODS_NSSegmentedCell(NSSegmentedCellAccessibility|Debugging|StaticMethods|PrivatePressure|LegacyDrawing|Aquaduck)
++ __OBJC_$_INSTANCE_METHODS_NSSegmentedControl(NSGlassAwareView|NSIBSegmentedControlIntegration|SpringLoading|NSSegmentedControlConvenience|NSGestureRecognizerSupport)
++ __OBJC_$_INSTANCE_METHODS_NSSlider(NSSliderAccessibility|NSIBSliderIntegration|NSTickMarkLayoutPoints|NSSliderConvenience|NSTouchBarIncrements|NSSliderDelegate|NSGestureRecognizerSupport|NSSliderAccessoryContainer)
++ __OBJC_$_INSTANCE_METHODS_NSSliderCell(NSSliderCellAccessibility|Debugging|NSSliderCellForNSSlider|Aquaduck)
++ __OBJC_$_INSTANCE_METHODS_NSStepper(NSStepperAccessibility|NSIBStepperIntegration|NSStepperForAquaduck)
++ __OBJC_$_INSTANCE_METHODS_NSStepperCell(NSStepperCellAccessibility|_NSTableViewPrivate|Debugging|NSStepperCellPrivate)
++ __OBJC_$_INSTANCE_METHODS_NSSwitch(NSSwitchAccessibility|Aquaduck)
++ __OBJC_$_INSTANCE_METHODS_NSTableHeaderCell(NSTableHeaderCellAccessibility|Debugging)
++ __OBJC_$_INSTANCE_METHODS_NSTableView(AppKit|AppKit1|NSSwiftImplementation|NSTableViewNonARC|NSInternal_SourceList_Transmorphing|NSInternal_StylesSupport|NSTableViewInternalsInTheWild|NSTableViewAccessibility|NSDeprecatedInternal|NSTableViewViewBased|Debugging)
++ __OBJC_$_INSTANCE_METHODS_NSTextAttachmentCell(NSTextAttachmentCellAccessibility|Debugging)
++ __OBJC_$_INSTANCE_METHODS_NSTextField(AppKit|AppKit1|AppKit2|AppKit3|AppKit4|AppKit5|AppKit6|AppKit7|NSGlassAwareView|NSIBTextFieldIntegration|NSTextFieldObsolete|NSTextFieldConvenience|NSTextFieldConvenienceDeprecated|NSTextFieldPrivateConvenience|TextSuggestionsAggregation)
++ __OBJC_$_INSTANCE_METHODS_NSTextFieldCell(NSTextFieldCellAccessibility|Debugging|NSToolbarModeCategory)
++ __OBJC_$_INSTANCE_METHODS_NSTokenFieldCell(NSTokenFieldCellTextAttributesAccessibility|Debugging)
++ __OBJC_$_INSTANCE_METHODS_NSView(CoordinateSpace|AppKit|Interactions_Private|Interactions_Internal|NSObservationTracking|AppKit1|AppIntentsAnnotationsDebugDescription|AppKit2|AppKit3|AppKit4|NSSwiftImplementation|_NSViewMaterialBackdropContext|NSScrollPocket_Internal|AppKit5|AppKit6|AppKit7|NSScrollAnimationHelperFinished|extension|NSOpenGLInternal|CacheDisplay_Internal|CacheDisplay|NSTrackingArea|NSTrackingArea_Internal|NSTrackingAreaRoot|NSFindIndicator|GestureRecognizers_For_Emulation_Private|NSViewDumpDisplayList|NSViewMightNeedToClipToBounds|_UIViewLayoutFeedbackDebuggingSupport|NSViewEnclosingMenuItem|NSSurface|NSPrivateSurfaceColorSpaceSupport|NSPressureConfiguration|NSViewShowKeyboardUI|NSViewDebugMetricsOverlay|NSViewDebugMetricsOverlay_ForIB|NSViewDebugWindowManager|NSViewDebugShowGestureRecognizers|NSViewDebugShowAllDrawing|NSViewDebugShowAllDrawing_ForIB|NSViewDebugDescriptions|NSOpenGLContextAssociation|NSExtendedDynamicRange|NSViewGlassContext|NSViewGlassContextInternal|NSFocusEngine_Private|NSFocusEngine_Internal|NSResponderDebug|NSWritingToolsCoordinator|GeometryInWindowNotifications|AnimatedTextPhrases|__NSTextViewCompatibility|NSStandardWindowButtons|NSHeartBeat|NSPrivateIBSupport|NSPrivateClipPath|NSPrivateFocusRingSupport|NSPrivateJavaSupport|NSDefinition|NSViewControllerSupport|NSViewInsetVisibleRect|NSViewMinSizeMeasurement|NSViewPresentationState|NSViewContentStyle|NSViewTableSelectionState|NSViewTitlebarForcedDividers|NSViewCenteredToolbarItem|NSTouchBarAccidentalTouchMitigation|NSHitTestingPrivate|NSPrivateLayerSupport|AppIntents|NSContentSizeCategory_ToBeAPI|NSViewCornerConfigurations|CornerConfiguration|NSContentSizeCategory_Internal|NSViewAccessibility|Legacy|RecommendedDrawableSize|NSDrag|NSDragInternal|SwiftUI_PointInside|EnvironmentWrapper|NSPrinting2|NSEventRouting_Deprecated|GestureRecognizers_For_Emulation|TextSelectionManager|NSRevealInternal|NSViewRoot|NSLayerKitDebug|NSLayerKitGlue|NSPrinting1|NSPrintingInternal|NSPrintingDeprecatedLongAgo|NSFullScreenMode|NSUIActivityProvider|NSAutomaticInclusiveLayer|NSWantsHeaderView|NSCollectionViewReusable|NSTableViewDragSupport|NSFunctionRow|NSDisplayLinkInternal|NSDisplayLinkPrivate|NSDisplayLink|NSTextFinderConvenience|ViewVisitation|NSCandidateListTouchBarItem|NSPersistentUISupport|NSTouchBarItem|NSPopoverClosing|NSPopoverVisibleRect|NSIBViewIntegration|NSLetScrollersInteractBetterWithResizing|NSControlMetricsBehavior|NSPrivateCompactControlSizeMetrics|NSCompactControlSizeMetrics|NSConstraintBasedLayoutInternal|NSLayoutGuideSupport|NSLayoutMargins|NSSafeAreas|NSSafeAreasPrivate|NSCornerInsets|NSSafeAreasInternal|LayoutRegions|NSConstraintDebugging|NSAlignmentLayoutRect_ProposedAPI|NSDeclarativeConstraintCreation|Pinning|NSAppearanceCustomizationInternal|GestureContainers|NSTitlebarOverhang|NSTitlebar|NSRemoveConstraintWithIdentifier|NSCellHighlight|NSControlGestureTracking|_NSBaselineOffsetLayout|_NSConstraintBasedLayoutEmbedding|_NSConstraintBasedLayoutMeasuring)
++ __OBJC_$_INSTANCE_METHODS_NSWindow(NSSwiftImplementation|ScrollPocketAppearanceCoordinator|NSWindow_Performance|NSWindowTabbing_Private|NSTrackingAreas|NSCursorRects|NSDrawers|NSDrawerSupportPrivate|SnapshotAnimation|Assertions|NSIPTA|NSTouchBarFinder|_NSResponderDebugging|NSWindowARC|NSSheets|NSSplitViewPreferredThicknessReset|Regions|NSStatusItemInternal|NSResponderDebug|GlassWindow|NSDisplayCycle|MotionCompatibility|NSScreenLayout|TrustedRendering|NSCarbonExtensions|NSWindow_Theme|NSWindow_Carbon|NSWindow_Scale|NSTimeMachineSupport|NSInspectorBarSupport|NSTitleRenamingSupport|NSSavelessDocumentSupport|NSWindowSharedFirstResponder|NSWindowContentsHostedInLayerSurface|NSWMWindowManagement|For_Sidecar|TelemetryAnalytics|NSPopoverClosing|NSWindowDisablesMultiTouchSystemGestures|NSWindowDisablesMultiTouchSystemGestures_Internal|NSWindowAccessibility|NSScripting|NSForSwiftUI|NSDrag|NSWindowsMenu|NSWindow_CarbonEventHandlers|NSEventRouting|NSEventRouting_Deprecated|NSGestureRecognizer_Routing|SwiftUI|NSWindow_NonARC|NSViewRoot|NSUIActivityProvider|_NSWindowAnimator|NSSidecarMenu|NSFunctionRow|NSDisplayLinkInternal|NSDisplayLinkPrivate|NSDisplayLink|NSVBOpenAndSavePanels|NSPersistentUISupport|NSUserInterfaceRestoration|ScrollPockets|NSLayoutConstraintVisualization|NSRemoteWindowAccessibility|NSWindowResizing|NSSharingServicePickerToolbarItem|NSFocusEngine_Private|NSFocusEngine_Internal|NSConstraintBasedLayoutPrivate|NSConstraintBasedLayoutInternal|NSAppearanceCustomizationInternal|NSFullScreen|NSQuietSafeQuit|_NSSegmentedCellToolbarAdditions)
++ __OBJC_$_INSTANCE_METHODS__NSTableViewPanGestureRecognizer
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSContentScrolling
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSContentScrolling
++ __OBJC_$_PROTOCOL_REFS_NSContentScrolling
++ __OBJC_CLASS_PROTOCOLS_$_NSButton(NSGlassAwareView|NSIBButtonIntegration|NSButtonAmberSupport|CompressibleUserInterfaceItemSupport|NSGestureRecognizerSupport)
++ __OBJC_CLASS_PROTOCOLS_$_NSResponder(NSDPTestSupport|GestureRecognizers_For_Emulation_Private|NSColorFactorySupport|NSInterfaceStyle|NSTouchBarFinder|_NSResponderDebugging|NSViewHosting|NSResponderDebug|NSErrorPresentationAdditions|Gesture_bincompat|NSUIActivityProvider|NSRestorableState|NSPersistentUISupport|NSTouchBarProvider|NSIBResponderIntegration|NSQuickAction|_NSQuickActionItemSource)
++ __OBJC_CLASS_PROTOCOLS_$_NSSearchField(NSBridgedSearchField|NSIBSearchFieldIntegration|Debugging)
++ __OBJC_CLASS_PROTOCOLS_$_NSSegmentedControl(NSGlassAwareView|NSIBSegmentedControlIntegration|SpringLoading|NSSegmentedControlConvenience|NSGestureRecognizerSupport)
++ __OBJC_CLASS_PROTOCOLS_$_NSSlider(NSSliderAccessibility|NSIBSliderIntegration|NSTickMarkLayoutPoints|NSSliderConvenience|NSTouchBarIncrements|NSSliderDelegate|NSGestureRecognizerSupport|NSSliderAccessoryContainer)
++ __OBJC_CLASS_PROTOCOLS_$_NSTextField(AppKit|AppKit1|AppKit2|AppKit3|AppKit4|AppKit5|AppKit6|AppKit7|NSGlassAwareView|NSIBTextFieldIntegration|NSTextFieldObsolete|NSTextFieldConvenience|NSTextFieldConvenienceDeprecated|NSTextFieldPrivateConvenience|TextSuggestionsAggregation)
++ __OBJC_CLASS_PROTOCOLS_$_NSView(CoordinateSpace|AppKit|Interactions_Private|Interactions_Internal|NSObservationTracking|AppKit1|AppIntentsAnnotationsDebugDescription|AppKit2|AppKit3|AppKit4|NSSwiftImplementation|_NSViewMaterialBackdropContext|NSScrollPocket_Internal|AppKit5|AppKit6|AppKit7|NSScrollAnimationHelperFinished|extension|NSOpenGLInternal|CacheDisplay_Internal|CacheDisplay|NSTrackingArea|NSTrackingArea_Internal|NSTrackingAreaRoot|NSFindIndicator|GestureRecognizers_For_Emulation_Private|NSViewDumpDisplayList|NSViewMightNeedToClipToBounds|_UIViewLayoutFeedbackDebuggingSupport|NSViewEnclosingMenuItem|NSSurface|NSPrivateSurfaceColorSpaceSupport|NSPressureConfiguration|NSViewShowKeyboardUI|NSViewDebugMetricsOverlay|NSViewDebugMetricsOverlay_ForIB|NSViewDebugWindowManager|NSViewDebugShowGestureRecognizers|NSViewDebugShowAllDrawing|NSViewDebugShowAllDrawing_ForIB|NSViewDebugDescriptions|NSOpenGLContextAssociation|NSExtendedDynamicRange|NSViewGlassContext|NSViewGlassContextInternal|NSFocusEngine_Private|NSFocusEngine_Internal|NSResponderDebug|NSWritingToolsCoordinator|GeometryInWindowNotifications|AnimatedTextPhrases|__NSTextViewCompatibility|NSStandardWindowButtons|NSHeartBeat|NSPrivateIBSupport|NSPrivateClipPath|NSPrivateFocusRingSupport|NSPrivateJavaSupport|NSDefinition|NSViewControllerSupport|NSViewInsetVisibleRect|NSViewMinSizeMeasurement|NSViewPresentationState|NSViewContentStyle|NSViewTableSelectionState|NSViewTitlebarForcedDividers|NSViewCenteredToolbarItem|NSTouchBarAccidentalTouchMitigation|NSHitTestingPrivate|NSPrivateLayerSupport|AppIntents|NSContentSizeCategory_ToBeAPI|NSViewCornerConfigurations|CornerConfiguration|NSContentSizeCategory_Internal|NSViewAccessibility|Legacy|RecommendedDrawableSize|NSDrag|NSDragInternal|SwiftUI_PointInside|EnvironmentWrapper|NSPrinting2|NSEventRouting_Deprecated|GestureRecognizers_For_Emulation|TextSelectionManager|NSRevealInternal|NSViewRoot|NSLayerKitDebug|NSLayerKitGlue|NSPrinting1|NSPrintingInternal|NSPrintingDeprecatedLongAgo|NSFullScreenMode|NSUIActivityProvider|NSAutomaticInclusiveLayer|NSWantsHeaderView|NSCollectionViewReusable|NSTableViewDragSupport|NSFunctionRow|NSDisplayLinkInternal|NSDisplayLinkPrivate|NSDisplayLink|NSTextFinderConvenience|ViewVisitation|NSCandidateListTouchBarItem|NSPersistentUISupport|NSTouchBarItem|NSPopoverClosing|NSPopoverVisibleRect|NSIBViewIntegration|NSLetScrollersInteractBetterWithResizing|NSControlMetricsBehavior|NSPrivateCompactControlSizeMetrics|NSCompactControlSizeMetrics|NSConstraintBasedLayoutInternal|NSLayoutGuideSupport|NSLayoutMargins|NSSafeAreas|NSSafeAreasPrivate|NSCornerInsets|NSSafeAreasInternal|LayoutRegions|NSConstraintDebugging|NSAlignmentLayoutRect_ProposedAPI|NSDeclarativeConstraintCreation|Pinning|NSAppearanceCustomizationInternal|GestureContainers|NSTitlebarOverhang|NSTitlebar|NSRemoveConstraintWithIdentifier|NSCellHighlight|NSControlGestureTracking|_NSBaselineOffsetLayout|_NSConstraintBasedLayoutEmbedding|_NSConstraintBasedLayoutMeasuring)
++ __OBJC_CLASS_PROTOCOLS_$_NSWindow(NSSwiftImplementation|ScrollPocketAppearanceCoordinator|NSWindow_Performance|NSWindowTabbing_Private|NSTrackingAreas|NSCursorRects|NSDrawers|NSDrawerSupportPrivate|SnapshotAnimation|Assertions|NSIPTA|NSTouchBarFinder|_NSResponderDebugging|NSWindowARC|NSSheets|NSSplitViewPreferredThicknessReset|Regions|NSStatusItemInternal|NSResponderDebug|GlassWindow|NSDisplayCycle|MotionCompatibility|NSScreenLayout|TrustedRendering|NSCarbonExtensions|NSWindow_Theme|NSWindow_Carbon|NSWindow_Scale|NSTimeMachineSupport|NSInspectorBarSupport|NSTitleRenamingSupport|NSSavelessDocumentSupport|NSWindowSharedFirstResponder|NSWindowContentsHostedInLayerSurface|NSWMWindowManagement|For_Sidecar|TelemetryAnalytics|NSPopoverClosing|NSWindowDisablesMultiTouchSystemGestures|NSWindowDisablesMultiTouchSystemGestures_Internal|NSWindowAccessibility|NSScripting|NSForSwiftUI|NSDrag|NSWindowsMenu|NSWindow_CarbonEventHandlers|NSEventRouting|NSEventRouting_Deprecated|NSGestureRecognizer_Routing|SwiftUI|NSWindow_NonARC|NSViewRoot|NSUIActivityProvider|_NSWindowAnimator|NSSidecarMenu|NSFunctionRow|NSDisplayLinkInternal|NSDisplayLinkPrivate|NSDisplayLink|NSVBOpenAndSavePanels|NSPersistentUISupport|NSUserInterfaceRestoration|ScrollPockets|NSLayoutConstraintVisualization|NSRemoteWindowAccessibility|NSWindowResizing|NSSharingServicePickerToolbarItem|NSFocusEngine_Private|NSFocusEngine_Internal|NSConstraintBasedLayoutPrivate|NSConstraintBasedLayoutInternal|NSAppearanceCustomizationInternal|NSFullScreen|NSQuietSafeQuit|_NSSegmentedCellToolbarAdditions)
++ __OBJC_CLASS_RO_$__NSTableViewPanGestureRecognizer
++ __OBJC_LABEL_PROTOCOL_$_NSContentScrolling
++ __OBJC_METACLASS_RO_$__NSTableViewPanGestureRecognizer
++ __OBJC_PROTOCOL_$_NSContentScrolling
++ __PROPERTIES__NSTransformGestureRecognizer
++ ___105-[NSCollectionView(NSGestureRecognizerDelegatePrivate) _validateGestureRecognizer:atPoint:viewFromTouch:]_block_invoke
++ ___40-[NSSheetEffectDimmingView _rebuildMask]_block_invoke
++ ___43-[NSTableView _doubleTapGestureRecognized:]_block_invoke
++ ___swift_memcpy72_8
++ ___unnamed_140
++ __stdlib_squareRoot
++ __swift_closure_destructor.54Tm
++ _checkOverrideAndDoImageDragUsingRowsWithIndexes:event:pasteboard:source:slideBack:startRow:._onceToken_61
++ _doImageDragUsingRows:event:pasteboard:source:slideBack:._onceToken_60
++ _keypath_get_selector__formattingBarAutosaveName
++ _objc_msgSend$_canScrollContentAtPoint:
++ _objc_msgSend$_formattingBarAutosaveName
++ _objc_msgSend$_fullScreenToolbarDismissalRecognizer
++ _objc_msgSend$_gestureMonitorIfExists
++ _objc_msgSend$_hasScrollableCollapsedSectionContainingPoint:
++ _objc_msgSend$_isPointInResizeRegion:forDirectTouch:
++ _objc_msgSend$_legacyDragDataSourceSelector
++ _objc_msgSend$_modernDragDataSourceSelector
++ _objc_msgSend$_newDismissalGestureRecognizer
++ _objc_msgSend$_notifyHostShowsHiddenFilesChanged:
++ _objc_msgSend$_popUpMenuRelativeToRect:inView:preferredEdge:flags:options:
++ _objc_msgSend$_sendIsCollapsedToProxy
++ _objc_msgSend$_setFullScreenToolbarDismissalRecognizer:
++ _objc_msgSend$_setTouchCaughtDeceleration:
++ _objc_msgSend$_touchCaughtDeceleration
++ _objc_msgSend$_updateDismissalGestureRecognizer
++ _objc_msgSend$_usesFocusRingForPunchOut
++ _objc_msgSend$_validateGestureRecognizer:atPoint:viewFromTouch:
++ _objc_msgSend$_warnIfDataSourceLacksModernDragSupport:
++ _objc_msgSend$currentLocationInScreen
++ _objc_msgSend$menu:didDisplayWindow:contextID:
++ _objc_msgSend$rotationInView:
++ _objc_msgSend$scaleInView:
++ _objc_msgSend$setCurrentLocationInScreen:
++ _objc_msgSend$setGestureState:
++ _objc_msgSend$setRotation:
++ _objc_msgSend$setStartLocationInScreen:
++ _objc_msgSend$setTrackingGesture:
++ _objc_msgSend$set_formattingBarAutosaveName:
++ _objc_msgSend$startLocationInScreen
++ _objc_msgSend$supportsFocusRingForPunchOut
++ _objc_msgSend$trackingGesture
++ _objc_msgSend$transformInView:
++ _sNSUntitledWindowsAllowExteriorResizingComputedValue
++ _symbolic SDySSSbG
++ _symbolic SaySo8NSButtonCG
++ _symbolic So31_NSTextFormattingViewControllerCSgXwz_Xx
++ _symbolic _____Sg 8Gestures23TransformComponentValueV
++ _symbolic _____yAAyAAyAAyAAy__________y_____GG_____G_____ySbGG_____GAJG 7SwiftUI15ModifiedContentV 13DesignLibrary13WindowControlV AA30_EnvironmentKeyWritingModifierV AA0H4SizeO 6AppKit029ThemeWidgetLiftedPresentationL0V AA010_AnimationL0V AA14_OpacityEffectV
++ _symbolic _____yAAyAAyAAy__________y_____GG_____G_____ySbGG_____G 7SwiftUI15ModifiedContentV 13DesignLibrary13WindowControlV AA30_EnvironmentKeyWritingModifierV AA0H4SizeO 6AppKit029ThemeWidgetLiftedPresentationL0V AA010_AnimationL0V AA14_OpacityEffectV
++ _symbolic _____yAAyAAy__________y_____GG_____G_____ySbGG 7SwiftUI15ModifiedContentV 13DesignLibrary13WindowControlV AA30_EnvironmentKeyWritingModifierV AA0H4SizeO 6AppKit029ThemeWidgetLiftedPresentationL0V AA010_AnimationL0V
++ _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV 13DesignLibrary13WindowControlV AA30_EnvironmentKeyWritingModifierV AA0H4SizeO 6AppKit029ThemeWidgetLiftedPresentationL0V
++ _symbolic _____ySdG 8Gestures16GestureParameterV
++ _symbolic _____y_____G 8Gestures11GestureNodeC AA23TransformComponentValueV
++ _symbolic _____y_____G 8Gestures12GesturePhaseO AA23TransformComponentValueV
++ _symbolic _____y_____G 8Gestures16GestureParameterV AA12TimeDurationV
++ _symbolic _____y_____G 8Gestures16GestureParameterV AA7Angle2DV
++ _symbolic _____y_____G 8Gestures26GestureComponentControllerC AA09TransformC0V
++ _type_layout_string So22NSScrollPocketEdgeMaskV
++ _warnIfColumnSelectionIsNotSupported._onceToken_37
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACy13DesignLibrary13WindowControlVAA30_EnvironmentKeyWritingModifierVyAA0H4SizeOGG6AppKit029ThemeWidgetLiftedPresentationL0VGAA010_AnimationL0VySbGGAA14_OpacityEffectVGASGAA4ViewHPAwaYHPAtaYHPApaYHPAlaYHPAfaYHPyHC_AkA0wL0HPyHCHC_AoaZHPyHCHC_AsaZHPyHCHC_AvaZHPyHCHC_AsaZHPyHCHC
++ keypath_set.30Tm
+- +[_NSFlexiglassInteractionDriverEvent driverEventWithGestureRecognizer:]
+- +[_NSFlexiglassInteractionDriverEvent driverEventWithGestureRecognizer:constrainedToScreenFrame:]
+- -[NSCarbonMenuImpl _popUpMenuRelativeToRect:inView:preferredEdge:]
+- -[NSCocoaMenuImpl _popUpMenuRelativeToRect:inView:preferredEdge:]
+- -[NSCollectionView(NSGestureRecognizerDelegatePrivate) _validateGestureRecognizer:atPoint:]
+- -[NSPopover _updateDismissalGestureRecognizer:]
+- -[NSScrollView _setTouchDidInterruptMomentum:]
+- -[NSScrollView _touchDidInterruptMomentum]
+- -[NSTableView _handleMousePanGestureRecognizer:]
+- -[NSTableView _handleTouchPressGestureRecognizer:]
+- -[NSThemeFrame _isInResizeRegion:forDirectTouch:]
+- -[_NSFlexiglassInteractionDriverEvent .cxx_destruct]
+- -[_NSFlexiglassInteractionDriverEvent constrainedFrame]
+- -[_NSFlexiglassInteractionDriverEvent initWithGestureRecognizer:constrainedToScreenFrame:]
+- -[_NSFlexiglassInteractionDriverEvent locationInScreen]
+- -[_NSFlexiglassInteractionDriverEvent locationInWindow]
+- -[_NSFlexiglassInteractionDriverEvent setConstrainedFrame:]
+- -[_NSFlexiglassInteractionDriverEvent setLocationInWindow:]
+- -[_NSFlexiglassInteractionDriverEvent setWindow:]
+- -[_NSFlexiglassInteractionDriverEvent window]
+- -[_NSTextMultiTapGestureRecognizer touches]
+- GCC_except_table1020
+- GCC_except_table1030
+- GCC_except_table1041
+- GCC_except_table1056
+- GCC_except_table1057
+- GCC_except_table1058
+- GCC_except_table1060
+- GCC_except_table1064
+- GCC_except_table1066
+- GCC_except_table1067
+- GCC_except_table1084
+- GCC_except_table1088
+- GCC_except_table1092
+- GCC_except_table1095
+- GCC_except_table1096
+- GCC_except_table1104
+- GCC_except_table1106
+- GCC_except_table1107
+- GCC_except_table1110
+- GCC_except_table1118
+- GCC_except_table1121
+- GCC_except_table1122
+- GCC_except_table1125
+- GCC_except_table1135
+- GCC_except_table1139
+- GCC_except_table1142
+- GCC_except_table1146
+- GCC_except_table1149
+- GCC_except_table1150
+- GCC_except_table1153
+- GCC_except_table1160
+- GCC_except_table1162
+- GCC_except_table1164
+- GCC_except_table1170
+- GCC_except_table1171
+- GCC_except_table1172
+- GCC_except_table1173
+- GCC_except_table1174
+- GCC_except_table1187
+- GCC_except_table1194
+- GCC_except_table1195
+- GCC_except_table1198
+- GCC_except_table1201
+- GCC_except_table1202
+- GCC_except_table1205
+- GCC_except_table1208
+- GCC_except_table1209
+- GCC_except_table1211
+- GCC_except_table1212
+- GCC_except_table1225
+- GCC_except_table1232
+- GCC_except_table1233
+- GCC_except_table1234
+- GCC_except_table1250
+- GCC_except_table1255
+- GCC_except_table488
+- GCC_except_table567
+- GCC_except_table594
+- GCC_except_table603
+- GCC_except_table624
+- GCC_except_table686
+- GCC_except_table698
+- GCC_except_table730
+- GCC_except_table739
+- GCC_except_table771
+- GCC_except_table787
+- GCC_except_table821
+- GCC_except_table825
+- GCC_except_table843
+- GCC_except_table895
+- GCC_except_table898
+- GCC_except_table904
+- GCC_except_table905
+- GCC_except_table935
+- GCC_except_table981
+- GCC_except_table988
+- GCC_except_table996
+- GCC_except_table999
+- OBJC_IVAR_$_NSPopover._isInDetachingDrag
+- OBJC_IVAR_$_NSScrollView._touchDidInterruptMomentum
+- OBJC_IVAR_$__NSFlexiglassInteractionDriver._flexStartLocationInGlassView
+- OBJC_IVAR_$__NSFlexiglassInteractionDriverEvent._constrainedFrame
+- OBJC_IVAR_$__NSFlexiglassInteractionDriverEvent._locationInWindow
+- OBJC_IVAR_$__NSFlexiglassInteractionDriverEvent._window
+- WarnDeprecatedAPI_dragImageForRows._onceToken_60
+- _NSContextMenuRerouteEventsForViewBridgeDefaultValueFunction
+- _NSResizeRegionHitTests.sResult
+- __91-[NSCollectionView(NSGestureRecognizerDelegatePrivate) _validateGestureRecognizer:atPoint:]_block_invoke
+- __OBJC_$_CATEGORY_NSMutableArray_$_NSComboBoxCellDataSource
+- __OBJC_$_CLASS_METHODS_NSBrowser(NSAnimation|NSBrowserAccessibility|Debugging|NSIBBrowserIntegration)
+- __OBJC_$_CLASS_METHODS_NSButton(NSGlassAwareView|NSButtonAmberSupport|CompressibleUserInterfaceItemSupport|NSGestureRecognizerSupport|NSIBButtonIntegration)
+- __OBJC_$_CLASS_METHODS_NSButtonCell(Swift|NSButtonCellAccessibility|NSButtonCellLegacyAndCompatibility|NSButtonCellAnimationSPI|NSDeprecated|NSButtonCell_ForInterfaceBuilder|NSButtonAnimations|Debugging|_NSTableViewPrivate)
+- __OBJC_$_CLASS_METHODS_NSControl(NSControlAccessibility|NSObjectAccessibilityChildHelpers|NSControlAccessibilityAdditions|NSControlDebugShowInfo|NSControlEvents|Debugging|_NSTracking|NSExposedForCatalyst|NSConstraintBasedLayout|NSConstraintBasedLayoutInternal)
+- __OBJC_$_CLASS_METHODS_NSResponder(GestureRecognizers_For_Emulation_Private|NSColorFactorySupport|NSInterfaceStyle|NSTouchBarFinder|_NSResponderDebugging|NSViewHosting|NSResponderDebug|NSErrorPresentationAdditions|NSDPTestSupport|Gesture_bincompat|NSUIActivityProvider|NSRestorableState|NSPersistentUISupport|NSTouchBarProvider|NSIBResponderIntegration|NSQuickAction|_NSQuickActionItemSource)
+- __OBJC_$_CLASS_METHODS_NSScroller(Debugging|NSCurrentClickBehavior|NSScroller_Performance|NSScrollerAccessibility)
+- __OBJC_$_CLASS_METHODS_NSScrubber(NSScrubberAccessibility|NSScrubberDeprecated|NSScrubberPressAndHold|NSTouchBarColorListPicker)
+- __OBJC_$_CLASS_METHODS_NSSearchFieldCell(Debugging|NSSearchFieldCell_Local|NSSearchFieldCellProKitExtras|NSSearchButtonCellProxy|NSSearchFieldCellAccessibility)
+- __OBJC_$_CLASS_METHODS_NSSegmentedCell(Debugging|StaticMethods|PrivatePressure|LegacyDrawing|Aquaduck|NSSegmentedCellAccessibility)
+- __OBJC_$_CLASS_METHODS_NSSegmentedControl(NSGlassAwareView|SpringLoading|NSSegmentedControlConvenience|NSGestureRecognizerSupport|NSIBSegmentedControlIntegration)
+- __OBJC_$_CLASS_METHODS_NSSlider(NSTickMarkLayoutPoints|NSSliderConvenience|NSTouchBarIncrements|NSSliderDelegate|NSGestureRecognizerSupport|NSSliderAccessoryContainer|NSSliderAccessibility|NSIBSliderIntegration)
+- __OBJC_$_CLASS_METHODS_NSSwitch(Aquaduck|NSSwitchAccessibility)
+- __OBJC_$_CLASS_METHODS_NSTableView(AppKit|AppKit1|NSSwiftImplementation|NSTableViewNonARC|NSInternal_SourceList_Transmorphing|NSInternal_StylesSupport|Debugging|NSTableViewInternalsInTheWild|NSTableViewAccessibility|NSDeprecatedInternal|NSTableViewViewBased)
+- __OBJC_$_CLASS_METHODS_NSTextField(AppKit|AppKit1|AppKit2|AppKit3|AppKit4|AppKit5|AppKit6|AppKit7|NSGlassAwareView|NSTextFieldObsolete|NSTextFieldConvenience|NSTextFieldConvenienceDeprecated|NSTextFieldPrivateConvenience|TextSuggestionsAggregation|NSIBTextFieldIntegration)
+- __OBJC_$_CLASS_METHODS_NSView(Interactions_Private|Interactions_Internal|CoordinateSpace|AppKit|_NSViewMaterialBackdropContext|NSScrollPocket_Internal|AppKit1|NSObservationTracking|AppKit2|AppIntentsAnnotationsDebugDescription|AppKit3|AppKit4|AppKit5|NSSwiftImplementation|AppKit6|AppKit7|NSScrollAnimationHelperFinished|extension|NSOpenGLInternal|CacheDisplay_Internal|CacheDisplay|NSTrackingArea|NSTrackingArea_Internal|NSTrackingAreaRoot|NSFindIndicator|GestureRecognizers_For_Emulation_Private|NSViewDumpDisplayList|NSViewMightNeedToClipToBounds|_UIViewLayoutFeedbackDebuggingSupport|NSViewEnclosingMenuItem|NSSurface|NSPrivateSurfaceColorSpaceSupport|NSPressureConfiguration|NSViewShowKeyboardUI|NSViewDebugMetricsOverlay|NSViewDebugMetricsOverlay_ForIB|NSViewDebugWindowManager|NSViewDebugShowGestureRecognizers|NSViewDebugShowAllDrawing|NSViewDebugShowAllDrawing_ForIB|NSViewDebugDescriptions|NSOpenGLContextAssociation|SwiftUI_PointInside|EnvironmentWrapper|NSExtendedDynamicRange|NSCellHighlight|NSControlGestureTracking|NSViewGlassContext|NSViewGlassContextInternal|NSFocusEngine_Private|NSFocusEngine_Internal|NSResponderDebug|NSWritingToolsCoordinator|GeometryInWindowNotifications|AnimatedTextPhrases|__NSTextViewCompatibility|NSStandardWindowButtons|NSHeartBeat|NSPrivateIBSupport|NSPrivateClipPath|NSPrivateFocusRingSupport|NSPrivateJavaSupport|NSDefinition|NSViewControllerSupport|NSViewInsetVisibleRect|NSViewMinSizeMeasurement|NSViewPresentationState|NSViewContentStyle|NSViewTableSelectionState|NSViewTitlebarForcedDividers|NSViewCenteredToolbarItem|NSTouchBarAccidentalTouchMitigation|NSHitTestingPrivate|NSPrivateLayerSupport|AppIntents|NSContentSizeCategory_ToBeAPI|NSViewCornerConfigurations|CornerConfiguration|NSContentSizeCategory_Internal|NSViewAccessibility|Legacy|RecommendedDrawableSize|NSDrag|NSDragInternal|NSPrinting2|NSEventRouting_Deprecated|GestureRecognizers_For_Emulation|TextSelectionManager|NSRevealInternal|NSViewRoot|NSLayerKitDebug|NSLayerKitGlue|NSPrinting1|NSPrintingInternal|NSPrintingDeprecatedLongAgo|NSFullScreenMode|NSUIActivityProvider|NSAutomaticInclusiveLayer|NSWantsHeaderView|NSCollectionViewReusable|NSTableViewDragSupport|NSFunctionRow|NSDisplayLinkInternal|NSDisplayLinkPrivate|NSDisplayLink|NSTextFinderConvenience|ViewVisitation|NSCandidateListTouchBarItem|NSPersistentUISupport|NSTouchBarItem|NSPopoverClosing|NSPopoverVisibleRect|NSIBViewIntegration|NSLetScrollersInteractBetterWithResizing|NSControlMetricsBehavior|NSPrivateCompactControlSizeMetrics|NSCompactControlSizeMetrics|NSConstraintBasedLayoutInternal|NSLayoutGuideSupport|NSLayoutMargins|NSSafeAreas|NSSafeAreasPrivate|NSCornerInsets|NSSafeAreasInternal|LayoutRegions|NSConstraintDebugging|NSAlignmentLayoutRect_ProposedAPI|NSDeclarativeConstraintCreation|Pinning|NSAppearanceCustomizationInternal|GestureContainers|NSTitlebarOverhang|NSTitlebar|NSRemoveConstraintWithIdentifier|_NSBaselineOffsetLayout|_NSConstraintBasedLayoutEmbedding|_NSConstraintBasedLayoutMeasuring)
+- __OBJC_$_CLASS_METHODS_NSWindow(NSSwiftImplementation|ScrollPocketAppearanceCoordinator|NSWindow_Performance|NSWindowTabbing_Private|NSTrackingAreas|NSCursorRects|NSDrawers|NSDrawerSupportPrivate|SnapshotAnimation|Assertions|NSIPTA|NSTouchBarFinder|_NSSegmentedCellToolbarAdditions|_NSResponderDebugging|NSWindowARC|NSSheets|NSSplitViewPreferredThicknessReset|Regions|NSStatusItemInternal|NSResponderDebug|GlassWindow|NSDisplayCycle|MotionCompatibility|NSScreenLayout|TrustedRendering|NSCarbonExtensions|NSWindow_Theme|NSWindow_Carbon|NSWindow_Scale|NSTimeMachineSupport|NSInspectorBarSupport|NSTitleRenamingSupport|NSSavelessDocumentSupport|NSWindowSharedFirstResponder|NSWindowContentsHostedInLayerSurface|NSWMWindowManagement|For_Sidecar|TelemetryAnalytics|NSPopoverClosing|NSWindowDisablesMultiTouchSystemGestures|NSWindowDisablesMultiTouchSystemGestures_Internal|NSWindowAccessibility|NSScripting|NSForSwiftUI|NSDrag|NSWindowsMenu|NSWindow_CarbonEventHandlers|NSEventRouting|NSEventRouting_Deprecated|NSGestureRecognizer_Routing|SwiftUI|NSWindow_NonARC|NSViewRoot|NSUIActivityProvider|_NSWindowAnimator|NSSidecarMenu|NSFunctionRow|NSDisplayLinkInternal|NSDisplayLinkPrivate|NSDisplayLink|NSVBOpenAndSavePanels|NSPersistentUISupport|NSUserInterfaceRestoration|ScrollPockets|NSLayoutConstraintVisualization|NSRemoteWindowAccessibility|NSWindowResizing|NSSharingServicePickerToolbarItem|NSFocusEngine_Private|NSFocusEngine_Internal|NSConstraintBasedLayoutPrivate|NSConstraintBasedLayoutInternal|NSAppearanceCustomizationInternal|NSFullScreen|NSQuietSafeQuit)
+- __OBJC_$_INSTANCE_METHODS_NSBrowser(NSAnimation|NSBrowserAccessibility|Debugging|NSIBBrowserIntegration)
+- __OBJC_$_INSTANCE_METHODS_NSButton(NSGlassAwareView|NSButtonAmberSupport|CompressibleUserInterfaceItemSupport|NSGestureRecognizerSupport|NSIBButtonIntegration)
+- __OBJC_$_INSTANCE_METHODS_NSButtonCell(Swift|NSButtonCellAccessibility|NSButtonCellLegacyAndCompatibility|NSButtonCellAnimationSPI|NSDeprecated|NSButtonCell_ForInterfaceBuilder|NSButtonAnimations|Debugging|_NSTableViewPrivate)
+- __OBJC_$_INSTANCE_METHODS_NSCell(NSCellAccessibility|NSCellTextAttributesAccessibility|NSPrivate_CellMouseTracking|NSCellControlTint|NSCell_Placeholder|NSCellHitTesting|NSCellBackgroundStyleCompatibility|NSCellBackgroundStyle|Debugging|NSDeprecated|NSCellDeprecatedSPI|_NSTableViewPrivate)
+- __OBJC_$_INSTANCE_METHODS_NSComboBox(NSComboBoxCellDataSource|NSComboBoxCellNotifications|NSIBComboBoxIntegration)
+- __OBJC_$_INSTANCE_METHODS_NSControl(NSControlAccessibility|NSObjectAccessibilityChildHelpers|NSControlAccessibilityAdditions|NSControlDebugShowInfo|NSControlEvents|Debugging|_NSTracking|NSExposedForCatalyst|NSConstraintBasedLayout|NSConstraintBasedLayoutInternal)
+- __OBJC_$_INSTANCE_METHODS_NSDatePicker(NSDatePickerAccessibility|Catalyst|NSPrivate|NSIBDatePickerIntegration)
+- __OBJC_$_INSTANCE_METHODS_NSImageView(AppKit|AppKit1|AppKit2|AppKit3|NSPrivateFinderSupport|NSIBImageViewIntegration)
+- __OBJC_$_INSTANCE_METHODS_NSMutableArray(NSComboBoxCellDataSource|NSMutableRangeArray|AppKitAdditions)
+- __OBJC_$_INSTANCE_METHODS_NSPopUpButtonCell(Debugging|NSPopUpButtonCellAccessibility)
+- __OBJC_$_INSTANCE_METHODS_NSResponder(GestureRecognizers_For_Emulation_Private|NSColorFactorySupport|NSInterfaceStyle|NSTouchBarFinder|_NSResponderDebugging|NSViewHosting|NSResponderDebug|NSErrorPresentationAdditions|NSDPTestSupport|Gesture_bincompat|NSUIActivityProvider|NSRestorableState|NSPersistentUISupport|NSTouchBarProvider|NSIBResponderIntegration|NSQuickAction|_NSQuickActionItemSource)
+- __OBJC_$_INSTANCE_METHODS_NSScroller(Debugging|NSCurrentClickBehavior|NSScroller_Performance|NSScrollerAccessibility)
+- __OBJC_$_INSTANCE_METHODS_NSScrubber(NSScrubberAccessibility|NSScrubberDeprecated|NSScrubberPressAndHold|NSTouchBarColorListPicker)
+- __OBJC_$_INSTANCE_METHODS_NSSearchField(Debugging|NSBridgedSearchField|NSIBSearchFieldIntegration)
+- __OBJC_$_INSTANCE_METHODS_NSSearchFieldCell(Debugging|NSSearchFieldCell_Local|NSSearchFieldCellProKitExtras|NSSearchButtonCellProxy|NSSearchFieldCellAccessibility)
+- __OBJC_$_INSTANCE_METHODS_NSSecureTextFieldCell(NSSecureTextField_KernelMode|NSSecureTextFieldCellAccessibility)
+- __OBJC_$_INSTANCE_METHODS_NSSegmentedCell(Debugging|StaticMethods|PrivatePressure|LegacyDrawing|Aquaduck|NSSegmentedCellAccessibility)
+- __OBJC_$_INSTANCE_METHODS_NSSegmentedControl(NSGlassAwareView|SpringLoading|NSSegmentedControlConvenience|NSGestureRecognizerSupport|NSIBSegmentedControlIntegration)
+- __OBJC_$_INSTANCE_METHODS_NSSlider(NSTickMarkLayoutPoints|NSSliderConvenience|NSTouchBarIncrements|NSSliderDelegate|NSGestureRecognizerSupport|NSSliderAccessoryContainer|NSSliderAccessibility|NSIBSliderIntegration)
+- __OBJC_$_INSTANCE_METHODS_NSSliderCell(Debugging|NSSliderCellForNSSlider|Aquaduck|NSSliderCellAccessibility)
+- __OBJC_$_INSTANCE_METHODS_NSStepper(NSStepperForAquaduck|NSStepperAccessibility|NSIBStepperIntegration)
+- __OBJC_$_INSTANCE_METHODS_NSStepperCell(Debugging|NSStepperCellPrivate|NSStepperCellAccessibility|_NSTableViewPrivate)
+- __OBJC_$_INSTANCE_METHODS_NSSwitch(Aquaduck|NSSwitchAccessibility)
+- __OBJC_$_INSTANCE_METHODS_NSTableHeaderCell(Debugging|NSTableHeaderCellAccessibility)
+- __OBJC_$_INSTANCE_METHODS_NSTableView(AppKit|AppKit1|NSSwiftImplementation|NSTableViewNonARC|NSInternal_SourceList_Transmorphing|NSInternal_StylesSupport|Debugging|NSTableViewInternalsInTheWild|NSTableViewAccessibility|NSDeprecatedInternal|NSTableViewViewBased)
+- __OBJC_$_INSTANCE_METHODS_NSTextAttachmentCell(Debugging|NSTextAttachmentCellAccessibility)
+- __OBJC_$_INSTANCE_METHODS_NSTextField(AppKit|AppKit1|AppKit2|AppKit3|AppKit4|AppKit5|AppKit6|AppKit7|NSGlassAwareView|NSTextFieldObsolete|NSTextFieldConvenience|NSTextFieldConvenienceDeprecated|NSTextFieldPrivateConvenience|TextSuggestionsAggregation|NSIBTextFieldIntegration)
+- __OBJC_$_INSTANCE_METHODS_NSTextFieldCell(Debugging|NSToolbarModeCategory|NSTextFieldCellAccessibility)
+- __OBJC_$_INSTANCE_METHODS_NSTokenFieldCell(Debugging|NSTokenFieldCellTextAttributesAccessibility)
+- __OBJC_$_INSTANCE_METHODS_NSView(Interactions_Private|Interactions_Internal|CoordinateSpace|AppKit|_NSViewMaterialBackdropContext|NSScrollPocket_Internal|AppKit1|NSObservationTracking|AppKit2|AppIntentsAnnotationsDebugDescription|AppKit3|AppKit4|AppKit5|NSSwiftImplementation|AppKit6|AppKit7|NSScrollAnimationHelperFinished|extension|NSOpenGLInternal|CacheDisplay_Internal|CacheDisplay|NSTrackingArea|NSTrackingArea_Internal|NSTrackingAreaRoot|NSFindIndicator|GestureRecognizers_For_Emulation_Private|NSViewDumpDisplayList|NSViewMightNeedToClipToBounds|_UIViewLayoutFeedbackDebuggingSupport|NSViewEnclosingMenuItem|NSSurface|NSPrivateSurfaceColorSpaceSupport|NSPressureConfiguration|NSViewShowKeyboardUI|NSViewDebugMetricsOverlay|NSViewDebugMetricsOverlay_ForIB|NSViewDebugWindowManager|NSViewDebugShowGestureRecognizers|NSViewDebugShowAllDrawing|NSViewDebugShowAllDrawing_ForIB|NSViewDebugDescriptions|NSOpenGLContextAssociation|SwiftUI_PointInside|EnvironmentWrapper|NSExtendedDynamicRange|NSCellHighlight|NSControlGestureTracking|NSViewGlassContext|NSViewGlassContextInternal|NSFocusEngine_Private|NSFocusEngine_Internal|NSResponderDebug|NSWritingToolsCoordinator|GeometryInWindowNotifications|AnimatedTextPhrases|__NSTextViewCompatibility|NSStandardWindowButtons|NSHeartBeat|NSPrivateIBSupport|NSPrivateClipPath|NSPrivateFocusRingSupport|NSPrivateJavaSupport|NSDefinition|NSViewControllerSupport|NSViewInsetVisibleRect|NSViewMinSizeMeasurement|NSViewPresentationState|NSViewContentStyle|NSViewTableSelectionState|NSViewTitlebarForcedDividers|NSViewCenteredToolbarItem|NSTouchBarAccidentalTouchMitigation|NSHitTestingPrivate|NSPrivateLayerSupport|AppIntents|NSContentSizeCategory_ToBeAPI|NSViewCornerConfigurations|CornerConfiguration|NSContentSizeCategory_Internal|NSViewAccessibility|Legacy|RecommendedDrawableSize|NSDrag|NSDragInternal|NSPrinting2|NSEventRouting_Deprecated|GestureRecognizers_For_Emulation|TextSelectionManager|NSRevealInternal|NSViewRoot|NSLayerKitDebug|NSLayerKitGlue|NSPrinting1|NSPrintingInternal|NSPrintingDeprecatedLongAgo|NSFullScreenMode|NSUIActivityProvider|NSAutomaticInclusiveLayer|NSWantsHeaderView|NSCollectionViewReusable|NSTableViewDragSupport|NSFunctionRow|NSDisplayLinkInternal|NSDisplayLinkPrivate|NSDisplayLink|NSTextFinderConvenience|ViewVisitation|NSCandidateListTouchBarItem|NSPersistentUISupport|NSTouchBarItem|NSPopoverClosing|NSPopoverVisibleRect|NSIBViewIntegration|NSLetScrollersInteractBetterWithResizing|NSControlMetricsBehavior|NSPrivateCompactControlSizeMetrics|NSCompactControlSizeMetrics|NSConstraintBasedLayoutInternal|NSLayoutGuideSupport|NSLayoutMargins|NSSafeAreas|NSSafeAreasPrivate|NSCornerInsets|NSSafeAreasInternal|LayoutRegions|NSConstraintDebugging|NSAlignmentLayoutRect_ProposedAPI|NSDeclarativeConstraintCreation|Pinning|NSAppearanceCustomizationInternal|GestureContainers|NSTitlebarOverhang|NSTitlebar|NSRemoveConstraintWithIdentifier|_NSBaselineOffsetLayout|_NSConstraintBasedLayoutEmbedding|_NSConstraintBasedLayoutMeasuring)
+- __OBJC_$_INSTANCE_METHODS_NSWindow(NSSwiftImplementation|ScrollPocketAppearanceCoordinator|NSWindow_Performance|NSWindowTabbing_Private|NSTrackingAreas|NSCursorRects|NSDrawers|NSDrawerSupportPrivate|SnapshotAnimation|Assertions|NSIPTA|NSTouchBarFinder|_NSSegmentedCellToolbarAdditions|_NSResponderDebugging|NSWindowARC|NSSheets|NSSplitViewPreferredThicknessReset|Regions|NSStatusItemInternal|NSResponderDebug|GlassWindow|NSDisplayCycle|MotionCompatibility|NSScreenLayout|TrustedRendering|NSCarbonExtensions|NSWindow_Theme|NSWindow_Carbon|NSWindow_Scale|NSTimeMachineSupport|NSInspectorBarSupport|NSTitleRenamingSupport|NSSavelessDocumentSupport|NSWindowSharedFirstResponder|NSWindowContentsHostedInLayerSurface|NSWMWindowManagement|For_Sidecar|TelemetryAnalytics|NSPopoverClosing|NSWindowDisablesMultiTouchSystemGestures|NSWindowDisablesMultiTouchSystemGestures_Internal|NSWindowAccessibility|NSScripting|NSForSwiftUI|NSDrag|NSWindowsMenu|NSWindow_CarbonEventHandlers|NSEventRouting|NSEventRouting_Deprecated|NSGestureRecognizer_Routing|SwiftUI|NSWindow_NonARC|NSViewRoot|NSUIActivityProvider|_NSWindowAnimator|NSSidecarMenu|NSFunctionRow|NSDisplayLinkInternal|NSDisplayLinkPrivate|NSDisplayLink|NSVBOpenAndSavePanels|NSPersistentUISupport|NSUserInterfaceRestoration|ScrollPockets|NSLayoutConstraintVisualization|NSRemoteWindowAccessibility|NSWindowResizing|NSSharingServicePickerToolbarItem|NSFocusEngine_Private|NSFocusEngine_Internal|NSConstraintBasedLayoutPrivate|NSConstraintBasedLayoutInternal|NSAppearanceCustomizationInternal|NSFullScreen|NSQuietSafeQuit)
+- __OBJC_CLASS_PROTOCOLS_$_NSButton(NSGlassAwareView|NSButtonAmberSupport|CompressibleUserInterfaceItemSupport|NSGestureRecognizerSupport|NSIBButtonIntegration)
+- __OBJC_CLASS_PROTOCOLS_$_NSResponder(GestureRecognizers_For_Emulation_Private|NSColorFactorySupport|NSInterfaceStyle|NSTouchBarFinder|_NSResponderDebugging|NSViewHosting|NSResponderDebug|NSErrorPresentationAdditions|NSDPTestSupport|Gesture_bincompat|NSUIActivityProvider|NSRestorableState|NSPersistentUISupport|NSTouchBarProvider|NSIBResponderIntegration|NSQuickAction|_NSQuickActionItemSource)
+- __OBJC_CLASS_PROTOCOLS_$_NSSearchField(Debugging|NSBridgedSearchField|NSIBSearchFieldIntegration)
+- __OBJC_CLASS_PROTOCOLS_$_NSSegmentedControl(NSGlassAwareView|SpringLoading|NSSegmentedControlConvenience|NSGestureRecognizerSupport|NSIBSegmentedControlIntegration)
+- __OBJC_CLASS_PROTOCOLS_$_NSSlider(NSTickMarkLayoutPoints|NSSliderConvenience|NSTouchBarIncrements|NSSliderDelegate|NSGestureRecognizerSupport|NSSliderAccessoryContainer|NSSliderAccessibility|NSIBSliderIntegration)
+- __OBJC_CLASS_PROTOCOLS_$_NSTextField(AppKit|AppKit1|AppKit2|AppKit3|AppKit4|AppKit5|AppKit6|AppKit7|NSGlassAwareView|NSTextFieldObsolete|NSTextFieldConvenience|NSTextFieldConvenienceDeprecated|NSTextFieldPrivateConvenience|TextSuggestionsAggregation|NSIBTextFieldIntegration)
+- __OBJC_CLASS_PROTOCOLS_$_NSView(Interactions_Private|Interactions_Internal|CoordinateSpace|AppKit|_NSViewMaterialBackdropContext|NSScrollPocket_Internal|AppKit1|NSObservationTracking|AppKit2|AppIntentsAnnotationsDebugDescription|AppKit3|AppKit4|AppKit5|NSSwiftImplementation|AppKit6|AppKit7|NSScrollAnimationHelperFinished|extension|NSOpenGLInternal|CacheDisplay_Internal|CacheDisplay|NSTrackingArea|NSTrackingArea_Internal|NSTrackingAreaRoot|NSFindIndicator|GestureRecognizers_For_Emulation_Private|NSViewDumpDisplayList|NSViewMightNeedToClipToBounds|_UIViewLayoutFeedbackDebuggingSupport|NSViewEnclosingMenuItem|NSSurface|NSPrivateSurfaceColorSpaceSupport|NSPressureConfiguration|NSViewShowKeyboardUI|NSViewDebugMetricsOverlay|NSViewDebugMetricsOverlay_ForIB|NSViewDebugWindowManager|NSViewDebugShowGestureRecognizers|NSViewDebugShowAllDrawing|NSViewDebugShowAllDrawing_ForIB|NSViewDebugDescriptions|NSOpenGLContextAssociation|SwiftUI_PointInside|EnvironmentWrapper|NSExtendedDynamicRange|NSCellHighlight|NSControlGestureTracking|NSViewGlassContext|NSViewGlassContextInternal|NSFocusEngine_Private|NSFocusEngine_Internal|NSResponderDebug|NSWritingToolsCoordinator|GeometryInWindowNotifications|AnimatedTextPhrases|__NSTextViewCompatibility|NSStandardWindowButtons|NSHeartBeat|NSPrivateIBSupport|NSPrivateClipPath|NSPrivateFocusRingSupport|NSPrivateJavaSupport|NSDefinition|NSViewControllerSupport|NSViewInsetVisibleRect|NSViewMinSizeMeasurement|NSViewPresentationState|NSViewContentStyle|NSViewTableSelectionState|NSViewTitlebarForcedDividers|NSViewCenteredToolbarItem|NSTouchBarAccidentalTouchMitigation|NSHitTestingPrivate|NSPrivateLayerSupport|AppIntents|NSContentSizeCategory_ToBeAPI|NSViewCornerConfigurations|CornerConfiguration|NSContentSizeCategory_Internal|NSViewAccessibility|Legacy|RecommendedDrawableSize|NSDrag|NSDragInternal|NSPrinting2|NSEventRouting_Deprecated|GestureRecognizers_For_Emulation|TextSelectionManager|NSRevealInternal|NSViewRoot|NSLayerKitDebug|NSLayerKitGlue|NSPrinting1|NSPrintingInternal|NSPrintingDeprecatedLongAgo|NSFullScreenMode|NSUIActivityProvider|NSAutomaticInclusiveLayer|NSWantsHeaderView|NSCollectionViewReusable|NSTableViewDragSupport|NSFunctionRow|NSDisplayLinkInternal|NSDisplayLinkPrivate|NSDisplayLink|NSTextFinderConvenience|ViewVisitation|NSCandidateListTouchBarItem|NSPersistentUISupport|NSTouchBarItem|NSPopoverClosing|NSPopoverVisibleRect|NSIBViewIntegration|NSLetScrollersInteractBetterWithResizing|NSControlMetricsBehavior|NSPrivateCompactControlSizeMetrics|NSCompactControlSizeMetrics|NSConstraintBasedLayoutInternal|NSLayoutGuideSupport|NSLayoutMargins|NSSafeAreas|NSSafeAreasPrivate|NSCornerInsets|NSSafeAreasInternal|LayoutRegions|NSConstraintDebugging|NSAlignmentLayoutRect_ProposedAPI|NSDeclarativeConstraintCreation|Pinning|NSAppearanceCustomizationInternal|GestureContainers|NSTitlebarOverhang|NSTitlebar|NSRemoveConstraintWithIdentifier|_NSBaselineOffsetLayout|_NSConstraintBasedLayoutEmbedding|_NSConstraintBasedLayoutMeasuring)
+- __OBJC_CLASS_PROTOCOLS_$_NSWindow(NSSwiftImplementation|ScrollPocketAppearanceCoordinator|NSWindow_Performance|NSWindowTabbing_Private|NSTrackingAreas|NSCursorRects|NSDrawers|NSDrawerSupportPrivate|SnapshotAnimation|Assertions|NSIPTA|NSTouchBarFinder|_NSSegmentedCellToolbarAdditions|_NSResponderDebugging|NSWindowARC|NSSheets|NSSplitViewPreferredThicknessReset|Regions|NSStatusItemInternal|NSResponderDebug|GlassWindow|NSDisplayCycle|MotionCompatibility|NSScreenLayout|TrustedRendering|NSCarbonExtensions|NSWindow_Theme|NSWindow_Carbon|NSWindow_Scale|NSTimeMachineSupport|NSInspectorBarSupport|NSTitleRenamingSupport|NSSavelessDocumentSupport|NSWindowSharedFirstResponder|NSWindowContentsHostedInLayerSurface|NSWMWindowManagement|For_Sidecar|TelemetryAnalytics|NSPopoverClosing|NSWindowDisablesMultiTouchSystemGestures|NSWindowDisablesMultiTouchSystemGestures_Internal|NSWindowAccessibility|NSScripting|NSForSwiftUI|NSDrag|NSWindowsMenu|NSWindow_CarbonEventHandlers|NSEventRouting|NSEventRouting_Deprecated|NSGestureRecognizer_Routing|SwiftUI|NSWindow_NonARC|NSViewRoot|NSUIActivityProvider|_NSWindowAnimator|NSSidecarMenu|NSFunctionRow|NSDisplayLinkInternal|NSDisplayLinkPrivate|NSDisplayLink|NSVBOpenAndSavePanels|NSPersistentUISupport|NSUserInterfaceRestoration|ScrollPockets|NSLayoutConstraintVisualization|NSRemoteWindowAccessibility|NSWindowResizing|NSSharingServicePickerToolbarItem|NSFocusEngine_Private|NSFocusEngine_Internal|NSConstraintBasedLayoutPrivate|NSConstraintBasedLayoutInternal|NSAppearanceCustomizationInternal|NSFullScreen|NSQuietSafeQuit)
+- ___91-[NSCollectionView(NSGestureRecognizerDelegatePrivate) _validateGestureRecognizer:atPoint:]_block_invoke
+- ___unnamed_141
+- _checkOverrideAndDoImageDragUsingRowsWithIndexes:event:pasteboard:source:slideBack:startRow:._onceToken_62
+- _doImageDragUsingRows:event:pasteboard:source:slideBack:._onceToken_61
+- _objc_msgSend$_isInResizeRegion:forDirectTouch:
+- _objc_msgSend$_setTouchDidInterruptMomentum:
+- _objc_msgSend$_touchDidInterruptMomentum
+- _objc_msgSend$_updateDismissalGestureRecognizer:
+- _objc_msgSend$initWithGestureRecognizer:constrainedToScreenFrame:
+- _objc_msgSend$setRotationInDegrees:
+- _sNSCollectionViewDisableResponsiveScrollingWithPinnedViewsComputedValue
+- _sNSContextMenuRerouteEventsForViewBridgeComputedValue
+- _symbolic _____yAAyAAyAAyAAy__________y_____GG_____G_____ySbGG_____GAJG 7SwiftUI15ModifiedContentV 13DesignLibrary13WindowControlV AA30_EnvironmentKeyWritingModifierV AA0H4SizeO AA14_OpacityEffectV AA010_AnimationL0V 6AppKit029ThemeWidgetLiftedPresentationL0V
+- _symbolic _____yAAyAAyAAy__________y_____GG_____G_____ySbGG_____G 7SwiftUI15ModifiedContentV 13DesignLibrary13WindowControlV AA30_EnvironmentKeyWritingModifierV AA0H4SizeO AA14_OpacityEffectV AA010_AnimationL0V 6AppKit029ThemeWidgetLiftedPresentationL0V
+- _symbolic _____yAAyAAy__________y_____GG_____G_____ySbGG 7SwiftUI15ModifiedContentV 13DesignLibrary13WindowControlV AA30_EnvironmentKeyWritingModifierV AA0H4SizeO AA14_OpacityEffectV AA010_AnimationL0V
+- _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV 13DesignLibrary13WindowControlV AA30_EnvironmentKeyWritingModifierV AA0H4SizeO AA14_OpacityEffectV
+- _type_layout_string So38NSResponderEventCompatibilityBehaviorsV
+- _warnIfColumnSelectionIsNotSupported._onceToken_38
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACy13DesignLibrary13WindowControlVAA30_EnvironmentKeyWritingModifierVyAA0H4SizeOGGAA14_OpacityEffectVGAA010_AnimationL0VySbGG6AppKit029ThemeWidgetLiftedPresentationL0VGARGAA4ViewHPAwaYHPAsaYHPAoaYHPAlaYHPAfaYHPyHC_AkA0wL0HPyHCHC_AnaZHPyHCHC_AraZHPyHCHC_AvaZHPyHCHC_AraZHPyHCHC
+- keypath_set.18Tm
+CStrings:
++ " (touch already lifted)"
++ " points, sampled "
++ " samples, all of them gained"
++ " samples, all of them lost"
++ "## Samples by difference"
++ "%s : service did not include valid BOOL parameter in message for %@: invocation"
++ "%{public}@ data source %{public}@ implements -%{public}@ but not -%{public}@. Adopt the modern method to enable gesture-based drag and drop."
++ "Emulating mouse [%@]%@"
++ "Four hit-tests per point, for four times the time and the memory of 1x."
++ "How many samples to take per point along each axis. Anything finer than 1x finds the edges that fall between whole points, at the square of the time and the memory."
++ "Most to least impactful. Every sample is counted exactly once."
++ "NSApplicationAlwaysPopAutoquitAutoreleasePoolAtTermination"
++ "NSCollectionView pan drag"
++ "NSCollectionView press drag"
++ "NSImmediateTouchDragWhenNotScrollable"
++ "NSNextStepFrame gestureRecognizer:shouldReceiveTouch: for touch at %@ result is %d"
++ "NSPopUpMenuExclusionRect"
++ "NSTableView.dragPanGestureRecognizer"
++ "NSTableView.dragPressGestureRecognizer"
++ "NSTextFormattingViewControllerCampoBarExpanded"
++ "NSUntitledWindowsAllowExteriorResizing"
++ "One hit-test per point."
++ "Transform gesture controller failed to handle event: %@, error: %@, node: %s"
++ "clientTouchOrder"
++ "updateShowsHiddenFiles:"
++ "× along each axis for "
++ "\xf0Q"
++ "\xf0\xf0\xf0\xf0\xa1"
+- " of them sampled"
+- " points, all of them gained"
+- " points, all of them lost"
+- "## Points by difference"
+- "Emulating mouse [%@]"
+- "Most to least impactful. Every sampled point is counted exactly once."
+- "NSCollectionView mouse drag"
+- "NSCollectionView touch drag"
+- "NSContextMenuRerouteEventsForViewBridge"
+- "NSResizeRegionHitTests"
+- "NSTableView data source %@ implements -tableView:writeRowsWithIndexes:toPasteboard: but not -tableView:pasteboardWriterForRow:. Adopt the modern method to enable gesture-based drag and drop."
+- "NSTableView.dragTouchGestureRecognizer"
+- "NSTableView.mousePanGestureRecognizer"
+- "Touch Map (Fuzzy)"
+- "Touch Map (Strict)"
+- "\xf0a"
+- "\xf0\xf0\xf0\xf0\x91"
+```

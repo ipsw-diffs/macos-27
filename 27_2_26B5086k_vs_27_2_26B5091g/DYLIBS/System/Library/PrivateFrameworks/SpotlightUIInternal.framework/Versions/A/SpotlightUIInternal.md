@@ -1,0 +1,273 @@
+## SpotlightUIInternal
+
+> `/System/Library/PrivateFrameworks/SpotlightUIInternal.framework/Versions/A/SpotlightUIInternal`
+
+```diff
+
+-250.1.2.0.0
+-  __TEXT.__text: 0x17c538
+-  __TEXT.__objc_methlist: 0x3e70
+-  __TEXT.__const: 0xdae4
+-  __TEXT.__cstring: 0x3559
++250.1.4.1.0
++  __TEXT.__text: 0x185674
++  __TEXT.__objc_methlist: 0x3e90
++  __TEXT.__const: 0xdfb4
++  __TEXT.__cstring: 0x364f
+   __TEXT.__ustring: 0x6
+   __TEXT.__gcc_except_tab: 0x10
+-  __TEXT.__oslogstring: 0x328a
+-  __TEXT.__swift5_typeref: 0xca78
+-  __TEXT.__swift5_capture: 0x17e8
+-  __TEXT.__constg_swiftt: 0x8a68
+-  __TEXT.__swift5_reflstr: 0x472a
+-  __TEXT.__swift5_fieldmd: 0x40d8
+-  __TEXT.__swift5_types: 0x520
+-  __TEXT.__swift_as_entry: 0x12c
+-  __TEXT.__swift_as_ret: 0x16c
+-  __TEXT.__swift_as_cont: 0x2bc
+-  __TEXT.__swift5_assocty: 0xaf0
+-  __TEXT.__swift5_builtin: 0x21c
+-  __TEXT.__swift5_proto: 0x65c
++  __TEXT.__oslogstring: 0x32a6
++  __TEXT.__swift5_typeref: 0xccdc
++  __TEXT.__swift5_capture: 0x18a4
++  __TEXT.__constg_swiftt: 0x8b34
++  __TEXT.__swift5_reflstr: 0x49a0
++  __TEXT.__swift5_fieldmd: 0x42a0
++  __TEXT.__swift5_types: 0x558
++  __TEXT.__swift_as_entry: 0x130
++  __TEXT.__swift_as_ret: 0x170
++  __TEXT.__swift_as_cont: 0x2c8
++  __TEXT.__swift5_assocty: 0xb08
++  __TEXT.__swift5_builtin: 0x230
++  __TEXT.__swift5_proto: 0x684
+   __TEXT.__swift5_protos: 0x94
+   __TEXT.__swift5_mpenum: 0x38
+-  __TEXT.__unwind_info: 0x6e48
+-  __TEXT.__eh_frame: 0x435c
++  __TEXT.__unwind_info: 0x7140
++  __TEXT.__eh_frame: 0x46d8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x5a8
+-  __DATA_CONST.__objc_classlist: 0x3f0
++  __DATA_CONST.__objc_classlist: 0x400
+   __DATA_CONST.__objc_catlist: 0x50
+   __DATA_CONST.__objc_catlist2: 0x8
+   __DATA_CONST.__objc_protolist: 0x298
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3258
++  __DATA_CONST.__objc_selrefs: 0x3270
+   __DATA_CONST.__objc_protorefs: 0x148
+   __DATA_CONST.__objc_superrefs: 0xb0
+-  __DATA_CONST.__objc_arraydata: 0x148
+-  __DATA_CONST.__got: 0x1588
+-  __AUTH_CONST.__const: 0x8838
+-  __AUTH_CONST.__cfstring: 0xec0
+-  __AUTH_CONST.__objc_const: 0xa628
++  __DATA_CONST.__objc_arraydata: 0x158
++  __DATA_CONST.__got: 0x15a0
++  __AUTH_CONST.__const: 0x8be0
++  __AUTH_CONST.__cfstring: 0xee0
++  __AUTH_CONST.__objc_const: 0xa9a0
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH_CONST.__objc_intobj: 0x18
+-  __AUTH_CONST.__objc_arrayobj: 0x30
+-  __AUTH_CONST.__auth_got: 0x29c0
+-  __AUTH.__objc_data: 0x6db0
+-  __AUTH.__data: 0x5528
+-  __DATA.__objc_ivar: 0x1e0
+-  __DATA.__data: 0x3fb0
++  __AUTH_CONST.__objc_arrayobj: 0x48
++  __AUTH_CONST.__auth_got: 0x2a48
++  __AUTH.__objc_data: 0x6de8
++  __AUTH.__data: 0x56b8
++  __DATA.__objc_ivar: 0x1e4
++  __DATA.__data: 0x3ff0
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0xbb20
+-  __DATA.__common: 0x280
+-  __DATA_DIRTY.__objc_data: 0x280
+-  __DATA_DIRTY.__data: 0x88
+-  __DATA_DIRTY.__bss: 0xa0
++  __DATA.__bss: 0xbde0
++  __DATA.__common: 0x2d0
++  __DATA_DIRTY.__objc_data: 0x2e8
++  __DATA_DIRTY.__data: 0x1d0
++  __DATA_DIRTY.__bss: 0x2b0
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+
+   - /System/Library/PrivateFrameworks/BiomeStreams.framework/Versions/A/BiomeStreams
+   - /System/Library/PrivateFrameworks/CampoServices.framework/Versions/A/CampoServices
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+-  - /System/Library/PrivateFrameworks/DeviceManagement.framework/Versions/A/DeviceManagement
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/Versions/A/FrontBoardServices
+   - /System/Library/PrivateFrameworks/GenerativePartnerService.framework/Versions/A/GenerativePartnerService
+   - /System/Library/PrivateFrameworks/GenerativePartnerServiceUI.framework/Versions/A/GenerativePartnerServiceUI
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 8368
+-  Symbols:   5197
+-  CStrings:  620
++  Functions: 8553
++  Symbols:   5252
++  CStrings:  626
+ 
+Symbols:
++ -[SPUIIndexingView initWithPlacement:]
++ -[SPUISpotlightIndexingView initWithPlacement:]
++ -[SPUISpotlightIndexingView setVisibilityDidChange:]
++ -[SPUISpotlightIndexingView visibilityDidChange]
++ OBJC_IVAR_$_SPUISpotlightIndexingView._visibilityDidChange
++ _CGRectStandardize
++ __DATA__TtC19SpotlightUIInternal13MontaraRouter
++ __DATA__TtC19SpotlightUIInternal24WindowGestureCoordinator
++ __DATA__TtC19SpotlightUIInternal30WindowGestureInvocationSession
++ __IVARS__TtC19SpotlightUIInternal13MontaraRouter
++ __IVARS__TtC19SpotlightUIInternal24WindowGestureCoordinator
++ __IVARS__TtC19SpotlightUIInternal30WindowGestureInvocationSession
++ __METACLASS_DATA__TtC19SpotlightUIInternal13MontaraRouter
++ __METACLASS_DATA__TtC19SpotlightUIInternal24WindowGestureCoordinator
++ __METACLASS_DATA__TtC19SpotlightUIInternal30WindowGestureInvocationSession
++ _associated conformance 19SpotlightUIInternal13WindowGestureO4KindOSHAASQ
++ _associated conformance 19SpotlightUIInternal13WindowGestureOSHAASQ
++ _associated conformance 19SpotlightUIInternal24WindowGestureCoordinatorC15RegistrationKey33_6D28B715948A28AC3B8A113DC9333B2ELLVSHAASQ
++ _objc_msgSend$initWithPlacement:
++ _objc_msgSend$insertArrangedSubview:atIndex:
++ _objc_msgSend$setVisibilityDidChange:
++ _objc_msgSend$visibilityDidChange
++ _objc_setProperty_nonatomic_copy
++ _swift_unknownObjectUnownedDestroy
++ _swift_unknownObjectUnownedInit
++ _swift_unknownObjectUnownedLoadStrong
++ _symbolic SDySO_____G 19SpotlightUIInternal13MontaraRouterC8Observer33_8346299C1F2044E5C9FB5D5D7D1F52FALLV
++ _symbolic SDy_____Shy_____GG 19SpotlightUIInternal13WindowGestureO4KindO AC
++ _symbolic SDy__________G s5Int32V So6CGRectV
++ _symbolic SO3key______5valuet 19SpotlightUIInternal13MontaraRouterC8Observer33_8346299C1F2044E5C9FB5D5D7D1F52FALLV
++ _symbolic SSSbIeghHgd_
++ _symbolic SbSSYaYbc
++ _symbolic Shy_____G 19SpotlightUIInternal13WindowGestureO
++ _symbolic So25SPUISpotlightIndexingViewCSg
++ _symbolic _____ 19SpotlightUIInternal13MontaraRouterC
++ _symbolic _____ 19SpotlightUIInternal13MontaraRouterC8Observer33_8346299C1F2044E5C9FB5D5D7D1F52FALLV
++ _symbolic _____ 19SpotlightUIInternal13WindowGestureO
++ _symbolic _____ 19SpotlightUIInternal13WindowGestureO4KindO
++ _symbolic _____ 19SpotlightUIInternal17GestureIdentifierV
++ _symbolic _____ 19SpotlightUIInternal24WindowGestureCoordinatorC
++ _symbolic _____ 19SpotlightUIInternal24WindowGestureCoordinatorC15RegistrationKey33_6D28B715948A28AC3B8A113DC9333B2ELLV
++ _symbolic _____ 19SpotlightUIInternal30WindowGestureInvocationSessionC
++ _symbolic _____ So25SPUIIndexingViewPlacementV
++ _symbolic _____6region_So8NSScreenC6screent So6CGRectV
++ _symbolic _____Sg 10Foundation6LocaleV
++ _symbolic _____Sg 19SpotlightUIInternal13MontaraRouterC8Observer33_8346299C1F2044E5C9FB5D5D7D1F52FALLV
++ _symbolic _____Sg 19SpotlightUIInternal13WindowGestureO
++ _symbolic _____Sg 19SpotlightUIInternal17GestureIdentifierV
++ _symbolic _____Sg 19SpotlightUIInternal24WindowGestureCoordinatorC
++ _symbolic _____Sg 19SpotlightUIInternal24WindowGestureCoordinatorC15RegistrationKey33_6D28B715948A28AC3B8A113DC9333B2ELLV
++ _symbolic _____Sg 19SpotlightUIInternal30WindowGestureInvocationSessionC
++ _symbolic _____Sg So25SPUIIndexingViewPlacementV
++ _symbolic _____SgXw 19SpotlightUIInternal13MontaraRouterC
++ _symbolic _____SgXw 19SpotlightUIInternal22SearchHistoryContainerC
++ _symbolic _____SgXw 19SpotlightUIInternal24WindowGestureCoordinatorC
++ _symbolic _____SgXw 19SpotlightUIInternal30WindowGestureInvocationSessionC
++ _symbolic _____SgXwz_Xx 19SpotlightUIInternal13MontaraRouterC
++ _symbolic _____SgXwz_Xx 19SpotlightUIInternal24WindowGestureCoordinatorC
++ _symbolic _____Sg_ABt 13WindowManager24SystemGestureEventSourceO
++ _symbolic _____Sg_ABt 19SpotlightUIInternal24WindowGestureCoordinatorC15RegistrationKey33_6D28B715948A28AC3B8A113DC9333B2ELLV
++ _symbolic _____XDXMT 19SpotlightUIInternal24WindowGestureCoordinatorC
++ _symbolic _____Xo 19SpotlightUIInternal13WindowManagerC
++ _symbolic ______p 13WindowManager23SystemGestureDescriptorP
++ _symbolic _____yAAyAAy_____y_Qo______y_____y_____G_____GGADyAAy_____y_Qo_ACyAeGGGGGAAyADyAAy_____y_Qo_AKGGAFGG 7SwiftUI19_ConditionalContentV 19SpotlightUIInternal0E11WindowStateV7contentQrvpQO AA08ModifiedD0V AD05FluidG9ContainerV AD0gD9ErrorView33_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AD07ContactgH0VAGQrvpQO AD06CustomgH0VAGQrvpQO
++ _symbolic _____yAAy_____y_Qo______y_____y_____G_____GGADyAAy_____y_Qo_ACyAeGGGGG 7SwiftUI19_ConditionalContentV 19SpotlightUIInternal0E11WindowStateV7contentQrvpQO AA08ModifiedD0V AD05FluidG9ContainerV AD0gD9ErrorView33_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AD07ContactgH0VAGQrvpQO
++ _symbolic _____ySO_____G s18_DictionaryStorageC 19SpotlightUIInternal13MontaraRouterC8Observer33_8346299C1F2044E5C9FB5D5D7D1F52FALLV
++ _symbolic _____y_____G 13WindowManager18SystemGesturePhaseO AA013SpotlightAppscD0V5ValueV
++ _symbolic _____y_____G 13WindowManager18SystemGesturePhaseO AA05CampocD0V5ValueV
++ _symbolic _____y_____G s11_SetStorageC 19SpotlightUIInternal13WindowGestureO
++ _symbolic _____y_____Shy_____GG s18_DictionaryStorageC 19SpotlightUIInternal13WindowGestureO4KindO AE
++ _symbolic _____y__________G s18_DictionaryStorageC s5Int32V So6CGRectV
++ _symbolic _____y_____yAAy_____y_Qo______y__________GGGAByAEGG 7SwiftUI19_ConditionalContentV 19SpotlightUIInternal20FluidWindowContainerV AD06CustomH5StateV7contentQrvpQO AA08ModifiedD0V AD0hD9ErrorView33_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV
++ _symbolic _____y_____yABy_____y_Qo______y_____y_____G_____GGAEyABy_____y_Qo_ADyAfHGGGGAByAEyABy_____y_Qo_ALGGAGG_G 7SwiftUI19_ConditionalContentV7StorageO AC 19SpotlightUIInternal0F11WindowStateV7contentQrvpQO AA08ModifiedD0V AF05FluidH9ContainerV AF0hD9ErrorView33_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AF07ContacthI0VAIQrvpQO AF06CustomhI0VAIQrvpQO
++ _symbolic _____y_____y_Qo______y__________G_G 7SwiftUI19_ConditionalContentV7StorageO 19SpotlightUIInternal17CustomWindowStateV7contentQrvpQO AA08ModifiedD0V AF0iD9ErrorView33_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV
++ _symbolic _____y_____y_Qo______y__________G_G 7SwiftUI19_ConditionalContentV7StorageO 19SpotlightUIInternal18ContactWindowStateV7contentQrvpQO AA08ModifiedD0V AF0iD9ErrorView33_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV
++ _symbolic _____y_____y_Qo______y_____y_____G_____GG 7SwiftUI19_ConditionalContentV 19SpotlightUIInternal0E11WindowStateV7contentQrvpQO AA08ModifiedD0V AD05FluidG9ContainerV AD0gD9ErrorView33_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV
++ _symbolic _____y_____y_Qo______y_____y_____G_____G_G 7SwiftUI19_ConditionalContentV7StorageO 19SpotlightUIInternal0F11WindowStateV7contentQrvpQO AA08ModifiedD0V AF05FluidH9ContainerV AF0hD9ErrorView33_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV
++ _symbolic _____y_____y_____GAAyAAyAAy_____y_Qo______yABy_____G_____GGAByAAy_____y_Qo_AFyAgIGGGGAAyAByAAy_____y_Qo_AMGGAHGGG 7SwiftUI19_ConditionalContentV 19SpotlightUIInternal20FluidWindowContainerV AA7AnyViewV AD0eH5StateV7contentQrvpQO AA08ModifiedD0V AD0hd5ErrorK033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AD07ContacthL0VAKQrvpQO AD06CustomhL0VAKQrvpQO
++ _symbolic _____y_____y_____G_____yAEyAEy_____y_Qo______yABy_____G_____GGAByAEy_____y_Qo_AGyAhJGGGGAEyAByAEy_____y_Qo_ANGGAIGG_G 7SwiftUI19_ConditionalContentV7StorageO 19SpotlightUIInternal20FluidWindowContainerV AA7AnyViewV AC AF0fI5StateV7contentQrvpQO AA08ModifiedD0V AF0id5ErrorL033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AF07ContactiM0VAMQrvpQO AF06CustomiM0VAMQrvpQO
++ _symbolic _____y_____y_____y_Qo______y__________GGG 19SpotlightUIInternal20FluidWindowContainerV 7SwiftUI19_ConditionalContentV AA06CustomD5StateV7contentQrvpQO AD08ModifiedI0V AA0dI9ErrorView33_AC0F0B9A9CECA807EAB5C302FEA18312LLV AD12_FrameLayoutV
++ _symbolic _____y_____y_____y_Qo______y__________GGG 19SpotlightUIInternal20FluidWindowContainerV 7SwiftUI19_ConditionalContentV AA07ContactD5StateV7contentQrvpQO AD08ModifiedI0V AA0dI9ErrorView33_AC0F0B9A9CECA807EAB5C302FEA18312LLV AD12_FrameLayoutV
++ _symbolic _____y_____y_____y_Qo______y_____y_____G_____GGAEyABy_____y_Qo_ADyAfHGGG_G 7SwiftUI19_ConditionalContentV7StorageO AC 19SpotlightUIInternal0F11WindowStateV7contentQrvpQO AA08ModifiedD0V AF05FluidH9ContainerV AF0hD9ErrorView33_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AF07ContacthI0VAIQrvpQO
++ _symbolic _____y_____y_____y_____y_Qo______y__________GGGAByAFG_G 7SwiftUI19_ConditionalContentV7StorageO 19SpotlightUIInternal20FluidWindowContainerV AC AF06CustomI5StateV7contentQrvpQO AA08ModifiedD0V AF0iD9ErrorView33_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV
++ _symbolic yXlSgXw
++ _symbolic ytSg______pIgrzo_ s5ErrorP
++ _type_layout_string 19SpotlightUIInternal13MontaraRouterC8Observer33_8346299C1F2044E5C9FB5D5D7D1F52FALLV
++ _type_layout_string 19SpotlightUIInternal13WindowGestureO
++ _type_layout_string 19SpotlightUIInternal17GestureIdentifierV
++ get_witness_table 7SwiftUI19_ConditionalContentVy19SpotlightUIInternal20FluidWindowContainerVyAA7AnyViewVGACyACyACyAD0eH5StateV7contentQrvpQOy_Qo_AA08ModifiedD0VyAFyAD0hd5ErrorK033_AC0F0B9A9CECA807EAB5C302FEA18312LLVGAA12_FrameLayoutVGGAFyACyAD07ContacthL0VALQrvpQOy_Qo_AOyArUGGGGACyAFyACyAD06CustomhL0VALQrvpQOy_Qo_A_GGASGGGAA0K0HPAiAA11_HPyHC_A9_AAA11_HPA2_AAA11_HPAwAA11_HPxAAA11_HD1_AMHO_AvAA11_HPAsAA11_HPyHC_AuA0K8ModifierHPyHCHCHC_A1_AAA11_HPyHCHC_A8_AAA11_HPA7_AAA11_HPyHC_AsAA11_HPyHCHCHCHC
+- -[SPUIIndexingView init]
+- -[SPUISpotlightIndexingView init]
+- _OBJC_CLASS_$_DMFPolicyMonitor
+- _OBJC_CLASS_$_NSCache
+- __DATA__TtCC19SpotlightUIInternal36SPUIExternalGenerativePartnerManagerP33_A96508C3EE92D1DF1644A8F59FE141E316ProviderSnapshot
+- __IVARS__TtCC19SpotlightUIInternal36SPUIExternalGenerativePartnerManagerP33_A96508C3EE92D1DF1644A8F59FE141E316ProviderSnapshot
+- __METACLASS_DATA__TtCC19SpotlightUIInternal36SPUIExternalGenerativePartnerManagerP33_A96508C3EE92D1DF1644A8F59FE141E316ProviderSnapshot
+- _objc_msgSend$requestPoliciesForBundleIdentifiers:completionHandler:
+- _objc_msgSend$setWithObject:
+- _swift_continuation_throwingResume
+- _swift_continuation_throwingResumeWithError
+- _symbolic Say_____G 13CampoServices15MontaraProviderV
+- _symbolic SccySDySSSo8NSNumberCG______pG s5ErrorP
+- _symbolic So25SPUISpotlightIndexingViewC
+- _symbolic _____ 19SpotlightUIInternal17GestureIdentifier33_88E8768B406503249CDDF534AA1D2A7CLLV
+- _symbolic _____ 19SpotlightUIInternal36SPUIExternalGenerativePartnerManagerC16ProviderSnapshot33_A96508C3EE92D1DF1644A8F59FE141E3LLC
+- _symbolic _____XDXMT 19SpotlightUIInternal13WindowManagerC
+- _symbolic ______p s5ErrorP
+- _symbolic _____yAAyAAy__________y_____y_____G_____GGADyAAy_____ACyAeGGGGGAAyADyAAy_____AKGGAFGG 7SwiftUI19_ConditionalContentV 19SpotlightUIInternal0eD4ViewV AA08ModifiedD0V AD20FluidWindowContainerV AD0jd5ErrorG033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AD07ContactdG0V AA03AnyG0V
+- _symbolic _____yAAy__________y_____y_____G_____GGADyAAy_____ACyAeGGGGG 7SwiftUI19_ConditionalContentV 19SpotlightUIInternal0eD4ViewV AA08ModifiedD0V AD20FluidWindowContainerV AD0jd5ErrorG033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AD07ContactdG0V
+- _symbolic _____ySSSo8NSNumberCG s18_DictionaryStorageC
+- _symbolic _____y_____G 13WindowManager18SystemGesturePhaseO AA013SpotlightAppscD0V5ValueO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13CampoServices15MontaraProviderV
+- _symbolic _____y__________y__________G_G 7SwiftUI19_ConditionalContentV7StorageO 19SpotlightUIInternal07ContactD4ViewV AA08ModifiedD0V AF06Windowd5ErrorI033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV
+- _symbolic _____y__________y_____y_____G_____GG 7SwiftUI19_ConditionalContentV 19SpotlightUIInternal0eD4ViewV AA08ModifiedD0V AD20FluidWindowContainerV AD0jd5ErrorG033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV
+- _symbolic _____y__________y_____y_____G_____G_G 7SwiftUI19_ConditionalContentV7StorageO 19SpotlightUIInternal0fD4ViewV AA08ModifiedD0V AF20FluidWindowContainerV AF0kd5ErrorH033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV
+- _symbolic _____y_____yAAy__________y__________GGGAByAEGG 7SwiftUI19_ConditionalContentV 19SpotlightUIInternal20FluidWindowContainerV AA7AnyViewV AA08ModifiedD0V AD0hd5ErrorK033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV
+- _symbolic _____y_____yABy__________y_____y_____G_____GGAEyABy_____ADyAfHGGGGAByAEyABy_____ALGGAGG_G 7SwiftUI19_ConditionalContentV7StorageO AC 19SpotlightUIInternal0fD4ViewV AA08ModifiedD0V AF20FluidWindowContainerV AF0kd5ErrorH033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AF07ContactdH0V AA03AnyH0V
+- _symbolic _____y_____y_____GAAyAAyAAy__________yABy_____G_____GGAByAAy_____AFyAgIGGGGAAyAByAAyAcMGGAHGGG 7SwiftUI19_ConditionalContentV 19SpotlightUIInternal20FluidWindowContainerV AA7AnyViewV AD0edK0V AA08ModifiedD0V AD0hd5ErrorK033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AD07ContactdK0V
+- _symbolic _____y_____y_____G_____yAEyAEy__________yABy_____G_____GGAByAEy_____AGyAhJGGGGAEyAByAEyAcNGGAIGG_G 7SwiftUI19_ConditionalContentV7StorageO 19SpotlightUIInternal20FluidWindowContainerV AA7AnyViewV AC AF0fdL0V AA08ModifiedD0V AF0id5ErrorL033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AF07ContactdL0V
+- _symbolic _____y_____y__________y__________GGG 19SpotlightUIInternal20FluidWindowContainerV 7SwiftUI19_ConditionalContentV AA07ContactI4ViewV AD08ModifiedI0V AA0di5ErrorK033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AD12_FrameLayoutV
+- _symbolic _____y_____y__________y__________GGG 19SpotlightUIInternal20FluidWindowContainerV 7SwiftUI19_ConditionalContentV AD7AnyViewV AD08ModifiedI0V AA0di5ErrorK033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AD12_FrameLayoutV
+- _symbolic _____y_____y__________y_____y_____G_____GGAEyABy_____ADyAfHGGG_G 7SwiftUI19_ConditionalContentV7StorageO AC 19SpotlightUIInternal0fD4ViewV AA08ModifiedD0V AF20FluidWindowContainerV AF0kd5ErrorH033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AF07ContactdH0V
+- get_witness_table 7SwiftUI19_ConditionalContentVy19SpotlightUIInternal20FluidWindowContainerVyAA7AnyViewVGACyACyACyAD0edK0VAA08ModifiedD0VyAFyAD0hd5ErrorK033_AC0F0B9A9CECA807EAB5C302FEA18312LLVGAA12_FrameLayoutVGGAFyACyAD07ContactdK0VAMyApSGGGGACyAFyACyAhXGGAQGGGAA0K0HPAiAA5_HPyHC_A3_AAA5_HPA_AAA5_HPAuAA5_HPAkAA5_HPyHC_AtAA5_HPAqAA5_HPyHC_AsA0K8ModifierHPyHCHCHC_AzAA5_HPyHCHC_A2_AAA5_HPA1_AAA5_HPyHC_AqAA5_HPyHCHCHCHC
+CStrings:
++ "%s interactive %s towards dismissed"
++ "A dismissal is pending; refusing to start an interactive invocation."
++ "A dismissal was pending. Absorbing it into the interactive dismissal"
++ "An interactive invocation is already in flight; refusing a second one."
++ "Bug %s %s: there was no session"
++ "Failed to start the interactive %s animation"
++ "SpotlightUIInternal/MontaraRouter.swift"
++ "SpotlightUIInternal/WindowGestureCoordinator.swift"
++ "SpotlightUIInternal/WindowGestureInvocationSession.swift"
++ "The window is %s, not invoked; refusing to drive its dismissal."
++ "The window is %s, not invoking; refusing to drive its invocation."
++ "com.apple.MenuBarAgent"
++ "init(navigationStack:navigationBar:factory:mode:showsIndexingView:)"
++ "query addresses an external provider: %{bool,public}d"
++ "trackpadAppBrowseEnabled"
+- "%s %s towards dismissed"
+- "A dismissal was pending. Ignoring the interactive dismissal gesture %s and performing the dismissal"
+- "Bug %s %s: there was no activeGestureController"
+- "Failed to start interactive dismissal %s"
+- "Starting Show Apps failed to start animation %s"
+- "The spotlight controller is already in the dimissed state, ignoring the new interactive dismissal, gesture %s"
+- "The spotlight controller is already in the dismissing or invoking state, let's not start a new interactive dismissal, gesture %s"
+- "init(navigationStack:navigationBar:factory:mode:)"
+- "providers"
+```

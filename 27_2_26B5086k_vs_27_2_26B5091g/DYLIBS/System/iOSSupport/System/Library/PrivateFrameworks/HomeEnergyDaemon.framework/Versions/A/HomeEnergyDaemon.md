@@ -1,0 +1,143 @@
+## HomeEnergyDaemon
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/HomeEnergyDaemon.framework/Versions/A/HomeEnergyDaemon`
+
+```diff
+
+-504.0.0.0.0
+-  __TEXT.__text: 0x3bc634
++506.0.0.0.0
++  __TEXT.__text: 0x3bea2c
+   __TEXT.__objc_methlist: 0xcf8
+-  __TEXT.__const: 0xb850
++  __TEXT.__const: 0xb890
+   __TEXT.__gcc_except_tab: 0x18
+   __TEXT.__cstring: 0x5c01
+-  __TEXT.__swift5_typeref: 0x34d8
+-  __TEXT.__oslogstring: 0x1188f
++  __TEXT.__swift5_typeref: 0x34fc
++  __TEXT.__oslogstring: 0x119ef
+   __TEXT.__swift5_capture: 0x3bd4
+-  __TEXT.__constg_swiftt: 0x4278
++  __TEXT.__constg_swiftt: 0x4294
+   __TEXT.__swift5_reflstr: 0x3934
+-  __TEXT.__swift5_fieldmd: 0x36f0
++  __TEXT.__swift5_fieldmd: 0x3700
+   __TEXT.__swift5_builtin: 0xb4
+   __TEXT.__swift5_assocty: 0x330
+   __TEXT.__swift5_proto: 0x428
+-  __TEXT.__swift5_types: 0x378
+-  __TEXT.__swift_as_entry: 0xa7c
+-  __TEXT.__swift_as_ret: 0xd94
+-  __TEXT.__swift_as_cont: 0x1c50
++  __TEXT.__swift5_types: 0x37c
++  __TEXT.__swift_as_entry: 0xa84
++  __TEXT.__swift_as_ret: 0xdac
++  __TEXT.__swift_as_cont: 0x1c80
+   __TEXT.__swift5_protos: 0x48
+   __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__unwind_info: 0xc290
+-  __TEXT.__eh_frame: 0x24310
++  __TEXT.__unwind_info: 0xc370
++  __TEXT.__eh_frame: 0x24608
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_selrefs: 0x15f0
+   __DATA_CONST.__objc_protorefs: 0x50
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xc3f0
++  __AUTH_CONST.__const: 0xc488
+   __AUTH_CONST.__objc_const: 0x65b0
+-  __AUTH_CONST.__auth_got: 0x32e8
++  __AUTH_CONST.__auth_got: 0x3338
+   __AUTH.__objc_data: 0x2a0
+-  __AUTH.__data: 0x2458
+-  __DATA.__data: 0x19f8
+-  __DATA.__common: 0xb8
++  __AUTH.__data: 0x2338
++  __DATA.__data: 0x19f0
++  __DATA.__common: 0xb0
+   __DATA.__bss: 0x7010
+   __DATA_DIRTY.__objc_data: 0x5c0
+-  __DATA_DIRTY.__data: 0x4fa8
++  __DATA_DIRTY.__data: 0x50f8
+   __DATA_DIRTY.__bss: 0xc00
+-  __DATA_DIRTY.__common: 0x260
++  __DATA_DIRTY.__common: 0x268
+   - /System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit
+   - /System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+   - /System/Library/Frameworks/CoreData.framework/Versions/A/CoreData
+
+   - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 10885
+-  Symbols:   21339
+-  CStrings:  1689
++  Functions: 10915
++  Symbols:   21393
++  CStrings:  1693
+ 
+Symbols:
++ _$s10Foundation14DateComponentsVMn
++ _$s10Foundation14DateComponentsVSgMR
++ _$s10Foundation14DateComponentsVSgMd
++ _$s16HomeEnergyDaemon14TOUPeakServiceC19fetchTariffSchedule33_ADC0FE0F47677C82A680EEC48C89FF3DLL15startComponents15tariffProfileID07utilityU08timezone6cursor10Foundation4DateVSgAK0zR0V_S2SAK8TimeZoneVAMtYaKF
++ _$s16HomeEnergyDaemon14TOUPeakServiceC19fetchTariffSchedule33_ADC0FE0F47677C82A680EEC48C89FF3DLL15startComponents15tariffProfileID07utilityU08timezone6cursor10Foundation4DateVSgAK0zR0V_S2SAK8TimeZoneVAMtYaKFTQ1_
++ _$s16HomeEnergyDaemon14TOUPeakServiceC19fetchTariffSchedule33_ADC0FE0F47677C82A680EEC48C89FF3DLL15startComponents15tariffProfileID07utilityU08timezone6cursor10Foundation4DateVSgAK0zR0V_S2SAK8TimeZoneVAMtYaKFTQ3_
++ _$s16HomeEnergyDaemon14TOUPeakServiceC19fetchTariffSchedule33_ADC0FE0F47677C82A680EEC48C89FF3DLL15startComponents15tariffProfileID07utilityU08timezone6cursor10Foundation4DateVSgAK0zR0V_S2SAK8TimeZoneVAMtYaKFTY0_
++ _$s16HomeEnergyDaemon14TOUPeakServiceC19fetchTariffSchedule33_ADC0FE0F47677C82A680EEC48C89FF3DLL15startComponents15tariffProfileID07utilityU08timezone6cursor10Foundation4DateVSgAK0zR0V_S2SAK8TimeZoneVAMtYaKFTY2_
++ _$s16HomeEnergyDaemon14TOUPeakServiceC19fetchTariffSchedule33_ADC0FE0F47677C82A680EEC48C89FF3DLL15startComponents15tariffProfileID07utilityU08timezone6cursor10Foundation4DateVSgAK0zR0V_S2SAK8TimeZoneVAMtYaKFTY4_
++ _$s16HomeEnergyDaemon14TOUPeakServiceC19fetchTariffSchedule33_ADC0FE0F47677C82A680EEC48C89FF3DLL15startComponents15tariffProfileID07utilityU08timezone6cursor10Foundation4DateVSgAK0zR0V_S2SAK8TimeZoneVAMtYaKFTY5_
++ _$s16HomeEnergyDaemon14TOUPeakServiceC19fetchTariffSchedule33_ADC0FE0F47677C82A680EEC48C89FF3DLL15startComponents15tariffProfileID07utilityU08timezone6cursor10Foundation4DateVSgAK0zR0V_S2SAK8TimeZoneVAMtYaKFTY6_
++ _$s16HomeEnergyDaemon14TOUPeakServiceC19fetchTariffSchedule33_ADC0FE0F47677C82A680EEC48C89FF3DLL15startComponents15tariffProfileID07utilityU08timezone6cursor10Foundation4DateVSgAK0zR0V_S2SAK8TimeZoneVAMtYaKFTu
++ _$s16HomeEnergyDaemon18TariffPreprocessorO05fetchD09utilityID013tariffProfileH05start3end0A15UtilityServices0D8ResponseVSS_SS10Foundation14DateComponentsVANSgtYaKFZ
++ _$s16HomeEnergyDaemon18TariffPreprocessorO05fetchD09utilityID013tariffProfileH05start3end0A15UtilityServices0D8ResponseVSS_SS10Foundation14DateComponentsVANSgtYaKFZTQ2_
++ _$s16HomeEnergyDaemon18TariffPreprocessorO05fetchD09utilityID013tariffProfileH05start3end0A15UtilityServices0D8ResponseVSS_SS10Foundation14DateComponentsVANSgtYaKFZTQ4_
++ _$s16HomeEnergyDaemon18TariffPreprocessorO05fetchD09utilityID013tariffProfileH05start3end0A15UtilityServices0D8ResponseVSS_SS10Foundation14DateComponentsVANSgtYaKFZTQ7_
++ _$s16HomeEnergyDaemon18TariffPreprocessorO05fetchD09utilityID013tariffProfileH05start3end0A15UtilityServices0D8ResponseVSS_SS10Foundation14DateComponentsVANSgtYaKFZTQ9_
++ _$s16HomeEnergyDaemon18TariffPreprocessorO05fetchD09utilityID013tariffProfileH05start3end0A15UtilityServices0D8ResponseVSS_SS10Foundation14DateComponentsVANSgtYaKFZTY0_
++ _$s16HomeEnergyDaemon18TariffPreprocessorO05fetchD09utilityID013tariffProfileH05start3end0A15UtilityServices0D8ResponseVSS_SS10Foundation14DateComponentsVANSgtYaKFZTY10_
++ _$s16HomeEnergyDaemon18TariffPreprocessorO05fetchD09utilityID013tariffProfileH05start3end0A15UtilityServices0D8ResponseVSS_SS10Foundation14DateComponentsVANSgtYaKFZTY1_
++ _$s16HomeEnergyDaemon18TariffPreprocessorO05fetchD09utilityID013tariffProfileH05start3end0A15UtilityServices0D8ResponseVSS_SS10Foundation14DateComponentsVANSgtYaKFZTY3_
++ _$s16HomeEnergyDaemon18TariffPreprocessorO05fetchD09utilityID013tariffProfileH05start3end0A15UtilityServices0D8ResponseVSS_SS10Foundation14DateComponentsVANSgtYaKFZTY5_
++ _$s16HomeEnergyDaemon18TariffPreprocessorO05fetchD09utilityID013tariffProfileH05start3end0A15UtilityServices0D8ResponseVSS_SS10Foundation14DateComponentsVANSgtYaKFZTY6_
++ _$s16HomeEnergyDaemon18TariffPreprocessorO05fetchD09utilityID013tariffProfileH05start3end0A15UtilityServices0D8ResponseVSS_SS10Foundation14DateComponentsVANSgtYaKFZTY8_
++ _$s16HomeEnergyDaemon18TariffPreprocessorO05fetchD09utilityID013tariffProfileH05start3end0A15UtilityServices0D8ResponseVSS_SS10Foundation14DateComponentsVANSgtYaKFZTu
++ _$s16HomeEnergyDaemon18TariffPreprocessorOMF
++ _$s16HomeEnergyDaemon18TariffPreprocessorOMa
++ _$s16HomeEnergyDaemon18TariffPreprocessorOMf
++ _$s16HomeEnergyDaemon18TariffPreprocessorOMn
++ _$s16HomeEnergyDaemon18TariffPreprocessorON
++ _$s19EnergyKitFoundation0aB8FeaturesO18tariffEndpoint2027yA2CmFWC
++ _$s19HomeUtilityServices0bC0C17tariffInformation9utilityID0d7ProfileG05start3end_AA14TariffResponseVSS_SS10Foundation14DateComponentsVAMSgSo12NSURLSessionCtYaKFZ
++ _$s19HomeUtilityServices0bC0C17tariffInformation9utilityID0d7ProfileG05start3end_AA14TariffResponseVSS_SS10Foundation14DateComponentsVAMSgSo12NSURLSessionCtYaKFZTu
++ _$s19HomeUtilityServices11TariffPeaksV13peakIntervalsSayAA12PeakIntervalVGvg
++ _$s19HomeUtilityServices11TariffPeaksVMa
++ _$s19HomeUtilityServices11TariffPeaksVMn
++ _$s19HomeUtilityServices11TariffPeaksVSgMR
++ _$s19HomeUtilityServices11TariffPeaksVSgMd
++ _$s19HomeUtilityServices11TariffPeaksVSgWOh
++ _$s19HomeUtilityServices14TariffMetadataV15applicablePeaksSayAA14ApplicablePeakVGSgvg
++ _$s19HomeUtilityServices14TariffMetadataVMa
++ _$s19HomeUtilityServices14TariffResponseV20coverageEndDateTimesSaySSGvg
++ _$s19HomeUtilityServices14TariffResponseV5peaksAA0D5PeaksVSgvg
++ _$s19HomeUtilityServices14TariffResponseV8metadataAA0D8MetadataVvg
++ _$s19HomeUtilityServices14TariffResponseV8validateyyKF
++ _$s19HomeUtilityServices14TariffResponseVMa
++ _$sSTsSL7ElementRpzrlE3maxABSgyFSay10Foundation4DateVG_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4DateV_Tg5
++ _$ss23_ContiguousArrayStorageCy10Foundation4DateVGMR
++ _$ss23_ContiguousArrayStorageCy10Foundation4DateVGMd
++ _symbolic _____ 16HomeEnergyDaemon18TariffPreprocessorO
++ _symbolic _____Sg 10Foundation14DateComponentsV
++ _symbolic _____Sg 19HomeUtilityServices11TariffPeaksV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation4DateV
+CStrings:
++ "[TOUPeakService] Tariff for %s describes no coverage end at cursor %s. Stopping gap fill."
++ "[Tariff Preprocessor] Fetch tariff for utility %s, tariffProfile: %s"
++ "[Tariff Preprocessor] Got tariff for %s from server with %ld applicable peaks and %ld intervals"
++ "[Tariff Preprocessor] Rejected tariff for %{public}s: %{public}s"
+```
