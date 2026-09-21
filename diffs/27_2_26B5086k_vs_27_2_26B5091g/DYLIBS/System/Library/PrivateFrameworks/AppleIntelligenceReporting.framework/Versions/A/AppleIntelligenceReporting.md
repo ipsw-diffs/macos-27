@@ -1,0 +1,139 @@
+## AppleIntelligenceReporting
+
+> `/System/Library/PrivateFrameworks/AppleIntelligenceReporting.framework/Versions/A/AppleIntelligenceReporting`
+
+```diff
+
+-232.40.11.0.0
+-  __TEXT.__text: 0x788e8
+-  __TEXT.__const: 0xf78c
+-  __TEXT.__swift5_typeref: 0x2f5f
++232.40.14.0.0
++  __TEXT.__text: 0x7abec
++  __TEXT.__const: 0xf7bc
++  __TEXT.__swift5_typeref: 0x2fa7
+   __TEXT.__oslogstring: 0x5eb
+   __TEXT.__constg_swiftt: 0x24dc
+   __TEXT.__swift5_reflstr: 0x247e
+   __TEXT.__swift5_fieldmd: 0x3960
+-  __TEXT.__cstring: 0x1906
++  __TEXT.__cstring: 0x1986
+   __TEXT.__swift5_proto: 0xf38
+   __TEXT.__swift5_types: 0x404
+   __TEXT.__swift5_protos: 0x10
+
+   __TEXT.__swift_as_entry: 0xc
+   __TEXT.__swift_as_ret: 0xc
+   __TEXT.__swift_as_cont: 0x20
+-  __TEXT.__unwind_info: 0x39a0
+-  __TEXT.__eh_frame: 0x3600
++  __TEXT.__unwind_info: 0x3a20
++  __TEXT.__eh_frame: 0x36c8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0x6ad8
+   __AUTH_CONST.__objc_const: 0x650
+-  __AUTH_CONST.__auth_got: 0x16e8
+-  __AUTH.__data: 0x2c0
+-  __DATA.__data: 0x26e0
++  __AUTH_CONST.__auth_got: 0x1708
++  __DATA.__data: 0x2720
+   __DATA.__bss: 0x1de10
+   __DATA.__common: 0x30
+   __DATA_DIRTY.__objc_data: 0x50
+-  __DATA_DIRTY.__data: 0xe70
++  __DATA_DIRTY.__data: 0x1140
+   __DATA_DIRTY.__common: 0x30
+   __DATA_DIRTY.__bss: 0x780
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 5362
+-  Symbols:   14835
+-  CStrings:  216
++  Functions: 5400
++  Symbols:   14892
++  CStrings:  219
+ 
+Symbols:
++ _$s10Foundation13CustomNSErrorP13errorUserInfoSDySSypGvgTj
++ _$s10Foundation4DateVSgWOh
++ _$s26AppleIntelligenceReporting0aB32ErrorMultipleUnderlyingErrorsKeySSvg
++ _$s26AppleIntelligenceReporting0aB5ErrorPAAE13errorUserInfoSDySSypGvg
++ _$s26AppleIntelligenceReporting0aB5ErrorPAAE13errorUserInfoSDySSypGvgAA07GeneralabD0C_Tg5
++ _$s26AppleIntelligenceReporting0aB5ErrorPAAE13errorUserInfoSDySSypGvgAA0abcD0O_Tg5
++ _$s26AppleIntelligenceReporting0aB5ErrorPAAE13errorUserInfoSDySSypGvpMV
++ _$s26AppleIntelligenceReporting0aB5ErrorPAAE15defaultUserInfo11description16underlyingErrors8category14retryAfterDate010additionalfG015requestFeedbackSDyS2SGSS_SayAaB_pGAA0abD8CategoryO10Foundation0N0VSgAKSbtFZSbSS3key_SS5valuet_tXEfU0_
++ _$s26AppleIntelligenceReporting0aB5ErrorPAAE8userInfoSDyS2SGvgAA0abcD0O_Tg5
++ _$s26AppleIntelligenceReporting0aB5Error_pWOcTm
++ _$s26AppleIntelligenceReporting0ab15ErrorUnderlyingD3KeySSvg
++ _$s26AppleIntelligenceReporting23underlyingErrorListKeys33_7CD3AB9C6F40D675AAB6A4E202A599F4LLSaySSGvp
++ _$s26AppleIntelligenceReporting23underlyingErrorListKeys33_7CD3AB9C6F40D675AAB6A4E202A599F4LL_WZ
++ _$s26AppleIntelligenceReporting23underlyingErrorListKeys33_7CD3AB9C6F40D675AAB6A4E202A599F4LL_Wz
++ _$s26AppleIntelligenceReporting27reservedUnderlyingErrorKeys33_7CD3AB9C6F40D675AAB6A4E202A599F4LLShySSGvp
++ _$s26AppleIntelligenceReporting27reservedUnderlyingErrorKeys33_7CD3AB9C6F40D675AAB6A4E202A599F4LL_WZ
++ _$s26AppleIntelligenceReporting27reservedUnderlyingErrorKeys33_7CD3AB9C6F40D675AAB6A4E202A599F4LL_Wz
++ _$sSD7merging_16uniquingKeysWithSDyxq_GACn_q_q__q_tqd__YKXEtqd__YKs5ErrorRd__lFSS_SSs5NeverOTg5034$s26AppleIntelligenceReporting0aB5E183PAAE15defaultUserInfo11description16underlyingErrors8category14retryAfterDate010additionalfG015requestFeedbackSDyS2SGSS_SayAaB_pGAA0abD8CategoryO10Foundation0N0VSgAKSbtFZS2S_SStXEfU1_Tf1ncn_n
++ _$sSDyq_SgxcigSS_ypTg5
++ _$sSa5countSivg26AppleIntelligenceReporting07GeneralbC5ErrorC_Tg5Tm
++ _$sSa5countSivgSo7NSErrorC_Tg5
++ _$sSa9_getCountSiyF26AppleIntelligenceReporting07GeneralcD5ErrorC_Tg5Tm
++ _$sSa9_getCountSiyFSo7NSErrorC_Tg5
++ _$sSaySo7NSErrorCGMR
++ _$sSaySo7NSErrorCGMd
++ _$sSays5Error_pGMR
++ _$sSays5Error_pGMd
++ _$sSh15minimumCapacityShyxGSi_tcfC
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnFSS_Tg5
++ _$sSh8containsySbxFSS_Tg5
++ _$sSo7NSErrorC26AppleIntelligenceReportingE26wellFormedUnderlyingErrorsSays5Error_pGvg
++ _$sSo7NSErrorC26AppleIntelligenceReportingE26wellFormedUnderlyingErrorsSays5Error_pGvpMV
++ _$sSp14moveInitialize4from5countySpyxG_SitFs5Error_p_Tg5
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tFSS_Tg5
++ _$ss10_NativeSetV4copyyyFSS_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tFSS_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtFSS_Tg5
++ _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
++ _$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ
++ _$ss11_SetStorageCMn
++ _$ss11_SetStorageCySSGMR
++ _$ss11_SetStorageCySSGMd
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5Error_p_Tg5
++ _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVyS2SG_s5NeverOTg506$ss17_kl51V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5i12Rd__lFADs13_ab19Vqd__YKXEfU_SS_SSs5M4OTG5ALxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lyS2SANIsgnndzr_Tf1nc_n
++ _$ss17_NativeDictionaryV07extractB05using5countAByxq_Gs13_UnsafeBitsetV_SitFSS_SSTg5
++ _$ss17_NativeDictionaryV5merge_8isUnique16uniquingKeysWithyqd__n_Sbq_q__q_tqd_0_YKXEtqd_0_YKSTRd__s5ErrorRd_0_x_q_t7ElementRtd__r0_lFSS_SSs15LazyMapSequenceVySDyS2SGSS_SStGs5NeverOTg5034$s26AppleIntelligenceReporting0aB5I183PAAE15defaultUserInfo11description16underlyingErrors8category14retryAfterDate010additionalfG015requestFeedbackSDyS2SGSS_SayAaB_pGAA0abD8CategoryO10Foundation0N0VSgAKSbtFZS2S_SStXEfU1_Tf1nncn_n
++ _$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5ErrorRd__lFADs13_UnsafeBitsetVqd__YKXEfU_SS_SSs5NeverOTg5
++ _$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5ErrorRd__lFSS_SSs5NeverOTg5034$s26AppleIntelligenceReporting0aB5F196PAAE15defaultUserInfo11description16underlyingErrors8category14retryAfterDate010additionalfG015requestFeedbackSDyS2SGSS_SayAaB_pGAA0abD8CategoryO10Foundation0N0VSgAKSbtFZSbSS3key_SS5valuet_tXEfU0_Tf1cn_n
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_ypTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_ypTg5
++ _$ss17_NativeDictionaryVySSypGMR
++ _$ss17_NativeDictionaryVySSypGMd
++ _$ss23_ContiguousArrayStorageCys5Error_pGMR
++ _$ss23_ContiguousArrayStorageCys5Error_pGMd
++ _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _$sypSgMR
++ _$sypSgMd
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ _symbolic SaySo7NSErrorCG
++ _symbolic Say______pG s5ErrorP
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySSypG s17_NativeDictionaryV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s5ErrorP
++ _symbolic ypSg
+- _$s10Foundation13CustomNSErrorPAAE13errorUserInfoSDySSypGvg
+- _$s26AppleIntelligenceReporting0aB5ErrorPAAE13errorUserInfoSDyS2SGvg
+- _$s26AppleIntelligenceReporting0aB5ErrorPAAE13errorUserInfoSDyS2SGvpMV
+- _$s26AppleIntelligenceReporting0aB5Error_pWOb
+- _$sSD7merging_16uniquingKeysWithSDyxq_GACn_q_q__q_tqd__YKXEtqd__YKs5ErrorRd__lFSS_SSs5NeverOTg5034$s26AppleIntelligenceReporting0aB5E183PAAE15defaultUserInfo11description16underlyingErrors8category14retryAfterDate010additionalfG015requestFeedbackSDyS2SGSS_SayAaB_pGAA0abD8CategoryO10Foundation0N0VSgAKSbtFZS2S_SStXEfU0_Tf1ncn_nTm
+- _$sSa9_getCountSiyF26AppleIntelligenceReporting07GeneralcD5ErrorC_Tg5
+- _$ss17_NativeDictionaryV5merge_8isUnique16uniquingKeysWithyqd__n_Sbq_q__q_tqd_0_YKXEtqd_0_YKSTRd__s5ErrorRd_0_x_q_t7ElementRtd__r0_lFSS_SSs15LazyMapSequenceVySDyS2SGSS_SStGs5NeverOTg5034$s26AppleIntelligenceReporting0aB5I183PAAE15defaultUserInfo11description16underlyingErrors8category14retryAfterDate010additionalfG015requestFeedbackSDyS2SGSS_SayAaB_pGAA0abD8CategoryO10Foundation0N0VSgAKSbtFZS2S_SStXEfU0_Tf1nncn_nTm
+CStrings:
++ "AppleIntelligenceMultipleUnderlyingErrors"
++ "AppleIntelligenceUnderlyingError"
++ "NSDetailedErrors"
+```

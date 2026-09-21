@@ -1,0 +1,118 @@
+## ContactsUICore
+
+> `/System/Library/PrivateFrameworks/ContactsUICore.framework/Versions/A/ContactsUICore`
+
+```diff
+
+-3723.200.41.0.0
+-  __TEXT.__text: 0x28e4b4
+-  __TEXT.__objc_methlist: 0x9224
+-  __TEXT.__const: 0x21604
++3723.200.51.0.0
++  __TEXT.__text: 0x28e930
++  __TEXT.__objc_methlist: 0x9234
++  __TEXT.__const: 0x21644
+   __TEXT.__oslogstring: 0x5d4d
+   __TEXT.__cstring: 0x8e36
+   __TEXT.__gcc_except_tab: 0x9dc
+   __TEXT.__dlopen_cstrs: 0x601
+-  __TEXT.__constg_swiftt: 0x8474
+-  __TEXT.__swift5_typeref: 0x181da
++  __TEXT.__constg_swiftt: 0x851c
++  __TEXT.__swift5_typeref: 0x1808a
+   __TEXT.__swift5_fieldmd: 0x6ca8
+   __TEXT.__swift5_reflstr: 0x67c3
+   __TEXT.__swift5_builtin: 0x1a4
+
+   __TEXT.__swift_as_cont: 0x41c
+   __TEXT.__swift5_capture: 0x1d6c
+   __TEXT.__swift5_mpenum: 0xbc
+-  __TEXT.__unwind_info: 0xc620
++  __TEXT.__unwind_info: 0xc610
+   __TEXT.__eh_frame: 0x80b8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x68
+   __DATA_CONST.__objc_protolist: 0x320
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5458
++  __DATA_CONST.__objc_selrefs: 0x5460
+   __DATA_CONST.__objc_protorefs: 0xd8
+   __DATA_CONST.__objc_superrefs: 0x3c0
+   __DATA_CONST.__objc_arraydata: 0x108
+   __DATA_CONST.__got: 0x2360
+   __AUTH_CONST.__const: 0x12a98
+   __AUTH_CONST.__cfstring: 0x28c0
+-  __AUTH_CONST.__objc_const: 0x16ee0
++  __AUTH_CONST.__objc_const: 0x16ef8
+   __AUTH_CONST.__objc_intobj: 0x300
+   __AUTH_CONST.__objc_arrayobj: 0xf0
+   __AUTH_CONST.__objc_doubleobj: 0x50
+-  __AUTH_CONST.__auth_got: 0x33f0
+-  __AUTH.__objc_data: 0x3a98
+-  __AUTH.__data: 0x4cc8
++  __AUTH_CONST.__auth_got: 0x33e8
++  __AUTH.__objc_data: 0x2890
++  __AUTH.__data: 0x32d8
+   __DATA.__objc_ivar: 0x63c
+-  __DATA.__data: 0x95c0
++  __DATA.__data: 0x9580
+   __DATA.__objc_stublist: 0x18
+-  __DATA.__bss: 0x1ac88
++  __DATA.__bss: 0x1ac08
+   __DATA.__common: 0xeb0
+-  __DATA_DIRTY.__objc_data: 0x3380
+-  __DATA_DIRTY.__data: 0x44d8
+-  __DATA_DIRTY.__bss: 0x5060
++  __DATA_DIRTY.__objc_data: 0x4588
++  __DATA_DIRTY.__data: 0x5eb8
++  __DATA_DIRTY.__bss: 0x50e0
+   __DATA_DIRTY.__common: 0x2f8
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 14898
+-  Symbols:   12623
++  Functions: 14905
++  Symbols:   12620
+   CStrings:  1552
+ 
+Symbols:
++ __swift_closure_destructor.123Tm
++ _symbolic _____yAAy_____yx_____GAByx_____GGAByx_____GG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 14ContactsUICore28VariableColorDimmingModifier33_AD4937F6DE634F5560119553189C2F3DLLV AF0hjK0AHLLV AF0jK0AHLLV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 14ContactsUICore16MeshGradientViewV AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y__________G______t 7SwiftUI15ModifiedContentV 14ContactsUICore16MeshGradientViewV AA30_SafeAreaRegionsIgnoringLayoutV AD014MonogramPosterI0V
++ _symbolic _____y___________y_____y__________G______QPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V 14ContactsUICore012MeshGradientD0V AA024_SafeAreaRegionsIgnoringG0V AL014MonogramPosterD0V
++ _symbolic _____y_____yABy_____yACy__________G_____G_____G_____GG 7SwiftUI14GeometryReaderV AA15ModifiedContentV AA012_ConditionalF0V 14ContactsUICore24MonogramPosterAvatarViewV AH010SilhouetteklM0V AA05EmptyM0V AA12_FrameLayoutV AA09_PositionQ0V
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 14ContactsUICore08CenteredeF0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y__________G______QPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V 14ContactsUICore16MeshGradientViewV AA30_SafeAreaRegionsIgnoringLayoutV AH014MonogramPosterK0V
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 14ContactsUICore14OffsetModifier33_AD4937F6DE634F5560119553189C2F3DLLV
++ _type_layout_string 14ContactsUICore15DimmingModifier33_AD4937F6DE634F5560119553189C2F3DLLV
++ get_witness_table 7SwiftUI14GeometryReaderVyAA15ModifiedContentVyAEyAA012_ConditionalF0VyAGy14ContactsUICore24MonogramPosterAvatarViewVAH010SilhouetteklM0VGAA05EmptyM0VGAA12_FrameLayoutVGAA09_PositionQ0VGGAA0M0HPyHC
++ get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy14ContactsUICore08CenteredeF0VGAA16_FlexFrameLayoutVGAA0E0HPAiaMHPyHC_AkA0eF0HPyHCHC
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx14ContactsUICore14OffsetModifier33_AD4937F6DE634F5560119553189C2F3DLLVGAaBHPxAaBHD1__AhA0cI0HPyHCHC
++ get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyADyAA08ModifiedE0Vyx14ContactsUICore28VariableColorDimmingModifier33_AD4937F6DE634F5560119553189C2F3DLLVGAFyxAG0ikL0AILLVGGAFyxAG0kL0AILLVGGAaBHPAoaBHPAkaBHPxAaBHD1__AjA0cL0HPyHCHC_AnaBHPxAaBHD1__AmaTHPyHCHCHC_AraBHPxAaBHD1__AqaTHPyHCHCHC
++ get_witness_table 7SwiftUI6ZStackVyAA12TupleContentVyAA08ModifiedE0Vy14ContactsUICore16MeshGradientViewVAA30_SafeAreaRegionsIgnoringLayoutVG_AH014MonogramPosterK0VQPGGAA0K0HPyHC
+- __swift_closure_destructor.106Tm
+- __swift_closure_destructor.119Tm
+- _symbolic ___________t 14ContactsUICore16MeshGradientViewV AA014MonogramPosterE0V
+- _symbolic ___________y_____GAAt 7SwiftUI6SpacerV AA21_ViewModifier_ContentV 14ContactsUICore08CentereddE0V
+- _symbolic ___________y_____yAA______y_____GAAQPGGAAt 7SwiftUI6SpacerV AA6VStackV AA12TupleContentV AA014_ViewModifier_F0V 14ContactsUICore08CenteredgH0V
+- _symbolic _____yAAy_____yABy__________G_____G_____G_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V 14ContactsUICore24MonogramPosterAvatarViewV AF010SilhouetteijK0V AA05EmptyK0V AA12_FrameLayoutV AA09_PositionO0V
+- _symbolic _____y___________y___________QPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV 14ContactsUICore012MeshGradientD0V AJ014MonogramPosterD0V
+- _symbolic _____y___________y___________yACyAD______y_____GADQPGGADQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA6SpacerV AA6VStackV AA01_d9Modifier_I0V 14ContactsUICore08CentereddL0V
+- _symbolic _____y___________y___________y_____GADQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA6SpacerV AA01_d9Modifier_I0V 14ContactsUICore08CentereddK0V
+- _symbolic _____y_____y___________QPGG 7SwiftUI6ZStackV AA12TupleContentV 14ContactsUICore16MeshGradientViewV AF014MonogramPosterJ0V
+- _symbolic _____y_____y___________yAByAC______y_____GACQPGGACQPGG 7SwiftUI6HStackV AA12TupleContentV AA6SpacerV AA6VStackV AA014_ViewModifier_E0V 14ContactsUICore08CenteredhI0V
+- _symbolic _____y_____y___________y_____GACQPGG 7SwiftUI6VStackV AA12TupleContentV AA6SpacerV AA014_ViewModifier_E0V 14ContactsUICore08CenteredgH0V
+- _symbolic _____y_____y_____yAAyAAyAAyACyACy__________G_____G_____G_____G_____y_____y_____y_____G_____GGGALGG_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA012_ConditionalD0V 14ContactsUICore24MonogramPosterAvatarViewV AH010SilhouetteklM0V AA05EmptyM0V AA12_FrameLayoutV AA09_PositionQ0V AA16_OverlayModifierV AA06_ShapeM0V AA08_StrokedU0V AA9RectangleV6_InsetV AA5ColorV AA024_SafeAreaRegionsIgnoringQ0V
+- _symbolic _____y_____y_____yACyACyAByABy__________G_____G_____G_____G_____y_____y_____y_____G_____GGGALGG 7SwiftUI14GeometryReaderV AA19_ConditionalContentV AA08ModifiedF0V 14ContactsUICore24MonogramPosterAvatarViewV AH010SilhouetteklM0V AA05EmptyM0V AA12_FrameLayoutV AA09_PositionQ0V AA16_OverlayModifierV AA06_ShapeM0V AA08_StrokedU0V AA9RectangleV6_InsetV AA5ColorV
+- _symbolic _____y_____y_____y___________QPGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V 14ContactsUICore16MeshGradientViewV AH014MonogramPosterK0V AA30_SafeAreaRegionsIgnoringLayoutV
+- get_witness_table 7SwiftUI15ModifiedContentVyAA14GeometryReaderVyAA012_ConditionalD0VyACyACyACyAGyAGy14ContactsUICore24MonogramPosterAvatarViewVAH010SilhouetteklM0VGAA05EmptyM0VGAA12_FrameLayoutVGAA09_PositionQ0VGAA16_OverlayModifierVyAA06_ShapeM0VyAA08_StrokedU0VyAA9RectangleV6_InsetVGAA5ColorVGGGAVGGAA024_SafeAreaRegionsIgnoringQ0VGAA0M0HPA12_AAA16_HPyHC_A14_AA0mT0HPyHCHC
+- get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA05TupleD0Vy14ContactsUICore16MeshGradientViewV_AH014MonogramPosterK0VQPGGAA30_SafeAreaRegionsIgnoringLayoutVGAA0K0HPAnaRHPyHC_ApA0K8ModifierHPyHCHC
+- get_witness_table 7SwiftUI6HStackVyAA12TupleContentVyAA6SpacerV_AA6VStackVyAEyAG_AA014_ViewModifier_E0Vy14ContactsUICore08CenteredhI0VGAGQPGGAGQPGGAA0H0HPyHC
+```

@@ -1,0 +1,542 @@
+## AppIntentsServices
+
+> `/System/Library/PrivateFrameworks/AppIntentsServices.framework/Versions/A/AppIntentsServices`
+
+```diff
+
+-41.1.9.0.0
+-  __TEXT.__text: 0x2bb4bc
++41.1.10.0.0
++  __TEXT.__text: 0x2b67b8
+   __TEXT.__objc_methlist: 0x5a4
+-  __TEXT.__cstring: 0x577a
+-  __TEXT.__const: 0x27570
+-  __TEXT.__swift5_typeref: 0x8d59
+-  __TEXT.__constg_swiftt: 0x7808
+-  __TEXT.__swift5_reflstr: 0x4c0c
+-  __TEXT.__swift5_fieldmd: 0x7528
+-  __TEXT.__swift5_builtin: 0x460
+-  __TEXT.__swift5_assocty: 0xd48
+-  __TEXT.__swift5_proto: 0x1904
+-  __TEXT.__swift5_types: 0x888
++  __TEXT.__cstring: 0x583a
++  __TEXT.__const: 0x27b90
++  __TEXT.__swift5_typeref: 0x8e39
++  __TEXT.__constg_swiftt: 0x78a4
++  __TEXT.__swift5_reflstr: 0x4d9c
++  __TEXT.__swift5_fieldmd: 0x7658
++  __TEXT.__swift5_builtin: 0x474
++  __TEXT.__swift5_assocty: 0xd90
++  __TEXT.__swift5_proto: 0x1954
++  __TEXT.__swift5_types: 0x89c
+   __TEXT.__oslogstring: 0x3d49
+   __TEXT.__swift5_protos: 0x15c
++  __TEXT.__swift_as_entry: 0xcc0
++  __TEXT.__swift_as_ret: 0xe04
++  __TEXT.__swift_as_cont: 0x190c
+   __TEXT.__swift5_capture: 0x83b4
+-  __TEXT.__swift_as_entry: 0xccc
+-  __TEXT.__swift_as_ret: 0xe14
+-  __TEXT.__swift_as_cont: 0x1930
+   __TEXT.__swift5_types2: 0xc
+-  __TEXT.__swift5_acfuncs: 0x5dc
+-  __TEXT.__swift5_mpenum: 0x168
+-  __TEXT.__unwind_info: 0x10e50
+-  __TEXT.__eh_frame: 0x287f8
++  __TEXT.__swift5_mpenum: 0x178
++  __TEXT.__swift5_acfuncs: 0x5c8
++  __TEXT.__unwind_info: 0x10b40
++  __TEXT.__eh_frame: 0x288ac
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_classlist: 0x178
+   __DATA_CONST.__objc_protolist: 0x78
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xb58
++  __DATA_CONST.__objc_selrefs: 0xb48
+   __DATA_CONST.__objc_protorefs: 0x40
+-  __DATA_CONST.__got: 0xe30
+-  __AUTH_CONST.__const: 0x1efb8
+-  __AUTH_CONST.__objc_const: 0x3e48
+-  __AUTH_CONST.__auth_got: 0x18d8
+-  __AUTH.__objc_data: 0x90
+-  __AUTH.__data: 0x5a88
+-  __DATA.__data: 0x6408
+-  __DATA.__bss: 0x2a300
+-  __DATA.__common: 0x1c28
+-  __DATA_DIRTY.__objc_data: 0x8e0
+-  __DATA_DIRTY.__data: 0x4998
+-  __DATA_DIRTY.__bss: 0xe80
+-  __DATA_DIRTY.__common: 0x340
++  __DATA_CONST.__got: 0xe80
++  __AUTH_CONST.__const: 0x1f298
++  __AUTH_CONST.__objc_const: 0x3e68
++  __AUTH_CONST.__auth_got: 0x18f0
++  __AUTH.__data: 0x418
++  __DATA.__data: 0x61f8
++  __DATA.__bss: 0x2adb0
++  __DATA.__common: 0x1c60
++  __DATA_DIRTY.__objc_data: 0x970
++  __DATA_DIRTY.__data: 0xa3a0
++  __DATA_DIRTY.__bss: 0xe00
++  __DATA_DIRTY.__common: 0x348
+   - /System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 21164
+-  Symbols:   4782
+-  CStrings:  864
++  Functions: 21281
++  Symbols:   4555
++  CStrings:  868
+ 
+Symbols:
++ _LNConnectionErrorDomain
++ _LNConnectionLSRestrictionReasonUserInfoKey
++ __DATA__TtCC18AppIntentsServices16RemoteDispatcherP33_C6B9D9CEF9C31D4C1A4D033D04B7AB6531PerformAppIntentDelegateWrapper
++ __IVARS__TtCC18AppIntentsServices16RemoteDispatcherP33_C6B9D9CEF9C31D4C1A4D033D04B7AB6531PerformAppIntentDelegateWrapper
++ __METACLASS_DATA__TtCC18AppIntentsServices16RemoteDispatcherP33_C6B9D9CEF9C31D4C1A4D033D04B7AB6531PerformAppIntentDelegateWrapper
++ ___swift_memcpy10_8
++ ___swift_memcpy247_8
++ __swift_closure_destructor.103Tm
++ __swift_closure_destructor.104Tm
++ __swift_closure_destructor.114Tm
++ __swift_closure_destructor.118Tm
++ __swift_closure_destructor.13Tm
++ __swift_closure_destructor.140Tm
++ __swift_closure_destructor.164Tm
++ __swift_closure_destructor.18Tm
++ __swift_closure_destructor.199Tm
++ __swift_closure_destructor.20Tm
++ __swift_closure_destructor.25Tm
++ __swift_closure_destructor.274Tm
++ __swift_closure_destructor.28Tm
++ __swift_closure_destructor.32Tm
++ __swift_closure_destructor.35Tm
++ __swift_closure_destructor.3Tm
++ __swift_closure_destructor.43Tm
++ __swift_closure_destructor.50Tm
++ __swift_closure_destructor.73Tm
++ __swift_closure_destructor.88Tm
++ __swift_closure_destructor.93Tm
++ __swift_closure_destructor.97Tm
++ __swift_closure_destructor.98Tm
++ __swift_get_extra_inhabitant_index.153Tm
++ __swift_get_extra_inhabitant_index.163Tm
++ __swift_get_extra_inhabitant_index.203Tm
++ __swift_get_extra_inhabitant_index.212Tm
++ __swift_get_extra_inhabitant_index.221Tm
++ __swift_get_extra_inhabitant_index.246Tm
++ __swift_get_extra_inhabitant_index.372Tm
++ __swift_get_extra_inhabitant_index.381Tm
++ __swift_get_extra_inhabitant_index.390Tm
++ __swift_get_extra_inhabitant_index.435Tm
++ __swift_get_extra_inhabitant_index.471Tm
++ __swift_get_extra_inhabitant_index.570Tm
++ __swift_get_extra_inhabitant_index.734Tm
++ __swift_get_extra_inhabitant_index.869Tm
++ __swift_get_extra_inhabitant_index.905Tm
++ __swift_store_extra_inhabitant_index.154Tm
++ __swift_store_extra_inhabitant_index.164Tm
++ __swift_store_extra_inhabitant_index.204Tm
++ __swift_store_extra_inhabitant_index.213Tm
++ __swift_store_extra_inhabitant_index.222Tm
++ __swift_store_extra_inhabitant_index.247Tm
++ __swift_store_extra_inhabitant_index.373Tm
++ __swift_store_extra_inhabitant_index.382Tm
++ __swift_store_extra_inhabitant_index.391Tm
++ __swift_store_extra_inhabitant_index.436Tm
++ __swift_store_extra_inhabitant_index.472Tm
++ __swift_store_extra_inhabitant_index.571Tm
++ __swift_store_extra_inhabitant_index.735Tm
++ __swift_store_extra_inhabitant_index.870Tm
++ __swift_store_extra_inhabitant_index.906Tm
++ _associated conformance 18AppIntentsServices0A11DescriptionV16RestrictionStateV7StorageOSHAASQ
++ _associated conformance 18AppIntentsServices0A11DescriptionV16RestrictionStateVSHAASQ
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV05FetchA19DescriptionResponseV7SuccessV11RestrictionV013InternalSwiftD026_MessageImplementationBaseAASH
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV05FetchA19DescriptionResponseV7SuccessV11RestrictionV013InternalSwiftD026_MessageImplementationBaseAaJ0N0
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV05FetchA19DescriptionResponseV7SuccessV11RestrictionV013InternalSwiftD07MessageAAs28CustomDebugStringConvertible
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV05FetchA19DescriptionResponseV7SuccessV11RestrictionV4KindO013InternalSwiftD04EnumAASH
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV05FetchA19DescriptionResponseV7SuccessV11RestrictionV4KindO013InternalSwiftD04EnumAASY
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV05FetchA19DescriptionResponseV7SuccessV11RestrictionV4KindOSHAASQ
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV05FetchA19DescriptionResponseV7SuccessV11RestrictionV4KindOs12CaseIterableAA8AllCasessALP_Sl
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV05FetchA19DescriptionResponseV7SuccessV11RestrictionVSHAASQ
++ _associated conformance 18AppIntentsServices16RemoteDispatcherC19InitializationErrorOSHAASQ
++ _associated conformance So19LSRestrictionReasonVSHSCSQ
++ _objc_msgSend$setProcessInstanceIdentifier:
++ _objc_msgSend$userInfo
++ _symbolic Say_____G 18AppIntentsServices0aB21Protobuf_HostMessagesV05FetchA19DescriptionResponseV7SuccessV11RestrictionV4KindO
++ _symbolic ScCy___________pG 18AppIntentsServices16RemoteDispatcherC0D11QueryResult33_D5117EAEAC6D6B5420873DC76584F0FCLLV s5ErrorP
++ _symbolic _____ 18AppIntentsServices0A11DescriptionV16RestrictionStateV
++ _symbolic _____ 18AppIntentsServices0A11DescriptionV16RestrictionStateV7StorageO
++ _symbolic _____ 18AppIntentsServices0aB21Protobuf_HostMessagesV05FetchA19DescriptionResponseV7SuccessV11RestrictionV
++ _symbolic _____ 18AppIntentsServices0aB21Protobuf_HostMessagesV05FetchA19DescriptionResponseV7SuccessV11RestrictionV4KindO
++ _symbolic _____ 18AppIntentsServices16RemoteDispatcherC07PerformA21IntentDelegateWrapper33_C6B9D9CEF9C31D4C1A4D033D04B7AB65LLC
++ _symbolic _____ 18AppIntentsServices16RemoteDispatcherC0D11QueryResult33_D5117EAEAC6D6B5420873DC76584F0FCLLV
++ _symbolic _____ 18AppIntentsServices16RemoteDispatcherC19InitializationErrorO
++ _symbolic _____ So19LSRestrictionReasonV
++ _symbolic _____SSIeghno_ 18AppIntentsServices16RemoteDispatcherC0D11QueryResult33_D5117EAEAC6D6B5420873DC76584F0FCLLV
++ _symbolic _____Sg 18AppIntentsServices0aB21Protobuf_HostMessagesV05FetchA19DescriptionResponseV7SuccessV11RestrictionV
++ _symbolic _____Sg So19LSRestrictionReasonV
++ _symbolic _____Sg_ABt 18AppIntentsServices0aB21Protobuf_HostMessagesV05FetchA19DescriptionResponseV7SuccessV11RestrictionV
++ _symbolic ________________pIeghHgrzo_ 18AppIntentsServices06RemoteaB5ActorC AA0D10DispatcherC0D11QueryResult33_D5117EAEAC6D6B5420873DC76584F0FCLLV s5ErrorP
++ _symbolic ___________pIeghnr_ 18AppIntentsServices16RemoteDispatcherC0D11QueryResult33_D5117EAEAC6D6B5420873DC76584F0FCLLV AA0a6EntityfG9ProvidingP
++ _symbolic ___________pIeghnr_ 18AppIntentsServices16RemoteDispatcherC0D11QueryResult33_D5117EAEAC6D6B5420873DC76584F0FCLLV AA0fG9ProvidingP
++ _symbolic _____yScCy___________pGG s23_ContiguousArrayStorageC 18AppIntentsServices16RemoteDispatcherC0G11QueryResult33_D5117EAEAC6D6B5420873DC76584F0FCLLV s5ErrorP
++ _symbolic _____y______G 18AppIntentsServices15InstrumentationO8ActivityC AA16RemoteDispatcherC0F11QueryResult33_D5117EAEAC6D6B5420873DC76584F0FCLLV
++ _symbolic _____y______GSgXw 18AppIntentsServices15InstrumentationO8ActivityC AA16RemoteDispatcherC0F11QueryResult33_D5117EAEAC6D6B5420873DC76584F0FCLLV
++ _symbolic _____y___________G 18AppIntentsServices0bC0O12ProgressTaskV AC08DispatchD0O AA16RemoteDispatcherC0G11QueryResult33_D5117EAEAC6D6B5420873DC76584F0FCLLV
++ _symbolic _____y___________G 18AppIntentsServices16RemoteDispatcherC9ActorCallC AA0dabF0C AC0D11QueryResult33_D5117EAEAC6D6B5420873DC76584F0FCLLV
++ _symbolic _____y____________G 18AppIntentsServices0bC0O12ProgressTaskV12ContinuationC AC08DispatchD0O AA16RemoteDispatcherC0H11QueryResult33_D5117EAEAC6D6B5420873DC76584F0FCLLV
++ _symbolic _____y____________G 18AppIntentsServices0bC0O12ProgressTaskV7UpdaterV AC08DispatchD0O AA16RemoteDispatcherC0H11QueryResult33_D5117EAEAC6D6B5420873DC76584F0FCLLV
++ _symbolic _____y____________GAC______pIeghHgrzo_ 18AppIntentsServices0bC0O12ProgressTaskV7UpdaterV AC08DispatchD0O AA16RemoteDispatcherC0H11QueryResult33_D5117EAEAC6D6B5420873DC76584F0FCLLV s5ErrorP
++ _symbolic _____y___________pG 18AppIntentsServices9AwaitableC AA16RemoteDispatcherC0E11QueryResult33_D5117EAEAC6D6B5420873DC76584F0FCLLV s5ErrorP
++ _symbolic _____y___________p_G 18AppIntentsServices9AwaitableC6ErrorsO AA16RemoteDispatcherC0F11QueryResult33_D5117EAEAC6D6B5420873DC76584F0FCLLV s5ErrorP
++ _symbolic _____y_x_GSgXwz_________________Rzr__lXX 18AppIntentsServices16RemoteDispatcherC12ActorManagerC04CallG0C AA0dabF0C AC0D11QueryResult33_D5117EAEAC6D6B5420873DC76584F0FCLLV AC07ManagedF0P
++ _type_layout_string 18AppIntentsServices0A11DescriptionV16RestrictionStateV
++ _type_layout_string 18AppIntentsServices16RemoteDispatcherC0D11QueryResult33_D5117EAEAC6D6B5420873DC76584F0FCLLV
+- _OUTLINED_FUNCTION_540
+- _OUTLINED_FUNCTION_541
+- _OUTLINED_FUNCTION_542
+- _OUTLINED_FUNCTION_543
+- _OUTLINED_FUNCTION_544
+- _OUTLINED_FUNCTION_545
+- _OUTLINED_FUNCTION_546
+- _OUTLINED_FUNCTION_547
+- _OUTLINED_FUNCTION_548
+- _OUTLINED_FUNCTION_549
+- _OUTLINED_FUNCTION_550
+- _OUTLINED_FUNCTION_551
+- _OUTLINED_FUNCTION_552
+- _OUTLINED_FUNCTION_553
+- _OUTLINED_FUNCTION_554
+- _OUTLINED_FUNCTION_555
+- _OUTLINED_FUNCTION_556
+- _OUTLINED_FUNCTION_557
+- _OUTLINED_FUNCTION_558
+- _OUTLINED_FUNCTION_559
+- _OUTLINED_FUNCTION_560
+- _OUTLINED_FUNCTION_561
+- _OUTLINED_FUNCTION_562
+- _OUTLINED_FUNCTION_563
+- _OUTLINED_FUNCTION_564
+- _OUTLINED_FUNCTION_565
+- _OUTLINED_FUNCTION_566
+- _OUTLINED_FUNCTION_567
+- _OUTLINED_FUNCTION_568
+- _OUTLINED_FUNCTION_569
+- _OUTLINED_FUNCTION_570
+- _OUTLINED_FUNCTION_571
+- _OUTLINED_FUNCTION_572
+- _OUTLINED_FUNCTION_573
+- _OUTLINED_FUNCTION_574
+- _OUTLINED_FUNCTION_575
+- _OUTLINED_FUNCTION_576
+- _OUTLINED_FUNCTION_577
+- _OUTLINED_FUNCTION_578
+- _OUTLINED_FUNCTION_579
+- _OUTLINED_FUNCTION_580
+- _OUTLINED_FUNCTION_581
+- _OUTLINED_FUNCTION_582
+- _OUTLINED_FUNCTION_583
+- _OUTLINED_FUNCTION_584
+- _OUTLINED_FUNCTION_585
+- _OUTLINED_FUNCTION_586
+- _OUTLINED_FUNCTION_587
+- _OUTLINED_FUNCTION_588
+- _OUTLINED_FUNCTION_589
+- _OUTLINED_FUNCTION_590
+- _OUTLINED_FUNCTION_591
+- _OUTLINED_FUNCTION_592
+- _OUTLINED_FUNCTION_593
+- _OUTLINED_FUNCTION_594
+- _OUTLINED_FUNCTION_595
+- _OUTLINED_FUNCTION_596
+- _OUTLINED_FUNCTION_597
+- _OUTLINED_FUNCTION_598
+- _OUTLINED_FUNCTION_599
+- _OUTLINED_FUNCTION_600
+- _OUTLINED_FUNCTION_601
+- _OUTLINED_FUNCTION_602
+- _OUTLINED_FUNCTION_603
+- _OUTLINED_FUNCTION_604
+- _OUTLINED_FUNCTION_605
+- _OUTLINED_FUNCTION_606
+- _OUTLINED_FUNCTION_607
+- _OUTLINED_FUNCTION_608
+- _OUTLINED_FUNCTION_609
+- _OUTLINED_FUNCTION_610
+- _OUTLINED_FUNCTION_611
+- _OUTLINED_FUNCTION_612
+- _OUTLINED_FUNCTION_613
+- _OUTLINED_FUNCTION_614
+- _OUTLINED_FUNCTION_615
+- _OUTLINED_FUNCTION_616
+- _OUTLINED_FUNCTION_617
+- _OUTLINED_FUNCTION_618
+- _OUTLINED_FUNCTION_619
+- _OUTLINED_FUNCTION_620
+- _OUTLINED_FUNCTION_621
+- _OUTLINED_FUNCTION_622
+- _OUTLINED_FUNCTION_623
+- _OUTLINED_FUNCTION_624
+- _OUTLINED_FUNCTION_625
+- _OUTLINED_FUNCTION_626
+- _OUTLINED_FUNCTION_627
+- _OUTLINED_FUNCTION_628
+- _OUTLINED_FUNCTION_629
+- _OUTLINED_FUNCTION_630
+- _OUTLINED_FUNCTION_631
+- _OUTLINED_FUNCTION_632
+- _OUTLINED_FUNCTION_633
+- _OUTLINED_FUNCTION_634
+- _OUTLINED_FUNCTION_635
+- _OUTLINED_FUNCTION_636
+- _OUTLINED_FUNCTION_637
+- _OUTLINED_FUNCTION_638
+- _OUTLINED_FUNCTION_639
+- _OUTLINED_FUNCTION_640
+- _OUTLINED_FUNCTION_641
+- _OUTLINED_FUNCTION_642
+- _OUTLINED_FUNCTION_643
+- _OUTLINED_FUNCTION_644
+- _OUTLINED_FUNCTION_645
+- _OUTLINED_FUNCTION_646
+- _OUTLINED_FUNCTION_647
+- _OUTLINED_FUNCTION_648
+- _OUTLINED_FUNCTION_649
+- _OUTLINED_FUNCTION_650
+- _OUTLINED_FUNCTION_651
+- _OUTLINED_FUNCTION_652
+- _OUTLINED_FUNCTION_653
+- _OUTLINED_FUNCTION_654
+- _OUTLINED_FUNCTION_655
+- _OUTLINED_FUNCTION_656
+- _OUTLINED_FUNCTION_657
+- _OUTLINED_FUNCTION_658
+- _OUTLINED_FUNCTION_659
+- _OUTLINED_FUNCTION_660
+- _OUTLINED_FUNCTION_661
+- _OUTLINED_FUNCTION_662
+- _OUTLINED_FUNCTION_663
+- _OUTLINED_FUNCTION_664
+- _OUTLINED_FUNCTION_665
+- _OUTLINED_FUNCTION_666
+- _OUTLINED_FUNCTION_667
+- _OUTLINED_FUNCTION_668
+- _OUTLINED_FUNCTION_669
+- _OUTLINED_FUNCTION_670
+- _OUTLINED_FUNCTION_671
+- _OUTLINED_FUNCTION_672
+- _OUTLINED_FUNCTION_673
+- _OUTLINED_FUNCTION_674
+- _OUTLINED_FUNCTION_675
+- _OUTLINED_FUNCTION_676
+- _OUTLINED_FUNCTION_677
+- _OUTLINED_FUNCTION_678
+- _OUTLINED_FUNCTION_679
+- _OUTLINED_FUNCTION_680
+- _OUTLINED_FUNCTION_681
+- _OUTLINED_FUNCTION_682
+- _OUTLINED_FUNCTION_683
+- _OUTLINED_FUNCTION_684
+- _OUTLINED_FUNCTION_685
+- _OUTLINED_FUNCTION_686
+- _OUTLINED_FUNCTION_687
+- _OUTLINED_FUNCTION_688
+- _OUTLINED_FUNCTION_689
+- _OUTLINED_FUNCTION_690
+- _OUTLINED_FUNCTION_691
+- _OUTLINED_FUNCTION_692
+- _OUTLINED_FUNCTION_693
+- _OUTLINED_FUNCTION_694
+- _OUTLINED_FUNCTION_695
+- _OUTLINED_FUNCTION_696
+- _OUTLINED_FUNCTION_697
+- _OUTLINED_FUNCTION_698
+- _OUTLINED_FUNCTION_699
+- _OUTLINED_FUNCTION_700
+- _OUTLINED_FUNCTION_701
+- _OUTLINED_FUNCTION_702
+- _OUTLINED_FUNCTION_703
+- _OUTLINED_FUNCTION_704
+- _OUTLINED_FUNCTION_705
+- _OUTLINED_FUNCTION_706
+- _OUTLINED_FUNCTION_707
+- _OUTLINED_FUNCTION_708
+- _OUTLINED_FUNCTION_709
+- _OUTLINED_FUNCTION_710
+- _OUTLINED_FUNCTION_711
+- _OUTLINED_FUNCTION_712
+- _OUTLINED_FUNCTION_713
+- _OUTLINED_FUNCTION_714
+- _OUTLINED_FUNCTION_715
+- _OUTLINED_FUNCTION_716
+- _OUTLINED_FUNCTION_717
+- _OUTLINED_FUNCTION_718
+- _OUTLINED_FUNCTION_719
+- _OUTLINED_FUNCTION_720
+- _OUTLINED_FUNCTION_721
+- _OUTLINED_FUNCTION_722
+- _OUTLINED_FUNCTION_723
+- _OUTLINED_FUNCTION_724
+- _OUTLINED_FUNCTION_725
+- _OUTLINED_FUNCTION_726
+- _OUTLINED_FUNCTION_727
+- _OUTLINED_FUNCTION_728
+- _OUTLINED_FUNCTION_729
+- _OUTLINED_FUNCTION_730
+- _OUTLINED_FUNCTION_731
+- _OUTLINED_FUNCTION_732
+- _OUTLINED_FUNCTION_733
+- _OUTLINED_FUNCTION_734
+- _OUTLINED_FUNCTION_735
+- _OUTLINED_FUNCTION_736
+- _OUTLINED_FUNCTION_737
+- _OUTLINED_FUNCTION_738
+- _OUTLINED_FUNCTION_739
+- _OUTLINED_FUNCTION_740
+- _OUTLINED_FUNCTION_741
+- _OUTLINED_FUNCTION_742
+- _OUTLINED_FUNCTION_743
+- _OUTLINED_FUNCTION_744
+- _OUTLINED_FUNCTION_745
+- _OUTLINED_FUNCTION_746
+- _OUTLINED_FUNCTION_747
+- _OUTLINED_FUNCTION_748
+- _OUTLINED_FUNCTION_749
+- _OUTLINED_FUNCTION_750
+- _OUTLINED_FUNCTION_751
+- _OUTLINED_FUNCTION_752
+- _OUTLINED_FUNCTION_753
+- _OUTLINED_FUNCTION_754
+- _OUTLINED_FUNCTION_755
+- _OUTLINED_FUNCTION_756
+- _OUTLINED_FUNCTION_757
+- _OUTLINED_FUNCTION_758
+- _OUTLINED_FUNCTION_759
+- _OUTLINED_FUNCTION_760
+- _OUTLINED_FUNCTION_761
+- _OUTLINED_FUNCTION_762
+- _OUTLINED_FUNCTION_763
+- _OUTLINED_FUNCTION_764
+- _OUTLINED_FUNCTION_765
+- _OUTLINED_FUNCTION_766
+- _OUTLINED_FUNCTION_767
+- _OUTLINED_FUNCTION_768
+- _OUTLINED_FUNCTION_769
+- _OUTLINED_FUNCTION_770
+- _OUTLINED_FUNCTION_771
+- _OUTLINED_FUNCTION_772
+- _OUTLINED_FUNCTION_773
+- _OUTLINED_FUNCTION_774
+- _OUTLINED_FUNCTION_775
+- _OUTLINED_FUNCTION_776
+- _OUTLINED_FUNCTION_777
+- _OUTLINED_FUNCTION_778
+- _OUTLINED_FUNCTION_779
+- _OUTLINED_FUNCTION_780
+- _OUTLINED_FUNCTION_781
+- _OUTLINED_FUNCTION_782
+- __DATA__TtCC18AppIntentsServices16RemoteDispatcherP33_9E7BB63E21FD497EF1B4BFF3B4FDD46331PerformAppIntentDelegateWrapper
+- __IVARS__TtCC18AppIntentsServices16RemoteDispatcherP33_9E7BB63E21FD497EF1B4BFF3B4FDD46331PerformAppIntentDelegateWrapper
+- __METACLASS_DATA__TtCC18AppIntentsServices16RemoteDispatcherP33_9E7BB63E21FD497EF1B4BFF3B4FDD46331PerformAppIntentDelegateWrapper
+- ___swift_memcpy231_8
+- ___swift_memcpy34_8
+- __swift_closure_destructor.100Tm
+- __swift_closure_destructor.1104Tm
+- __swift_closure_destructor.1197Tm
+- __swift_closure_destructor.1207Tm
+- __swift_closure_destructor.120Tm
+- __swift_closure_destructor.1300Tm
+- __swift_closure_destructor.1795Tm
+- __swift_closure_destructor.17Tm
+- __swift_closure_destructor.1834Tm
+- __swift_closure_destructor.187Tm
+- __swift_closure_destructor.1884Tm
+- __swift_closure_destructor.2075Tm
+- __swift_closure_destructor.228Tm
+- __swift_closure_destructor.232Tm
+- __swift_closure_destructor.243Tm
+- __swift_closure_destructor.281Tm
+- __swift_closure_destructor.55Tm
+- __swift_closure_destructor.709Tm
+- __swift_closure_destructor.718Tm
+- __swift_closure_destructor.724Tm
+- __swift_closure_destructor.733Tm
+- __swift_closure_destructor.748Tm
+- __swift_closure_destructor.763Tm
+- __swift_closure_destructor.778Tm
+- __swift_closure_destructor.793Tm
+- __swift_closure_destructor.808Tm
+- __swift_closure_destructor.92Tm
+- __swift_get_extra_inhabitant_index.152Tm
+- __swift_get_extra_inhabitant_index.160Tm
+- __swift_get_extra_inhabitant_index.200Tm
+- __swift_get_extra_inhabitant_index.208Tm
+- __swift_get_extra_inhabitant_index.218Tm
+- __swift_get_extra_inhabitant_index.243Tm
+- __swift_get_extra_inhabitant_index.369Tm
+- __swift_get_extra_inhabitant_index.378Tm
+- __swift_get_extra_inhabitant_index.387Tm
+- __swift_get_extra_inhabitant_index.432Tm
+- __swift_get_extra_inhabitant_index.468Tm
+- __swift_get_extra_inhabitant_index.567Tm
+- __swift_get_extra_inhabitant_index.731Tm
+- __swift_get_extra_inhabitant_index.866Tm
+- __swift_get_extra_inhabitant_index.902Tm
+- __swift_store_extra_inhabitant_index.153Tm
+- __swift_store_extra_inhabitant_index.161Tm
+- __swift_store_extra_inhabitant_index.201Tm
+- __swift_store_extra_inhabitant_index.209Tm
+- __swift_store_extra_inhabitant_index.219Tm
+- __swift_store_extra_inhabitant_index.244Tm
+- __swift_store_extra_inhabitant_index.370Tm
+- __swift_store_extra_inhabitant_index.379Tm
+- __swift_store_extra_inhabitant_index.388Tm
+- __swift_store_extra_inhabitant_index.433Tm
+- __swift_store_extra_inhabitant_index.469Tm
+- __swift_store_extra_inhabitant_index.568Tm
+- __swift_store_extra_inhabitant_index.732Tm
+- __swift_store_extra_inhabitant_index.867Tm
+- __swift_store_extra_inhabitant_index.903Tm
+- _associated conformance 18AppIntentsServices16RemoteDispatcherC19InitializationError025_9E7BB63E21FD497EF1B4BFF3M6FDD463LLOSHAASQ
+- _objc_msgSend$policyWithActionMetadata:
+- _objc_msgSend$policyWithActionMetadata:signals:
+- _objc_msgSend$policyWithEntityMetadata:
+- _objc_msgSend$policyWithEntityQueryMetadata:
+- _symbolic ScCy___________pG 18AppIntentsServices16RemoteDispatcherC0D11QueryResult025_9E7BB63E21FD497EF1B4BFF3M6FDD463LLV s5ErrorP
+- _symbolic _____ 18AppIntentsServices16RemoteDispatcherC07PerformA21IntentDelegateWrapper025_9E7BB63E21FD497EF1B4BFF3O6FDD463LLC
+- _symbolic _____ 18AppIntentsServices16RemoteDispatcherC0D11QueryResult025_9E7BB63E21FD497EF1B4BFF3M6FDD463LLV
+- _symbolic _____ 18AppIntentsServices16RemoteDispatcherC19InitializationError025_9E7BB63E21FD497EF1B4BFF3M6FDD463LLO
+- _symbolic _____SSIeghno_ 18AppIntentsServices16RemoteDispatcherC0D11QueryResult025_9E7BB63E21FD497EF1B4BFF3M6FDD463LLV
+- _symbolic _____________________pIetMHnTgrzo_ 18AppIntentsServices0aB8ProtocolO14SpotlightQueryO7RequestV AA06RemoteaB5ActorC AE8ResponseV s5ErrorP
+- _symbolic ________________pIeghHgrzo_ 18AppIntentsServices06RemoteaB5ActorC AA0D10DispatcherC0D11QueryResult025_9E7BB63E21FD497EF1B4BFF3N6FDD463LLV s5ErrorP
+- _symbolic ___________pIeghnr_ 18AppIntentsServices16RemoteDispatcherC0D11QueryResult025_9E7BB63E21FD497EF1B4BFF3M6FDD463LLV AA0a6EntityfG9ProvidingP
+- _symbolic ___________pIeghnr_ 18AppIntentsServices16RemoteDispatcherC0D11QueryResult025_9E7BB63E21FD497EF1B4BFF3M6FDD463LLV AA0fG9ProvidingP
+- _symbolic _____yScCy___________pGG s23_ContiguousArrayStorageC 18AppIntentsServices16RemoteDispatcherC0G11QueryResult025_9E7BB63E21FD497EF1B4BFF3P6FDD463LLV s5ErrorP
+- _symbolic _____y______G 18AppIntentsServices15InstrumentationO8ActivityC AA16RemoteDispatcherC0F11QueryResult025_9E7BB63E21FD497EF1B4BFF3O6FDD463LLV
+- _symbolic _____y______GSgXw 18AppIntentsServices15InstrumentationO8ActivityC AA16RemoteDispatcherC0F11QueryResult025_9E7BB63E21FD497EF1B4BFF3O6FDD463LLV
+- _symbolic _____y___________G 18AppIntentsServices0bC0O12ProgressTaskV AC08DispatchD0O AA16RemoteDispatcherC0G11QueryResult025_9E7BB63E21FD497EF1B4BFF3P6FDD463LLV
+- _symbolic _____y___________G 18AppIntentsServices16RemoteDispatcherC9ActorCallC AA0dabF0C AC0D11QueryResult025_9E7BB63E21FD497EF1B4BFF3O6FDD463LLV
+- _symbolic _____y____________G 18AppIntentsServices0bC0O12ProgressTaskV12ContinuationC AC08DispatchD0O AA16RemoteDispatcherC0H11QueryResult025_9E7BB63E21FD497EF1B4BFF3Q6FDD463LLV
+- _symbolic _____y____________G 18AppIntentsServices0bC0O12ProgressTaskV7UpdaterV AC08DispatchD0O AA16RemoteDispatcherC0H11QueryResult025_9E7BB63E21FD497EF1B4BFF3Q6FDD463LLV
+- _symbolic _____y____________GAC______pIeghHgrzo_ 18AppIntentsServices0bC0O12ProgressTaskV7UpdaterV AC08DispatchD0O AA16RemoteDispatcherC0H11QueryResult025_9E7BB63E21FD497EF1B4BFF3Q6FDD463LLV s5ErrorP
+- _symbolic _____y___________pG 18AppIntentsServices9AwaitableC AA16RemoteDispatcherC0E11QueryResult025_9E7BB63E21FD497EF1B4BFF3N6FDD463LLV s5ErrorP
+- _symbolic _____y___________p_G 18AppIntentsServices9AwaitableC6ErrorsO AA16RemoteDispatcherC0F11QueryResult025_9E7BB63E21FD497EF1B4BFF3O6FDD463LLV s5ErrorP
+- _symbolic _____y_x_GSgXwz_________________Rzr__lXX 18AppIntentsServices16RemoteDispatcherC12ActorManagerC04CallG0C AA0dabF0C AC0D11QueryResult025_9E7BB63E21FD497EF1B4BFF3P6FDD463LLV AC07ManagedF0P
+- _type_layout_string 18AppIntentsServices16RemoteDispatcherC0D11QueryResult025_9E7BB63E21FD497EF1B4BFF3M6FDD463LLV
+CStrings:
++ " }, restriction: "
++ ", processInstanceIdentifier: "
++ "AppIntentsServices/RemoteDispatcher+Intents.swift"
++ "AppIntentsServices/RemoteDispatcher+Prewarm.swift"
++ "processInstanceIdentifier: "
+- "AppIntentsServices/RemoteDaemonPrewarm.swift"
+```

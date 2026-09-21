@@ -1,0 +1,119 @@
+## SpotlightKnowledge
+
+> `/System/Library/PrivateFrameworks/SpotlightKnowledge.framework/Versions/A/SpotlightKnowledge`
+
+```diff
+
+-2465.1.2.0.0
+-  __TEXT.__text: 0x91dc4
++2465.1.3.0.0
++  __TEXT.__text: 0x93940
+   __TEXT.__objc_methlist: 0xf8c
+-  __TEXT.__const: 0x14168
+-  __TEXT.__cstring: 0x337b
++  __TEXT.__const: 0x14760
++  __TEXT.__cstring: 0x33bb
+   __TEXT.__gcc_except_tab: 0x80
+   __TEXT.__oslogstring: 0x853
+-  __TEXT.__constg_swiftt: 0x2da4
+-  __TEXT.__swift5_typeref: 0x3a58
+-  __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_reflstr: 0x17bc
+-  __TEXT.__swift5_fieldmd: 0x3838
+-  __TEXT.__swift5_types: 0x514
+-  __TEXT.__swift5_proto: 0x15e4
++  __TEXT.__constg_swiftt: 0x2e74
++  __TEXT.__swift5_typeref: 0x3b86
++  __TEXT.__swift5_builtin: 0x64
++  __TEXT.__swift5_reflstr: 0x17fc
++  __TEXT.__swift5_fieldmd: 0x3910
++  __TEXT.__swift5_types: 0x52c
++  __TEXT.__swift5_proto: 0x1648
+   __TEXT.__swift5_capture: 0x1a0
+   __TEXT.__swift_as_entry: 0x30
+   __TEXT.__swift_as_ret: 0x30
+   __TEXT.__swift_as_cont: 0x30
+   __TEXT.__swift5_assocty: 0x438
+-  __TEXT.__swift5_mpenum: 0x24
++  __TEXT.__swift5_mpenum: 0x34
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x4c08
+-  __TEXT.__eh_frame: 0x3c28
++  __TEXT.__unwind_info: 0x4cf0
++  __TEXT.__eh_frame: 0x3c98
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_superrefs: 0x38
+   __DATA_CONST.__objc_arraydata: 0x510
+   __DATA_CONST.__got: 0x458
+-  __AUTH_CONST.__const: 0x9fc8
++  __AUTH_CONST.__const: 0xa248
+   __AUTH_CONST.__cfstring: 0x4140
+   __AUTH_CONST.__objc_const: 0x1510
+   __AUTH_CONST.__objc_intobj: 0x48
+   __AUTH_CONST.__objc_arrayobj: 0x1e0
+   __AUTH_CONST.__auth_got: 0xa30
+   __AUTH.__objc_data: 0x200
+-  __AUTH.__data: 0x1858
++  __AUTH.__data: 0x1848
+   __DATA.__objc_ivar: 0x108
+-  __DATA.__data: 0x3c08
+-  __DATA.__bss: 0x2be30
++  __DATA.__data: 0x3cf0
++  __DATA.__bss: 0x2cab0
+   __DATA_DIRTY.__objc_data: 0x140
+   __DATA_DIRTY.__data: 0x8
+   __DATA_DIRTY.__bss: 0xb8
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 5887
+-  Symbols:   2916
+-  CStrings:  781
++  Functions: 5964
++  Symbols:   2947
++  CStrings:  783
+ 
+Symbols:
++ ___swift_memcpy9_8
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOSHAASQ
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO22UndeterminedCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO22UndeterminedCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO26DeterminedNeededCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOSHAASQ
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO26DeterminedNeededCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO26DeterminedNeededCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO29DeterminedNotNeededCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO29DeterminedNotNeededCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionOSHAASQ
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV9OperationO14PushCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOSHAASQ
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV9OperationO14PushCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV9OperationO14PushCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _symbolic Si7version_t
++ _symbolic _____ 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO
++ _symbolic _____ 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____ 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO22UndeterminedCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____ 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO26DeterminedNeededCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____ 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO29DeterminedNotNeededCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____ 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV9OperationO14PushCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO22UndeterminedCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO26DeterminedNeededCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO29DeterminedNotNeededCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV9OperationO14PushCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO22UndeterminedCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO26DeterminedNeededCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV13PushSelectionO29DeterminedNotNeededCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18SpotlightKnowledge14UpdaterCommandO21ManageLegacyEmbeddingV9OperationO14PushCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _type_layout_string Si7version_t
+- ___swift_memcpy10_8
+- _type_layout_string 18SpotlightKnowledge14UpdaterCommandO25GetDocumentCachePurgeableV8ResponseV
+CStrings:
++ "determinedNeeded"
++ "determinedNotNeeded"
+```

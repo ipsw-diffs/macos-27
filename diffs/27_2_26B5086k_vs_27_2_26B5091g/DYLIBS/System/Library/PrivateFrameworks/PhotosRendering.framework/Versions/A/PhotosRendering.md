@@ -1,0 +1,616 @@
+## PhotosRendering
+
+> `/System/Library/PrivateFrameworks/PhotosRendering.framework/Versions/A/PhotosRendering`
+
+```diff
+
+-916.41.100.0.0
+-  __TEXT.__text: 0x407d8
+-  __TEXT.__objc_methlist: 0xdbc
+-  __TEXT.__const: 0x4a60
+-  __TEXT.__swift5_typeref: 0x158d
+-  __TEXT.__cstring: 0xeb2
+-  __TEXT.__swift5_reflstr: 0xbfc
+-  __TEXT.__swift5_assocty: 0x6c8
+-  __TEXT.__constg_swiftt: 0x1d8c
+-  __TEXT.__swift5_fieldmd: 0x1b64
+-  __TEXT.__swift5_builtin: 0x17c
++916.45.110.0.0
++  __TEXT.__text: 0x52cf0
++  __TEXT.__objc_methlist: 0xfc4
++  __TEXT.__const: 0x5a70
++  __TEXT.__swift5_typeref: 0x2391
++  __TEXT.__cstring: 0x13a2
++  __TEXT.__swift5_capture: 0x210
++  __TEXT.__swift5_reflstr: 0xdad
++  __TEXT.__swift5_assocty: 0xab8
++  __TEXT.__constg_swiftt: 0x2784
++  __TEXT.__swift5_fieldmd: 0x1f88
++  __TEXT.__swift5_builtin: 0x190
+   __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__swift5_protos: 0x64
+-  __TEXT.__swift5_proto: 0x34c
+-  __TEXT.__swift5_types: 0x280
+-  __TEXT.__swift5_capture: 0x2a4
++  __TEXT.__swift5_protos: 0xb0
++  __TEXT.__swift5_proto: 0x448
++  __TEXT.__swift5_types: 0x2dc
+   __TEXT.__oslogstring: 0x84
+   __TEXT.__swift_as_entry: 0x10
+   __TEXT.__swift_as_ret: 0xc
+   __TEXT.__swift_as_cont: 0x1c
+-  __TEXT.__unwind_info: 0x1cf0
+-  __TEXT.__eh_frame: 0x1d78
++  __TEXT.__unwind_info: 0x22c8
++  __TEXT.__eh_frame: 0x2310
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x158
++  __DATA_CONST.__const: 0x1e8
+   __DATA_CONST.__objc_classlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x1f0
++  __DATA_CONST.__objc_protolist: 0x230
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xe10
+-  __DATA_CONST.__objc_protorefs: 0xf8
++  __DATA_CONST.__objc_selrefs: 0xea0
++  __DATA_CONST.__objc_protorefs: 0x118
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x47c8
+-  __AUTH_CONST.__objc_const: 0x1258
+-  __AUTH_CONST.__auth_got: 0x820
++  __AUTH_CONST.__const: 0x5258
++  __AUTH_CONST.__objc_const: 0x1588
++  __AUTH_CONST.__auth_got: 0x870
+   __AUTH.__objc_data: 0xe0
+-  __AUTH.__data: 0x1388
+-  __DATA.__data: 0x2798
+-  __DATA.__bss: 0x3900
++  __AUTH.__data: 0x1bd8
++  __DATA.__data: 0x3168
++  __DATA.__bss: 0x5410
+   __DATA.__common: 0x8
+   __DATA_DIRTY.__objc_data: 0xf0
+   __DATA_DIRTY.__data: 0x50
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2920
+-  Symbols:   1497
+-  CStrings:  100
++  Functions: 3676
++  Symbols:   1837
++  CStrings:  129
+ 
+Symbols:
++ _NUPixelPointFromCGPoint
++ _OBJC_CLASS_$_NUChannelArrayFormat
++ _OBJC_CLASS_$_NUChannelOptionalFormat
++ _OBJC_CLASS_$__NUAuxiliaryMetadata
++ _OBJC_CLASS_$__NUImageMetadata
++ _OBJC_CLASS_$__NUVideoMetadata
++ _OUTLINED_FUNCTION_156
++ _OUTLINED_FUNCTION_157
++ _OUTLINED_FUNCTION_158
++ _OUTLINED_FUNCTION_159
++ _OUTLINED_FUNCTION_160
++ _OUTLINED_FUNCTION_161
++ _OUTLINED_FUNCTION_162
++ _OUTLINED_FUNCTION_163
++ _OUTLINED_FUNCTION_164
++ _OUTLINED_FUNCTION_165
++ _OUTLINED_FUNCTION_166
++ _OUTLINED_FUNCTION_167
++ _OUTLINED_FUNCTION_168
++ _OUTLINED_FUNCTION_169
++ _OUTLINED_FUNCTION_170
++ _OUTLINED_FUNCTION_171
++ _OUTLINED_FUNCTION_172
++ _OUTLINED_FUNCTION_173
++ _OUTLINED_FUNCTION_174
++ _OUTLINED_FUNCTION_175
++ _OUTLINED_FUNCTION_176
++ _OUTLINED_FUNCTION_177
++ _OUTLINED_FUNCTION_178
++ _OUTLINED_FUNCTION_179
++ _OUTLINED_FUNCTION_180
++ _OUTLINED_FUNCTION_181
++ _OUTLINED_FUNCTION_182
++ _OUTLINED_FUNCTION_183
++ _OUTLINED_FUNCTION_184
++ _OUTLINED_FUNCTION_185
++ _OUTLINED_FUNCTION_186
++ _OUTLINED_FUNCTION_187
++ _OUTLINED_FUNCTION_188
++ _OUTLINED_FUNCTION_189
++ _OUTLINED_FUNCTION_190
++ _OUTLINED_FUNCTION_191
++ _OUTLINED_FUNCTION_192
++ _OUTLINED_FUNCTION_193
++ _OUTLINED_FUNCTION_194
++ _OUTLINED_FUNCTION_195
++ _OUTLINED_FUNCTION_196
++ _OUTLINED_FUNCTION_197
++ _OUTLINED_FUNCTION_198
++ _OUTLINED_FUNCTION_199
++ _OUTLINED_FUNCTION_200
++ _OUTLINED_FUNCTION_201
++ _OUTLINED_FUNCTION_202
++ _OUTLINED_FUNCTION_203
++ _OUTLINED_FUNCTION_204
++ _OUTLINED_FUNCTION_205
++ _OUTLINED_FUNCTION_206
++ _OUTLINED_FUNCTION_207
++ _OUTLINED_FUNCTION_208
++ _OUTLINED_FUNCTION_209
++ _OUTLINED_FUNCTION_210
++ _OUTLINED_FUNCTION_211
++ _OUTLINED_FUNCTION_212
++ _OUTLINED_FUNCTION_213
++ _OUTLINED_FUNCTION_214
++ _OUTLINED_FUNCTION_215
++ _OUTLINED_FUNCTION_216
++ _OUTLINED_FUNCTION_217
++ _OUTLINED_FUNCTION_218
++ _OUTLINED_FUNCTION_219
++ _OUTLINED_FUNCTION_220
++ _OUTLINED_FUNCTION_221
++ _OUTLINED_FUNCTION_222
++ _OUTLINED_FUNCTION_223
++ _OUTLINED_FUNCTION_224
++ _OUTLINED_FUNCTION_225
++ _OUTLINED_FUNCTION_226
++ _OUTLINED_FUNCTION_227
++ _OUTLINED_FUNCTION_228
++ _OUTLINED_FUNCTION_229
++ _OUTLINED_FUNCTION_230
++ _OUTLINED_FUNCTION_231
++ _OUTLINED_FUNCTION_232
++ _OUTLINED_FUNCTION_233
++ _OUTLINED_FUNCTION_234
++ _OUTLINED_FUNCTION_235
++ _OUTLINED_FUNCTION_236
++ _OUTLINED_FUNCTION_237
++ _OUTLINED_FUNCTION_238
++ _OUTLINED_FUNCTION_239
++ _OUTLINED_FUNCTION_240
++ _OUTLINED_FUNCTION_241
++ _OUTLINED_FUNCTION_242
++ _OUTLINED_FUNCTION_243
++ _OUTLINED_FUNCTION_244
++ _OUTLINED_FUNCTION_245
++ _OUTLINED_FUNCTION_246
++ _OUTLINED_FUNCTION_247
++ __INSTANCE_METHODS__TtC15PhotosRendering35_NUMetadataPipelineProcessorAdapter
++ __INSTANCE_METHODS__TtC15PhotosRendering41_NUGeneralComputePipelineProcessorAdapter
++ __INSTANCE_METHODS__TtC15PhotosRendering42_NUCoreImageRenderPipelineProcessorAdapter
++ __IVARS__TtC15PhotosRendering35_NUMetadataPipelineProcessorAdapter
++ __IVARS__TtC15PhotosRendering41_NUGeneralComputePipelineProcessorAdapter
++ __IVARS__TtC15PhotosRendering42_NUCoreImageRenderPipelineProcessorAdapter
++ __IVARS__TtC15PhotosRendering8Pipeline
++ __OBJC_$_PROP_LIST_NUImageBuffer
++ __OBJC_$_PROP_LIST_NUImageMediaSample
++ __OBJC_$_PROP_LIST_NUMediaSample
++ __OBJC_$_PROP_LIST_NUMetadataMediaSample
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUImageBuffer
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUImageMediaSample
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUMediaSample
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUMetadataMediaSample
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NUImageBuffer
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NUImageMediaSample
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NUMediaSample
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NUMetadataMediaSample
++ __OBJC_$_PROTOCOL_REFS_NUImageBuffer
++ __OBJC_$_PROTOCOL_REFS_NUImageMediaSample
++ __OBJC_$_PROTOCOL_REFS_NUMediaSample
++ __OBJC_$_PROTOCOL_REFS_NUMetadataMediaSample
++ __OBJC_LABEL_PROTOCOL_$_NUImageBuffer
++ __OBJC_LABEL_PROTOCOL_$_NUImageMediaSample
++ __OBJC_LABEL_PROTOCOL_$_NUMediaSample
++ __OBJC_LABEL_PROTOCOL_$_NUMetadataMediaSample
++ __OBJC_PROTOCOL_$_NUImageBuffer
++ __OBJC_PROTOCOL_$_NUImageMediaSample
++ __OBJC_PROTOCOL_$_NUMediaSample
++ __OBJC_PROTOCOL_$_NUMetadataMediaSample
++ __PROPERTIES__TtC15PhotosRendering35_NUMetadataPipelineProcessorAdapter
++ __PROPERTIES__TtC15PhotosRendering41_NUGeneralComputePipelineProcessorAdapter
++ __PROPERTIES__TtC15PhotosRendering42_NUCoreImageRenderPipelineProcessorAdapter
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_memcpy10_8
++ ___swift_memcpy640_8
++ ___swift_project_boxed_opaque_existential_0Tm
++ ___unnamed_10
++ ___unnamed_14
++ ___unnamed_15
++ ___unnamed_19
++ ___unnamed_20
++ ___unnamed_30
++ ___unnamed_7
++ _associated conformance 12CoreGraphics7CGFloatV15PhotosRendering24ChannelDataRepresentableAD6FormatAdEP_AD0fiH0
++ _associated conformance 15PhotosRendering10AudioMediaOAA09ComponentD13RepresentableAA6FormatAA011ChannelDataF0P_AA0edgF0
++ _associated conformance 15PhotosRendering10AudioMediaOAA0D17DataRepresentableAA6FormatAA07ChanneleF0P_AA0dgF0
++ _associated conformance 15PhotosRendering10AudioMediaOAA24ChannelDataRepresentableAA6FormatAaDP_AA0ehG0
++ _associated conformance 15PhotosRendering10ImageMediaOAA09ComponentD13RepresentableAA6FormatAA011ChannelDataF0P_AA0edgF0
++ _associated conformance 15PhotosRendering10ImageMediaOAA0D17DataRepresentableAA6FormatAA07ChanneleF0P_AA0dgF0
++ _associated conformance 15PhotosRendering10ImageMediaOAA24ChannelDataRepresentableAA6FormatAaDP_AA0ehG0
++ _associated conformance 15PhotosRendering10RenderTimeVAA24ChannelDataRepresentableAA6FormatAaDP_AA0ehG0
++ _associated conformance 15PhotosRendering11RenderMediaV0D4TypeOSHAASQ
++ _associated conformance 15PhotosRendering11RenderMediaV11AttachmentsV13ColorSpaceKeyOAE010AttachmentH0AA5ValueAeHP_AA24ControlDataRepresentable
++ _associated conformance 15PhotosRendering11RenderMediaV11AttachmentsV18ContentHeadroomKeyOAE010AttachmentH0AA5ValueAeHP_AA24ControlDataRepresentable
++ _associated conformance 15PhotosRendering11RenderMediaV11TemporalityOSHAASQ
++ _associated conformance 15PhotosRendering12ComputedDataVyxGAA07ChannelD13RepresentableAA6FormatAaEP_AA0egF0
++ _associated conformance 15PhotosRendering12InputScalingV10SampleModeOSHAASQ
++ _associated conformance 15PhotosRendering13ControlFormatVAA07ChannelD13RepresentableAA05ArrayD0AaDP_AaD
++ _associated conformance 15PhotosRendering13ControlFormatVAA07ChannelD13RepresentableAA08OptionalD0AaDP_AaD
++ _associated conformance 15PhotosRendering13MetadataMediaOAA09ComponentD13RepresentableAA6FormatAA011ChannelDataF0P_AA0edgF0
++ _associated conformance 15PhotosRendering13MetadataMediaOAA0D17DataRepresentableAA6FormatAA07ChanneleF0P_AA0dgF0
++ _associated conformance 15PhotosRendering13MetadataMediaOAA24ChannelDataRepresentableAA6FormatAaDP_AA0ehG0
++ _associated conformance 15PhotosRendering14ComponentMediaOAA0D17DataRepresentableAA6FormatAA07ChanneleF0P_AA0dgF0
++ _associated conformance 15PhotosRendering14ComponentMediaOAA0cD13RepresentableAA6FormatAA011ChannelDataE0P_AA0cdfE0
++ _associated conformance 15PhotosRendering14ComponentMediaOAA24ChannelDataRepresentableAA6FormatAaDP_AA0ehG0
++ _associated conformance 15PhotosRendering14ComputedFormatVyxGAA07ChannelD13RepresentableAA05ArrayD0AaEP_AaE
++ _associated conformance 15PhotosRendering14ComputedFormatVyxGAA07ChannelD13RepresentableAA08OptionalD0AaEP_AaE
++ _associated conformance 15PhotosRendering14ContainerMediaOAA0D17DataRepresentableAA6FormatAA07ChanneleF0P_AA0dgF0
++ _associated conformance 15PhotosRendering14ContainerMediaOAA24ChannelDataRepresentableAA6FormatAaDP_AA0ehG0
++ _associated conformance 15PhotosRendering14InputsProviderVyxq_GAA09ProcessorC0AA5InputAaEP_AA0eF13Representable
++ _associated conformance 15PhotosRendering14InputsProviderVyxq_GAA09ProcessorC0AA9InterfaceAaEP_AA08PipelineF0
++ _associated conformance 15PhotosRendering15OutputsProviderVyxq_GAA09ProcessorC0AA6OutputAaEP_AA0eF13Representable
++ _associated conformance 15PhotosRendering15OutputsProviderVyxq_GAA09ProcessorC0AA9InterfaceAaEP_AA08PipelineF0
++ _associated conformance 15PhotosRendering15PipelineBuiltInO10RawProfileV7VersionOSHAASQ
++ _associated conformance 15PhotosRendering15PipelineBuiltInO9RawDecodeV7VersionOSHAASQ
++ _associated conformance 15PhotosRendering16ArrayMediaFormatVyxGAA07ChannelE13RepresentableAA08OptionalE0AaEP_AaE
++ _associated conformance 15PhotosRendering16ArrayMediaFormatVyxGAA07ChannelE13RepresentableAA0cE0AaEP_AaE
++ _associated conformance 15PhotosRendering16AudioMediaFormatVAA07ChannelE13RepresentableAA05ArrayE0AaDP_AaD
++ _associated conformance 15PhotosRendering16AudioMediaFormatVAA07ChannelE13RepresentableAA08OptionalE0AaDP_AaD
++ _associated conformance 15PhotosRendering16ImageMediaFormatVAA07ChannelE13RepresentableAA05ArrayE0AaDP_AaD
++ _associated conformance 15PhotosRendering16ImageMediaFormatVAA07ChannelE13RepresentableAA08OptionalE0AaDP_AaD
++ _associated conformance 15PhotosRendering18GenericMediaFormatVAA07ChannelE13RepresentableAA05ArrayE0AaDP_AaD
++ _associated conformance 15PhotosRendering18GenericMediaFormatVAA07ChannelE13RepresentableAA08OptionalE0AaDP_AaD
++ _associated conformance 15PhotosRendering19ImageInputsProviderVyxGAA09ProcessorD0AA5InputAaEP_AA0fG13Representable
++ _associated conformance 15PhotosRendering19ImageInputsProviderVyxGAA09ProcessorD0AA9InterfaceAaEP_AA08PipelineG0
++ _associated conformance 15PhotosRendering19MetadataMediaFormatVAA07ChannelE13RepresentableAA05ArrayE0AaDP_AaD
++ _associated conformance 15PhotosRendering19MetadataMediaFormatVAA07ChannelE13RepresentableAA08OptionalE0AaDP_AaD
++ _associated conformance 15PhotosRendering19OptionalMediaFormatVyxGAA07ChannelE13RepresentableAA05ArrayE0AaEP_AaE
++ _associated conformance 15PhotosRendering19OptionalMediaFormatVyxGAA07ChannelE13RepresentableAA0cE0AaEP_AaE
++ _associated conformance 15PhotosRendering20ComponentMediaFormatVAA07ChannelE13RepresentableAA05ArrayE0AaDP_AaD
++ _associated conformance 15PhotosRendering20ComponentMediaFormatVAA07ChannelE13RepresentableAA08OptionalE0AaDP_AaD
++ _associated conformance 15PhotosRendering20ContainerMediaFormatVAA07ChannelE13RepresentableAA05ArrayE0AaDP_AaD
++ _associated conformance 15PhotosRendering20ContainerMediaFormatVAA07ChannelE13RepresentableAA08OptionalE0AaDP_AaD
++ _associated conformance 15PhotosRendering23PerInputOutputsProviderVyxq_GAA09ProcessorE0AA6OutputAaEP_AA0gH13Representable
++ _associated conformance 15PhotosRendering23PerInputOutputsProviderVyxq_GAA09ProcessorE0AA9InterfaceAaEP_AA08PipelineH0
++ _associated conformance 15PhotosRendering24UnsupportedChannelFormatOAA0dE13RepresentableAA05ArrayE0AaDP_AaD
++ _associated conformance 15PhotosRendering24UnsupportedChannelFormatOAA0dE13RepresentableAA08OptionalE0AaDP_AaD
++ _associated conformance 15PhotosRendering8AnyMediaOAA0D17DataRepresentableAA6FormatAA07ChanneleF0P_AA0dgF0
++ _associated conformance 15PhotosRendering8AnyMediaOAA24ChannelDataRepresentableAA6FormatAaDP_AA0ehG0
++ _associated conformance 15PhotosRendering9EditAssetV0D4TypeOSHAASQ
++ _associated conformance 15PhotosRendering9EditAssetV12LoadingErrorOSHAASQ
++ _associated conformance 15PhotosRendering9EditAssetVs12IdentifiableAA2IDsADP_SH
++ _associated conformance SayxG15PhotosRendering22MediaDataRepresentableA2bCRzAB0c6FormatE00F0_05ArrayF0RPzlAeB07ChanneldE0P_AbD
++ _associated conformance SayxG15PhotosRendering24ChannelDataRepresentableA2bCRzl6FormatAbCP_AB0cfE0
++ _associated conformance Sb15PhotosRendering24ChannelDataRepresentableAA6FormatAaBP_AA0cfE0
++ _associated conformance Sd15PhotosRendering24ChannelDataRepresentableAA6FormatAaBP_AA0cfE0
++ _associated conformance Sf15PhotosRendering24ChannelDataRepresentableAA6FormatAaBP_AA0cfE0
++ _associated conformance Si15PhotosRendering24ChannelDataRepresentableAA6FormatAaBP_AA0cfE0
++ _associated conformance So15CGColorSpaceRefa15PhotosRendering24ChannelDataRepresentableAC6FormatAcDP_AC0fiH0
++ _associated conformance So6CGRectV15PhotosRendering24ChannelDataRepresentableAC6FormatAcDP_AC0dgF0
++ _associated conformance Su15PhotosRendering24ChannelDataRepresentableAA6FormatAaBP_AA0cfE0
++ _associated conformance s5Int32V15PhotosRendering24ChannelDataRepresentableAC6FormatAcDP_AC0dgF0
++ _associated conformance s5Int64V15PhotosRendering24ChannelDataRepresentableAC6FormatAcDP_AC0dgF0
++ _associated conformance s6UInt32V15PhotosRendering24ChannelDataRepresentableAC6FormatAcDP_AC0dgF0
++ _associated conformance s6UInt64V15PhotosRendering24ChannelDataRepresentableAC6FormatAcDP_AC0dgF0
++ _associated conformance xSg15PhotosRendering22MediaDataRepresentableA2bCRzAB0c6FormatE00F0_08OptionalF0RPzlAeB07ChanneldE0P_AbD
++ _associated conformance xSg15PhotosRendering24ChannelDataRepresentableA2bCRzl6FormatAbCP_AB0cfE0
++ _flat unique 15PhotosRendering16_ProcessorInputs_pq_5InputAA0cD0PRts_x9InterfaceAERtsXP
++ _flat unique 15PhotosRendering17_ProcessorOutputs_px9InterfaceAA0cD0PRts_q_6OutputAERtsXP
++ _flat unique 15PhotosRendering18MetadataProcessing_px9InterfaceAaBPRts_XP
++ _flat unique 15PhotosRendering21_ImageProcessorInputs_px9InterfaceAA0dE0PRts_XP
++ _flat unique 15PhotosRendering25_PerInputProcessorOutputs_px9InterfaceAA0eF0PRts_q_6OutputAERtsXP
++ _flat unique So13NUImageBuffer_p
++ _flat unique So13NUMediaSample_p
++ _flat unique So15NUMediaMetadata_p
++ _generic environment 15PhotosRendering10AnyChannelRzl
++ _get_enum_tag_for_layout_string 15PhotosRendering11RenderMediaV8MetadataO
++ _objc_msgSend$computePipelineWithProcessor:error:
++ _objc_msgSend$geometryByCroppingToScaledRect:
++ _objc_msgSend$geometryByTranslatingOriginBy:
++ _objc_msgSend$geometryByUpdatingDuration:
++ _objc_msgSend$geometryByUpdatingScale:
++ _objc_msgSend$image
++ _objc_msgSend$initWithAVMetadataItems:identifier:
++ _objc_msgSend$initWithCGImageMetadata:identifier:
++ _objc_msgSend$initWithCGImageProperties:identifier:
++ _objc_msgSend$initWithDescriptor:validatedDefaultValue:
++ _objc_msgSend$initWithItemFormat:
++ _objc_msgSend$initWithWrappedFormat:
++ _objc_msgSend$itemFormat
++ _objc_msgSend$metadataPipelineWithProcessor:error:
++ _objc_msgSend$renderPipelineWithProcessor:error:
++ _objc_msgSend$sampleMode
++ _objc_msgSend$scaleForImageSize:
++ _objc_msgSend$setSampleMode:
++ _objc_msgSend$setScale:
++ _objc_msgSend$time
++ _objc_msgSend$wrappedFormat
++ _swift_getExtendedExistentialTypeMetadata
++ _swift_getExtendedExistentialTypeMetadata_unique
++ _swift_getKeyPath
++ _swift_isaMask
++ _swift_unknownObjectRelease_n
++ _swift_unknownObjectRetain_n
++ _symbolic $s15PhotosRendering11RenderMediaV11AttachmentsV13AttachmentKeyP
++ _symbolic $s15PhotosRendering15ProcessorInputsP
++ _symbolic $s15PhotosRendering16ProcessorOutputsP
++ _symbolic $s15PhotosRendering16RenderProcessingP
++ _symbolic $s15PhotosRendering16_ProcessorInputsP
++ _symbolic $s15PhotosRendering17ComputeProcessingP
++ _symbolic $s15PhotosRendering17MetadataProcessorP
++ _symbolic $s15PhotosRendering17PipelineProcessorP
++ _symbolic $s15PhotosRendering17RenderMediaFormatP
++ _symbolic $s15PhotosRendering17_ProcessorOutputsP
++ _symbolic $s15PhotosRendering18MetadataProcessingP
++ _symbolic $s15PhotosRendering21_ImageProcessorInputsP
++ _symbolic $s15PhotosRendering22MediaDataRepresentableP
++ _symbolic $s15PhotosRendering23GeneralComputeProcessorP
++ _symbolic $s15PhotosRendering24ChannelDataRepresentableP
++ _symbolic $s15PhotosRendering24CoreImageRenderProcessorP
++ _symbolic $s15PhotosRendering24MediaSampleRepresentableP
++ _symbolic $s15PhotosRendering25_PerInputProcessorOutputsP
++ _symbolic $s15PhotosRendering27ComponentMediaRepresentableP
++ _symbolic $s15PhotosRendering27ProcessorInputRepresentableP
++ _symbolic $s15PhotosRendering28ProcessorOutputRepresentableP
++ _symbolic 11ArrayFormat_____Qz 15PhotosRendering26ChannelFormatRepresentableP
++ _symbolic 11Destination______6Result_____QZ 15PhotosRendering13ExportRequestP AA0C11DestinationP
++ _symbolic 13ComputedValue_____Qz 15PhotosRendering23GeneralComputeProcessorP
++ _symbolic 14OptionalFormat_____Qz 15PhotosRendering26ChannelFormatRepresentableP
++ _symbolic 5Input_____Qyd__ 15PhotosRendering15ProcessorInputsP
++ _symbolic 5Input_____Qz 15PhotosRendering15ProcessorInputsP
++ _symbolic 5Value_____Qz 15PhotosRendering11RenderMediaV11AttachmentsV13AttachmentKeyP
++ _symbolic 6Format_____Qz 15PhotosRendering24ChannelDataRepresentableP
++ _symbolic 6Format______05ArrayA0_____QZ 15PhotosRendering24ChannelDataRepresentableP AA0c6FormatE0P
++ _symbolic 6Format______08OptionalA0_____QZ 15PhotosRendering24ChannelDataRepresentableP AA0c6FormatE0P
++ _symbolic 6Output_____Qyd__ 15PhotosRendering16ProcessorOutputsP
++ _symbolic 6Output_____Qz 15PhotosRendering16ProcessorOutputsP
++ _symbolic 9Interface_____Qyd__ 15PhotosRendering15ProcessorInputsP
++ _symbolic 9Interface_____Qyd__ 15PhotosRendering16ProcessorOutputsP
++ _symbolic 9Interface_____Qyd__ 15PhotosRendering18MetadataProcessingP
++ _symbolic 9Interface_____Qz 15PhotosRendering15ProcessorInputsP
++ _symbolic 9Interface_____Qz 15PhotosRendering16ProcessorOutputsP
++ _symbolic 9Interface_____Qz 15PhotosRendering16RenderProcessingP
++ _symbolic 9Interface_____Qz 15PhotosRendering17ComputeProcessingP
++ _symbolic 9Interface_____Qz 15PhotosRendering17PipelineProcessorP
++ _symbolic 9Interface_____Qz 15PhotosRendering18MetadataProcessingP
++ _symbolic 9Interface______7Outputs_____11ChannelType_____QZ 15PhotosRendering17ComputeProcessingP AA17PipelineInterfaceP AA0E8ChannelsP
++ _symbolic 9Interface______7Outputs_____11ChannelType_____QZ 15PhotosRendering17PipelineProcessorP AA0C9InterfaceP AA0C8ChannelsP
++ _symbolic 9Interface______7Outputs_____11ChannelType_____QZ 15PhotosRendering18MetadataProcessingP AA17PipelineInterfaceP AA0E8ChannelsP
++ _symbolic SDySS_____ySo20AVTimedMetadataGroupCGG 15PhotosRendering11MediaSampleV
++ _symbolic SDySS_____y______pGG 15PhotosRendering11ControlDataV AA0cD13RepresentableP
++ _symbolic SDySSq_G
++ _symbolic SS3key______y______pG5valuet 15PhotosRendering11ControlDataV AA0cD13RepresentableP
++ _symbolic So27NUMetadataPipelineProcessorC
++ _symbolic So33NUGeneralComputePipelineProcessorC
++ _symbolic So34NUCoreImageRenderPipelineProcessorC
++ _symbolic _____ 15PhotosRendering10AudioMediaO
++ _symbolic _____ 15PhotosRendering10ImageMediaO
++ _symbolic _____ 15PhotosRendering11MediaSampleV
++ _symbolic _____ 15PhotosRendering11RenderMediaV
++ _symbolic _____ 15PhotosRendering11RenderMediaV0D4TypeO
++ _symbolic _____ 15PhotosRendering11RenderMediaV11AttachmentsV
++ _symbolic _____ 15PhotosRendering11RenderMediaV11AttachmentsV13ColorSpaceKeyO
++ _symbolic _____ 15PhotosRendering11RenderMediaV11AttachmentsV18ContentHeadroomKeyO
++ _symbolic _____ 15PhotosRendering11RenderMediaV11TemporalityO
++ _symbolic _____ 15PhotosRendering11RenderMediaV8GeometryV
++ _symbolic _____ 15PhotosRendering11RenderMediaV8MetadataO
++ _symbolic _____ 15PhotosRendering11RenderMediaV8MetadataO5ImageV
++ _symbolic _____ 15PhotosRendering11RenderMediaV8MetadataO5VideoV
++ _symbolic _____ 15PhotosRendering11RenderMediaV8MetadataO9AuxiliaryV
++ _symbolic _____ 15PhotosRendering12InputScalingV
++ _symbolic _____ 15PhotosRendering12InputScalingV10SampleModeO
++ _symbolic _____ 15PhotosRendering13MetadataMediaO
++ _symbolic _____ 15PhotosRendering14ComponentMediaO
++ _symbolic _____ 15PhotosRendering14ContainerMediaO
++ _symbolic _____ 15PhotosRendering14InputsProviderV
++ _symbolic _____ 15PhotosRendering15InputAttributesV
++ _symbolic _____ 15PhotosRendering15OutputsProviderV
++ _symbolic _____ 15PhotosRendering15PipelineBuiltInO10RawProfileV7VersionO
++ _symbolic _____ 15PhotosRendering15PipelineBuiltInO9RawDecodeV7VersionO
++ _symbolic _____ 15PhotosRendering16ArrayMediaFormatV
++ _symbolic _____ 15PhotosRendering18_ProcessorChannelsV
++ _symbolic _____ 15PhotosRendering19ImageInputsProviderV
++ _symbolic _____ 15PhotosRendering19OptionalMediaFormatV
++ _symbolic _____ 15PhotosRendering23PerInputOutputsProviderV
++ _symbolic _____ 15PhotosRendering24UnsupportedChannelFormatO
++ _symbolic _____ 15PhotosRendering35_NUMetadataPipelineProcessorAdapterC
++ _symbolic _____ 15PhotosRendering41_NUGeneralComputePipelineProcessorAdapterC
++ _symbolic _____ 15PhotosRendering42_NUCoreImageRenderPipelineProcessorAdapterC
++ _symbolic _____ 15PhotosRendering8AnyMediaO
++ _symbolic _____ 15PhotosRendering8PipelineC
++ _symbolic _____ 15PhotosRendering9EditAssetV
++ _symbolic _____ 15PhotosRendering9EditAssetV0D4TypeO
++ _symbolic _____ 15PhotosRendering9EditAssetV10CapabilityV
++ _symbolic _____ 15PhotosRendering9EditAssetV10LoadOptionO
++ _symbolic _____ 15PhotosRendering9EditAssetV12LoadingErrorO
++ _symbolic _____ 9CoreVideo17CVPixelFormatTypeV
++ _symbolic _____ So12NUSampleModeV
++ _symbolic _____ So18CGImageMetadataRefa
++ _symbolic _____Sg 15PhotosRendering15InputAttributesV
++ _symbolic _____Sg 15PhotosRendering15PipelineBuiltInO9RawDecodeV7VersionO
++ _symbolic ______p 15PhotosRendering17RenderMediaFormatP
++ _symbolic ______p So13NUImageBufferP
++ _symbolic ______p So13NUMediaSampleP
++ _symbolic ______p So15NUMediaMetadataP
++ _symbolic ______p6Result_____Qz______pIeghgrzo_ So14NURenderResultP 15PhotosRendering13RenderRequestP s5ErrorP
++ _symbolic _____y9Interface_____QzG 15PhotosRendering18_ProcessorChannelsV AA08PipelineC0P
++ _symbolic _____y9Interface_____QzG 15PhotosRendering18_ProcessorChannelsV AA17ComputeProcessingP
++ _symbolic _____y9Interface_____QzG 15PhotosRendering18_ProcessorChannelsV AA18MetadataProcessingP
++ _symbolic _____ySS_____G s17_NativeDictionaryV 15PhotosRendering11RenderMediaV11AttachmentsV
++ _symbolic _____ySS_____G s17_NativeDictionaryV 15PhotosRendering11RenderMediaV8GeometryV
++ _symbolic _____ySS_____G s17_NativeDictionaryV 15PhotosRendering11RenderMediaV8MetadataO
++ _symbolic _____ySS_____G s17_NativeDictionaryV 15PhotosRendering12InputScalingV
++ _symbolic _____ySS_____G s17_NativeDictionaryV 15PhotosRendering15InputAttributesV
++ _symbolic _____ySS______pG s17_NativeDictionaryV 15PhotosRendering17RenderMediaFormatP
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 15PhotosRendering11RenderMediaV11AttachmentsV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 15PhotosRendering11RenderMediaV8GeometryV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 15PhotosRendering11RenderMediaV8MetadataO
++ _symbolic _____ySS_____ySo20AVTimedMetadataGroupCGG s17_NativeDictionaryV 15PhotosRendering11MediaSampleV
++ _symbolic _____ySS_____ySo7CIImageCGG s17_NativeDictionaryV 15PhotosRendering11MediaSampleV
++ _symbolic _____ySS_____y_____GG s17_NativeDictionaryV 15PhotosRendering11MediaSampleV 9CoreVideo21CVReadOnlyPixelBufferC
++ _symbolic _____ySS_____y______pGG s17_NativeDictionaryV 15PhotosRendering11ControlDataV AC0eF13RepresentableP
++ _symbolic _____ySo20AVTimedMetadataGroupCG 15PhotosRendering11MediaSampleV
++ _symbolic _____ySo7CIImageCG 15PhotosRendering11MediaSampleV
++ _symbolic _____y_____G 15PhotosRendering11MediaSampleV 9CoreVideo21CVReadOnlyPixelBufferC
++ _symbolic _____y_____G 15PhotosRendering16ArrayMediaFormatV AA05AudiodE0V
++ _symbolic _____y_____G 15PhotosRendering16ArrayMediaFormatV AA05ImagedE0V
++ _symbolic _____y_____G 15PhotosRendering16ArrayMediaFormatV AA07GenericdE0V
++ _symbolic _____y_____G 15PhotosRendering16ArrayMediaFormatV AA08MetadatadE0V
++ _symbolic _____y_____G 15PhotosRendering16ArrayMediaFormatV AA09ComponentdE0V
++ _symbolic _____y_____G 15PhotosRendering16ArrayMediaFormatV AA09ContainerdE0V
++ _symbolic _____y_____G 15PhotosRendering19OptionalMediaFormatV AA05AudiodE0V
++ _symbolic _____y_____G 15PhotosRendering19OptionalMediaFormatV AA05ImagedE0V
++ _symbolic _____y_____G 15PhotosRendering19OptionalMediaFormatV AA07GenericdE0V
++ _symbolic _____y_____G 15PhotosRendering19OptionalMediaFormatV AA08MetadatadE0V
++ _symbolic _____y_____G 15PhotosRendering19OptionalMediaFormatV AA09ComponentdE0V
++ _symbolic _____y_____G 15PhotosRendering19OptionalMediaFormatV AA09ContainerdE0V
++ _symbolic _____y_____G 15PhotosRendering7ChannelV AA10ImageMediaO
++ _symbolic _____y_____G 15PhotosRendering7ChannelV AA14ContainerMediaO
++ _symbolic _____y_____G 15PhotosRendering7ChannelV AA8AnyMediaO
++ _symbolic _____y_____G 15PhotosRendering8PipelineC AA0C7BuiltInO10RawProfileV
++ _symbolic _____y_____G 15PhotosRendering8PipelineC AA0C7BuiltInO11OrientationV
++ _symbolic _____y_____G 15PhotosRendering8PipelineC AA0C7BuiltInO4CropV
++ _symbolic _____y_____G 15PhotosRendering8PipelineC AA0C7BuiltInO5AssetV
++ _symbolic _____y_____G 15PhotosRendering8PipelineC AA0C7BuiltInO9RawDecodeV
++ _symbolic _____y_____So13NUChannelDataCG s17_NativeDictionaryV So20NUMediaAttachmentKeya
++ _symbolic _____y______pG 15PhotosRendering15DynamicChannelsV AA10AnyChannelP
++ _symbolic _____y______pG 15PhotosRendering15DynamicChannelsV AA14ControlChannelP
++ _symbolic _____y______pGSg 15PhotosRendering11ControlDataV AA0cD13RepresentableP
++ _symbolic _____y_____y13ComputedValue_____QzGG 15PhotosRendering7ChannelV AA12ComputedDataV AA23GeneralComputeProcessorP
++ _symbolic _____y_____yxGG 15PhotosRendering19OptionalMediaFormatV AA05ArraydE0V
++ _symbolic _____yxG 15PhotosRendering14ComputedFormatV
++ _symbolic _____yx_____ySo7CIImageCGG 15PhotosRendering14InputsProviderV AA11MediaSampleV
++ _symbolic q_
++ _symbolic x______pYbKc So14NURenderResultP
++ _type_layout_string 15PhotosRendering11RenderMediaV
++ _type_layout_string 15PhotosRendering11RenderMediaV8GeometryV
++ _type_layout_string 15PhotosRendering11RenderMediaV8MetadataO
++ _type_layout_string 15PhotosRendering11RenderMediaV8MetadataO5ImageV
++ _type_layout_string 15PhotosRendering11RenderMediaV8MetadataO9AuxiliaryV
++ _type_layout_string 15PhotosRendering12InputScalingV
++ _type_layout_string 15PhotosRendering17PipelineInterfaceRzlAA18_ProcessorChannelsVyxG
++ _type_layout_string 15PhotosRendering24ChannelDataRepresentableRzlAA0C0VyxG
++ _type_layout_string 15PhotosRendering24ChannelDataRepresentableRzlAA10SourcePortVyxG
++ _type_layout_string 15PhotosRendering24ControlDataRepresentableRzlAA9EditAssetV10CapabilityVy_xG
++ _type_layout_string 15PhotosRendering9EditAssetV
++ _type_layout_string 15PhotosRendering9EditAssetV12LoadingErrorO
+- _OBJC_CLASS_$_NUIdentifier
+- _OBJC_CLASS_$_NUVersion
+- ___swift_memcpy648_8
+- ___unnamed_13
+- ___unnamed_28
+- ___unnamed_3
+- __swift_exist.box.addr_destructor
+- _associated conformance 15PhotosRendering16MediaTemporalityOSHAASQ
+- _associated conformance 15PhotosRendering5AssetV0C4TypeOSHAASQ
+- _associated conformance 15PhotosRendering5AssetV0C5ErrorOSHAASQ
+- _associated conformance 15PhotosRendering5AssetVs12IdentifiableAA2IDsADP_SH
+- _associated conformance 15PhotosRendering5MediaV0C4TypeOSHAASQ
+- _associated conformance 15PhotosRendering5MediaV11AttachmentsV13ColorSpaceKeyOAE010AttachmentG0AA5ValueAeHP_AA24ControlDataRepresentable
+- _associated conformance 15PhotosRendering5MediaV11AttachmentsV18ContentHeadroomKeyOAE010AttachmentG0AA5ValueAeHP_AA24ControlDataRepresentable
+- _associated conformance 15PhotosRendering7VersionVSLAASQ
+- _flat unique So15NUImageMetadata_p
+- _flat unique So15NUVideoMetadata_p
+- _flat unique So19NUAuxiliaryMetadata_p
+- _get_enum_tag_for_layout_string 15PhotosRendering5MediaV8MetadataO
+- _objc_msgSend$__swift_setObject:forKeyedSubscript:
+- _objc_msgSend$compare:
+- _objc_msgSend$initWithDescriptor:defaultValue:
+- _objc_msgSend$initWithDictionary:
+- _objc_msgSend$initWithMajor:minor:
+- _objc_msgSend$initWithName:
+- _objc_msgSend$major
+- _objc_msgSend$minor
+- _objc_msgSend$removeObjectForKey:
+- _swift_unexpectedError
+- _symbolic $s15PhotosRendering11MediaFormatP
+- _symbolic $s15PhotosRendering5MediaV11AttachmentsV13AttachmentKeyP
+- _symbolic 5Value_____Qz 15PhotosRendering5MediaV11AttachmentsV13AttachmentKeyP
+- _symbolic So12NUIdentifierC
+- _symbolic So9NUVersionC
+- _symbolic _____ 15PhotosRendering10IdentifierV
+- _symbolic _____ 15PhotosRendering16MediaTemporalityO
+- _symbolic _____ 15PhotosRendering5AssetV
+- _symbolic _____ 15PhotosRendering5AssetV0C4TypeO
+- _symbolic _____ 15PhotosRendering5AssetV0C5ErrorO
+- _symbolic _____ 15PhotosRendering5AssetV10CapabilityV
+- _symbolic _____ 15PhotosRendering5AssetV10LoadOptionO
+- _symbolic _____ 15PhotosRendering5MediaV
+- _symbolic _____ 15PhotosRendering5MediaV0C4TypeO
+- _symbolic _____ 15PhotosRendering5MediaV11AttachmentsV
+- _symbolic _____ 15PhotosRendering5MediaV11AttachmentsV13ColorSpaceKeyO
+- _symbolic _____ 15PhotosRendering5MediaV11AttachmentsV18ContentHeadroomKeyO
+- _symbolic _____ 15PhotosRendering5MediaV8GeometryV
+- _symbolic _____ 15PhotosRendering5MediaV8MetadataO
+- _symbolic _____ 15PhotosRendering5MediaV8MetadataO5ImageV
+- _symbolic _____ 15PhotosRendering5MediaV8MetadataO5VideoV
+- _symbolic _____ 15PhotosRendering5MediaV8MetadataO9AuxiliaryV
+- _symbolic _____ 15PhotosRendering7VersionV
+- _symbolic _____ 15PhotosRendering8PipelineV
+- _symbolic _____Sg 15PhotosRendering7VersionV
+- _symbolic ______p 15PhotosRendering11MediaFormatP
+- _symbolic ______p So15NUImageMetadataP
+- _symbolic ______p So15NUVideoMetadataP
+- _symbolic ______p So19NUAuxiliaryMetadataP
+- _symbolic _____ySS______pG s17_NativeDictionaryV 15PhotosRendering11MediaFormatP
+- _symbolic _____y_____G 15PhotosRendering7ChannelV AA16ImageMediaFormatV
+- _symbolic _____y_____G 15PhotosRendering7ChannelV AA18GenericMediaFormatV
+- _symbolic _____y_____G 15PhotosRendering7ChannelV AA20ContainerMediaFormatV
+- _type_layout_string 15PhotosRendering10IdentifierV
+- _type_layout_string 15PhotosRendering11AudioFormatO08StandardC7OptionsV
+- _type_layout_string 15PhotosRendering24ControlDataRepresentableRzlAA5AssetV10CapabilityVy_xG
+- _type_layout_string 15PhotosRendering26ChannelFormatRepresentableRzlAA0C0VyxG
+- _type_layout_string 15PhotosRendering26ChannelFormatRepresentableRzlAA10SourcePortVyxG
+- _type_layout_string 15PhotosRendering5AssetV
+- _type_layout_string 15PhotosRendering5AssetV0C5ErrorO
+- _type_layout_string 15PhotosRendering5MediaV
+- _type_layout_string 15PhotosRendering5MediaV11AttachmentsV
+- _type_layout_string 15PhotosRendering5MediaV8GeometryV
+- _type_layout_string 15PhotosRendering5MediaV8MetadataO
+- _type_layout_string 15PhotosRendering5MediaV8MetadataO5ImageV
+- _type_layout_string 15PhotosRendering5MediaV8MetadataO5VideoV
+- _type_layout_string 15PhotosRendering5MediaV8MetadataO9AuxiliaryV
+- _type_layout_string 15PhotosRendering7VersionV
+CStrings:
++ " does not carry "
++ " has no RenderMediaFormat representation"
++ " has no value to read back"
++ " is not a control data input this processor declares in `Interface.inputs.channels`"
++ " is not a metadata input this processor declares in `Interface.inputs.channels`"
++ " is not an image inputs provider"
++ " is not an input this processor declares in `Interface.inputs.channels`"
++ " is not an inputs provider"
++ " is not an outputs provider"
++ "EditAsset of type "
++ "Invalid RawDecode version"
++ "Invalid RawProfile version"
++ "Invalid input scale for "
++ "Invalid media metadata type "
++ "Metadata processor without a media input not supported"
++ "Multiple outputs not supported"
++ "No computed data set for "
++ "No geometry set for "
++ "No image media sample set for "
++ "No output channel declared"
++ "PhotosRendering._NUCoreImageRenderPipelineProcessorAdapter"
++ "PhotosRendering._NUGeneralComputePipelineProcessorAdapter"
++ "PhotosRendering._NUMetadataPipelineProcessorAdapter"
++ "PhotosRendering/PipelineBuiltIn.swift"
++ "PhotosRendering/PipelineProcessor.swift"
++ "PhotosRendering/ProcessorAdapters.swift"
++ "RenderMedia format "
++ "RenderMedia of type "
++ "Unsupported pixel format "
++ "Unsupported sample mode: "
+- " has no MediaFormat representation"
+```

@@ -1,0 +1,137 @@
+## CampoServices
+
+> `/System/Library/PrivateFrameworks/CampoServices.framework/Versions/A/CampoServices`
+
+```diff
+
+-3605.1.1.4.4
+-  __TEXT.__text: 0x4007c
++3605.3.4.0.0
++  __TEXT.__text: 0x437ec
+   __TEXT.__objc_methlist: 0x414
+-  __TEXT.__const: 0x5e24
+-  __TEXT.__swift5_typeref: 0x147c
+-  __TEXT.__constg_swiftt: 0xfc4
+-  __TEXT.__swift5_reflstr: 0xc15
+-  __TEXT.__swift5_fieldmd: 0x1718
+-  __TEXT.__swift5_builtin: 0x50
++  __TEXT.__const: 0x6854
++  __TEXT.__swift5_typeref: 0x160e
++  __TEXT.__constg_swiftt: 0x10f0
++  __TEXT.__swift5_reflstr: 0xc75
++  __TEXT.__swift5_fieldmd: 0x18b0
++  __TEXT.__swift5_builtin: 0x64
+   __TEXT.__cstring: 0xb1c
+-  __TEXT.__swift5_proto: 0x560
+-  __TEXT.__swift5_types: 0x1c0
++  __TEXT.__swift5_proto: 0x5f8
++  __TEXT.__swift5_types: 0x1e4
+   __TEXT.__swift5_assocty: 0x198
+   __TEXT.__oslogstring: 0x385
+   __TEXT.__swift5_capture: 0x218
+   __TEXT.__swift_as_entry: 0x138
+   __TEXT.__swift_as_ret: 0x13c
+   __TEXT.__swift_as_cont: 0xfc
+-  __TEXT.__unwind_info: 0x2110
+-  __TEXT.__eh_frame: 0x2ce0
++  __TEXT.__swift5_mpenum: 0x8
++  __TEXT.__unwind_info: 0x2318
++  __TEXT.__eh_frame: 0x2dd0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_selrefs: 0x340
+   __DATA_CONST.__objc_protorefs: 0x50
+   __DATA_CONST.__got: 0x268
+-  __AUTH_CONST.__const: 0x43d0
++  __AUTH_CONST.__const: 0x48d8
+   __AUTH_CONST.__objc_const: 0x980
+-  __AUTH_CONST.__auth_got: 0x820
+-  __AUTH.__objc_data: 0x90
+-  __AUTH.__data: 0x368
+-  __DATA.__data: 0x1520
+-  __DATA.__bss: 0xa290
+-  __DATA_DIRTY.__objc_data: 0x2c8
+-  __DATA_DIRTY.__data: 0xd20
+-  __DATA_DIRTY.__bss: 0x980
++  __AUTH_CONST.__auth_got: 0x828
++  __DATA.__data: 0x1078
++  __DATA.__bss: 0x9510
++  __DATA_DIRTY.__objc_data: 0x358
++  __DATA_DIRTY.__data: 0x16e0
++  __DATA_DIRTY.__bss: 0x2a00
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+   - /System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2756
+-  Symbols:   1115
++  Functions: 2939
++  Symbols:   1174
+   CStrings:  138
+ 
+Symbols:
++ _OUTLINED_FUNCTION_200
++ _OUTLINED_FUNCTION_201
++ _OUTLINED_FUNCTION_202
++ _OUTLINED_FUNCTION_203
++ _OUTLINED_FUNCTION_204
++ _OUTLINED_FUNCTION_205
++ _OUTLINED_FUNCTION_206
++ _OUTLINED_FUNCTION_207
++ _OUTLINED_FUNCTION_208
++ _OUTLINED_FUNCTION_209
++ _OUTLINED_FUNCTION_210
++ _OUTLINED_FUNCTION_211
++ _OUTLINED_FUNCTION_212
++ ___swift_memcpy88_8
++ _associated conformance 13CampoServices0A9UIServiceC19PresentationRequestV13ConfigurationV13XPCAttachmentV4KindO16EntityCodingKeys33_F59171612CD5D171661D84FDB9F2F1BBLLOSHAASQ
++ _associated conformance 13CampoServices0A9UIServiceC19PresentationRequestV13ConfigurationV13XPCAttachmentV4KindO16EntityCodingKeys33_F59171612CD5D171661D84FDB9F2F1BBLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 13CampoServices0A9UIServiceC19PresentationRequestV13ConfigurationV13XPCAttachmentV4KindO16EntityCodingKeys33_F59171612CD5D171661D84FDB9F2F1BBLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13CampoServices15EntityReferenceV10CodingKeys33_076C7FF47A7348E235019283169FDFEBLLOSHAASQ
++ _associated conformance 13CampoServices15EntityReferenceV10CodingKeys33_076C7FF47A7348E235019283169FDFEBLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 13CampoServices15EntityReferenceV10CodingKeys33_076C7FF47A7348E235019283169FDFEBLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13CampoServices15EntityReferenceV18InstanceIdentifierO10CodingKeys33_076C7FF47A7348E235019283169FDFEBLLOSHAASQ
++ _associated conformance 13CampoServices15EntityReferenceV18InstanceIdentifierO10CodingKeys33_076C7FF47A7348E235019283169FDFEBLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13CampoServices15EntityReferenceV18InstanceIdentifierO10CodingKeys33_076C7FF47A7348E235019283169FDFEBLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13CampoServices15EntityReferenceV18InstanceIdentifierO15LocalCodingKeys33_076C7FF47A7348E235019283169FDFEBLLOSHAASQ
++ _associated conformance 13CampoServices15EntityReferenceV18InstanceIdentifierO15LocalCodingKeys33_076C7FF47A7348E235019283169FDFEBLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13CampoServices15EntityReferenceV18InstanceIdentifierO15LocalCodingKeys33_076C7FF47A7348E235019283169FDFEBLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13CampoServices15EntityReferenceV18InstanceIdentifierO16PairedCodingKeys33_076C7FF47A7348E235019283169FDFEBLLOSHAASQ
++ _associated conformance 13CampoServices15EntityReferenceV18InstanceIdentifierO16PairedCodingKeys33_076C7FF47A7348E235019283169FDFEBLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13CampoServices15EntityReferenceV18InstanceIdentifierO16PairedCodingKeys33_076C7FF47A7348E235019283169FDFEBLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13CampoServices15EntityReferenceV18InstanceIdentifierO16StableCodingKeys33_076C7FF47A7348E235019283169FDFEBLLOSHAASQ
++ _associated conformance 13CampoServices15EntityReferenceV18InstanceIdentifierO16StableCodingKeys33_076C7FF47A7348E235019283169FDFEBLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13CampoServices15EntityReferenceV18InstanceIdentifierO16StableCodingKeys33_076C7FF47A7348E235019283169FDFEBLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13CampoServices15EntityReferenceV18InstanceIdentifierOSHAASQ
++ _associated conformance 13CampoServices15EntityReferenceVSHAASQ
++ _get_enum_tag_for_layout_string 13CampoServices15EntityReferenceV18InstanceIdentifierO
++ _symbolic SS5local_SS6stablet
++ _symbolic _____ 13CampoServices0A9UIServiceC19PresentationRequestV13ConfigurationV13XPCAttachmentV4KindO16EntityCodingKeys33_F59171612CD5D171661D84FDB9F2F1BBLLO
++ _symbolic _____ 13CampoServices0A9UIServiceC20LightweightUIMetricsO
++ _symbolic _____ 13CampoServices15EntityReferenceV
++ _symbolic _____ 13CampoServices15EntityReferenceV10CodingKeys33_076C7FF47A7348E235019283169FDFEBLLO
++ _symbolic _____ 13CampoServices15EntityReferenceV18InstanceIdentifierO
++ _symbolic _____ 13CampoServices15EntityReferenceV18InstanceIdentifierO10CodingKeys33_076C7FF47A7348E235019283169FDFEBLLO
++ _symbolic _____ 13CampoServices15EntityReferenceV18InstanceIdentifierO15LocalCodingKeys33_076C7FF47A7348E235019283169FDFEBLLO
++ _symbolic _____ 13CampoServices15EntityReferenceV18InstanceIdentifierO16PairedCodingKeys33_076C7FF47A7348E235019283169FDFEBLLO
++ _symbolic _____ 13CampoServices15EntityReferenceV18InstanceIdentifierO16StableCodingKeys33_076C7FF47A7348E235019283169FDFEBLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13CampoServices0D9UIServiceC19PresentationRequestV13ConfigurationV13XPCAttachmentV4KindO16EntityCodingKeys33_F59171612CD5D171661D84FDB9F2F1BBLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13CampoServices15EntityReferenceV10CodingKeys33_076C7FF47A7348E235019283169FDFEBLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13CampoServices15EntityReferenceV18InstanceIdentifierO10CodingKeys33_076C7FF47A7348E235019283169FDFEBLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13CampoServices15EntityReferenceV18InstanceIdentifierO15LocalCodingKeys33_076C7FF47A7348E235019283169FDFEBLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13CampoServices15EntityReferenceV18InstanceIdentifierO16PairedCodingKeys33_076C7FF47A7348E235019283169FDFEBLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13CampoServices15EntityReferenceV18InstanceIdentifierO16StableCodingKeys33_076C7FF47A7348E235019283169FDFEBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CampoServices0D9UIServiceC19PresentationRequestV13ConfigurationV13XPCAttachmentV4KindO16EntityCodingKeys33_F59171612CD5D171661D84FDB9F2F1BBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CampoServices15EntityReferenceV10CodingKeys33_076C7FF47A7348E235019283169FDFEBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CampoServices15EntityReferenceV18InstanceIdentifierO10CodingKeys33_076C7FF47A7348E235019283169FDFEBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CampoServices15EntityReferenceV18InstanceIdentifierO15LocalCodingKeys33_076C7FF47A7348E235019283169FDFEBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CampoServices15EntityReferenceV18InstanceIdentifierO16PairedCodingKeys33_076C7FF47A7348E235019283169FDFEBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CampoServices15EntityReferenceV18InstanceIdentifierO16StableCodingKeys33_076C7FF47A7348E235019283169FDFEBLLO
++ _type_layout_string 13CampoServices15EntityReferenceV
++ _type_layout_string 13CampoServices15EntityReferenceV18InstanceIdentifierO
+```

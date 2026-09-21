@@ -1,0 +1,157 @@
+## AEBookPlugins
+
+> `/System/Applications/Books.app/Contents/Frameworks/AEBookPlugins.framework/Versions/A/AEBookPlugins`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_dictobj`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA_CONST.__auth_got`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__data`
+
+```diff
+
+-6713.0.0.0.0
+-  __TEXT.__text: 0x1295d8
++6717.0.0.0.0
++  __TEXT.__text: 0x129f5c
+   __TEXT.__auth_stubs: 0x2650
+-  __TEXT.__objc_stubs: 0x29620
+-  __TEXT.__objc_methlist: 0x18584
+-  __TEXT.__cstring: 0x9487
+-  __TEXT.__objc_classname: 0x2b9d
+-  __TEXT.__objc_methtype: 0xa49d
++  __TEXT.__objc_stubs: 0x297e0
++  __TEXT.__objc_methlist: 0x1866c
++  __TEXT.__cstring: 0x9567
++  __TEXT.__objc_classname: 0x2bbd
++  __TEXT.__objc_methtype: 0xa4cd
+   __TEXT.__const: 0x1798
+   __TEXT.__gcc_except_tab: 0x3eec
+-  __TEXT.__objc_methname: 0x383a9
++  __TEXT.__objc_methname: 0x38669
+   __TEXT.__oslogstring: 0x5ba7
+   __TEXT.__ustring: 0x342
+   __TEXT.__swift5_typeref: 0x6b8
+
+   __TEXT.__swift_as_cont: 0x24
+   __TEXT.__swift5_assocty: 0x78
+   __TEXT.__swift5_proto: 0x3c
+-  __TEXT.__unwind_info: 0x6708
++  __TEXT.__unwind_info: 0x6740
+   __TEXT.__eh_frame: 0x7e0
+   __DATA_CONST.__const: 0x43d8
+-  __DATA_CONST.__cfstring: 0x92c0
+-  __DATA_CONST.__objc_classlist: 0x7f0
++  __DATA_CONST.__cfstring: 0x93c0
++  __DATA_CONST.__objc_classlist: 0x7f8
+   __DATA_CONST.__objc_catlist: 0x90
+   __DATA_CONST.__objc_protolist: 0x518
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0xb0
+-  __DATA_CONST.__objc_superrefs: 0x528
++  __DATA_CONST.__objc_superrefs: 0x530
+   __DATA_CONST.__objc_intobj: 0x198
+   __DATA_CONST.__objc_arraydata: 0xd8
+   __DATA_CONST.__objc_dictobj: 0x78
+   __DATA_CONST.__objc_arrayobj: 0x108
+   __DATA_CONST.__objc_doubleobj: 0x60
+   __DATA_CONST.__auth_got: 0x1340
+-  __DATA_CONST.__got: 0x16b8
++  __DATA_CONST.__got: 0x16d0
+   __DATA_CONST.__auth_ptr: 0x1a8
+-  __DATA.__objc_const: 0x202b8
+-  __DATA.__objc_selrefs: 0xd808
+-  __DATA.__objc_ivar: 0x1454
+-  __DATA.__objc_data: 0x5a70
++  __DATA.__objc_const: 0x20448
++  __DATA.__objc_selrefs: 0xd890
++  __DATA.__objc_ivar: 0x146c
++  __DATA.__objc_data: 0x5ac0
+   __DATA.__data: 0x4178
+   __DATA.__bss: 0xb30
+   __DATA.__common: 0x38
+
+   - @rpath/BookCore.framework/Versions/A/BookCore
+   - @rpath/BookEPUB.framework/Versions/A/BookEPUB
+   - @rpath/TemplateUI.framework/Versions/A/TemplateUI
+-  Functions: 8444
+-  Symbols:   2295
+-  CStrings:  12221
++  Functions: 8462
++  Symbols:   2300
++  CStrings:  12256
+ 
+Symbols:
++ _OBJC_CLASS_$_BKScrollPocketInteractionPair
++ _OBJC_CLASS_$_UIGlassEffect
++ _OBJC_CLASS_$_UIScrollEdgeEffectStyle
++ _OBJC_METACLASS_$_BKScrollPocketInteractionPair
++ _UIAccessibilityTraitStaticText
++ _kCACornerCurveCircular
+- _kCAFilterPlusL
+CStrings:
++ "@\"BKScrollPocketInteractionPair\""
++ "@40@0:8@16@24Q32"
++ "BKScrollPocketInteractionPair"
++ "Books.reader.chrome.appearance"
++ "Books.reader.chrome.bookmark"
++ "Books.reader.chrome.contents"
++ "Books.reader.chrome.markup"
++ "Books.reader.chrome.redo"
++ "Books.reader.chrome.search"
++ "Books.reader.chrome.share"
++ "Books.reader.chrome.undo"
++ "T@\"NSLayoutConstraint\",&,N,V_contentTopBelowToolbarConstraint"
++ "T@\"NSLayoutConstraint\",&,N,V_contentTopToSafeAreaConstraint"
++ "T@\"_UIScrollPocketCollectorInteraction\",R,N,V_collector"
++ "T@\"_UIScrollPocketContainerInteraction\",R,N,V_container"
++ "_collector"
++ "_contentTopBelowToolbarConstraint"
++ "_contentTopToSafeAreaConstraint"
++ "_pageNumberBarButtonItem"
++ "_pageNumberBarButtonItemTapped:"
++ "_pageNumberButton"
++ "_scrollPocketInteraction"
++ "_updatePageNumberBarButtonItem"
++ "_updateScrollPocketInteractions"
++ "automaticStyle"
++ "collector"
++ "contentTopBelowToolbarConstraint"
++ "contentTopToSafeAreaConstraint"
++ "initWithBar:view:edge:"
++ "isThumbnailScrubberExpanded"
++ "plainButtonConfiguration"
++ "removeFromBar:view:"
++ "setContentTopBelowToolbarConstraint:"
++ "setContentTopToSafeAreaConstraint:"
++ "setImagePadding:"
++ "setImagePlacement:"
++ "softStyle"
++ "topEdgeEffect"
++ "updateContentTopConstraint"
++ "wantsPageNumberBarButtonItem"
++ "wantsTopScrollPocket"
+- "T@\"NSLayoutConstraint\",&,N,V_contentToViewTopAnchorConstraint"
+- "_compositingFilterToUse"
+- "_contentToViewTopAnchorConstraint"
+- "contentToViewTopAnchorConstraint"
+- "deactivateConstraints:"
+- "setContentToViewTopAnchorConstraint:"
+```
