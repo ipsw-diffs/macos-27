@@ -1,0 +1,134 @@
+## AgentCanvasUICore
+
+> `/System/Library/PrivateFrameworks/AgentCanvasUICore.framework/Versions/A/AgentCanvasUICore`
+
+```diff
+
+-3605.9.5.4.2
+-  __TEXT.__text: 0x50d220
++3605.10.2.14.11
++  __TEXT.__text: 0x510794
+   __TEXT.__objc_methlist: 0x1548
+-  __TEXT.__const: 0x40f44
+-  __TEXT.__constg_swiftt: 0x14880
+-  __TEXT.__swift5_typeref: 0x45c48
+-  __TEXT.__swift5_reflstr: 0xfbbd
++  __TEXT.__const: 0x40ed4
++  __TEXT.__constg_swiftt: 0x14864
++  __TEXT.__swift5_typeref: 0x45cbc
++  __TEXT.__swift5_reflstr: 0xfc1d
+   __TEXT.__swift5_assocty: 0x4250
+-  __TEXT.__swift5_fieldmd: 0x1098c
+-  __TEXT.__swift5_builtin: 0x2e4
+-  __TEXT.__swift5_proto: 0x1d18
+-  __TEXT.__swift5_types: 0x1340
++  __TEXT.__swift5_fieldmd: 0x10988
++  __TEXT.__swift5_builtin: 0x2d0
++  __TEXT.__swift5_proto: 0x1d0c
++  __TEXT.__swift5_types: 0x133c
+   __TEXT.__swift_as_entry: 0x530
+   __TEXT.__swift_as_ret: 0x52c
+   __TEXT.__swift_as_cont: 0x9f4
+-  __TEXT.__swift5_capture: 0x6d60
++  __TEXT.__swift5_capture: 0x6da0
+   __TEXT.__cstring: 0x1065c
+   __TEXT.__swift5_protos: 0xf0
+-  __TEXT.__oslogstring: 0x3083
+-  __TEXT.__swift5_mpenum: 0xfc
+-  __TEXT.__unwind_info: 0x190c0
+-  __TEXT.__eh_frame: 0x150ec
++  __TEXT.__oslogstring: 0x30f3
++  __TEXT.__swift5_mpenum: 0xec
++  __TEXT.__unwind_info: 0x19190
++  __TEXT.__eh_frame: 0x150c4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1580
+   __DATA_CONST.__objc_protorefs: 0x78
+-  __DATA_CONST.__got: 0x27d8
+-  __AUTH_CONST.__const: 0x277c8
+-  __AUTH_CONST.__objc_const: 0xab98
+-  __AUTH_CONST.__auth_got: 0x4a80
++  __DATA_CONST.__got: 0x2850
++  __AUTH_CONST.__const: 0x277e0
++  __AUTH_CONST.__objc_const: 0xabd8
++  __AUTH_CONST.__auth_got: 0x4aa0
+   __AUTH.__objc_data: 0x10e0
+-  __AUTH.__data: 0x6ce0
+-  __DATA.__data: 0xe448
+-  __DATA.__bss: 0x2afa0
++  __AUTH.__data: 0x6cf8
++  __DATA.__data: 0xe5c8
++  __DATA.__bss: 0x2ae20
+   __DATA.__common: 0xfe0
+   __DATA_DIRTY.__objc_data: 0xff8
+-  __DATA_DIRTY.__data: 0x11910
++  __DATA_DIRTY.__data: 0x11920
+   __DATA_DIRTY.__bss: 0xeea8
+   __DATA_DIRTY.__common: 0x340
+   - /System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 33749
+-  Symbols:   10154
+-  CStrings:  1465
++  Functions: 33791
++  Symbols:   10153
++  CStrings:  1466
+ 
+Symbols:
++ __swift_closure_destructor.471Tm
++ _associated conformance 17AgentCanvasUICore18InteractiveSurfaceOSHAASQ
++ _associated conformance 17AgentCanvasUICore20SystemAuxiliaryProxyO0D12PresentationO0bG0OSHAASQ
++ _associated conformance 17AgentCanvasUICore20SystemAuxiliaryProxyO0D12PresentationO7OrbSizeOSHAASQ
++ _associated conformance 17AgentCanvasUICore20SystemAuxiliaryProxyO11ContentModeOSHAASQ
++ _swift_isUniquelyReferenced_nonNull
++ _symbolic _____ 17AgentCanvasUICore18InteractiveSurfaceO
++ _symbolic _____ 17AgentCanvasUICore20SystemAuxiliaryProxyO
++ _symbolic _____ 17AgentCanvasUICore20SystemAuxiliaryProxyO0D12PresentationO
++ _symbolic _____ 17AgentCanvasUICore20SystemAuxiliaryProxyO0D12PresentationO0bG0O
++ _symbolic _____ 17AgentCanvasUICore20SystemAuxiliaryProxyO0D12PresentationO7OrbSizeO
++ _symbolic _____ 17AgentCanvasUICore20SystemAuxiliaryProxyO11ContentModeO
++ _symbolic _____12presentation_t 17AgentCanvasUICore20SystemAuxiliaryProxyO0D12PresentationO0bG0O
++ _symbolic _____4size_t 17AgentCanvasUICore20SystemAuxiliaryProxyO0D12PresentationO7OrbSizeO
++ _symbolic _____yAAy_____y_____G_____yAAy__________GSgGG_____yAIGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 17AgentCanvasUICore015WindowDragOrTapeF033_5087FAA24C0998ADE114E11121C2031CLLV AA08_OverlayF0V AF0jklM13RepresentableAHLLV AA14_PaddingLayoutV AA011_BackgroundF0V
++ _symbolic _____y_____yAAy_____y_____G_____yAAy__________GSgGG_____yAIGG_SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AA01_c9Modifier_I0V 17AgentCanvasUICore015WindowDragOrTapcJ033_5087FAA24C0998ADE114E11121C2031CLLV AA08_OverlayJ0V AK0nopQ13RepresentableAMLLV AA14_PaddingLayoutV AA011_BackgroundJ0V
++ _symbolic _____y_____y_____G_____yAAy__________GSgGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 17AgentCanvasUICore015WindowDragOrTapeF033_5087FAA24C0998ADE114E11121C2031CLLV AA08_OverlayF0V AF0jklM13RepresentableAHLLV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____G_____yAD_Qo_G 7SwiftUI19_ConditionalContentV AA014_ViewModifier_D0V 17AgentCanvasUICore08RichTexte13DataDetectioneF033_0AA03466B96932B582D1A8C09B66A6E5LLV AA0E0PAAE04dataM0_7optionsQr0lM00L8DetectorO9MatchTypeV_AP7OptionsVtFQO
++ _symbolic _____y_____y_____G_____yAD_Qo__G 7SwiftUI19_ConditionalContentV7StorageO AA014_ViewModifier_D0V 17AgentCanvasUICore08RichTextf13DataDetectionfG033_0AA03466B96932B582D1A8C09B66A6E5LLV AA0F0PAAE04dataN0_7optionsQr0mN00M8DetectorO9MatchTypeV_AR7OptionsVtFQO
++ _symbolic _____y_____y__________GSgG 7SwiftUI16_OverlayModifierV AA15ModifiedContentV 17AgentCanvasUICore28WindowDragOrTapRepresentable33_5087FAA24C0998ADE114E11121C2031CLLV AA14_PaddingLayoutV
++ _symbolic _____y_____y__________GSgG 7SwiftUI19_BackgroundModifierV AA15ModifiedContentV 17AgentCanvasUICore28WindowDragOrTapRepresentable33_5087FAA24C0998ADE114E11121C2031CLLV AA14_PaddingLayoutV
++ get_witness_table 7SwiftUI19_ConditionalContentVyAA014_ViewModifier_D0Vy17AgentCanvasUICore08RichTexte13DataDetectioneF033_0AA03466B96932B582D1A8C09B66A6E5LLVGAA0E0PAAE04dataM0_7optionsQr0lM00L8DetectorO9MatchTypeV_AQ7OptionsVtFQOyAJ_Qo_GAaKHPAjaKHPyHC_qd__AaKHD2_AVHOHC
++ get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAHyAA01_c9Modifier_I0Vy17AgentCanvasUICore015WindowDragOrTapcJ033_5087FAA24C0998ADE114E11121C2031CLLVGAA08_OverlayJ0VyAHyAK0nopQ13RepresentableAMLLVAA14_PaddingLayoutVGSgGGAA011_BackgroundJ0VyAWGG_SbQo_HO
+- __swift_closure_destructor.477Tm
+- _associated conformance 17AgentCanvasUICore11ContentModeO06PromptE0OSHAASQ
+- _associated conformance 17AgentCanvasUICore11ContentModeO07LatencyE0OSHAASQ
+- _associated conformance 17AgentCanvasUICore11ContentModeO0bE0OSHAASQ
+- _associated conformance 17AgentCanvasUICore18SystemPresentationO0bE0OSHAASQ
+- _associated conformance 17AgentCanvasUICore18SystemPresentationO7OrbSizeOSHAASQ
+- _symbolic _____ 17AgentCanvasUICore11ContentModeO
+- _symbolic _____ 17AgentCanvasUICore11ContentModeO06PromptE0O
+- _symbolic _____ 17AgentCanvasUICore11ContentModeO07LatencyE0O
+- _symbolic _____ 17AgentCanvasUICore11ContentModeO0bE0O
+- _symbolic _____ 17AgentCanvasUICore18SystemPresentationO
+- _symbolic _____ 17AgentCanvasUICore18SystemPresentationO0bE0O
+- _symbolic _____ 17AgentCanvasUICore18SystemPresentationO7OrbSizeO
+- _symbolic _____12presentation_t 17AgentCanvasUICore18SystemPresentationO0bE0O
+- _symbolic _____4mode_t 17AgentCanvasUICore11ContentModeO06PromptE0O
+- _symbolic _____4mode_t 17AgentCanvasUICore11ContentModeO07LatencyE0O
+- _symbolic _____4mode_t 17AgentCanvasUICore11ContentModeO0bE0O
+- _symbolic _____4size_t 17AgentCanvasUICore18SystemPresentationO7OrbSizeO
+- _symbolic _____y_____G 7SwiftUI19_BackgroundModifierV 17AgentCanvasUICore28WindowDragOrTapRepresentable33_5087FAA24C0998ADE114E11121C2031CLLV
+- _symbolic _____y_____y_____G_Qo_ 7SwiftUI4ViewPAAE13dataDetection_7optionsQr04DataE00G8DetectorO9MatchTypeV_AH7OptionsVtFQO AA01_C16Modifier_ContentV 17AgentCanvasUICore08RichTextcgecL033_0AA03466B96932B582D1A8C09B66A6E5LLV
+- _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 17AgentCanvasUICore015WindowDragOrTapeF033_5087FAA24C0998ADE114E11121C2031CLLV AA011_BackgroundF0V AF0jklM13RepresentableAHLLV
+- _symbolic _____y_____y_____y_____G_____y_____GG_SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AA01_c9Modifier_I0V 17AgentCanvasUICore015WindowDragOrTapcJ033_5087FAA24C0998ADE114E11121C2031CLLV AA011_BackgroundJ0V AK0nopQ13RepresentableAMLLV
+- get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAA01_c9Modifier_I0Vy17AgentCanvasUICore015WindowDragOrTapcJ033_5087FAA24C0998ADE114E11121C2031CLLVGAA011_BackgroundJ0VyAK0nopQ13RepresentableAMLLVGG_SbQo_HO
+- get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE13dataDetection_7optionsQr04DataE00G8DetectorO9MatchTypeV_AH7OptionsVtFQOyAA01_C16Modifier_ContentVy17AgentCanvasUICore08RichTextcgecL033_0AA03466B96932B582D1A8C09B66A6E5LLVG_Qo_HO
+CStrings:
++ "[rich-text-publish] non-animated content set stream=%{public}s length=%{public}ld elements=%{public}ld"
+```
