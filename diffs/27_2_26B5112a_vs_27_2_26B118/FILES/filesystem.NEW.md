@@ -1,0 +1,209 @@
+## filesystem — NEW (207)
+
+- `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/Contents/Resources/Templates/dialog/wellness.catfamily/regionNotSupportedForMeds.cat/_params.cat.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/Contents/Resources/Templates/dialog/wellness.catfamily/regionNotSupportedForMeds.cat/de.cat.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/Contents/Resources/Templates/dialog/wellness.catfamily/regionNotSupportedForMeds.cat/en-au.cat.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/Contents/Resources/Templates/dialog/wellness.catfamily/regionNotSupportedForMeds.cat/en-ca.cat.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/Contents/Resources/Templates/dialog/wellness.catfamily/regionNotSupportedForMeds.cat/en-gb.cat.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/Contents/Resources/Templates/dialog/wellness.catfamily/regionNotSupportedForMeds.cat/en.cat.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/Contents/Resources/Templates/dialog/wellness.catfamily/regionNotSupportedForMeds.cat/es.cat.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/Contents/Resources/Templates/dialog/wellness.catfamily/regionNotSupportedForMeds.cat/he.cat.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/Contents/Resources/Templates/dialog/wellness.catfamily/regionNotSupportedForMeds.cat/id.cat.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/Contents/Resources/Templates/dialog/wellness.catfamily/regionNotSupportedForMeds.cat/it.cat.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/Contents/Resources/Templates/dialog/wellness.catfamily/regionNotSupportedForMeds.cat/nb.cat.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/Contents/Resources/Templates/dialog/wellness.catfamily/regionNotSupportedForMeds.cat/nl-be.cat.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/Contents/Resources/Templates/dialog/wellness.catfamily/regionNotSupportedForMeds.cat/pt.cat.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/Contents/Resources/Templates/dialog/wellness.catfamily/regionNotSupportedForMeds.cat/sv.cat.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/Contents/Resources/Templates/dialog/wellness.catfamily/regionNotSupportedForMeds.cat/vi.cat.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/Contents/Resources/Templates/dialog/wellness.catfamily/regionNotSupportedForMeds.cat/zh-tw.cat.bin`
+- `/System/Library/Audio/Tunings/Generic/CinematicSeparation/Tunings/separate_and_remix_music.austrip`
+- `/System/Library/Audio/Tunings/Generic/CinematicSeparation/Tunings/separate_and_remix_music.dspg`
+- `/System/Library/Audio/Tunings/Generic/CinematicSeparation/Tunings/separate_and_remix_music.propstrip`
+- `/System/Library/Audio/Tunings/Generic/CinematicSeparation/shared/D_Music/AU/aufx-nnet-appl.plist`
+- `/System/Library/Audio/Tunings/Generic/CinematicSeparation/shared/D_Music/AU/vi-nnet.mil`
+- `/System/Library/Audio/Tunings/Generic/CinematicSeparation/shared/D_Music/AU/weights/vi-nnet.weight.bin`
+- `/System/Library/Audio/Tunings/Generic/CinematicSeparation/shared/M_FOA_Studio/AU/aufx-nnet-appl.plist`
+- `/System/Library/Audio/Tunings/Generic/CinematicSeparation/shared/M_FOA_Studio/AU/vi-nnet.mil`
+- `/System/Library/Audio/Tunings/Generic/CinematicSeparation/shared/M_FOA_Studio/AU/weights/vi-nnet.weight.bin`
+- `/System/Library/CoreServices/BluetoothUIService.app/Contents/Resources/Banner-PID-8215-Seed-mov/Banner-PID-8215-12-Loop.mov`
+- `/System/Library/CoreServices/BluetoothUIService.app/Contents/Resources/Banner-PID-8215-Seed-mov/Banner-PID-8215-13-Loop.mov`
+- `/System/Library/CoreServices/BluetoothUIService.app/Contents/Resources/Banner-PID-8229-Seed-mov/Banner-PID-8229-5-Loop.mov`
+- `/System/Library/CoreServices/BluetoothUIService.app/Contents/Resources/Banner-PID-8229-Seed-mov/Banner-PID-8229-6-Loop.mov`
+- `/System/Library/CoreServices/BluetoothUIService.app/Contents/Resources/Banner-PID-8230-Seed-mov/Banner-PID-8230-6-Loop.mov`
+- `/System/Library/CoreServices/CoreServicesUIAgent.app/Contents/Resources/InternetLocator.loctable`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/ar.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/ca.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/cs.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/da.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/de.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/el.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/es.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/fi.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/fr.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/he.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/hr.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/hu.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/id.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/it.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/ja.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/ko.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/ms.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/nl.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/no.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/pl.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/pt.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/pt_PT.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/ro.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/ru.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/sk.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/sv.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/th.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/tr.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/uk.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/vi.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/zh_CN.lproj/License.rtf`
+- `/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/Resources/zh_TW.lproj/License.rtf`
+- `/System/Library/CoreServices/Setup Assistant.app/Contents/Resources/bg.lproj/OSXSoftwareLicense.html`
+- `/System/Library/CoreServices/Setup Assistant.app/Contents/Resources/bg.lproj/OSXSoftwareLicense.rtf`
+- `/System/Library/CoreServices/Setup Assistant.app/Contents/Resources/kk.lproj/OSXSoftwareLicense.html`
+- `/System/Library/CoreServices/Setup Assistant.app/Contents/Resources/kk.lproj/OSXSoftwareLicense.rtf`
+- `/System/Library/CoreServices/Setup Assistant.app/Contents/Resources/lt.lproj/OSXSoftwareLicense.html`
+- `/System/Library/CoreServices/Setup Assistant.app/Contents/Resources/lt.lproj/OSXSoftwareLicense.rtf`
+- `/System/Library/CoreServices/Setup Assistant.app/Contents/Resources/sl.lproj/OSXSoftwareLicense.html`
+- `/System/Library/CoreServices/Setup Assistant.app/Contents/Resources/sl.lproj/OSXSoftwareLicense.rtf`
+- `/System/Library/FeatureFlags/Domain/SpeakerGroupSetupKit.plist`
+- `/System/Library/FeatureFlags/Unified/Domain/AONSense.plist`
+- `/System/Library/FeatureFlags/Unified/Domain/AppleMediaServices.plist`
+- `/System/Library/FeatureFlags/Unified/Domain/NaturalDictation.plist`
+- `/System/Library/FeatureFlags/Unified/Domain/UnifiedFeatureFlagsDemo.plist`
+- `/System/Library/FeatureFlags/Unified/Domain/WritingTools.plist`
+- `/System/Library/PrivateFrameworks/CoreBluetoothUI.framework/Versions/A/Resources/AssetPaths-B518.plist`
+- `/System/Library/PrivateFrameworks/CoreBluetoothUI.framework/Versions/A/Resources/AssetPaths-Seed.plist`
+- `/System/Library/PrivateFrameworks/CoreBluetoothUI.framework/Versions/A/Resources/B518-1-Black.icns`
+- `/System/Library/PrivateFrameworks/CoreBluetoothUI.framework/Versions/A/Resources/B518-2-Cashmere.icns`
+- `/System/Library/PrivateFrameworks/CoreBluetoothUI.framework/Versions/A/Resources/B518-3-Mint.icns`
+- `/System/Library/PrivateFrameworks/CoreBluetoothUI.framework/Versions/A/Resources/B518-4-Pink.icns`
+- `/System/Library/PrivateFrameworks/CoreBluetoothUI.framework/Versions/Current/Resources/AssetPaths-B518.plist`
+- `/System/Library/PrivateFrameworks/CoreBluetoothUI.framework/Versions/Current/Resources/AssetPaths-Seed.plist`
+- `/System/Library/PrivateFrameworks/CoreBluetoothUI.framework/Versions/Current/Resources/B518-1-Black.icns`
+- `/System/Library/PrivateFrameworks/CoreBluetoothUI.framework/Versions/Current/Resources/B518-2-Cashmere.icns`
+- `/System/Library/PrivateFrameworks/CoreBluetoothUI.framework/Versions/Current/Resources/B518-3-Mint.icns`
+- `/System/Library/PrivateFrameworks/CoreBluetoothUI.framework/Versions/Current/Resources/B518-4-Pink.icns`
+- `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/A/Resources/8212.data`
+- `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/A/Resources/8214.data`
+- `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/A/Resources/8217.data`
+- `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/A/Resources/8231.data`
+- `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/A/Resources/8235.data`
+- `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/A/Resources/8237.data`
+- `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/A/Resources/8241.data`
+- `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/A/Resources/8246.data`
+- `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/A/Resources/8248.data`
+- `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/Current/Resources/8212.data`
+- `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/Current/Resources/8214.data`
+- `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/Current/Resources/8217.data`
+- `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/Current/Resources/8231.data`
+- `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/Current/Resources/8235.data`
+- `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/Current/Resources/8237.data`
+- `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/Current/Resources/8241.data`
+- `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/Current/Resources/8246.data`
+- `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/Current/Resources/8248.data`
+- `/System/Library/PrivateFrameworks/HomeDataModel.framework/Versions/A/Resources/HFSensitiveStrings-AudioGrouping.loctable`
+- `/System/Library/PrivateFrameworks/HomeDataModel.framework/Versions/Current/Resources/HFSensitiveStrings-AudioGrouping.loctable`
+- `/System/Library/PrivateFrameworks/PowerlogLiteOperators.framework/Versions/A/Resources/ClientPermissions.plist`
+- `/System/Library/PrivateFrameworks/PowerlogLiteOperators.framework/Versions/Current/Resources/ClientPermissions.plist`
+- `/System/Library/PrivateFrameworks/SiriSharedUI.framework/Versions/A/Resources/replay.dat`
+- `/System/Library/PrivateFrameworks/SiriSharedUI.framework/Versions/A/Resources/replay_CampoDefaultRecording.dat`
+- `/System/Library/PrivateFrameworks/SiriSharedUI.framework/Versions/Current/Resources/replay.dat`
+- `/System/Library/PrivateFrameworks/SiriSharedUI.framework/Versions/Current/Resources/replay_CampoDefaultRecording.dat`
+- `/System/Library/PrivateFrameworks/SpeakerGroupSetupKit.framework/Versions/A/Resources/Assets.car`
+- `/System/Library/PrivateFrameworks/SpeakerGroupSetupKit.framework/Versions/A/Resources/Info.plist`
+- `/System/Library/PrivateFrameworks/SpeakerGroupSetupKit.framework/Versions/A/Resources/UpsellLocalizable.loctable`
+- `/System/Library/PrivateFrameworks/SpeakerGroupSetupKit.framework/Versions/A/Resources/version.plist`
+- `/System/Library/PrivateFrameworks/SpeakerGroupSetupKit.framework/Versions/A/_CodeSignature/CodeResources`
+- `/System/Library/PrivateFrameworks/SpeakerGroupSetupKit.framework/Versions/Current/Resources/Assets.car`
+- `/System/Library/PrivateFrameworks/SpeakerGroupSetupKit.framework/Versions/Current/Resources/Info.plist`
+- `/System/Library/PrivateFrameworks/SpeakerGroupSetupKit.framework/Versions/Current/Resources/UpsellLocalizable.loctable`
+- `/System/Library/PrivateFrameworks/SpeakerGroupSetupKit.framework/Versions/Current/Resources/version.plist`
+- `/System/Library/Templates/Data/Library/Documentation/License.lpdf/Contents/Resources/bg.lproj/License.html`
+- `/System/Library/Templates/Data/Library/Documentation/License.lpdf/Contents/Resources/bg.lproj/License.pdf`
+- `/System/Library/Templates/Data/Library/Documentation/License.lpdf/Contents/Resources/kk.lproj/License.html`
+- `/System/Library/Templates/Data/Library/Documentation/License.lpdf/Contents/Resources/kk.lproj/License.pdf`
+- `/System/Library/Templates/Data/Library/Documentation/License.lpdf/Contents/Resources/lt.lproj/License.html`
+- `/System/Library/Templates/Data/Library/Documentation/License.lpdf/Contents/Resources/lt.lproj/License.pdf`
+- `/System/Library/Templates/Data/Library/Documentation/License.lpdf/Contents/Resources/sl.lproj/License.html`
+- `/System/Library/Templates/Data/Library/Documentation/License.lpdf/Contents/Resources/sl.lproj/License.pdf`
+- `/System/iOSSupport/System/Library/PrivateFrameworks/Home.framework/Versions/A/Resources/HFSensitiveStrings-AudioGrouping.loctable`
+- `/System/iOSSupport/System/Library/PrivateFrameworks/Home.framework/Versions/Current/Resources/HFSensitiveStrings-AudioGrouping.loctable`
+- `/System/iOSSupport/System/Library/PrivateFrameworks/HomeDataModel.framework/Versions/A/Resources/HFSensitiveStrings-AudioGrouping.loctable`
+- `/System/iOSSupport/System/Library/PrivateFrameworks/HomeDataModel.framework/Versions/Current/Resources/HFSensitiveStrings-AudioGrouping.loctable`
+- `/System/iOSSupport/System/Library/PrivateFrameworks/HomeUI.framework/Versions/A/Resources/HUSensitiveStrings-AudioGrouping.loctable`
+- `/System/iOSSupport/System/Library/PrivateFrameworks/HomeUI.framework/Versions/A/Resources/HUSensitiveStrings-B525HomeTheater.loctable`
+- `/System/iOSSupport/System/Library/PrivateFrameworks/HomeUI.framework/Versions/Current/Resources/HUSensitiveStrings-AudioGrouping.loctable`
+- `/System/iOSSupport/System/Library/PrivateFrameworks/HomeUI.framework/Versions/Current/Resources/HUSensitiveStrings-B525HomeTheater.loctable`
+- `/System/iOSSupport/System/Library/PrivateFrameworks/SpeakerGroupSetupKit.framework/Versions/A/Resources/Assets.car`
+- `/System/iOSSupport/System/Library/PrivateFrameworks/SpeakerGroupSetupKit.framework/Versions/A/Resources/Info.plist`
+- `/System/iOSSupport/System/Library/PrivateFrameworks/SpeakerGroupSetupKit.framework/Versions/A/Resources/UpsellLocalizable.loctable`
+- `/System/iOSSupport/System/Library/PrivateFrameworks/SpeakerGroupSetupKit.framework/Versions/A/Resources/version.plist`
+- `/System/iOSSupport/System/Library/PrivateFrameworks/SpeakerGroupSetupKit.framework/Versions/A/_CodeSignature/CodeResources`
+- `/System/iOSSupport/System/Library/PrivateFrameworks/SpeakerGroupSetupKit.framework/Versions/Current/Resources/Assets.car`
+- `/System/iOSSupport/System/Library/PrivateFrameworks/SpeakerGroupSetupKit.framework/Versions/Current/Resources/Info.plist`
+- `/System/iOSSupport/System/Library/PrivateFrameworks/SpeakerGroupSetupKit.framework/Versions/Current/Resources/UpsellLocalizable.loctable`
+- `/System/iOSSupport/System/Library/PrivateFrameworks/SpeakerGroupSetupKit.framework/Versions/Current/Resources/version.plist`
+- `/usr/share/firmware/bluetooth/BCM4378B1_24.2.551.4114_PCIE_macOS_AtlantisB_OS_MUR_20260715.bin`
+- `/usr/share/firmware/bluetooth/BCM4378B1_24.2.551.4115_PCIE_macOS_AtlantisB_OS_USI_20260715.bin`
+- `/usr/share/firmware/bluetooth/BCM4378B1_24.2.551.4116_PCIE_macOS_Capri_OS_MUR_20260715.bin`
+- `/usr/share/firmware/bluetooth/BCM4378B1_24.2.551.4117_PCIE_macOS_Capri_OS_USI_20260715.bin`
+- `/usr/share/firmware/bluetooth/BCM4378B1_24.2.551.4118_PCIE_macOS_Honshu_OS_MUR_20260715.bin`
+- `/usr/share/firmware/bluetooth/BCM4378B1_24.2.551.4119_PCIE_macOS_Honshu_OS_USI_20260715.bin`
+- `/usr/share/firmware/bluetooth/BCM4378B1_24.2.551.4120_PCIE_macOS_Santorini_OS_MUR_20260715.bin`
+- `/usr/share/firmware/bluetooth/BCM4378B1_24.2.551.4121_PCIE_macOS_Santorini_OS_USI_20260715.bin`
+- `/usr/share/firmware/bluetooth/BCM4378B1_24.2.551.4122_PCIE_macOS_Shikoku_OS_MUR_20260715.bin`
+- `/usr/share/firmware/bluetooth/BCM4378B1_24.2.551.4123_PCIE_macOS_Shikoku_OS_USI_20260715.bin`
+- `/usr/share/firmware/bluetooth/BCM4378B3_24.2.155.293_PCIE_macOS_Kyushu_OS_USI_20260715.bin`
+- `/usr/share/firmware/bluetooth/BCM4387C2_24.2.643.5967_PCIE_macOS_HokkaidoES2_CLPC_OS_USI_20260715.bin`
+- `/usr/share/firmware/bluetooth/BCM4387C2_24.2.643.5968_PCIE_macOS_MadagascarES2_CLPC_3ANT_OS_USI_20260715.bin`
+- `/usr/share/firmware/bluetooth/BCM4387C2_24.2.643.5969_PCIE_macOS_MaldivesES2_CLPC_3ANT_OS_USI_20260715.bin`
+- `/usr/share/firmware/bluetooth/BCM4387C2_24.2.643.5970_PCIE_macOS_OkinawaES2_CLPC_3ANT_OS_USI_20260715.bin`
+- `/usr/share/firmware/bluetooth/BCM4387C2_24.2.643.5971_PCIE_macOS_SnakeES2_CLPC_OS_USI_20260715.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C0_24.2.586.4855_PCIE_macOS_Willamette_Miyake_CLPC_3ANT_OS_USI_20260811.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C0_24.2.586.4856_PCIE_macOS_Willamette_Tokara_CLPC_3ANT_OS_USI_20260811.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C0_24.2.586.4857_PCIE_macOS_Willamette_Amami_CLPC_3ANT_OS_USI_20260811.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C0_24.2.586.4858_PCIE_macOS_Willamette_Tasmania_CLPC_3ANT_OS_USI_20260811.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C0_24.2.586.4859_PCIE_macOS_Willamette_Sumatra_CLPC_3ANT_OS_USI_20260811.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C0_24.2.586.4860_PCIE_macOS_Willamette_Azores_CLPC_3ANT_OS_USI_20260811.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C0_24.2.586.4861_PCIE_macOS_Willamette_Iona_CLPC_3ANT_OS_USI_20260811.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C0_24.2.586.4862_PCIE_macOS_Willamette_Tresco_CLPC_3ANT_OS_USI_20260811.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C0_24.2.586.4863_PCIE_macOS_Willamette_Canary_CLPC_3ANT_OS_USI_20260811.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C0_24.2.586.4864_PCIE_macOS_Willamette_Texa_CLPC_3ANT_OS_AMKOR_20260811.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C0_24.2.586.4865_PCIE_macOS_Willamette_Texa_CLPC_3ANT_OS_USI_20260811.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C0_24.2.586.4866_PCIE_macOS_Willamette_Jura_CLPC_3ANT_OS_AMKOR_20260811.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C0_24.2.586.4867_PCIE_macOS_Willamette_Jura_CLPC_3ANT_OS_USI_20260811.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C0_24.2.586.4868_PCIE_macOS_Willamette_Java_CLPC_3ANT_OS_USI_20260811.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C0_24.2.586.4869_PCIE_macOS_Willamette_Dnieper_CLPC_OS_AMKOR_20260811.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C0_24.2.586.4870_PCIE_macOS_Willamette_Dnieper_CLPC_OS_USI_20260811.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C0_24.2.586.4871_PCIE_macOS_Willamette_Tuzla_CLPC_OS_AMKOR_20260811.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C0_24.2.586.4872_PCIE_macOS_Willamette_Tuzla_CLPC_OS_USI_20260811.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1917_PCIE_macOS_Willamette_Aruba_CLPC_3ANT_OS_AMKOR_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1918_PCIE_macOS_Willamette_Aruba_CLPC_3ANT_OS_USI_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1919_PCIE_macOS_Willamette_Guam_CLPC_3ANT_OS_AMKOR_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1920_PCIE_macOS_Willamette_Guam_CLPC_3ANT_OS_USI_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1921_PCIE_macOS_Willamette_Hostomel_CLPC_3ANT_OS_AMKOR_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1922_PCIE_macOS_Willamette_Hostomel_CLPC_3ANT_OS_USI_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1923_PCIE_macOS_Willamette_Mriya_CLPC_3ANT_OS_AMKOR_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1924_PCIE_macOS_Willamette_Mriya_CLPC_3ANT_OS_USI_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1925_PCIE_macOS_Willamette_Paradise_CLPC_3ANT_OS_AMKOR_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1926_PCIE_macOS_Willamette_Paradise_CLPC_3ANT_OS_USI_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1927_PCIE_macOS_Willamette_Prospero_CLPC_3ANT_OS_AMKOR_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1928_PCIE_macOS_Willamette_Prospero_CLPC_3ANT_OS_USI_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1929_PCIE_macOS_Willamette_Sakhalin_CLPC_3ANT_OS_AMKOR_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1930_PCIE_macOS_Willamette_Sakhalin_CLPC_3ANT_OS_USI_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1931_PCIE_macOS_Willamette_Garden_CLPC_OS_AMKOR_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1932_PCIE_macOS_Willamette_Garden_CLPC_OS_USI_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1933_PCIE_macOS_Willamette_Kos_CLPC_OS_AMKOR_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1934_PCIE_macOS_Willamette_Kos_CLPC_OS_USI_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1935_PCIE_macOS_Willamette_Linosa_CLPC_3ANT_OS_AMKOR_20260722.bin`
+- `/usr/share/firmware/bluetooth/BCM4388C2_24.2.241.1936_PCIE_macOS_Willamette_Linosa_CLPC_3ANT_OS_USI_20260722.bin`
+- `/usr/standalone/firmware/nfrestore/firmware/fw-hashes/SN450V-hashes.plist`
+- `/usr/standalone/firmware/nfrestore/firmware/fw/SN450V_FW_A1_01_01_00A_rev14059249.bin`
+- `/usr/standalone/firmware/nfrestore/firmware/fw/SN450V_FW_B0_02_01_015_rev48936220.bin`
+- `/usr/standalone/firmware/nfrestore/firmware/fw/SN450V_FW_B1_03_01_015_rev48923467.bin`

@@ -1,0 +1,103 @@
+## JavaScriptCore
+
+> `/System/iOSSupport/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/JavaScriptCore`
+
+```diff
+
+-625.2.8.11.6
+-  __TEXT.__text: 0x1dce918
+-  __TEXT.__jsc_int: 0x6bfb8
++625.2.8.11.9
++  __TEXT.__text: 0x1dceba8
++  __TEXT.__jsc_int: 0x6bff8
+   __TEXT.__objc_methlist: 0xb9c
+-  __TEXT.__const: 0x9f564
++  __TEXT.__const: 0x9f554
+   __TEXT.__dlsym_cstr: 0x34
+-  __TEXT.__cstring: 0x12c0f4
++  __TEXT.__cstring: 0x12c1c1
+   __TEXT.__oslogstring: 0xa0f
+   __TEXT.__gcc_except_tab: 0x2968
+   __TEXT.__ustring: 0x10
+-  __TEXT.__unwind_info: 0x1e8e0
++  __TEXT.__unwind_info: 0x1e8c8
+   __TEXT.__eh_frame: 0xc0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_superrefs: 0x40
+   __DATA_CONST.__jsc_ops: 0x1cb8
+   __DATA_CONST.__got: 0x278
+-  __AUTH_CONST.__const: 0x3db90
++  __AUTH_CONST.__const: 0x3db68
+   __AUTH_CONST.__cfstring: 0x1040
+   __AUTH_CONST.__objc_const: 0xdf8
+   __AUTH_CONST.__weak_auth_got: 0x18
+-  __AUTH_CONST.__auth_got: 0x17f0
++  __AUTH_CONST.__auth_got: 0x17e8
+   __AUTH.__objc_data: 0xa0
+   __AUTH.__data: 0x200
+   __DATA.__objc_ivar: 0x80
+   __DATA.__crash_info: 0x148
+   __DATA.__data: 0x10404
+-  __DATA.__common: 0x1840
++  __DATA.__common: 0x1848
+   __DATA.__bss: 0x14e8
+   __DATA_DIRTY.__objc_ivar: 0x8
+   __DATA_DIRTY.__objc_data: 0x2d0
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 39001
+-  Symbols:   48172
+-  CStrings:  25794
++  Functions: 38996
++  Symbols:   48166
++  CStrings:  25796
+ 
+Symbols:
++ __ZN3JSC11ArrayBuffer26refreshAfterWasmMemoryGrowEv
++ __ZN3JSC15CommonSlowPaths22allocateNewArrayBufferERNS_2VMEPNS_9StructureEPNS_15JSCellButterflyE
++ __ZN3JSC18BufferMemoryHandle22replaceAllocatedMemoryEPvm
++ __ZN3JSC30JSWebAssemblySuspendingWrapper6createERNS_2VMEPNS_9StructureEPNS_8JSObjectE
++ __ZN3JSC35createWebAssemblySuspendingFunctionERNS_2VMEPNS_14JSGlobalObjectEPNS_8JSObjectE
++ __ZN3JSC3DFG5Graph27tryWatchSetIteratorProtocolEPNS0_4NodeERKNS0_13AbstractValueEb
++ __ZN3JSC3DFG5Graph29tryWatchArrayIteratorProtocolEPNS0_4NodeERKNS0_13AbstractValueEb
++ __ZN3JSC3DFG5Graph58isWatchingAllArrayIteratorProtocolWatchpointsForAllocationEPNS0_4NodeE
++ __ZN3JSC3DFGL58isWatchingAllArrayIteratorProtocolWatchpointsForAllocationEPNS0_5GraphEPNS_14JSGlobalObjectE
++ __ZN3WTF6VectorIN3JSC3DFG19RegisteredStructureELm8ENS_15CrashOnOverflowELm16ENS_10FastMallocEE14expandCapacityILNS_13FailureActionE0EEEPS3_mS9_
++ __ZN9Inspector20JSInjectedScriptHost21getInternalPropertiesEPN3JSC14JSGlobalObjectEPNS1_9CallFrameE
++ __ZNK3JSC9Structure27hasNonReifiedStaticPropertyENS_12PropertyNameE
++ __ZZN3JSC4Wasm14OMGIRGenerator16emitIndirectCallEPNS_2B35ValueES4_S4_RKNS0_3RTTERKN3WTF6VectorINS0_19FunctionParserTypesINS1_11ControlDataENS0_13OMGExpressionENS_16CallLinkInfoBase8CallTypeEE15TypedExpressionELm8ENS8_15CrashOnOverflowELm16ENS8_10FastMallocEEERNS9_IS4_Lm16ESH_Lm16ESI_EESE_EN3$_1D1Ev
++ __ZZNK3JSC4Wasm3RTT20jsToWasmICEntrypointEvENK3$_0clEv
++ _g_wasmToJSCalleeBoxed
++ _jsc_llint_2447_wasmScope__ipint_tail_call_check_existing_frame_LowLevelInterpreter_asm_3181
+- __PRETTY_FUNCTION__._ZN3JSC18BufferMemoryHandle15transferAnchorsERS0_
+- __ZN3JSC11ArrayBuffer26refreshAfterWasmMemoryGrowEPNS_4Wasm6MemoryE
+- __ZN3JSC15AssemblyHelpers22branchIfRopeStringImplENS_14ARM64Registers10RegisterIDE
+- __ZN3JSC15AssemblyHelpers32emitMaterializeTagCheckRegistersEv
+- __ZN3JSC18BufferMemoryHandle15transferAnchorsERS0_
+- __ZN3JSC19MacroAssemblerARM6416patchableBranch8ENS0_19RelationalConditionENS_22AbstractMacroAssemblerINS_15ARM64EAssemblerEE7AddressENS4_12TrustedImm32E
+- __ZN3JSC3DFG5Graph15canDoFastSpreadEPNS0_4NodeERKNS0_13AbstractValueE
+- __ZN3JSC3DFG5Graph39isWatchingSetIteratorProtocolWatchpointEPNS0_4NodeE
+- __ZN3JSC3DFG5Graph41isWatchingArrayIteratorProtocolWatchpointEPNS0_4NodeE
+- __ZN3WTF17SharedTaskFunctorIFvRN3JSC12CCallHelpersERKNS1_2B324StackmapGenerationParamsEEZNS1_4Wasm14OMGIRGenerator16emitIndirectCallEPNS4_5ValueESC_SC_RKNS9_3RTTERKNS_6VectorINS9_19FunctionParserTypesINSA_11ControlDataENS9_13OMGExpressionENS1_16CallLinkInfoBase8CallTypeEE15TypedExpressionELm8ENS_15CrashOnOverflowELm16ENS_10FastMallocEEERNSG_ISC_Lm16ESO_Lm16ESP_EESL_E3$_2E3runES3_S7_
+- __ZN3WTF17SharedTaskFunctorIFvRN3JSC12CCallHelpersERKNS1_2B324StackmapGenerationParamsEEZNS1_4Wasm14OMGIRGenerator16emitIndirectCallEPNS4_5ValueESC_SC_RKNS9_3RTTERKNS_6VectorINS9_19FunctionParserTypesINSA_11ControlDataENS9_13OMGExpressionENS1_16CallLinkInfoBase8CallTypeEE15TypedExpressionELm8ENS_15CrashOnOverflowELm16ENS_10FastMallocEEERNSG_ISC_Lm16ESO_Lm16ESP_EESL_E3$_2ED0Ev
+- __ZN3WTF17SharedTaskFunctorIFvRN3JSC12CCallHelpersERKNS1_2B324StackmapGenerationParamsEEZNS1_4Wasm14OMGIRGenerator16emitIndirectCallEPNS4_5ValueESC_SC_RKNS9_3RTTERKNS_6VectorINS9_19FunctionParserTypesINSA_11ControlDataENS9_13OMGExpressionENS1_16CallLinkInfoBase8CallTypeEE15TypedExpressionELm8ENS_15CrashOnOverflowELm16ENS_10FastMallocEEERNSG_ISC_Lm16ESO_Lm16ESP_EESL_E3$_2ED1Ev
+- __ZN3WTF21ThreadSafeWeakHashSetIN3JSC4Wasm14InstanceAnchorEEC2EOS4_
+- __ZN3WTF21ThreadSafeWeakHashSetIN3JSC4Wasm14InstanceAnchorEEaSEOS4_
+- __ZN3WTF9HashTableINSt3__14pairINS_6RefPtrINS_29ThreadSafeWeakPtrControlBlockENS_12RawPtrTraitsIS4_EENS_43ThreadSafeWeakPtrControlBlockRefDerefTraitsEEEPKN3JSC4Wasm14InstanceAnchorEEESE_NS_17IdentityExtractorENS_11DefaultHashISE_EENS_10HashTraitsISE_EESJ_NS_10FastMallocEED1Ev
+- __ZNSt3__14lockB9sqn220106IN3WTF4LockES2_EEvRT_RT0_
+- __ZTVN3WTF17SharedTaskFunctorIFvRN3JSC12CCallHelpersERKNS1_2B324StackmapGenerationParamsEEZNS1_4Wasm14OMGIRGenerator16emitIndirectCallEPNS4_5ValueESC_SC_RKNS9_3RTTERKNS_6VectorINS9_19FunctionParserTypesINSA_11ControlDataENS9_13OMGExpressionENS1_16CallLinkInfoBase8CallTypeEE15TypedExpressionELm8ENS_15CrashOnOverflowELm16ENS_10FastMallocEEERNSG_ISC_Lm16ESO_Lm16ESP_EESL_E3$_2EE
+- __ZZN3JSC3DFG14SpeculativeJIT8emitCallEPNS0_4NodeEENK3$_3clEv
+- __ZZN3JSC4Wasm14OMGIRGenerator16emitIndirectCallEPNS_2B35ValueES4_S4_RKNS0_3RTTERKN3WTF6VectorINS0_19FunctionParserTypesINS1_11ControlDataENS0_13OMGExpressionENS_16CallLinkInfoBase8CallTypeEE15TypedExpressionELm8ENS8_15CrashOnOverflowELm16ENS8_10FastMallocEEERNS9_IS4_Lm16ESH_Lm16ESI_EESE_EN3$_2D1Ev
+- __ZZNK3JSC4Wasm3RTT20jsToWasmICEntrypointEvENK3$_1clEv
+- __ZZZN3JSC3FTL12_GLOBAL__N_112LowerDFGToB328compileDirectCallOrConstructEvENKUlRNS_12CCallHelpersERKNS_2B324StackmapGenerationParamsEE_clES4_S8_ENKUlvE_clEv
+- _sched_yield
+CStrings:
++ "bool JSC::Wasm::CalleeGroup::startInstallingCallee(const AbstractLocker &, FunctionCodeIndex, OptimizingJITCallee &)"
++ "static int JSC::ARM64Assembler::unconditionalBranchImmediate(bool, intptr_t)"
++ "void JSC::BufferMemoryHandle::replaceAllocatedMemory(void *, size_t)"
+- "void JSC::BufferMemoryHandle::transferAnchors(BufferMemoryHandle &)"
+```
