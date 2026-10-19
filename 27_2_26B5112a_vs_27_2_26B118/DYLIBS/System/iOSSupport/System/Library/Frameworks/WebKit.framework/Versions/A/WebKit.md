@@ -1,0 +1,259 @@
+## WebKit
+
+> `/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit`
+
+```diff
+
+-625.2.8.11.6
+-  __TEXT.__text: 0xf9be54
++625.2.8.11.9
++  __TEXT.__text: 0xf9fab4
+   __TEXT.__objc_methlist: 0x18ca8
+   __TEXT.__dlsym_cstr: 0xaa7
+   __TEXT.__getClass_cstr: 0x193
+-  __TEXT.__const: 0x8954
+-  __TEXT.__gcc_except_tab: 0x7233c
+-  __TEXT.__cstring: 0x1f1acc
+-  __TEXT.__swift5_typeref: 0x19be
+-  __TEXT.__constg_swiftt: 0x1b5c
++  __TEXT.__const: 0x8944
++  __TEXT.__gcc_except_tab: 0x72384
++  __TEXT.__cstring: 0x1f38ac
++  __TEXT.__swift5_typeref: 0x19c4
++  __TEXT.__constg_swiftt: 0x1b78
+   __TEXT.__swift5_reflstr: 0xb68
+-  __TEXT.__swift5_fieldmd: 0xe2c
+-  __TEXT.__swift5_types: 0x1a4
++  __TEXT.__swift5_fieldmd: 0xe3c
++  __TEXT.__swift5_types: 0x1a8
+   __TEXT.__swift5_capture: 0x780
+   __TEXT.__swift5_proto: 0x1b4
+   __TEXT.__swift5_protos: 0x70
+
+   __TEXT.__swift_as_ret: 0x12c
+   __TEXT.__swift_as_cont: 0x1b0
+   __TEXT.__swift5_types2: 0x8
+-  __TEXT.__oslogstring: 0x5f79a
++  __TEXT.__oslogstring: 0x61317
+   __TEXT.__ustring: 0xc44
+-  __TEXT.__unwind_info: 0x517b0
+-  __TEXT.__eh_frame: 0x9650
++  __TEXT.__unwind_info: 0x51c50
++  __TEXT.__eh_frame: 0x9640
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x20e30
++  __DATA_CONST.__const: 0x20e18
+   __DATA_CONST.__objc_classlist: 0xb90
+   __DATA_CONST.__objc_catlist: 0x50
+   __DATA_CONST.__objc_protolist: 0x360
+
+   __DATA_CONST.__objc_protorefs: 0x98
+   __DATA_CONST.__objc_superrefs: 0x8e0
+   __DATA_CONST.__objc_arraydata: 0x620
+-  __DATA_CONST.__got: 0x1db0
+-  __AUTH_CONST.__const: 0x5f250
++  __DATA_CONST.__got: 0x1da8
++  __AUTH_CONST.__const: 0x5efa0
+   __AUTH_CONST.__cfstring: 0x11c00
+   __AUTH_CONST.__objc_const: 0x25d00
+   __AUTH_CONST.__weak_auth_got: 0x28
+
+   __AUTH_CONST.__objc_dictobj: 0xc8
+   __AUTH_CONST.__objc_arrayobj: 0x108
+   __AUTH_CONST.__objc_doubleobj: 0x20
+-  __AUTH_CONST.__auth_got: 0xc480
++  __AUTH_CONST.__auth_got: 0xc460
+   __AUTH.__objc_data: 0x5330
+   __AUTH.__data: 0x960
+   __AUTH.__thread_vars: 0x60
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 66243
+-  Symbols:   97237
+-  CStrings:  17437
++  Functions: 66173
++  Symbols:   97160
++  CStrings:  17473
+ 
+Symbols:
++ __ZN3WTF6Detail15CallableWrapperIZN6WebKit24EarlyHintsResourceLoader44startPreconnectTaskAfterContentRuleListCheckEONS2_21NetworkLoadParametersERKNS_3URLEE3$_0vJRN7WebCore17ContentExtensions24ContentExtensionsBackendEEE4callESD_
++ __ZN3WTF6Detail15CallableWrapperIZN6WebKit24EarlyHintsResourceLoader44startPreconnectTaskAfterContentRuleListCheckEONS2_21NetworkLoadParametersERKNS_3URLEE3$_0vJRN7WebCore17ContentExtensions24ContentExtensionsBackendEEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZN6WebKit24EarlyHintsResourceLoader44startPreconnectTaskAfterContentRuleListCheckEONS2_21NetworkLoadParametersERKNS_3URLEE3$_0vJRN7WebCore17ContentExtensions24ContentExtensionsBackendEEED1Ev
++ __ZN3WTF6VectorINS_9RetainPtrIP7CGImageEELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE14expandCapacityILNS_13FailureActionE0EEEPS4_mSA_
++ __ZN3WTF6VectorINS_9RetainPtrIP7CGImageEELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE15reserveCapacityILNS_13FailureActionE0EEEbm
++ __ZN6WebKit10WebProcess41existingGPUProcessConnectionOffMainThreadEv
++ __ZN6WebKit12WebExtension19resourceDataForPathERKN3WTF6StringENS0_11CacheResultENS0_22SuppressNotFoundErrorsENS0_23AllowInlineResourceURLsE
++ __ZN6WebKit13SecurityFlags14radar183491061Ev
++ __ZN6WebKit15IsolatedSessionC2Ev
++ __ZN6WebKit33ImageBufferShareableBitmapBackend20adoptGraphicsContextEONSt3__110unique_ptrIN7WebCore15GraphicsContextENS1_14default_deleteIS4_EEEE
++ __ZN6WebKitL18allowsCookieAccessERKN3WTF3URLES3_
++ __ZN6WebKitL34isBackForwardItemIdentifierForPageERKNSt3__18optionalIN7WebCore16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS2_29BackForwardItemIdentifierTypeENS4_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEEEENS5_INS_26WebPageProxyIdentifierTypeES8_yEE
++ __ZN6WebKitL42backForwardItemForIdentifierFromWebContentERNS_18WebBackForwardListEN7WebCore16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS2_29BackForwardItemIdentifierTypeENS4_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEE
++ __ZN6WebKitL49initializeSessionWithoutCredentialStorageIfNeededERNS_14SessionWrapperERKS0_NS_26NavigatingToAppBoundDomainERNS_19NetworkSessionCocoaE
++ __ZN7WebCore22NullImageBufferBackend22releaseGraphicsContextEv
++ __ZNK3WTF20ThreadSafeRefCountedIN7WebCore16TrackPrivateBase6SharedINS_8FunctionIFvRNS1_17AudioTrackPrivateEbEEEEELNS_17DestructionThreadE0EE5derefEv
++ __ZNK3WTF20ThreadSafeRefCountedIN7WebCore16TrackPrivateBase6SharedINS_8FunctionIFvRNS1_17VideoTrackPrivateEbEEEEELNS_17DestructionThreadE0EE5derefEv
++ __ZNK6WebKit21RemoteImageDecoderAVF17frameImageAtIndexEm
++ __ZNK6WebKit33ImageBufferShareableBitmapBackend18hasGraphicsContextEv
++ __ZNK6WebKit48ImageBufferShareableMappedIOSurfaceBitmapBackend18hasGraphicsContextEv
++ __ZNK7WebCore11ImageBuffer18hasGraphicsContextEv
++ __ZNK7WebCore18ImageBufferBackend18hasGraphicsContextEv
++ __ZNK7WebCore22NullImageBufferBackend18hasGraphicsContextEv
++ __ZNK7WebCore27ImageBufferIOSurfaceBackend18hasGraphicsContextEv
++ __ZNSt3__110unique_ptrIN6WebKit15IsolatedSessionENS_14default_deleteIS2_EEE5resetB9sqn220106EPS2_
++ __ZTVN3WTF6Detail15CallableWrapperIZN6WebKit24EarlyHintsResourceLoader44startPreconnectTaskAfterContentRuleListCheckEONS2_21NetworkLoadParametersERKNS_3URLEE3$_0vJRN7WebCore17ContentExtensions24ContentExtensionsBackendEEEE
++ _symbolic _____ 6WebKit16ModelAssetPolicyO
+- __ZN3IPC13handleMessageIN8Messages12WebPageProxy20PropagateDragAndDropENS_10ConnectionEN6WebKit12WebPageProxyES6_FvONS5_23DragEventForwardingDataERKN3WTF6StringEON7WebCore8DragDataEEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
+- __ZN6WebKit12WebExtension19resourceDataForPathERKN3WTF6StringENS0_11CacheResultENS0_22SuppressNotFoundErrorsE
+- __ZN6WebKit35ImageBufferRemoteDisplayListBackendC2ERKN7WebCore28ImageBufferBackendParametersE
+- __ZN7WebCore15GraphicsContext11fillEllipseERKNS_9FloatRectE
+- __ZN7WebCore15GraphicsContext13setURLForRectERKN3WTF3URLERKNS_9FloatRectE
+- __ZN7WebCore15GraphicsContext13strokeEllipseERKNS_9FloatRectE
+- __ZN7WebCore15GraphicsContext15drawControlPartERNS_11ControlPartERKNS_16FloatRoundedRectEfRKNS_12ControlStyleE
+- __ZN7WebCore15GraphicsContext17fillEllipseAsPathERKNS_9FloatRectE
+- __ZN7WebCore15GraphicsContext17setMaxEDRHeadroomENSt3__18optionalIfEE
+- __ZN7WebCore15GraphicsContext19drawGlyphsImmediateERKNS_4FontENSt3__14spanIKtLm18446744073709551615EEENS5_IK6CGSizeLm18446744073709551615EEERKNS_10FloatPointENS_17FontSmoothingModeE
+- __ZN7WebCore15GraphicsContext19strokeEllipseAsPathERKNS_9FloatRectE
+- __ZN7WebCore15GraphicsContext20clearMaxEDRHeadroomsEv
+- __ZN7WebCore15GraphicsContext20didUpdateSingleStateERNS_20GraphicsContextStateENS1_11ChangeIndexE
+- __ZN7WebCore15GraphicsContext20endTransparencyLayerEv
+- __ZN7WebCore15GraphicsContext22applyDeviceScaleFactorEf
+- __ZN7WebCore15GraphicsContext22beginTransparencyLayerENS_17CompositeOperatorENS_9BlendModeE
+- __ZN7WebCore15GraphicsContext22beginTransparencyLayerEf
+- __ZN7WebCore15GraphicsContext24drawConsumingImageBufferEN3WTF6RefPtrINS_11ImageBufferENS1_12RawPtrTraitsIS3_EENS1_21DefaultRefDerefTraitsIS3_EEEERKNS_9FloatRectESB_NS_20ImagePaintingOptionsE
+- __ZN7WebCore15GraphicsContext7endPageEv
+- __ZN7WebCore15GraphicsContext9beginPageERKNS_9FloatRectE
+- __ZN7WebCore15GraphicsContextC2ENS0_10IsDeferredERKN3WTF9OptionSetINS_20GraphicsContextState6ChangeELNS2_14ConcurrencyTagE0EEENS_20InterpolationQualityE
+- __ZN7WebCore15GraphicsContextD2Ev
+- __ZN7WebCore19NullGraphicsContext10drawGlyphsERKNS_4FontENSt3__14spanIKtLm18446744073709551615EEENS5_IK6CGSizeLm18446744073709551615EEERKNS_10FloatPointENS_17FontSmoothingModeE
+- __ZN7WebCore19NullGraphicsContext10setLineCapENS_7LineCapE
+- __ZN7WebCore19NullGraphicsContext10strokePathERKNS_4PathE
+- __ZN7WebCore19NullGraphicsContext10strokeRectERKNS_9FloatRectEf
+- __ZN7WebCore19NullGraphicsContext11drawEllipseERKNS_9FloatRectE
+- __ZN7WebCore19NullGraphicsContext11drawPatternERKNS_11NativeImageERKNS_9FloatRectES6_RKNS_15AffineTransformERKNS_10FloatPointERKNS_9FloatSizeENS_20ImagePaintingOptionsE
+- __ZN7WebCore19NullGraphicsContext11setLineDashERKN3WTF11FixedVectorIdNS1_10FastMallocEEEf
+- __ZN7WebCore19NullGraphicsContext11setLineJoinENS_8LineJoinE
+- __ZN7WebCore19NullGraphicsContext12drawBidiTextERKNS_11FontCascadeERKNS_7TextRunERKNS_10FloatPointENS_35FontCascadeCustomFontNotReadyActionE
+- __ZN7WebCore19NullGraphicsContext13drawFocusRingERKN3WTF6VectorINS_9FloatRectELm0ENS1_15CrashOnOverflowELm16ENS1_10FastMallocEEEfRKNS_5ColorEf
+- __ZN7WebCore19NullGraphicsContext13drawFocusRingERKNS_4PathEfRKNS_5ColorEf
+- __ZN7WebCore19NullGraphicsContext13setMiterLimitEf
+- __ZN7WebCore19NullGraphicsContext14didUpdateStateERNS_20GraphicsContextStateE
+- __ZN7WebCore19NullGraphicsContext14drawTiledImageERNS_5ImageERKNS_9FloatRectERKNS_10FloatPointERKNS_9FloatSizeESB_NS_20ImagePaintingOptionsE
+- __ZN7WebCore19NullGraphicsContext14drawTiledImageERNS_5ImageERKNS_9FloatRectES5_RKNS_9FloatSizeENS1_8TileRuleES9_NS_20ImagePaintingOptionsE
+- __ZN7WebCore19NullGraphicsContext14drawVideoFrameERKNS_10VideoFrameERKNS_9FloatRectENS_16ImageOrientationEb
+- __ZN7WebCore19NullGraphicsContext15clipRoundedRectERKNS_16FloatRoundedRectE
+- __ZN7WebCore19NullGraphicsContext15drawDisplayListERKNS_11DisplayList11DisplayListERNS_14ControlFactoryE
+- __ZN7WebCore19NullGraphicsContext15drawImageBufferERNS_11ImageBufferERKNS_9FloatRectES5_NS_20ImagePaintingOptionsE
+- __ZN7WebCore19NullGraphicsContext15drawNativeImageERKNS_11NativeImageERKNS_9FloatRectES6_NS_20ImagePaintingOptionsE
+- __ZN7WebCore19NullGraphicsContext15drawSystemImageERNS_11SystemImageERKNS_9FloatRectE
+- __ZN7WebCore19NullGraphicsContext15fillRoundedRectERKNS_16FloatRoundedRectERKNS_5ColorENS_9BlendModeE
+- __ZN7WebCore19NullGraphicsContext16applyFillPatternEv
+- __ZN7WebCore19NullGraphicsContext16drawLinesForTextERKNS_10FloatPointEfNSt3__14spanIKNS_12FloatSegmentELm18446744073709551615EEEbbNS_11StrokeStyleE
+- __ZN7WebCore19NullGraphicsContext17clipToImageBufferERNS_11ImageBufferERKNS_9FloatRectE
+- __ZN7WebCore19NullGraphicsContext17drawEmphasisMarksERKNS_11FontCascadeERKNS_7TextRunERKN3WTF10AtomStringERKNS_10FloatPointEjNSt3__18optionalIjEE
+- __ZN7WebCore19NullGraphicsContext17drawRaisedEllipseERKNS_9FloatRectERKNS_5ColorES6_
+- __ZN7WebCore19NullGraphicsContext18applyStrokePatternEv
+- __ZN7WebCore19NullGraphicsContext18clipOutRoundedRectERKNS_16FloatRoundedRectE
+- __ZN7WebCore19NullGraphicsContext19fillRoundedRectImplERKNS_16FloatRoundedRectERKNS_5ColorE
+- __ZN7WebCore19NullGraphicsContext23fillRectWithRoundedHoleERKNS_9FloatRectERKNS_16FloatRoundedRectERKNS_5ColorE
+- __ZN7WebCore19NullGraphicsContext25drawDotsForDocumentMarkerERKNS_9FloatRectENS_23DocumentMarkerLineStyleE
+- __ZN7WebCore19NullGraphicsContext4clipERKNS_9FloatRectE
+- __ZN7WebCore19NullGraphicsContext4saveENS_20GraphicsContextState7PurposeE
+- __ZN7WebCore19NullGraphicsContext5scaleERKNS_9FloatSizeE
+- __ZN7WebCore19NullGraphicsContext6rotateEf
+- __ZN7WebCore19NullGraphicsContext6setCTMERKNS_15AffineTransformE
+- __ZN7WebCore19NullGraphicsContext7clipOutERKNS_4PathE
+- __ZN7WebCore19NullGraphicsContext7clipOutERKNS_9FloatRectE
+- __ZN7WebCore19NullGraphicsContext7restoreENS_20GraphicsContextState7PurposeE
+- __ZN7WebCore19NullGraphicsContext8clipPathERKNS_4PathENS_8WindRuleE
+- __ZN7WebCore19NullGraphicsContext8drawLineERKNS_10FloatPointES3_
+- __ZN7WebCore19NullGraphicsContext8drawPathERKNS_4PathE
+- __ZN7WebCore19NullGraphicsContext8drawRectERKNS_9FloatRectEf
+- __ZN7WebCore19NullGraphicsContext8drawTextERKNS_11FontCascadeERKNS_7TextRunERKNS_10FloatPointEjNSt3__18optionalIjEE
+- __ZN7WebCore19NullGraphicsContext8fillPathERKNS_4PathE
+- __ZN7WebCore19NullGraphicsContext8fillRectERKNS_9FloatRectENS_18RequiresClipToRectE
+- __ZN7WebCore19NullGraphicsContext8fillRectERKNS_9FloatRectERKNS_5ColorE
+- __ZN7WebCore19NullGraphicsContext8fillRectERKNS_9FloatRectERKNS_5ColorENS_17CompositeOperatorENS_9BlendModeE
+- __ZN7WebCore19NullGraphicsContext8fillRectERKNS_9FloatRectERNS_8GradientE
+- __ZN7WebCore19NullGraphicsContext8fillRectERKNS_9FloatRectERNS_8GradientERKNS_15AffineTransformENS_18RequiresClipToRectE
+- __ZN7WebCore19NullGraphicsContext9clearRectERKNS_9FloatRectE
+- __ZN7WebCore19NullGraphicsContext9concatCTMERKNS_15AffineTransformE
+- __ZN7WebCore19NullGraphicsContext9drawImageERNS_5ImageERKNS_9FloatRectES5_NS_20ImagePaintingOptionsE
+- __ZN7WebCore19NullGraphicsContext9resetClipEv
+- __ZN7WebCore19NullGraphicsContext9translateEff
+- __ZN7WebCore19NullGraphicsContextD0Ev
+- __ZN7WebCore19NullGraphicsContextD1Ev
+- __ZNK3WTF7HashMapIiNS_9RetainPtrIP7CGImageEENS_7IntHashIiEENS_29UnsignedWithZeroKeyHashTraitsIiEENS_10HashTraitsIS4_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE3getINS_22IdentityHashTranslatorINSE_18KeyValuePairTraitsES6_EEiEES3_RKT0_
+- __ZNK7WebCore15GraphicsContext10colorSpaceEv
+- __ZNK7WebCore15GraphicsContext13renderingModeEv
+- __ZNK7WebCore15GraphicsContext15platformContextEv
+- __ZNK7WebCore15GraphicsContext15renderingMethodEv
+- __ZNK7WebCore15GraphicsContext18hasPlatformContextEv
+- __ZNK7WebCore15GraphicsContext21maxPaintedEDRHeadroomEv
+- __ZNK7WebCore15GraphicsContext23maxRequestedEDRHeadroomEv
+- __ZNK7WebCore15GraphicsContext24createAlignedImageBufferERKNS_9FloatRectERKNS_21DestinationColorSpaceENSt3__18optionalINS_15RenderingMethodEEE
+- __ZNK7WebCore15GraphicsContext24createAlignedImageBufferERKNS_9FloatSizeERKNS_21DestinationColorSpaceENSt3__18optionalINS_15RenderingMethodEEE
+- __ZNK7WebCore15GraphicsContext28knownToHaveFloatBasedBackingEv
+- __ZNK7WebCore15GraphicsContext5stateEv
+- __ZNK7WebCore19NullGraphicsContext10clipBoundsEv
+- __ZNK7WebCore19NullGraphicsContext16isCALayerContextEv
+- __ZNK7WebCore19NullGraphicsContext16paintingDisabledEv
+- __ZNK7WebCore19NullGraphicsContext24detectingContentfulPaintEv
+- __ZNK7WebCore19NullGraphicsContext24invalidatingControlTintsEv
+- __ZNK7WebCore19NullGraphicsContext27performingPaintInvalidationEv
+- __ZNK7WebCore19NullGraphicsContext34invalidatingImagesWithAsyncDecodesEv
+- __ZNK7WebCore19NullGraphicsContext6getCTMENS_15GraphicsContext18IncludeDeviceScaleE
+- __ZNKSt3__114default_deleteIN6WebKit15IsolatedSessionEEclB9sqn220106EPS2_
+- __ZNSt3__112__tuple_leafILm2EN7WebCore8DragDataELb0EEC2B9sqn220106IS2_Li0EEEOT_
+- __ZTVN7WebCore19NullGraphicsContextE
+- __ZTVN7WebCore22NullImageBufferBackendE
+CStrings:
++ " from preconnecting to "
++ "%p - [pageProxyID=%llu, webPageID=%llu, frameID=%llu, resourceID=%llu, isMainResource=%d, destination=%u, isSynchronous=%d] NetworkResourceLoader::didReceiveResponse: Received revalidation response (validationSucceeded=%d, wasCachedEntryRequestConditional=%d)"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/GPUProcess/graphics/RemoteRenderingBackend.cpp 199: Invalid message dispatched %s: %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/GPUProcess/graphics/WebGPU/RemoteQueue.cpp 134: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/GPUProcess/graphics/WebGPU/RemoteQueue.cpp 182: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 1006: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 1048: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 1095: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 1130: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 1166: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 1202: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 1235: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 1260: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 1302: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 1346: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 1372: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 1831: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 1981: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 2069: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 248: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 564: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 626: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 719: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 750: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 929: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 952: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkResourceLoader.cpp 1515: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/ServiceWorker/WebSWServerConnection.cpp 1072: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9515: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9516: Invalid message dispatched %s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebKit_iosmac/Source/WebKit/WebProcess/GPU/graphics/ImageBufferShareableBitmapBackend.cpp"
++ "22625.2.8.11.9"
++ "Content blocker prevented frame displaying "
++ "ImageBuffer cannot release its GraphicsContext"
++ "SecurityFlags: radar184485266 is %{public}s"
++ "enforced"
++ "virtual GraphicsContext &WebKit::ImageBufferShareableBitmapBackend::context()"
++ "void WebKit::RemoteQueue::writeBufferWithCopy(WebGPUIdentifier, WebCore::WebGPU::Size64, Vector<uint8_t> &&)"
++ "void WebKit::RemoteQueue::writeTextureWithCopy(const WebGPU::ImageCopyTexture &, Vector<uint8_t> &&, const WebGPU::ImageDataLayout &, const WebGPU::Extent3D &)"
+- "%p - [pageProxyID=%llu, webPageID=%llu, frameID=%llu, resourceID=%llu, isMainResource=%d, destination=%u, isSynchronous=%d] NetworkResourceLoader::didReceiveResponse: Received revalidation response (validationSucceeded=%d, wasOriginalRequestConditional=%d)"
+- "22625.2.8.11.6"
+- "WebPageProxy_PropagateDragAndDrop"
+```

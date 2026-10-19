@@ -1,0 +1,110 @@
+## libswiftPrespecialized.dylib
+
+> `/usr/lib/libswiftPrespecialized.dylib`
+
+```diff
+
+   __TEXT.__text: 0x0
+   __TEXT.__cstring: 0x43
+   __TEXT.__lldb_no_nlist: 0x0
+-  __DATA_CONST.__const: 0x4b5ec0
++  __DATA_CONST.__const: 0x4b7388
+   __DATA_CONST.__ptrhashtab: 0xacb0
+   __DATA_CONST.__ptrhashtabkey: 0x11628
+   __AUTH_CONST.__const: 0x1abc8
+   __AUTH.__data: 0x67670
+   - /usr/lib/libSystem.B.dylib
+   Functions: 0
+-  Symbols:   150738
++  Symbols:   150815
+   CStrings:  8
+ 
+Symbols:
++ _$s18AppleMediaServices25SubscriptionInviteRequestCMn
++ _$s20SpeakerGroupSetupKit04HomeD21SurroundConfigurationVMn
++ _$s20SpeakerGroupSetupKit09SGSUpsellA13SelectionViewV012deviceSymbolG03for_QrAA19SGSMediaDestinationV_SbtFQOMQ
++ _$s20SpeakerGroupSetupKit09SGSUpsellA13SelectionViewV10deviceCell3forQrAA19SGSMediaDestinationV_tFQOMQ
++ _$s20SpeakerGroupSetupKit09SGSUpsellA13SelectionViewV4bodyQrvpQOMQ
++ _$s20SpeakerGroupSetupKit09SGSUpsellA13SelectionViewV8CheckboxV4bodyQrvpQOMQ
++ _$s20SpeakerGroupSetupKit09SGSUpsellA13SelectionViewV8CheckboxVMn
++ _$s20SpeakerGroupSetupKit09SGSUpsellA13SelectionViewVMn
++ _$s20SpeakerGroupSetupKit10SGSSessionCACycfCTq
++ _$s20SpeakerGroupSetupKit11SGSDefaultsCACycfCTq
++ _$s20SpeakerGroupSetupKit12SGSLaunchURLC5value3forxSgSS_tKSeRzSERzlFTq
++ _$s20SpeakerGroupSetupKit14FindDeviceTaskC6resume8throwingys5Error_p_tFTq
++ _$s20SpeakerGroupSetupKit14FindDeviceTaskCMn
++ _$s20SpeakerGroupSetupKit15SGSMarqueeLabelV4bodyQrvpQOMQ
++ _$s20SpeakerGroupSetupKit15SGSMarqueeLabelVMn
++ _$s20SpeakerGroupSetupKit15SGSMarqueeStyleOMn
++ _$s20SpeakerGroupSetupKit15SGSUpsellButtonV4bodyQrvpQOMQ
++ _$s20SpeakerGroupSetupKit15SGSUpsellButtonVMn
++ _$s20SpeakerGroupSetupKit15SGSUpsellLayoutOMn
++ _$s20SpeakerGroupSetupKit18SGSAVScheduleEntryVMn
++ _$s20SpeakerGroupSetupKit18SGSHomeTheaterTypeO02hkbG0So022HMMediaGroupsValidatorbG0VvpMV
++ _$s20SpeakerGroupSetupKit25SGSRapportTransportClientCACycfCTq
++ _$s20SpeakerGroupSetupKit25SGSRapportTransportClientCMn
++ _$s20SpeakerGroupSetupKit25SGSRapportTransportServerCACycfCTq
++ _$s20SpeakerGroupSetupKit25SGSRapportTransportServerCMn
++ _$s20SpeakerGroupSetupKit26SGSMediaDestinationServiceC26createStereoPairAndConnect04leftF005rightF0yAA0eF0V_AHtYaKFTq
++ _$s20SpeakerGroupSetupKit28SGSUpsellSurroundWelcomeViewV4bodyQrvpQOMQ
++ _$s20SpeakerGroupSetupKit28SGSUpsellSurroundWelcomeViewVMn
++ _$s20SpeakerGroupSetupKit30SGSLaunchConfigurationDelegateMp
++ _$s20SpeakerGroupSetupKit33SGSUpsellStereoPairAssignmentViewV4bodyQrvpQOMQ
++ _$s20SpeakerGroupSetupKit33SGSUpsellStereoPairAssignmentViewVMn
++ _$s20SpeakerGroupSetupKit37SGSMediaDestinationSelectionViewModelCACycfCTq
++ _$s20SpeakerGroupSetupKit38SGSUpsellSoloAndStereoOdeonWelcomeViewV4bodyQrvpQOMQ
++ _$s20SpeakerGroupSetupKit38SGSUpsellSoloAndStereoOdeonWelcomeViewVMn
++ _$s20SpeakerGroupSetupKit43SGSUpsellSoloAndStereoOdeonConfirmationViewV4bodyQrvpQOMQ
++ _$s20SpeakerGroupSetupKit43SGSUpsellSoloAndStereoOdeonConfirmationViewVMn
++ _$s20SpeakerGroupSetupKit48SGSLaunchConfigurationConnectionOptionDefinitionOMn
++ _$s6HomeUI0A18TheaterAddSpeakersCMn
++ _$s6HomeUI0A19TheaterEditorHelperCMn
++ _$s6HomeUI0A24TheaterValidatorProtocolMp
++ _$s6HomeUI0A26TheaterSelectionControllerCMn
++ _$s6HomeUI0A27TheaterEditorViewControllerCMn
++ _$s6HomeUI0A29TheaterIconCollectionListCellCMn
++ _$s6HomeUI13RoomGroupItemCMn
++ _$s6HomeUI14RoomHeaderCellCMn
++ _$s6HomeUI15RoomSpeakerCellC06updateB013withAnimationySb_tFTq
++ _$s6HomeUI15RoomSpeakerCellCMn
++ _$s6HomeUI15RoomSpeakerItemCMn
++ _$s6HomeUI22RoomHeaderCellDelegateMp
++ _$s6HomeUI22RoomSpeakersItemModuleCMn
++ _$s6HomeUI24SurroundSetupButtonEventV0E0OMn
++ _$s6HomeUI24SurroundSetupButtonEventVMn
++ _$s6HomeUI26SpeakerGroupingItemManagerCMn
++ _$s6HomeUI28RoomSpeakersModuleControllerCMn
++ _$s6HomeUI29SpeakerGroupingViewControllerCMn
++ _$s6HomeUI30MediaGroupEditorViewControllerCMn
++ _$s6HomeUI33MediaGroupRoleSelectionControllerC6revert013resetExistingC7SystemsySb_tFTq
++ _$s6HomeUI33MediaGroupRoleSelectionControllerCMn
++ _$s6HomeUI34MediaGroupEditorBaseViewControllerC11mediaSystem_13didUpdateNameySo07HMMediaJ0C_SStFTq
++ _$s6HomeUI34MediaGroupEditorBaseViewControllerCMn
++ _$s6HomeUI34MediaGroupRoleSelectionMenuFactoryCMn
++ _$s6HomeUI35MediaGroupRoleSelectionMenuDelegateMp
++ _$s6HomeUI36MediaGroupBuilderSelectionControllerCMn
++ _$s6HomeUI36SurroundSetUpContainerViewControllerC13accessoryUUID12initialWidth0K6HeightAC10Foundation0J0V_12CoreGraphics7CGFloatVALtcfCTq
++ _$s6HomeUI36SurroundSetUpContainerViewControllerCMn
++ _$s6HomeUI37MediaGroupAudioSettingsViewControllerC06createcD0So8NAFutureCySo23HFMediaProfileContainer_pGyFTq
++ _$s6HomeUI37MediaGroupAudioSettingsViewControllerCMn
++ _$s6HomeUI37MediaGroupRoleSelectionViewControllerC16shouldShowFooter10forSectionSbSS_tFTq
++ _$s6HomeUI37MediaGroupRoleSelectionViewControllerCMn
++ _$s6HomeUI38AccessoryPopUpMenuListModuleControllerCMn
++ _$s6HomeUI41MediaGroupRoleSelectionControllerDelegateMp
++ _$s6HomeUI45AccessoryRepresentableMenuSelectionItemModuleCMn
++ _$s7HomeUI215WidgetTileStyleO15temperatureFont7SwiftUI0G0VvpMV
++ _$s7HomeUI225MediaGroupSetupControllerC13cancelSession3fory10Foundation4UUIDV_tYaFTq
++ _$s7HomeUI225MediaGroupSetupControllerCMn
++ _$s7HomeUI225SurroundSetupSessionEventV9OperationOMn
++ _$s7HomeUI225SurroundSetupSessionEventVMn
++ _$s7HomeUI227SurroundSetupAnalyticsEventMp
++ _$s7HomeUI230SurroundSetupInvalidationEventV6ReasonOMn
++ _$s7HomeUI230SurroundSetupInvalidationEventVMn
++ _$s7SwiftUI7GesturePAAE20requiresScrollToFailQryFQOMQ
++ _$sSo9WKWebViewC6WebKitE28refreshControlHostIsTrackingSbvpMV
+- _$s6HomeUI31PopUpMenuIconCollectionListCellC4menuSo6UIMenuCSgvMTq
+- _$s7HomeUI215WidgetTileStyleO11tilePadding7SwiftUI10EdgeInsetsVvpMV
+- _$s7SwiftUI7GesturePAAE11cancellableQryFQOMQ
+- _$sSo26NSWindowRestorationArchiveC6AppKitE20supportsSecureCodingSbvpZMV
+- _$sSo9WKWebViewC6WebKitE24refreshControlHostBoundsSo6CGRectVvpMV
+```

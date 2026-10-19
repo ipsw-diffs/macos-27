@@ -1,0 +1,186 @@
+## HomeDataModel
+
+> `/System/Library/PrivateFrameworks/HomeDataModel.framework/Versions/A/HomeDataModel`
+
+```diff
+
+-1269.2.5.4.3
+-  __TEXT.__text: 0xb556a4
+-  __TEXT.__objc_methlist: 0x26a4
+-  __TEXT.__const: 0x64e40
+-  __TEXT.__cstring: 0x1a20d
+-  __TEXT.__oslogstring: 0x1d3fc
+-  __TEXT.__swift5_typeref: 0x1e6c8
+-  __TEXT.__swift5_reflstr: 0x12b21
+-  __TEXT.__swift5_assocty: 0x3838
+-  __TEXT.__constg_swiftt: 0x14e68
+-  __TEXT.__swift5_fieldmd: 0x179f4
+-  __TEXT.__swift5_builtin: 0x780
+-  __TEXT.__swift5_proto: 0x4ccc
+-  __TEXT.__swift5_types: 0x16a4
+-  __TEXT.__swift5_capture: 0x5b18
+-  __TEXT.__swift_as_entry: 0x1a20
+-  __TEXT.__swift_as_ret: 0x2000
+-  __TEXT.__swift_as_cont: 0x4630
++1269.2.5.4.4
++  __TEXT.__text: 0xb79a50
++  __TEXT.__objc_methlist: 0x26ac
++  __TEXT.__const: 0x65bf0
++  __TEXT.__cstring: 0x1a3bd
++  __TEXT.__oslogstring: 0x1d41c
++  __TEXT.__swift5_typeref: 0x1e988
++  __TEXT.__swift5_reflstr: 0x12e61
++  __TEXT.__swift5_assocty: 0x3888
++  __TEXT.__constg_swiftt: 0x14fe8
++  __TEXT.__swift5_fieldmd: 0x17f1c
++  __TEXT.__swift5_builtin: 0x794
++  __TEXT.__swift5_proto: 0x4da4
++  __TEXT.__swift5_types: 0x16cc
++  __TEXT.__swift5_capture: 0x5b38
++  __TEXT.__swift_as_entry: 0x1a74
++  __TEXT.__swift_as_ret: 0x2018
++  __TEXT.__swift_as_cont: 0x4680
+   __TEXT.__swift5_protos: 0x238
+   __TEXT.__lldbsummaries: 0xe4
+   __TEXT.__swift5_mpenum: 0x1cc
+   __TEXT.__swift5_types2: 0x40
+-  __TEXT.__unwind_info: 0x2b370
+-  __TEXT.__eh_frame: 0x54648
++  __TEXT.__unwind_info: 0x2b930
++  __TEXT.__eh_frame: 0x54e60
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x48
+   __DATA_CONST.__objc_protolist: 0x210
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2300
++  __DATA_CONST.__objc_selrefs: 0x2358
+   __DATA_CONST.__objc_protorefs: 0x108
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __DATA_CONST.__got: 0x1fe8
+-  __AUTH_CONST.__const: 0x39568
++  __DATA_CONST.__got: 0x1ff0
++  __AUTH_CONST.__const: 0x39b10
+   __AUTH_CONST.__objc_const: 0x9580
+   __AUTH_CONST.__auth_got: 0x3270
+   __AUTH.__objc_data: 0x3be0
+-  __AUTH.__data: 0x8e58
+-  __DATA.__data: 0x14058
+-  __DATA.__bss: 0x8efd0
++  __AUTH.__data: 0x8e68
++  __DATA.__data: 0x142a8
++  __DATA.__bss: 0x90a50
+   __DATA.__common: 0x468
+   __DATA_DIRTY.__objc_data: 0x990
+-  __DATA_DIRTY.__data: 0x8df8
++  __DATA_DIRTY.__data: 0x90c8
+   __DATA_DIRTY.__bss: 0x6780
+   __DATA_DIRTY.__common: 0x228
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 43983
+-  Symbols:   11005
+-  CStrings:  4383
++  Functions: 44357
++  Symbols:   11083
++  CStrings:  4396
+ 
+Symbols:
++ _OBJC_CLASS_$_HMMediaGroup
++ _associated conformance 13HomeDataModel06StaticA7TheaterV10CodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLOSHAASQ
++ _associated conformance 13HomeDataModel06StaticA7TheaterV10CodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel06StaticA7TheaterV10CodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel06StaticA7TheaterV11DestinationO10CodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLOSHAASQ
++ _associated conformance 13HomeDataModel06StaticA7TheaterV11DestinationO10CodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel06StaticA7TheaterV11DestinationO10CodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel06StaticA7TheaterV11DestinationO21MediaSystemCodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLOSHAASQ
++ _associated conformance 13HomeDataModel06StaticA7TheaterV11DestinationO21MediaSystemCodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel06StaticA7TheaterV11DestinationO21MediaSystemCodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel06StaticA7TheaterV11DestinationO22MediaProfileCodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLOSHAASQ
++ _associated conformance 13HomeDataModel06StaticA7TheaterV11DestinationO22MediaProfileCodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel06StaticA7TheaterV11DestinationO22MediaProfileCodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel06StaticA7TheaterV11DestinationO24SurroundSystemCodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLOSHAASQ
++ _associated conformance 13HomeDataModel06StaticA7TheaterV11DestinationO24SurroundSystemCodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel06StaticA7TheaterV11DestinationO24SurroundSystemCodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel06StaticA7TheaterV11DestinationOSHAASQ
++ _associated conformance 13HomeDataModel06StaticA7TheaterVSHAASQ
++ _associated conformance 13HomeDataModel06StaticA7TheaterVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 13HomeDataModel20StaticSurroundSystemV10CodingKeys33_657B659AD8120DF8D0555BC1E8F0AA4CLLOSHAASQ
++ _associated conformance 13HomeDataModel20StaticSurroundSystemV10CodingKeys33_657B659AD8120DF8D0555BC1E8F0AA4CLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel20StaticSurroundSystemV10CodingKeys33_657B659AD8120DF8D0555BC1E8F0AA4CLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel20StaticSurroundSystemVSHAASQ
++ _associated conformance 13HomeDataModel20StaticSurroundSystemVs12IdentifiableAA2IDsADP_SH
++ _objc_msgSend$audioDestinationController
++ _objc_msgSend$audioDestinationType
++ _objc_msgSend$audioGroupsController
++ _objc_msgSend$destinationForGroup:
++ _objc_msgSend$destinationIdentifiers
++ _objc_msgSend$groups
++ _objc_msgSend$homeTheaterSystem
++ _objc_msgSend$identifier
++ _objc_msgSend$mediaGroupFor:
++ _objc_msgSend$mediaSystemData
++ _objc_msgSend$surroundSystem
++ _symbolic SDy__________G 10Foundation4UUIDV 13HomeDataModel06StaticC7TheaterV
++ _symbolic SDy__________G 10Foundation4UUIDV 13HomeDataModel20StaticSurroundSystemV
++ _symbolic Say_____G 13HomeDataModel15StaticAccessoryV16DeviceIdentifierO
++ _symbolic So12HMMediaGroupC
++ _symbolic _____ 13HomeDataModel06StaticA7TheaterV
++ _symbolic _____ 13HomeDataModel06StaticA7TheaterV10CodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLO
++ _symbolic _____ 13HomeDataModel06StaticA7TheaterV11DestinationO
++ _symbolic _____ 13HomeDataModel06StaticA7TheaterV11DestinationO10CodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLO
++ _symbolic _____ 13HomeDataModel06StaticA7TheaterV11DestinationO21MediaSystemCodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLO
++ _symbolic _____ 13HomeDataModel06StaticA7TheaterV11DestinationO22MediaProfileCodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLO
++ _symbolic _____ 13HomeDataModel06StaticA7TheaterV11DestinationO24SurroundSystemCodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLO
++ _symbolic _____ 13HomeDataModel20StaticSurroundSystemV
++ _symbolic _____ 13HomeDataModel20StaticSurroundSystemV10CodingKeys33_657B659AD8120DF8D0555BC1E8F0AA4CLLO
++ _symbolic _____ So16HMHomePodVariantV
++ _symbolic _____3key______5valuet 10Foundation4UUIDV 13HomeDataModel06StaticC7TheaterV
++ _symbolic _____3key______5valuet 10Foundation4UUIDV 13HomeDataModel20StaticSurroundSystemV
++ _symbolic _____Sg 13HomeDataModel06StaticA7TheaterV
++ _symbolic _____Sg 13HomeDataModel06StaticA7TheaterV11DestinationO
++ _symbolic _____Sg 13HomeDataModel20StaticSurroundSystemV
++ _symbolic ______AAt 13HomeDataModel06StaticA7TheaterV11DestinationO
++ _symbolic ___________t 10Foundation4UUIDV 13HomeDataModel06StaticC7TheaterV
++ _symbolic ___________t 10Foundation4UUIDV 13HomeDataModel20StaticSurroundSystemV
++ _symbolic _____yShy_____GG s18LazyFilterSequenceV 13HomeDataModel18StaticMediaProfileV
++ _symbolic _____y_____G s11_SetStorageC 13HomeDataModel06StaticC7TheaterV
++ _symbolic _____y_____G s11_SetStorageC 13HomeDataModel20StaticSurroundSystemV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel06StaticD7TheaterV10CodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel06StaticD7TheaterV11DestinationO10CodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel06StaticD7TheaterV11DestinationO21MediaSystemCodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel06StaticD7TheaterV11DestinationO22MediaProfileCodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel06StaticD7TheaterV11DestinationO24SurroundSystemCodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel20StaticSurroundSystemV10CodingKeys33_657B659AD8120DF8D0555BC1E8F0AA4CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel06StaticD7TheaterV10CodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel06StaticD7TheaterV11DestinationO10CodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel06StaticD7TheaterV11DestinationO21MediaSystemCodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel06StaticD7TheaterV11DestinationO22MediaProfileCodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel06StaticD7TheaterV11DestinationO24SurroundSystemCodingKeys33_1D690AB3EA98CDEB7E22B76D0D249B1BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel20StaticSurroundSystemV10CodingKeys33_657B659AD8120DF8D0555BC1E8F0AA4CLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel06StaticD7TheaterV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel20StaticSurroundSystemV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 13HomeDataModel06StaticE7TheaterV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 13HomeDataModel20StaticSurroundSystemV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 10Foundation4UUIDV 13HomeDataModel06StaticF7TheaterV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 10Foundation4UUIDV 13HomeDataModel20StaticSurroundSystemV
+CStrings:
++ "HFNamingComponents_DefaultHomeTheaterName_Capitalized"
++ "HFSensitiveStrings-AudioGrouping"
++ "HomeTheaterSurround"
++ "audioDestination"
++ "homepod.and.appletv.fill"
++ "isPartOfGroupedSystem"
++ "isPartOfHomeTheater"
++ "registering home theater for %s"
++ "staticHomeTheater"
++ "staticHomeTheaterDictionary"
++ "staticSurroundSystem"
++ "staticSurroundSystemDictionary"
++ "supportsAlarmsAndTimers"
+```
