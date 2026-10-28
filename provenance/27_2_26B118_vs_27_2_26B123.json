@@ -1,0 +1,107 @@
+{
+  "catalog_commit": "7b58a3f509c377de579482fd554a9e7aab6912d6",
+  "discovery": {
+    "anchor": {
+      "appledb_path": "osFiles/macOS/26x - 27.x/26A428.json",
+      "beta": false,
+      "build": "26A428",
+      "rc": false,
+      "released": "2026-09-14T00:00:00Z",
+      "source": {
+        "input": "UniversalMac_27.0_26A428_Restore.ipsw",
+        "sha256": "2a5d3c695d501022b7fad9adaffcf2627bcb867d993fb5662dcd41bac99a2836",
+        "size": 26626436228,
+        "url": "https://updates.cdn-apple.com/2026FallFCS/afcfc88e-bbe6-44bf-a5da-07c56eebc06c/UniversalMac_27.0_26A428_Restore.ipsw"
+      },
+      "version": "27.0"
+    },
+    "appledb": {
+      "commit": "71ce5a4a72ca86340b3b30927c5b465b20f152f7",
+      "repository": "https://github.com/littlebyteorg/appledb"
+    },
+    "appledb_platform": "macOS",
+    "device": "Mac18,5",
+    "edges": [
+      {
+        "from": {
+          "appledb_path": "osFiles/macOS/26x - 27.x/26B118.json",
+          "beta": false,
+          "build": "26B118",
+          "rc": true,
+          "released": "2026-10-19T00:00:00Z",
+          "source": {
+            "input": "UniversalMac_27.2_26B118_Restore.ipsw",
+            "sha256": "7e032d3fa312987640631c8b7117e63ba051e4a5e21a1c27e8a4a4b49704054d",
+            "size": 25597756384,
+            "url": "https://updates.cdn-apple.com/2026FallFCS/12a80ce1-2aac-4d92-8880-c307f01e39b5/UniversalMac_27.2_26B118_Restore.ipsw"
+          },
+          "version": "27.2 RC"
+        },
+        "to": {
+          "appledb_path": "osFiles/macOS/26x - 27.x/26B123.json",
+          "beta": false,
+          "build": "26B123",
+          "rc": false,
+          "released": "2026-10-26T00:00:00Z",
+          "source": {
+            "input": "UniversalMac_27.2_26B123_Restore.ipsw",
+            "sha256": "6613b34e8589db2202a01ec37a2648afb141ece13428175183f8f3e38438534f",
+            "size": 25595669503,
+            "url": "https://updates.cdn-apple.com/2026FallFCS/c9671975-52db-4fb5-9af2-00217169ba8d/UniversalMac_27.2_26B123_Restore.ipsw"
+          },
+          "version": "27.2"
+        }
+      }
+    ],
+    "latest": {
+      "appledb_path": "osFiles/macOS/26x - 27.x/26B123.json",
+      "beta": false,
+      "build": "26B123",
+      "rc": false,
+      "released": "2026-10-26T00:00:00Z",
+      "source": {
+        "input": "UniversalMac_27.2_26B123_Restore.ipsw",
+        "sha256": "6613b34e8589db2202a01ec37a2648afb141ece13428175183f8f3e38438534f",
+        "size": 25595669503,
+        "url": "https://updates.cdn-apple.com/2026FallFCS/c9671975-52db-4fb5-9af2-00217169ba8d/UniversalMac_27.2_26B123_Restore.ipsw"
+      },
+      "version": "27.2"
+    },
+    "major_version": 27,
+    "platform": "macOS",
+    "schema_version": 2,
+    "source_inventory": {
+      "observed": 8,
+      "selected": 3
+    },
+    "status": "candidate",
+    "track_id": "macos-27"
+  },
+  "generator": {
+    "name": "ipsw",
+    "version": "Version: 3.1.739, BuildCommit: 1f8b657858d7510219f59bf9ba183bf4c0a59104"
+  },
+  "inputs": [
+    {
+      "role": "previous",
+      "sha256": "7e032d3fa312987640631c8b7117e63ba051e4a5e21a1c27e8a4a4b49704054d",
+      "size": 25597756384,
+      "url": "https://updates.cdn-apple.com/2026FallFCS/12a80ce1-2aac-4d92-8880-c307f01e39b5/UniversalMac_27.2_26B118_Restore.ipsw"
+    },
+    {
+      "role": "next",
+      "sha256": "6613b34e8589db2202a01ec37a2648afb141ece13428175183f8f3e38438534f",
+      "size": 25595669503,
+      "url": "https://updates.cdn-apple.com/2026FallFCS/c9671975-52db-4fb5-9af2-00217169ba8d/UniversalMac_27.2_26B123_Restore.ipsw"
+    }
+  ],
+  "schema_version": 1,
+  "signatures": {
+    "commit": "81178cfe6c8869612ef092f6471fce3e17d95b20",
+    "repository": "https://github.com/blacktop/symbolicator"
+  },
+  "source_commit": "1aa346eb81f9ebc0e1eba8d9b9ca02e19e68cb5c",
+  "source_tag": "payload/27_2_26B118_vs_27_2_26B123",
+  "workflow_commit": "a6a356a24a54f44ab51c43b22c9f88f35038be67",
+  "workflow_run": "https://github.com/ipsw-diffs/macos-27/actions/runs/40392326653"
+}

@@ -1,0 +1,29 @@
+{
+  "device": "Mac18,5",
+  "from": {
+    "build": "26B118",
+    "input": "UniversalMac_27.2_26B118_Restore.ipsw",
+    "version": "27.2"
+  },
+  "id": "macos-27.2-26B118-26B123",
+  "major_version": 27,
+  "payload": {
+    "entrypoint": "diffs/27_2_26B118_vs_27_2_26B123/README.md",
+    "git_tree": "01684941d0c22381ce1c7a9c0a803724b8bc1cd1",
+    "logical_bytes": 153956,
+    "path": "diffs/27_2_26B118_vs_27_2_26B123",
+    "tracked_file_count": 12
+  },
+  "platform": "macOS",
+  "schema_version": 1,
+  "source": {
+    "commit": "1aa346eb81f9ebc0e1eba8d9b9ca02e19e68cb5c",
+    "path": "27_2_26B118_vs_27_2_26B123",
+    "repository": "https://github.com/ipsw-diffs/macos-27"
+  },
+  "to": {
+    "build": "26B123",
+    "input": "UniversalMac_27.2_26B123_Restore.ipsw",
+    "version": "27.2"
+  }
+}

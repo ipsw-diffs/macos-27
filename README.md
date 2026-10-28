@@ -14,7 +14,7 @@ release sequence is implied.
 | --- | --- | --- |
 | `Mac17,6` | [27.0 (26A5421a) → 27.0 (26A5425a)](diffs/27_0_26A5421a_vs_27_0_26A5425a/README.md) | [provenance](manifests/27_0_26A5421a_vs_27_0_26A5425a.json) |
 | `Mac17,6` | [27.0 (26A5425a) → 27.0 (26A428)](diffs/27_0_26A5425a_vs_27_0_26A428/README.md) | [provenance](manifests/27_0_26A5425a_vs_27_0_26A428.json) |
-| `Mac18,5` | [27.2 (26B5112a) → 27.2 (26B118)](diffs/27_2_26B5112a_vs_27_2_26B118/README.md) | [provenance](manifests/27_2_26B5112a_vs_27_2_26B118.json) |
+| `Mac18,5` | [27.2 (26B118) → 27.2 (26B123)](diffs/27_2_26B118_vs_27_2_26B123/README.md) | [provenance](manifests/27_2_26B118_vs_27_2_26B123.json) |
 
 ## Layout and integrity
 
