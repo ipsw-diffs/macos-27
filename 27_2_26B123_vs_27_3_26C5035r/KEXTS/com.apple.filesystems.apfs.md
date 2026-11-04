@@ -1,0 +1,191 @@
+## com.apple.filesystems.apfs
+
+> `com.apple.filesystems.apfs`
+
+```diff
+
+-3288.41.1.0.0
++3288.60.7.0.0
+   __TEXT.__const: 0xa00
+-  __TEXT.__cstring: 0x5537d
+-  __TEXT_EXEC.__text: 0x1645c4
++  __TEXT.__cstring: 0x553cf
++  __TEXT_EXEC.__text: 0x1645a4
+   __TEXT_EXEC.__auth_stubs: 0x2630
+-  __DATA.__data: 0x7bc
++  __DATA.__data: 0x7c4
+   __DATA.__bss: 0xb10
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+
+   __DATA_CONST.__auth_got: 0x1318
+   __DATA_CONST.__got: 0x160
+   __DATA_CONST.__auth_ptr: 0x8
+-  Functions: 2506
+-  Symbols:   4573
+-  CStrings:  7332
++  Functions: 2509
++  Symbols:   4576
++  CStrings:  7333
+ 
+Symbols:
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10699
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10700
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10707
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10708
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10774
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10777
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10786
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10789
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10797
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10800
++ __fs_add_xattr.kalloc_type_view_23538
++ __fs_add_xattr.kalloc_type_view_23544
++ __fs_add_xattr.kalloc_type_view_23547
++ __fs_add_xattr.kalloc_type_view_23601
++ __fs_add_xattr.kalloc_type_view_23602
++ _apfs_punch_out_ranges_in_fext.kalloc_type_view_21833
++ _apfs_punch_out_ranges_in_fext.kalloc_type_view_21840
++ _apfs_update_reserved_ranges.kalloc_type_view_21976
++ _apfs_update_reserved_ranges.kalloc_type_view_21981
++ _arle_alloc_pending_entry.kalloc_type_view_21419
++ _change_crypto_id_prot_class.kalloc_type_view_9851
++ _change_crypto_id_prot_class.kalloc_type_view_9917
++ _create_new_crypto_state_for_id.kalloc_type_view_7608
++ _create_new_crypto_state_for_id.kalloc_type_view_7613
++ _create_new_crypto_state_for_id.kalloc_type_view_7633
++ _create_sibling_link.kalloc_type_view_11714
++ _create_sibling_link.kalloc_type_view_11730
++ _dir_rec_alloc_with_hash.kalloc_type_view_11349
++ _dir_rec_alloc_with_hash.kalloc_type_view_11355
++ _dir_rec_alloc_with_hash.kalloc_type_view_11379
++ _dump_extents_of_stream.kalloc_type_view_18921
++ _ek_to_crypto_state.kalloc_type_view_33034
++ _er_state_allocate_roll_buffers.kalloc_type_view_8229
++ _er_state_destroy_obj.kalloc_type_view_8868
++ _er_state_free_roll_buffers.kalloc_type_view_8191
++ _er_state_obj_create_phys_from_previous_version.kalloc_type_view_8271
++ _er_state_upgrade_version.kalloc_type_view_8424
++ _exp_dir_stats_refcnt_merge
++ _extent_evict_range.kalloc_type_view_26317
++ _extent_evict_range.kalloc_type_view_26417
++ _fext_collector.kalloc_type_view_14473
++ _fext_collector.kalloc_type_view_14480
++ _fext_collector_cleanup.kalloc_type_view_14443
++ _fext_collector_reset.kalloc_type_view_14432
++ _free_linkids.kalloc_type_view_11906
++ _fs_get_xattr_ext.kalloc_type_view_23642
++ _fs_get_xattr_ext.kalloc_type_view_23662
++ _fs_iterate_snapshots.kalloc_type_view_27228
++ _fs_iterate_snapshots.kalloc_type_view_27275
++ _fs_map_file_offset_ext.kalloc_type_view_22388
++ _fs_map_file_offset_ext.kalloc_type_view_22420
++ _fs_map_file_offset_ext.kalloc_type_view_22458
++ _fs_map_file_offset_ext.kalloc_type_view_22481
++ _fs_remove_xattr_with_nstream_inode.kalloc_type_view_23745
++ _fs_remove_xattr_with_nstream_inode.kalloc_type_view_23767
++ _fs_remove_xattr_with_nstream_inode.kalloc_type_view_23788
++ _fs_remove_xattr_with_nstream_inode.kalloc_type_view_23952
++ _icp_new_crypto.kalloc_type_view_8009
++ _icp_new_crypto.kalloc_type_view_8021
++ _icp_new_crypto.kalloc_type_view_8023
++ _icp_new_crypto.kalloc_type_view_8057
++ _icp_new_crypto.kalloc_type_view_8082
++ _icp_new_crypto.kalloc_type_view_8097
++ _insert_linkid.kalloc_type_view_11854
++ _jobj_xfield_merge_64
++ _jobj_xfield_replace_64
++ _legacy_get_ek.kalloc_type_view_34469
++ _lookup_unfoldable_name_iterator.kalloc_type_view_18519
++ _lookup_unfoldable_name_iterator.kalloc_type_view_18525
++ _lookup_unfoldable_name_iterator.kalloc_type_view_18537
++ _simple_remove_xattr.kalloc_type_view_23681
++ _simple_remove_xattr.kalloc_type_view_23694
++ _xattr_cloner.kalloc_type_view_17146
++ _xattr_cloner.kalloc_type_view_17195
++ _xattr_ek_to_crypto_state.kalloc_type_view_33682
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10702
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10703
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10710
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10711
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10776
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10779
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10788
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10791
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10799
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10802
+- __fs_add_xattr.kalloc_type_view_23507
+- __fs_add_xattr.kalloc_type_view_23513
+- __fs_add_xattr.kalloc_type_view_23516
+- __fs_add_xattr.kalloc_type_view_23570
+- __fs_add_xattr.kalloc_type_view_23571
+- _apfs_punch_out_ranges_in_fext.kalloc_type_view_21802
+- _apfs_punch_out_ranges_in_fext.kalloc_type_view_21809
+- _apfs_update_reserved_ranges.kalloc_type_view_21945
+- _apfs_update_reserved_ranges.kalloc_type_view_21950
+- _arle_alloc_pending_entry.kalloc_type_view_21388
+- _change_crypto_id_prot_class.kalloc_type_view_9820
+- _change_crypto_id_prot_class.kalloc_type_view_9886
+- _create_new_crypto_state_for_id.kalloc_type_view_7577
+- _create_new_crypto_state_for_id.kalloc_type_view_7582
+- _create_new_crypto_state_for_id.kalloc_type_view_7602
+- _create_sibling_link.kalloc_type_view_11683
+- _create_sibling_link.kalloc_type_view_11699
+- _dir_rec_alloc_with_hash.kalloc_type_view_11318
+- _dir_rec_alloc_with_hash.kalloc_type_view_11324
+- _dir_rec_alloc_with_hash.kalloc_type_view_11348
+- _dump_extents_of_stream.kalloc_type_view_18890
+- _ek_to_crypto_state.kalloc_type_view_33003
+- _er_state_allocate_roll_buffers.kalloc_type_view_8198
+- _er_state_destroy_obj.kalloc_type_view_8837
+- _er_state_free_roll_buffers.kalloc_type_view_8160
+- _er_state_obj_create_phys_from_previous_version.kalloc_type_view_8240
+- _er_state_upgrade_version.kalloc_type_view_8393
+- _extent_evict_range.kalloc_type_view_26286
+- _extent_evict_range.kalloc_type_view_26386
+- _fext_collector.kalloc_type_view_14442
+- _fext_collector.kalloc_type_view_14449
+- _fext_collector_cleanup.kalloc_type_view_14412
+- _fext_collector_reset.kalloc_type_view_14401
+- _free_linkids.kalloc_type_view_11875
+- _fs_get_xattr_ext.kalloc_type_view_23611
+- _fs_get_xattr_ext.kalloc_type_view_23631
+- _fs_iterate_snapshots.kalloc_type_view_27197
+- _fs_iterate_snapshots.kalloc_type_view_27244
+- _fs_map_file_offset_ext.kalloc_type_view_22357
+- _fs_map_file_offset_ext.kalloc_type_view_22389
+- _fs_map_file_offset_ext.kalloc_type_view_22427
+- _fs_map_file_offset_ext.kalloc_type_view_22450
+- _fs_remove_xattr_with_nstream_inode.kalloc_type_view_23714
+- _fs_remove_xattr_with_nstream_inode.kalloc_type_view_23736
+- _fs_remove_xattr_with_nstream_inode.kalloc_type_view_23757
+- _fs_remove_xattr_with_nstream_inode.kalloc_type_view_23921
+- _icp_new_crypto.kalloc_type_view_7978
+- _icp_new_crypto.kalloc_type_view_7990
+- _icp_new_crypto.kalloc_type_view_7992
+- _icp_new_crypto.kalloc_type_view_8026
+- _icp_new_crypto.kalloc_type_view_8051
+- _icp_new_crypto.kalloc_type_view_8066
+- _insert_linkid.kalloc_type_view_11823
+- _legacy_get_ek.kalloc_type_view_34438
+- _lookup_unfoldable_name_iterator.kalloc_type_view_18488
+- _lookup_unfoldable_name_iterator.kalloc_type_view_18494
+- _lookup_unfoldable_name_iterator.kalloc_type_view_18506
+- _simple_remove_xattr.kalloc_type_view_23650
+- _simple_remove_xattr.kalloc_type_view_23663
+- _xattr_cloner.kalloc_type_view_17115
+- _xattr_cloner.kalloc_type_view_17164
+- _xattr_ek_to_crypto_state.kalloc_type_view_33651
+CStrings:
++ "%s:%d: %s error: chunk info index %u out of range for cib %u chunk info count %u\n"
++ "01:13:02"
++ "2026/10/30"
++ "3288.60.7"
++ "Oct 30 2026"
++ "apfs-3288.60.7"
+- "2026/10/14"
+- "23:04:40"
+- "3288.41.1"
+- "Oct 14 2026"
+- "apfs-3288.41.1"
+```

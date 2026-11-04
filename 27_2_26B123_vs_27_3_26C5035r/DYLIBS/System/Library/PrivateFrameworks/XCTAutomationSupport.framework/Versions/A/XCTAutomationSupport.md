@@ -1,0 +1,209 @@
+## XCTAutomationSupport
+
+> `/System/Library/PrivateFrameworks/XCTAutomationSupport.framework/Versions/A/XCTAutomationSupport`
+
+```diff
+
+-25427.0.0.0.0
+-  __TEXT.__text: 0x3b23c
+-  __TEXT.__objc_methlist: 0x36e0
+-  __TEXT.__const: 0x920
++25509.1.0.0.0
++  __TEXT.__text: 0x3b750
++  __TEXT.__objc_methlist: 0x3708
++  __TEXT.__const: 0x8c8
+   __TEXT.__cstring: 0x8c5f
+   __TEXT.__oslogstring: 0x3152
+   __TEXT.__gcc_except_tab: 0xa2c
+   __TEXT.__ustring: 0x132
+-  __TEXT.__swift5_typeref: 0x203
+-  __TEXT.__constg_swiftt: 0x12c
++  __TEXT.__swift5_typeref: 0x1fd
++  __TEXT.__constg_swiftt: 0xb8
+   __TEXT.__swift5_reflstr: 0xd5
+-  __TEXT.__swift5_fieldmd: 0xb0
++  __TEXT.__swift5_fieldmd: 0xa0
+   __TEXT.__swift5_builtin: 0x3c
+   __TEXT.__swift5_mpenum: 0x14
+   __TEXT.__swift5_assocty: 0x60
+   __TEXT.__swift5_capture: 0x80
+   __TEXT.__swift5_proto: 0x24
+-  __TEXT.__swift5_types: 0x14
++  __TEXT.__swift5_types: 0x10
+   __TEXT.__swift_as_entry: 0x18
+   __TEXT.__swift_as_ret: 0x18
+   __TEXT.__swift_as_cont: 0x18
+-  __TEXT.__unwind_info: 0x1450
++  __TEXT.__unwind_info: 0x1460
+   __TEXT.__eh_frame: 0x320
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x38
+   __DATA_CONST.__objc_protolist: 0xf0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1b20
++  __DATA_CONST.__objc_selrefs: 0x1b40
+   __DATA_CONST.__objc_protorefs: 0x50
+   __DATA_CONST.__objc_superrefs: 0x178
+   __DATA_CONST.__objc_arraydata: 0xa48
+-  __DATA_CONST.__got: 0x7c0
++  __DATA_CONST.__got: 0x7c8
+   __AUTH_CONST.__const: 0xc90
+   __AUTH_CONST.__cfstring: 0x85a0
+-  __AUTH_CONST.__objc_const: 0x96b0
++  __AUTH_CONST.__objc_const: 0x96d0
+   __AUTH_CONST.__objc_intobj: 0xa50
+   __AUTH_CONST.__objc_arrayobj: 0xa8
+   __AUTH_CONST.__objc_dictobj: 0x50
+-  __AUTH_CONST.__auth_got: 0x8e8
+-  __AUTH.__objc_data: 0x7d0
++  __AUTH_CONST.__auth_got: 0x8f0
++  __AUTH.__objc_data: 0x750
+   __AUTH.__data: 0xa8
+   __DATA.__objc_ivar: 0x388
+   __DATA.__data: 0xe58
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1561
+-  Symbols:   4056
++  Functions: 1564
++  Symbols:   4058
+   CStrings:  1154
+ 
+Symbols:
++ _$sSo13CADisplayTypeV8rawValueSivg
++ _$sSo13CADisplayTypeVSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo13CADisplayTypeVSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE11allDisplaysSaySo9CADisplayCGvgZ
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE11allDisplaysSaySo9CADisplayCGvgZTo
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE11allDisplaysSaySo9CADisplayCGvpZMV
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE11isAvailableSbvgZ
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE11isAvailableSbvgZTo
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE11isAvailableSbvpZMV
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE11mainDisplaySo9CADisplayCSgvgZ
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE11mainDisplaySo9CADisplayCSgvgZTo
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE11mainDisplaySo9CADisplayCSgvpZMV
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE13allDisplayIDs10containingSays6UInt32VGSo6CGRectV_tFZ
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE13allDisplayIDs10containingSays6UInt32VGSo7CGPointV_tFZ
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE13allDisplayIDsSays6UInt32VGvgZ
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE13allDisplayIDsSays6UInt32VGvpZMV
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE13isMainDisplayySbSo9CADisplayCFZ
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE13isMainDisplayySbSo9CADisplayCFZTo
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE14firstDisplayID10containings6UInt32VSo6CGRectV_tFZ
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE14firstDisplayID10containings6UInt32VSo6CGRectV_tFZTo
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE14firstDisplayID10containings6UInt32VSo7CGPointV_tFZ
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE14firstDisplayID10containings6UInt32VSo7CGPointV_tFZTo
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE15__allDisplayIDsSaySo8NSNumberCGvgZ
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE15__allDisplayIDsSaySo8NSNumberCGvgZTo
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE15__allDisplayIDsSaySo8NSNumberCGvpZMV
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE16shortDescription3forSSSo9CADisplayC_tFZ
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE16shortDescription3forSSSo9CADisplayC_tFZTo
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE25__allDisplayIDsContainingySaySo8NSNumberCGSo6CGRectVFZ
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE25__allDisplayIDsContainingySaySo8NSNumberCGSo6CGRectVFZTo
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE25__allDisplayIDsContainingySaySo8NSNumberCGSo7CGPointVFZ
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE25__allDisplayIDsContainingySaySo8NSNumberCGSo7CGPointVFZTo
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE29hasMultipleIntegratedDisplaysSbvgZ
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE29hasMultipleIntegratedDisplaysSbvgZTo
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE29hasMultipleIntegratedDisplaysSbvpZMV
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE7display12withIDOrMainSo9CADisplayCSgs6UInt32V_tFZ
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE7display12withIDOrMainSo9CADisplayCSgs6UInt32V_tFZTo
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE7display12withUniqueIDSo9CADisplayCSgSS_tFZ
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE7display12withUniqueIDSo9CADisplayCSgSS_tFZTo
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE7display6withIDSo9CADisplayCSgs6UInt32V_tFZ
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE7display6withIDSo9CADisplayCSgs6UInt32V_tFZTo
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE8uniqueID010forDisplayF0SSSgs6UInt32V_tFZ
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportE8uniqueID010forDisplayF0SSSgs6UInt32V_tFZTo
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportEABycfC
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportEABycfc
++ _$sSo19XCTDisplayInterfaceC20XCTAutomationSupportEABycfcTo
++ _$sSo19XCTDisplayInterfaceCML
++ _$sSo19XCTDisplayInterfaceCMa
++ _$sSo9CADisplayCMaTm
++ _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
++ _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlFSo13CADisplayTypeV_Tgq5
++ _OBJC_CLASS_$_XCTDisplayInterface
++ _OBJC_METACLASS_$_XCTDisplayInterface
++ _OUTLINED_FUNCTION_29
++ _OUTLINED_FUNCTION_30
++ _OUTLINED_FUNCTION_31
++ _OUTLINED_FUNCTION_32
++ _OUTLINED_FUNCTION_33
++ __CLASS_METHODS_XCTDisplayInterface
++ __CLASS_PROPERTIES_XCTDisplayInterface
++ __DATA_XCTDisplayInterface
++ __INSTANCE_METHODS_XCTDisplayInterface
++ __METACLASS_DATA_XCTDisplayInterface
++ _objc_msgSend$allDisplays
++ _objc_msgSend$displayType
++ _objc_msgSend$displayWithID:
++ _objc_msgSend$isAvailable
++ _objc_msgSend$isMainDisplay:
+- _$s20XCTAutomationSupport17XCTDisplayManagerC11allDisplaysSaySo9CADisplayCGvgZ
+- _$s20XCTAutomationSupport17XCTDisplayManagerC11allDisplaysSaySo9CADisplayCGvgZTj
+- _$s20XCTAutomationSupport17XCTDisplayManagerC11allDisplaysSaySo9CADisplayCGvgZTo
+- _$s20XCTAutomationSupport17XCTDisplayManagerC11allDisplaysSaySo9CADisplayCGvgZTq
+- _$s20XCTAutomationSupport17XCTDisplayManagerC11allDisplaysSaySo9CADisplayCGvpZMV
+- _$s20XCTAutomationSupport17XCTDisplayManagerC11mainDisplaySo9CADisplayCSgvgZ
+- _$s20XCTAutomationSupport17XCTDisplayManagerC11mainDisplaySo9CADisplayCSgvgZTj
+- _$s20XCTAutomationSupport17XCTDisplayManagerC11mainDisplaySo9CADisplayCSgvgZTo
+- _$s20XCTAutomationSupport17XCTDisplayManagerC11mainDisplaySo9CADisplayCSgvgZTq
+- _$s20XCTAutomationSupport17XCTDisplayManagerC11mainDisplaySo9CADisplayCSgvpZMV
+- _$s20XCTAutomationSupport17XCTDisplayManagerC13allDisplayIDs10containingSays6UInt32VGSo6CGRectV_tFZ
+- _$s20XCTAutomationSupport17XCTDisplayManagerC13allDisplayIDs10containingSays6UInt32VGSo6CGRectV_tFZTo
+- _$s20XCTAutomationSupport17XCTDisplayManagerC13allDisplayIDs10containingSays6UInt32VGSo7CGPointV_tFZ
+- _$s20XCTAutomationSupport17XCTDisplayManagerC13allDisplayIDs10containingSays6UInt32VGSo7CGPointV_tFZTo
+- _$s20XCTAutomationSupport17XCTDisplayManagerC13allDisplayIDsSays6UInt32VGvgZ
+- _$s20XCTAutomationSupport17XCTDisplayManagerC13allDisplayIDsSays6UInt32VGvgZTj
+- _$s20XCTAutomationSupport17XCTDisplayManagerC13allDisplayIDsSays6UInt32VGvgZTo
+- _$s20XCTAutomationSupport17XCTDisplayManagerC13allDisplayIDsSays6UInt32VGvgZTq
+- _$s20XCTAutomationSupport17XCTDisplayManagerC13allDisplayIDsSays6UInt32VGvpZMV
+- _$s20XCTAutomationSupport17XCTDisplayManagerC13displayOrMain6withIDSo9CADisplayCSgs6UInt32V_tFZ
+- _$s20XCTAutomationSupport17XCTDisplayManagerC13displayOrMain6withIDSo9CADisplayCSgs6UInt32V_tFZTj
+- _$s20XCTAutomationSupport17XCTDisplayManagerC13displayOrMain6withIDSo9CADisplayCSgs6UInt32V_tFZTo
+- _$s20XCTAutomationSupport17XCTDisplayManagerC13displayOrMain6withIDSo9CADisplayCSgs6UInt32V_tFZTq
+- _$s20XCTAutomationSupport17XCTDisplayManagerC13isMainDisplayySbSo9CADisplayCFZ
+- _$s20XCTAutomationSupport17XCTDisplayManagerC13isMainDisplayySbSo9CADisplayCFZTj
+- _$s20XCTAutomationSupport17XCTDisplayManagerC13isMainDisplayySbSo9CADisplayCFZTo
+- _$s20XCTAutomationSupport17XCTDisplayManagerC13isMainDisplayySbSo9CADisplayCFZTq
+- _$s20XCTAutomationSupport17XCTDisplayManagerC14firstDisplayID10containings6UInt32VSo6CGRectV_tFZ
+- _$s20XCTAutomationSupport17XCTDisplayManagerC14firstDisplayID10containings6UInt32VSo6CGRectV_tFZTo
+- _$s20XCTAutomationSupport17XCTDisplayManagerC14firstDisplayID10containings6UInt32VSo7CGPointV_tFZ
+- _$s20XCTAutomationSupport17XCTDisplayManagerC14firstDisplayID10containings6UInt32VSo7CGPointV_tFZTo
+- _$s20XCTAutomationSupport17XCTDisplayManagerC16shortDescription10forDisplaySSSo9CADisplayC_tFZ
+- _$s20XCTAutomationSupport17XCTDisplayManagerC16shortDescription10forDisplaySSSo9CADisplayC_tFZTj
+- _$s20XCTAutomationSupport17XCTDisplayManagerC16shortDescription10forDisplaySSSo9CADisplayC_tFZTo
+- _$s20XCTAutomationSupport17XCTDisplayManagerC16shortDescription10forDisplaySSSo9CADisplayC_tFZTq
+- _$s20XCTAutomationSupport17XCTDisplayManagerC7display6withIDSo9CADisplayCSgs6UInt32V_tFZ
+- _$s20XCTAutomationSupport17XCTDisplayManagerC7display6withIDSo9CADisplayCSgs6UInt32V_tFZTj
+- _$s20XCTAutomationSupport17XCTDisplayManagerC7display6withIDSo9CADisplayCSgs6UInt32V_tFZTo
+- _$s20XCTAutomationSupport17XCTDisplayManagerC7display6withIDSo9CADisplayCSgs6UInt32V_tFZTq
+- _$s20XCTAutomationSupport17XCTDisplayManagerC8uniqueID010forDisplayF0SSSgs6UInt32V_tFZ
+- _$s20XCTAutomationSupport17XCTDisplayManagerC8uniqueID010forDisplayF0SSSgs6UInt32V_tFZTj
+- _$s20XCTAutomationSupport17XCTDisplayManagerC8uniqueID010forDisplayF0SSSgs6UInt32V_tFZTo
+- _$s20XCTAutomationSupport17XCTDisplayManagerC8uniqueID010forDisplayF0SSSgs6UInt32V_tFZTq
+- _$s20XCTAutomationSupport17XCTDisplayManagerCACycfC
+- _$s20XCTAutomationSupport17XCTDisplayManagerCACycfc
+- _$s20XCTAutomationSupport17XCTDisplayManagerCACycfcTo
+- _$s20XCTAutomationSupport17XCTDisplayManagerCMF
+- _$s20XCTAutomationSupport17XCTDisplayManagerCMa
+- _$s20XCTAutomationSupport17XCTDisplayManagerCMf
+- _$s20XCTAutomationSupport17XCTDisplayManagerCMn
+- _$s20XCTAutomationSupport17XCTDisplayManagerCMo
+- _$s20XCTAutomationSupport17XCTDisplayManagerCMu
+- _$s20XCTAutomationSupport17XCTDisplayManagerCN
+- _$s20XCTAutomationSupport17XCTDisplayManagerCfD
+- _$sSo9CADisplayCMa
+- _OBJC_CLASS_$__TtC20XCTAutomationSupport17XCTDisplayManager
+- _OBJC_METACLASS_$__TtC20XCTAutomationSupport17XCTDisplayManager
+- __CLASS_PROPERTIES__TtC20XCTAutomationSupport17XCTDisplayManager
+- __DATA__TtC20XCTAutomationSupport17XCTDisplayManager
+- __INSTANCE_METHODS__TtC20XCTAutomationSupport17XCTDisplayManager
+- __METACLASS_DATA__TtC20XCTAutomationSupport17XCTDisplayManager
+- __OBJC_$_CLASS_METHODS__TtC20XCTAutomationSupport17XCTDisplayManager(XCTAutomationSupport)
+- _objc_msgSend$allDisplayIDsContainingPoint:
+- _objc_msgSend$allDisplayIDsContainingRect:
+- _symbolic _____ 20XCTAutomationSupport17XCTDisplayManagerC
+```

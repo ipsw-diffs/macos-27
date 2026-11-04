@@ -1,0 +1,172 @@
+## CommunicationDetails
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/CommunicationDetails.framework/Versions/A/CommunicationDetails`
+
+```diff
+
+-1491.200.101.1.3
+-  __TEXT.__text: 0xa43dc
+-  __TEXT.__objc_methlist: 0x1500
+-  __TEXT.__const: 0x8524
+-  __TEXT.__constg_swiftt: 0x43b0
+-  __TEXT.__swift5_typeref: 0x5f5e
++1491.300.43.0.0
++  __TEXT.__text: 0xa684c
++  __TEXT.__objc_methlist: 0x1508
++  __TEXT.__const: 0x8694
++  __TEXT.__constg_swiftt: 0x4438
++  __TEXT.__swift5_typeref: 0x5fd0
+   __TEXT.__swift5_builtin: 0x1cc
+-  __TEXT.__swift5_reflstr: 0x30db
+-  __TEXT.__swift5_fieldmd: 0x263c
++  __TEXT.__swift5_reflstr: 0x314b
++  __TEXT.__swift5_fieldmd: 0x2660
+   __TEXT.__swift5_assocty: 0x720
+-  __TEXT.__cstring: 0x1bf9
+-  __TEXT.__swift5_capture: 0xf28
++  __TEXT.__cstring: 0x1c59
++  __TEXT.__swift5_capture: 0xf68
+   __TEXT.__swift5_proto: 0x2b4
+   __TEXT.__swift5_types: 0x27c
+-  __TEXT.__swift_as_entry: 0x88
+-  __TEXT.__swift_as_ret: 0x54
+-  __TEXT.__swift_as_cont: 0xf0
+-  __TEXT.__oslogstring: 0x11c7
++  __TEXT.__swift_as_entry: 0x8c
++  __TEXT.__swift_as_ret: 0x60
++  __TEXT.__swift_as_cont: 0x114
++  __TEXT.__oslogstring: 0x1287
+   __TEXT.__swift5_protos: 0x38
+   __TEXT.__swift5_mpenum: 0x50
+-  __TEXT.__unwind_info: 0x3560
+-  __TEXT.__eh_frame: 0x22cc
++  __TEXT.__unwind_info: 0x3608
++  __TEXT.__eh_frame: 0x249c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x3b8
+   __DATA_CONST.__objc_classlist: 0x1a0
+-  __DATA_CONST.__objc_protolist: 0x1c0
++  __DATA_CONST.__objc_protolist: 0x1d0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1430
+-  __DATA_CONST.__objc_protorefs: 0xe0
++  __DATA_CONST.__objc_selrefs: 0x1450
++  __DATA_CONST.__objc_protorefs: 0xe8
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x5010
+-  __AUTH_CONST.__objc_const: 0x3d60
+-  __AUTH_CONST.__auth_got: 0x1720
++  __AUTH_CONST.__const: 0x5070
++  __AUTH_CONST.__objc_const: 0x3de8
++  __AUTH_CONST.__auth_got: 0x1730
+   __AUTH.__objc_data: 0x2c50
+-  __AUTH.__data: 0x24a0
+-  __DATA.__data: 0x2fd1
+-  __DATA.__bss: 0x5910
++  __AUTH.__data: 0x24e0
++  __DATA.__data: 0x3071
++  __DATA.__bss: 0x5930
+   __DATA.__common: 0x158
+-  __DATA_DIRTY.__objc_data: 0x598
+-  __DATA_DIRTY.__data: 0x508
++  __DATA_DIRTY.__objc_data: 0x5f0
++  __DATA_DIRTY.__data: 0x528
+   __DATA_DIRTY.__common: 0x28
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 4271
+-  Symbols:   10772
+-  CStrings:  228
++  Functions: 4318
++  Symbols:   10837
++  CStrings:  233
+ 
+Symbols:
++ _$s20CommunicationDetails0B14ViewControllerC022verticalBarTraitSourcecD0So06UIViewD0CvgTq
++ _$s20CommunicationDetails0B14ViewControllerC23ObservableConfigurationC31quickActionsPlacedInVerticalBarSbvMTq
++ _$s20CommunicationDetails0B14ViewControllerC23ObservableConfigurationC31quickActionsPlacedInVerticalBarSbvg
++ _$s20CommunicationDetails0B14ViewControllerC23ObservableConfigurationC31quickActionsPlacedInVerticalBarSbvgTq
++ _$s20CommunicationDetails0B14ViewControllerC23ObservableConfigurationC31quickActionsPlacedInVerticalBarSbvpAETK
++ _$s20CommunicationDetails0B14ViewControllerC23ObservableConfigurationC31quickActionsPlacedInVerticalBarSbvpAETk
++ _$s20CommunicationDetails0B14ViewControllerC23ObservableConfigurationC31quickActionsPlacedInVerticalBarSbvs
++ _$s20CommunicationDetails0B14ViewControllerC23ObservableConfigurationC31quickActionsPlacedInVerticalBarSbvsTq
++ _$s20CommunicationDetails0B14ViewControllerC23ObservableConfigurationC31quickActionsPlacedInVerticalBarSbvsyyXEfU_
++ _$s20CommunicationDetails0B14ViewControllerC23ObservableConfigurationC31quickActionsPlacedInVerticalBarSbvsyyXEfU_TA
++ _$s20CommunicationDetails0B14ViewControllerC23ObservableConfigurationC32_quickActionsPlacedInVerticalBar06_F1DD7M25A80FCDEB2A5110B00C5762C30LLSbvpWvd
++ _$s20CommunicationDetails0B14ViewControllerC28verticalBarTraitRegistration33_B51F8DBD7362251AA9EEF6D2DEA9540ELLSo013UITraitChangeH0_pSgvpWvd
++ _$s20CommunicationDetails0B14ViewControllerC29makeQuickActionBarButtonItems33_C1973E30EA302F2108BDCE440FAFC4A7LLSaySo05UIBarI4ItemCGyF
++ _$s20CommunicationDetails0B14ViewControllerC29makeQuickActionBarButtonItems33_C1973E30EA302F2108BDCE440FAFC4A7LLSaySo05UIBarI4ItemCGyFyyYacfU_
++ _$s20CommunicationDetails0B14ViewControllerC29makeQuickActionBarButtonItems33_C1973E30EA302F2108BDCE440FAFC4A7LLSaySo05UIBarI4ItemCGyFyyYacfU_TA
++ _$s20CommunicationDetails0B14ViewControllerC29makeQuickActionBarButtonItems33_C1973E30EA302F2108BDCE440FAFC4A7LLSaySo05UIBarI4ItemCGyFyyYacfU_TATQ0_
++ _$s20CommunicationDetails0B14ViewControllerC29makeQuickActionBarButtonItems33_C1973E30EA302F2108BDCE440FAFC4A7LLSaySo05UIBarI4ItemCGyFyyYacfU_TATu
++ _$s20CommunicationDetails0B14ViewControllerC29makeQuickActionBarButtonItems33_C1973E30EA302F2108BDCE440FAFC4A7LLSaySo05UIBarI4ItemCGyFyyYacfU_TQ1_
++ _$s20CommunicationDetails0B14ViewControllerC29makeQuickActionBarButtonItems33_C1973E30EA302F2108BDCE440FAFC4A7LLSaySo05UIBarI4ItemCGyFyyYacfU_TQ5_
++ _$s20CommunicationDetails0B14ViewControllerC29makeQuickActionBarButtonItems33_C1973E30EA302F2108BDCE440FAFC4A7LLSaySo05UIBarI4ItemCGyFyyYacfU_TQ9_
++ _$s20CommunicationDetails0B14ViewControllerC29makeQuickActionBarButtonItems33_C1973E30EA302F2108BDCE440FAFC4A7LLSaySo05UIBarI4ItemCGyFyyYacfU_TY0_
++ _$s20CommunicationDetails0B14ViewControllerC29makeQuickActionBarButtonItems33_C1973E30EA302F2108BDCE440FAFC4A7LLSaySo05UIBarI4ItemCGyFyyYacfU_TY10_
++ _$s20CommunicationDetails0B14ViewControllerC29makeQuickActionBarButtonItems33_C1973E30EA302F2108BDCE440FAFC4A7LLSaySo05UIBarI4ItemCGyFyyYacfU_TY11_
++ _$s20CommunicationDetails0B14ViewControllerC29makeQuickActionBarButtonItems33_C1973E30EA302F2108BDCE440FAFC4A7LLSaySo05UIBarI4ItemCGyFyyYacfU_TY2_
++ _$s20CommunicationDetails0B14ViewControllerC29makeQuickActionBarButtonItems33_C1973E30EA302F2108BDCE440FAFC4A7LLSaySo05UIBarI4ItemCGyFyyYacfU_TY3_
++ _$s20CommunicationDetails0B14ViewControllerC29makeQuickActionBarButtonItems33_C1973E30EA302F2108BDCE440FAFC4A7LLSaySo05UIBarI4ItemCGyFyyYacfU_TY4_
++ _$s20CommunicationDetails0B14ViewControllerC29makeQuickActionBarButtonItems33_C1973E30EA302F2108BDCE440FAFC4A7LLSaySo05UIBarI4ItemCGyFyyYacfU_TY6_
++ _$s20CommunicationDetails0B14ViewControllerC29makeQuickActionBarButtonItems33_C1973E30EA302F2108BDCE440FAFC4A7LLSaySo05UIBarI4ItemCGyFyyYacfU_TY7_
++ _$s20CommunicationDetails0B14ViewControllerC29makeQuickActionBarButtonItems33_C1973E30EA302F2108BDCE440FAFC4A7LLSaySo05UIBarI4ItemCGyFyyYacfU_TY8_
++ _$s20CommunicationDetails0B14ViewControllerC29makeQuickActionBarButtonItems33_C1973E30EA302F2108BDCE440FAFC4A7LLSaySo05UIBarI4ItemCGyFyyYacfU_Tu
++ _$s20CommunicationDetails0B14ViewControllerC30verticalBarTraitRegistrationVC33_B51F8DBD7362251AA9EEF6D2DEA9540ELLSo06UIViewD0CSgvpWvd
++ _$s20CommunicationDetails0B14ViewControllerC33updateVerticalBarTraitObservation33_B51F8DBD7362251AA9EEF6D2DEA9540ELLyyF
++ _$s20CommunicationDetails0B14ViewControllerC33updateVerticalBarTraitObservation33_B51F8DBD7362251AA9EEF6D2DEA9540ELLyyFySo06UIViewD0C_So17UITraitCollectionCtcfU_
++ _$s20CommunicationDetails0B14ViewControllerC33updateVerticalBarTraitObservation33_B51F8DBD7362251AA9EEF6D2DEA9540ELLyyFySo06UIViewD0C_So17UITraitCollectionCtcfU_TA
++ _$s20CommunicationDetails0B14ViewControllerC43registerVerticalBarTraitObservationIfNeeded33_B51F8DBD7362251AA9EEF6D2DEA9540ELLyyF
++ _$s20CommunicationDetails0B14ViewControllerC43registerVerticalBarTraitObservationIfNeeded33_B51F8DBD7362251AA9EEF6D2DEA9540ELLyyFyACXD_So17UITraitCollectionCtcfU_Tf4nnd_n
++ _$s20CommunicationDetails0B14ViewControllerC8delegateAA0bcD8Delegate_pSgvpACTk
++ _$s20CommunicationDetails0B22ViewControllerDelegateP04viewD30ForVerticalBarTraitObservationySo06UIViewD0CSgAA0bcD0CF
++ _$s20CommunicationDetails0B22ViewControllerDelegateP04viewD30ForVerticalBarTraitObservationySo06UIViewD0CSgAA0bcD0CFTj
++ _$s20CommunicationDetails0B22ViewControllerDelegateP04viewD30ForVerticalBarTraitObservationySo06UIViewD0CSgAA0bcD0CFTq
++ _$s20CommunicationDetails0B22ViewControllerDelegateP07detailscD0_28didUpdateItemsForVerticalBaryAA0bcD0C_SaySo15UIBarButtonItemCGtF
++ _$s20CommunicationDetails0B22ViewControllerDelegateP07detailscD0_28didUpdateItemsForVerticalBaryAA0bcD0C_SaySo15UIBarButtonItemCGtFTj
++ _$s20CommunicationDetails0B22ViewControllerDelegateP07detailscD0_28didUpdateItemsForVerticalBaryAA0bcD0C_SaySo15UIBarButtonItemCGtFTq
++ _$s20CommunicationDetails0B22ViewControllerDelegatePAAE04viewD30ForVerticalBarTraitObservationySo06UIViewD0CSgAA0bcD0CF
++ _$s20CommunicationDetails0B22ViewControllerDelegatePAAE07detailscD0_28didUpdateItemsForVerticalBaryAA0bcD0C_SaySo15UIBarButtonItemCGtF
++ _$s20CommunicationDetails0B27ViewControllerRepresentableV11CoordinatorCAA0bcD8DelegateA2aFP04viewD30ForVerticalBarTraitObservationySo06UIViewD0CSgAA0bcD0CFTW
++ _$s20CommunicationDetails0B27ViewControllerRepresentableV11CoordinatorCAA0bcD8DelegateA2aFP07detailscD0_28didUpdateItemsForVerticalBaryAA0bcD0C_SaySo15UIBarButtonItemCGtFTW
++ _$sSTsE13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tFs18ReversedCollectionVySaySo15UIBarButtonItemCGG_Tg5
++ _$sSa20_reserveCapacityImpl07minimumB013growForAppendySi_SbtF20CommunicationDetails0I18ContentOffsetProxyC_Tg5
++ _$sSlsE22_copyToContiguousArrays0cD0Vy7ElementQzGyFs18ReversedCollectionVySaySo15UIBarButtonItemCGG_Tg5
++ _$sSo16UIViewControllerC5UIKitE25unregisterForTraitChangesyySo25UITraitChangeRegistration_pF
++ _$sSo16UIViewControllerCmMR
++ _$sSo16UIViewControllerCmMd
++ _$sSo17UITraitCollectionC5UIKitE32systemTraitsAffectingVerticalBarSayAC0A10Definition_pXpGvgZ
++ _$sSo17UITraitCollectionCML
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSo15UIBarButtonItemC_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSo15UIBarButtonItemC_Tt1g5Tm
++ _OBJC_CLASS_$_UITraitCollection
++ __OBJC_$_PROTOCOL_REFS_UITraitChangeRegistration
++ __OBJC_LABEL_PROTOCOL_$_UITraitChangeRegistration
++ __OBJC_PROTOCOL_$_UITraitChangeRegistration
++ _flat unique So25UITraitChangeRegistration_p
++ _objc_msgSend$_verticalBarAllowed
++ _objc_msgSend$setIdentifier:
++ _objc_msgSend$viewIfLoaded
++ _symbolic So15UIBarButtonItemC
++ _symbolic So16UIViewControllerCSgXw
++ _symbolic So16UIViewControllerCm
++ _symbolic ______pSg So25UITraitChangeRegistrationP
+- _$s20CommunicationDetails10EditActionO_ACtWOhTm
+- _$sSa20_reserveCapacityImpl07minimumB013growForAppendySi_SbtFSo15UIBarButtonItemC_Tg5
+- _$sSay20CommunicationDetails0B10TabBarViewC0c7SegmentE0CGSayxGSlsWlTm
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC20CommunicationDetails0I10TabBarViewC0j7SegmentL0C_Tt1g5Tm
+CStrings:
++ "ConversationDetails_FaceTime"
++ "ConversationDetails_Mail"
++ "ConversationDetails_Phone"
++ "configureNavigationBar: quickActionItemsCount=%ld, lending=%{bool}d"
++ "updateVerticalBarTraitObservation: sourceVC=%s, splitContext=%ld, sourceVC._verticalBarAllowed=%ld"
+```

@@ -1,0 +1,376 @@
+## com.apple.driver.AppleRAID
+
+> `com.apple.driver.AppleRAID`
+
+```diff
+
+-29.40.4.0.0
++29.60.4.0.0
+   __TEXT.__const: 0x10
+-  __TEXT.__cstring: 0x250a
+-  __TEXT_EXEC.__text: 0x1bc40
+-  __TEXT_EXEC.__auth_stubs: 0x500
++  __TEXT.__cstring: 0x173a
++  __TEXT_EXEC.__text: 0x14314
++  __TEXT_EXEC.__auth_stubs: 0x490
+   __DATA.__data: 0xc8
+-  __DATA.__common: 0x2d0
+-  __DATA_CONST.__mod_init_func: 0x70
+-  __DATA_CONST.__mod_term_func: 0x70
+-  __DATA_CONST.__const: 0x8ae0
+-  __DATA_CONST.__kalloc_type: 0x440
+-  __DATA_CONST.__kalloc_var: 0x3c0
+-  __DATA_CONST.__auth_got: 0x280
+-  __DATA_CONST.__got: 0xd8
++  __DATA.__common: 0x230
++  __DATA_CONST.__mod_init_func: 0x58
++  __DATA_CONST.__mod_term_func: 0x58
++  __DATA_CONST.__const: 0x6920
++  __DATA_CONST.__kalloc_type: 0x340
++  __DATA_CONST.__kalloc_var: 0x230
++  __DATA_CONST.__auth_got: 0x248
++  __DATA_CONST.__got: 0xc0
+   __DATA_CONST.__auth_ptr: 0x8
+-  Functions: 660
+-  Symbols:   1292
+-  CStrings:  223
++  Functions: 482
++  Symbols:   1043
++  CStrings:  153
+ 
+Symbols:
++ __ZZN12AppleRAIDSet9resizeSetEjE20kalloc_type_view_494
++ __ZZN12AppleRAIDSet9resizeSetEjE20kalloc_type_view_514
+- __GLOBAL__sub_I_AppleLVMGroup.cpp
+- __GLOBAL__sub_I_AppleLVMStorageRequest.cpp
+- __GLOBAL__sub_I_AppleLVMVolume.cpp
+- __ZL17AppleLVMGroup_ktv
+- __ZL18AppleLVMVolume_ktv
+- __ZL26AppleLVMStorageRequest_ktv
+- __ZL28AppleLVMMemoryDescriptor_ktv
+- __ZN12AppleRAIDSet14readIntoBufferEP15AppleRAIDMemberP24IOBufferMemoryDescriptory
+- __ZN12AppleRAIDSet15writeFromBufferEP15AppleRAIDMemberP24IOBufferMemoryDescriptory
+- __ZN12AppleRAIDSet19readPrimaryMetaDataEP15AppleRAIDMember
+- __ZN12AppleRAIDSet20writePrimaryMetaDataEP24IOBufferMemoryDescriptor
+- __ZN12OSDictionary14withDictionaryEPKS_j
+- __ZN13AppleLVMGroup10gMetaClassE
+- __ZN13AppleLVMGroup10handleOpenEP9IOServicejPv
+- __ZN13AppleLVMGroup10publishSetEv
+- __ZN13AppleLVMGroup10superClassE
+- __ZN13AppleLVMGroup10unpauseSetEv
+- __ZN13AppleLVMGroup12removeMemberEP15AppleRAIDMemberj
+- __ZN13AppleLVMGroup12unpublishSetEv
+- __ZN13AppleLVMGroup12updateLVGTOCEv
+- __ZN13AppleLVMGroup13createRAIDSetEP15AppleRAIDMember
+- __ZN13AppleLVMGroup13publishVolumeEP14AppleLVMVolume
+- __ZN13AppleLVMGroup14addExtentToLVGEP21AppleLVMLogicalExtent
+- __ZN13AppleLVMGroup15buildExtentListEP21AppleRAIDExtentOnDisk
+- __ZN13AppleLVMGroup15unpublishVolumeEP14AppleLVMVolume
+- __ZN13AppleLVMGroup16getSetPropertiesEv
+- __ZN13AppleLVMGroup17findFreeLVEOffsetEP14AppleLVMVolume
+- __ZN13AppleLVMGroup17initializeVolumesEP22AppleRAIDPrimaryOnDisk
+- __ZN13AppleLVMGroup18calculateFreeSpaceEv
+- __ZN13AppleLVMGroup19completeRAIDRequestEP23AppleRAIDStorageRequest
+- __ZN13AppleLVMGroup19createLogicalVolumeEP12OSDictionaryP20AppleLVMVolumeOnDisk
+- __ZN13AppleLVMGroup19initializeSecondaryEv
+- __ZN13AppleLVMGroup19readPrimaryMetaDataEP15AppleRAIDMember
+- __ZN13AppleLVMGroup19removeExtentFromLVGEP21AppleLVMLogicalExtent
+- __ZN13AppleLVMGroup19updateLogicalVolumeEP14AppleLVMVolumeP12OSDictionaryP20AppleLVMVolumeOnDisk
+- __ZN13AppleLVMGroup20destroyLogicalVolumeEP14AppleLVMVolume
+- __ZN13AppleLVMGroup20writePrimaryMetaDataEP24IOBufferMemoryDescriptor
+- __ZN13AppleLVMGroup21addLogicalVolumeToTOCEP14AppleLVMVolume
+- __ZN13AppleLVMGroup22readLogicalVolumeEntryEyj
+- __ZN13AppleLVMGroup23clearLogicalVolumeEntryEyj
+- __ZN13AppleLVMGroup23writeLogicalVolumeEntryEP24IOBufferMemoryDescriptory
+- __ZN13AppleLVMGroup24allocateMemoryDescriptorEP23AppleRAIDStorageRequestj
+- __ZN13AppleLVMGroup25memberOffsetFromLVGOffsetEyPP15AppleRAIDMemberPy
+- __ZN13AppleLVMGroup26removeLogicalVolumeFromTOCEP14AppleLVMVolume
+- __ZN13AppleLVMGroup29buildLogicalVolumeListFromTOCEP15AppleRAIDMember
+- __ZN13AppleLVMGroup4freeEv
+- __ZN13AppleLVMGroup4initEv
+- __ZN13AppleLVMGroup8addSpareEP15AppleRAIDMember
+- __ZN13AppleLVMGroup8startSetEv
+- __ZN13AppleLVMGroup9MetaClassC1Ev
+- __ZN13AppleLVMGroup9MetaClassC2Ev
+- __ZN13AppleLVMGroup9MetaClassD0Ev
+- __ZN13AppleLVMGroup9MetaClassD1Ev
+- __ZN13AppleLVMGroup9addMemberEP15AppleRAIDMember
+- __ZN13AppleLVMGroup9metaClassE
+- __ZN13AppleLVMGroup9resizeSetEj
+- __ZN13AppleLVMGroupC1EPK11OSMetaClass
+- __ZN13AppleLVMGroupC1Ev
+- __ZN13AppleLVMGroupC2EPK11OSMetaClass
+- __ZN13AppleLVMGroupC2Ev
+- __ZN13AppleLVMGroupD0Ev
+- __ZN13AppleLVMGroupD1Ev
+- __ZN13AppleLVMGroupD2Ev
+- __ZN13AppleLVMGroupdlEPvm
+- __ZN13AppleLVMGroupnwEm
+- __ZN14AppleLVMVolume10addExtentsEP13AppleLVMGroupP20AppleLVMVolumeOnDisk
+- __ZN14AppleLVMVolume10findExtentEy
+- __ZN14AppleLVMVolume10gMetaClassE
+- __ZN14AppleLVMVolume10superClassE
+- __ZN14AppleLVMVolume10withHeaderEP20AppleLVMVolumeOnDiskP12OSDictionary
+- __ZN14AppleLVMVolume10zeroVolumeEv
+- __ZN14AppleLVMVolume11getDiskNameEv
+- __ZN14AppleLVMVolume11setSnapShotEPS_
+- __ZN14AppleLVMVolume12getGroupUUIDEv
+- __ZN14AppleLVMVolume13getParentUUIDEv
+- __ZN14AppleLVMVolume13getVolumeUUIDEv
+- __ZN14AppleLVMVolume13removeExtentsEP13AppleLVMGroup
+- __ZN14AppleLVMVolume14initWithHeaderEP12OSDictionary
+- __ZN14AppleLVMVolume15buildExtentListEP21AppleRAIDExtentOnDisk
+- __ZN14AppleLVMVolume15propsFromHeaderEP20AppleLVMVolumeOnDisk
+- __ZN14AppleLVMVolume18hasExtentsOnMemberEP15AppleRAIDMember
+- __ZN14AppleLVMVolume19getVolumePropertiesEv
+- __ZN14AppleLVMVolume19getVolumeUUIDStringEv
+- __ZN14AppleLVMVolume4freeEv
+- __ZN14AppleLVMVolume4initEv
+- __ZN14AppleLVMVolume7getHintEv
+- __ZN14AppleLVMVolume9MetaClassC1Ev
+- __ZN14AppleLVMVolume9MetaClassC2Ev
+- __ZN14AppleLVMVolume9MetaClassD0Ev
+- __ZN14AppleLVMVolume9MetaClassD1Ev
+- __ZN14AppleLVMVolume9addExtentEP13AppleLVMGroupP21AppleRAIDExtentOnDisk
+- __ZN14AppleLVMVolume9metaClassE
+- __ZN14AppleLVMVolume9setBitMapEPS_
+- __ZN14AppleLVMVolume9setParentEPS_
+- __ZN14AppleLVMVolumeC1EPK11OSMetaClass
+- __ZN14AppleLVMVolumeC1Ev
+- __ZN14AppleLVMVolumeC2EPK11OSMetaClass
+- __ZN14AppleLVMVolumeC2Ev
+- __ZN14AppleLVMVolumeD0Ev
+- __ZN14AppleLVMVolumeD1Ev
+- __ZN14AppleLVMVolumeD2Ev
+- __ZN14AppleLVMVolumedlEPvm
+- __ZN14AppleLVMVolumenwEm
+- __ZN15AppleRAIDMember19readPrimaryMetaDataEv
+- __ZN15AppleRAIDMember20writePrimaryMetaDataEP24IOBufferMemoryDescriptor
+- __ZN18AppleRAIDMirrorSet19readPrimaryMetaDataEP15AppleRAIDMember
+- __ZN18AppleRAIDMirrorSet20writePrimaryMetaDataEP24IOBufferMemoryDescriptor
+- __ZN19AppleRAIDUserClient16getVolumeExtentsEP25IOExternalMethodArguments
+- __ZN19AppleRAIDUserClient18getVolumesForGroupEP25IOExternalMethodArguments
+- __ZN19AppleRAIDUserClient19getVolumePropertiesEP25IOExternalMethodArguments
+- __ZN19AppleRAIDUserClient19updateLogicalVolumeEP25IOExternalMethodArguments
+- __ZN19AppleRAIDUserClient20destroyLogicalVolumeEP25IOExternalMethodArguments
+- __ZN19AppleRAIDUserClient20getVolumeExtentsShimEP8OSObjectPvP25IOExternalMethodArguments
+- __ZN19AppleRAIDUserClient22getVolumesForGroupShimEP8OSObjectPvP25IOExternalMethodArguments
+- __ZN19AppleRAIDUserClient23getVolumePropertiesShimEP8OSObjectPvP25IOExternalMethodArguments
+- __ZN19AppleRAIDUserClient23updateLogicalVolumeShimEP8OSObjectPvP25IOExternalMethodArguments
+- __ZN19AppleRAIDUserClient24destroyLogicalVolumeShimEP8OSObjectPvP25IOExternalMethodArguments
+- __ZN20AppleRAIDEventSource18completeRequestLVGEP24AppleLVMMemoryDescriptoriy
+- __ZN20AppleRAIDEventSource18completeRequestLVGEP24AppleLVMMemoryDescriptoriy_vfpthunk_
+- __ZN20AppleRAIDEventSource29getStorageCompletionActionLVGEv
+- __ZN22AppleLVMStorageRequest10gMetaClassE
+- __ZN22AppleLVMStorageRequest10superClassE
+- __ZN22AppleLVMStorageRequest16withAppleRAIDSetEP12AppleRAIDSet
+- __ZN22AppleLVMStorageRequest4readEP9IOServiceyP18IOMemoryDescriptorP19IOStorageAttributesP19IOStorageCompletion
+- __ZN22AppleLVMStorageRequest5writeEP9IOServiceyP18IOMemoryDescriptorP19IOStorageAttributesP19IOStorageCompletion
+- __ZN22AppleLVMStorageRequest9MetaClassC1Ev
+- __ZN22AppleLVMStorageRequest9MetaClassC2Ev
+- __ZN22AppleLVMStorageRequest9MetaClassD0Ev
+- __ZN22AppleLVMStorageRequest9MetaClassD1Ev
+- __ZN22AppleLVMStorageRequest9metaClassE
+- __ZN22AppleLVMStorageRequestC1EPK11OSMetaClass
+- __ZN22AppleLVMStorageRequestC1Ev
+- __ZN22AppleLVMStorageRequestC2EPK11OSMetaClass
+- __ZN22AppleLVMStorageRequestC2Ev
+- __ZN22AppleLVMStorageRequestD0Ev
+- __ZN22AppleLVMStorageRequestD1Ev
+- __ZN22AppleLVMStorageRequestD2Ev
+- __ZN22AppleLVMStorageRequestdlEPvm
+- __ZN22AppleLVMStorageRequestnwEm
+- __ZN24AppleLVMMemoryDescriptor10gMetaClassE
+- __ZN24AppleLVMMemoryDescriptor10superClassE
+- __ZN24AppleLVMMemoryDescriptor18getPhysicalSegmentEyPyj
+- __ZN24AppleLVMMemoryDescriptor18withStorageRequestEP23AppleRAIDStorageRequestj
+- __ZN24AppleLVMMemoryDescriptor22initWithStorageRequestEP23AppleRAIDStorageRequestj
+- __ZN24AppleLVMMemoryDescriptor28configureForMemoryDescriptorEP18IOMemoryDescriptoryyP14AppleLVMVolume
+- __ZN24AppleLVMMemoryDescriptor9MetaClassC1Ev
+- __ZN24AppleLVMMemoryDescriptor9MetaClassC2Ev
+- __ZN24AppleLVMMemoryDescriptor9MetaClassD0Ev
+- __ZN24AppleLVMMemoryDescriptor9MetaClassD1Ev
+- __ZN24AppleLVMMemoryDescriptor9metaClassE
+- __ZN24AppleLVMMemoryDescriptorC1EPK11OSMetaClass
+- __ZN24AppleLVMMemoryDescriptorC1Ev
+- __ZN24AppleLVMMemoryDescriptorC2EPK11OSMetaClass
+- __ZN24AppleLVMMemoryDescriptorC2Ev
+- __ZN24AppleLVMMemoryDescriptorD0Ev
+- __ZN24AppleLVMMemoryDescriptorD1Ev
+- __ZN24AppleLVMMemoryDescriptorD2Ev
+- __ZN24AppleLVMMemoryDescriptordlEPvm
+- __ZN24AppleLVMMemoryDescriptornwEm
+- __ZN24IOBufferMemoryDescriptor9withBytesEPKvmjb
+- __ZN25AppleRAIDMemoryDescriptor28configureForMemoryDescriptorEP18IOMemoryDescriptoryyP14AppleLVMVolume
+- __ZN7IOMedia10gMetaClassE
+- __ZN7IOMedia10handleOpenEP9IOServicejPv
+- __ZN7IOMedia11handleCloseEP9IOServicej
+- __ZN7IOMedia11setPriorityEP9IOServiceP15IOStorageExtentjh
+- __ZN7IOMedia11synchronizeEP9IOServiceyyj
+- __ZN7IOMedia13attachToChildEP15IORegistryEntryPK15IORegistryPlane
+- __ZN7IOMedia15detachFromChildEP15IORegistryEntryPK15IORegistryPlane
+- __ZN7IOMedia17_RESERVEDIOMedia0Ev
+- __ZN7IOMedia17_RESERVEDIOMedia1Ev
+- __ZN7IOMedia17_RESERVEDIOMedia2Ev
+- __ZN7IOMedia17_RESERVEDIOMedia3Ev
+- __ZN7IOMedia17_RESERVEDIOMedia4Ev
+- __ZN7IOMedia17_RESERVEDIOMedia5Ev
+- __ZN7IOMedia17_RESERVEDIOMedia6Ev
+- __ZN7IOMedia17_RESERVEDIOMedia7Ev
+- __ZN7IOMedia17_RESERVEDIOMedia8Ev
+- __ZN7IOMedia17_RESERVEDIOMedia9Ev
+- __ZN7IOMedia18_RESERVEDIOMedia10Ev
+- __ZN7IOMedia18_RESERVEDIOMedia11Ev
+- __ZN7IOMedia18_RESERVEDIOMedia12Ev
+- __ZN7IOMedia18_RESERVEDIOMedia13Ev
+- __ZN7IOMedia18_RESERVEDIOMedia14Ev
+- __ZN7IOMedia18_RESERVEDIOMedia15Ev
+- __ZN7IOMedia18copyPhysicalExtentEP9IOServicePyS2_
+- __ZN7IOMedia18getProvisionStatusEP9IOServiceyyPjP24IOStorageProvisionExtenty
+- __ZN7IOMedia18matchPropertyTableEP12OSDictionaryPi
+- __ZN7IOMedia19lockPhysicalExtentsEP9IOService
+- __ZN7IOMedia21unlockPhysicalExtentsEP9IOService
+- __ZN7IOMedia4initEyyyjbbPKcP12OSDictionary
+- __ZN7IOMedia4readEP9IOServiceyP18IOMemoryDescriptorP19IOStorageAttributesP19IOStorageCompletion
+- __ZN7IOMedia5closeEP9IOServicej
+- __ZN7IOMedia5unmapEP9IOServiceP15IOStorageExtentjj
+- __ZN7IOMedia5writeEP9IOServiceyP18IOMemoryDescriptorP19IOStorageAttributesP19IOStorageCompletion
+- __ZN7IOMediaC2EPK11OSMetaClass
+- __ZN7IOMediaD2Ev
+- __ZN9AppleRAID16addLogicalVolumeEP14AppleLVMVolume
+- __ZN9AppleRAID16getVolumeExtentsEPcjS0_Pj
+- __ZN9AppleRAID17findLogicalVolumeEPK8OSString
+- __ZN9AppleRAID18getVolumesForGroupEPcjS0_Pj
+- __ZN9AppleRAID19getVolumePropertiesEPcjS0_Pj
+- __ZN9AppleRAID19removeLogicalVolumeEP14AppleLVMVolume
+- __ZN9AppleRAID19updateLogicalVolumeEPcjS0_Pj
+- __ZN9AppleRAID20destroyLogicalVolumeEPcjS0_Pj
+- __ZN9IOStorage16synchronizeCacheEP9IOService
+- __ZNK13AppleLVMGroup12getMetaClassEv
+- __ZNK13AppleLVMGroup13getMemberSizeEj
+- __ZNK13AppleLVMGroup18getMaxRequestCountEv
+- __ZNK13AppleLVMGroup23getMemberStartingOffsetEj
+- __ZNK13AppleLVMGroup24getMemberIndexFromOffsetEy
+- __ZNK13AppleLVMGroup9MetaClass5allocEv
+- __ZNK14AppleLVMVolume12getMetaClassEv
+- __ZNK14AppleLVMVolume9MetaClass5allocEv
+- __ZNK15AppleRAIDMember16getSecondarySizeEv
+- __ZNK15AppleRAIDMember17getPrimaryMaxSizeEv
+- __ZNK15IORegistryEntry16getPropertyTableEv
+- __ZNK22AppleLVMStorageRequest12getMetaClassEv
+- __ZNK22AppleLVMStorageRequest9MetaClass5allocEv
+- __ZNK24AppleLVMMemoryDescriptor12getMetaClassEv
+- __ZNK24AppleLVMMemoryDescriptor9MetaClass5allocEv
+- __ZNK7IOMedia10getContentEv
+- __ZNK7IOMedia10isWritableEv
+- __ZNK7IOMedia11getProviderEv
+- __ZNK7IOMedia11isEjectableEv
+- __ZNK7IOMedia11isFormattedEv
+- __ZNK7IOMedia12handleIsOpenEPK9IOService
+- __ZNK7IOMedia13getAttributesEv
+- __ZNK7IOMedia14getContentHintEv
+- __ZNK7IOMedia21getPreferredBlockSizeEv
+- __ZNK7IOMedia7getBaseEv
+- __ZNK7IOMedia7getSizeEv
+- __ZNK7IOMedia7isWholeEv
+- __ZTV13AppleLVMGroup
+- __ZTV14AppleLVMVolume
+- __ZTV22AppleLVMStorageRequest
+- __ZTV24AppleLVMMemoryDescriptor
+- __ZTV7IOMedia
+- __ZTV8OSObject
+- __ZTVN13AppleLVMGroup9MetaClassE
+- __ZTVN14AppleLVMVolume9MetaClassE
+- __ZTVN22AppleLVMStorageRequest9MetaClassE
+- __ZTVN24AppleLVMMemoryDescriptor9MetaClassE
+- __ZZN12AppleRAIDSet9resizeSetEjE20kalloc_type_view_509
+- __ZZN12AppleRAIDSet9resizeSetEjE20kalloc_type_view_529
+- __ZZN13AppleLVMGroup4freeEvE19kalloc_type_view_94
+- __ZZN13AppleLVMGroup4freeEvE20kalloc_type_view_101
+- __ZZN13AppleLVMGroup8startSetEvE20kalloc_type_view_265
+- __ZZN13AppleLVMGroup9resizeSetEjE20kalloc_type_view_227
+- __ZZN13AppleLVMGroup9resizeSetEjE20kalloc_type_view_230
+- __ZdlPv
+- __Znwm
+CStrings:
++ "12111112122212121111"
++ "121111121222121211121111222222222211122112211111112"
++ "1211111212221212111211112222222222111221122111111121111111"
++ "12111112122212121112111122222222221112211221111111212"
++ "121111122221122211111121"
+- " lvm read configure failed\n"
+- " lvm read failed #1, srByteStart %llu srByteCount %llu srRequestCount %u requestStart %llu requestSize %llu\n"
+- " lvm read failed #2, srByteStart %llu srByteCount %llu srRequestCount %u requestStart %llu requestSize %llu\n"
+- " lvm write configure failed\n"
+- " lvm write failed #1, srByteStart %llu srByteCount %llu srRequestCount %u requestStart %llu requestSize %llu\n"
+- " lvm write failed #2, srByteStart %llu srByteCount %llu srRequestCount %u requestStart %llu requestSize %llu\n"
+- "%ss%d"
+- "121111121222121211111"
+- "121111121222121211121111222222222211122221122111111112"
+- "1211111212221212111211112222222222111222211221111111121111111"
+- "121111121222121211121111222222222211122221122111111112111212121"
+- "12111112122212121112111122222222221112222112211111111212"
+- "12111112122212121112222122212222221211112111"
+- "1211111222221122211111121"
+- "AppleLVM-ContentHint"
+- "AppleLVM-ExtentCount"
+- "AppleLVM-GroupUUID"
+- "AppleLVM-ParentUUID"
+- "AppleLVM-Sequence"
+- "AppleLVM-Status"
+- "AppleLVM-Type"
+- "AppleLVM-VolumeSize"
+- "AppleLVM-VolumeUUID"
+- "AppleLVMGroup"
+- "AppleLVMGroup::addExtentToLVG(): failed, the new extent overlaps the beginning of a current extent\n"
+- "AppleLVMGroup::addExtentToLVG(): failed, the new extent overlaps the end of a current extent\n"
+- "AppleLVMGroup::addExtentToLVG(): failed, the start of the new extent is already in use\n"
+- "AppleLVMGroup::addMember() member index (%u) >= member count (%u) for member %s\n"
+- "AppleLVMGroup::completeRAIDRequest - error 0x%x detected for set \"%s\" (%s), member %s, near lv byte offset = %llu.\n"
+- "AppleLVMGroup::completeRAIDRequest - underrun detected, expected = 0x%llx, actual = 0x%llx, set = \"%s\" (%s)\n"
+- "AppleLVMGroup::createLogicalVolume() sequenceNumber mismatch (%u) for group %s (%u)\n"
+- "AppleLVMGroup::findFreeLVEOffset(): there is no room for more volume entries\n"
+- "AppleLVMGroup::readLogicalVolumeEntry() rejecting LVE: lvExtentsStart=%u lvExtentsCount=%u out of bounds for LVE buffer (size=%u, header=%lu, max extents that fit=%u)\n"
+- "AppleLVMGroup::readLogicalVolumeEntry(): size mismatch %u <> %u\n"
+- "AppleLVMGroup::readPrimaryMetaData() sequence number in future, new volumes may have been lost.\n"
+- "AppleLVMGroup::readPrimaryMetaData() the sequence number was out of date.\n"
+- "AppleLVMGroup::readPrimaryMetaData() volumeCount (%llu) exceeds buffer capacity (cap=%lu, max=%llu) for member %s\n"
+- "AppleLVMGroup::readPrimaryMetaData() was unsuccessful for member %s.\n"
+- "AppleLVMGroup::removeLogicalVolumeFromTOC() failed for lv %p\n"
+- "AppleLVMGroup::removeMember() member index (%u) >= member count (%u) for member %s\n"
+- "AppleLVMGroup::startSet: updating primary meta data for LVG \"%s\" (%s)\n"
+- "AppleLVMGroup::updateLogicalVolume() sequenceNumber mismatch (%u) for group %s (%u)\n"
+- "AppleLVMMemoryDescriptor"
+- "AppleLVMStorageRequest"
+- "AppleLVMStorageRequest::read() received a non-lvm request?\n"
+- "AppleLVMStorageRequest::write() received a non-lvm request?\n"
+- "AppleLVMVolume"
+- "AppleLVMVolume::addExtents() expected size %llu, calculated size %llu\n"
+- "AppleLVMVolume::addExtents() overlapping extent detected in logical volume \"%s\"\n"
+- "AppleLVMVolume::addExtents() overlapping logical volumes detected for logical volume \"%s\"\n"
+- "AppleLVMVolume::addExtents() size error for extent list for logical volume \"%s\"\n"
+- "AppleLVMVolume::addExtents() too many extents detected for logical volume \"%s\"\n"
+- "AppleLVMVolume::propsFromHeader - XML parsing failed with %s\n"
+- "AppleLVMVolumeFree"
+- "AppleRAID-LVGExtents"
+- "AppleRAID-LVGFreeSpace"
+- "AppleRAID-LVGVolumeCount"
+- "AppleRAID-MemberStart"
+- "AppleRAID-MetaData1Used"
+- "AppleRAID-MetaData2Size"
+- "AppleRAIDPrimary"
+- "AppleRAIDSet::writePrimaryMetaData() update failed on set \"%s\" (%s) member %s, rc = %x\n"
+- "LVG"
+- "LVM"
+- "RAIDNoMedia"
+- "bitmap"
+- "concat"
+- "master"
+- "site.AppleLVMGroup"
+- "site.AppleLVMMemoryDescriptor"
+- "site.AppleLVMStorageRequest"
+- "site.AppleLVMVolume"
+- "site.AppleLVMVolume *"
+- "snap ro"
+- "snap rw"
+```

@@ -1,0 +1,146 @@
+## PassKitMacHelper
+
+> `/System/Library/PrivateFrameworks/PassKitMacHelper.framework/Versions/A/PassKitMacHelper`
+
+```diff
+
+-1696.2.9.0.0
+-  __TEXT.__text: 0x47e8a4
+-  __TEXT.__objc_methlist: 0x3690
+-  __TEXT.__cstring: 0xcb5d
+-  __TEXT.__const: 0x31394
++1696.3.3.1.0
++  __TEXT.__text: 0x480878
++  __TEXT.__objc_methlist: 0x36b8
++  __TEXT.__cstring: 0xcbed
++  __TEXT.__const: 0x31424
+   __TEXT.__gcc_except_tab: 0x2a4
+-  __TEXT.__oslogstring: 0x40f7
+-  __TEXT.__constg_swiftt: 0xdb00
+-  __TEXT.__swift5_typeref: 0x5ec0a
++  __TEXT.__oslogstring: 0x43d7
++  __TEXT.__constg_swiftt: 0xdb44
++  __TEXT.__swift5_typeref: 0x5ecca
+   __TEXT.__swift5_builtin: 0x744
+-  __TEXT.__swift5_reflstr: 0xe5aa
+-  __TEXT.__swift5_fieldmd: 0xc12c
+-  __TEXT.__swift5_assocty: 0x2fa8
+-  __TEXT.__swift5_capture: 0x60c4
+-  __TEXT.__swift5_proto: 0xf8c
+-  __TEXT.__swift5_types: 0xbc0
++  __TEXT.__swift5_reflstr: 0xe64a
++  __TEXT.__swift5_fieldmd: 0xc19c
++  __TEXT.__swift5_assocty: 0x2fc0
++  __TEXT.__swift5_capture: 0x6144
++  __TEXT.__swift5_proto: 0xf98
++  __TEXT.__swift5_types: 0xbc4
+   __TEXT.__swift_as_entry: 0x108
+   __TEXT.__swift_as_ret: 0xe4
+   __TEXT.__swift_as_cont: 0x200
+   __TEXT.__swift5_protos: 0x74
+   __TEXT.__swift5_mpenum: 0xfc
+-  __TEXT.__unwind_info: 0xe068
++  __TEXT.__unwind_info: 0xe0d0
+   __TEXT.__eh_frame: 0x3be4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0xa80
+-  __DATA_CONST.__objc_classlist: 0x3e0
++  __DATA_CONST.__objc_classlist: 0x3e8
+   __DATA_CONST.__objc_catlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x290
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x42e0
++  __DATA_CONST.__objc_selrefs: 0x4320
+   __DATA_CONST.__objc_protorefs: 0x138
+   __DATA_CONST.__objc_superrefs: 0x60
+-  __DATA_CONST.__got: 0x2d08
+-  __AUTH_CONST.__const: 0x1d640
++  __DATA_CONST.__got: 0x2d20
++  __AUTH_CONST.__const: 0x1d7b0
+   __AUTH_CONST.__cfstring: 0x1a40
+-  __AUTH_CONST.__objc_const: 0xbd38
++  __AUTH_CONST.__objc_const: 0xbe90
+   __AUTH_CONST.__objc_intobj: 0x30
+-  __AUTH_CONST.__auth_got: 0x3c68
+-  __AUTH.__objc_data: 0x50f8
+-  __AUTH.__data: 0xa790
++  __AUTH_CONST.__auth_got: 0x3c78
++  __AUTH.__objc_data: 0x51f0
++  __AUTH.__data: 0xa7c0
+   __DATA.__objc_ivar: 0x154
+-  __DATA.__data: 0x12f10
++  __DATA.__data: 0x12f60
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x1f4b8
++  __DATA.__bss: 0x1f5b8
+   __DATA.__common: 0x318
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 18262
+-  Symbols:   11077
+-  CStrings:  1662
++  Functions: 18291
++  Symbols:   11101
++  CStrings:  1670
+ 
+Symbols:
++ -[PKPaymentSetupCredentialsSectionController _sortCredentialItems:demoteNonStandardFlowCredentials:]
++ _OBJC_CLASS_$_PKPaymentRemoteCredential
++ _OBJC_CLASS_$_PKPaymentRemoteCredentialsRequest
++ _OBJC_CLASS_$_PKSetupProductMethod
++ _OBJC_CLASS_$__TtC16PassKitMacHelper45PaymentSetupIdentityProductResolutionFlowItem
++ _OBJC_METACLASS_$__TtC16PassKitMacHelper45PaymentSetupIdentityProductResolutionFlowItem
++ _PKDeviceClassIsWatch
++ __DATA__TtC16PassKitMacHelper45PaymentSetupIdentityProductResolutionFlowItem
++ __INSTANCE_METHODS__TtC16PassKitMacHelper45PaymentSetupIdentityProductResolutionFlowItem
++ __IVARS__TtC16PassKitMacHelper45PaymentSetupIdentityProductResolutionFlowItem
++ __METACLASS_DATA__TtC16PassKitMacHelper45PaymentSetupIdentityProductResolutionFlowItem
++ ___100-[PKPaymentSetupCredentialsSectionController _sortCredentialItems:demoteNonStandardFlowCredentials:]_block_invoke
++ ___block_descriptor_41_e8_32s_e79_q24?0"PKPaymentSetupCredentialListItem"8"PKPaymentSetupCredentialListItem"16l
++ _get_witness_table 7SwiftUI4ViewRzlAA012SubscriptionC0Vy7Combine9PublishedV9PublisherVySb_GADyAIySo10CGRectEdgeV_GAaBPAAE9formSheet4item7contentQrAA7BindingVyqd__SgG_qd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQOy16PassKitMacHelper019AppProtectionShieldC0VyxG_13PaymentUIBase22BaseAuthenticatorModelC13PasscodeEntryVAA15ModifiedContentVyAW08PasscodeC033_8E522F35FD4E271248698E6C31B851E1LLVAW28SuppressesPhysicalButtonHintVGQo_GGAaBHPyHC
++ _get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD4_AaBPAAE9formSheet4item7contentQrAA7BindingVyqd__SgG_qd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQOyAA012SubscriptionC0Vy7Combine9PublishedV9PublisherVySb_GAMyARySo10CGRectEdgeV_GAMyAsA6ZStackVyAA15ModifiedContentVyAA012_ConditionalR0VyAZyAZyAZyAA6VStackVyAA05TupleR0VyAA6SpacerVSg_AZyAZyAZyAZy16PassKitMacHelper019AppProtectionShieldC0VyxGAA16_FlexFrameLayoutVGAA41_ContainerRoundedRectangularShapeModifierVyAA9RectangleVGGAA11_ClipEffectVyAA22UnevenRoundedRectangleVGGAA34_InsettableBackgroundShapeModifierVyAA5ColorVA24_GGQPGGAA18_AnimationModifierVySo6CGSizeVA38_SQ12CoreGraphicsyHCg_GGAA15_PositionLayoutVGA36_ySbGGA41_GAA21_TraitWritingModifierVyAA14ZIndexTraitKeyVGGSgGGGG_13PaymentUIBase22BaseAuthenticatorModelC13PasscodeEntryVAZyA8_08PasscodeC033_8E522F35FD4E271248698E6C31B851E1LLVA8_28SuppressesPhysicalButtonHintVGQo_HO
++ _objc_msgSend$_sortCredentialItems:demoteNonStandardFlowCredentials:
++ _objc_msgSend$compare:withBackedUpDefaultPaymentPassSerialNumber:demoteNonStandardFlowCredentials:
++ _objc_msgSend$credentials
++ _objc_msgSend$identityProductForState:country:
++ _objc_msgSend$issuerAdministrativeAreaCode
++ _objc_msgSend$remotePaymentCredentialsForRequest:completion:
++ _objc_msgSend$requiredIssuerAppAction
++ _objc_msgSend$setCredentialType:
++ _objc_msgSend$setupProductMethods
++ _symbolic So25PKPaymentRemoteCredentialCSg
++ _symbolic So28PKPaymentLocalPassCredentialCSg
++ _symbolic So34PKPaymentRemoteCredentialsResponseCSg
++ _symbolic _____ 16PassKitMacHelper45PaymentSetupIdentityProductResolutionFlowItemC
++ _symbolic _____SgXw 16PassKitMacHelper45PaymentSetupIdentityProductResolutionFlowItemC
++ _symbolic _____SgXwz_Xx 16PassKitMacHelper45PaymentSetupIdentityProductResolutionFlowItemC
++ _symbolic _____XDXMT 16PassKitMacHelper45PaymentSetupIdentityProductResolutionFlowItemC
++ _symbolic _____y_____ySb_GAAyABy______G_____y_____yxG___________y__________GQo_GG 7SwiftUI16SubscriptionViewV 7Combine9PublishedV9PublisherV So10CGRectEdgeV AA0D0PAAE9formSheet4item7contentQrAA7BindingVyqd__SgG_qd_0_qd__cts12IdentifiableRd__AaKRd_0_r0_lFQO 16PassKitMacHelper019AppProtectionShieldD0V 13PaymentUIBase22BaseAuthenticatorModelC13PasscodeEntryV AA15ModifiedContentV AU08PasscodeD033_8E522F35FD4E271248698E6C31B851E1LLV AU28SuppressesPhysicalButtonHintV
++ _symbolic _____y_____y_____ySb_GAAyABy______GAAyAC_____y_____y_____yAGyAGyAGy_____y_____y_____Sg_AGyAGyAGyAGy_____yxG_____G_____y_____GG_____y_____GG_____y_____AVGGQPGG_____y_____A4_SQ12CoreGraphicsyHCg_GG_____GA3_ySbGGA7_G_____y_____GGSgGGGG______AGy__________GQo_ 7SwiftUI4ViewPAAE9formSheet4item7contentQrAA7BindingVyqd__SgG_qd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQO AA012SubscriptionC0V 7Combine9PublishedV9PublisherV So10CGRectEdgeV AA6ZStackV AA15ModifiedContentV AA012_ConditionalR0V AA6VStackV AA05TupleR0V AA6SpacerV 16PassKitMacHelper019AppProtectionShieldC0V AA16_FlexFrameLayoutV AA41_ContainerRoundedRectangularShapeModifierV AA9RectangleV AA11_ClipEffectV AA22UnevenRoundedRectangleV AA34_InsettableBackgroundShapeModifierV AA5ColorV AA18_AnimationModifierV So6CGSizeV AA15_PositionLayoutV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV 13PaymentUIBase22BaseAuthenticatorModelC13PasscodeEntryV A5_08PasscodeC033_8E522F35FD4E271248698E6C31B851E1LLV A5_28SuppressesPhysicalButtonHintV
+- -[PKPaymentSetupCredentialsSectionController _sortCredentialItems:]
+- ___67-[PKPaymentSetupCredentialsSectionController _sortCredentialItems:]_block_invoke
+- ___block_descriptor_40_e8_32s_e79_q24?0"PKPaymentSetupCredentialListItem"8"PKPaymentSetupCredentialListItem"16l
+- _get_witness_table 7SwiftUI4ViewRzlAA012SubscriptionC0Vy7Combine9PublishedV9PublisherVySo10CGRectEdgeV_GAaBPAAE9formSheet4item7contentQrAA7BindingVyqd__SgG_qd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQOy16PassKitMacHelper019AppProtectionShieldC0VyxG_13PaymentUIBase22BaseAuthenticatorModelC13PasscodeEntryVAA15ModifiedContentVyAV08PasscodeC033_8E522F35FD4E271248698E6C31B851E1LLVAV28SuppressesPhysicalButtonHintVGQo_GAaBHPyHC
+- _get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD4_AaBPAAE9formSheet4item7contentQrAA7BindingVyqd__SgG_qd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQOyAA012SubscriptionC0Vy7Combine9PublishedV9PublisherVySo10CGRectEdgeV_GAMyARySb_GAA6ZStackVyAA15ModifiedContentVyAA012_ConditionalR0VyAZyAZyAZyAA6VStackVyAA05TupleR0VyAA6SpacerVSg_AZyAZyAZyAZy16PassKitMacHelper019AppProtectionShieldC0VyxGAA16_FlexFrameLayoutVGAA41_ContainerRoundedRectangularShapeModifierVyAA9RectangleVGGAA11_ClipEffectVyAA22UnevenRoundedRectangleVGGAA34_InsettableBackgroundShapeModifierVyAA5ColorVA24_GGQPGGAA18_AnimationModifierVySo6CGSizeVA38_SQ12CoreGraphicsyHCg_GGAA15_PositionLayoutVGA36_ySbGGA41_GAA21_TraitWritingModifierVyAA14ZIndexTraitKeyVGGSgGGG_13PaymentUIBase22BaseAuthenticatorModelC13PasscodeEntryVAZyA8_08PasscodeC033_8E522F35FD4E271248698E6C31B851E1LLVA8_28SuppressesPhysicalButtonHintVGQo_HO
+- _objc_msgSend$_sortCredentialItems:
+- _objc_msgSend$compare:withBackedUpDefaultPaymentPassSerialNumber:
+- _symbolic _____y_____y______G_____y_____yxG___________y__________GQo_G 7SwiftUI16SubscriptionViewV 7Combine9PublishedV9PublisherV So10CGRectEdgeV AA0D0PAAE9formSheet4item7contentQrAA7BindingVyqd__SgG_qd_0_qd__cts12IdentifiableRd__AaKRd_0_r0_lFQO 16PassKitMacHelper019AppProtectionShieldD0V 13PaymentUIBase22BaseAuthenticatorModelC13PasscodeEntryV AA15ModifiedContentV AU08PasscodeD033_8E522F35FD4E271248698E6C31B851E1LLV AU28SuppressesPhysicalButtonHintV
+- _symbolic _____y_____y_____y______GAAyABySb_G_____y_____y_____yAGyAGyAGy_____y_____y_____Sg_AGyAGyAGyAGy_____yxG_____G_____y_____GG_____y_____GG_____y_____AVGGQPGG_____y_____A4_SQ12CoreGraphicsyHCg_GG_____GA3_ySbGGA7_G_____y_____GGSgGGG______AGy__________GQo_ 7SwiftUI4ViewPAAE9formSheet4item7contentQrAA7BindingVyqd__SgG_qd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQO AA012SubscriptionC0V 7Combine9PublishedV9PublisherV So10CGRectEdgeV AA6ZStackV AA15ModifiedContentV AA012_ConditionalR0V AA6VStackV AA05TupleR0V AA6SpacerV 16PassKitMacHelper019AppProtectionShieldC0V AA16_FlexFrameLayoutV AA41_ContainerRoundedRectangularShapeModifierV AA9RectangleV AA11_ClipEffectV AA22UnevenRoundedRectangleV AA34_InsettableBackgroundShapeModifierV AA5ColorV AA18_AnimationModifierV So6CGSizeV AA15_PositionLayoutV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV 13PaymentUIBase22BaseAuthenticatorModelC13PasscodeEntryV A5_08PasscodeC033_8E522F35FD4E271248698E6C31B851E1LLV A5_28SuppressesPhysicalButtonHintV
+CStrings:
++ "PassKitMacHelper.PaymentSetupIdentityProductResolutionFlowItem"
++ "PaymentSetupIdentityProductResolutionFlowItem: Failed to match %@ to cards on file; falling back to region-based product match."
++ "PaymentSetupIdentityProductResolutionFlowItem: Local credential %@ has no payment pass; unable to resolve a product."
++ "PaymentSetupIdentityProductResolutionFlowItem: Region-matched product for %@ only supports .inApp; forcing product-only provisioning."
++ "PaymentSetupIdentityProductResolutionFlowItem: Unable to find product for product identifier: %s"
++ "PaymentSetupIdentityProductResolutionFlowItem: Unable to region-match product for %@ — missing issuer administrative area or country."
++ "no available paired watch to offer for Identity external provisioning"
++ "no paired watch for Identity pass external provisioning options"
+```

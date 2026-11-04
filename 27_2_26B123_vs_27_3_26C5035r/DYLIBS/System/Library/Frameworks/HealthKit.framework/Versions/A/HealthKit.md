@@ -1,0 +1,897 @@
+## HealthKit
+
+> `/System/Library/Frameworks/HealthKit.framework/Versions/A/HealthKit`
+
+```diff
+
+-7027.1.56.1.1
+-  __TEXT.__text: 0x4265b0
+-  __TEXT.__objc_methlist: 0x327ec
+-  __TEXT.__cstring: 0x374f2
+-  __TEXT.__const: 0x1bf3c
+-  __TEXT.__oslogstring: 0xccd3
+-  __TEXT.__gcc_except_tab: 0x3a50
++7027.2.12.0.0
++  __TEXT.__text: 0x45d840
++  __TEXT.__objc_methlist: 0x32c3c
++  __TEXT.__cstring: 0x38242
++  __TEXT.__const: 0x1ffec
++  __TEXT.__oslogstring: 0xd193
++  __TEXT.__gcc_except_tab: 0x3b5c
+   __TEXT.__dlopen_cstrs: 0x1a8
+   __TEXT.__ustring: 0x1d0
+-  __TEXT.__constg_swiftt: 0x61f0
+-  __TEXT.__swift5_typeref: 0x595b
+-  __TEXT.__swift5_builtin: 0x564
+-  __TEXT.__swift5_reflstr: 0x3c6b
+-  __TEXT.__swift5_fieldmd: 0x58e8
+-  __TEXT.__swift5_assocty: 0x16f0
+-  __TEXT.__swift5_proto: 0x1a68
+-  __TEXT.__swift5_types: 0x79c
+-  __TEXT.__swift5_protos: 0xe4
+-  __TEXT.__swift_as_entry: 0x1fc
+-  __TEXT.__swift_as_ret: 0x204
+-  __TEXT.__swift_as_cont: 0x40c
+-  __TEXT.__swift5_capture: 0x1080
+-  __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x18bd0
+-  __TEXT.__eh_frame: 0x8b78
++  __TEXT.__constg_swiftt: 0x6afc
++  __TEXT.__swift5_typeref: 0x60a3
++  __TEXT.__swift5_builtin: 0x58c
++  __TEXT.__swift5_reflstr: 0x5a3b
++  __TEXT.__swift5_fieldmd: 0x7044
++  __TEXT.__swift5_assocty: 0x1a68
++  __TEXT.__swift5_proto: 0x1e54
++  __TEXT.__swift5_types: 0x874
++  __TEXT.__swift5_protos: 0xf8
++  __TEXT.__swift_as_entry: 0x21c
++  __TEXT.__swift_as_ret: 0x224
++  __TEXT.__swift_as_cont: 0x47c
++  __TEXT.__swift5_capture: 0x1360
++  __TEXT.__swift5_mpenum: 0x24
++  __TEXT.__unwind_info: 0x19f10
++  __TEXT.__eh_frame: 0x9e04
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x8b60
+-  __DATA_CONST.__objc_classlist: 0x1cd8
++  __DATA_CONST.__const: 0x8c68
++  __DATA_CONST.__objc_classlist: 0x1d10
+   __DATA_CONST.__objc_catlist: 0x1b8
+-  __DATA_CONST.__objc_protolist: 0x810
++  __DATA_CONST.__objc_protolist: 0x828
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x11f68
+-  __DATA_CONST.__objc_protorefs: 0x640
++  __DATA_CONST.__objc_selrefs: 0x120b8
++  __DATA_CONST.__objc_protorefs: 0x648
+   __DATA_CONST.__objc_superrefs: 0x18a8
+   __DATA_CONST.__objc_arraydata: 0x69d8
+-  __DATA_CONST.__got: 0x1e28
+-  __AUTH_CONST.__const: 0x1cb11
+-  __AUTH_CONST.__cfstring: 0x34160
+-  __AUTH_CONST.__objc_const: 0x55d10
++  __DATA_CONST.__got: 0x1ea8
++  __AUTH_CONST.__const: 0x1f359
++  __AUTH_CONST.__cfstring: 0x34540
++  __AUTH_CONST.__objc_const: 0x564a8
+   __AUTH_CONST.__weak_auth_got: 0x18
+   __AUTH_CONST.__objc_intobj: 0x47b8
+   __AUTH_CONST.__objc_arrayobj: 0x3f0
+   __AUTH_CONST.__objc_dictobj: 0x488
+   __AUTH_CONST.__objc_doubleobj: 0x150
+-  __AUTH_CONST.__auth_got: 0x1e98
+-  __AUTH.__objc_data: 0xfbb0
+-  __AUTH.__data: 0x3980
+-  __DATA.__objc_ivar: 0x3138
+-  __DATA.__data: 0x10030
+-  __DATA.__bss: 0x34510
++  __AUTH_CONST.__auth_got: 0x1f58
++  __AUTH.__objc_data: 0x10040
++  __AUTH.__data: 0x3da0
++  __DATA.__objc_ivar: 0x3160
++  __DATA.__data: 0x10cb0
++  __DATA.__bss: 0x3c0a0
+   __DATA.__common: 0x7b8
+   __DATA_DIRTY.__objc_data: 0x2860
+   __DATA_DIRTY.__data: 0x308
+
+   - /System/Library/PrivateFrameworks/GraphicsServices.framework/Versions/A/GraphicsServices
+   - /System/Library/PrivateFrameworks/HealthUtilities.framework/Versions/A/HealthUtilities
+   - /System/Library/PrivateFrameworks/MobileAsset.framework/Versions/A/MobileAsset
++  - /System/Library/PrivateFrameworks/OSEligibility.framework/Versions/A/OSEligibility
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/Versions/A/ProtocolBuffer
+   - /System/Library/PrivateFrameworks/RegulatoryDomain.framework/Versions/A/RegulatoryDomain
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 30616
+-  Symbols:   42210
+-  CStrings:  8812
++  Functions: 32202
++  Symbols:   42624
++  CStrings:  8919
+ 
+Symbols:
++ +[HKCodedQuantity codedQuantityWithValue:unitCoding:unitConceptIdentifier:]
++ +[HKFeatureAvailabilityRequirements anyCapabilityIsSupportedOnAnyWatch:supportedOnLocalDevice:]
++ +[HKHealthStoreImplementation unitTest_deferredQueryReactivationMaximumJitter]
++ +[HKObject _newUUID]
++ +[NSUUID(HealthKit) hk_timeOrderedUUID]
++ +[_HKBehavior _completedBuddyConfiguration]
++ +[_HKBehavior _hasCompletedBuddyWithVersion:configuration:]
++ +[_HKBehavior _setHasCompletedBuddyWithVersion:configuration:]
++ +[_HKBehavior _shouldShowBuddyWithConfiguration:]
++ +[_HKBehavior hasCompletedBuddyWithVersion:configuration:]
++ +[_HKBehavior setHasCompletedBuddyWithVersion:configuration:]
++ +[_HKBehavior shouldShowBuddyWithConfiguration:]
++ -[HKCodedQuantity initWithRawValue:comparatorCoding:unitCoding:unitConceptIdentifier:]
++ -[HKCodedQuantity unitConceptIdentifier]
++ -[HKDeviceContext appleIntelligenceEligibility]
++ -[HKDeviceContext initWithType:localDevice:productTypeName:currentOSName:currentOSVersion:modificationDate:appleIntelligenceEligibility:]
++ -[HKFHIRIdentifier isScopedToHealthLink]
++ -[HKFeatureAvailabilityRequirementCapabilityIsSupportedOnAnyWatch initWithNanoRegistryCapabilities:supportedOnLocalDevice:]
++ -[HKFeatureAvailabilityRequirementCapabilityIsSupportedOnAnyWatch nanoRegistryCapabilities]
++ -[HKHealthStore getReferenceSex:error:]
++ -[HKHealthStoreImplementation _clientQueue_daemonDidFinishLaunching]
++ -[HKHealthStoreImplementation _clientQueue_observeDaemonLaunchIfNeeded]
++ -[HKHealthStoreImplementation _clientQueue_performAfterDelay:block:]
++ -[HKHealthStoreImplementation _clientQueue_reactivateDeferredQueries:]
++ -[HKHealthStoreImplementation setUnitTest_deferredQueryReactivationHandler:]
++ -[HKHealthStoreImplementation setUnitTest_deferredQueryReactivationScheduler:]
++ -[HKHealthStoreImplementation unitTest_deferReactivationOfQueries:afterDelay:]
++ -[HKHealthStoreImplementation unitTest_deferredQueryReactivationHandler]
++ -[HKHealthStoreImplementation unitTest_deferredQueryReactivationScheduler]
++ -[HKUnit _isDimensionless]
++ -[HKWorkoutRouteQuery initWithActiveWorkoutUUID:dateInterval:dataHandler:]
++ -[HKWorkoutTrainingLoad hash]
++ -[HKWorkoutTrainingLoad isEqual:]
++ -[_HKBehavior deviceState]
++ -[_HKFeatureFlags maintenanceYieldsToForegroundClients]
++ -[_HKFeatureFlags observerQueryIndexedInitialAnchor]
++ -[_HKFeatureFlags setHopliteOOP:]
++ -[_HKFeatureFlags setMaintenanceYieldsToForegroundClients:]
++ -[_HKFeatureFlags setObserverQueryIndexedInitialAnchor:]
++ -[_HKFeatureFlags setTimeBoundedAuthorization:]
++ -[_HKFeatureFlags setTimeOrderedObjectUUIDs:]
++ -[_HKFeatureFlags timeOrderedObjectUUIDs]
++ -[_HKFitnessFriendWorkout setSeymourSExerciseIdentifier:]
++ -[_HKFitnessFriendWorkout setSeymourSWorkoutIdentifier:]
++ -[_HKFitnessFriendWorkout seymourSExerciseIdentifier]
++ -[_HKFitnessFriendWorkout seymourSWorkoutIdentifier]
++ -[_HKGeoServicesLocationShiftProvider .cxx_destruct]
++ -[_HKGeoServicesLocationShiftProvider isShiftRequiredForCoordinate:]
++ -[_HKGeoServicesLocationShiftProvider loadShiftRegionsIfNeeded]
++ -[_HKGeoServicesLocationShiftProvider shiftCoordinate:queue:completion:errorHandler:]
++ -[_HKLocationShifter initWithShiftProvider:]
++ GCC_except_table107
++ GCC_except_table111
++ GCC_except_table120
++ GCC_except_table127
++ GCC_except_table139
++ GCC_except_table146
++ GCC_except_table160
++ GCC_except_table166
++ GCC_except_table170
++ GCC_except_table228
++ GCC_except_table288
++ GCC_except_table299
++ GCC_except_table303
++ GCC_except_table389
++ GCC_except_table423
++ GCC_except_table60
++ GCC_except_table64
++ GCC_except_table82
++ GCC_except_table96
++ _GeoServicesLibrary
++ _HKBloodPressureClassificationCategoryCHLElevated
++ _HKBloodPressureClassificationCategoryCHLMildHypertension
++ _HKBloodPressureClassificationCategoryCHLModerateHypertension
++ _HKBloodPressureClassificationCategoryCHLNormal
++ _HKBloodPressureClassificationCategoryCHLSevereHypertension
++ _HKBloodPressureClassificationCategoryESCSevereHypertension
++ _HKCurrentAppleIntelligenceEligibility
++ _HKStringForAppleIntelligenceEligibility
++ _HKTimeOrderedUUIDWithUnixMilliseconds
++ _HKValueSnappedToDisplayPrecision
++ _OBJC_CLASS_$_HKDeviceState
++ _OBJC_CLASS_$_HKWorkoutActivityUnitWrapper
++ _OBJC_CLASS_$_HKWorkoutStrengthTrainingSetWrapper
++ _OBJC_CLASS_$__HKGeoServicesLocationShiftProvider
++ _OBJC_CLASS_$__TtC9HealthKit21HKWorkoutRestActivity
++ _OBJC_CLASS_$__TtC9HealthKit33HKWorkoutStrengthTrainingActivity
++ _OBJC_CLASS_$__TtC9HealthKit34HKWorkoutRestExerciseConfiguration
++ _OBJC_CLASS_$__TtC9HealthKit46HKWorkoutStrengthTrainingExerciseConfiguration
++ _OBJC_IVAR_$_HKCodedQuantity._unitConceptIdentifier
++ _OBJC_IVAR_$_HKDeviceContext._appleIntelligenceEligibility
++ _OBJC_IVAR_$_HKFeatureAvailabilityRequirementCapabilityIsSupportedOnAnyWatch._nanoRegistryCapabilities
++ _OBJC_IVAR_$_HKHealthStoreImplementation._daemonLaunchNotifyToken
++ _OBJC_IVAR_$_HKHealthStoreImplementation._deferredReactivationQueries
++ _OBJC_IVAR_$_HKHealthStoreImplementation._unitTest_deferredQueryReactivationHandler
++ _OBJC_IVAR_$_HKHealthStoreImplementation._unitTest_deferredQueryReactivationScheduler
++ _OBJC_IVAR_$__HKBehavior._deviceState
++ _OBJC_IVAR_$__HKFeatureFlags._maintenanceYieldsToForegroundClients
++ _OBJC_IVAR_$__HKFeatureFlags._observerQueryIndexedInitialAnchor
++ _OBJC_IVAR_$__HKFeatureFlags._timeOrderedObjectUUIDs
++ _OBJC_IVAR_$__HKFitnessFriendWorkout._seymourSExerciseIdentifier
++ _OBJC_IVAR_$__HKFitnessFriendWorkout._seymourSWorkoutIdentifier
++ _OBJC_IVAR_$__HKFitnessMachineConnectionInitiator._remoteConnectionLock
++ _OBJC_IVAR_$__HKGeoServicesLocationShiftProvider._shifter
++ _OBJC_IVAR_$__HKLocationShifter._shiftProvider
++ _OBJC_METACLASS_$_HKWorkoutActivityUnitWrapper
++ _OBJC_METACLASS_$_HKWorkoutStrengthTrainingSetWrapper
++ _OBJC_METACLASS_$__HKGeoServicesLocationShiftProvider
++ _OBJC_METACLASS_$__TtC9HealthKit21HKWorkoutRestActivity
++ _OBJC_METACLASS_$__TtC9HealthKit33HKWorkoutStrengthTrainingActivity
++ _OBJC_METACLASS_$__TtC9HealthKit34HKWorkoutRestExerciseConfiguration
++ _OBJC_METACLASS_$__TtC9HealthKit46HKWorkoutStrengthTrainingExerciseConfiguration
++ __CLASS_METHODS_HKWorkoutActivityUnitWrapper
++ __CLASS_METHODS_HKWorkoutStrengthTrainingSetWrapper
++ __CLASS_METHODS__TtC9HealthKit21HKWorkoutRestActivity
++ __CLASS_METHODS__TtC9HealthKit33HKWorkoutStrengthTrainingActivity
++ __CLASS_METHODS__TtC9HealthKit34HKWorkoutRestExerciseConfiguration
++ __CLASS_METHODS__TtC9HealthKit46HKWorkoutStrengthTrainingExerciseConfiguration
++ __CLASS_PROPERTIES_HKWorkoutActivityUnitWrapper
++ __CLASS_PROPERTIES_HKWorkoutStrengthTrainingSetWrapper
++ __CLASS_PROPERTIES__TtC9HealthKit21HKWorkoutRestActivity
++ __CLASS_PROPERTIES__TtC9HealthKit33HKWorkoutStrengthTrainingActivity
++ __CLASS_PROPERTIES__TtC9HealthKit34HKWorkoutRestExerciseConfiguration
++ __CLASS_PROPERTIES__TtC9HealthKit46HKWorkoutStrengthTrainingExerciseConfiguration
++ __DATA_HKWorkoutActivityUnitWrapper
++ __DATA_HKWorkoutStrengthTrainingSetWrapper
++ __DATA__TtC9HealthKit21HKWorkoutRestActivity
++ __DATA__TtC9HealthKit33HKWorkoutStrengthTrainingActivity
++ __DATA__TtC9HealthKit34HKWorkoutRestExerciseConfiguration
++ __DATA__TtC9HealthKit46HKWorkoutStrengthTrainingExerciseConfiguration
++ __HKPrivateMetadataKeyOriginalMHRecordUUID
++ __INSTANCE_METHODS_HKWorkoutActivityUnitWrapper
++ __INSTANCE_METHODS_HKWorkoutStrengthTrainingSetWrapper
++ __INSTANCE_METHODS__TtC9HealthKit21HKWorkoutRestActivity
++ __INSTANCE_METHODS__TtC9HealthKit33HKWorkoutStrengthTrainingActivity
++ __INSTANCE_METHODS__TtC9HealthKit34HKWorkoutRestExerciseConfiguration
++ __INSTANCE_METHODS__TtC9HealthKit46HKWorkoutStrengthTrainingExerciseConfiguration
++ __IVARS_HKWorkoutActivityUnitWrapper
++ __IVARS_HKWorkoutStrengthTrainingSetWrapper
++ __IVARS__TtC9HealthKit21HKWorkoutRestActivity
++ __IVARS__TtC9HealthKit33HKWorkoutStrengthTrainingActivity
++ __IVARS__TtC9HealthKit34HKWorkoutRestExerciseConfiguration
++ __IVARS__TtC9HealthKit46HKWorkoutStrengthTrainingExerciseConfiguration
++ __METACLASS_DATA_HKWorkoutActivityUnitWrapper
++ __METACLASS_DATA_HKWorkoutStrengthTrainingSetWrapper
++ __METACLASS_DATA__TtC9HealthKit21HKWorkoutRestActivity
++ __METACLASS_DATA__TtC9HealthKit33HKWorkoutStrengthTrainingActivity
++ __METACLASS_DATA__TtC9HealthKit34HKWorkoutRestExerciseConfiguration
++ __METACLASS_DATA__TtC9HealthKit46HKWorkoutStrengthTrainingExerciseConfiguration
++ __OBJC_$_CLASS_PROP_LIST_HKHealthStoreImplementation
++ __OBJC_$_INSTANCE_METHODS__HKGeoServicesLocationShiftProvider
++ __OBJC_$_INSTANCE_VARIABLES__HKGeoServicesLocationShiftProvider
++ __OBJC_$_PROP_LIST__HKGeoServicesLocationShiftProvider
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKUnitNameResolving
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS__HKLocationShiftProviding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HKUnitNameResolving
++ __OBJC_$_PROTOCOL_METHOD_TYPES__HKLocationShiftProviding
++ __OBJC_$_PROTOCOL_REFS_HKUnitNameResolving
++ __OBJC_$_PROTOCOL_REFS__HKLocationShiftProviding
++ __OBJC_CLASS_PROTOCOLS_$_HKUCUMUnitDisplayConverter
++ __OBJC_CLASS_PROTOCOLS_$__HKGeoServicesLocationShiftProvider
++ __OBJC_CLASS_RO_$__HKGeoServicesLocationShiftProvider
++ __OBJC_LABEL_PROTOCOL_$_HKUnitNameResolving
++ __OBJC_LABEL_PROTOCOL_$__HKLocationShiftProviding
++ __OBJC_METACLASS_RO_$__HKGeoServicesLocationShiftProvider
++ __OBJC_PROTOCOL_$_HKUnitNameResolving
++ __OBJC_PROTOCOL_$__HKLocationShiftProviding
++ __PROTOCOLS_HKWorkoutActivityUnitWrapper
++ __PROTOCOLS_HKWorkoutStrengthTrainingSetWrapper
++ __ZN13_HKLazyLoaderIU8__strongP13HKDeviceStateE3setES1_
++ __ZNKSt3__110__function6__funcIZ26-[_HKBehavior deviceState]E3$_4FP13HKDeviceStatevEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ26-[_HKBehavior deviceState]E3$_4FP13HKDeviceStatevEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ26-[_HKBehavior deviceState]E3$_4FP13HKDeviceStatevEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ26-[_HKBehavior deviceState]E3$_4FP13HKDeviceStatevEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_8FbvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_8FbvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_8FbvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_8FbvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_5FbvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_5FbvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_5FbvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_5FbvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_6FbvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_6FbvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_6FbvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_6FbvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_7FbvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_7FbvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_7FbvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_7FbvEE7__cloneEv
++ __ZNSt3__110__function12__value_funcIFP13HKDeviceStatevEED2B9nqe220106Ev
++ __ZNSt3__110__function6__funcIZ26-[_HKBehavior deviceState]E3$_4FP13HKDeviceStatevEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ26-[_HKBehavior deviceState]E3$_4FP13HKDeviceStatevEE7destroyEv
++ __ZNSt3__110__function6__funcIZ26-[_HKBehavior deviceState]E3$_4FP13HKDeviceStatevEED0Ev
++ __ZNSt3__110__function6__funcIZ26-[_HKBehavior deviceState]E3$_4FP13HKDeviceStatevEED1Ev
++ __ZNSt3__110__function6__funcIZ26-[_HKBehavior deviceState]E3$_4FP13HKDeviceStatevEEclEv
++ __ZNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_8FbvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_8FbvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_8FbvEED0Ev
++ __ZNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_8FbvEED1Ev
++ __ZNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_8FbvEEclEv
++ __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_5FbvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_5FbvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_5FbvEED0Ev
++ __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_5FbvEED1Ev
++ __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_5FbvEEclEv
++ __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_6FbvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_6FbvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_6FbvEED0Ev
++ __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_6FbvEED1Ev
++ __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_6FbvEEclEv
++ __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_7FbvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_7FbvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_7FbvEED0Ev
++ __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_7FbvEED1Ev
++ __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_7FbvEEclEv
++ __ZTINSt3__110__function6__baseIFP13HKDeviceStatevEEE
++ __ZTINSt3__110__function6__funcIZ26-[_HKBehavior deviceState]E3$_4FP13HKDeviceStatevEEE
++ __ZTINSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_8FbvEEE
++ __ZTINSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_5FbvEEE
++ __ZTINSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_6FbvEEE
++ __ZTINSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_7FbvEEE
++ __ZTIZ26-[_HKBehavior deviceState]E3$_4
++ __ZTIZ32-[_HKBehavior supportsWideGamut]E3$_8
++ __ZTIZ38-[_HKBehavior futureMigrationsEnabled]E3$_5
++ __ZTIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_6
++ __ZTIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_7
++ __ZTSNSt3__110__function6__baseIFP13HKDeviceStatevEEE
++ __ZTSNSt3__110__function6__funcIZ26-[_HKBehavior deviceState]E3$_4FP13HKDeviceStatevEEE
++ __ZTSNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_8FbvEEE
++ __ZTSNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_5FbvEEE
++ __ZTSNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_6FbvEEE
++ __ZTSNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_7FbvEEE
++ __ZTSZ26-[_HKBehavior deviceState]E3$_4
++ __ZTSZ32-[_HKBehavior supportsWideGamut]E3$_8
++ __ZTSZ38-[_HKBehavior futureMigrationsEnabled]E3$_5
++ __ZTSZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_6
++ __ZTSZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_7
++ __ZTVNSt3__110__function6__funcIZ26-[_HKBehavior deviceState]E3$_4FP13HKDeviceStatevEEE
++ __ZTVNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_8FbvEEE
++ __ZTVNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_5FbvEEE
++ __ZTVNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_6FbvEEE
++ __ZTVNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_7FbvEEE
++ ___41-[_HKFeatureFlags timeOrderedObjectUUIDs]_block_invoke
++ ___52-[_HKFeatureFlags observerQueryIndexedInitialAnchor]_block_invoke
++ ___55-[_HKFeatureFlags maintenanceYieldsToForegroundClients]_block_invoke
++ ___68-[HKHealthStoreImplementation _clientQueue_daemonDidFinishLaunching]_block_invoke
++ ___70-[HKHealthStoreImplementation _clientQueue_reactivateDeferredQueries:]_block_invoke
++ ___70-[HKHealthStoreImplementation _clientQueue_reactivateDeferredQueries:]_block_invoke_2
++ ___71-[HKHealthStoreImplementation _clientQueue_observeDaemonLaunchIfNeeded]_block_invoke
++ ___78-[HKHealthStoreImplementation unitTest_deferReactivationOfQueries:afterDelay:]_block_invoke
++ ___85-[_HKGeoServicesLocationShiftProvider shiftCoordinate:queue:completion:errorHandler:]_block_invoke
++ ___block_descriptor_40_e8_32bs_e16_v32?0{?=dd}8d24l
++ ___block_descriptor_64_e8_32s40s48s_e34_v24?0{CLLocationCoordinate2D=dd}8l
++ ___getGEOResourceManifestManagerClass_block_invoke
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_assign_boxed_opaque_existential_0
++ ___swift_closure_destructor.13Tm
++ ___swift_closure_destructor.76Tm
++ _arc4random_buf
++ _associated conformance 9HealthKit17HKWorkoutRestTypeOSHAASQ
++ _associated conformance 9HealthKit18HKWorkoutEquipmentOSHAASQ
++ _associated conformance 9HealthKit18HKWorkoutEquipmentOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9HealthKit19HKMetadataValueTypeO10CodingKeysOSHAASQ
++ _associated conformance 9HealthKit19HKMetadataValueTypeO10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit19HKMetadataValueTypeO10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit19HKMetadataValueTypeOSHAASQ
++ _associated conformance 9HealthKit19HKWorkoutMuscleSideVSHAASQ
++ _associated conformance 9HealthKit19HKWorkoutMuscleSideVs10SetAlgebraAASQ
++ _associated conformance 9HealthKit19HKWorkoutMuscleSideVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 9HealthKit19HKWorkoutMuscleSideVs9OptionSetAASY
++ _associated conformance 9HealthKit19HKWorkoutMuscleSideVs9OptionSetAAs0G7Algebra
++ _associated conformance 9HealthKit20HKWorkoutMuscleGroupOSHAASQ
++ _associated conformance 9HealthKit20HKWorkoutMuscleGroupOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9HealthKit21HKWorkoutActivityUnitO10CodingKeys33_5544A40A8B0FD1D8EECEB39100AEDBC0LLOSHAASQ
++ _associated conformance 9HealthKit21HKWorkoutActivityUnitO10CodingKeys33_5544A40A8B0FD1D8EECEB39100AEDBC0LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit21HKWorkoutActivityUnitO10CodingKeys33_5544A40A8B0FD1D8EECEB39100AEDBC0LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit21HKWorkoutActivityUnitO14RestCodingKeys33_5544A40A8B0FD1D8EECEB39100AEDBC0LLOSHAASQ
++ _associated conformance 9HealthKit21HKWorkoutActivityUnitO14RestCodingKeys33_5544A40A8B0FD1D8EECEB39100AEDBC0LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit21HKWorkoutActivityUnitO14RestCodingKeys33_5544A40A8B0FD1D8EECEB39100AEDBC0LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit21HKWorkoutActivityUnitO15GroupCodingKeys33_5544A40A8B0FD1D8EECEB39100AEDBC0LLOSHAASQ
++ _associated conformance 9HealthKit21HKWorkoutActivityUnitO15GroupCodingKeys33_5544A40A8B0FD1D8EECEB39100AEDBC0LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit21HKWorkoutActivityUnitO15GroupCodingKeys33_5544A40A8B0FD1D8EECEB39100AEDBC0LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit21HKWorkoutActivityUnitO18StrengthCodingKeys33_5544A40A8B0FD1D8EECEB39100AEDBC0LLOSHAASQ
++ _associated conformance 9HealthKit21HKWorkoutActivityUnitO18StrengthCodingKeys33_5544A40A8B0FD1D8EECEB39100AEDBC0LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit21HKWorkoutActivityUnitO18StrengthCodingKeys33_5544A40A8B0FD1D8EECEB39100AEDBC0LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit21HKWorkoutActivityUnitOSHAASQ
++ _associated conformance 9HealthKit21HKWorkoutRestExerciseV10CodingKeysOSHAASQ
++ _associated conformance 9HealthKit21HKWorkoutRestExerciseV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit21HKWorkoutRestExerciseV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit21HKWorkoutRestExerciseVSHAASQ
++ _associated conformance 9HealthKit21HKWorkoutTrainingTierOSHAASQ
++ _associated conformance 9HealthKit21HKWorkoutTrainingTierOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9HealthKit22HKWorkoutBodyFocusAreaOSHAASQ
++ _associated conformance 9HealthKit22HKWorkoutBodyFocusAreaOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9HealthKit22HKWorkoutMovementPhaseOSHAASQ
++ _associated conformance 9HealthKit22HKWorkoutMovementPhaseOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9HealthKit23HKWorkoutRepetitionTypeO10CodingKeys33_3943DE4EB02627F840FF2D3D57DDC4F7LLOSHAASQ
++ _associated conformance 9HealthKit23HKWorkoutRepetitionTypeO10CodingKeys33_3943DE4EB02627F840FF2D3D57DDC4F7LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit23HKWorkoutRepetitionTypeO10CodingKeys33_3943DE4EB02627F840FF2D3D57DDC4F7LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit23HKWorkoutRepetitionTypeO15ValueCodingKeys33_3943DE4EB02627F840FF2D3D57DDC4F7LLOSHAASQ
++ _associated conformance 9HealthKit23HKWorkoutRepetitionTypeO15ValueCodingKeys33_3943DE4EB02627F840FF2D3D57DDC4F7LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit23HKWorkoutRepetitionTypeO15ValueCodingKeys33_3943DE4EB02627F840FF2D3D57DDC4F7LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit23HKWorkoutRepetitionTypeO17UnknownCodingKeys33_3943DE4EB02627F840FF2D3D57DDC4F7LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit23HKWorkoutRepetitionTypeO17UnknownCodingKeys33_3943DE4EB02627F840FF2D3D57DDC4F7LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit23HKWorkoutRepetitionTypeO23NotApplicableCodingKeys33_3943DE4EB02627F840FF2D3D57DDC4F7LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit23HKWorkoutRepetitionTypeO23NotApplicableCodingKeys33_3943DE4EB02627F840FF2D3D57DDC4F7LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit23HKWorkoutRepetitionTypeOSHAASQ
++ _associated conformance 9HealthKit23SleepSessionQueryAnchorV10CodingKeys33_0AE23B68633F862EE7F7ADA777FCAB25LLOyx_GSHAASQ
++ _associated conformance 9HealthKit23SleepSessionQueryAnchorV10CodingKeys33_0AE23B68633F862EE7F7ADA777FCAB25LLOyx_Gs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit23SleepSessionQueryAnchorV10CodingKeys33_0AE23B68633F862EE7F7ADA777FCAB25LLOyx_Gs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit23SleepSessionQueryAnchorVyxGSHAASQ
++ _associated conformance 9HealthKit25HKWorkoutMovementSymmetryOSHAASQ
++ _associated conformance 9HealthKit25HKWorkoutMovementSymmetryOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9HealthKit25HKWorkoutStrengthExerciseV10CodingKeysOSHAASQ
++ _associated conformance 9HealthKit25HKWorkoutStrengthExerciseV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit25HKWorkoutStrengthExerciseV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit25HKWorkoutStrengthExerciseVSHAASQ
++ _associated conformance 9HealthKit26HKWorkoutMovementHierarchyOSHAASQ
++ _associated conformance 9HealthKit26HKWorkoutMovementHierarchyOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9HealthKit26HKWorkoutRestConfigurationV10CodingKeysOSHAASQ
++ _associated conformance 9HealthKit26HKWorkoutRestConfigurationV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit26HKWorkoutRestConfigurationV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit26HKWorkoutRestConfigurationVSHAASQ
++ _associated conformance 9HealthKit26SleepVitalsDemoDataVersionOSHAASQ
++ _associated conformance 9HealthKit27HKWorkoutMovementMotionAxisOSHAASQ
++ _associated conformance 9HealthKit27HKWorkoutMovementMotionAxisOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9HealthKit27HKWorkoutMovementMotionPathOSHAASQ
++ _associated conformance 9HealthKit27HKWorkoutMovementMotionPathOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9HealthKit27HKWorkoutMovementMotionTypeOSHAASQ
++ _associated conformance 9HealthKit27HKWorkoutMovementMotionTypeOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9HealthKit27HKWorkoutStrengthActionTypeO10CodingKeys33_2EE76089D430D02FCFD6D3C5AD5C6D9ELLOSHAASQ
++ _associated conformance 9HealthKit27HKWorkoutStrengthActionTypeO10CodingKeys33_2EE76089D430D02FCFD6D3C5AD5C6D9ELLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit27HKWorkoutStrengthActionTypeO10CodingKeys33_2EE76089D430D02FCFD6D3C5AD5C6D9ELLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit27HKWorkoutStrengthActionTypeO13SetCodingKeys33_2EE76089D430D02FCFD6D3C5AD5C6D9ELLOSHAASQ
++ _associated conformance 9HealthKit27HKWorkoutStrengthActionTypeO13SetCodingKeys33_2EE76089D430D02FCFD6D3C5AD5C6D9ELLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit27HKWorkoutStrengthActionTypeO13SetCodingKeys33_2EE76089D430D02FCFD6D3C5AD5C6D9ELLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit27HKWorkoutStrengthActionTypeO14RestCodingKeys33_2EE76089D430D02FCFD6D3C5AD5C6D9ELLOSHAASQ
++ _associated conformance 9HealthKit27HKWorkoutStrengthActionTypeO14RestCodingKeys33_2EE76089D430D02FCFD6D3C5AD5C6D9ELLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit27HKWorkoutStrengthActionTypeO14RestCodingKeys33_2EE76089D430D02FCFD6D3C5AD5C6D9ELLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit27HKWorkoutStrengthActionTypeOSHAASQ
++ _associated conformance 9HealthKit28HKWorkoutMovementForceVectorOSHAASQ
++ _associated conformance 9HealthKit28HKWorkoutMovementForceVectorOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9HealthKit28HKWorkoutMovementMeasurementOSHAASQ
++ _associated conformance 9HealthKit28HKWorkoutMovementMeasurementOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9HealthKit28HKWorkoutMovementOrientationOSHAASQ
++ _associated conformance 9HealthKit28HKWorkoutMovementOrientationOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9HealthKit28HKWorkoutStrengthTrainingSetV10CodingKeys33_953E828896FB866562A49255DE76AAC9LLOSHAASQ
++ _associated conformance 9HealthKit28HKWorkoutStrengthTrainingSetV10CodingKeys33_953E828896FB866562A49255DE76AAC9LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit28HKWorkoutStrengthTrainingSetV10CodingKeys33_953E828896FB866562A49255DE76AAC9LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit28HKWorkoutStrengthTrainingSetVAA0C27ActionDescriptionCollectionAA0G0AaDP_AA0cG10Describing
++ _associated conformance 9HealthKit28HKWorkoutStrengthTrainingSetVSHAASQ
++ _associated conformance 9HealthKit30HKWorkoutStrengthConfigurationV10CodingKeysOSHAASQ
++ _associated conformance 9HealthKit30HKWorkoutStrengthConfigurationV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit30HKWorkoutStrengthConfigurationV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit30HKWorkoutStrengthConfigurationVSHAASQ
++ _associated conformance 9HealthKit31HKWorkoutStrengthTrainingMetricV10CodingKeys33_3943DE4EB02627F840FF2D3D57DDC4F7LLOSHAASQ
++ _associated conformance 9HealthKit31HKWorkoutStrengthTrainingMetricV10CodingKeys33_3943DE4EB02627F840FF2D3D57DDC4F7LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9HealthKit31HKWorkoutStrengthTrainingMetricV10CodingKeys33_3943DE4EB02627F840FF2D3D57DDC4F7LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9HealthKit31HKWorkoutStrengthTrainingMetricVSHAASQ
++ _associated conformance 9HealthKit37HKWorkoutStrengthTrainingExerciseTypeOSHAASQ
++ _associated conformance 9HealthKit37HKWorkoutStrengthTrainingExerciseTypeOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance So28HKWorkoutSessionLocationTypeVSHSCSQ
++ _clock_gettime_nsec_np
++ _getGEOResourceManifestManagerClass.softClass
++ _get_enum_tag_for_layout_string 9HealthKit34HKWorkoutActivityUnitConfigurationO
++ _kHKBridgeBundleIdentifier
++ _kHKHAKeyCompletedBuddyConfiguration
++ _kHKHAOmakaseConfigurationFirstEnabledDateKey
++ _kHKHAOmakaseConfigurationStateKey
++ _kHKHAOmakaseCycleTrackingChannelVisibleKey
++ _kHKHAOmakaseHiddenHealthCategoriesKey
++ _kHKHAOmakaseKeyValueDomainName
++ _kHKMedicalIDFamilySetupFollowUpNotificationIdentifier
++ _kHKMedicalIDFamilySetupFollowUpReviewActionIdentifier
++ _kHKMedicalIDFamilySetupFollowUpReviewCompletedDateKey
++ _kHKMedicalIDFamilySetupFollowUpUniqueIdentifier
++ _kHKMedicalIDFollowUpExtensionIdentifier
++ _kHKMedicalIDPrimaryFollowUpReviewActionIdentifier
++ _kHKMedicalIDPrimaryFollowUpReviewCompletedDateKey
++ _kHKMedicalIDPrimaryFollowUpUniqueIdentifier
++ _objc_msgSend$_clientQueue_daemonDidFinishLaunching
++ _objc_msgSend$_clientQueue_observeDaemonLaunchIfNeeded
++ _objc_msgSend$_clientQueue_performAfterDelay:block:
++ _objc_msgSend$_clientQueue_reactivateDeferredQueries:
++ _objc_msgSend$_completedBuddyConfiguration
++ _objc_msgSend$_hasCompletedBuddyWithVersion:configuration:
++ _objc_msgSend$_newUUID
++ _objc_msgSend$_scheduleReactivationOfQueries:afterDelay:
++ _objc_msgSend$_setHasCompletedBuddyWithVersion:configuration:
++ _objc_msgSend$_shouldShowBuddyWithConfiguration:
++ _objc_msgSend$activeTileGroup
++ _objc_msgSend$appleIntelligenceEligibility
++ _objc_msgSend$current
++ _objc_msgSend$currentActivityNodeWrapper
++ _objc_msgSend$deviceKind
++ _objc_msgSend$deviceState
++ _objc_msgSend$getReferenceSex:error:
++ _objc_msgSend$hasCompletedBuddyWithVersion:configuration:
++ _objc_msgSend$hk_timeOrderedUUID
++ _objc_msgSend$initInternalActivityWithWorkoutConfiguration:startDate:endDate:metadata:hasPrivateMetadataAccess:
++ _objc_msgSend$initInternalActivityWithWorkoutConfiguration:startDate:endDate:metadata:skipValidation:
++ _objc_msgSend$initWithDeviceKind:
++ _objc_msgSend$initWithNanoRegistryCapabilities:supportedOnLocalDevice:
++ _objc_msgSend$initWithRawValue:comparatorCoding:unitCoding:unitConceptIdentifier:
++ _objc_msgSend$initWithShiftProvider:
++ _objc_msgSend$initWithType:localDevice:productTypeName:currentOSName:currentOSVersion:modificationDate:appleIntelligenceEligibility:
++ _objc_msgSend$isReality
++ _objc_msgSend$isShiftRequiredForCoordinate:
++ _objc_msgSend$isiPhone
++ _objc_msgSend$loadShiftRegionsIfNeeded
++ _objc_msgSend$medicalHistoryRecordTypes
++ _objc_msgSend$modernManager
++ _objc_msgSend$parentResourceIdentifierWithError:
++ _objc_msgSend$remote_addWorkoutActivityUnitWithWrapper:completion:
++ _objc_msgSend$remote_discardCurrentActivityUnitWithCompletion:
++ _objc_msgSend$remote_endCurrentActivityUnitWithDate:completion:
++ _objc_msgSend$remote_replaceWorkoutActivityUnitOld:newUnit:completion:
++ _objc_msgSend$remote_updateCurrentActivityAddingSetWrapper:completion:
++ _objc_msgSend$setSeymourSExerciseIdentifier:
++ _objc_msgSend$setSeymourSWorkoutIdentifier:
++ _objc_msgSend$seymourSExerciseIdentifier
++ _objc_msgSend$seymourSWorkoutIdentifier
++ _objc_msgSend$shiftCoordinate:queue:completion:errorHandler:
++ _objc_msgSend$timeOrderedObjectUUIDs
++ _objc_msgSend$unitConceptIdentifier
++ _objc_msgSend$unitTest_deferredQueryReactivationHandler
++ _objc_msgSend$unitTest_deferredQueryReactivationScheduler
++ _symbolic $s9HealthKit13ConfigurationO8WithAsOfP
++ _symbolic $s9HealthKit25HKWorkoutActionDescribingP
++ _symbolic $s9HealthKit25HKWorkoutMetricsProvidingP
++ _symbolic $s9HealthKit31HKWorkoutActivityUnitsProvidingP
++ _symbolic $s9HealthKit36HKWorkoutActionDescriptionCollectionP
++ _symbolic 6Action_____Qz 9HealthKit36HKWorkoutActionDescriptionCollectionP
++ _symbolic S2bSo7NSErrorCSgIeyBhyyy_
++ _symbolic S2b______pSgIeghyyg_ s5ErrorP
++ _symbolic SDySS_____GSg 9HealthKit19HKMetadataValueTypeO
++ _symbolic SDySo14HKQuantityTypeCSo12HKStatisticsCG
++ _symbolic SaySo14HKWorkoutEventCG
++ _symbolic Say_____G 9HealthKit18HKWorkoutEquipmentO
++ _symbolic Say_____G 9HealthKit20HKWorkoutMuscleGroupO
++ _symbolic Say_____G 9HealthKit21HKWorkoutActivityUnitO
++ _symbolic Say_____G 9HealthKit21HKWorkoutTrainingTierO
++ _symbolic Say_____G 9HealthKit22HKWorkoutBodyFocusAreaO
++ _symbolic Say_____G 9HealthKit22HKWorkoutMovementPhaseO
++ _symbolic Say_____G 9HealthKit25HKWorkoutMovementSymmetryO
++ _symbolic Say_____G 9HealthKit26HKWorkoutMovementHierarchyO
++ _symbolic Say_____G 9HealthKit27HKWorkoutMovementMotionAxisO
++ _symbolic Say_____G 9HealthKit27HKWorkoutMovementMotionPathO
++ _symbolic Say_____G 9HealthKit27HKWorkoutMovementMotionTypeO
++ _symbolic Say_____G 9HealthKit28HKWorkoutMovementForceVectorO
++ _symbolic Say_____G 9HealthKit28HKWorkoutMovementMeasurementO
++ _symbolic Say_____G 9HealthKit28HKWorkoutMovementOrientationO
++ _symbolic Say_____G 9HealthKit28HKWorkoutStrengthTrainingSetV
++ _symbolic Say_____G 9HealthKit31HKWorkoutStrengthTrainingMetricV
++ _symbolic Say_____G 9HealthKit37HKWorkoutStrengthTrainingExerciseTypeO
++ _symbolic Say_____GSg 9HealthKit27HKWorkoutStrengthActionTypeO
++ _symbolic Say_____GSg 9HealthKit28HKWorkoutStrengthTrainingSetV
++ _symbolic SccySaySo8HKSampleCG______pG s5ErrorP
++ _symbolic Shy_____G 9HealthKit20HKWorkoutMuscleGroupO
++ _symbolic Shy_____GSg 9HealthKit18HKWorkoutEquipmentO
++ _symbolic Si8repCount_t
++ _symbolic So16HKWorkoutBuilderC
++ _symbolic So16HKWorkoutBuilderCXDXMT
++ _symbolic _____ 9HealthKit15HKWorkoutWeightO
++ _symbolic _____ 9HealthKit17HKWorkoutRestTypeO
++ _symbolic _____ 9HealthKit18HKWorkoutEquipmentO
++ _symbolic _____ 9HealthKit19HKMetadataValueTypeO
++ _symbolic _____ 9HealthKit19HKMetadataValueTypeO10CodingKeysO
++ _symbolic _____ 9HealthKit19HKWorkoutMuscleSideV
++ _symbolic _____ 9HealthKit20HKWorkoutMuscleGroupO
++ _symbolic _____ 9HealthKit21HKWorkoutActivityUnitO
++ _symbolic _____ 9HealthKit21HKWorkoutActivityUnitO10CodingKeys33_5544A40A8B0FD1D8EECEB39100AEDBC0LLO
++ _symbolic _____ 9HealthKit21HKWorkoutActivityUnitO14RestCodingKeys33_5544A40A8B0FD1D8EECEB39100AEDBC0LLO
++ _symbolic _____ 9HealthKit21HKWorkoutActivityUnitO15GroupCodingKeys33_5544A40A8B0FD1D8EECEB39100AEDBC0LLO
++ _symbolic _____ 9HealthKit21HKWorkoutActivityUnitO18StrengthCodingKeys33_5544A40A8B0FD1D8EECEB39100AEDBC0LLO
++ _symbolic _____ 9HealthKit21HKWorkoutRestActivityC
++ _symbolic _____ 9HealthKit21HKWorkoutRestExerciseV
++ _symbolic _____ 9HealthKit21HKWorkoutRestExerciseV10CodingKeysO
++ _symbolic _____ 9HealthKit21HKWorkoutTrainingTierO
++ _symbolic _____ 9HealthKit22HKWorkoutBodyFocusAreaO
++ _symbolic _____ 9HealthKit22HKWorkoutMovementPhaseO
++ _symbolic _____ 9HealthKit23HKWorkoutRepetitionTypeO
++ _symbolic _____ 9HealthKit23HKWorkoutRepetitionTypeO10CodingKeys33_3943DE4EB02627F840FF2D3D57DDC4F7LLO
++ _symbolic _____ 9HealthKit23HKWorkoutRepetitionTypeO15ValueCodingKeys33_3943DE4EB02627F840FF2D3D57DDC4F7LLO
++ _symbolic _____ 9HealthKit23HKWorkoutRepetitionTypeO17UnknownCodingKeys33_3943DE4EB02627F840FF2D3D57DDC4F7LLO
++ _symbolic _____ 9HealthKit23HKWorkoutRepetitionTypeO23NotApplicableCodingKeys33_3943DE4EB02627F840FF2D3D57DDC4F7LLO
++ _symbolic _____ 9HealthKit23SleepSessionQueryAnchorV
++ _symbolic _____ 9HealthKit23SleepSessionQueryAnchorV10CodingKeys33_0AE23B68633F862EE7F7ADA777FCAB25LLO
++ _symbolic _____ 9HealthKit25HKWorkoutMovementSymmetryO
++ _symbolic _____ 9HealthKit25HKWorkoutStrengthExerciseV
++ _symbolic _____ 9HealthKit25HKWorkoutStrengthExerciseV10CodingKeysO
++ _symbolic _____ 9HealthKit26HKWorkoutMovementHierarchyO
++ _symbolic _____ 9HealthKit26HKWorkoutRestConfigurationV
++ _symbolic _____ 9HealthKit26HKWorkoutRestConfigurationV10CodingKeysO
++ _symbolic _____ 9HealthKit26SleepVitalsDemoDataVersionO
++ _symbolic _____ 9HealthKit27HKWorkoutMovementMotionAxisO
++ _symbolic _____ 9HealthKit27HKWorkoutMovementMotionPathO
++ _symbolic _____ 9HealthKit27HKWorkoutMovementMotionTypeO
++ _symbolic _____ 9HealthKit27HKWorkoutStrengthActionTypeO
++ _symbolic _____ 9HealthKit27HKWorkoutStrengthActionTypeO10CodingKeys33_2EE76089D430D02FCFD6D3C5AD5C6D9ELLO
++ _symbolic _____ 9HealthKit27HKWorkoutStrengthActionTypeO13SetCodingKeys33_2EE76089D430D02FCFD6D3C5AD5C6D9ELLO
++ _symbolic _____ 9HealthKit27HKWorkoutStrengthActionTypeO14RestCodingKeys33_2EE76089D430D02FCFD6D3C5AD5C6D9ELLO
++ _symbolic _____ 9HealthKit28HKWorkoutMovementForceVectorO
++ _symbolic _____ 9HealthKit28HKWorkoutMovementMeasurementO
++ _symbolic _____ 9HealthKit28HKWorkoutMovementOrientationO
++ _symbolic _____ 9HealthKit28HKWorkoutStrengthTrainingSetV
++ _symbolic _____ 9HealthKit28HKWorkoutStrengthTrainingSetV10CodingKeys33_953E828896FB866562A49255DE76AAC9LLO
++ _symbolic _____ 9HealthKit30HKWorkoutStrengthConfigurationV
++ _symbolic _____ 9HealthKit30HKWorkoutStrengthConfigurationV10CodingKeysO
++ _symbolic _____ 9HealthKit31HKWorkoutStrengthTrainingMetricV
++ _symbolic _____ 9HealthKit31HKWorkoutStrengthTrainingMetricV10CodingKeys33_3943DE4EB02627F840FF2D3D57DDC4F7LLO
++ _symbolic _____ 9HealthKit33HKWorkoutStrengthTrainingActivityC
++ _symbolic _____ 9HealthKit34HKWorkoutActivityUnitConfigurationO
++ _symbolic _____ 9HealthKit34HKWorkoutRestExerciseConfigurationC
++ _symbolic _____ 9HealthKit37HKWorkoutStrengthTrainingExerciseTypeO
++ _symbolic _____ 9HealthKit46HKWorkoutStrengthTrainingExerciseConfigurationC
++ _symbolic _____ So28HKWorkoutSessionLocationTypeV
++ _symbolic _____Sg 9HealthKit26SleepVitalsDemoDataVersionO
++ _symbolic _____ySayxGG 15HealthUtilities30CancellableCheckedContinuationC
++ _symbolic _____ySo7HKQueryCSgG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____ySo7HKQueryCSgG_Xx 15Synchronization5MutexVAARi_zrlE
++ _type_layout_string 9HealthKit15HKWorkoutWeightO
++ _type_layout_string 9HealthKit19HKWorkoutMuscleSideV
++ _type_layout_string 9HealthKit26HKWorkoutRestConfigurationV
++ _type_layout_string 9HealthKit28HKWorkoutStrengthTrainingSetV
++ _type_layout_string 9HealthKit30HKWorkoutStrengthConfigurationV
++ _type_layout_string 9HealthKit31HKWorkoutStrengthTrainingMetricV
++ _type_layout_string 9HealthKit34HKWorkoutActivityUnitConfigurationO
+- +[_HKBehavior _hasCompletedBuddyWithVersion:intelligentConfiguration:]
+- +[_HKBehavior _isiPad]
+- +[_HKBehavior _setHasCompletedBuddyWithVersion:intelligentConfiguration:]
+- +[_HKBehavior _shouldShowBuddyWithIntelligentConfiguration:]
+- +[_HKBehavior hasCompletedBuddyWithVersion:intelligentConfiguration:]
+- +[_HKBehavior setHasCompletedBuddyWithVersion:intelligentConfiguration:]
+- +[_HKBehavior shouldShowBuddyWithIntelligentConfiguration:]
+- -[HKDeviceContext initWithType:localDevice:productTypeName:currentOSName:currentOSVersion:modificationDate:]
+- -[HKFeatureAvailabilityRequirementCapabilityIsSupportedOnAnyWatch nanoRegistryCapability]
+- -[_HKBehavior _initializeDeviceType]
+- -[_HKBehavior supportsAllOrientations]
+- -[_HKFeatureFlags health365ContentRoom]
+- -[_HKFeatureFlags phoneLandscapeSupport]
+- -[_HKFeatureFlags safetyOrchestrationMigration]
+- -[_HKFeatureFlags setHealth365ContentRoom:]
+- -[_HKFeatureFlags setPhoneLandscapeSupport:]
+- -[_HKFeatureFlags setSafetyOrchestrationMigration:]
+- -[_HKFeatureFlags setSignificantChange:]
+- -[_HKFeatureFlags significantChange]
+- GCC_except_table102
+- GCC_except_table125
+- GCC_except_table126
+- GCC_except_table133
+- GCC_except_table137
+- GCC_except_table148
+- GCC_except_table151
+- GCC_except_table164
+- GCC_except_table209
+- GCC_except_table285
+- GCC_except_table290
+- GCC_except_table300
+- GCC_except_table379
+- GCC_except_table81
+- _HKBloodPressureClassificationCategoryESCHypertensiveEmergency
+- _OBJC_IVAR_$_HKFeatureAvailabilityRequirementCapabilityIsSupportedOnAnyWatch._nanoRegistryCapability
+- _OBJC_IVAR_$__HKBehavior._behaviorDeviceType
+- _OBJC_IVAR_$__HKFeatureFlags._health365ContentRoom
+- _OBJC_IVAR_$__HKFeatureFlags._phoneLandscapeSupport
+- _OBJC_IVAR_$__HKFeatureFlags._safetyOrchestrationMigration
+- _OBJC_IVAR_$__HKFeatureFlags._significantChange
+- __ZNKSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEE7__cloneEv
+- __ZNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEED0Ev
+- __ZNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEED1Ev
+- __ZNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEEclEv
+- __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEED0Ev
+- __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEED1Ev
+- __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEEclEv
+- __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEED0Ev
+- __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEED1Ev
+- __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEEclEv
+- __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEED0Ev
+- __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEED1Ev
+- __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEEclEv
+- __ZTINSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEEE
+- __ZTINSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEEE
+- __ZTINSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEEE
+- __ZTINSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEEE
+- __ZTIZ32-[_HKBehavior supportsWideGamut]E3$_7
+- __ZTIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4
+- __ZTIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5
+- __ZTIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6
+- __ZTSNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEEE
+- __ZTSNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEEE
+- __ZTSNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEEE
+- __ZTSNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEEE
+- __ZTSZ32-[_HKBehavior supportsWideGamut]E3$_7
+- __ZTSZ38-[_HKBehavior futureMigrationsEnabled]E3$_4
+- __ZTSZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5
+- __ZTSZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6
+- __ZTVNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEEE
+- __ZTVNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEEE
+- __ZTVNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEEE
+- __ZTVNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEEE
+- ___36-[_HKFeatureFlags significantChange]_block_invoke
+- ___39-[_HKFeatureFlags health365ContentRoom]_block_invoke
+- ___40-[_HKFeatureFlags phoneLandscapeSupport]_block_invoke
+- ___47-[_HKFeatureFlags safetyOrchestrationMigration]_block_invoke
+- ___73-[HKHealthStoreImplementation _scheduleReactivationOfQueries:afterDelay:]_block_invoke_2
+- ___block_descriptor_64_e8_32s40s48s_e16_v32?0{?=dd}8d24l
+- _kHKMedicalIDFollowUpReviewActionIdentifier
+- _kHKMedicalIDFollowUpUniqueIdentifier
+- _objc_msgSend$_hasCompletedBuddyWithVersion:intelligentConfiguration:
+- _objc_msgSend$_initializeDeviceType
+- _objc_msgSend$_isiPad
+- _objc_msgSend$_setHasCompletedBuddyWithVersion:intelligentConfiguration:
+- _objc_msgSend$_shouldShowBuddyWithIntelligentConfiguration:
+- _objc_msgSend$hasCompletedBuddyWithVersion:intelligentConfiguration:
+- _objc_msgSend$initWithType:localDevice:productTypeName:currentOSName:currentOSVersion:modificationDate:
+- _objc_msgSend$phoneLandscapeSupport
+- _objc_msgSend$remoteConnectionDelegate
+- _objc_msgSend$setHasCompletedBuddyWithVersion:intelligentConfiguration:
+- _symbolic SccySo20HKReferenceSexObjectC______pG s5ErrorP
+CStrings:
++ " is after exercise "
++ " is not valid. Please use proper weight units"
++ " must have an endDate"
++ " which is after exercise  "
++ "%s: (#w0) Failed to add activity unit: %@"
++ "%s: (#w0) Failed to discard current activity unit: %@"
++ "%s: (#w0) Failed to end current activity unit: %@"
++ "%s: (#w0) Failed to end current activity: %@"
++ "%s: (#w0) Failed to replace activity unit: %@"
++ "%s: (#w1) Failed to add activity unit"
++ "%s: (#w1) Failed to add sets to current activity unit"
++ "%s: (#w1) Failed to discard current activity unit"
++ "%s: (#w1) Failed to end current activity unit"
++ "%s: (#w1) Failed to replace activity unit"
++ "%s: (#w1) Successfully added activity unit"
++ "%s: (#w1) Successfully added sets to current activity unit"
++ "%s: (#w1) Successfully discarded current activity unit"
++ "%s: (#w1) Successfully ended current activity unit"
++ "%s: (#w1) Successfully replaced activity unit"
++ ") cannot be less than or equal to endDate ("
++ "<%@:%p type=%@, representsLocalDevice=%d, productType=%@, currentOS=%@, currentOSVersion=%@, modificationDate=%@, appleIntelligenceEligibility=%@>"
++ "<%@:%p value = %@, comparatorCoding = %@, unitCoding = %@, unitConceptIdentifier = %@>"
++ "An unknown error occured"
++ "An unknown error occured. Proxy is unexpectedly nil"
++ "AppleIntelligenceEligibility"
++ "At least one watch must have one of the capabilities %@"
++ "CHL"
++ "CHL.Elevated"
++ "CHL.MildHypertension"
++ "CHL.ModerateHypertension"
++ "CHL.Normal"
++ "CHL.SevereHypertension"
++ "Chinese Hypertension League (CHL)"
++ "Class  _Nonnull getGEOResourceManifestManagerClass(void)_block_invoke"
++ "CompletedBuddyConfiguration"
++ "Daemon finished launching; reactivating %lu deferred queries in %.3fs"
++ "ESC.SevereHypertension"
++ "Eligible"
++ "Exercise at index "
++ "Exercise must have an endDate"
++ "Exercise overlap. Exercise ends at "
++ "Exercises must be ordered by startDate. Exercise starting at "
++ "Failed to get proxy for HKWorkoutSessionServerInterface"
++ "Failed to observe %{public}@ (status %u)"
++ "GEOResourceManifestManager"
++ "HKHealthStore:hasAnyMedicalHistoryRecords"
++ "HealthKit.HKWorkoutRestActivity"
++ "HealthKit.HKWorkoutRestExerciseConfiguration"
++ "HealthKit.HKWorkoutStrengthTrainingActivity"
++ "HealthKit.HKWorkoutStrengthTrainingExerciseConfiguration"
++ "HealthKit/HKWorkoutActivityUnit.swift"
++ "HealthKit/HKWorkoutBuilderExtension.swift"
++ "HealthKit/HKWorkoutRestConfiguration.swift"
++ "HealthKit/HKWorkoutStrengthConfiguration.swift"
++ "MaintenanceYieldsToForegroundClients"
++ "Maybe"
++ "Must have at least one set"
++ "NSCoder does not contain workout set key"
++ "NSCoder does not contain workout unit key"
++ "NSCoder mismatch type for workout set key"
++ "NSCoder mismatch type for workout unit key"
++ "No valid key found"
++ "NotEligible"
++ "NotYetAvailable"
++ "ObserverQueryIndexedInitialAnchor"
++ "REFERENCE_SEX"
++ "Reps must be greater than 0"
++ "Start date is unexpectedly nil"
++ "Sub-unit configuration not supported"
++ "The sets are not the correct type"
++ "Unexpected Exercise type value"
++ "Unexpected Rest type value"
++ "Unexpected type when attempting to copy Strength training exercise configuration"
++ "Unexpected type when attempting to copy rest exercise configuration"
++ "UnitConceptIdentifier"
++ "Unrecognized os_eligibility answer "
++ "Weight must be greater than zero"
++ "Weight quantity value "
++ "Wrong workout configuration"
++ "You have exceeded the maximum number of reps"
++ "You have exceeded the maximum number of sets"
++ "You have exceeded the maximum weight"
++ "[routes] No active tile group; location shift checks will go to geod"
++ "_HKPrivateOriginalMHRecordUUID"
++ "_HKPrivateSeymourStrengthExerciseIdentifier"
++ "_HKPrivateSeymourStrengthWorkoutIdentifier"
++ "addWorkoutActivityUnit(_:)"
++ "com.apple.Bridge"
++ "com.apple.Health.MedicalID.FollowUp.FamilySetupReviewAction"
++ "com.apple.Health.MedicalID.familySetupReviewFollowUp"
++ "com.apple.Health.MedicalID.familySetupReviewNotification"
++ "com.apple.health.HealthAppSupport.MedicalIDFollowUpExtension"
++ "com.apple.health.omakase.configuration"
++ "configurationFirstEnabledDate"
++ "configurationState"
++ "cycleTrackingChannelVisible"
++ "discardCurrentActivityUnit()"
++ "endCurrentActivityUnit(with:)"
++ "familySetupReviewFollowUpItemCompletedDate"
++ "healthAgePrecompute"
++ "hiddenHealthCategories"
++ "init(internalActivityWith:start:end:metadata:hasPrivateMetadataAccess:)"
++ "init(internalActivityWith:start:end:metadata:skipValidation:)"
++ "init(workoutConfiguration:start:end:metadata:)"
++ "maxDependentTypeAnchor"
++ "nanoRegistryCapabilities"
++ "replaceActivityUnit(_:with:)"
++ "reviewFollowUpItemCompletedDate"
++ "seymourStrengthExerciseIdentifier"
++ "seymourStrengthWorkoutIdentifier"
++ "sleepAnalysisSourceOrderAnchor"
++ "startDate endDate "
++ "startDate or endDate cannot be distant past or distant future"
++ "statisticsByType"
++ "timeOrderedObjectUUIDs"
++ "updateCurrentActivityUnit(adding:)"
++ "v24@?0{CLLocationCoordinate2D=dd}8"
++ "\xf0\xf0Q"
+- "<%@:%p type=%@, representsLocalDevice=%d, productType=%@, currentOS=%@, currentOSVersion=%@, modificationDate=%@>"
+- "<%@:%p value = %@, comparatorCoding = %@, unitCoding = %@>"
+- "At least one watch must have the the capability %@"
+- "ESC.HypertensiveEmergency"
+- "EnhancedLandscape"
+- "UIKit"
+- "health365ContentRoom"
+- "nanoRegistryCapability"
+- "phoneLandscapeSupport"
+- "safetyOrchestrationMigration"
+- "significantChange"
+```

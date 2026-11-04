@@ -1,0 +1,1155 @@
+## AuthenticationServices
+
+> `/System/iOSSupport/System/Library/Frameworks/AuthenticationServices.framework/Versions/A/AuthenticationServices`
+
+```diff
+
+-625.2.8.11.9
+-  __TEXT.__text: 0xea9e0
+-  __TEXT.__objc_methlist: 0x5438
+-  __TEXT.__const: 0x12394
+-  __TEXT.__gcc_except_tab: 0xf7c
+-  __TEXT.__cstring: 0x56bb
+-  __TEXT.__oslogstring: 0x239b
+-  __TEXT.__dlopen_cstrs: 0x1a8
+-  __TEXT.__ustring: 0x3608
+-  __TEXT.__swift5_typeref: 0x298a
+-  __TEXT.__constg_swiftt: 0x1da4
+-  __TEXT.__swift5_reflstr: 0x13cc
+-  __TEXT.__swift5_fieldmd: 0x268c
+-  __TEXT.__swift5_builtin: 0x190
+-  __TEXT.__swift5_assocty: 0x718
+-  __TEXT.__swift5_proto: 0x900
+-  __TEXT.__swift5_types: 0x2e0
++626.1.12.11.4
++  __TEXT.__text: 0x101044
++  __TEXT.__objc_methlist: 0x5f60
++  __TEXT.__const: 0x12994
++  __TEXT.__gcc_except_tab: 0x101c
++  __TEXT.__cstring: 0x67bb
++  __TEXT.__oslogstring: 0x2f1b
++  __TEXT.__dlopen_cstrs: 0x202
++  __TEXT.__ustring: 0x4f9a
++  __TEXT.__swift5_typeref: 0x2de4
++  __TEXT.__swift5_fieldmd: 0x27d4
++  __TEXT.__constg_swiftt: 0x1ed8
++  __TEXT.__swift5_reflstr: 0x151c
++  __TEXT.__swift5_builtin: 0x1a4
++  __TEXT.__swift5_assocty: 0x790
++  __TEXT.__swift5_proto: 0x930
++  __TEXT.__swift5_types: 0x2fc
+   __TEXT.__swift5_protos: 0x24
+-  __TEXT.__swift5_capture: 0xafc
+-  __TEXT.__swift_as_entry: 0x1d4
+-  __TEXT.__swift_as_ret: 0x228
+-  __TEXT.__swift_as_cont: 0x404
++  __TEXT.__swift5_capture: 0xcb4
++  __TEXT.__swift_as_entry: 0x230
++  __TEXT.__swift_as_ret: 0x2b4
++  __TEXT.__swift_as_cont: 0x4e0
+   __TEXT.__swift5_mpenum: 0x5c
+-  __TEXT.__unwind_info: 0x5898
+-  __TEXT.__eh_frame: 0x5a7c
++  __TEXT.__unwind_info: 0x60b0
++  __TEXT.__eh_frame: 0x6838
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1250
+-  __DATA_CONST.__objc_classlist: 0x3f8
+-  __DATA_CONST.__objc_catlist: 0x30
+-  __DATA_CONST.__objc_protolist: 0x210
++  __DATA_CONST.__const: 0x1550
++  __DATA_CONST.__objc_classlist: 0x458
++  __DATA_CONST.__objc_catlist: 0x40
++  __DATA_CONST.__objc_protolist: 0x240
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2a70
+-  __DATA_CONST.__objc_protorefs: 0xe0
+-  __DATA_CONST.__objc_superrefs: 0x250
++  __DATA_CONST.__objc_selrefs: 0x3408
++  __DATA_CONST.__objc_protorefs: 0xf8
++  __DATA_CONST.__objc_superrefs: 0x270
+   __DATA_CONST.__objc_arraydata: 0x170
+-  __DATA_CONST.__got: 0xaf0
+-  __AUTH_CONST.__const: 0x81c0
+-  __AUTH_CONST.__cfstring: 0x2c60
+-  __AUTH_CONST.__objc_const: 0xb9d0
++  __DATA_CONST.__got: 0xd40
++  __AUTH_CONST.__const: 0x8a48
++  __AUTH_CONST.__cfstring: 0x3a60
++  __AUTH_CONST.__objc_const: 0xcd90
+   __AUTH_CONST.__objc_arrayobj: 0xa8
+   __AUTH_CONST.__objc_intobj: 0x18
+-  __AUTH_CONST.__auth_got: 0x1358
+-  __AUTH.__objc_data: 0x2668
+-  __AUTH.__data: 0x13c0
+-  __DATA.__objc_ivar: 0x564
+-  __DATA.__data: 0x2c80
+-  __DATA.__bss: 0x10d60
++  __AUTH_CONST.__auth_got: 0x14e0
++  __AUTH.__objc_data: 0x2898
++  __AUTH.__data: 0x1590
++  __DATA.__objc_ivar: 0x5d8
++  __DATA.__data: 0x2f50
++  __DATA.__bss: 0x111b8
+   __DATA.__common: 0x20
+-  __DATA_DIRTY.__objc_data: 0x808
+-  __DATA_DIRTY.__data: 0x90
+-  __DATA_DIRTY.__bss: 0x20
++  __DATA_DIRTY.__objc_data: 0x920
++  __DATA_DIRTY.__data: 0xd8
++  __DATA_DIRTY.__bss: 0x28
++  - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
++  - /System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+   - /System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage
+
+   - /System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication
+   - /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+   - /System/Library/Frameworks/Security.framework/Versions/A/Security
++  - /System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+   - /System/Library/PrivateFrameworks/AppSSO.framework/Versions/A/AppSSO
+   - /System/Library/PrivateFrameworks/AppSupport.framework/Versions/A/AppSupport
+   - /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit
+   - /System/Library/PrivateFrameworks/AuthenticationServicesCore.framework/Versions/A/AuthenticationServicesCore
+   - /System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Versions/A/BackgroundTaskManagement
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/Versions/A/BaseBoard
++  - /System/Library/PrivateFrameworks/ContactsFoundation.framework/Versions/A/ContactsFoundation
++  - /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/FamilyCircle
+   - /System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+   - /System/Library/PrivateFrameworks/SafariCore.framework/Versions/A/SafariCore
+   - /System/Library/PrivateFrameworks/SafariFoundation.framework/Versions/A/SafariFoundation
+
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking
+   - /System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+   - /System/Library/PrivateFrameworks/UIKitMacHelper.framework/Versions/A/UIKitMacHelper
++  - /System/iOSSupport/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+   - /System/iOSSupport/System/Library/Frameworks/LinkPresentation.framework/Versions/A/LinkPresentation
+   - /System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+   - /System/iOSSupport/System/Library/PrivateFrameworks/AuthKitUI.framework/Versions/A/AuthKitUI
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 6503
+-  Symbols:   5765
+-  CStrings:  852
++  Functions: 7053
++  Symbols:   6503
++  CStrings:  1023
+ 
+Symbols:
++ +[_ASAccountManagerTipContent _contentForFamilyTip]
++ +[_ASAccountManagerTipContent _contentForGeneralTip]
++ +[_ASAccountManagerTipContent _familySharingTipButtonTitle]
++ +[_ASAccountManagerTipContent _familySharingTipDeclineButtonTitle]
++ +[_ASAccountManagerTipContent _familySharingTipHasBorderedImage]
++ +[_ASAccountManagerTipContent _familySharingTipSubtitle]
++ +[_ASAccountManagerTipContent _familySharingTipTitle]
++ +[_ASAccountManagerTipContent _generalSharingTipButtonTitle]
++ +[_ASAccountManagerTipContent _generalSharingTipDeclineButtonTitle]
++ +[_ASAccountManagerTipContent _generalSharingTipHasBorderedImage]
++ +[_ASAccountManagerTipContent _generalSharingTipSubtitle]
++ +[_ASAccountManagerTipContent _generalSharingTipTitle]
++ +[_ASAccountManagerTipContent _imageForSharingTips]
++ +[_ASAccountManagerTipContent _imageNameForSharingTips]
++ +[_ASAccountSharingGroupInvitationContent _headerImageWithSymbolNamed:]
++ +[_ASAccountSharingGroupInvitationContent acceptButtonTitle]
++ +[_ASAccountSharingGroupInvitationContent cancelButtonTitle]
++ +[_ASAccountSharingGroupInvitationContent declineButtonTitle]
++ +[_ASAccountSharingGroupInvitationContent groupMemberListFooterTextForPermissionLevel:]
++ +[_ASAccountSharingGroupInvitationContent invitationDescriptionForOwner:]
++ +[_ASAccountSharingGroupInvitationContent knownSenderHeaderImageName]
++ +[_ASAccountSharingGroupInvitationContent knownSenderHeaderImage]
++ +[_ASAccountSharingGroupInvitationContent knownSenderHeaderSubtitleForPermissionLevel:]
++ +[_ASAccountSharingGroupInvitationContent knownSenderHeaderTitleWithGroupName:]
++ +[_ASAccountSharingGroupInvitationContent linkPresentationBubbleIcon]
++ +[_ASAccountSharingGroupInvitationContent linkPresentationBubbleSubtitleForGroupName:groupOwnerName:]
++ +[_ASAccountSharingGroupInvitationContent linkPresentationBubbleTitle]
++ +[_ASAccountSharingGroupInvitationContent unknownSenderCellImage]
++ +[_ASAccountSharingGroupInvitationContent unknownSenderCellTitle]
++ +[_ASAccountSharingGroupInvitationContent unknownSenderHeaderImage]
++ +[_ASAccountSharingGroupInvitationContent unknownSenderHeaderSubtitle]
++ +[_ASAccountSharingGroupInvitationContent unknownSenderHeaderTitle]
++ +[_ASAccountSharingGroupInvitationContent unknownSenderImageName]
++ +[_ASAccountSharingGroupInvitationContent viewButtonTitle]
++ +[_ASAccountSharingGroupMemberDataManager sharedManager]
++ +[_ASAccountSharingGroupMessageInvitePreviewContent _genericHeaderSubtitle]
++ +[_ASAccountSharingGroupMessageInvitePreviewContent cancelButtonTitle]
++ +[_ASAccountSharingGroupMessageInvitePreviewContent headerImageName]
++ +[_ASAccountSharingGroupMessageInvitePreviewContent headerImage]
++ +[_ASAccountSharingGroupMessageInvitePreviewContent headerSubtitleForInvitedGroupMemberData:]
++ +[_ASAccountSharingGroupMessageInvitePreviewContent headerTitleForInvitedGroupMemberData:]
++ +[_ASAccountSharingGroupMessageInvitePreviewContent notNowButtonTitle]
++ +[_ASAccountSharingGroupMessageInvitePreviewContent sendMessageButtonTitle]
++ +[_ASAccountSharingGroupOnBoardingCreateGroupContent _bulletListItemImageConfiguration]
++ +[_ASAccountSharingGroupOnBoardingCreateGroupContent firstBulletDescription]
++ +[_ASAccountSharingGroupOnBoardingCreateGroupContent firstBulletImageName]
++ +[_ASAccountSharingGroupOnBoardingCreateGroupContent firstBulletImage]
++ +[_ASAccountSharingGroupOnBoardingCreateGroupContent firstBulletTitle]
++ +[_ASAccountSharingGroupOnBoardingCreateGroupContent headerImageName]
++ +[_ASAccountSharingGroupOnBoardingCreateGroupContent headerImage]
++ +[_ASAccountSharingGroupOnBoardingCreateGroupContent headerTitle]
++ +[_ASAccountSharingGroupOnBoardingCreateGroupContent secondBulletDescription]
++ +[_ASAccountSharingGroupOnBoardingCreateGroupContent secondBulletImageName]
++ +[_ASAccountSharingGroupOnBoardingCreateGroupContent secondBulletImage]
++ +[_ASAccountSharingGroupOnBoardingCreateGroupContent secondBulletTitle]
++ +[_ASAccountSharingGroupOnBoardingCreateGroupContent thirdBulletDescription]
++ +[_ASAccountSharingGroupOnBoardingCreateGroupContent thirdBulletImageName]
++ +[_ASAccountSharingGroupOnBoardingCreateGroupContent thirdBulletImage]
++ +[_ASAccountSharingGroupOnBoardingCreateGroupContent thirdBulletTitle]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent _bulletListItemImageConfiguration]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent _headerImageForString:]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent descriptionForMovingCredentialsToGroup:]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent descriptionForRemovingDuplicateCredentialsInGroup:]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent firstBulletDescriptionForWelcomeView]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent firstBulletImageForWelcomeView]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent firstBulletImageNameForWelcomeView]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent firstBulletTitleForWelcomeView]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent headerImageForMovingCredentialsToGroup]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent headerImageForRemovingDuplicateCredentialsInGroup]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent headerImageForWelcomeView]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent headerImageNameForMovingCredentialsToGroup]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent headerImageNameForRemovingDuplicateCredentialsInGroup]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent headerImageNameForWelcomeView]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent headerSubtitleForRemovingDuplicateCredentialsInGroup:]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent headerTitleForMovingCredentialsToGroup]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent headerTitleForRemovingDuplicateCredentialsInGroup]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent headerTitleForWelcomeViewWithGroupName:]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent secondBulletDescriptionForWelcomeView]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent secondBulletImageForWelcomeView]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent secondBulletImageNameForWelcomeView]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent secondBulletTitleForWelcomeView]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent thirdBulletDescriptionForWelcomeView]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent thirdBulletImageForWelcomeView]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent thirdBulletImageNameForWelcomeView]
++ +[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent thirdBulletTitleForWelcomeView]
++ +[_ASPasswordManagerDeleteAlertConfiguration _canUseSingleItemConfigurationWithAccountsSelectionInfo:]
++ +[_ASPasswordManagerDeleteAlertConfiguration _configurationForAlertToDeleteFileVaultRecoveryKeyWithSavedAccount:]
++ +[_ASPasswordManagerDeleteAlertConfiguration _credentialDeletionStringForAlertToDeleteNumberOfFileVaultRecoveryKeys:]
++ +[_ASPasswordManagerDeleteAlertConfiguration _namesOfWiFiNetworks:]
++ +[_ASPasswordManagerDeleteAlertConfiguration _shouldUseWLANTerminologyInsteadOfWiFi]
++ +[_ASPasswordManagerDeleteAlertConfiguration _subtitleStringForAlertToDeleteFileVaultRecoveryKeyWithSavedAccount:]
++ +[_ASPasswordManagerDeleteAlertConfiguration _titleStringForAlertToDeleteFileVaultRecoveryKeyWithSavedAccount:]
++ +[_ASPasswordManagerDeleteAlertConfiguration _titleStringForAlertToDeleteMixedItemsIsPermanentlyDeleting:]
++ +[_ASPasswordManagerDeleteAlertConfiguration _wiFiOnlySubtitleStringWithAccountsSelectionInfo:]
++ +[_ASPasswordManagerDeleteAlertConfiguration _wiFiSubtitleStringWithAccountsSelectionInfo:]
++ +[_ASPasswordManagerDeleteAlertConfiguration configurationForDeletingSavedAccounts:wiFiNetworks:]
++ -[ASCredentialSharingGroupsNotificationManager .cxx_destruct]
++ -[ASCredentialSharingGroupsNotificationManager _getNumberOfPasswords:numberOfPasskeys:inSavedAccounts:]
++ -[ASCredentialSharingGroupsNotificationManager _moveSavedAccountsOriginallyContributedByCurrentUserToPersonalKeychainFromGroupID:]
++ -[ASCredentialSharingGroupsNotificationManager _notificationBodyStringForGroupMembers:addedToGroup:]
++ -[ASCredentialSharingGroupsNotificationManager _notificationBodyStringForSharedRecentlyDeletedSavedAccount:]
++ -[ASCredentialSharingGroupsNotificationManager _notificationBodyStringForSharedRecentlyDeletedSavedAccounts:]
++ -[ASCredentialSharingGroupsNotificationManager _notificationBodyStringForSharedRecentlyDeletedSavedAccountsFromMultipleGroups:]
++ -[ASCredentialSharingGroupsNotificationManager _notificationBodyStringForSharedRecentlyDeletedSavedAccountsFromSingleGroup:]
++ -[ASCredentialSharingGroupsNotificationManager _notifyUserAboutGroupMembers:addedToGroup:]
++ -[ASCredentialSharingGroupsNotificationManager _notifyUserAboutSharedSavedAccountsInRecentlyDeleted:completionHandler:]
++ -[ASCredentialSharingGroupsNotificationManager _presentNotificationWithRequestIdentifier:content:completionHandler:]
++ -[ASCredentialSharingGroupsNotificationManager deleteGroupWithID:completionHandler:]
++ -[ASCredentialSharingGroupsNotificationManager fetchNumberOfPasswordAndPasskeySavedAccountsWithCompletion:]
++ -[ASCredentialSharingGroupsNotificationManager fetchSharingGroupsThatIncludeFamilyMembers:]
++ -[ASCredentialSharingGroupsNotificationManager groupsUpdatedWithInfos:]
++ -[ASCredentialSharingGroupsNotificationManager groupsUpdatedWithInfos:shouldForceShowingNotifications:completionHandler:]
++ -[ASCredentialSharingGroupsNotificationManager initWithSavedAccountStore:]
++ -[ASCredentialSharingGroupsNotificationManager init]
++ -[ASCredentialSharingGroupsNotificationManager leaveGroupWithID:completionHandler:]
++ -[ASCredentialSharingGroupsNotificationManager notifyUserAboutSharedSavedAccountsInRecentlyDeleted:]
++ -[ASCredentialSharingGroupsNotificationManager savedAccountStore]
++ -[ASCredentialSharingGroupsNotificationManager setDebugIgnoreDateChecksForRecentlyDeletedNotificationsDefault:]
++ -[ASCredentialSharingGroupsNotificationManager setSavedAccountStore:]
++ -[ASPasskeyCredentialRequest initWithCredentialIdentity:requestType:clientDataHash:userVerificationPreference:supportedAlgorithms:]
++ -[KCSharingGroup(AuthenticationServicesExtras) _subtitleForNumberOfGroupMembersNotSavedAsContacts:]
++ -[KCSharingGroup(AuthenticationServicesExtras) as_groupMemberTableViewCellDescription]
++ -[KCSharingGroupManager(AuthenticationServicesExtras) as_getKCSharingParticipantsForFamilyMembersWithCompletionHandler:]
++ -[_ASAccountSharingGroupMemberData .cxx_destruct]
++ -[_ASAccountSharingGroupMemberData avatarImageForGroupMemberCell]
++ -[_ASAccountSharingGroupMemberData contactDisplayName]
++ -[_ASAccountSharingGroupMemberData contact]
++ -[_ASAccountSharingGroupMemberData description]
++ -[_ASAccountSharingGroupMemberData displayName]
++ -[_ASAccountSharingGroupMemberData groupPermissionLevel]
++ -[_ASAccountSharingGroupMemberData handleForDisplay]
++ -[_ASAccountSharingGroupMemberData handle]
++ -[_ASAccountSharingGroupMemberData hash]
++ -[_ASAccountSharingGroupMemberData inviteStatus]
++ -[_ASAccountSharingGroupMemberData isEqual:]
++ -[_ASAccountSharingGroupMemberData isMeParticipant]
++ -[_ASAccountSharingGroupMemberData participantID]
++ -[_ASAccountSharingGroupMemberData setAvatarImageForGroupMemberCell:]
++ -[_ASAccountSharingGroupMemberData setContact:]
++ -[_ASAccountSharingGroupMemberData setContactDisplayName:]
++ -[_ASAccountSharingGroupMemberData setGroupPermissionLevel:]
++ -[_ASAccountSharingGroupMemberData setHandle:]
++ -[_ASAccountSharingGroupMemberData setHandleForDisplay:]
++ -[_ASAccountSharingGroupMemberData setInviteStatus:]
++ -[_ASAccountSharingGroupMemberData setIsMeParticipant:]
++ -[_ASAccountSharingGroupMemberData setParticipantID:]
++ -[_ASAccountSharingGroupMemberData setShortContactDisplayName:]
++ -[_ASAccountSharingGroupMemberData shortContactDisplayName]
++ -[_ASAccountSharingGroupMemberDataManager .cxx_destruct]
++ -[_ASAccountSharingGroupMemberDataManager KCSharingParticipantsFromGroupMembers:]
++ -[_ASAccountSharingGroupMemberDataManager _contactDisplayNameFromNameComponents:]
++ -[_ASAccountSharingGroupMemberDataManager _contactForCurrentUser]
++ -[_ASAccountSharingGroupMemberDataManager _contactsUpdatedNotification:]
++ -[_ASAccountSharingGroupMemberDataManager _formattedAddressForAddress:]
++ -[_ASAccountSharingGroupMemberDataManager _renderingScopeForDiameter:]
++ -[_ASAccountSharingGroupMemberDataManager _screenScale]
++ -[_ASAccountSharingGroupMemberDataManager _shortContactDisplayNameFromNameComponents:]
++ -[_ASAccountSharingGroupMemberDataManager avatarImageForContact:diameter:]
++ -[_ASAccountSharingGroupMemberDataManager avatarImageForGroupMember:diameter:]
++ -[_ASAccountSharingGroupMemberDataManager avatarImageForPrimaryAccountOwnerWithDiameter:]
++ -[_ASAccountSharingGroupMemberDataManager avatarImageForUserHandle:diameter:]
++ -[_ASAccountSharingGroupMemberDataManager contactStore]
++ -[_ASAccountSharingGroupMemberDataManager displayNameForOriginalContributorParticipantID:inGroupID:]
++ -[_ASAccountSharingGroupMemberDataManager fetchContactForUserHandle:]
++ -[_ASAccountSharingGroupMemberDataManager groupMemberDataForGroup:]
++ -[_ASAccountSharingGroupMemberDataManager groupMemberDataForGroupParticipants:]
++ -[_ASAccountSharingGroupMemberDataManager groupMemberDataForPrimaryAccount]
++ -[_ASAccountSharingGroupMemberDataManager groupMemberDataForRecipients:]
++ -[_ASAccountSharingGroupMemberDataManager init]
++ -[_ASAccountSharingGroupMemberDataManager nameForOriginalContributorParticipantID:inGroupID:]
++ -[_ASAccountSharingGroupMemberDataManager placeholderAvatarImageWithDiameter:]
++ -[_ASAgentCredentialExchangeListener _connection:ownsOperation:]
++ -[_ASAgentCredentialExchangeListener _performWithLockIfOperationIsCurrent:block:]
++ -[_ASAgentCredentialExchangeListener _terminateOperationIfCurrent:]
++ -[_ASAgentCredentialSharingGroupsListener .cxx_destruct]
++ -[_ASAgentCredentialSharingGroupsListener init]
++ -[_ASAgentCredentialSharingGroupsListener listener:shouldAcceptNewConnection:]
++ -[_ASAgentPeriodicMaintenanceActivity .cxx_destruct]
++ -[_ASAgentPeriodicMaintenanceActivity _activityDidTransitionToRunState:]
++ -[_ASAgentPeriodicMaintenanceActivity _registerActivity]
++ -[_ASAgentPeriodicMaintenanceActivity _runActivityWithCompletionHandler:]
++ -[_ASAgentPeriodicMaintenanceActivity initRegisteringActivityHandler:pccLimitChecker:securityRecommendationsBiomeDonor:]
++ -[_ASAgentPeriodicMaintenanceActivity pccLimitChecker]
++ -[_ASAgentPeriodicMaintenanceActivity securityRecommendationsBiomeDonor]
++ -[_ASAgentPeriodicMaintenanceActivity setPccLimitChecker:]
++ -[_ASAgentPeriodicMaintenanceActivity setSecurityRecommendationsBiomeDonor:]
++ -[_ASPasswordManagerAccountsSelectionInfo .cxx_destruct]
++ -[_ASPasswordManagerAccountsSelectionInfo accounts]
++ -[_ASPasswordManagerAccountsSelectionInfo hasOnlyFileVaultRecoveryKeys]
++ -[_ASPasswordManagerAccountsSelectionInfo hasWiFiNetworks]
++ -[_ASPasswordManagerAccountsSelectionInfo initWithSavedAccounts:wiFiNetworks:]
++ -[_ASPasswordManagerAccountsSelectionInfo isSelectedAccountSingleFileVaultRecoveryKey]
++ -[_ASPasswordManagerAccountsSelectionInfo managedWiFiNetworks]
++ -[_ASPasswordManagerAccountsSelectionInfo numberOfFileVaultRecoveryKeys]
++ -[_ASPasswordManagerAccountsSelectionInfo wiFiNetworksToForget]
++ -[_ASPasswordManagerDeleteAlertConfiguration hasIrreversibleConsequences]
++ GCC_except_table0
++ GCC_except_table34
++ GCC_except_table38
++ GCC_except_table40
++ GCC_except_table44
++ GCC_except_table47
++ GCC_except_table48
++ GCC_except_table49
++ GCC_except_table50
++ GCC_except_table58
++ GCC_except_table64
++ GCC_except_table66
++ GCC_except_table68
++ GCC_except_table77
++ _ASAvatarImageSizeForGroupMemberCell
++ _ASInterfaceForVerificationCodesDeliverySetupDaemonProtocol
++ _AppleAccountUILibraryCore.frameworkLibrary
++ _CNContactStoreDidChangeNotification
++ _MGGetBoolAnswer
++ _OBJC_CLASS_$_ACAccountStore
++ _OBJC_CLASS_$_ASCCredentialServiceIdentifier
++ _OBJC_CLASS_$_ASCVerificationCodesDeliverySetupAccount
++ _OBJC_CLASS_$_ASCredentialSharingGroupsNotificationManager
++ _OBJC_CLASS_$_CNAvatarImageRenderer
++ _OBJC_CLASS_$_CNAvatarImageRenderingScope
++ _OBJC_CLASS_$_CNContact
++ _OBJC_CLASS_$_CNContactStore
++ _OBJC_CLASS_$_CNContactStoreConfiguration
++ _OBJC_CLASS_$_CNContactViewController
++ _OBJC_CLASS_$_CNEmailAddressUtilities
++ _OBJC_CLASS_$_CNPhoneNumber
++ _OBJC_CLASS_$_CNPhoneNumberHelper
++ _OBJC_CLASS_$_FAFamilyMember
++ _OBJC_CLASS_$_FAFetchFamilyCircleRequest
++ _OBJC_CLASS_$_KCSharingGroup
++ _OBJC_CLASS_$_KCSharingGroupDeleteRequest
++ _OBJC_CLASS_$_KCSharingGroupFetchRequest
++ _OBJC_CLASS_$_KCSharingGroupLeaveRequest
++ _OBJC_CLASS_$_KCSharingGroupManager
++ _OBJC_CLASS_$_KCSharingParticipant
++ _OBJC_CLASS_$_NSCache
++ _OBJC_CLASS_$_NSParagraphStyle
++ _OBJC_CLASS_$_NSPersonNameComponentsFormatter
++ _OBJC_CLASS_$_UIFont
++ _OBJC_CLASS_$_UIScreen
++ _OBJC_CLASS_$_UNMutableNotificationContent
++ _OBJC_CLASS_$_UNNotificationRequest
++ _OBJC_CLASS_$_UNUserNotificationCenter
++ _OBJC_CLASS_$_WBSFileVaultRecoveryKey
++ _OBJC_CLASS_$_WBSKeyBagLockStatusManager
++ _OBJC_CLASS_$_WBSOngoingSharingGroupProvider
++ _OBJC_CLASS_$_WBSPasswordBreachSettings
++ _OBJC_CLASS_$_WBSPasswordManagerURL
++ _OBJC_CLASS_$_WBSPasswordWarning
++ _OBJC_CLASS_$_WBSWiFiNetworkLocalizedStrings
++ _OBJC_CLASS_$__ASAccountSharingGroupInvitationContent
++ _OBJC_CLASS_$__ASAccountSharingGroupMemberData
++ _OBJC_CLASS_$__ASAccountSharingGroupMemberDataManager
++ _OBJC_CLASS_$__ASAccountSharingGroupMessageInvitePreviewContent
++ _OBJC_CLASS_$__ASAccountSharingGroupOnBoardingCreateGroupContent
++ _OBJC_CLASS_$__ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent
++ _OBJC_CLASS_$__ASAgentCredentialSharingGroupsListener
++ _OBJC_CLASS_$__ASAgentFileVaultRecoveryKeyListener
++ _OBJC_CLASS_$__ASAgentPeriodicMaintenanceActivity
++ _OBJC_IVAR_$_ASCredentialSharingGroupsNotificationManager._lazySavedAccountStore
++ _OBJC_IVAR_$_ASCredentialSharingGroupsNotificationManager._notificationCenter
++ _OBJC_IVAR_$_ASCredentialSharingGroupsNotificationManager._savedAccountStoreLock
++ _OBJC_IVAR_$__ASAccountSharingGroupMemberData._avatarImageForGroupMemberCell
++ _OBJC_IVAR_$__ASAccountSharingGroupMemberData._contact
++ _OBJC_IVAR_$__ASAccountSharingGroupMemberData._contactDisplayName
++ _OBJC_IVAR_$__ASAccountSharingGroupMemberData._groupPermissionLevel
++ _OBJC_IVAR_$__ASAccountSharingGroupMemberData._handle
++ _OBJC_IVAR_$__ASAccountSharingGroupMemberData._handleForDisplay
++ _OBJC_IVAR_$__ASAccountSharingGroupMemberData._inviteStatus
++ _OBJC_IVAR_$__ASAccountSharingGroupMemberData._isMeParticipant
++ _OBJC_IVAR_$__ASAccountSharingGroupMemberData._participantID
++ _OBJC_IVAR_$__ASAccountSharingGroupMemberData._shortContactDisplayName
++ _OBJC_IVAR_$__ASAccountSharingGroupMemberDataManager._accountStore
++ _OBJC_IVAR_$__ASAccountSharingGroupMemberDataManager._avatarImageDiameterToRenderingScopes
++ _OBJC_IVAR_$__ASAccountSharingGroupMemberDataManager._avatarImageRenderer
++ _OBJC_IVAR_$__ASAccountSharingGroupMemberDataManager._contactForCurrentUser
++ _OBJC_IVAR_$__ASAccountSharingGroupMemberDataManager._contactStore
++ _OBJC_IVAR_$__ASAccountSharingGroupMemberDataManager._contactsCache
++ _OBJC_IVAR_$__ASAccountSharingGroupMemberDataManager._profilePictureStore
++ _OBJC_IVAR_$__ASAgentCredentialSharingGroupsListener._listener
++ _OBJC_IVAR_$__ASAgentCredentialSharingGroupsListener._notificationManager
++ _OBJC_IVAR_$__ASAgentPeriodicMaintenanceActivity._pccLimitChecker
++ _OBJC_IVAR_$__ASAgentPeriodicMaintenanceActivity._securityRecommendationsBiomeDonor
++ _OBJC_IVAR_$__ASPasswordManagerAccountsSelectionInfo._accounts
++ _OBJC_IVAR_$__ASPasswordManagerAccountsSelectionInfo._managedWiFiNetworks
++ _OBJC_IVAR_$__ASPasswordManagerAccountsSelectionInfo._numberOfFileVaultRecoveryKeys
++ _OBJC_IVAR_$__ASPasswordManagerAccountsSelectionInfo._wiFiNetworksToForget
++ _OBJC_IVAR_$__ASPasswordManagerDeleteAlertConfiguration._isForgettingWiFiNetworks
++ _OBJC_METACLASS_$_ASCredentialSharingGroupsNotificationManager
++ _OBJC_METACLASS_$__ASAccountSharingGroupInvitationContent
++ _OBJC_METACLASS_$__ASAccountSharingGroupMemberData
++ _OBJC_METACLASS_$__ASAccountSharingGroupMemberDataManager
++ _OBJC_METACLASS_$__ASAccountSharingGroupMessageInvitePreviewContent
++ _OBJC_METACLASS_$__ASAccountSharingGroupOnBoardingCreateGroupContent
++ _OBJC_METACLASS_$__ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent
++ _OBJC_METACLASS_$__ASAgentCredentialSharingGroupsListener
++ _OBJC_METACLASS_$__ASAgentFileVaultRecoveryKeyListener
++ _OBJC_METACLASS_$__ASAgentPeriodicMaintenanceActivity
++ _UIFontTextStyleLargeTitle
++ _UIFontWeightSemibold
++ _WBSAuthenticationServicesAgentCredentialSharingGroupsErrorDomain
++ _WBSAuthenticationServicesAgentCredentialSharingGroupsServiceName
++ _WBSAuthenticationServicesAgentCredentialSharingGroupsUserNotificationsInterface
++ _WBSPasswordManagerRecentlyDeletedURLKey
++ _WBSPasswordManagerURLSharingGroupIDKey
++ _WBSPasswordManagerURLTrue
++ _WBSPasswordsGroupChangedNotificationIdentifier
++ _WBSPasswordsRecentlyDeletedNotificationIdentifier
++ _XPC_ACTIVITY_CHECK_IN
++ __DATA__ASAgentFileVaultRecoveryKeyListener
++ __DATA__TtC22AuthenticationServicesP33_5715F930C8FEF8ACFAE0CBB4BA5B403E37VerificationCodesDeliverySetupSession
++ __DATA__TtC22AuthenticationServicesP33_5715F930C8FEF8ACFAE0CBB4BA5B403E45VerificationCodesDeliverySetupSessionsManager
++ __INSTANCE_METHODS__ASAgentFileVaultRecoveryKeyListener
++ __IVARS__ASAgentFileVaultRecoveryKeyListener
++ __IVARS__TtC22AuthenticationServicesP33_5715F930C8FEF8ACFAE0CBB4BA5B403E37VerificationCodesDeliverySetupSession
++ __IVARS__TtC22AuthenticationServicesP33_5715F930C8FEF8ACFAE0CBB4BA5B403E45VerificationCodesDeliverySetupSessionsManager
++ __METACLASS_DATA__ASAgentFileVaultRecoveryKeyListener
++ __METACLASS_DATA__TtC22AuthenticationServicesP33_5715F930C8FEF8ACFAE0CBB4BA5B403E37VerificationCodesDeliverySetupSession
++ __METACLASS_DATA__TtC22AuthenticationServicesP33_5715F930C8FEF8ACFAE0CBB4BA5B403E45VerificationCodesDeliverySetupSessionsManager
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_KCSharingGroupManager_$_AuthenticationServicesExtras
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_KCSharingGroup_$_AuthenticationServicesExtras
++ __OBJC_$_CATEGORY_KCSharingGroupManager_$_AuthenticationServicesExtras
++ __OBJC_$_CATEGORY_KCSharingGroup_$_AuthenticationServicesExtras
++ __OBJC_$_CLASS_METHODS__ASAccountSharingGroupInvitationContent
++ __OBJC_$_CLASS_METHODS__ASAccountSharingGroupMemberDataManager
++ __OBJC_$_CLASS_METHODS__ASAccountSharingGroupMessageInvitePreviewContent
++ __OBJC_$_CLASS_METHODS__ASAccountSharingGroupOnBoardingCreateGroupContent
++ __OBJC_$_CLASS_METHODS__ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent
++ __OBJC_$_CLASS_PROP_LIST__ASAccountSharingGroupInvitationContent
++ __OBJC_$_CLASS_PROP_LIST__ASAccountSharingGroupMemberDataManager
++ __OBJC_$_CLASS_PROP_LIST__ASAccountSharingGroupMessageInvitePreviewContent
++ __OBJC_$_CLASS_PROP_LIST__ASAccountSharingGroupOnBoardingCreateGroupContent
++ __OBJC_$_CLASS_PROP_LIST__ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent
++ __OBJC_$_INSTANCE_METHODS_ASAgentVerificationCodesService(AuthenticationServices|AuthenticationServices1)
++ __OBJC_$_INSTANCE_METHODS_ASAuthorizationController(SwiftImplementation|AuthenticationServices)
++ __OBJC_$_INSTANCE_METHODS_ASCredentialSharingGroupsNotificationManager
++ __OBJC_$_INSTANCE_METHODS__ASAccountSharingGroupMemberData
++ __OBJC_$_INSTANCE_METHODS__ASAccountSharingGroupMemberDataManager
++ __OBJC_$_INSTANCE_METHODS__ASAgentCredentialSharingGroupsListener
++ __OBJC_$_INSTANCE_METHODS__ASAgentPeriodicMaintenanceActivity(SwiftImplementation)
++ __OBJC_$_INSTANCE_VARIABLES_ASCredentialSharingGroupsNotificationManager
++ __OBJC_$_INSTANCE_VARIABLES__ASAccountSharingGroupMemberData
++ __OBJC_$_INSTANCE_VARIABLES__ASAccountSharingGroupMemberDataManager
++ __OBJC_$_INSTANCE_VARIABLES__ASAgentCredentialSharingGroupsListener
++ __OBJC_$_INSTANCE_VARIABLES__ASAgentPeriodicMaintenanceActivity
++ __OBJC_$_PROP_LIST_ASCredentialSharingGroupsNotificationManager
++ __OBJC_$_PROP_LIST_KCSharingGroup_$_AuthenticationServicesExtras
++ __OBJC_$_PROP_LIST__ASAccountSharingGroupMemberData
++ __OBJC_$_PROP_LIST__ASAccountSharingGroupMemberDataManager
++ __OBJC_$_PROP_LIST__ASAgentCredentialSharingGroupsListener
++ __OBJC_$_PROP_LIST__ASAgentPeriodicMaintenanceActivity
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_KCSharingGroupNotificationProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_WBSAuthenticationServicesAgentCredentialSharingGroupsUserNotificationsProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_WBSFileVaultRecoveryKeyListenerProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS__TtP22AuthenticationServices46ASVerificationCodesDeliverySetupDaemonProtocol_
++ __OBJC_$_PROTOCOL_METHOD_TYPES_KCSharingGroupNotificationProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_WBSAuthenticationServicesAgentCredentialSharingGroupsUserNotificationsProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_WBSFileVaultRecoveryKeyListenerProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES__TtP22AuthenticationServices46ASVerificationCodesDeliverySetupDaemonProtocol_
++ __OBJC_$_PROTOCOL_REFS_KCSharingGroupNotificationProtocol
++ __OBJC_$_PROTOCOL_REFS_WBSAuthenticationServicesAgentCredentialSharingGroupsUserNotificationsProtocol
++ __OBJC_$_PROTOCOL_REFS__TtP22AuthenticationServices46ASVerificationCodesDeliverySetupDaemonProtocol_
++ __OBJC_CLASS_PROTOCOLS_$_ASAgentVerificationCodesService(AuthenticationServices|AuthenticationServices1)
++ __OBJC_CLASS_PROTOCOLS_$_ASCredentialSharingGroupsNotificationManager
++ __OBJC_CLASS_PROTOCOLS_$__ASAgentCredentialSharingGroupsListener
++ __OBJC_CLASS_RO_$_ASCredentialSharingGroupsNotificationManager
++ __OBJC_CLASS_RO_$__ASAccountSharingGroupInvitationContent
++ __OBJC_CLASS_RO_$__ASAccountSharingGroupMemberData
++ __OBJC_CLASS_RO_$__ASAccountSharingGroupMemberDataManager
++ __OBJC_CLASS_RO_$__ASAccountSharingGroupMessageInvitePreviewContent
++ __OBJC_CLASS_RO_$__ASAccountSharingGroupOnBoardingCreateGroupContent
++ __OBJC_CLASS_RO_$__ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent
++ __OBJC_CLASS_RO_$__ASAgentCredentialSharingGroupsListener
++ __OBJC_CLASS_RO_$__ASAgentPeriodicMaintenanceActivity
++ __OBJC_LABEL_PROTOCOL_$_KCSharingGroupNotificationProtocol
++ __OBJC_LABEL_PROTOCOL_$_WBSAuthenticationServicesAgentCredentialSharingGroupsUserNotificationsProtocol
++ __OBJC_LABEL_PROTOCOL_$_WBSFileVaultRecoveryKeyListenerProtocol
++ __OBJC_LABEL_PROTOCOL_$__TtP22AuthenticationServices46ASVerificationCodesDeliverySetupDaemonProtocol_
++ __OBJC_METACLASS_RO_$_ASCredentialSharingGroupsNotificationManager
++ __OBJC_METACLASS_RO_$__ASAccountSharingGroupInvitationContent
++ __OBJC_METACLASS_RO_$__ASAccountSharingGroupMemberData
++ __OBJC_METACLASS_RO_$__ASAccountSharingGroupMemberDataManager
++ __OBJC_METACLASS_RO_$__ASAccountSharingGroupMessageInvitePreviewContent
++ __OBJC_METACLASS_RO_$__ASAccountSharingGroupOnBoardingCreateGroupContent
++ __OBJC_METACLASS_RO_$__ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent
++ __OBJC_METACLASS_RO_$__ASAgentCredentialSharingGroupsListener
++ __OBJC_METACLASS_RO_$__ASAgentPeriodicMaintenanceActivity
++ __OBJC_PROTOCOL_$_KCSharingGroupNotificationProtocol
++ __OBJC_PROTOCOL_$_WBSAuthenticationServicesAgentCredentialSharingGroupsUserNotificationsProtocol
++ __OBJC_PROTOCOL_$_WBSFileVaultRecoveryKeyListenerProtocol
++ __OBJC_PROTOCOL_$__TtP22AuthenticationServices46ASVerificationCodesDeliverySetupDaemonProtocol_
++ __OBJC_PROTOCOL_REFERENCE_$__TtP22AuthenticationServices46ASVerificationCodesDeliverySetupDaemonProtocol_
++ __PROTOCOLS__ASAgentFileVaultRecoveryKeyListener
++ __PROTOCOL_INSTANCE_METHODS__TtP22AuthenticationServices46ASVerificationCodesDeliverySetupDaemonProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP22AuthenticationServices46ASVerificationCodesDeliverySetupDaemonProtocol_
++ __PROTOCOL_PROTOCOLS__TtP22AuthenticationServices46ASVerificationCodesDeliverySetupDaemonProtocol_
++ __PROTOCOL__TtP22AuthenticationServices46ASVerificationCodesDeliverySetupDaemonProtocol_
++ ___100+[_ASAccountSharingGroupOnBoardingInvitationAcceptanceFlowContent _bulletListItemImageConfiguration]_block_invoke
++ ___100-[ASCredentialSharingGroupsNotificationManager notifyUserAboutSharedSavedAccountsInRecentlyDeleted:]_block_invoke
++ ___100-[ASCredentialSharingGroupsNotificationManager notifyUserAboutSharedSavedAccountsInRecentlyDeleted:]_block_invoke_2
++ ___107-[ASCredentialSharingGroupsNotificationManager fetchNumberOfPasswordAndPasskeySavedAccountsWithCompletion:]_block_invoke
++ ___109-[ASCredentialSharingGroupsNotificationManager _notificationBodyStringForSharedRecentlyDeletedSavedAccounts:]_block_invoke
++ ___116-[ASCredentialSharingGroupsNotificationManager _presentNotificationWithRequestIdentifier:content:completionHandler:]_block_invoke
++ ___116-[ASCredentialSharingGroupsNotificationManager _presentNotificationWithRequestIdentifier:content:completionHandler:]_block_invoke_2
++ ___120-[KCSharingGroupManager(AuthenticationServicesExtras) as_getKCSharingParticipantsForFamilyMembersWithCompletionHandler:]_block_invoke
++ ___51+[_ASAccountManagerTipContent _contentForFamilyTip]_block_invoke
++ ___52+[_ASAccountManagerTipContent _contentForGeneralTip]_block_invoke
++ ___56+[_ASAccountSharingGroupMemberDataManager sharedManager]_block_invoke
++ ___56-[_ASAgentPeriodicMaintenanceActivity _registerActivity]_block_invoke
++ ___67-[_ASAgentCredentialExchangeListener _terminateOperationIfCurrent:]_block_invoke
++ ___70+[_ASWebsiteNameProvider fetchWebsiteNameForDomain:completionHandler:]_block_invoke_2
++ ___71-[ASCredentialSharingGroupsNotificationManager groupsUpdatedWithInfos:]_block_invoke
++ ___72-[_ASAccountSharingGroupMemberDataManager groupMemberDataForRecipients:]_block_invoke
++ ___72-[_ASAgentPeriodicMaintenanceActivity _activityDidTransitionToRunState:]_block_invoke
++ ___73-[_ASAgentPeriodicMaintenanceActivity _runActivityWithCompletionHandler:]_block_invoke
++ ___73-[_ASAgentPeriodicMaintenanceActivity _runActivityWithCompletionHandler:]_block_invoke_2
++ ___73-[_ASAgentPeriodicMaintenanceActivity _runActivityWithCompletionHandler:]_block_invoke_3
++ ___76-[_ASAgentCredentialExchangeListener _setUpImporterConnection:forOperation:]_block_invoke_2
++ ___79-[_ASAccountSharingGroupMemberDataManager groupMemberDataForGroupParticipants:]_block_invoke
++ ___79-[_ASAgentCredentialExchangeListener _setUpViewServiceConnection:forOperation:]_block_invoke_2
++ ___81-[_ASAccountSharingGroupMemberDataManager KCSharingParticipantsFromGroupMembers:]_block_invoke
++ ___83-[ASCredentialSharingGroupsNotificationManager leaveGroupWithID:completionHandler:]_block_invoke
++ ___83-[ASCredentialSharingGroupsNotificationManager leaveGroupWithID:completionHandler:]_block_invoke_2
++ ___83-[_ASAgentCredentialExchangeListener importCredentialsWithToken:completionHandler:]_block_invoke
++ ___84-[ASCredentialSharingGroupsNotificationManager deleteGroupWithID:completionHandler:]_block_invoke
++ ___84-[ASCredentialSharingGroupsNotificationManager deleteGroupWithID:completionHandler:]_block_invoke_2
++ ___86-[KCSharingGroup(AuthenticationServicesExtras) as_groupMemberTableViewCellDescription]_block_invoke
++ ___86-[_ASAgentCredentialExchangeListener continueExportWithCredentials:completionHandler:]_block_invoke_3
++ ___87+[_ASAccountSharingGroupOnBoardingCreateGroupContent _bulletListItemImageConfiguration]_block_invoke
++ ___93+[_ASAccountSharingGroupMessageInvitePreviewContent headerSubtitleForInvitedGroupMemberData:]_block_invoke
++ ___93-[_ASAccountSharingGroupMemberDataManager nameForOriginalContributorParticipantID:inGroupID:]_block_invoke
++ ___97+[_ASPasswordManagerDeleteAlertConfiguration configurationForDeletingSavedAccounts:wiFiNetworks:]_block_invoke
++ ___AppleAccountUILibraryCore_block_invoke
++ ___block_descriptor_32_e35_"NSString"16?0"WBSSavedAccount"8l
++ ___block_descriptor_32_e42_16?0"_ASAccountSharingGroupMemberData"8l
++ ___block_descriptor_32_e52_"NSString"16?0"_ASAccountSharingGroupMemberData"8l
++ ___block_descriptor_40_e8_32bs_e5_v8?0ls32l8
++ ___block_descriptor_40_e8_32s_e28_16?0"CNComposeRecipient"8ls32l8
++ ___block_descriptor_40_e8_32s_e30_B16?0"KCSharingParticipant"8ls32l8
++ ___block_descriptor_40_e8_32s_e33_v16?0"NSObject<OS_xpc_object>"8ls32l8
++ ___block_descriptor_40_e8_32s_e64_"_ASAccountSharingGroupMemberData"16?0"KCSharingParticipant"8ls32l8
++ ___block_descriptor_48_e8_32s40bs_e5_v8?0ls32l8s40l8
++ ___block_descriptor_48_e8_32s40r_e8_v12?0B8lr40l8s32l8
++ ___block_descriptor_48_e8_32s40s_e36_v24?0"FAFamilyCircle"8"NSError"16ls32l8s40l8
++ ___block_descriptor_48_e8_32s40s_e8_v12?0B8ls32l8s40l8
++ ___block_descriptor_48_e8_32s40w_e17_v16?0"NSTimer"8lw40l8s32l8
++ ___block_descriptor_56_e8_32s40bs48r_e5_v8?0ls32l8s40l8r48l8
++ ___block_descriptor_56_e8_32s40s48bs_e17_v16?0"NSError"8ls48l8s32l8s40l8
++ ___block_descriptor_56_e8_32s40s48s_e20_v20?0B8"NSError"12ls32l8s40l8s48l8
++ ___block_descriptor_64_e8_32s40s48bs56r_e5_v8?0ls32l8s40l8s48l8r56l8
++ ___block_descriptor_72_e8_32s40s48bs56r64r_e5_v8?0ls32l8s48l8s40l8r56l8r64l8
++ ___block_descriptor_72_ea8_32s40s48s56bs_e5_v8?0ls32l8s40l8s48l8s56l8
++ ___getAAUIProfilePictureStoreClass_block_invoke
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_closure_destructor.110Tm
++ ___swift_closure_destructor.16Tm
++ ___swift_closure_destructor.206Tm
++ ___swift_closure_destructor.28Tm
++ ___swift_closure_destructor.84Tm
++ __bulletListItemImageConfiguration.imageConfiguration
++ __bulletListItemImageConfiguration.onceToken
++ __contentForFamilyTip.familyTipContent
++ __contentForFamilyTip.onceToken
++ __contentForGeneralTip.generalTipContent
++ __contentForGeneralTip.onceToken
++ _associated conformance 22AuthenticationServices35ASDeliveredVerificationCodesManagerC11SetUpReasonOSHAASQ
++ _associated conformance 22AuthenticationServices35ASDeliveredVerificationCodesManagerC21AccountRecordForSetUpV13ContactMethodOSHAASQ
++ _audit_stringAppleAccountUI
++ _dispatch_group_notify
++ _getAAUIProfilePictureStoreClass.softClass
++ _keypath_setTm
++ _objc_msgSend$_activityDidTransitionToRunState:
++ _objc_msgSend$_bulletListItemImageConfiguration
++ _objc_msgSend$_canUseSingleItemConfigurationWithAccountsSelectionInfo:
++ _objc_msgSend$_configurationForAlertToDeleteFileVaultRecoveryKeyWithSavedAccount:
++ _objc_msgSend$_connection:ownsOperation:
++ _objc_msgSend$_contactDisplayNameFromNameComponents:
++ _objc_msgSend$_contactForCurrentUser
++ _objc_msgSend$_contentForFamilyTip
++ _objc_msgSend$_contentForGeneralTip
++ _objc_msgSend$_credentialDeletionStringForAlertToDeleteNumberOfFileVaultRecoveryKeys:
++ _objc_msgSend$_familySharingTipButtonTitle
++ _objc_msgSend$_familySharingTipDeclineButtonTitle
++ _objc_msgSend$_familySharingTipHasBorderedImage
++ _objc_msgSend$_familySharingTipSubtitle
++ _objc_msgSend$_familySharingTipTitle
++ _objc_msgSend$_formattedAddressForAddress:
++ _objc_msgSend$_generalSharingTipButtonTitle
++ _objc_msgSend$_generalSharingTipDeclineButtonTitle
++ _objc_msgSend$_generalSharingTipHasBorderedImage
++ _objc_msgSend$_generalSharingTipSubtitle
++ _objc_msgSend$_generalSharingTipTitle
++ _objc_msgSend$_genericHeaderSubtitle
++ _objc_msgSend$_getNumberOfPasswords:numberOfPasskeys:inSavedAccounts:
++ _objc_msgSend$_headerImageForString:
++ _objc_msgSend$_headerImageWithSymbolNamed:
++ _objc_msgSend$_imageForSharingTips
++ _objc_msgSend$_imageNameForSharingTips
++ _objc_msgSend$_ios_meContactWithKeysToFetch:error:
++ _objc_msgSend$_moveSavedAccountsOriginallyContributedByCurrentUserToPersonalKeychainFromGroupID:
++ _objc_msgSend$_moveSavedAccountsOriginallyContributedByCurrentUserToPersonalKeychainFromGroupID:isForAlreadyExitedGroup:
++ _objc_msgSend$_namesOfWiFiNetworks:
++ _objc_msgSend$_notificationBodyStringForGroupMembers:addedToGroup:
++ _objc_msgSend$_notificationBodyStringForSharedRecentlyDeletedSavedAccount:
++ _objc_msgSend$_notificationBodyStringForSharedRecentlyDeletedSavedAccounts:
++ _objc_msgSend$_notificationBodyStringForSharedRecentlyDeletedSavedAccountsFromMultipleGroups:
++ _objc_msgSend$_notificationBodyStringForSharedRecentlyDeletedSavedAccountsFromSingleGroup:
++ _objc_msgSend$_notifyUserAboutGroupMembers:addedToGroup:
++ _objc_msgSend$_notifyUserAboutSharedSavedAccountsInRecentlyDeleted:completionHandler:
++ _objc_msgSend$_performWithLockIfOperationIsCurrent:block:
++ _objc_msgSend$_preferredFontForTextStyle:weight:
++ _objc_msgSend$_presentNotificationWithRequestIdentifier:content:completionHandler:
++ _objc_msgSend$_recordGroupIdentifierForExitCleanup:completionHandler:
++ _objc_msgSend$_registerActivity
++ _objc_msgSend$_renderingScopeForDiameter:
++ _objc_msgSend$_runActivityWithCompletionHandler:
++ _objc_msgSend$_screenScale
++ _objc_msgSend$_shortContactDisplayNameFromNameComponents:
++ _objc_msgSend$_shouldUseWLANTerminologyInsteadOfWiFi
++ _objc_msgSend$_subtitleForNumberOfGroupMembersNotSavedAsContacts:
++ _objc_msgSend$_subtitleStringForAlertToDeleteFileVaultRecoveryKeyWithSavedAccount:
++ _objc_msgSend$_systemImageNamed:
++ _objc_msgSend$_terminateOperationIfCurrent:
++ _objc_msgSend$_titleStringForAlertToDeleteFileVaultRecoveryKeyWithSavedAccount:
++ _objc_msgSend$_titleStringForAlertToDeleteMixedItemsIsPermanentlyDeleting:
++ _objc_msgSend$_verifyGroupsInSync
++ _objc_msgSend$_wiFiOnlySubtitleStringWithAccountsSelectionInfo:
++ _objc_msgSend$_wiFiSubtitleStringWithAccountsSelectionInfo:
++ _objc_msgSend$aa_firstName
++ _objc_msgSend$aa_fullName
++ _objc_msgSend$aa_lastName
++ _objc_msgSend$aa_middleName
++ _objc_msgSend$aa_primaryAppleAccount
++ _objc_msgSend$accounts
++ _objc_msgSend$addKeyBagLockStatusChangedObserverWithHandler:
++ _objc_msgSend$addNotificationRequest:withCompletionHandler:
++ _objc_msgSend$addedParticipants
++ _objc_msgSend$address
++ _objc_msgSend$all
++ _objc_msgSend$appleID
++ _objc_msgSend$arrayWithCapacity:
++ _objc_msgSend$as_imageNamed:
++ _objc_msgSend$avatarImageForContact:diameter:
++ _objc_msgSend$avatarImageForContacts:scope:
++ _objc_msgSend$avatarImageForGroupMember:diameter:
++ _objc_msgSend$avatarImageForGroupMemberCell
++ _objc_msgSend$avatarImageForPrimaryAccountOwnerWithDiameter:
++ _objc_msgSend$bestDomainForAppID:completionHandler:
++ _objc_msgSend$cachedGroupWithID:
++ _objc_msgSend$cachedGroups
++ _objc_msgSend$checkAvailabilityForHandle:completion:
++ _objc_msgSend$checkForSupport
++ _objc_msgSend$componentsForContact:
++ _objc_msgSend$configurationByApplyingConfiguration:
++ _objc_msgSend$configurationForDeleting:fromSavedAccount:
++ _objc_msgSend$configurationForDeletingSavedAccounts:wiFiNetworks:
++ _objc_msgSend$configurationWithFont:
++ _objc_msgSend$configurationWithHierarchicalColor:
++ _objc_msgSend$contact
++ _objc_msgSend$contactDisplayName
++ _objc_msgSend$contactWithDisplayName:handleStrings:
++ _objc_msgSend$continueRunningActivityWithSavedAccountStore:completionHandler:
++ _objc_msgSend$countryCodeForNumber:
++ _objc_msgSend$currentUserParticipant
++ _objc_msgSend$currentUserParticipantID
++ _objc_msgSend$defaultWritingDirectionForLanguage:
++ _objc_msgSend$deleteGroupWithRequest:completion:
++ _objc_msgSend$departedGroupID
++ _objc_msgSend$descriptorForRequiredKeys
++ _objc_msgSend$displayNameForOriginalContributorParticipantID:inGroupID:
++ _objc_msgSend$donateSecurityRecommendationForDomain:severity:issueTypes:
++ _objc_msgSend$fetchContactForUserHandle:
++ _objc_msgSend$fetchSharingGroupsThatIncludeFamilyMembersWithCompletionHandler:
++ _objc_msgSend$firstBulletImageName
++ _objc_msgSend$firstBulletImageNameForWelcomeView
++ _objc_msgSend$forgetAllManagedNetworksSubtitleStringForNumberOfNetworks:preferWLANTerminology:
++ _objc_msgSend$forgetManagedNetworksTitleStringPreferringWLANTerminology:
++ _objc_msgSend$forgetNetworksSubtitleStringForNumberOfNetworks:preferWLANTerminology:
++ _objc_msgSend$forgetNetworksTitleStringForNumberOfNetworks:preferWLANTerminology:
++ _objc_msgSend$forgetSomeManagedNetworksSubtitleSuffixStringForNames:preferWLANTerminology:
++ _objc_msgSend$generationEventForAnyRecentGenerationForServiceIdentifierType:serviceIdentifier:hostApplicationBundleIdentifier:completionHandler:
++ _objc_msgSend$generationEventForStrongPassword:serviceIdentifierType:serviceIdentifier:hostApplicationBundleIdentifier:completionHandler:
++ _objc_msgSend$getAllWarningsForcingUpdate:completionHandler:
++ _objc_msgSend$getGroupsWithRequest:completion:
++ _objc_msgSend$groupID
++ _objc_msgSend$groupMemberDataForGroup:
++ _objc_msgSend$groupMemberDataForGroupParticipants:
++ _objc_msgSend$groupMemberDataForPrimaryAccount
++ _objc_msgSend$groupPermissionLevel
++ _objc_msgSend$groupsUpdatedWithInfos:shouldForceShowingNotifications:completionHandler:
++ _objc_msgSend$handle
++ _objc_msgSend$handleForDisplay
++ _objc_msgSend$hasOnlyFileVaultRecoveryKeys
++ _objc_msgSend$hasWiFiNetworks
++ _objc_msgSend$headerImageName
++ _objc_msgSend$headerImageNameForMovingCredentialsToGroup
++ _objc_msgSend$headerImageNameForRemovingDuplicateCredentialsInGroup
++ _objc_msgSend$headerImageNameForWelcomeView
++ _objc_msgSend$imageByPreparingThumbnailOfSize:
++ _objc_msgSend$imageForSize:scale:
++ _objc_msgSend$imageWithConfiguration:
++ _objc_msgSend$initWithAppleAccount:store:
++ _objc_msgSend$initWithBundleIdentifier:
++ _objc_msgSend$initWithConfiguration:
++ _objc_msgSend$initWithCredentialIdentity:requestType:clientDataHash:userVerificationPreference:supportedAlgorithms:
++ _objc_msgSend$initWithEmailAddress:user:serviceIdentifier:
++ _objc_msgSend$initWithGroupID:
++ _objc_msgSend$initWithHandle:permissionLevel:
++ _objc_msgSend$initWithSavedAccountStore:
++ _objc_msgSend$initWithSavedAccounts:wiFiNetworks:
++ _objc_msgSend$internationalizedFormattedNumber:countryCode:
++ _objc_msgSend$inviteStatus
++ _objc_msgSend$isAutomaticPasswordChangeAllowlistEnabled
++ _objc_msgSend$isAutomaticPasswordChangeCustomDebugWebsitesListEnabled
++ _objc_msgSend$isChildAccount
++ _objc_msgSend$isCurrentUser
++ _objc_msgSend$isCurrentUserOriginalContributor
++ _objc_msgSend$isInternalInstall
++ _objc_msgSend$isKeychainSyncEnabled
++ _objc_msgSend$isManagedByProfile
++ _objc_msgSend$isMe
++ _objc_msgSend$isMeParticipant
++ _objc_msgSend$isPasswordBreachDetectionEnabled
++ _objc_msgSend$isPromotePasskeyUpgradesEnabled
++ _objc_msgSend$isSelectedAccountSingleFileVaultRecoveryKey
++ _objc_msgSend$isStringEmailAddress:
++ _objc_msgSend$isStringPhoneNumber:
++ _objc_msgSend$issueTypes
++ _objc_msgSend$keyBagLockStatus
++ _objc_msgSend$knownSenderHeaderImageName
++ _objc_msgSend$lastObject
++ _objc_msgSend$leaveGroupWithRequest:completion:
++ _objc_msgSend$localizedShortName
++ _objc_msgSend$localizedStringFromPersonNameComponents:style:options:
++ _objc_msgSend$mainScreen
++ _objc_msgSend$managedWiFiNetworks
++ _objc_msgSend$members
++ _objc_msgSend$mergeDuplicateSavedAccountsWithPasswordsWithCompletionHandler:
++ _objc_msgSend$nameForOriginalContributorParticipantID:inGroupID:
++ _objc_msgSend$normalizedAddress
++ _objc_msgSend$notifyUserAboutSharedSavedAccountsInRecentlyDeleted:
++ _objc_msgSend$numberOfFileVaultRecoveryKeys
++ _objc_msgSend$ownerParticipant
++ _objc_msgSend$participantID
++ _objc_msgSend$participants
++ _objc_msgSend$passwordManagerURLForGroupWithID:
++ _objc_msgSend$passwordManagerURLForRecentlyDeleted
++ _objc_msgSend$pccLimitChecker
++ _objc_msgSend$performTaskEnsuringAllAccountSourcesAreLoadedOnQueue:task:
++ _objc_msgSend$performTaskEnsuringGroupsAreLoadedOnQueue:task:
++ _objc_msgSend$permissionLevel
++ _objc_msgSend$phoneNumberWithStringValue:
++ _objc_msgSend$placeholderImageProvider
++ _objc_msgSend$preWarmWarningsWithCompletionHandler:
++ _objc_msgSend$predicateForContactsMatchingEmailAddress:
++ _objc_msgSend$predicateForContactsMatchingHandleStrings:
++ _objc_msgSend$predicateForContactsMatchingPhoneNumber:
++ _objc_msgSend$presentAccountsToSetUp:reason:windowSceneIdentifier:completionHandler:
++ _objc_msgSend$presentVerificationCodesDeliverySetupWithUIWindow:daemonEndpoint:completionHandler:
++ _objc_msgSend$profilePictureForAccountOwnerWithoutMonogramFallback
++ _objc_msgSend$providerApplicationBundleIdentifier
++ _objc_msgSend$providerExtensionBundleIdentifier
++ _objc_msgSend$removeAllObjects
++ _objc_msgSend$removeKeyBagLockStatusChangedObserver:
++ _objc_msgSend$reportAnalyticsIfNecessary
++ _objc_msgSend$requestWithIdentifier:content:trigger:
++ _objc_msgSend$reset
++ _objc_msgSend$resourceSpecifierEncodedKey:value:
++ _objc_msgSend$safari_boolForKey:defaultValue:
++ _objc_msgSend$safari_numberOfDaysUntilDate:
++ _objc_msgSend$safari_setByApplyingBlock:
++ _objc_msgSend$savedAccountStore
++ _objc_msgSend$savedAccounts
++ _objc_msgSend$scopeWithPointSize:scale:rightToLeft:style:
++ _objc_msgSend$secondBulletImageName
++ _objc_msgSend$secondBulletImageNameForWelcomeView
++ _objc_msgSend$securityRecommendationsBiomeDonor
++ _objc_msgSend$selectedCredentialTypes
++ _objc_msgSend$setAssumedIdentity:
++ _objc_msgSend$setAvatarImageForGroupMemberCell:
++ _objc_msgSend$setBody:
++ _objc_msgSend$setBool:forKey:
++ _objc_msgSend$setContact:
++ _objc_msgSend$setContactDisplayName:
++ _objc_msgSend$setDefaultActionURL:
++ _objc_msgSend$setGroupPermissionLevel:
++ _objc_msgSend$setHandle:
++ _objc_msgSend$setHandleForDisplay:
++ _objc_msgSend$setInviteStatus:
++ _objc_msgSend$setIsMeParticipant:
++ _objc_msgSend$setMiddleName:
++ _objc_msgSend$setParticipantID:
++ _objc_msgSend$setShortContactDisplayName:
++ _objc_msgSend$setShouldIgnoreKeychainUpdatesDuringMaintenanceActivity:
++ _objc_msgSend$severity
++ _objc_msgSend$sharedGroupID
++ _objc_msgSend$sharedInstance
++ _objc_msgSend$sharedProvider
++ _objc_msgSend$sharedSavedAccountsInRecentlyDeletedToNotifyUserAbout
++ _objc_msgSend$shortContactDisplayName
++ _objc_msgSend$signInEventForAnyRecentAutoFillOfUsername:password:hostApplicationBundleIdentifier:completionHandler:
++ _objc_msgSend$signInEventForAutoFillOfUsername:password:serviceIdentifierType:serviceIdentifier:hostApplicationBundleIdentifier:completionHandler:
++ _objc_msgSend$ssid
++ _objc_msgSend$startRequestWithCompletionHandler:
++ _objc_msgSend$thirdBulletImageName
++ _objc_msgSend$thirdBulletImageNameForWelcomeView
++ _objc_msgSend$tintColor
++ _objc_msgSend$unifiedContactsMatchingPredicate:keysToFetch:error:
++ _objc_msgSend$unknownSenderImageName
++ _objc_msgSend$updateType
++ _objc_msgSend$updatedGroup
++ _objc_msgSend$userVisibleDomain
++ _objc_msgSend$username
++ _objc_msgSend$wiFiNetworksToForget
++ _sharedManager.once
++ _sharedManager.sharedManager
++ _swift_release_x9
++ _swift_retain_x24
++ _swift_retain_x25
++ _symbolic $s22AuthenticationServices46ASVerificationCodesDeliverySetupDaemonProtocolP
++ _symbolic IeyB_Sg
++ _symbolic SaySo40ASCVerificationCodesDeliverySetupAccountCG
++ _symbolic ScCySo21NSXPCListenerEndpointCSg_Sbt______pG s5ErrorP
++ _symbolic SccySSSg_____G s5NeverO
++ _symbolic SccySaySo14KCSharingGroupCG______pG s5ErrorP
++ _symbolic SccySaySo18WBSPasswordWarningCG______pG s5ErrorP
++ _symbolic SccySb______pG s5ErrorP
++ _symbolic SccySo14FAFamilyCircleC______pG s5ErrorP
++ _symbolic SccySo22WBSPasswordSignInEventCSg_____G s5NeverO
++ _symbolic SccySo26WBSPasswordGenerationEventCSg_____G s5NeverO
++ _symbolic So13NSXPCListenerC
++ _symbolic So15NSXPCConnectionCSgXw
++ _symbolic So21NSXPCListenerEndpointCSgSb______pSgIeghgyg_ s5ErrorP
++ _symbolic So21NSXPCListenerEndpointCSg_Sbt
++ _symbolic So21NSXPCListenerEndpointCSg_____So7NSErrorCSgIeyBhyyy_ 10ObjectiveC8ObjCBoolV
++ _symbolic So30ASCCredentialServiceIdentifierC
++ _symbolic So31ASAgentVerificationCodesServiceCSgXw
++ _symbolic So31ASAgentVerificationCodesServiceCSgXwz_Xx
++ _symbolic So34WBSFileVaultRecoveryKeySaveRequestC
++ _symbolic So35_ASAgentPeriodicMaintenanceActivityC
++ _symbolic So36_ASAgentFileVaultRecoveryKeyListenerC
++ _symbolic So40ASCVerificationCodesDeliverySetupAccountC
++ _symbolic So40ASCVerificationCodesDeliverySetupAccountCm
++ _symbolic So7NSArrayCSgSo7NSErrorCSgIeyByy_Sg
++ _symbolic So7NSArrayCm
++ _symbolic _____ 22AuthenticationServices35ASDeliveredVerificationCodesManagerC11SetUpReasonO
++ _symbolic _____ 22AuthenticationServices35ASDeliveredVerificationCodesManagerC21AccountRecordForSetUpV
++ _symbolic _____ 22AuthenticationServices35ASDeliveredVerificationCodesManagerC21AccountRecordForSetUpV13ContactMethodO
++ _symbolic _____ 22AuthenticationServices37VerificationCodesDeliverySetupSession33_5715F930C8FEF8ACFAE0CBB4BA5B403ELLC
++ _symbolic _____ 22AuthenticationServices45VerificationCodesDeliverySetupSessionsManager33_5715F930C8FEF8ACFAE0CBB4BA5B403ELLC
++ _symbolic _____ So20ASPasswordCredentialC22AuthenticationServicesE10SaveActionV
++ _symbolic _____ So39ASCVerificationCodesDeliverySetupReasonV
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySay_____GG 2os21OSAllocatedUnfairLockV 22AuthenticationServices37VerificationCodesDeliverySetupSession33_5715F930C8FEF8ACFAE0CBB4BA5B403ELLC
++ _symbolic _____ySay_____G_____G s13ManagedBufferCsRi__rlE 22AuthenticationServices37VerificationCodesDeliverySetupSession33_5715F930C8FEF8ACFAE0CBB4BA5B403ELLC So16os_unfair_lock_sV
++ _symbolic _____ySo13NSXPCListenerCG 10SafariCore7WBSLazyC
++ _symbolic _____ySo20WBSSavedAccountStoreCSg_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
++ _symbolic _____y_____G 10Foundation17KeyPathComparatorV 22AuthenticationServices26ASPasswordSavingModalStateO
++ _symbolic _____y_____G 10SafariCore7WBSLazyC 022AuthenticationServicesB021ASCHideMyEmailManagerC
++ _symbolic _____y_____G s11_SetStorageC s11AnyHashableV
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _tcc_identity_create
++ _type_layout_string 22AuthenticationServices35ASDeliveredVerificationCodesManagerC21AccountRecordForSetUpV
++ _type_layout_string 22AuthenticationServices35ASDeliveredVerificationCodesManagerC21AccountRecordForSetUpV13ContactMethodO
++ _type_layout_string So20ASPasswordCredentialC22AuthenticationServicesE10SaveActionV
++ _xpc_activity_get_state
++ _xpc_activity_register
++ _xpc_activity_set_state
++ _xpc_activity_should_defer
+- GCC_except_table35
+- GCC_except_table39
+- GCC_except_table41
+- GCC_except_table42
+- GCC_except_table46
+- GCC_except_table52
+- GCC_except_table57
+- GCC_except_table65
+- GCC_except_table67
+- GCC_except_table74
+- __CLASS_METHODS_ASPasswordSavingManager
+- __CLASS_PROPERTIES_ASAuthorizationPublicKeyCredentialPRFRegistrationInput
+- __OBJC_$_INSTANCE_METHODS_ASAgentVerificationCodesService(AuthenticationServices)
+- __OBJC_$_INSTANCE_METHODS_ASAuthorizationController(SwiftImplementation)
+- __OBJC_CLASS_PROTOCOLS_$_ASAgentVerificationCodesService(AuthenticationServices)
+- ___84+[_ASPasswordManagerDeleteAlertConfiguration configurationForDeletingSavedAccounts:]_block_invoke
+- ___block_descriptor_48_e8_32s40s_e17_v16?0"NSTimer"8ls32l8s40l8
+- ___swift_closure_destructor.25Tm
+- ___swift_closure_destructor.75Tm
+- ___swift_closure_destructor.94Tm
+- _objc_msgSend$credentialProviderInformationForAnyRecentAutoFillOfUsername:password:hostApplicationBundleIdentifier:completionHandler:
+- _objc_msgSend$credentialProviderInformationForAutoFillOfUsername:password:serviceIdentifierType:serviceIdentifier:hostApplicationBundleIdentifier:completionHandler:
+- _objc_msgSend$credentialProviderInformationForGenerationOfStrongPassword:serviceIdentifierType:serviceIdentifier:hostApplicationBundleIdentifier:completionHandler:
+- _objc_msgSend$initWithSavedAccounts:
+- _objc_msgSend$requestWithCredentialIdentity:clientDataHash:userVerificationPreference:supportedAlgorithms:
+- _symbolic SccySSSg_A2At_____G s5NeverO
+- _symbolic SccySSSg_AAt_____G s5NeverO
+- _symbolic So5NSURLCSg
+- _symbolic _____ 10ObjectiveC8ObjCBoolV
+- _symbolic ______pSg 22AuthenticationServices27ASApplicationRecordResolverP
+- _symbolic ______pSg 26AuthenticationServicesCore29ASCredentialProvidersProviderP
+- _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
+CStrings:
++ "\n\n"
++ "%1$@ wants you to join the group “%2$@”."
++ "%@ (%@) invited you to join this shared passwords group."
++ "%@ (You)"
++ "%@ and %@ were added to “%@”."
++ "%@ and %@ will have access to the passwords and passkeys you’ve shared, as well as any you share later.\n\nYou can send a message to let them know they’ve been invited. They can still accept your invitation if you don’t send a message."
++ "%@ invited you to join this shared passwords group."
++ "%@ was added to “%@”."
++ "%@ will have access to the passwords and passkeys you’ve shared, as well as any you share later.\n\nYou can send a message to let them know they’ve been invited. They can still accept your invitation if you don’t send a message."
++ "%@, %@, and %@ were added to “%@”."
++ "%@, %@, and %@ will have access to the passwords and passkeys you’ve shared, as well as any you share later.\n\nYou can send a message to let them know they’ve been invited. They can still accept your invitation if you don’t send a message."
++ "%@, %@, and %zu more people were added to “%@”."
++ "%zu passkeys and %zu passwords that you have shared in groups were moved to Recently Deleted."
++ "%zu passkeys and %zu passwords that you shared in “%@” were moved to Recently Deleted."
++ "%zu passkeys and %zu passwords that you shared were moved to Recently Deleted."
++ "%zu passkeys that you have shared in groups were moved to Recently Deleted."
++ "%zu passkeys that you shared in “%@” were moved to Recently Deleted."
++ "%zu passkeys that you shared were moved to Recently Deleted."
++ "%zu passwords that you have shared in groups were moved to Recently Deleted."
++ "%zu passwords that you shared in “%@” were moved to Recently Deleted."
++ "%zu passwords that you shared were moved to Recently Deleted."
++ "-[_ASAgentCredentialExchangeListener importCredentialsWithToken:completionHandler:]_block_invoke"
++ "<%@: %p; contactDisplayName = %@; shortContactDisplayName = %@; handle = %@; handleForDisplay = %@; permissionLevel = %lld; isMeParticipant = %@; inviteStatus = %lld>; hasContact = %@; participantID: %@;"
++ "@\"NSString\"16@?0@\"WBSSavedAccount\"8"
++ "@\"NSString\"16@?0@\"_ASAccountSharingGroupMemberData\"8"
++ "@\"_ASAccountSharingGroupMemberData\"16@?0@\"KCSharingParticipant\"8"
++ "@16@?0@\"CNComposeRecipient\"8"
++ "@16@?0@\"_ASAccountSharingGroupMemberData\"8"
++ "AAUIProfilePictureStore"
++ "Accept"
++ "Add Trusted Contacts"
++ "Anyone in this group can view, edit, and delete passwords shared to it."
++ "Are you sure you want to delete these items?"
++ "Are you sure you want to delete this Recovery Key?"
++ "Are you sure you want to delete this shared Recovery Key?"
++ "Are you sure you want to permanently delete these items?"
++ "Are you sure you want to permanently delete this Recovery Key?"
++ "Are you sure you want to permanently delete this shared Recovery Key?"
++ "Authentication Services Agent received group departure update for group with ID: %@."
++ "Authentication Services Agent received group member addition update for group with ID: %@."
++ "Authentication Services Agent received group updates."
++ "Authentication Services Agent received updates via groupsUpdatedWithInfos."
++ "AuthenticationServices/ASAuthorizationPublicKeyCredentialPRFExtension.swift"
++ "AuthenticationServices/ASGeneratePasswordsRequest.swift"
++ "AuthenticationServices/ASGeneratedPassword.swift"
++ "AuthenticationServices/ASPasswordSavingManager.swift"
++ "AuthenticationServices/ASPasswordSavingManagerRequest.swift"
++ "AuthenticationServices/ASPasswordSavingModalState.swift"
++ "AuthenticationServices/ASPasswordSavingProvidersState.swift"
++ "AuthenticationServices/ASSavePasswordRequest.swift"
++ "AuthenticationServices/_ASAgentAutomaticSecurityUpgradeListener.swift"
++ "Automatic Suggestions"
++ "B16@?0@\"KCSharingParticipant\"8"
++ "C"
++ "Cancel"
++ "Choose What to Share"
++ "Class getAAUIProfilePictureStoreClass(void)_block_invoke"
++ "Client is not entitled."
++ "Connection arrived on a verification codes delivery setup endpoint with no presentation behind it"
++ "Could not look up the requesting app."
++ "Create a group to share passwords and passkeys across their devices."
++ "DebugIgnoreLastNotificationDateAndFiveDayGracePeriodForRecentlyDeletedNotifications"
++ "Decline"
++ "Delete Recovery Key"
++ "Deleting this Recovery Key will remove it from Passwords on all your devices and the devices of the people you shared this Recovery Key with.\n\nYou can’t undo this action."
++ "Deleting this Recovery Key will remove it from Passwords on all your devices. You can’t undo this action."
++ "Discarding a verification codes delivery setup presentation whose client went away"
++ "Each member of the group decides which passwords they share and can delete them at any time."
++ "Failed to acknowledge completed automatic password change sessions: %{public}s"
++ "Failed to check recipient eligibility for shared account groups with error: %@"
++ "Failed to fetch FAFamilyCircle with error: %{public}@"
++ "Failed to fetch groups with error: %s"
++ "Failed to fetch warnings: %{public}s"
++ "Failed to find group for group ID when looking up original contributor display name: %{private}@"
++ "Failed to find group with provided group ID."
++ "Failed to find original contributor while trying to get original contributor's name (participantID = %{private}@)."
++ "Failed to get FamilyCircle with error: %s"
++ "Failed to get contact for current user with error: %{public}@"
++ "Failed to get group display name for group ID for sharing notification: %{private}@"
++ "Failed to move contributed credentials back from group ID: %@"
++ "Failed to move credentials back to personal keychain."
++ "Failed to present notification with error: %@"
++ "Forget"
++ "Found multiple contacts matching handle %{private}@. Returning first match."
++ "Get Started"
++ "Invitation From Unknown Sender"
++ "Invitation to “%@”"
++ "Move Passwords to Group?"
++ "No accounts need verification codes delivery setup"
++ "No warnings to report"
++ "Not Now"
++ "Not shared with anyone"
++ "Notify %@"
++ "Notify Group Members"
++ "Notify via Messages"
++ "Passkeys are digital keys saved to your iCloud Keychain. They are backed up and sync across all of your Apple devices. You can use a passkey to sign in to apps and websites on iPhone, iPad, Mac, Apple TV, Vision\u00a0Pro, and web browsers on other platforms.\n\nPasskeys keep your accounts more secure than passwords do. They use powerful cryptography, which makes every passkey strong. Unlike passwords, malicious websites cannot trick you into giving away your passkeys.\n\nYou sign in to apps and websites with passkeys differently than you do with passwords. When prompted to sign in with a passkey, you use Face\u00a0ID, Touch\u00a0ID, Optic\u00a0ID, or your device passcode. Your biometric information and device passcode are never sent to the service you’re signing in to."
++ "Passwords (notification title)"
++ "PasswordsSharingInvite"
++ "Periodic maintenance activity checking in."
++ "Periodic maintenance activity failed to complete. Deferring."
++ "Periodic maintenance activity failed to transition to state Continue. Continuing, but activity may be interrupted."
++ "Periodic maintenance activity failed to transition to state Defer."
++ "Periodic maintenance activity failed to transition to state Done."
++ "Periodic maintenance activity is attempting to merge saved accounts with passwords using case-insensitive username comparison"
++ "Periodic maintenance activity is attempting to run group sync verification"
++ "Periodic maintenance activity transitioned to state Defer."
++ "Periodic maintenance activity transitioned to state Done."
++ "Periodic maintenance activity transitioned to state Run, but criteria are no longer satisfied. Deferring."
++ "Periodic maintenance activity transitioned to state Run."
++ "Received unexpected empty address for group member."
++ "Received unexpected empty handle for group member."
++ "Recovery Keys must be deleted individually."
++ "Rejected an unentitled connection to the verification codes delivery setup endpoint"
++ "Rejecting %{public}s from a connection that does not own the current operation."
++ "Remove Duplicate Passwords?"
++ "Send a message to let people know they have been invited to your shared group. They can accept your invitation by tapping on the message you send, or by viewing Passwords on their iPhone, iPad, Mac, or Vision\u00a0Pro."
++ "Share Passwords and Passkeys"
++ "Share Passwords with Family"
++ "Share passwords and passkeys safely and securely with your family."
++ "Shared Passwords (messages invite bubble)"
++ "Shared Passwords and Passkeys"
++ "Shared credentials stay in sync and appear automatically."
++ "Shared with %@"
++ "Shared with %@ and %@"
++ "Shared with %@ and %zu others"
++ "Shared with %@, %@ and %zu others"
++ "Shared with %@, %@, and %@"
++ "Shared with %zu people"
++ "Shared with 1 person"
++ "ShouldAttemptPasskeyAvailabilityManagerFetchingInAuthenticationServicesAgent"
++ "ShouldMergeDuplicateAccountsUsingCaseInsensitiveUsernameMatching"
++ "Skipping Recently Deleted shared accounts notification because the key bag was locked."
++ "The person who creates the group can add or remove others."
++ "The selected Recovery Key will not be deleted. To delete it, go to the key and select “Delete”."
++ "The selected Recovery Keys will not be deleted. To delete them, go to each key individually and select “Delete”."
++ "There is no verification codes delivery setup in progress."
++ "These passwords are duplicates of items already in “%@”. You can remove them from My Passwords to make sure you’re using passwords from the shared group."
++ "This Recovery Key will be moved to Recently Deleted. After %@ days, it will be permanently deleted."
++ "This action does not turn off FileVault on your Mac. You can still view the key in System Settings on that Mac."
++ "Unknown"
++ "Unknown Sender"
++ "View (group invitation)"
++ "View service disconnected from a verification codes delivery setup presentation"
++ "View service reported the answer. shouldProceed=%{bool,public}d"
++ "WBSSecurityRecommendationsBiomeDonationLastDate"
++ "Welcome to “%@”"
++ "You can choose passwords to move to “%@” so other group members can use them."
++ "You can safely and securely share passwords and passkeys that you choose with family, friends, or other close contacts."
++ "You choose the credentials you want to share and you can delete them at any time."
++ "You have been invited to join a Shared Passwords Group by someone who is not in your Contacts.\n\nDo not accept this invitation if you don’t know this person."
++ "You have been invited to join this Shared Passwords Group. If you join, you can use passwords others have shared."
++ "You have been invited to join this Shared Passwords Group. If you join, you can use passwords others have shared. You can also choose to share any of your passwords."
++ "You have copies of some passwords from “%@” in My Passwords. To avoid duplicates you can remove your existing copies."
++ "Your passkey and password for “%@” shared in “%@” were moved to Recently Deleted. They will be permanently deleted in %zu days unless they are recovered."
++ "Your passkey for “%@” shared in “%@” was moved to Recently Deleted. It will be permanently deleted in %zu days unless it is recovered."
++ "Your password for “%@” shared in “%@” was moved to Recently Deleted. It will be permanently deleted in %zu days unless it is recovered."
++ "Your shared passkey and password for “%@” were moved to Recently Deleted. They will be permanently deleted in %zu days unless they are recovered."
++ "Your shared passkey for “%@” was moved to Recently Deleted. It will be permanently deleted in %zu days unless it is recovered."
++ "Your shared password for “%@” was moved to Recently Deleted. It will be permanently deleted in %zu days unless it is recovered."
++ "You’ll be notified if someone joins the group and you can leave whenever you’d like."
++ "You’re in Control"
++ "_ASAccountSharingGroupMemberDataManager.m"
++ "checklist"
++ "com.apple.AuthenticationServices.AuthenticationServicesAgent.FileVaultRecoveryKeys"
++ "com.apple.AuthenticationServices.CredentialSharingGroups.GroupUpdate"
++ "com.apple.AuthenticationServices.CredentialSharingGroups.RecentlyDeleted"
++ "com.apple.AuthenticationServicesCore.AuthenticationServicesAgent.PeriodicMaintenanceActivity"
++ "com.apple.Safari.PasswordBreachAgent.PeriodicLookupActivity"
++ "com.apple.authentication-services.credential-sharing-groups"
++ "com.apple.private.AuthenticationServicesAgent.fileVaultRecoveryKeys"
++ "doc.on.doc.fill"
++ "familySharingTipAcknowledgementDate"
++ "generalSharingTipAcknowledgementDate"
++ "message.and.message.fill"
++ "person.2.badge.key.fill"
++ "person.2.fill"
++ "person.crop.circle.badge.questionmark.fill"
++ "person.crop.circle.fill.badge.plus"
++ "prefs:root=PASSWORDS&"
++ "presentAccountsToSetUp(_:reason:anchor:)"
++ "rectangle.and.pencil.and.ellipsis"
++ "softlink:r:path:/System/Library/PrivateFrameworks/AppleAccountUI.framework/AppleAccountUI"
++ "switch.2"
++ "updateType SPI not available on group update info."
++ "v16@?0@\"NSObject<OS_xpc_object>\"8"
++ "v24@?0@\"FAFamilyCircle\"8@\"NSError\"16"
++ "void *AppleAccountUILibrary(void)"
++ "wapi"
+- "-[_ASAgentCredentialExchangeListener _setUpExporterConnection:forOperation:]_block_invoke"
+- "-[_ASAgentCredentialExchangeListener continueExportWithCredentials:completionHandler:]_block_invoke_2"
+- "-[_ASAgentCredentialExchangeListener importCredentialsWithToken:completionHandler:]"
+- "AuthenticationServices.ASGeneratePasswordsRequest"
+- "AuthenticationServices.ASGeneratedPassword"
+- "AuthenticationServices.ASSavePasswordRequest"
+- "AuthenticationServices.__ASAuthorizationPublicKeyCredentialPRFAssertionInput"
+- "AuthenticationServices.__ASAuthorizationPublicKeyCredentialPRFAssertionInputValues"
+- "AuthenticationServices.__ASAuthorizationPublicKeyCredentialPRFAssertionOutput"
+- "AuthenticationServices.__ASAuthorizationPublicKeyCredentialPRFRegistrationInput"
+- "AuthenticationServices.__ASAuthorizationPublicKeyCredentialPRFRegistrationOutput"
+- "AuthenticationServices_Private.ASPasswordSavingManager"
+- "AuthenticationServices_Private.RequestObject"
+- "AuthenticationServices_Private._ASAgentAutomaticSecurityUpgradeListener"
+- "AuthenticationServices_Private.__ASPasswordSavingModalState"
+- "AuthenticationServices_Private.__ASPasswordSavingProvidersState"
+- "Passkeys are digital keys saved to your iCloud Keychain. They are backed up and sync across all of your Apple devices. You can use a passkey to sign in to apps and websites on iPhone, iPad, Mac, Apple TV, Vision\u00a0Pro, and web browsers on other platforms.\n\nPasskeys keep your accounts more secure than passwords do. They use powerful cryptography, which makes every passkey strong. Unlike passwords, malicious websites cannot trick you into giving away your passkeys.\n\nYou sign in to apps and websites with passkeys differently than you do with passwords. When prompted to sign in with a passkey, you use Face ID, Touch ID, Optic\u00a0ID, or your device passcode. Your biometric information and device passcode are never sent to the service you’re signing in to."
+```

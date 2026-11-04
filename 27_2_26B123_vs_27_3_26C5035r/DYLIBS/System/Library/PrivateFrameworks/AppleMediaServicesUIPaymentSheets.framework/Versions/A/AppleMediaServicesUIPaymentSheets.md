@@ -1,0 +1,119 @@
+## AppleMediaServicesUIPaymentSheets
+
+> `/System/Library/PrivateFrameworks/AppleMediaServicesUIPaymentSheets.framework/Versions/A/AppleMediaServicesUIPaymentSheets`
+
+```diff
+
+-8.1.23.0.0
+-  __TEXT.__text: 0x2aae4
+-  __TEXT.__objc_methlist: 0x1f4
+-  __TEXT.__const: 0x2b24
+-  __TEXT.__constg_swiftt: 0xeb4
+-  __TEXT.__swift5_typeref: 0x4646
+-  __TEXT.__swift5_reflstr: 0x8a2
+-  __TEXT.__swift5_fieldmd: 0xb24
++8.2.9.1.1
++  __TEXT.__text: 0x2cd54
++  __TEXT.__objc_methlist: 0x264
++  __TEXT.__const: 0x2c24
++  __TEXT.__constg_swiftt: 0xee0
++  __TEXT.__swift5_typeref: 0x470c
++  __TEXT.__swift5_reflstr: 0x8b2
++  __TEXT.__swift5_fieldmd: 0xb40
+   __TEXT.__swift5_assocty: 0x330
+   __TEXT.__swift5_builtin: 0x3c
+   __TEXT.__swift5_proto: 0x10c
+-  __TEXT.__swift5_types: 0xe4
+-  __TEXT.__swift5_capture: 0x4c0
+-  __TEXT.__cstring: 0x9e0
++  __TEXT.__swift5_types: 0xe8
++  __TEXT.__swift5_capture: 0x510
++  __TEXT.__cstring: 0xa20
+   __TEXT.__swift_as_entry: 0x3c
+   __TEXT.__swift_as_ret: 0x38
+   __TEXT.__swift_as_cont: 0x94
+   __TEXT.__swift5_mpenum: 0x14
+   __TEXT.__oslogstring: 0x85
+   __TEXT.__swift5_protos: 0xc
+-  __TEXT.__unwind_info: 0x10b8
+-  __TEXT.__eh_frame: 0xb04
++  __TEXT.__unwind_info: 0x1180
++  __TEXT.__eh_frame: 0xc34
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x178
+-  __DATA_CONST.__objc_classlist: 0x60
++  __DATA_CONST.__objc_classlist: 0x68
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2c0
++  __DATA_CONST.__objc_selrefs: 0x2f0
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__got: 0x600
+-  __AUTH_CONST.__const: 0x2330
+-  __AUTH_CONST.__objc_const: 0x938
+-  __AUTH_CONST.__auth_got: 0xc88
+-  __AUTH.__objc_data: 0xd8
+-  __AUTH.__data: 0x170
+-  __DATA.__data: 0xa00
+-  __DATA.__bss: 0xde0
++  __DATA_CONST.__got: 0x610
++  __AUTH_CONST.__const: 0x23d0
++  __AUTH_CONST.__objc_const: 0x9d8
++  __AUTH_CONST.__auth_got: 0xcd0
++  __AUTH.__objc_data: 0x188
++  __AUTH.__data: 0x198
++  __DATA.__data: 0xa70
++  __DATA.__bss: 0xdf0
+   __DATA.__common: 0x10
+   __DATA_DIRTY.__objc_data: 0x340
+   __DATA_DIRTY.__data: 0xe80
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1492
+-  Symbols:   896
+-  CStrings:  57
++  Functions: 1570
++  Symbols:   916
++  CStrings:  59
+ 
+Symbols:
++ _OBJC_CLASS_$_AMSUIPaymentSheetSectionViews
++ _OBJC_METACLASS_$_AMSUIPaymentSheetSectionViews
++ _OUTLINED_FUNCTION_52
++ _OUTLINED_FUNCTION_53
++ __CLASS_METHODS_AMSUIPaymentSheetSectionViews
++ __CLASS_PROPERTIES_AMSUIPaymentSheetSectionViews
++ __DATA_AMSUIPaymentSheetSectionViews
++ __INSTANCE_METHODS_AMSUIPaymentSheetSectionViews
++ __METACLASS_DATA_AMSUIPaymentSheetSectionViews
++ ___swift_closure_destructor.7Tm
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA08ModifiedD0VyAA6VStackVyAA05TupleD0Vy33AppleMediaServicesUIPaymentSheets15SalableIconViewV_AEyAGyAA7ForEachVySaySi6offset_AJ011CombinedRowO0V7elementtGSiAEyAqA16_FlexFrameLayoutVGGGAA30_EnvironmentKeyWritingModifierVyAA13TextAlignmentOGGQPGGAUGAGyAIyAL_AXQPGGGAEyAEyAEyAA6HStackVyAIyAEyAEyAEyAlA08_PaddingX0VGAUGAA010_FixedSizeX0VG_AEyAxUGQPGGA16_GAUGA12_GGAA0O0HPA8_AAA25_HPA5_AAA25_HPA4_AAA25_HPyHC_AuA0O8ModifierHPyHCHC_A7_AAA25_HPyHCHC_A23_AAA25_HPA22_AAA25_HPA21_AAA25_HPA20_AAA25_HPyHC_A16_AAA26_HPyHCHC_AuAA26_HPyHCHC_A12_AAA26_HPyHCHCHC
++ _symbolic SaySSG
++ _symbolic _____ 33AppleMediaServicesUIPaymentSheets24PaymentSheetSectionViewsC
++ _symbolic _____yAAyAAy_____y_____yAAyAAyAAy__________G_____G_____G_AAy_____y_____ySaySi6offset______7elementtGSiAAyAnGGGGAGGQPGGAIGAGGAEG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V 33AppleMediaServicesUIPaymentSheets15SalableIconViewV AA14_PaddingLayoutV AA010_FlexFrameP0V AA010_FixedSizeP0V AA6VStackV AA7ForEachV AH011CombinedRowN0V
++ _symbolic _____yAAy_____y_____yAAyAAyAAy__________G_____G_____G_AAy_____y_____ySaySi6offset______7elementtGSiAAyAnGGGGAGGQPGGAIGAGG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V 33AppleMediaServicesUIPaymentSheets15SalableIconViewV AA14_PaddingLayoutV AA010_FlexFrameP0V AA010_FixedSizeP0V AA6VStackV AA7ForEachV AH011CombinedRowN0V
++ _symbolic _____yAAy_____y_____y_____y______AByACy_____ySaySi6offset______7elementtGSiAByAH_____GGG_____y_____GGQPGGAKGACyADyAE_ANQPGGGAByAByABy_____yADyAByAByAByAE_____GAKG_____G_AByAnKGQPGGA1_GAKGAZGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6VStackV AA05TupleD0V 33AppleMediaServicesUIPaymentSheets15SalableIconViewV AA7ForEachV AJ011CombinedRowO0V AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA6HStackV AA08_PaddingV0V AA010_FixedSizeV0V
++ _symbolic _____ySSypG s17_NativeDictionaryV
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____ySo17AMSPaymentRequestCSgG 7SwiftUI11EnvironmentV
++ _symbolic _____ySo17AMSPaymentRequestCSgG 7SwiftUI30_EnvironmentKeyWritingModifierV
++ _symbolic _____y_____G 7SwiftUI13NSHostingViewC AA03AnyD0V
++ _symbolic _____y__________ySo17AMSPaymentRequestCSgGG 7SwiftUI15ModifiedContentV AA7AnyViewV AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____y_____y__________GG 7SwiftUI13NSHostingViewC AA15ModifiedContentV AA03AnyD0V AA16_FixedSizeLayoutV
++ _symbolic _____y_____y__________GG 7SwiftUI13NSHostingViewC AA15ModifiedContentV AA03AnyD0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y_____y_____y______ACyADy_____ySaySi6offset______7elementtGSiACyAI_____GGG_____y_____GGQPGGALGADyAEyAF_AOQPGGGACyACyACy_____yAEyACyACyACyAF_____GALG_____G_ACyAoLGQPGGA2_GALGA_G_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA6VStackV AA05TupleD0V 33AppleMediaServicesUIPaymentSheets15SalableIconViewV AA7ForEachV AL011CombinedRowP0V AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA6HStackV AA08_PaddingW0V AA010_FixedSizeW0V
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA08ModifiedD0VyAA6VStackVyAA05TupleD0Vy33AppleMediaServicesUIPaymentSheets15SalableIconViewV_AEyAGyAA7ForEachVySaySi6offset_AJ011CombinedRowO0V7elementtGSiAEyAqA16_FlexFrameLayoutVGGGAA30_EnvironmentKeyWritingModifierVyAA13TextAlignmentOGGQPGGAUGAGyAIyAL_AXQPGGGAEyAEyAEyAA6HStackVyAIyAEyAEyAEyAlA08_PaddingX0VGAUGAA010_FixedSizeX0VG_AEyAxUGQPGGA16_GAA012_AspectRatioX0VGA12_GGAA0O0HPA8_AAA27_HPA5_AAA27_HPA4_AAA27_HPyHC_AuA0O8ModifierHPyHCHC_A7_AAA27_HPyHCHC_A25_AAA27_HPA24_AAA27_HPA21_AAA27_HPA20_AAA27_HPyHC_A16_AAA28_HPyHCHC_A23_AAA28_HPyHCHC_A12_AAA28_HPyHCHCHC
+- _symbolic _____yAAyAAy_____y_____yAAyAAyAAy__________G_____G_____G_AAy_____y_____ySaySi6offset______7elementtGSiAAyAnGGGGAGGQPGGAIG_____GAEG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V 33AppleMediaServicesUIPaymentSheets15SalableIconViewV AA14_PaddingLayoutV AA010_FlexFrameP0V AA010_FixedSizeP0V AA6VStackV AA7ForEachV AH011CombinedRowN0V AA012_AspectRatioP0V
+- _symbolic _____yAAy_____y_____yAAyAAyAAy__________G_____G_____G_AAy_____y_____ySaySi6offset______7elementtGSiAAyAnGGGGAGGQPGGAIG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V 33AppleMediaServicesUIPaymentSheets15SalableIconViewV AA14_PaddingLayoutV AA010_FlexFrameP0V AA010_FixedSizeP0V AA6VStackV AA7ForEachV AH011CombinedRowN0V AA012_AspectRatioP0V
+- _symbolic _____yAAy_____y_____y_____y______AByACy_____ySaySi6offset______7elementtGSiAByAH_____GGG_____y_____GGQPGGAKGACyADyAE_ANQPGGGAByAByABy_____yADyAByAByAByAE_____GAKG_____G_AByAnKGQPGGA1_G_____GAZGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6VStackV AA05TupleD0V 33AppleMediaServicesUIPaymentSheets15SalableIconViewV AA7ForEachV AJ011CombinedRowO0V AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA6HStackV AA08_PaddingV0V AA010_FixedSizeV0V AA012_AspectRatioV0V
+- _symbolic _____y_____y_____y_____y_____y______ACyADy_____ySaySi6offset______7elementtGSiACyAI_____GGG_____y_____GGQPGGALGADyAEyAF_AOQPGGGACyACyACy_____yAEyACyACyACyAF_____GALG_____G_ACyAoLGQPGGA2_G_____GA_G_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA6VStackV AA05TupleD0V 33AppleMediaServicesUIPaymentSheets15SalableIconViewV AA7ForEachV AL011CombinedRowP0V AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA6HStackV AA08_PaddingW0V AA010_FixedSizeW0V AA012_AspectRatioW0V
+CStrings:
++ "AMSUIPaymentSheetSectionViews"
++ "Vending sections: "
+```

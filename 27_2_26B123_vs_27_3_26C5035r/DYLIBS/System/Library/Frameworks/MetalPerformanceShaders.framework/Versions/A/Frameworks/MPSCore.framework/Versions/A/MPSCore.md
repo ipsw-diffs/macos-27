@@ -1,0 +1,47 @@
+## MPSCore
+
+> `/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Frameworks/MPSCore.framework/Versions/A/MPSCore`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
+```diff
+
+-130.1.4.0.0
+-  __TEXT.__text: 0x955ac
++130.2.2.0.0
++  __TEXT.__text: 0x9562c
+   __TEXT.__objc_methlist: 0x283c
+   __TEXT.__const: 0x2984
+   __TEXT.__cstring: 0xaf95
+
+   __DATA_CONST.__objc_classlist: 0x198
+   __DATA_CONST.__objc_protolist: 0x78
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1438
++  __DATA_CONST.__objc_selrefs: 0x1440
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__objc_superrefs: 0x188
+   __DATA_CONST.__got: 0x208
+Symbols:
++ __ZN10MPSLibrary13MPSKey_CreateEPK17PrivateKernelInfoRK23MPSFunctionConstantListb30MPSThreadGroupSizeMultipleType24MPSDriverCompilerOptions23MPSForwardProgressUsagePFvPS0_EP8NSStringmym
++ __ZN10MPSLibrary19CreateUberShaderKeyEP8NSStringRK23MPSFunctionConstantListyPFPU22objcproto11MTLFunction11objc_objectPU21objcproto10MTLLibrary11objc_objectPK13MPSKernelInfoS4_RK33MPSFunctionConstructorExtraParamsPP7NSErrorEy30MPSThreadGroupSizeMultipleType24MPSDriverCompilerOptions23MPSForwardProgressUsageP18MPSKernelDAGObjectS1_mP20MPSKernelUserDAGInfoP7NSArrayIS6_EPSR_ISO_Em
+- __ZN10MPSLibrary13MPSKey_CreateEPK17PrivateKernelInfoRK23MPSFunctionConstantListb30MPSThreadGroupSizeMultipleType24MPSDriverCompilerOptions23MPSForwardProgressUsagePFvPS0_EP8NSStringmy
+- __ZN10MPSLibrary19CreateUberShaderKeyEP8NSStringRK23MPSFunctionConstantListyPFPU22objcproto11MTLFunction11objc_objectPU21objcproto10MTLLibrary11objc_objectPK13MPSKernelInfoS4_RK33MPSFunctionConstructorExtraParamsPP7NSErrorEy30MPSThreadGroupSizeMultipleType24MPSDriverCompilerOptions23MPSForwardProgressUsageP18MPSKernelDAGObjectS1_mP20MPSKernelUserDAGInfoP7NSArrayIS6_EPSR_ISO_E
+Functions:
+~ sub_1b5b73c7c -> sub_1b5ffcc7c : 2960 -> 2964
+~ sub_1b5b7480c -> sub_1b5ffd810 : 3448 -> 3452
+~ sub_1b5b75648 -> sub_1b5ffe650 : 4304 -> 4308
+~ sub_1b5b76798 -> sub_1b5fff7a4 : 4080 -> 4084
+~ sub_1b5b77788 -> sub_1b6000798 : 3892 -> 3900
+~ sub_1b5b8187c -> sub_1b600a894 : 3152 -> 3156
+~ sub_1b5b9a2f8 -> sub_1b6023314 : 492 -> 496
+~ sub_1b5b9b94c -> sub_1b602496c : 948 -> 952
+~ __ZN10MPSLibrary13MPSKey_CreateEPK17PrivateKernelInfoRK23MPSFunctionConstantListb30MPSThreadGroupSizeMultipleType24MPSDriverCompilerOptions23MPSForwardProgressUsagePFvPS0_EP8NSStringmy -> __ZN10MPSLibrary13MPSKey_CreateEPK17PrivateKernelInfoRK23MPSFunctionConstantListb30MPSThreadGroupSizeMultipleType24MPSDriverCompilerOptions23MPSForwardProgressUsagePFvPS0_EP8NSStringmym : 360 -> 372
+~ __ZN10MPSLibrary14MPSKey_CompileEP11MPSKey_data : 3892 -> 3908
+~ __ZN10MPSLibrary19CreateUberShaderKeyEP8NSStringRK23MPSFunctionConstantListyPFPU22objcproto11MTLFunction11objc_objectPU21objcproto10MTLLibrary11objc_objectPK13MPSKernelInfoS4_RK33MPSFunctionConstructorExtraParamsPP7NSErrorEy30MPSThreadGroupSizeMultipleType24MPSDriverCompilerOptions23MPSForwardProgressUsageP18MPSKernelDAGObjectS1_mP20MPSKernelUserDAGInfoP7NSArrayIS6_EPSR_ISO_E -> __ZN10MPSLibrary19CreateUberShaderKeyEP8NSStringRK23MPSFunctionConstantListyPFPU22objcproto11MTLFunction11objc_objectPU21objcproto10MTLLibrary11objc_objectPK13MPSKernelInfoS4_RK33MPSFunctionConstructorExtraParamsPP7NSErrorEy30MPSThreadGroupSizeMultipleType24MPSDriverCompilerOptions23MPSForwardProgressUsageP18MPSKernelDAGObjectS1_mP20MPSKernelUserDAGInfoP7NSArrayIS6_EPSR_ISO_Em : 2436 -> 2500
+CStrings:
++ "130.2.2"
+- "130.1.4"
+```

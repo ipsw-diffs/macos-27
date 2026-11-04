@@ -1,0 +1,538 @@
+## PhotosUIPrivate
+
+> `/System/Library/PrivateFrameworks/PhotosUIPrivate.framework/Versions/A/PhotosUIPrivate`
+
+```diff
+
+-916.58.114.0.0
+-  __TEXT.__text: 0xcd734
+-  __TEXT.__objc_methlist: 0x33a4
+-  __TEXT.__const: 0xcbd8
+-  __TEXT.__constg_swiftt: 0x3d10
+-  __TEXT.__swift5_typeref: 0xcca5
+-  __TEXT.__swift5_reflstr: 0x29ca
+-  __TEXT.__swift5_assocty: 0xc98
+-  __TEXT.__swift5_fieldmd: 0x29f0
++920.8.100.0.0
++  __TEXT.__text: 0xcbca8
++  __TEXT.__objc_methlist: 0x33ac
++  __TEXT.__const: 0xc328
++  __TEXT.__constg_swiftt: 0x3d24
++  __TEXT.__swift5_typeref: 0xcb7f
+   __TEXT.__swift5_builtin: 0x2d0
+-  __TEXT.__cstring: 0x4a1e
++  __TEXT.__swift5_reflstr: 0x28d1
++  __TEXT.__swift5_fieldmd: 0x297c
++  __TEXT.__swift5_assocty: 0xbb8
++  __TEXT.__cstring: 0x513d
++  __TEXT.__swift5_proto: 0x6a0
++  __TEXT.__swift5_types: 0x2b8
++  __TEXT.__swift5_capture: 0x1d10
++  __TEXT.__oslogstring: 0x9be
+   __TEXT.__swift5_protos: 0x50
+-  __TEXT.__swift5_proto: 0x718
+-  __TEXT.__swift5_types: 0x2d0
+-  __TEXT.__swift_as_entry: 0x214
+-  __TEXT.__swift_as_ret: 0x298
+-  __TEXT.__swift_as_cont: 0x558
+-  __TEXT.__swift5_capture: 0x1eb8
+-  __TEXT.__oslogstring: 0x985
++  __TEXT.__swift_as_entry: 0x1d0
++  __TEXT.__swift_as_ret: 0x240
++  __TEXT.__swift_as_cont: 0x4a4
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__gcc_except_tab: 0x40
+-  __TEXT.__unwind_info: 0x4ec0
+-  __TEXT.__eh_frame: 0x5114
++  __TEXT.__unwind_info: 0x4cf8
++  __TEXT.__eh_frame: 0x4bfc
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_catlist2: 0x10
+   __DATA_CONST.__objc_protolist: 0x420
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2ba0
++  __DATA_CONST.__objc_selrefs: 0x2ba8
+   __DATA_CONST.__objc_protorefs: 0x1f8
+   __DATA_CONST.__objc_superrefs: 0x38
+-  __DATA_CONST.__vfx_script_tbl: 0x10
+-  __DATA_CONST.__got: 0x12b8
+-  __AUTH_CONST.__const: 0xa2f0
+-  __AUTH_CONST.__cfstring: 0x9e0
+-  __AUTH_CONST.__objc_const: 0x63e0
++  __DATA_CONST.__vfx_script_tby: 0x20
++  __DATA_CONST.__got: 0x12d8
++  __AUTH_CONST.__const: 0x9c88
++  __AUTH_CONST.__cfstring: 0xa00
++  __AUTH_CONST.__objc_const: 0x6408
++  __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH_CONST.__objc_intobj: 0x30
+-  __AUTH_CONST.__auth_got: 0x1c58
+-  __AUTH.__objc_data: 0x2a28
+-  __AUTH.__data: 0x14d0
++  __AUTH_CONST.__auth_got: 0x1ca0
++  __AUTH.__objc_data: 0x2a50
++  __AUTH.__data: 0x14f0
+   __DATA.__objc_ivar: 0x94
+-  __DATA.__data: 0x54a0
++  __DATA.__data: 0x5540
+   __DATA.__objc_stublist: 0x10
+-  __DATA.__bss: 0xe358
+-  __DATA.__common: 0x270
++  __DATA.__bss: 0xd718
++  __DATA.__common: 0x4b0
+   __DATA_DIRTY.__objc_data: 0xb8
+   __DATA_DIRTY.__data: 0x38
+   __DATA_DIRTY.__common: 0x8
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 6639
+-  Symbols:   4339
+-  CStrings:  516
++  Functions: 6576
++  Symbols:   4397
++  CStrings:  612
+ 
+Symbols:
++ GCC_except_table115
++ _OBJC_CLASS_$_NSConstantDoubleNumber
++ _OUTLINED_FUNCTION_155
++ _OUTLINED_FUNCTION_156
++ _PLCurrentLibraryLogTag
++ _PXDeviceIsV68
++ __ZL17_vfx_objc_sel_uv0
++ __ZL18_vfx_objc_sel_node
++ __ZL19_vfx_objc_sel_begin
++ __ZL19_vfx_objc_sel_clone
++ __ZL19_vfx_objc_sel_count
++ __ZL19_vfx_objc_sel_model
++ __ZL20_vfx_objc_sel_commit
++ __ZL21_vfx_objc_cls_NSValue
++ __ZL21_vfx_objc_cls_VFXNode
++ __ZL22_vfx_objc_cls_NSNumber
++ __ZL22_vfx_objc_cls_NSString
++ __ZL22_vfx_objc_cls_VFXWorld
++ __ZL22_vfx_objc_sel_boneNode
++ __ZL23_vfx_objc_sel_deepClone
++ __ZL23_vfx_objc_sel_faceIndex
++ __ZL23_vfx_objc_sel_materials
++ __ZL23_vfx_objc_sel_setState_
++ __ZL24_vfx_objc_sel_childNodes
++ __ZL24_vfx_objc_sel_dictionary
++ __ZL24_vfx_objc_sel_parentNode
++ __ZL25_vfx_objc_sel__screenSize
++ __ZL25_vfx_objc_sel_firstObject
++ __ZL25_vfx_objc_sel_localNormal
++ __ZL25_vfx_objc_sel_physicsBody
++ __ZL25_vfx_objc_sel_pointOfView
++ __ZL25_vfx_objc_sel_worldNormal
++ __ZL26_vfx_objc_cls_NSDictionary
++ __ZL26_vfx_objc_sel_script_clone
++ __ZL27_vfx_objc_sel_addChildNode_
++ __ZL27_vfx_objc_sel_firstMaterial
++ __ZL27_vfx_objc_sel_geometryIndex
++ __ZL27_vfx_objc_sel_projectPoint_
++ __ZL28_vfx_objc_cls_VFXTransaction
++ __ZL28_vfx_objc_sel_localRotateBy_
++ __ZL28_vfx_objc_sel_modelTransform
++ __ZL28_vfx_objc_sel_objectAtIndex_
++ __ZL28_vfx_objc_sel_script_newNode
++ __ZL28_vfx_objc_sel_setStateNamed_
++ __ZL28_vfx_objc_sel_triggerManager
++ __ZL29_vfx_objc_sel_numberWithBool_
++ __ZL29_vfx_objc_sel_script_rootNode
++ __ZL29_vfx_objc_sel_unprojectPoint_
++ __ZL30_vfx_objc_sel_localCoordinates
++ __ZL30_vfx_objc_sel_numberWithFloat_
++ __ZL30_vfx_objc_sel_presentationNode
++ __ZL30_vfx_objc_sel_script_deepClone
++ __ZL30_vfx_objc_sel_setValue_forKey_
++ __ZL30_vfx_objc_sel_valueForKeyPath_
++ __ZL30_vfx_objc_sel_worldCoordinates
++ __ZL31_vfx_objc_cls_VFXTimingFunction
++ __ZL31_vfx_objc_cls_VFXTriggerManager
++ __ZL31_vfx_objc_sel_currentMouseState
++ __ZL31_vfx_objc_sel_localTranslateBy_
++ __ZL31_vfx_objc_sel_setObject_forKey_
++ __ZL32_vfx_objc_sel_childNodeWithName_
++ __ZL32_vfx_objc_sel_presentationObject
++ __ZL32_vfx_objc_sel_setTimingFunction_
++ __ZL33_vfx_objc_cls_NSMutableDictionary
++ __ZL33_vfx_objc_sel_applyForce_impulse_
++ __ZL33_vfx_objc_sel_removeAllAnimations
++ __ZL33_vfx_objc_sel_script_instantiate_
++ __ZL34_vfx_objc_sel__contentsScaleFactor
++ __ZL34_vfx_objc_sel_applyTorque_impulse_
++ __ZL34_vfx_objc_sel_presentationBoneNode
++ __ZL34_vfx_objc_sel_removeFromParentNode
++ __ZL34_vfx_objc_sel_setValue_forKeyPath_
++ __ZL35_vfx_objc_sel_convertVector_toNode_
++ __ZL35_vfx_objc_sel_stringWithUTF8String_
++ __ZL36_vfx_objc_sel_removeAnimationForKey_
++ __ZL36_vfx_objc_sel_rotateBy_aroundTarget_
++ __ZL37_vfx_objc_sel_convertPosition_toNode_
++ __ZL37_vfx_objc_sel_convertVector_fromNode_
++ __ZL37_vfx_objc_sel_script_hitTest_options_
++ __ZL38_vfx_objc_sel_convertTransform_toNode_
++ __ZL38_vfx_objc_sel_insertChildNode_atIndex_
++ __ZL39_vfx_objc_sel_convertPosition_fromNode_
++ __ZL40_vfx_objc_sel_convertTransform_fromNode_
++ __ZL40_vfx_objc_sel_numberWithUnsignedInteger_
++ __ZL40_vfx_objc_sel_springWithDuration_bounce_
++ __ZL42_vfx_objc_sel_setAnimationDurationAsFloat_
++ __ZL43_vfx_objc_sel_functionWithControlPoints____
++ __ZL44_vfx_objc_sel_applyForce_atPosition_impulse_
++ __ZL45_vfx_objc_sel_script_setPointOfView_duration_
++ __ZL55_vfx_objc_sel_script_addAnimation_forKey_blendDuration_
++ __ZL58_vfx_objc_sel_hitTestWithSegmentFromPoint_toPoint_options_
++ __ZZL34vfx_script_initialize_objc_helpersvE4once
++ ____ZL34vfx_script_initialize_objc_helpersv_block_invoke
++ ___vfx_script_wandDesign0357Vfx2_graph_72
++ ___vfx_script_wandDesign0357Vfx2_graph_74
++ ___vfx_script_wandDesign0357Vfx2_graph_75
++ ___vfx_script_wandDesign0357Vfx2_graph_76
++ ___vfx_script_wandDesign0357Vfx2_graph_77
++ ___vfx_script_wandDesign0357Vfx2_graph_78
++ ___vfx_script_wandDesign0357Vfx2_graph_79
++ ___vfx_script_wandDesign0357Vfx2_graph_80
++ ___vfx_script_wandDesign0357Vfx2_graph_83
++ ___vfx_script_wandDesign0357Vfx2_graph_84
++ ___vfx_script_wandDesign0357Vfx2_graph_85
++ ___vfx_script_wandDesign0357Vfx2_particleInit_70
++ ___vfx_script_wandDesign0357Vfx2_particleInit_81
++ ___vfx_script_wandDesign0357Vfx2_particleUpdate_71
++ ___vfx_script_wandDesign0357Vfx2_particleUpdate_73
++ ___vfx_script_wandDesign0357Vfx2_particleUpdate_82
++ _associated conformance 15PhotosUIPrivate0A17AssetRotateIntentV0A6UICore020PXAppIntentsExternalC9UtilitiesAA03AppH00kE0
++ _associated conformance 15PhotosUIPrivate0A17AssetRotateIntentV10AppIntents011LongRunningE0AaD017ProgressReportingE0
++ _associated conformance 15PhotosUIPrivate0A17AssetRotateIntentV10AppIntents017ProgressReportingE0AaD0fE0
++ _associated conformance 15PhotosUIPrivate0A17AssetRotateIntentV10AppIntents04ToolE0AaD0fE0
++ _associated conformance 15PhotosUIPrivate0A17AssetRotateIntentV10AppIntents06SystemE0AaD0fE0
++ _associated conformance 15PhotosUIPrivate0A17AssetRotateIntentV10AppIntents08UndoableE0AaD06SystemE0
++ _associated conformance 15PhotosUIPrivate0A17AssetRotateIntentV10AppIntents0fE0AA13PerformResultAdEP_AD0eI0
++ _associated conformance 15PhotosUIPrivate0A17AssetRotateIntentV10AppIntents0fE0AA14SummaryContentAdEP_AD09ParameterH0
++ _associated conformance 15PhotosUIPrivate0A17AssetRotateIntentV10AppIntents0fE0AaD09_SupportsF12Dependencies
++ _associated conformance 15PhotosUIPrivate0A17AssetRotateIntentV10AppIntents0fE0AaD24PersistentlyIdentifiable
++ _associated conformance 15PhotosUIPrivate0A35ToggleSuggestedEditsAssistantIntentV10AppIntents011LongRunningG0AaD017ProgressReportingG0
++ _associated conformance 15PhotosUIPrivate0A35ToggleSuggestedEditsAssistantIntentV10AppIntents017ProgressReportingG0AaD0hG0
++ _associated conformance 15PhotosUIPrivate0A35ToggleSuggestedEditsAssistantIntentV10AppIntents06SystemG0AaD0hG0
++ _associated conformance 15PhotosUIPrivate0A35ToggleSuggestedEditsAssistantIntentV10AppIntents08UndoableG0AaD06SystemG0
++ _associated conformance 15PhotosUIPrivate12RotateIntentV10AppIntents011LongRunningD0AaD017ProgressReportingD0
++ _associated conformance 15PhotosUIPrivate12RotateIntentV10AppIntents017ProgressReportingD0AaD0eD0
++ _associated conformance 15PhotosUIPrivate12RotateIntentV10AppIntents06SystemD0AaD0eD0
++ _associated conformance 15PhotosUIPrivate12RotateIntentV10AppIntents08UndoableD0AaD06SystemD0
++ _associated conformance 15PhotosUIPrivate12RotateIntentV9DirectionO10AppIntents01_D5ValueAA0H4TypeAfGP_AfG
++ _associated conformance 15PhotosUIPrivate12RotateIntentV9DirectionO10AppIntents01_D5ValueAA13SpecificationAfGP_AF08ResolverI0
++ _associated conformance 15PhotosUIPrivate12RotateIntentV9DirectionO10AppIntents01_D5ValueAA13UnwrappedTypeAfGP_AfG
++ _associated conformance 15PhotosUIPrivate12RotateIntentV9DirectionO10AppIntents0F4EnumAA8RawValueSY_s25LosslessStringConvertible
++ _associated conformance 15PhotosUIPrivate12RotateIntentV9DirectionO10AppIntents0F4EnumAASY
++ _associated conformance 15PhotosUIPrivate12RotateIntentV9DirectionO10AppIntents0F4EnumAaF0F5Value
++ _associated conformance 15PhotosUIPrivate12RotateIntentV9DirectionO10AppIntents0F4EnumAaF26StaticDisplayRepresentable
++ _associated conformance 15PhotosUIPrivate12RotateIntentV9DirectionO10AppIntents0F5ValueAaF01_dH0
++ _associated conformance 15PhotosUIPrivate12RotateIntentV9DirectionO10AppIntents0F5ValueAaF24PersistentlyIdentifiable
++ _associated conformance 15PhotosUIPrivate12RotateIntentV9DirectionO10AppIntents0F5ValueAaF24TypeDisplayRepresentable
++ _associated conformance 15PhotosUIPrivate12RotateIntentV9DirectionO10AppIntents24CaseDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 15PhotosUIPrivate12RotateIntentV9DirectionO10AppIntents24CaseDisplayRepresentableAASH
++ _associated conformance 15PhotosUIPrivate12RotateIntentV9DirectionO10AppIntents24CaseDisplayRepresentableAAs0H8Iterable
++ _associated conformance 15PhotosUIPrivate12RotateIntentV9DirectionO10AppIntents26StaticDisplayRepresentableAaF04CaseiJ0
++ _associated conformance 15PhotosUIPrivate12RotateIntentV9DirectionO10AppIntents26StaticDisplayRepresentableAaF04TypeiJ0
++ _associated conformance 15PhotosUIPrivate12RotateIntentV9DirectionOSHAASQ
++ _associated conformance 15PhotosUIPrivate12RotateIntentV9DirectionOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 15PhotosUIPrivate13EnhanceIntentV10AppIntents011LongRunningD0AaD017ProgressReportingD0
++ _associated conformance 15PhotosUIPrivate13EnhanceIntentV10AppIntents017ProgressReportingD0AaD0eD0
++ _associated conformance 15PhotosUIPrivate13EnhanceIntentV10AppIntents06SystemD0AaD0eD0
++ _associated conformance 15PhotosUIPrivate13EnhanceIntentV10AppIntents08UndoableD0AaD06SystemD0
++ _associated conformance 15PhotosUIPrivate20CopyPasteEditsIntentV10AppIntents011LongRunningF0AaD017ProgressReportingF0
++ _associated conformance 15PhotosUIPrivate20CopyPasteEditsIntentV10AppIntents017ProgressReportingF0AaD0gF0
++ _associated conformance 15PhotosUIPrivate20CopyPasteEditsIntentV10AppIntents06SystemF0AaD0gF0
++ _associated conformance 15PhotosUIPrivate20CopyPasteEditsIntentV10AppIntents08UndoableF0AaD06SystemF0
++ _cosf
++ _get_witness_table 10AppIntents22IntentParameterSummaryVy15PhotosUIPrivate0f11AssetRotateC0VGAA0dE0HPyHC
++ _objc_lookUpClass
++ _objc_msgSend$pasteEditsToAssets:undoManager:completionHandler:
++ _objc_msgSend$performBackgroundEditRequestWithAssets:adjustments:undoManager:completionHandler:
++ _objc_msgSend$performUIEditRequestWithAdjustments:completionHandler:
++ _objc_msgSend$px_isCloudKitSharedAlbum
++ _powf
++ _sel_registerName
++ _sinf
++ _symbolic Say_____G 15PhotosUIPrivate12RotateIntentV9DirectionO
++ _symbolic _____ 15PhotosUIPrivate0A17AssetRotateIntentV
++ _symbolic _____ 15PhotosUIPrivate12RotateIntentV9DirectionO
++ _symbolic _____ 15PhotosUIPrivate26PXEditAppDependencyManagerC24EditRequestExecutionModeO
++ _symbolic _____ 15PhotosUIPrivate32AssetHighlightTimeRangesProducerC14AnalysisResult33_B9D2FD0E96F8EDBDD19B52F38D197D1DLLV
++ _symbolic _____Sg 15PhotosUIPrivate32AssetHighlightTimeRangesProducerC14AnalysisResult33_B9D2FD0E96F8EDBDD19B52F38D197D1DLLV
++ _symbolic ___________t 15PhotosUIPrivate12RotateIntentV9DirectionO 10AppIntents21DisplayRepresentationV
++ _symbolic _____y_____G 10AppIntents15IntentParameterC 15PhotosUIPrivate06RotateC0V9DirectionO
++ _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 15PhotosUIPrivate0f11AssetRotateC0V
++ _symbolic _____y_____G 10AppIntents22ParameterSummaryStringV 15PhotosUIPrivate0F17AssetRotateIntentV
++ _symbolic _____y______G 10AppIntents22ParameterSummaryStringV0E13InterpolationV 15PhotosUIPrivate0G17AssetRotateIntentV
++ _symbolic _____y______Qo_ 10AppIntents0A4EnumPAAE28defaultResolverSpecificationQrvpZQO 15PhotosUIPrivate12RotateIntentV9DirectionO
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 15PhotosUIPrivate12RotateIntentV9DirectionO 10AppIntents21DisplayRepresentationV
++ _symbolic _____y__________y_____GG s7KeyPathC 15PhotosUIPrivate0C17AssetRotateIntentV 10AppIntents0G9ParameterC AC0fG0V9DirectionO
++ _symbolic _____y__________y_____GG s7KeyPathC 15PhotosUIPrivate12RotateIntentV 10AppIntents0F9ParameterC AE9DirectionO
++ _symbolic _____y__________y_____y_____GGG s7KeyPathC 15PhotosUIPrivate0C17AssetRotateIntentV 10AppIntents0G9ParameterC AF16EntityCollectionV 0C6UICore0eK0V
++ _type_layout_string 15PhotosUIPrivate0A17AssetRotateIntentV
++ _type_layout_string 15PhotosUIPrivate32AssetHighlightTimeRangesProducerC14AnalysisResult33_B9D2FD0E96F8EDBDD19B52F38D197D1DLLV
+- GCC_except_table111
+- ___vfx_script_wand_graph_141D2322_0B7C_4E79_BBE6_1B4ED64C475A
+- ___vfx_script_wand_graph_60FD312B_BD15_40F5_A712_1FAA290862F8
+- ___vfx_script_wand_graph_72931B8F_2F95_4BB5_9FE6_1EB0C3BAC773
+- ___vfx_script_wand_graph_7EA008FB_5C48_4CE5_98F1_2F09F9A5CD68
+- ___vfx_script_wand_graph_871F2BCC_D47F_4C4B_A756_367C9E3B1F1F
+- ___vfx_script_wand_graph_885370CA_9FEE_462C_9EC0_023D3C77D5FA
+- ___vfx_script_wand_graph_F66D2FC7_9DFA_45F7_BDD1_184FB5A9E179
+- ___vfx_script_wand_particleInit_0
+- ___vfx_script_wand_particleInit_40
+- ___vfx_script_wand_particleUpdate_1
+- ___vfx_script_wand_particleUpdate_28
+- ___vfx_script_wand_particleUpdate_35
+- _associated conformance 15PhotosUIPrivate0A23SetDepthAssistantIntentV0A6UICore34PXAppIntentsExternalAssetUtilitiesAA03AppI00mF0
+- _associated conformance 15PhotosUIPrivate0A23SetDepthAssistantIntentV10AppIntents0e6SchemaF0AaD0eF0
+- _associated conformance 15PhotosUIPrivate0A23SetDepthAssistantIntentV10AppIntents0eF0AaD0gF0
+- _associated conformance 15PhotosUIPrivate0A23SetDepthAssistantIntentV10AppIntents0gF0AA13PerformResultAdEP_AD0fJ0
+- _associated conformance 15PhotosUIPrivate0A23SetDepthAssistantIntentV10AppIntents0gF0AA14SummaryContentAdEP_AD09ParameterI0
+- _associated conformance 15PhotosUIPrivate0A23SetDepthAssistantIntentV10AppIntents0gF0AaD09_SupportsG12Dependencies
+- _associated conformance 15PhotosUIPrivate0A23SetDepthAssistantIntentV10AppIntents0gF0AaD24PersistentlyIdentifiable
+- _associated conformance 15PhotosUIPrivate0A24CopyEditsAssistantIntentV0A6UICore34PXAppIntentsExternalAssetUtilitiesAA03AppI00mF0
+- _associated conformance 15PhotosUIPrivate0A24CopyEditsAssistantIntentV10AppIntents0e6SchemaF0AaD0eF0
+- _associated conformance 15PhotosUIPrivate0A24CopyEditsAssistantIntentV10AppIntents0eF0AaD0gF0
+- _associated conformance 15PhotosUIPrivate0A24CopyEditsAssistantIntentV10AppIntents0gF0AA13PerformResultAdEP_AD0fJ0
+- _associated conformance 15PhotosUIPrivate0A24CopyEditsAssistantIntentV10AppIntents0gF0AA14SummaryContentAdEP_AD09ParameterI0
+- _associated conformance 15PhotosUIPrivate0A24CopyEditsAssistantIntentV10AppIntents0gF0AaD09_SupportsG12Dependencies
+- _associated conformance 15PhotosUIPrivate0A24CopyEditsAssistantIntentV10AppIntents0gF0AaD24PersistentlyIdentifiable
+- _associated conformance 15PhotosUIPrivate0A25PasteEditsAssistantIntentV0A6UICore34PXAppIntentsExternalAssetUtilitiesAA03AppI00mF0
+- _associated conformance 15PhotosUIPrivate0A25PasteEditsAssistantIntentV10AppIntents0e6SchemaF0AaD0eF0
+- _associated conformance 15PhotosUIPrivate0A25PasteEditsAssistantIntentV10AppIntents0eF0AaD0gF0
+- _associated conformance 15PhotosUIPrivate0A25PasteEditsAssistantIntentV10AppIntents0gF0AA13PerformResultAdEP_AD0fJ0
+- _associated conformance 15PhotosUIPrivate0A25PasteEditsAssistantIntentV10AppIntents0gF0AA14SummaryContentAdEP_AD09ParameterI0
+- _associated conformance 15PhotosUIPrivate0A25PasteEditsAssistantIntentV10AppIntents0gF0AaD09_SupportsG12Dependencies
+- _associated conformance 15PhotosUIPrivate0A25PasteEditsAssistantIntentV10AppIntents0gF0AaD24PersistentlyIdentifiable
+- _associated conformance 15PhotosUIPrivate0A25StraightenAssistantIntentV0A6UICore34PXAppIntentsExternalAssetUtilitiesAA03AppH00lE0
+- _associated conformance 15PhotosUIPrivate0A25StraightenAssistantIntentV10AppIntents0d6SchemaE0AaD0dE0
+- _associated conformance 15PhotosUIPrivate0A25StraightenAssistantIntentV10AppIntents0dE0AaD0fE0
+- _associated conformance 15PhotosUIPrivate0A25StraightenAssistantIntentV10AppIntents0fE0AA13PerformResultAdEP_AD0eI0
+- _associated conformance 15PhotosUIPrivate0A25StraightenAssistantIntentV10AppIntents0fE0AA14SummaryContentAdEP_AD09ParameterH0
+- _associated conformance 15PhotosUIPrivate0A25StraightenAssistantIntentV10AppIntents0fE0AaD09_SupportsF12Dependencies
+- _associated conformance 15PhotosUIPrivate0A25StraightenAssistantIntentV10AppIntents0fE0AaD24PersistentlyIdentifiable
+- _associated conformance 15PhotosUIPrivate0A26SetExposureAssistantIntentV0A6UICore34PXAppIntentsExternalAssetUtilitiesAA03AppI00mF0
+- _associated conformance 15PhotosUIPrivate0A26SetExposureAssistantIntentV10AppIntents0e6SchemaF0AaD0eF0
+- _associated conformance 15PhotosUIPrivate0A26SetExposureAssistantIntentV10AppIntents0eF0AaD0gF0
+- _associated conformance 15PhotosUIPrivate0A26SetExposureAssistantIntentV10AppIntents0gF0AA13PerformResultAdEP_AD0fJ0
+- _associated conformance 15PhotosUIPrivate0A26SetExposureAssistantIntentV10AppIntents0gF0AA14SummaryContentAdEP_AD09ParameterI0
+- _associated conformance 15PhotosUIPrivate0A26SetExposureAssistantIntentV10AppIntents0gF0AaD09_SupportsG12Dependencies
+- _associated conformance 15PhotosUIPrivate0A26SetExposureAssistantIntentV10AppIntents0gF0AaD24PersistentlyIdentifiable
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0A6UICore34PXAppIntentsExternalAssetUtilitiesAA03AppI00mF0
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO10AppIntents01_F5ValueAA0K4TypeAfGP_AfG
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO10AppIntents01_F5ValueAA13SpecificationAfGP_AF08ResolverL0
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO10AppIntents01_F5ValueAA13UnwrappedTypeAfGP_AfG
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO10AppIntents0I5ValueAaF01_fK0
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO10AppIntents0I5ValueAaF24PersistentlyIdentifiable
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO10AppIntents0I5ValueAaF24TypeDisplayRepresentable
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO10AppIntents0e6SchemaH0AaF0eH0
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO10AppIntents0eH0AaF0iH0
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO10AppIntents0iH0AA8RawValueSY_s25LosslessStringConvertible
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO10AppIntents0iH0AASY
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO10AppIntents0iH0AaF0I5Value
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO10AppIntents0iH0AaF26StaticDisplayRepresentable
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO10AppIntents24CaseDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO10AppIntents24CaseDisplayRepresentableAASH
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO10AppIntents24CaseDisplayRepresentableAAs0K8Iterable
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO10AppIntents26StaticDisplayRepresentableAaF04CaselM0
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO10AppIntents26StaticDisplayRepresentableAaF04TypelM0
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumOSHAASQ
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumOs12CaseIterableAA8AllCasessAFP_Sl
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV10AppIntents0e6SchemaF0AaD0eF0
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV10AppIntents0eF0AaD0gF0
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV10AppIntents0gF0AA13PerformResultAdEP_AD0fJ0
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV10AppIntents0gF0AA14SummaryContentAdEP_AD09ParameterI0
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV10AppIntents0gF0AaD09_SupportsG12Dependencies
+- _associated conformance 15PhotosUIPrivate0A26SetRotationAssistantIntentV10AppIntents0gF0AaD24PersistentlyIdentifiable
+- _associated conformance 15PhotosUIPrivate0A26ToggleDepthAssistantIntentV0A6UICore34PXAppIntentsExternalAssetUtilitiesAA03AppI00mF0
+- _associated conformance 15PhotosUIPrivate0A26ToggleDepthAssistantIntentV10AppIntents0e6SchemaF0AaD0eF0
+- _associated conformance 15PhotosUIPrivate0A26ToggleDepthAssistantIntentV10AppIntents0eF0AaD0gF0
+- _associated conformance 15PhotosUIPrivate0A26ToggleDepthAssistantIntentV10AppIntents0gF0AA13PerformResultAdEP_AD0fJ0
+- _associated conformance 15PhotosUIPrivate0A26ToggleDepthAssistantIntentV10AppIntents0gF0AA14SummaryContentAdEP_AD09ParameterI0
+- _associated conformance 15PhotosUIPrivate0A26ToggleDepthAssistantIntentV10AppIntents0gF0AaD09_SupportsG12Dependencies
+- _associated conformance 15PhotosUIPrivate0A26ToggleDepthAssistantIntentV10AppIntents0gF0AaD24PersistentlyIdentifiable
+- _associated conformance 15PhotosUIPrivate0A28SetSaturationAssistantIntentV0A6UICore34PXAppIntentsExternalAssetUtilitiesAA03AppI00mF0
+- _associated conformance 15PhotosUIPrivate0A28SetSaturationAssistantIntentV10AppIntents0e6SchemaF0AaD0eF0
+- _associated conformance 15PhotosUIPrivate0A28SetSaturationAssistantIntentV10AppIntents0eF0AaD0gF0
+- _associated conformance 15PhotosUIPrivate0A28SetSaturationAssistantIntentV10AppIntents0gF0AA13PerformResultAdEP_AD0fJ0
+- _associated conformance 15PhotosUIPrivate0A28SetSaturationAssistantIntentV10AppIntents0gF0AA14SummaryContentAdEP_AD09ParameterI0
+- _associated conformance 15PhotosUIPrivate0A28SetSaturationAssistantIntentV10AppIntents0gF0AaD09_SupportsG12Dependencies
+- _associated conformance 15PhotosUIPrivate0A28SetSaturationAssistantIntentV10AppIntents0gF0AaD24PersistentlyIdentifiable
+- _objc_msgSend$pasteEditsToAssets:completionHandler:
+- _objc_msgSend$performBackgroundEditRequestWithAssets:adjustments:completionHandler:
+- _objc_msgSend$performEditRequestWithAdjustments:completionHandler:
+- _symbolic Say_____G 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO
+- _symbolic _____ 15PhotosUIPrivate0A23SetDepthAssistantIntentV
+- _symbolic _____ 15PhotosUIPrivate0A24CopyEditsAssistantIntentV
+- _symbolic _____ 15PhotosUIPrivate0A25PasteEditsAssistantIntentV
+- _symbolic _____ 15PhotosUIPrivate0A25StraightenAssistantIntentV
+- _symbolic _____ 15PhotosUIPrivate0A26SetExposureAssistantIntentV
+- _symbolic _____ 15PhotosUIPrivate0A26SetRotationAssistantIntentV
+- _symbolic _____ 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO
+- _symbolic _____ 15PhotosUIPrivate0A26ToggleDepthAssistantIntentV
+- _symbolic _____ 15PhotosUIPrivate0A28SetSaturationAssistantIntentV
+- _symbolic ___________t 15PhotosUIPrivate0A26SetRotationAssistantIntentV0d9DirectionE4EnumO 10AppIntents21DisplayRepresentationV
+- _symbolic _____y_____G 10AppIntents15IntentParameterC 15PhotosUIPrivate0e20SetRotationAssistantC0V0h9DirectionI4EnumO
+- _symbolic _____y______Qo_ 10AppIntents0A4EnumPAAE28defaultResolverSpecificationQrvpZQO 15PhotosUIPrivate0G26SetRotationAssistantIntentV0j9DirectionkC0O
+- _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 15PhotosUIPrivate0f17SetDepthAssistantC0V
+- _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 15PhotosUIPrivate0f18CopyEditsAssistantC0V
+- _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 15PhotosUIPrivate0f19PasteEditsAssistantC0V
+- _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 15PhotosUIPrivate0f19StraightenAssistantC0V
+- _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 15PhotosUIPrivate0f20SetExposureAssistantC0V
+- _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 15PhotosUIPrivate0f20SetRotationAssistantC0V
+- _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 15PhotosUIPrivate0f20ToggleDepthAssistantC0V
+- _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 15PhotosUIPrivate0f22SetSaturationAssistantC0V
+- _symbolic _____y___________tG s23_ContiguousArrayStorageC 15PhotosUIPrivate0D26SetRotationAssistantIntentV0g9DirectionH4EnumO 10AppIntents21DisplayRepresentationV
+- _symbolic _____y__________ySbGG s7KeyPathC 15PhotosUIPrivate12RotateIntentV 10AppIntents0F9ParameterC
+- _type_layout_string 15PhotosUIPrivate0A23SetDepthAssistantIntentV
+- _type_layout_string 15PhotosUIPrivate0A24CopyEditsAssistantIntentV
+- _type_layout_string 15PhotosUIPrivate0A25PasteEditsAssistantIntentV
+- _type_layout_string 15PhotosUIPrivate0A25StraightenAssistantIntentV
+- _type_layout_string 15PhotosUIPrivate0A26SetExposureAssistantIntentV
+- _type_layout_string 15PhotosUIPrivate0A26SetRotationAssistantIntentV
+- _type_layout_string 15PhotosUIPrivate0A26ToggleDepthAssistantIntentV
+- _type_layout_string 15PhotosUIPrivate0A28SetSaturationAssistantIntentV
+CStrings:
++ "%{public}sPHAssetView: Set audio identifiers to highlight: %@"
++ "%{public}sPHAssetView: Set human action identifiers to highlight: %@"
++ "%{public}sPHAssetView: Set person identifiers to highlight: %@"
++ "%{public}sPHAssetView: Set scene identifiers to highlight: %@"
++ "%{public}sPHAssetView: Set strings to highlight: %@"
++ "COPY_PASTE_EDITS_INTENT_PROGRESS_DESCRIPTION"
++ "ENHANCE_INTENT_PROGRESS_DESCRIPTION_DISABLE"
++ "ENHANCE_INTENT_PROGRESS_DESCRIPTION_ENABLE"
++ "NSDictionary"
++ "NSMutableDictionary"
++ "NSNumber"
++ "NSString"
++ "NSValue"
++ "ROTATE_INTENT_DIRECTION_NAME"
++ "ROTATE_INTENT_DIRECTION_PARAMETER_DESCRIPTION"
++ "ROTATE_INTENT_DIRECTION_PARAMETER_TITLE"
++ "ROTATE_INTENT_PROGRESS_DESCRIPTION"
++ "VFXNode"
++ "VFXTimingFunction"
++ "VFXTransaction"
++ "VFXTriggerManager"
++ "VFXWorld"
++ "__vfx_script_wandDesign0357Vfx2_graph_72"
++ "__vfx_script_wandDesign0357Vfx2_graph_74"
++ "__vfx_script_wandDesign0357Vfx2_graph_75"
++ "__vfx_script_wandDesign0357Vfx2_graph_76"
++ "__vfx_script_wandDesign0357Vfx2_graph_77"
++ "__vfx_script_wandDesign0357Vfx2_graph_78"
++ "__vfx_script_wandDesign0357Vfx2_graph_79"
++ "__vfx_script_wandDesign0357Vfx2_graph_80"
++ "__vfx_script_wandDesign0357Vfx2_graph_83"
++ "__vfx_script_wandDesign0357Vfx2_graph_84"
++ "__vfx_script_wandDesign0357Vfx2_graph_85"
++ "__vfx_script_wandDesign0357Vfx2_particleInit_70"
++ "__vfx_script_wandDesign0357Vfx2_particleInit_81"
++ "__vfx_script_wandDesign0357Vfx2_particleUpdate_71"
++ "__vfx_script_wandDesign0357Vfx2_particleUpdate_73"
++ "__vfx_script_wandDesign0357Vfx2_particleUpdate_82"
++ "_contentsScaleFactor"
++ "_screenSize"
++ "addChildNode:"
++ "applyForce:atPosition:impulse:"
++ "applyForce:impulse:"
++ "applyTorque:impulse:"
++ "begin"
++ "boneNode"
++ "childNodeWithName:"
++ "childNodes"
++ "clone"
++ "commit"
++ "convertPosition:fromNode:"
++ "convertPosition:toNode:"
++ "convertTransform:fromNode:"
++ "convertTransform:toNode:"
++ "convertVector:fromNode:"
++ "convertVector:toNode:"
++ "count"
++ "currentMouseState"
++ "deepClone"
++ "dictionary"
++ "faceIndex"
++ "firstMaterial"
++ "firstObject"
++ "functionWithControlPoints::::"
++ "geometryIndex"
++ "hitTestWithSegmentFromPoint:toPoint:options:"
++ "insertChildNode:atIndex:"
++ "localCoordinates"
++ "localNormal"
++ "localRotateBy:"
++ "localTranslateBy:"
++ "materials"
++ "model"
++ "modelTransform"
++ "node"
++ "numberWithBool:"
++ "numberWithFloat:"
++ "numberWithUnsignedInteger:"
++ "objectAtIndex:"
++ "parentNode"
++ "physicsBody"
++ "pointOfView"
++ "presentationBoneNode"
++ "presentationNode"
++ "presentationObject"
++ "projectPoint:"
++ "removeAllAnimations"
++ "removeAnimationForKey:"
++ "removeFromParentNode"
++ "rotateBy:aroundTarget:"
++ "script_addAnimation:forKey:blendDuration:"
++ "script_clone"
++ "script_deepClone"
++ "script_hitTest:options:"
++ "script_instantiate:"
++ "script_newNode"
++ "script_rootNode"
++ "script_setPointOfView:duration:"
++ "setAnimationDurationAsFloat:"
++ "setObject:forKey:"
++ "setState:"
++ "setStateNamed:"
++ "setTimingFunction:"
++ "setValue:forKey:"
++ "setValue:forKeyPath:"
++ "springWithDuration:bounce:"
++ "stringWithUTF8String:"
++ "triggerManager"
++ "unprojectPoint:"
++ "uv0"
++ "valueForKeyPath:"
++ "wandDesign0357Vfx2"
++ "wandWhite"
++ "worldCoordinates"
++ "worldNormal"
+- "PHAssetView: Set audio identifiers to highlight: %@"
+- "PHAssetView: Set human action identifiers to highlight: %@"
+- "PHAssetView: Set person identifiers to highlight: %@"
+- "PHAssetView: Set scene identifiers to highlight: %@"
+- "PHAssetView: Set strings to highlight: %@"
+- "ROTATE_INTENT_CLOCKWISE_PARAMETER_DESCRIPTION"
+- "ROTATE_INTENT_CLOCKWISE_PARAMETER_TITLE"
+- "__vfx_script_wand_graph_141D2322_0B7C_4E79_BBE6_1B4ED64C475A"
+- "__vfx_script_wand_graph_60FD312B_BD15_40F5_A712_1FAA290862F8"
+- "__vfx_script_wand_graph_72931B8F_2F95_4BB5_9FE6_1EB0C3BAC773"
+- "__vfx_script_wand_graph_7EA008FB_5C48_4CE5_98F1_2F09F9A5CD68"
+- "__vfx_script_wand_graph_871F2BCC_D47F_4C4B_A756_367C9E3B1F1F"
+- "__vfx_script_wand_graph_885370CA_9FEE_462C_9EC0_023D3C77D5FA"
+- "__vfx_script_wand_graph_F66D2FC7_9DFA_45F7_BDD1_184FB5A9E179"
+- "__vfx_script_wand_particleInit_0"
+- "__vfx_script_wand_particleInit_40"
+- "__vfx_script_wand_particleUpdate_1"
+- "__vfx_script_wand_particleUpdate_28"
+- "__vfx_script_wand_particleUpdate_35"
+```

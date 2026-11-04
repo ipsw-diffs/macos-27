@@ -1,0 +1,283 @@
+## GraphSync
+
+> `/System/Library/PrivateFrameworks/GraphSync.framework/Versions/A/GraphSync`
+
+```diff
+
+-57.200.61.0.0
+-  __TEXT.__text: 0x133e78
++57.300.31.0.0
++  __TEXT.__text: 0x13f170
+   __TEXT.__objc_methlist: 0x78
+-  __TEXT.__const: 0x26958
+-  __TEXT.__swift5_typeref: 0x494e
+-  __TEXT.__swift5_fieldmd: 0xaeec
+-  __TEXT.__constg_swiftt: 0x45e8
+-  __TEXT.__cstring: 0x5e31
+-  __TEXT.__oslogstring: 0x2be
+-  __TEXT.__swift5_builtin: 0xdc
+-  __TEXT.__swift5_reflstr: 0x7c1f
++  __TEXT.__const: 0x26a18
++  __TEXT.__swift5_typeref: 0x49ac
++  __TEXT.__swift5_fieldmd: 0xae88
++  __TEXT.__constg_swiftt: 0x45ec
++  __TEXT.__swift5_builtin: 0xf0
++  __TEXT.__swift5_reflstr: 0x7c3f
++  __TEXT.__cstring: 0x60d1
++  __TEXT.__oslogstring: 0x5be
++  __TEXT.__swift5_assocty: 0x1ef0
+   __TEXT.__swift5_protos: 0x4c
+-  __TEXT.__swift5_types: 0x868
+-  __TEXT.__swift5_assocty: 0x1e48
++  __TEXT.__swift5_proto: 0x1d54
++  __TEXT.__swift5_types: 0x864
+   __TEXT.__swift5_mpenum: 0x64
+-  __TEXT.__swift5_capture: 0x778
+-  __TEXT.__swift5_proto: 0x1d74
++  __TEXT.__swift5_capture: 0x728
+   __TEXT.__swift_as_entry: 0xa4
+   __TEXT.__swift_as_ret: 0xb0
+   __TEXT.__swift_as_cont: 0x11c
+-  __TEXT.__unwind_info: 0x8e78
+-  __TEXT.__eh_frame: 0x9d50
++  __TEXT.__unwind_info: 0x8ed0
++  __TEXT.__eh_frame: 0x9cc8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x178
+-  __DATA_CONST.__objc_classlist: 0x20
++  __DATA_CONST.__objc_classlist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x130
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x1ffb8
+-  __AUTH_CONST.__objc_const: 0x230
+-  __AUTH_CONST.__auth_got: 0xb40
++  __AUTH_CONST.__const: 0x20400
++  __AUTH_CONST.__objc_const: 0x2e8
++  __AUTH_CONST.__auth_got: 0xbd0
+   __AUTH.__objc_data: 0x238
+-  __AUTH.__data: 0x4f28
+-  __DATA.__data: 0x3e30
+-  __DATA.__bss: 0x39100
++  __AUTH.__data: 0x4ea8
++  __DATA.__data: 0x3ee0
++  __DATA.__bss: 0x38d80
+   __DATA.__common: 0x58
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 10965
+-  Symbols:   2674
+-  CStrings:  922
++  Functions: 11034
++  Symbols:   2683
++  CStrings:  947
+ 
+Symbols:
++ __DATA__TtC9GraphSync23GraphSyncResponseRecord
++ __IVARS__TtC9GraphSync23GraphSyncResponseRecord
++ __METACLASS_DATA__TtC9GraphSync23GraphSyncResponseRecord
++ ___swift_exist.box.addr_destructor.181Tm
++ ___swift_exist.box.addr_destructor.97Tm
++ ___swift_memcpy130_8
++ ___swift_memcpy1521_8
++ ___swift_memcpy162_8
++ ___swift_memcpy512_8
++ ___swift_memcpy520_8
++ ___swift_memcpy536_8
++ ___swift_memcpy97_8
++ __swift_stdlib_strtod_clocale
++ _associated conformance 9GraphSync0aB16TodoTaskResourceV20DecodeOnlyCodingKeys33_7B401011A4B11373B0F9B4A9E48431FELLOSHAASQ
++ _associated conformance 9GraphSync0aB16TodoTaskResourceV20DecodeOnlyCodingKeys33_7B401011A4B11373B0F9B4A9E48431FELLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9GraphSync0aB16TodoTaskResourceV20DecodeOnlyCodingKeys33_7B401011A4B11373B0F9B4A9E48431FELLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9GraphSync0aB17ContactUpdateDataV10CodingKeysOSHAASQ
++ _associated conformance 9GraphSync0aB17ContactUpdateDataV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9GraphSync0aB17ContactUpdateDataV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9GraphSync0aB17ContactUpdateDataVAA0aB14PatchEncodableAA0F9CodingKeyAaDP_SH
++ _associated conformance 9GraphSync0aB17ContactUpdateDataVAA0aB14PatchEncodableAA0F9CodingKeyAaDP_s0hI0
++ _associated conformance 9GraphSync0aB17ThrottlingServiceOSHAASQ
++ _associated conformance 9GraphSync0aB17ThrottlingServiceOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9GraphSync0aB18PeopleQuerySourcesVs10SetAlgebraAASQ
++ _associated conformance 9GraphSync0aB18PeopleQuerySourcesVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 9GraphSync0aB18PeopleQuerySourcesVs9OptionSetAASY
++ _associated conformance 9GraphSync0aB18PeopleQuerySourcesVs9OptionSetAAs0G7Algebra
++ _associated conformance 9GraphSync0aB18TodoLinkedResourceV10CodingKeys013_27F2C027EC19H18DA8196405B2D47976DLLOSHAASQ
++ _associated conformance 9GraphSync0aB18TodoLinkedResourceV10CodingKeys013_27F2C027EC19H18DA8196405B2D47976DLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9GraphSync0aB18TodoLinkedResourceV10CodingKeys013_27F2C027EC19H18DA8196405B2D47976DLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9GraphSync0aB21CreateTodoTaskRequestV4Body33_F7EAA15F24A05064777D9B102708D14BLLV10CodingKeysOSHAASQ
++ _associated conformance 9GraphSync0aB21CreateTodoTaskRequestV4Body33_F7EAA15F24A05064777D9B102708D14BLLV10CodingKeysOs0O3KeyAAs23CustomStringConvertible
++ _associated conformance 9GraphSync0aB21CreateTodoTaskRequestV4Body33_F7EAA15F24A05064777D9B102708D14BLLV10CodingKeysOs0O3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9GraphSync0aB35DeleteTodoTaskLinkedResourceRequestVAA0aB11RequestableAA05graphB17ResponseDataModelAaDP_SE
++ _associated conformance 9GraphSync0aB35DeleteTodoTaskLinkedResourceRequestVAA0aB11RequestableAA05graphB17ResponseDataModelAaDP_Se
++ _get_enum_tag_for_layout_string 9GraphSync0aB14ThrottleSignalVSg
++ _get_enum_tag_for_layout_string 9GraphSync0aB17ContactUpdateDataVSg
++ _symbolic $ss10SetAlgebraP
++ _symbolic $ss25ExpressibleByArrayLiteralP
++ _symbolic $ss9OptionSetP
++ _symbolic Say_____G 10Foundation11JSONEncoderC16OutputFormattingV
++ _symbolic Say_____G 9GraphSync0aB17ThrottlingServiceO
++ _symbolic Say_____G 9GraphSync0aB18TodoLinkedResourceV
++ _symbolic Say_____GSg 9GraphSync0aB18TodoLinkedResourceV
++ _symbolic Shy_____G 9GraphSync0aB17ContactUpdateDataV10CodingKeysO
++ _symbolic _____ 9GraphSync0aB14ResponseRecordC
++ _symbolic _____ 9GraphSync0aB14ThrottleSignalV
++ _symbolic _____ 9GraphSync0aB16ResponseMetadataV
++ _symbolic _____ 9GraphSync0aB16TodoTaskResourceV20DecodeOnlyCodingKeys33_7B401011A4B11373B0F9B4A9E48431FELLO
++ _symbolic _____ 9GraphSync0aB17ContactUpdateDataV
++ _symbolic _____ 9GraphSync0aB17ContactUpdateDataV10CodingKeysO
++ _symbolic _____ 9GraphSync0aB17ThrottlingServiceO
++ _symbolic _____ 9GraphSync0aB18PeopleQuerySourcesV
++ _symbolic _____ 9GraphSync0aB18TodoLinkedResourceV
++ _symbolic _____ 9GraphSync0aB18TodoLinkedResourceV10CodingKeys013_27F2C027EC19H18DA8196405B2D47976DLLO
++ _symbolic _____ 9GraphSync0aB20BatchThrottleSummaryV
++ _symbolic _____ 9GraphSync0aB21CreateTodoTaskRequestV4Body33_F7EAA15F24A05064777D9B102708D14BLLV
++ _symbolic _____ 9GraphSync0aB21CreateTodoTaskRequestV4Body33_F7EAA15F24A05064777D9B102708D14BLLV10CodingKeysO
++ _symbolic _____ 9GraphSync0aB35DeleteTodoTaskLinkedResourceRequestV
++ _symbolic _____ So13os_log_type_ta
++ _symbolic _____ s5UInt8V
++ _symbolic _____Sg 10Foundation6LocaleV
++ _symbolic _____Sg 9GraphSync0aB14ThrottleSignalV
++ _symbolic _____Sg 9GraphSync0aB16ResponseMetadataV
++ _symbolic _____Sg 9GraphSync0aB17ContactUpdateDataV
++ _symbolic _____Sg 9GraphSync0aB20BatchThrottleSummaryV
++ _symbolic _____Sg_ABt 9GraphSync0aB14ThrottleSignalV
++ _symbolic _____ySdG s23_ContiguousArrayStorageC
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9GraphSync0dE16TodoTaskResourceV20DecodeOnlyCodingKeys33_7B401011A4B11373B0F9B4A9E48431FELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9GraphSync0dE18TodoLinkedResourceV10CodingKeys013_27F2C027EC19K18DA8196405B2D47976DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9GraphSync0dE17ContactUpdateDataV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9GraphSync0dE18TodoLinkedResourceV10CodingKeys013_27F2C027EC19K18DA8196405B2D47976DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9GraphSync0dE21CreateTodoTaskRequestV4Body33_F7EAA15F24A05064777D9B102708D14BLLV10CodingKeysO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation11JSONEncoderC16OutputFormattingV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9GraphSync0dE14ThrottleSignalV
++ _symbolic _____y_____SgG 2os21OSAllocatedUnfairLockV 9GraphSync0eF16ResponseMetadataV
++ _symbolic _____y_____Sg_____G s13ManagedBufferCsRi__rlE 9GraphSync0cD16ResponseMetadataV So16os_unfair_lock_sV
++ _type_layout_string 9GraphSync0aB14ThrottleSignalV
++ _type_layout_string 9GraphSync0aB16ResponseMetadataV
++ _type_layout_string 9GraphSync0aB17ContactUpdateDataV
++ _type_layout_string 9GraphSync0aB18PeopleQuerySourcesV
++ _type_layout_string 9GraphSync0aB18TodoLinkedResourceV
++ _type_layout_string 9GraphSync0aB20BatchThrottleSummaryV
++ _type_layout_string 9GraphSync0aB21CreateTodoTaskRequestV4Body33_F7EAA15F24A05064777D9B102708D14BLLV
++ _type_layout_string 9GraphSync0aB35DeleteTodoTaskLinkedResourceRequestV
++ _type_layout_string So13os_log_type_ta
+- ___swift_exist.box.addr_destructor.100Tm
+- ___swift_exist.box.addr_destructor.103Tm
+- ___swift_memcpy146_8
+- ___swift_memcpy200_8
+- ___swift_memcpy217_8
+- ___swift_memcpy392_8
+- ___swift_memcpy409_8
+- ___swift_memcpy497_8
+- ___swift_memcpy513_8
+- ___swift_memcpy921_8
+- _associated conformance 9GraphSync0aB12NoteResourceV10CodingKeys33_2C244A28740FF639012742D802718B49LLOSHAASQ
+- _associated conformance 9GraphSync0aB12NoteResourceV10CodingKeys33_2C244A28740FF639012742D802718B49LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 9GraphSync0aB12NoteResourceV10CodingKeys33_2C244A28740FF639012742D802718B49LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9GraphSync0aB16ListNotesRequestVAA0aB11RequestableAA05graphB17ResponseDataModelAaDP_SE
+- _associated conformance 9GraphSync0aB16ListNotesRequestVAA0aB11RequestableAA05graphB17ResponseDataModelAaDP_Se
+- _associated conformance 9GraphSync0aB17DeleteNoteRequestVAA0aB11RequestableAA05graphB17ResponseDataModelAaDP_SE
+- _associated conformance 9GraphSync0aB17DeleteNoteRequestVAA0aB11RequestableAA05graphB17ResponseDataModelAaDP_Se
+- _associated conformance 9GraphSync0aB17ListNotesResponseV10CodingKeysOSHAASQ
+- _associated conformance 9GraphSync0aB17ListNotesResponseV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 9GraphSync0aB17ListNotesResponseV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9GraphSync0aB17UpdateNoteRequestVAA0aB11RequestableAA05graphB17ResponseDataModelAaDP_SE
+- _associated conformance 9GraphSync0aB17UpdateNoteRequestVAA0aB11RequestableAA05graphB17ResponseDataModelAaDP_Se
+- _associated conformance 9GraphSync0aB18NoteUpdateResourceV10CodingKeys33_4E4E5D9DB4775A899ECEF23412A8F828LLOSHAASQ
+- _associated conformance 9GraphSync0aB18NoteUpdateResourceV10CodingKeys33_4E4E5D9DB4775A899ECEF23412A8F828LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 9GraphSync0aB18NoteUpdateResourceV10CodingKeys33_4E4E5D9DB4775A899ECEF23412A8F828LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9GraphSync0aB22NotesCreateNoteRequestVAA0aB11RequestableAA05graphB17ResponseDataModelAaDP_SE
+- _associated conformance 9GraphSync0aB22NotesCreateNoteRequestVAA0aB11RequestableAA05graphB17ResponseDataModelAaDP_Se
+- _associated conformance 9GraphSync0aB30AcceptCalendarEventRequestBodyV10CodingKeys33_2AC64FFDC32FBF48D507DE5A0DED8698LLOSHAASQ
+- _associated conformance 9GraphSync0aB30AcceptCalendarEventRequestBodyV10CodingKeys33_2AC64FFDC32FBF48D507DE5A0DED8698LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 9GraphSync0aB30AcceptCalendarEventRequestBodyV10CodingKeys33_2AC64FFDC32FBF48D507DE5A0DED8698LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9GraphSync0aB31DeclineCalendarEventRequestBodyV10CodingKeys33_4B774C2667F1D0FF61C4086269DE0C3DLLOSHAASQ
+- _associated conformance 9GraphSync0aB31DeclineCalendarEventRequestBodyV10CodingKeys33_4B774C2667F1D0FF61C4086269DE0C3DLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 9GraphSync0aB31DeclineCalendarEventRequestBodyV10CodingKeys33_4B774C2667F1D0FF61C4086269DE0C3DLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9GraphSync0aB41TentativelyAcceptCalendarEventRequestBodyV10CodingKeys33_1719572AC41402E37B5B3854B2760031LLOSHAASQ
+- _associated conformance 9GraphSync0aB41TentativelyAcceptCalendarEventRequestBodyV10CodingKeys33_1719572AC41402E37B5B3854B2760031LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 9GraphSync0aB41TentativelyAcceptCalendarEventRequestBodyV10CodingKeys33_1719572AC41402E37B5B3854B2760031LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _get_enum_tag_for_layout_string 9GraphSync0aB12NoteResourceVSg
+- _symbolic Say_____G 9GraphSync0aB12NoteResourceV
+- _symbolic _____ 9GraphSync0aB12NoteResourceV
+- _symbolic _____ 9GraphSync0aB12NoteResourceV10CodingKeys33_2C244A28740FF639012742D802718B49LLO
+- _symbolic _____ 9GraphSync0aB16ListNotesRequestV
+- _symbolic _____ 9GraphSync0aB17DeleteNoteRequestV
+- _symbolic _____ 9GraphSync0aB17ListNotesResponseV
+- _symbolic _____ 9GraphSync0aB17ListNotesResponseV10CodingKeysO
+- _symbolic _____ 9GraphSync0aB17UpdateNoteRequestV
+- _symbolic _____ 9GraphSync0aB18NoteUpdateResourceV
+- _symbolic _____ 9GraphSync0aB18NoteUpdateResourceV10CodingKeys33_4E4E5D9DB4775A899ECEF23412A8F828LLO
+- _symbolic _____ 9GraphSync0aB22NotesCreateNoteRequestV
+- _symbolic _____ 9GraphSync0aB30AcceptCalendarEventRequestBodyV
+- _symbolic _____ 9GraphSync0aB30AcceptCalendarEventRequestBodyV10CodingKeys33_2AC64FFDC32FBF48D507DE5A0DED8698LLO
+- _symbolic _____ 9GraphSync0aB31DeclineCalendarEventRequestBodyV
+- _symbolic _____ 9GraphSync0aB31DeclineCalendarEventRequestBodyV10CodingKeys33_4B774C2667F1D0FF61C4086269DE0C3DLLO
+- _symbolic _____ 9GraphSync0aB41TentativelyAcceptCalendarEventRequestBodyV
+- _symbolic _____ 9GraphSync0aB41TentativelyAcceptCalendarEventRequestBodyV10CodingKeys33_1719572AC41402E37B5B3854B2760031LLO
+- _symbolic _____Sg 9GraphSync0aB12NoteResourceV
+- _symbolic _____m 9GraphSync0aB12NoteResourceV
+- _symbolic _____m 9GraphSync0aB17ListNotesResponseV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9GraphSync0dE12NoteResourceV10CodingKeys33_2C244A28740FF639012742D802718B49LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9GraphSync0dE17ListNotesResponseV10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9GraphSync0dE18NoteUpdateResourceV10CodingKeys33_4E4E5D9DB4775A899ECEF23412A8F828LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9GraphSync0dE30AcceptCalendarEventRequestBodyV10CodingKeys33_2AC64FFDC32FBF48D507DE5A0DED8698LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9GraphSync0dE31DeclineCalendarEventRequestBodyV10CodingKeys33_4B774C2667F1D0FF61C4086269DE0C3DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9GraphSync0dE41TentativelyAcceptCalendarEventRequestBodyV10CodingKeys33_1719572AC41402E37B5B3854B2760031LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9GraphSync0dE12NoteResourceV10CodingKeys33_2C244A28740FF639012742D802718B49LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9GraphSync0dE17ListNotesResponseV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9GraphSync0dE18NoteUpdateResourceV10CodingKeys33_4E4E5D9DB4775A899ECEF23412A8F828LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9GraphSync0dE30AcceptCalendarEventRequestBodyV10CodingKeys33_2AC64FFDC32FBF48D507DE5A0DED8698LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9GraphSync0dE31DeclineCalendarEventRequestBodyV10CodingKeys33_4B774C2667F1D0FF61C4086269DE0C3DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9GraphSync0dE41TentativelyAcceptCalendarEventRequestBodyV10CodingKeys33_1719572AC41402E37B5B3854B2760031LLO
+- _type_layout_string 9GraphSync0aB12NoteResourceV
+- _type_layout_string 9GraphSync0aB16ListNotesRequestV
+- _type_layout_string 9GraphSync0aB17DeleteNoteRequestV
+- _type_layout_string 9GraphSync0aB17ListNotesResponseV
+- _type_layout_string 9GraphSync0aB17UpdateNoteRequestV
+- _type_layout_string 9GraphSync0aB18NoteUpdateResourceV
+- _type_layout_string 9GraphSync0aB22NotesCreateNoteRequestV
+- _type_layout_string 9GraphSync0aB30AcceptCalendarEventRequestBodyV
+- _type_layout_string 9GraphSync0aB41TentativelyAcceptCalendarEventRequestBodyV
+CStrings:
++ "/linkedResources/"
++ "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~"
++ "Graph Sync: batch throttle signals sub-responses=%{public}ld/%{public}ld max-limit-percentage=%{public}s scopes=%{public}s information=%{public}s envelope-request-id=%{public}s"
++ "Graph Sync: throttle signal status=%{public}ld service=%{public}s limit-percentage=%{public}s resource-unit=%{public}s retry-after=%{public}s request-id=%{public}s"
++ "Graph Sync: throttle signal status=%{public}ld service=%{public}s limit-percentage=%{public}s scope=%{public}s scope-raw=%{private}s information=%{public}s information-raw=%{private}s resource-unit=%{public}s retry-after=%{public}s request-id=%{public}s"
++ "Graph Sync: throttle signal status=%{public}ld service=%{public}s resource-unit=%{public}s retry-after=%{public}s request-id=%{public}s"
++ "X-PeopleQuery-QuerySources"
++ "checkmembergroups"
++ "checkmemberobjects"
++ "directoryobjects"
++ "distributionlists"
++ "findmeetingtimes"
++ "getmemberobjects"
++ "identity"
++ "inferenceclassification"
++ "linkedResources"
++ "mixes standard-base64 and restId alphabets"
++ "not valid standard base64 once folded"
++ "outlook"
++ "registereddevices"
++ "serviceprincipals"
++ "subscription"
++ "transitivememberof"
++ "transitivemembers"
++ "unclassified"
++ "x-ms-resource-unit"
++ "x-ms-throttle-information"
++ "x-ms-throttle-limit-percentage"
++ "x-ms-throttle-scope"
+- "/mailFolders/notes/messages/"
+- "/me/mailFolders/notes/messages"
+- "/me/mailFolders/notes/messages/"
+- "A note ID must be provided for a deletion request."
+```
