@@ -1,0 +1,865 @@
+## LinkMetadata
+
+> `/System/Library/PrivateFrameworks/LinkMetadata.framework/Versions/A/LinkMetadata`
+
+```diff
+
+-301.1.16.0.0
+-  __TEXT.__text: 0x149bc8
+-  __TEXT.__objc_methlist: 0x905c
+-  __TEXT.__const: 0x13850
++301.2.7.2.0
++  __TEXT.__text: 0x176aec
++  __TEXT.__objc_methlist: 0x96c4
++  __TEXT.__const: 0x15700
+   __TEXT.__dlopen_cstrs: 0x56
+-  __TEXT.__constg_swiftt: 0x32cc
+-  __TEXT.__swift5_typeref: 0x53ea
+-  __TEXT.__swift5_builtin: 0x3ac
+-  __TEXT.__swift5_reflstr: 0x1f91
+-  __TEXT.__swift5_fieldmd: 0x47a8
+-  __TEXT.__swift5_assocty: 0x820
+-  __TEXT.__swift5_proto: 0x12bc
+-  __TEXT.__swift5_types: 0x514
+-  __TEXT.__cstring: 0xc004
+-  __TEXT.__swift5_capture: 0x620
+-  __TEXT.__swift5_protos: 0x18
+-  __TEXT.__swift5_mpenum: 0x78
+-  __TEXT.__oslogstring: 0x1545
++  __TEXT.__constg_swiftt: 0x3878
++  __TEXT.__swift5_typeref: 0x5c22
++  __TEXT.__swift5_builtin: 0x3fc
++  __TEXT.__swift5_reflstr: 0x2333
++  __TEXT.__swift5_fieldmd: 0x4ef0
++  __TEXT.__swift5_assocty: 0x898
++  __TEXT.__swift5_proto: 0x1428
++  __TEXT.__swift5_types: 0x598
+   __TEXT.__swift5_types2: 0x8
+-  __TEXT.__gcc_except_tab: 0x5a4
++  __TEXT.__swift5_protos: 0x28
++  __TEXT.__cstring: 0xc7e6
++  __TEXT.__swift5_capture: 0x768
++  __TEXT.__swift5_mpenum: 0x88
++  __TEXT.__oslogstring: 0x1575
++  __TEXT.__gcc_except_tab: 0x754
+   __TEXT.__ustring: 0x10
+-  __TEXT.__unwind_info: 0x7770
+-  __TEXT.__eh_frame: 0x6334
++  __TEXT.__unwind_info: 0x8658
++  __TEXT.__eh_frame: 0x773c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xa80
+-  __DATA_CONST.__objc_classlist: 0x560
++  __DATA_CONST.__const: 0xb28
++  __DATA_CONST.__objc_classlist: 0x5c0
+   __DATA_CONST.__objc_catlist: 0xd0
+   __DATA_CONST.__objc_protolist: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2f50
++  __DATA_CONST.__objc_selrefs: 0x30c8
+   __DATA_CONST.__objc_protorefs: 0x40
+-  __DATA_CONST.__objc_superrefs: 0x4a8
+-  __DATA_CONST.__got: 0xe68
+-  __AUTH_CONST.__const: 0xcf88
+-  __AUTH_CONST.__cfstring: 0x6ca0
+-  __AUTH_CONST.__objc_const: 0x11410
++  __DATA_CONST.__objc_superrefs: 0x4b8
++  __DATA_CONST.__got: 0xf68
++  __AUTH_CONST.__const: 0xe970
++  __AUTH_CONST.__cfstring: 0x6f40
++  __AUTH_CONST.__objc_const: 0x12268
+   __AUTH_CONST.__objc_intobj: 0x6c0
+-  __AUTH_CONST.__auth_got: 0x1318
+-  __AUTH.__objc_data: 0xe28
+-  __AUTH.__data: 0x8d0
+-  __DATA.__objc_ivar: 0x8cc
+-  __DATA.__data: 0x3df0
+-  __DATA.__bss: 0x1e200
++  __AUTH_CONST.__auth_got: 0x15b8
++  __AUTH.__objc_data: 0x1270
++  __AUTH.__data: 0xd28
++  __DATA.__objc_ivar: 0x900
++  __DATA.__data: 0x4560
++  __DATA.__bss: 0x20c50
+   __DATA.__common: 0x10
+-  __DATA_DIRTY.__objc_data: 0x2898
+-  __DATA_DIRTY.__data: 0x2d38
++  __DATA_DIRTY.__objc_data: 0x2870
++  __DATA_DIRTY.__data: 0x2d48
+   __DATA_DIRTY.__bss: 0x7e20
+   __DATA_DIRTY.__common: 0x78
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
++  - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+   - /System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 10366
+-  Symbols:   10675
+-  CStrings:  1623
++  Functions: 11643
++  Symbols:   11106
++  CStrings:  1698
+ 
+Symbols:
++ +[LNPropertyListStorage isValidStorageAtURL:]
++ +[LNSkillMetadata supportsSecureCoding]
++ +[LNSystemEntityProtocol generableEntityProtocol]
++ +[LNSystemProtocol toolIntentProtocol]
++ -[LNActionSideEffect hasConfirmationHandlerClosure]
++ -[LNActionSideEffect initWithSideEffect:changeEffect:behavior:hasConfirmationHandlerClosure:]
++ -[LNActionSummary aliasesTargetPlaceholder]
++ -[LNActionSummary formatStringReplacingTargetPlaceholder:]
++ -[LNActionSummary localizedStringForKey:localeIdentifier:]
++ -[LNActionSummary localizedTargetKeyStringForLocaleIdentifier:]
++ -[LNActionSummary prelocalizedTargetStrings]
++ -[LNActionSummary shouldAliasTargetPlaceholderForAction:]
++ -[LNArchivedColor(LNApproximateArchivedSize) ln_approximateArchivedSizeWithBudget:]
++ -[LNAssetCatalogColor(LNApproximateArchivedSize) ln_approximateArchivedSizeWithBudget:]
++ -[LNColor(LNApproximateArchivedSize) ln_approximateArchivedSizeWithBudget:]
++ -[LNPropertyListStorage .cxx_destruct]
++ -[LNPropertyListStorage _mutableDictionaryForKeyLocked:]
++ -[LNPropertyListStorage commitToURL:error:]
++ -[LNPropertyListStorage initWithData:error:]
++ -[LNPropertyListStorage initWithURL:writable:error:]
++ -[LNPropertyListStorage init]
++ -[LNPropertyListStorage objectAtKeyPath:]
++ -[LNPropertyListStorage objectAtKeyPathComponents:]
++ -[LNPropertyListStorage setObject:forKey:]
++ -[LNPropertyListStorage withMutableDictionaryForKey:block:]
++ -[LNPropertyMetadata authenticationPolicyInheritingFromEntity:]
++ -[LNPropertyMetadata copyWithDescriptiveMetadataFromProperty:entityAuthenticationPolicy:usingLibraryKey:]
++ -[LNPropertyMetadata copyWithMinimumAuthenticationPolicy:]
++ -[LNPropertyMetadata initWithIdentifier:valueType:title:propertyDescription:capabilities:updateActionIdentifier:optional:spotlightAttributeKey:spotlightCustomAttributeKey:explicitAuthenticationPolicy:visibilityMetadata:]
++ -[LNPropertyMetadata visibilityMetadata]
++ -[LNPropertyMetadata visibleForUse:]
++ -[LNSkillMetadata .cxx_destruct]
++ -[LNSkillMetadata content]
++ -[LNSkillMetadata copyWithZone:]
++ -[LNSkillMetadata description]
++ -[LNSkillMetadata encodeWithCoder:]
++ -[LNSkillMetadata hash]
++ -[LNSkillMetadata initWithBuilder:]
++ -[LNSkillMetadata initWithCoder:]
++ -[LNSkillMetadata initWithName:closure:]
++ -[LNSkillMetadata isEqual:]
++ -[LNSkillMetadata name]
++ -[LNSkillMetadata skillDescription]
++ -[LNSkillMetadataBuilder .cxx_destruct]
++ -[LNSkillMetadataBuilder build]
++ -[LNSkillMetadataBuilder content]
++ -[LNSkillMetadataBuilder initWithName:]
++ -[LNSkillMetadataBuilder name]
++ -[LNSkillMetadataBuilder setContent:]
++ -[LNSkillMetadataBuilder setSkillDescription:]
++ -[LNSkillMetadataBuilder skillDescription]
++ -[LNSymbolImageColorization initWithForegroundSpecification:backgroundSpecification:]
++ GCC_except_table1146
++ GCC_except_table1149
++ GCC_except_table1182
++ GCC_except_table1334
++ GCC_except_table1336
++ GCC_except_table1344
++ GCC_except_table1346
++ GCC_except_table1348
++ GCC_except_table1354
++ GCC_except_table1356
++ GCC_except_table1358
++ GCC_except_table1360
++ GCC_except_table1364
++ GCC_except_table1722
++ GCC_except_table1736
++ GCC_except_table2074
++ GCC_except_table2084
++ GCC_except_table2086
++ GCC_except_table2089
++ GCC_except_table2091
++ GCC_except_table2231
++ GCC_except_table2234
++ GCC_except_table2238
++ GCC_except_table2240
++ GCC_except_table2568
++ GCC_except_table2569
++ GCC_except_table2611
++ GCC_except_table2953
++ GCC_except_table2985
++ _APP_SANDBOX_READ
++ _CFBooleanGetTypeID
++ _CFDictionaryGetTypeID
++ _CFGetTypeID
++ _CFSetContainsValue
++ _CFSetCreate
++ _CGColorCopyPropertyList
++ _CGColorCreate
++ _CGColorCreateWithPropertyList
++ _CGColorGetColorSpace
++ _CGColorSpaceCopyICCData
++ _CGColorSpaceCopyName
++ _CGColorSpaceCreateWithICCData
++ _CGColorSpaceCreateWithName
++ _CGColorSpaceGetNumberOfComponents
++ _LNColorFromColorizationArgument
++ _LNPlatformAppKit
++ _LNPlatformUIKit
++ _LNPlistError
++ _LNPlistFilteredRead
++ _LNPlistWalkKeyPath
++ _LNPropertyListStorageErrorDomain
++ _LNStricterAuthenticationPolicy
++ _LNSystemEntityProtocolIdentifierGenerableEntity
++ _LNSystemProtocolIdentifierToolIntent
++ _OBJC_CLASS_$_LNArchivedColor
++ _OBJC_CLASS_$_LNAssetCatalogColor
++ _OBJC_CLASS_$_LNColor
++ _OBJC_CLASS_$_LNColorRepresentation
++ _OBJC_CLASS_$_LNColorSpace
++ _OBJC_CLASS_$_LNComponentsColor
++ _OBJC_CLASS_$_LNPropertyListStorage
++ _OBJC_CLASS_$_LNSemanticColor
++ _OBJC_CLASS_$_LNSkillMetadata
++ _OBJC_CLASS_$_LNSkillMetadataBuilder
++ _OBJC_CLASS_$_NSISO8601DateFormatter
++ _OBJC_CLASS_$_NSPropertyListSerialization
++ _OBJC_IVAR_$_LNActionSideEffect._hasConfirmationHandlerClosure
++ _OBJC_IVAR_$_LNActionSummary._aliasesTargetPlaceholder
++ _OBJC_IVAR_$_LNActionSummary._prelocalizedTargetStrings
++ _OBJC_IVAR_$_LNPropertyListStorage._dictCache
++ _OBJC_IVAR_$_LNPropertyListStorage._lock
++ _OBJC_IVAR_$_LNPropertyListStorage._rawData
++ _OBJC_IVAR_$_LNPropertyListStorage._root
++ _OBJC_IVAR_$_LNPropertyListStorage._url
++ _OBJC_IVAR_$_LNPropertyListStorage._writable
++ _OBJC_IVAR_$_LNPropertyMetadata._visibilityMetadata
++ _OBJC_IVAR_$_LNSkillMetadata._content
++ _OBJC_IVAR_$_LNSkillMetadata._name
++ _OBJC_IVAR_$_LNSkillMetadata._skillDescription
++ _OBJC_IVAR_$_LNSkillMetadataBuilder._content
++ _OBJC_IVAR_$_LNSkillMetadataBuilder._name
++ _OBJC_IVAR_$_LNSkillMetadataBuilder._skillDescription
++ _OBJC_IVAR_$_LNSymbolImage._configurationData
++ _OBJC_IVAR_$_LNSymbolImage._platformAgnosticSymbolConfiguration
++ _OBJC_METACLASS_$_LNArchivedColor
++ _OBJC_METACLASS_$_LNAssetCatalogColor
++ _OBJC_METACLASS_$_LNColor
++ _OBJC_METACLASS_$_LNColorRepresentation
++ _OBJC_METACLASS_$_LNColorSpace
++ _OBJC_METACLASS_$_LNComponentsColor
++ _OBJC_METACLASS_$_LNPropertyListStorage
++ _OBJC_METACLASS_$_LNSemanticColor
++ _OBJC_METACLASS_$_LNSkillMetadata
++ _OBJC_METACLASS_$_LNSkillMetadataBuilder
++ _OUTLINED_FUNCTION_1415
++ _OUTLINED_FUNCTION_1416
++ _OUTLINED_FUNCTION_1417
++ _OUTLINED_FUNCTION_1418
++ _OUTLINED_FUNCTION_1419
++ _OUTLINED_FUNCTION_1420
++ _OUTLINED_FUNCTION_1421
++ _OUTLINED_FUNCTION_1422
++ _OUTLINED_FUNCTION_1423
++ _OUTLINED_FUNCTION_1424
++ _OUTLINED_FUNCTION_1425
++ _OUTLINED_FUNCTION_1426
++ _OUTLINED_FUNCTION_1427
++ _OUTLINED_FUNCTION_1428
++ _OUTLINED_FUNCTION_1429
++ _OUTLINED_FUNCTION_1430
++ _OUTLINED_FUNCTION_1431
++ _OUTLINED_FUNCTION_1432
++ _OUTLINED_FUNCTION_1433
++ _OUTLINED_FUNCTION_1434
++ _OUTLINED_FUNCTION_1435
++ _OUTLINED_FUNCTION_1436
++ _OUTLINED_FUNCTION_1437
++ _OUTLINED_FUNCTION_1438
++ _OUTLINED_FUNCTION_1439
++ _OUTLINED_FUNCTION_1440
++ _OUTLINED_FUNCTION_1441
++ _OUTLINED_FUNCTION_1442
++ _OUTLINED_FUNCTION_268
++ _OUTLINED_FUNCTION_681
++ _SANDBOX_EXTENSION_DEFAULT
++ _SANDBOX_EXTENSION_NO_REPORT
++ __CFPropertyListCopyTopLevelKeys
++ __CFPropertyListCreateFiltered
++ __CFPropertyListGetValueWithKeyPath
++ __CFPropertyListValidateData
++ __CLASS_METHODS_LNArchivedColor
++ __CLASS_METHODS_LNAssetCatalogColor
++ __CLASS_METHODS_LNColor
++ __CLASS_METHODS_LNColorRepresentation
++ __CLASS_METHODS_LNColorSpace
++ __CLASS_METHODS_LNComponentsColor
++ __CLASS_METHODS_LNSemanticColor
++ __CLASS_METHODS_LNSystemNamedColor
++ __CLASS_PROPERTIES_LNArchivedColor
++ __CLASS_PROPERTIES_LNAssetCatalogColor
++ __CLASS_PROPERTIES_LNColor
++ __CLASS_PROPERTIES_LNColorRepresentation
++ __CLASS_PROPERTIES_LNColorSpace
++ __CLASS_PROPERTIES_LNComponentsColor
++ __CLASS_PROPERTIES_LNSemanticColor
++ __CLASS_PROPERTIES_LNSystemNamedColor
++ __DATA_LNArchivedColor
++ __DATA_LNAssetCatalogColor
++ __DATA_LNColor
++ __DATA_LNColorRepresentation
++ __DATA_LNColorSpace
++ __DATA_LNComponentsColor
++ __DATA_LNSemanticColor
++ __DATA_LNSystemNamedColor
++ __DATA__TtC12LinkMetadata13SkillsStorage
++ __DATA__TtC12LinkMetadata19SkillRecordAccessor
++ __INSTANCE_METHODS_LNColorRepresentation
++ __IVARS_LNArchivedColor
++ __IVARS_LNAssetCatalogColor
++ __IVARS_LNColor
++ __IVARS_LNColorSpace
++ __IVARS_LNComponentsColor
++ __IVARS_LNSemanticColor
++ __IVARS_LNSystemNamedColor
++ __IVARS__TtC12LinkMetadata12StorageField
++ __IVARS__TtC12LinkMetadata13SkillsStorage
++ __IVARS__TtC12LinkMetadata19SkillRecordAccessor
++ __METACLASS_DATA_LNArchivedColor
++ __METACLASS_DATA_LNAssetCatalogColor
++ __METACLASS_DATA_LNColor
++ __METACLASS_DATA_LNColorRepresentation
++ __METACLASS_DATA_LNColorSpace
++ __METACLASS_DATA_LNComponentsColor
++ __METACLASS_DATA_LNSemanticColor
++ __METACLASS_DATA_LNSystemNamedColor
++ __METACLASS_DATA__TtC12LinkMetadata13SkillsStorage
++ __METACLASS_DATA__TtC12LinkMetadata19SkillRecordAccessor
++ __MergedGlobals
++ __OBJC_$_CLASS_METHODS_LNPropertyListStorage
++ __OBJC_$_CLASS_METHODS_LNSkillMetadata
++ __OBJC_$_CLASS_PROP_LIST_LNSkillMetadata
++ __OBJC_$_INSTANCE_METHODS_LNArchivedColor(LinkMetadata|LNApproximateArchivedSize)
++ __OBJC_$_INSTANCE_METHODS_LNAssetCatalogColor(LinkMetadata|LNApproximateArchivedSize)
++ __OBJC_$_INSTANCE_METHODS_LNColor(LinkMetadata|LinkMetadata1|LNApproximateArchivedSize)
++ __OBJC_$_INSTANCE_METHODS_LNColorSpace(LinkMetadata)
++ __OBJC_$_INSTANCE_METHODS_LNComponentsColor(LinkMetadata)
++ __OBJC_$_INSTANCE_METHODS_LNPropertyListStorage
++ __OBJC_$_INSTANCE_METHODS_LNSemanticColor(LinkMetadata)
++ __OBJC_$_INSTANCE_METHODS_LNSkillMetadata
++ __OBJC_$_INSTANCE_METHODS_LNSkillMetadataBuilder
++ __OBJC_$_INSTANCE_METHODS_LNSystemNamedColor(LinkMetadata)
++ __OBJC_$_INSTANCE_VARIABLES_LNPropertyListStorage
++ __OBJC_$_INSTANCE_VARIABLES_LNSkillMetadata
++ __OBJC_$_INSTANCE_VARIABLES_LNSkillMetadataBuilder
++ __OBJC_$_PROP_LIST_LNSkillMetadata
++ __OBJC_$_PROP_LIST_LNSkillMetadataBuilder
++ __OBJC_CLASS_PROTOCOLS_$_LNArchivedColor(LinkMetadata|LNApproximateArchivedSize)
++ __OBJC_CLASS_PROTOCOLS_$_LNAssetCatalogColor(LinkMetadata|LNApproximateArchivedSize)
++ __OBJC_CLASS_PROTOCOLS_$_LNColor(LinkMetadata|LinkMetadata1|LNApproximateArchivedSize)
++ __OBJC_CLASS_PROTOCOLS_$_LNSkillMetadata
++ __OBJC_CLASS_RO_$_LNPropertyListStorage
++ __OBJC_CLASS_RO_$_LNSkillMetadata
++ __OBJC_CLASS_RO_$_LNSkillMetadataBuilder
++ __OBJC_METACLASS_RO_$_LNPropertyListStorage
++ __OBJC_METACLASS_RO_$_LNSkillMetadata
++ __OBJC_METACLASS_RO_$_LNSkillMetadataBuilder
++ __PROPERTIES_LNColorRepresentation
++ __PROTOCOLS_LNColorRepresentation
++ __PROTOCOLS_LNColorSpace
++ ___38+[LNSystemProtocol toolIntentProtocol]_block_invoke
++ ___42-[LNPropertyListStorage setObject:forKey:]_block_invoke
++ ___43-[LNPropertyListStorage commitToURL:error:]_block_invoke
++ ___49+[LNSystemEntityProtocol generableEntityProtocol]_block_invoke
++ ___51-[LNPropertyListStorage objectAtKeyPathComponents:]_block_invoke
++ ___59-[LNPropertyListStorage withMutableDictionaryForKey:block:]_block_invoke
++ ___block_descriptor_56_e8_32s40s48s_e51_"LNPropertyMetadata"24?0"LNPropertyMetadata"8Q16l
++ ___swift__destructor.506Tm
++ ___swift_closure_destructor.15Tm
++ ___swift_get_extra_inhabitant_index.1222Tm
++ ___swift_get_extra_inhabitant_index.593Tm
++ ___swift_memcpy129_8
++ ___swift_memcpy49_8
++ ___swift_memcpy8_4
++ ___swift_memcpy97_8
++ ___swift_store_extra_inhabitant_index.1223Tm
++ ___swift_store_extra_inhabitant_index.594Tm
++ ___unnamed_26
++ ___unnamed_47
++ ___unnamed_9
++ __swift_stdlib_bridgeErrorToNSError
++ _associated conformance 12LinkMetadata012TypeSpecificB7StorageO15ColorCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOSHAASQ
++ _associated conformance 12LinkMetadata012TypeSpecificB7StorageO15ColorCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 12LinkMetadata012TypeSpecificB7StorageO15ColorCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12LinkMetadata16MigrationContextV9DirectionOSHAASQ
++ _associated conformance 12LinkMetadata16VersionMigrationV10CodingKeys33_0BD6B034992D518592BE83882D28FDAALLOSHAASQ
++ _associated conformance 12LinkMetadata16VersionMigrationV10CodingKeys33_0BD6B034992D518592BE83882D28FDAALLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 12LinkMetadata16VersionMigrationV10CodingKeys33_0BD6B034992D518592BE83882D28FDAALLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12LinkMetadata17MigrationManifestV10CodingKeys33_0BD6B034992D518592BE83882D28FDAALLOSHAASQ
++ _associated conformance 12LinkMetadata17MigrationManifestV10CodingKeys33_0BD6B034992D518592BE83882D28FDAALLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 12LinkMetadata17MigrationManifestV10CodingKeys33_0BD6B034992D518592BE83882D28FDAALLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12LinkMetadata18MigrationOperationO10CodingKeys33_0BD6B034992D518592BE83882D28FDAALLOSHAASQ
++ _associated conformance 12LinkMetadata18MigrationOperationO10CodingKeys33_0BD6B034992D518592BE83882D28FDAALLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 12LinkMetadata18MigrationOperationO10CodingKeys33_0BD6B034992D518592BE83882D28FDAALLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12LinkMetadata22LNColorBundleExtensionO14IssuedTokenKey33_20B0BAA320F572F6D1E7873255BEB441LLVSHAASQ
++ _associated conformance 12LinkMetadata9FieldTypeOSHAASQ
++ _associated conformance So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOSHACSQ
++ _associated conformance So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOs0G3KeyACs23CustomStringConvertible
++ _associated conformance So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOs0G3KeyACs28CustomDebugStringConvertible
++ _associated conformance So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO18SemanticCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOSHACSQ
++ _associated conformance So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO18SemanticCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOs0H3KeyACs23CustomStringConvertible
++ _associated conformance So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO18SemanticCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOs0H3KeyACs28CustomDebugStringConvertible
++ _associated conformance So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO21SystemNamedCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOSHACSQ
++ _associated conformance So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO21SystemNamedCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOs0I3KeyACs23CustomStringConvertible
++ _associated conformance So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO21SystemNamedCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOs0I3KeyACs28CustomDebugStringConvertible
++ _associated conformance So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO22AssetCatalogCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOSHACSQ
++ _associated conformance So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO22AssetCatalogCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOs0I3KeyACs23CustomStringConvertible
++ _associated conformance So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO22AssetCatalogCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOs0I3KeyACs28CustomDebugStringConvertible
++ _associated conformance So7LNColorC12LinkMetadataE14CodableWrapperV10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOSHACSQ
++ _associated conformance So7LNColorC12LinkMetadataE14CodableWrapperV10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOs0F3KeyACs23CustomStringConvertible
++ _associated conformance So7LNColorC12LinkMetadataE14CodableWrapperV10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOs0F3KeyACs28CustomDebugStringConvertible
++ _associated conformance So7LNColorC12LinkMetadataE14NamingPlatformOSHACSQ
++ _associated conformance So7LNColorC12LinkMetadataE20LegacyCodableWrapper33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO10CodingKeysOSHACSQ
++ _associated conformance So7LNColorC12LinkMetadataE20LegacyCodableWrapper33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO10CodingKeysOs0O3KeyACs23CustomStringConvertible
++ _associated conformance So7LNColorC12LinkMetadataE20LegacyCodableWrapper33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO10CodingKeysOs0O3KeyACs28CustomDebugStringConvertible
++ _associated conformance So7LNColorC12LinkMetadataE20LegacyCodableWrapper33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO16SystemNamedColorV10CodingKeysOSHACSQ
++ _associated conformance So7LNColorC12LinkMetadataE20LegacyCodableWrapper33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO16SystemNamedColorV10CodingKeysOs0R3KeyACs23CustomStringConvertible
++ _associated conformance So7LNColorC12LinkMetadataE20LegacyCodableWrapper33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO16SystemNamedColorV10CodingKeysOs0R3KeyACs28CustomDebugStringConvertible
++ _associated conformance So7LNColorC12LinkMetadataE20LegacyCodableWrapper33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO26SystemNamedColorCodingKeysOSHACSQ
++ _associated conformance So7LNColorC12LinkMetadataE20LegacyCodableWrapper33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO26SystemNamedColorCodingKeysOs0R3KeyACs23CustomStringConvertible
++ _associated conformance So7LNColorC12LinkMetadataE20LegacyCodableWrapper33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO26SystemNamedColorCodingKeysOs0R3KeyACs28CustomDebugStringConvertible
++ _generableEntityProtocol.onceToken
++ _generableEntityProtocol.value
++ _get_enum_tag_for_layout_string 12LinkMetadata16MigrationContextVSg
++ _get_enum_tag_for_layout_string 12LinkMetadata18MigrationOperationO
++ _get_enum_tag_for_layout_string 12LinkMetadata18SkillsStorageErrorO
++ _kCFTypeSetCallBacks
++ _malloc
++ _objc_msgSend$_mutableDictionaryForKeyLocked:
++ _objc_msgSend$aliasesTargetPlaceholder
++ _objc_msgSend$bundleSandboxExtensionToken
++ _objc_msgSend$bundleURLString
++ _objc_msgSend$colorSpace
++ _objc_msgSend$commitToURL:error:
++ _objc_msgSend$containsString:
++ _objc_msgSend$content
++ _objc_msgSend$copyWithDescriptiveMetadataFromProperty:entityAuthenticationPolicy:usingLibraryKey:
++ _objc_msgSend$copyWithMinimumAuthenticationPolicy:
++ _objc_msgSend$dataWithContentsOfURL:options:error:
++ _objc_msgSend$dataWithPropertyList:format:options:error:
++ _objc_msgSend$dateFromString:
++ _objc_msgSend$dictionary
++ _objc_msgSend$encoding
++ _objc_msgSend$formatStringReplacingTargetPlaceholder:
++ _objc_msgSend$generableEntityProtocol
++ _objc_msgSend$hasConfirmationHandlerClosure
++ _objc_msgSend$iccProfile
++ _objc_msgSend$initWithCgColor:
++ _objc_msgSend$initWithColorSpace:components:
++ _objc_msgSend$initWithData:error:
++ _objc_msgSend$initWithICCProfile:
++ _objc_msgSend$initWithIdentifier:valueType:title:propertyDescription:capabilities:updateActionIdentifier:optional:spotlightAttributeKey:spotlightCustomAttributeKey:explicitAuthenticationPolicy:visibilityMetadata:
++ _objc_msgSend$initWithName:
++ _objc_msgSend$initWithName:bundleURL:sandboxExtensionToken:
++ _objc_msgSend$initWithName:closure:
++ _objc_msgSend$initWithRepresentations:
++ _objc_msgSend$initWithRole:
++ _objc_msgSend$initWithSideEffect:changeEffect:behavior:hasConfirmationHandlerClosure:
++ _objc_msgSend$initWithURL:writable:error:
++ _objc_msgSend$isStaticallyExtractable
++ _objc_msgSend$isValidStorageAtURL:
++ _objc_msgSend$localizedDescription
++ _objc_msgSend$localizedStringForKey:localeIdentifier:
++ _objc_msgSend$localizedTargetKeyStringForLocaleIdentifier:
++ _objc_msgSend$mutableCopyWithZone:
++ _objc_msgSend$objectAtKeyPath:
++ _objc_msgSend$objectAtKeyPathComponents:
++ _objc_msgSend$prelocalizedTargetStrings
++ _objc_msgSend$propertyListWithData:options:format:error:
++ _objc_msgSend$rank
++ _objc_msgSend$removeObjectForKey:
++ _objc_msgSend$representations
++ _objc_msgSend$role
++ _objc_msgSend$setContent:
++ _objc_msgSend$setSkillDescription:
++ _objc_msgSend$shouldAliasTargetPlaceholderForAction:
++ _objc_msgSend$skillDescription
++ _objc_msgSend$stringFromDate:
++ _objc_msgSend$subarrayWithRange:
++ _objc_msgSend$toolIntentProtocol
++ _objc_msgSend$variant
++ _objc_msgSend$withMutableDictionaryForKey:block:
++ _objc_msgSend$writeToURL:options:error:
++ _sandbox_extension_consume
++ _sandbox_extension_issue_file
++ _sandbox_extension_issue_file_to_process
++ _swift_allocateGenericClassMetadata
++ _swift_dynamicCastUnknownClass
++ _swift_getAtKeyPath
++ _swift_getKeyPath
++ _swift_initClassMetadata2
++ _swift_isEscapingClosureAtFileLocation
++ _swift_readAtKeyPath
++ _swift_unknownObjectRelease_n
++ _symbolic $s12LinkMetadata10FieldValueP
++ _symbolic $s12LinkMetadata13FieldStorableP
++ _symbolic $s12LinkMetadata15SortedEncodable33_E3050585873808AFBF4B824B3338DCBCLLP
++ _symbolic $s12LinkMetadata26SkillsBundleRecordAccessorP
++ _symbolic 8RawValueSYQz
++ _symbolic SDySSSDyS2SGG
++ _symbolic SDySSSDySS_____GG 12LinkMetadata18FieldTypeConverterV
++ _symbolic SDySSSayypGG
++ _symbolic SDySS_____G 12LinkMetadata12StorageValueO
++ _symbolic SDySS_____G 12LinkMetadata18FieldTypeConverterV
++ _symbolic SS3key______5valuet 12LinkMetadata12StorageValueO
++ _symbolic SS3key______5valuet 12LinkMetadata19SkillRecordAccessorC
++ _symbolic SS4from_SS2tot
++ _symbolic SS4name______Sg9bundleURLt 10Foundation3URLV
++ _symbolic SS4name_t
++ _symbolic SS5table_SS4fromSS2tot
++ _symbolic SS5table_SS5fieldSSSg12defaultValuet
++ _symbolic SS5table_SS5field_____4fromAC2tot 12LinkMetadata9FieldTypeO
++ _symbolic SaySayypGG
++ _symbolic SaySdG
++ _symbolic SaySo15LNSkillMetadataCG
++ _symbolic SaySo21LNColorRepresentationCG
++ _symbolic SaySo7LNColorCG
++ _symbolic Say_____G 12LinkMetadata12StorageValueO
++ _symbolic Say_____G 12LinkMetadata16VersionMigrationV
++ _symbolic Say_____G 12LinkMetadata18MigrationOperationO
++ _symbolic Say_____G So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO
++ _symbolic Say_____GSg s6UInt32V
++ _symbolic Si6offset_So21LNColorRepresentationC7elementt
++ _symbolic So12LNColorSpaceC_SaySdGt
++ _symbolic So19NSMutableDictionaryCSgIgg_
++ _symbolic So21LNColorRepresentationC
++ _symbolic So21LNPropertyListStorageC
++ _symbolic So7LNColorC
++ _symbolic _____ 10Foundation4DateV
++ _symbolic _____ 12LinkMetadata012TypeSpecificB7StorageO15ColorCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
++ _symbolic _____ 12LinkMetadata12StorageFieldC
++ _symbolic _____ 12LinkMetadata12StorageValueO
++ _symbolic _____ 12LinkMetadata13SkillsStorageC
++ _symbolic _____ 12LinkMetadata13SkillsStorageC13FieldAccessorV
++ _symbolic _____ 12LinkMetadata13SkillsStorageC5TableV
++ _symbolic _____ 12LinkMetadata13SkillsStorageC6HeaderV
++ _symbolic _____ 12LinkMetadata16MigrationContextV
++ _symbolic _____ 12LinkMetadata16MigrationContextV9DirectionO
++ _symbolic _____ 12LinkMetadata16VersionMigrationV
++ _symbolic _____ 12LinkMetadata16VersionMigrationV10CodingKeys33_0BD6B034992D518592BE83882D28FDAALLO
++ _symbolic _____ 12LinkMetadata17MigrationManifestV
++ _symbolic _____ 12LinkMetadata17MigrationManifestV10CodingKeys33_0BD6B034992D518592BE83882D28FDAALLO
++ _symbolic _____ 12LinkMetadata18FieldTypeConverterV
++ _symbolic _____ 12LinkMetadata18MigrationOperationO
++ _symbolic _____ 12LinkMetadata18MigrationOperationO10CodingKeys33_0BD6B034992D518592BE83882D28FDAALLO
++ _symbolic _____ 12LinkMetadata18SkillsStorageErrorO
++ _symbolic _____ 12LinkMetadata19SkillRecordAccessorC
++ _symbolic _____ 12LinkMetadata22LNColorBundleExtensionO
++ _symbolic _____ 12LinkMetadata22LNColorBundleExtensionO14IssuedTokenKey33_20B0BAA320F572F6D1E7873255BEB441LLV
++ _symbolic _____ 12LinkMetadata9FieldTypeO
++ _symbolic _____ So19LNSemanticColorRoleV
++ _symbolic _____ So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO
++ _symbolic _____ So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
++ _symbolic _____ So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO18SemanticCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
++ _symbolic _____ So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO21SystemNamedCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
++ _symbolic _____ So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO22AssetCatalogCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
++ _symbolic _____ So21LNColorRepresentationC12LinkMetadataE4KindO
++ _symbolic _____ So22LNColorArchiveEncodingV
++ _symbolic _____ So7LNColorC12LinkMetadataE14CodableWrapperV
++ _symbolic _____ So7LNColorC12LinkMetadataE14CodableWrapperV10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
++ _symbolic _____ So7LNColorC12LinkMetadataE14NamingPlatformO
++ _symbolic _____ So7LNColorC12LinkMetadataE20LegacyCodableWrapper33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
++ _symbolic _____ So7LNColorC12LinkMetadataE20LegacyCodableWrapper33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO10CodingKeysO
++ _symbolic _____ So7LNColorC12LinkMetadataE20LegacyCodableWrapper33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO16SystemNamedColorV
++ _symbolic _____ So7LNColorC12LinkMetadataE20LegacyCodableWrapper33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO16SystemNamedColorV10CodingKeysO
++ _symbolic _____ So7LNColorC12LinkMetadataE20LegacyCodableWrapper33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO26SystemNamedColorCodingKeysO
++ _symbolic _____11systemColor______7variantt So13LNSystemColorV So14LNColorVariantV
++ _symbolic _____4role_t So19LNSemanticColorRoleV
++ _symbolic _____5color______7variantt So13LNSystemColorV So14LNColorVariantV
++ _symbolic _____7wrapper_t So7LNColorC12LinkMetadataE14CodableWrapperV
++ _symbolic _____Sg 12LinkMetadata12StorageValueO
++ _symbolic _____Sg 12LinkMetadata16MigrationContextV
++ _symbolic _____Sg So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO
++ _symbolic _____Sg So7LNColorC12LinkMetadataE14CodableWrapperV
++ _symbolic _____SgAAc 12LinkMetadata12StorageValueO
++ _symbolic _____SgSg 10Foundation3URLV
++ _symbolic _____Sg_ABt 10Foundation3URLV
++ _symbolic ______AAt 12LinkMetadata12StorageValueO
++ _symbolic ______AAt 12LinkMetadata18MigrationOperationO
++ _symbolic ______Si_SStt So25LNResolvableInputMetadataC04LinkC0E14CodableWrapperV
++ _symbolic ___________t 10Foundation4DataV So22LNColorArchiveEncodingV
++ _symbolic ___________t So13LNSystemColorV So14LNColorVariantV
++ _symbolic ______p 12LinkMetadata15SortedEncodable33_E3050585873808AFBF4B824B3338DCBCLLP
++ _symbolic _____ySDy_____SSG_____G s13ManagedBufferCsRi__rlE 12LinkMetadata22LNColorBundleExtensionO14IssuedTokenKey33_20B0BAA320F572F6D1E7873255BEB441LLV So16os_unfair_lock_sV
++ _symbolic _____ySDy__________GSgG 12LinkMetadata17CompactDictionaryV So020LNActionTypeSpecificB3Keya AA0fgB7StorageO
++ _symbolic _____ySS3key______5valuetG s23_ContiguousArrayStorageC 12LinkMetadata0C5ValueO
++ _symbolic _____ySS3key______5valuetG s23_ContiguousArrayStorageC 12LinkMetadata19SkillRecordAccessorC
++ _symbolic _____ySSG 12LinkMetadata12StorageFieldC
++ _symbolic _____ySSSDyS2SGG s17_NativeDictionaryV
++ _symbolic _____ySSSDySS_____GG s17_NativeDictionaryV 12LinkMetadata18FieldTypeConverterV
++ _symbolic _____ySSSayypGG s17_NativeDictionaryV
++ _symbolic _____ySS_____G s17_NativeDictionaryV 12LinkMetadata12StorageValueO
++ _symbolic _____ySS_____G s17_NativeDictionaryV 12LinkMetadata18FieldTypeConverterV
++ _symbolic _____ySS______5color______7variantttG s23_ContiguousArrayStorageC So13LNSystemColorV So14LNColorVariantV
++ _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
++ _symbolic _____ySaySo21LNColorRepresentationCGG s12LazySequenceV
++ _symbolic _____ySayypGG s23_ContiguousArrayStorageC
++ _symbolic _____ySdG s23_ContiguousArrayStorageC
++ _symbolic _____yShySSG_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
++ _symbolic _____ySi6offset_So21LNColorRepresentationC7elementtG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12LinkMetadata16VersionMigrationV10CodingKeys33_0BD6B034992D518592BE83882D28FDAALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12LinkMetadata17MigrationManifestV10CodingKeys33_0BD6B034992D518592BE83882D28FDAALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12LinkMetadata18MigrationOperationO10CodingKeys33_0BD6B034992D518592BE83882D28FDAALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO18SemanticCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO21SystemNamedCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO22AssetCatalogCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So7LNColorC12LinkMetadataE14CodableWrapperV10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So7LNColorC12LinkMetadataE20LegacyCodableWrapper33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So7LNColorC12LinkMetadataE20LegacyCodableWrapper33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO16SystemNamedColorV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So7LNColorC12LinkMetadataE20LegacyCodableWrapper33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO26SystemNamedColorCodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12LinkMetadata012TypeSpecificE7StorageO15ColorCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12LinkMetadata16VersionMigrationV10CodingKeys33_0BD6B034992D518592BE83882D28FDAALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12LinkMetadata17MigrationManifestV10CodingKeys33_0BD6B034992D518592BE83882D28FDAALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12LinkMetadata18MigrationOperationO10CodingKeys33_0BD6B034992D518592BE83882D28FDAALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO18SemanticCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO21SystemNamedCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO22AssetCatalogCodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So7LNColorC12LinkMetadataE14CodableWrapperV10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12LinkMetadata0C5ValueO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12LinkMetadata16VersionMigrationV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So21LNColorRepresentationC12LinkMetadataE14CodableWrapperO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So7LNColorC12LinkMetadataE14CodableWrapperV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s6UInt32V
++ _symbolic _____y_____SSG s17_NativeDictionaryV 12LinkMetadata22LNColorBundleExtensionO14IssuedTokenKey33_20B0BAA320F572F6D1E7873255BEB441LLV
++ _symbolic _____y______G 12LinkMetadata13SkillsStorageC5TableV AA19SkillRecordAccessorC
++ _symbolic _____y______Si_SSttG s23_ContiguousArrayStorageC So25LNResolvableInputMetadataC04LinkF0E14CodableWrapperV
++ _symbolic yp
++ _toolIntentProtocol.onceToken
++ _toolIntentProtocol.value
++ _type_layout_string 12LinkMetadata13SkillsStorageC13FieldAccessorV
++ _type_layout_string 12LinkMetadata13SkillsStorageC6HeaderV
++ _type_layout_string 12LinkMetadata16MigrationContextV
++ _type_layout_string 12LinkMetadata16VersionMigrationV
++ _type_layout_string 12LinkMetadata17MigrationManifestV
++ _type_layout_string 12LinkMetadata18FieldTypeConverterV
++ _type_layout_string 12LinkMetadata18MigrationOperationO
++ _type_layout_string 12LinkMetadata18SkillsStorageErrorO
++ _type_layout_string 12LinkMetadata22LNColorBundleExtensionO14IssuedTokenKey33_20B0BAA320F572F6D1E7873255BEB441LLV
++ _type_layout_string 12LinkMetadata26SkillsBundleRecordAccessorRzlAA0C7StorageC5TableVy_xG
++ _type_layout_string So13LNSystemColorV06systemB0_So14LNColorVariantV7variantt
++ _type_layout_string So7LNColorC12LinkMetadataE14CodableWrapperV
+- +[LNSymbolImageColorSpecification supportsSecureCoding]
+- +[LNSystemNamedColor supportsSecureCoding]
+- -[LNSymbolImage initWithSymbolSystemName:tintColorData:configurationData:platform:]
+- -[LNSymbolImage initWithSymbolSystemName:tintColorData:platformAgnosticConfiguration:platform:]
+- -[LNSymbolImage platform]
+- -[LNSymbolImage tintColorData]
+- -[LNSymbolImageColorSpecification copyWithZone:]
+- -[LNSymbolImageColorSpecification description]
+- -[LNSymbolImageColorSpecification encodeWithCoder:]
+- -[LNSymbolImageColorSpecification hash]
+- -[LNSymbolImageColorSpecification initWithCoder:]
+- -[LNSymbolImageColorSpecification initWithPlatformSpecificData:platform:]
+- -[LNSymbolImageColorSpecification isEqual:]
+- -[LNSymbolImageColorSpecification ln_approximateArchivedSizeWithBudget:]
+- -[LNSymbolImageColorSpecification platformSpecificData]
+- -[LNSymbolImageColorSpecification platform]
+- -[LNSystemNamedColor .cxx_destruct]
+- -[LNSystemNamedColor colorVariant]
+- -[LNSystemNamedColor copyWithZone:]
+- -[LNSystemNamedColor description]
+- -[LNSystemNamedColor encodeWithCoder:]
+- -[LNSystemNamedColor hash]
+- -[LNSystemNamedColor initUnsafeWithSystemColor:variant:]
+- -[LNSystemNamedColor initWithCoder:]
+- -[LNSystemNamedColor initWithSystemColor:variant:]
+- -[LNSystemNamedColor isEqual:]
+- -[LNSystemNamedColor platformTintColor]
+- -[LNSystemNamedColor setColorVariant:]
+- -[LNSystemNamedColor setSystemColor:]
+- -[LNSystemNamedColor systemColor]
+- GCC_except_table1114
+- GCC_except_table1117
+- GCC_except_table1118
+- GCC_except_table1295
+- GCC_except_table1297
+- GCC_except_table1305
+- GCC_except_table1307
+- GCC_except_table1309
+- GCC_except_table1315
+- GCC_except_table1317
+- GCC_except_table1319
+- GCC_except_table1321
+- GCC_except_table1325
+- GCC_except_table1683
+- GCC_except_table1697
+- GCC_except_table2058
+- GCC_except_table2063
+- GCC_except_table2073
+- GCC_except_table2075
+- GCC_except_table2078
+- GCC_except_table2535
+- GCC_except_table2536
+- GCC_except_table2578
+- GCC_except_table2920
+- GCC_except_table2952
+- _OBJC_IVAR_$_LNSymbolImageColorSpecification._platform
+- _OBJC_IVAR_$_LNSymbolImageColorSpecification._platformSpecificData
+- _OBJC_IVAR_$_LNSystemNamedColor._colorVariant
+- _OBJC_IVAR_$_LNSystemNamedColor._platformTintColor
+- _OBJC_IVAR_$_LNSystemNamedColor._systemColor
+- _OUTLINED_FUNCTION_277
+- _OUTLINED_FUNCTION_700
+- __OBJC_$_CLASS_METHODS_LNSymbolImageColorSpecification
+- __OBJC_$_CLASS_METHODS_LNSystemNamedColor
+- __OBJC_$_CLASS_PROP_LIST_LNSymbolImageColorSpecification
+- __OBJC_$_CLASS_PROP_LIST_LNSystemNamedColor
+- __OBJC_$_INSTANCE_METHODS_LNSystemNamedColor
+- __OBJC_$_INSTANCE_VARIABLES_LNSystemNamedColor
+- __OBJC_$_PROP_LIST_LNSystemNamedColor
+- __OBJC_CLASS_PROTOCOLS_$_LNSymbolImageColorSpecification
+- __OBJC_CLASS_PROTOCOLS_$_LNSystemNamedColor
+- __OBJC_CLASS_RO_$_LNSystemNamedColor
+- __OBJC_METACLASS_RO_$_LNSystemNamedColor
+- ___block_descriptor_48_e8_32s40s_e51_"LNPropertyMetadata"24?0"LNPropertyMetadata"8Q16l
+- ___swift__destructor.505Tm
+- ___swift_get_extra_inhabitant_index.1200Tm
+- ___swift_get_extra_inhabitant_index.586Tm
+- ___swift_memcpy41_8
+- ___swift_store_extra_inhabitant_index.1201Tm
+- ___swift_store_extra_inhabitant_index.587Tm
+- ___unnamed_1
+- _associated conformance So18LNSystemNamedColorC12LinkMetadataE14CodableWrapperV10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOSHACSQ
+- _associated conformance So18LNSystemNamedColorC12LinkMetadataE14CodableWrapperV10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOs0H3KeyACs23CustomStringConvertible
+- _associated conformance So18LNSystemNamedColorC12LinkMetadataE14CodableWrapperV10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOs0H3KeyACs28CustomDebugStringConvertible
+- _associated conformance So31LNSymbolImageColorSpecificationC12LinkMetadataE14CodableWrapperO011SystemNamedC10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOSHACSQ
+- _associated conformance So31LNSymbolImageColorSpecificationC12LinkMetadataE14CodableWrapperO011SystemNamedC10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOs0K3KeyACs23CustomStringConvertible
+- _associated conformance So31LNSymbolImageColorSpecificationC12LinkMetadataE14CodableWrapperO011SystemNamedC10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOs0K3KeyACs28CustomDebugStringConvertible
+- _associated conformance So31LNSymbolImageColorSpecificationC12LinkMetadataE14CodableWrapperO10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOSHACSQ
+- _associated conformance So31LNSymbolImageColorSpecificationC12LinkMetadataE14CodableWrapperO10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOs0I3KeyACs23CustomStringConvertible
+- _associated conformance So31LNSymbolImageColorSpecificationC12LinkMetadataE14CodableWrapperO10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLOs0I3KeyACs28CustomDebugStringConvertible
+- _objc_msgSend$colorVariant
+- _objc_msgSend$copyWithDescriptiveMetadataFromProperty:usingLibraryKey:
+- _objc_msgSend$initUnsafeWithSystemColor:variant:
+- _objc_msgSend$initWithPlatformSpecificData:platform:
+- _objc_msgSend$initWithSystemNamedColor:
+- _objc_msgSend$setColorVariant:
+- _objc_msgSend$setSystemColor:
+- _objc_msgSend$tintColorData
+- _objc_msgSend$tintColorPlatform
+- _symbolic So18LNSystemNamedColorC
+- _symbolic So31LNSymbolImageColorSpecificationC
+- _symbolic _____ So18LNSystemNamedColorC12LinkMetadataE14CodableWrapperV
+- _symbolic _____ So18LNSystemNamedColorC12LinkMetadataE14CodableWrapperV10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
+- _symbolic _____ So31LNSymbolImageColorSpecificationC12LinkMetadataE14CodableWrapperO
+- _symbolic _____ So31LNSymbolImageColorSpecificationC12LinkMetadataE14CodableWrapperO011SystemNamedC10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
+- _symbolic _____ So31LNSymbolImageColorSpecificationC12LinkMetadataE14CodableWrapperO10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
+- _symbolic _____Sg So31LNSymbolImageColorSpecificationC12LinkMetadataE14CodableWrapperO
+- _symbolic _____y_____G s22KeyedDecodingContainerV So18LNSystemNamedColorC12LinkMetadataE14CodableWrapperV10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV So31LNSymbolImageColorSpecificationC12LinkMetadataE14CodableWrapperO011SystemNamedF10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV So31LNSymbolImageColorSpecificationC12LinkMetadataE14CodableWrapperO10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV So18LNSystemNamedColorC12LinkMetadataE14CodableWrapperV10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV So31LNSymbolImageColorSpecificationC12LinkMetadataE14CodableWrapperO011SystemNamedF10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV So31LNSymbolImageColorSpecificationC12LinkMetadataE14CodableWrapperO10CodingKeys33_8F5A22252D2EEFBD74C1473F6DDC7E6CLLO
+- _type_layout_string So18LNSystemNamedColorC12LinkMetadataE14CodableWrapperV
+CStrings:
++ "${entities}"
++ "${target}"
++ ", iccProfile bytes: "
++ "1"
++ ":"
++ ": representations: "
++ "<%@: %p, change: %@, effects: %@, behavior: %@, hasConfirmationHandlerClosure: %@>"
++ "<%@: %p, identifier: %@, valueType: %@, title: %@, capabilities: %@, isOptional: %@, spotlightAttributeKey: %@, spotlightCustomAttributeKey: %@, propertyDescription: %@, authenticationPolicy: %@, visibilityMetadata: %@>"
++ "<%@: %p, name: %@, skillDescription: %@, content length: %lu>"
++ "AppIntents.GenerableEntity"
++ "AppIntents.GenerableEntity_V2"
++ "AppIntents.SnippetRepresentableEntity"
++ "AppIntents.ToolIntent"
++ "AppIntents.ToolIntent_V2"
++ "AppIntents._IntentColorEntity"
++ "AppKit"
++ "Cannot modify read-only storage"
++ "Cannot write to storage with a different schema version"
++ "CoreGraphics.CGColor"
++ "Error loading skills from %{public}s: %@"
++ "Failed to commit: "
++ "Failed to open storage: "
++ "Failed to read file at %@: %@"
++ "Invalid plist at: %@"
++ "Invalid plist data"
++ "LNPropertyListStorage.m"
++ "LNPropertyListStorageErrorDomain"
++ "LNSkillMetadata.m"
++ "LNSkillMetadataBuilder.m"
++ "LinkMetadata.LNArchivedColor"
++ "LinkMetadata.LNAssetCatalogColor"
++ "LinkMetadata.LNColor"
++ "LinkMetadata.LNColorSpace"
++ "LinkMetadata.LNComponentsColor"
++ "LinkMetadata.LNSemanticColor"
++ "LinkMetadata.LNSystemNamedColor"
++ "LinkMetadata/SkillsStorage.swift"
++ "LinkProgrammaticInterface-301.2.7.2"
++ "Serialization failed: %@"
++ "SkillsStorage (version "
++ "Storage file is corrupted or has an invalid header"
++ "UIKit"
++ "Use enclosing instance access"
++ "Write failed: %@"
++ "_HEADER"
++ "aliasesTargetPlaceholder"
++ "bool"
++ "builder.name"
++ "bundleSandboxExtensionToken"
++ "changeFieldType("
++ "color"
++ "com.apple.appintents.entity.GenerableEntity"
++ "com.apple.link.systemProtocol.ToolIntent"
++ "components.count > 0"
++ "content"
++ "controlAccentColor"
++ "controlBackgroundColor"
++ "dictionary"
++ "field"
++ "from"
++ "fromType"
++ "hasConfirmationHandlerClosure"
++ "kCGColorSpaceSRGB"
++ "name bundleURL "
++ "placeholderTextColor"
++ "prelocalizedTargetStrings"
++ "quaternaryLabelColor"
++ "quaternarySystemFill"
++ "representations"
++ "secondaryLabelColor"
++ "secondarySystemBackground"
++ "secondarySystemFill"
++ "skillDescription"
++ "systemBackground"
++ "systemColor variant "
++ "target"
++ "tertiaryLabelColor"
++ "tertiarySystemBackground"
++ "tertiarySystemFill"
++ "to"
++ "toType"
++ "underPageBackgroundColor"
++ "windowBackgroundColor"
++ "├── Migrations"
+- "!"
+- "<%@: %p, change: %@, effects: %@, behavior: %@>"
+- "<%@: %p, identifier: %@, valueType: %@, title: %@, capabilities: %@, isOptional: %@, spotlightAttributeKey: %@, spotlightCustomAttributeKey: %@, propertyDescription: %@, authenticationPolicy: %@>"
+- "<%@: %p, systemColor: %lu, colorVariant %lu>"
+- "<%@: %p, systemNamedColor: %@, platform: %@, has platformSpecificData: %d, bytes %lu>"
+- "AppIntents.IntentColorEntity"
+- "LinkProgrammaticInterface-301.1.16"
+- "colorVariant"
+- "systemColor"
+```

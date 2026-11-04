@@ -1,0 +1,94 @@
+## com.apple.iokit.IOHIDFamily
+
+> `com.apple.iokit.IOHIDFamily`
+
+```diff
+
+-2360.40.13.0.1
+-  __TEXT.__cstring: 0x4d84
+-  __TEXT.__os_log: 0x4930
++2360.60.6.0.0
++  __TEXT.__cstring: 0x4d81
++  __TEXT.__os_log: 0x4951
+   __TEXT.__const: 0x1d90
+-  __TEXT_EXEC.__text: 0x9ec44
+-  __TEXT_EXEC.__auth_stubs: 0xd50
+-  __DATA.__data: 0xbea
++  __TEXT_EXEC.__text: 0x9ecdc
++  __TEXT_EXEC.__auth_stubs: 0xd60
++  __DATA.__data: 0xc00
+   __DATA.__common: 0xe88
+   __DATA.__bss: 0x130
+   __DATA_CONST.__mod_init_func: 0x1c8
+   __DATA_CONST.__mod_term_func: 0x1a8
+-  __DATA_CONST.__const: 0x27390
++  __DATA_CONST.__const: 0x273b8
+   __DATA_CONST.__kalloc_type: 0x2600
+   __DATA_CONST.__assert: 0xb54
+   __DATA_CONST.__kalloc_var: 0xa0
+-  __DATA_CONST.__auth_got: 0x6a8
++  __DATA_CONST.__auth_got: 0x6b0
+   __DATA_CONST.__got: 0x180
+   __DATA_CONST.__auth_ptr: 0x8
+   Functions: 3858
+-  Symbols:   5242
+-  CStrings:  1238
++  Symbols:   5245
++  CStrings:  1239
+ 
+Symbols:
++ __ZZN11IOHIDDevice14CommitCompleteEPvijE21kalloc_type_view_2877
++ __ZZN11IOHIDDevice14CommitCompleteEPvijE21kalloc_type_view_2882
++ __ZZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorbE21kalloc_type_view_2689
++ __ZZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorbE21kalloc_type_view_2707
++ __ZZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorbE21kalloc_type_view_2732
++ __ZZN11IOHIDDevice19completeAsyncReportEP15AsyncReportCalliE21kalloc_type_view_2288
++ __ZZN11IOHIDDevice19setNextAsyncTimeoutEvE21kalloc_type_view_2202
++ __ZZN11IOHIDDevice9outReportEP18IOMemoryDescriptor15IOHIDReportTypejjP15IOHIDCompletionbE21kalloc_type_view_2298
++ __ZZN11IOHIDDevice9outReportEP18IOMemoryDescriptor15IOHIDReportTypejjP15IOHIDCompletionbE21kalloc_type_view_2319
++ __ZZN14IOHIDInterface4freeEvE20kalloc_type_view_104
++ __ZZN14IOHIDInterface4initEP12OSDictionaryE20kalloc_type_view_122
++ __ZZN18IOHIDLibUserClient13setPropertiesEP8OSObjectE11_os_log_fmt
++ __ZZN18IOHIDLibUserClient29registerNotificationPortGatedEP8ipc_portjjE20kalloc_type_view_985
++ __ZZN18IOHIDLibUserClient29registerNotificationPortGatedEP8ipc_portjjE20kalloc_type_view_989
++ __ZZN18IOHIDLibUserClient29registerNotificationPortGatedEP8ipc_portjjE20kalloc_type_view_997
++ __ZZN29IOHIDResourceDeviceUserClient12createDeviceEP25IOExternalMethodArgumentsE22kCreatorDeclarableKeys
++ __ZZN29IOHIDResourceDeviceUserClient12handleReportEP25IOExternalMethodArgumentsE20kalloc_type_view_607
++ __ZZN29IOHIDResourceDeviceUserClient12handleReportEP25IOExternalMethodArgumentsE20kalloc_type_view_628
++ __ZZN29IOHIDResourceDeviceUserClient14ReportCompleteEPvijE20kalloc_type_view_568
++ _strcmp
+- __ZZN11IOHIDDevice14CommitCompleteEPvijE21kalloc_type_view_2873
+- __ZZN11IOHIDDevice14CommitCompleteEPvijE21kalloc_type_view_2878
+- __ZZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorbE21kalloc_type_view_2685
+- __ZZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorbE21kalloc_type_view_2703
+- __ZZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorbE21kalloc_type_view_2724
+- __ZZN11IOHIDDevice19completeAsyncReportEP15AsyncReportCalliE21kalloc_type_view_2284
+- __ZZN11IOHIDDevice19setNextAsyncTimeoutEvE21kalloc_type_view_2198
+- __ZZN11IOHIDDevice9outReportEP18IOMemoryDescriptor15IOHIDReportTypejjP15IOHIDCompletionbE21kalloc_type_view_2294
+- __ZZN11IOHIDDevice9outReportEP18IOMemoryDescriptor15IOHIDReportTypejjP15IOHIDCompletionbE21kalloc_type_view_2315
+- __ZZN14IOHIDInterface4freeEvE20kalloc_type_view_103
+- __ZZN14IOHIDInterface4initEP12OSDictionaryE20kalloc_type_view_121
+- __ZZN18IOHIDLibUserClient29registerNotificationPortGatedEP8ipc_portjjE20kalloc_type_view_984
+- __ZZN18IOHIDLibUserClient29registerNotificationPortGatedEP8ipc_portjjE20kalloc_type_view_988
+- __ZZN18IOHIDLibUserClient29registerNotificationPortGatedEP8ipc_portjjE20kalloc_type_view_996
+- __ZZN29IOHIDResourceDeviceUserClient12handleReportEP25IOExternalMethodArgumentsE20kalloc_type_view_604
+- __ZZN29IOHIDResourceDeviceUserClient12handleReportEP25IOExternalMethodArgumentsE20kalloc_type_view_625
+- __ZZN29IOHIDResourceDeviceUserClient14ReportCompleteEPvijE20kalloc_type_view_565
+Functions:
+~ _OUTLINED_FUNCTION_14 : 12 -> 16
+~ _OUTLINED_FUNCTION_15 : 16 -> 12
+~ __ZN14IOHIDInterface17publishPropertiesEv : 420 -> 456
+~ __ZN17IOHIDEventService17publishPropertiesEv : 460 -> 472
+~ _IsIOHIDRestrictedIOKitPropertyDictionary : 140 -> 208
+~ __ZN20IOHIDTimeSyncService7messageEjP9IOServicePv : 516 -> 488
+~ _OUTLINED_FUNCTION_12 : 12 -> 20
+~ _OUTLINED_FUNCTION_13 : 20 -> 12
+~ __ZN18IOHIDLibUserClient13setPropertiesEP8OSObject : 1068 -> 1152
+~ __ZN11IOHIDDevice11setPropertyEPK8OSSymbolP8OSObject : 396 -> 416
+~ __ZN24IOHIDBTCETimeSyncService7messageEjP9IOServicePv : 1268 -> 1216
+~ __ZN29IOHIDResourceDeviceUserClient12createDeviceEP25IOExternalMethodArguments : 920 -> 932
+CStrings:
++ "MaxEventSize"
++ "isApprovedCarPlayDevice"
+- "isApprovedCarPlayDeviceHIDRMDeviceState"
+```

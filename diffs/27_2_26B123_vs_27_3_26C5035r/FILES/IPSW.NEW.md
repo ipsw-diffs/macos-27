@@ -1,0 +1,192 @@
+## IPSW — NEW (190)
+
+- `Firmware/AOP/aopfw-j804aop.RELEASE.im4p`
+- `Firmware/AOP/aopfw-j833aop.RELEASE.im4p`
+- `Firmware/AOP/aopfw-k114caop.RELEASE.im4p`
+- `Firmware/AOP/aopfw-k114saop.RELEASE.im4p`
+- `Firmware/AOP/aopfw-k116caop.RELEASE.im4p`
+- `Firmware/AOP/aopfw-k116saop.RELEASE.im4p`
+- `Firmware/AOP2/aop2fw-j804aop2.RELEASE.im4p`
+- `Firmware/AOP2/aop2fw-j833aop2.RELEASE.im4p`
+- `Firmware/AOP2/aop2fw-k114caop2.RELEASE.im4p`
+- `Firmware/AOP2/aop2fw-k114saop2.RELEASE.im4p`
+- `Firmware/AOP2/aop2fw-k116caop2.RELEASE.im4p`
+- `Firmware/AOP2/aop2fw-k116saop2.RELEASE.im4p`
+- `Firmware/Ace3/j804/usbcfw_j804.uarp`
+- `Firmware/Ace3/j833ct/usbcfw_j833ct.uarp`
+- `Firmware/Ace3/k114/usbcfw_k114.uarp`
+- `Firmware/Ace3/k116/usbcfw_k116.uarp`
+- `Firmware/DP855/X3720/X3720.bin`
+- `Firmware/DP855/X3720/X3720.bin.plist`
+- `Firmware/J804_InputDevice.im4p`
+- `Firmware/J804_MtpFirmware.im4p`
+- `Firmware/J804_Multitouch.im4p`
+- `Firmware/K114C_InputDevice.im4p`
+- `Firmware/K114S_InputDevice.im4p`
+- `Firmware/K114_KiwiFirmware.im4p`
+- `Firmware/K114_MtpFirmware.im4p`
+- `Firmware/K114_Multitouch.im4p`
+- `Firmware/K116C_InputDevice.im4p`
+- `Firmware/K116S_InputDevice.im4p`
+- `Firmware/K116_KiwiFirmware.im4p`
+- `Firmware/K116_MtpFirmware.im4p`
+- `Firmware/K116_Multitouch.im4p`
+- `Firmware/M3/bin/securem3fw-j80m.im4p`
+- `Firmware/M3/bin/securem3fw-j83m.im4p`
+- `Firmware/M3/bin/securem3fw-sck11pm.im4p`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.j804ap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.j804ap.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.j804ap.insecure.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.j833ctap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.j833ctap.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.j833ctap.insecure.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.k114cap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.k114cap.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.k114cap.insecure.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.k114sap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.k114sap.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.k114sap.insecure.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.k116cap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.k116cap.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.k116cap.insecure.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.k116sap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.k116sap.im4m`
+- `Firmware/Manifests/restore/Customer Erase Install (IPSW)/centauri/centauri.k116sap.insecure.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.j804ap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.j804ap.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.j804ap.insecure.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.j833ctap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.j833ctap.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.j833ctap.insecure.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.k114cap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.k114cap.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.k114cap.insecure.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.k114sap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.k114sap.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.k114sap.insecure.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.k116cap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.k116cap.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.k116cap.insecure.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.k116sap.dev.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.k116sap.im4m`
+- `Firmware/Manifests/restore/Customer Upgrade Install (IPSW)/centauri/centauri.k116sap.insecure.im4m`
+- `Firmware/Manifests/restore/cryptex1/macOS Customer/apticket.j804ap.im4m`
+- `Firmware/Manifests/restore/cryptex1/macOS Customer/apticket.j833ctap.im4m`
+- `Firmware/Manifests/restore/cryptex1/macOS Customer/apticket.k114cap.im4m`
+- `Firmware/Manifests/restore/cryptex1/macOS Customer/apticket.k114sap.im4m`
+- `Firmware/Manifests/restore/cryptex1/macOS Customer/apticket.k116cap.im4m`
+- `Firmware/Manifests/restore/cryptex1/macOS Customer/apticket.k116sap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/apticket.j804ap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/apticket.j833ctap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/apticket.k114cap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/apticket.k114sap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/apticket.k116cap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/apticket.k116sap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.j804ap.dev.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.j804ap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.j804ap.insecure.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.j833ctap.dev.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.j833ctap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.j833ctap.insecure.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.k114cap.dev.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.k114cap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.k114cap.insecure.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.k114sap.dev.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.k114sap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.k114sap.insecure.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.k116cap.dev.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.k116cap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.k116cap.insecure.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.k116sap.dev.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.k116sap.im4m`
+- `Firmware/Manifests/restore/macOS Customer/centauri/centauri.k116sap.insecure.im4m`
+- `Firmware/Veloz/X4014/DigestMap.der`
+- `Firmware/Veloz/X4014/DigestMap.der.plist`
+- `Firmware/Veloz/X4014/FirmwareMap.plist`
+- `Firmware/Veloz/X4014/FirmwareMap.plist.plist`
+- `Firmware/Veloz/X4016/DigestMap.der`
+- `Firmware/Veloz/X4016/DigestMap.der.plist`
+- `Firmware/Veloz/X4016/FirmwareMap.plist`
+- `Firmware/Veloz/X4016/FirmwareMap.plist.plist`
+- `Firmware/all_flash/DeviceTree.j804ap.im4p`
+- `Firmware/all_flash/DeviceTree.j833ctap.im4p`
+- `Firmware/all_flash/DeviceTree.k114cap.im4p`
+- `Firmware/all_flash/DeviceTree.k114sap.im4p`
+- `Firmware/all_flash/DeviceTree.k116cap.im4p`
+- `Firmware/all_flash/DeviceTree.k116sap.im4p`
+- `Firmware/all_flash/LLB.j804.RELEASE.im4p`
+- `Firmware/all_flash/LLB.j833ct.RELEASE.im4p`
+- `Firmware/all_flash/LLB.k114c.RELEASE.im4p`
+- `Firmware/all_flash/LLB.k114s.RELEASE.im4p`
+- `Firmware/all_flash/LLB.k116c.RELEASE.im4p`
+- `Firmware/all_flash/LLB.k116s.RELEASE.im4p`
+- `Firmware/all_flash/iBoot.j804.RELEASE.im4p`
+- `Firmware/all_flash/iBoot.j833ct.RELEASE.im4p`
+- `Firmware/all_flash/iBoot.k114c.RELEASE.im4p`
+- `Firmware/all_flash/iBoot.k114s.RELEASE.im4p`
+- `Firmware/all_flash/iBoot.k116c.RELEASE.im4p`
+- `Firmware/all_flash/iBoot.k116s.RELEASE.im4p`
+- `Firmware/all_flash/iBootData.j804.RELEASE.im4p`
+- `Firmware/all_flash/iBootData.j833ct.RELEASE.im4p`
+- `Firmware/all_flash/iBootData.k114c.RELEASE.im4p`
+- `Firmware/all_flash/iBootData.k114s.RELEASE.im4p`
+- `Firmware/all_flash/iBootData.k116c.RELEASE.im4p`
+- `Firmware/all_flash/iBootData.k116s.RELEASE.im4p`
+- `Firmware/all_flash/iBootDataStage1.j804.RELEASE.im4p`
+- `Firmware/all_flash/iBootDataStage1.j833ct.RELEASE.im4p`
+- `Firmware/all_flash/iBootDataStage1.k114c.RELEASE.im4p`
+- `Firmware/all_flash/iBootDataStage1.k114s.RELEASE.im4p`
+- `Firmware/all_flash/iBootDataStage1.k116c.RELEASE.im4p`
+- `Firmware/all_flash/iBootDataStage1.k116s.RELEASE.im4p`
+- `Firmware/all_flash/sep-firmware.j804.RELEASE.im4p`
+- `Firmware/all_flash/sep-firmware.j804.RELEASE.im4p.plist`
+- `Firmware/all_flash/sep-firmware.j833ct.RELEASE.im4p`
+- `Firmware/all_flash/sep-firmware.j833ct.RELEASE.im4p.plist`
+- `Firmware/all_flash/sep-firmware.k114c.RELEASE.im4p`
+- `Firmware/all_flash/sep-firmware.k114c.RELEASE.im4p.plist`
+- `Firmware/all_flash/sep-firmware.k114s.RELEASE.im4p`
+- `Firmware/all_flash/sep-firmware.k114s.RELEASE.im4p.plist`
+- `Firmware/all_flash/sep-firmware.k116c.RELEASE.im4p`
+- `Firmware/all_flash/sep-firmware.k116c.RELEASE.im4p.plist`
+- `Firmware/all_flash/sep-firmware.k116s.RELEASE.im4p`
+- `Firmware/all_flash/sep-firmware.k116s.RELEASE.im4p.plist`
+- `Firmware/all_flash/sep-patches.j804.im4p`
+- `Firmware/all_flash/sep-patches.j804.im4p.plist`
+- `Firmware/all_flash/sep-patches.j833ct.im4p`
+- `Firmware/all_flash/sep-patches.j833ct.im4p.plist`
+- `Firmware/all_flash/sep-patches.k114c.im4p`
+- `Firmware/all_flash/sep-patches.k114c.im4p.plist`
+- `Firmware/all_flash/sep-patches.k114s.im4p`
+- `Firmware/all_flash/sep-patches.k114s.im4p.plist`
+- `Firmware/all_flash/sep-patches.k116c.im4p`
+- `Firmware/all_flash/sep-patches.k116c.im4p.plist`
+- `Firmware/all_flash/sep-patches.k116s.im4p`
+- `Firmware/all_flash/sep-patches.k116s.im4p.plist`
+- `Firmware/dfu/iBEC.j804.RELEASE.im4p`
+- `Firmware/dfu/iBEC.j833ct.RELEASE.im4p`
+- `Firmware/dfu/iBEC.k114c.RELEASE.im4p`
+- `Firmware/dfu/iBEC.k114s.RELEASE.im4p`
+- `Firmware/dfu/iBEC.k116c.RELEASE.im4p`
+- `Firmware/dfu/iBEC.k116s.RELEASE.im4p`
+- `Firmware/dfu/iBSS.j804.RELEASE.im4p`
+- `Firmware/dfu/iBSS.j833ct.RELEASE.im4p`
+- `Firmware/dfu/iBSS.k114c.RELEASE.im4p`
+- `Firmware/dfu/iBSS.k114s.RELEASE.im4p`
+- `Firmware/dfu/iBSS.k116c.RELEASE.im4p`
+- `Firmware/dfu/iBSS.k116s.RELEASE.im4p`
+- `Firmware/displaycalibration/J804-dven.im4p`
+- `Firmware/embeddedaudioresources/image4/j804-attach-chime.im4p`
+- `Firmware/embeddedaudioresources/image4/j804-boot-chime.im4p`
+- `Firmware/embeddedaudioresources/image4/j833ct-boot-chime.im4p`
+- `Firmware/embeddedaudioresources/image4/k114c-attach-chime.im4p`
+- `Firmware/embeddedaudioresources/image4/k114c-boot-chime.im4p`
+- `Firmware/embeddedaudioresources/image4/k114s-attach-chime.im4p`
+- `Firmware/embeddedaudioresources/image4/k114s-boot-chime.im4p`
+- `Firmware/embeddedaudioresources/image4/k116c-attach-chime.im4p`
+- `Firmware/embeddedaudioresources/image4/k116c-boot-chime.im4p`
+- `Firmware/embeddedaudioresources/image4/k116s-attach-chime.im4p`
+- `Firmware/embeddedaudioresources/image4/k116s-boot-chime.im4p`
+- `Firmware/isp_bni/adc-nyx-sck11pm.im4p`
+- `Firmware/isp_bni/adc-silenus-j80m.im4p`
+- `Firmware/isp_bni/adc-silenus-j83m.im4p`
+- `Firmware/ixora/x2960_x2961.plist`

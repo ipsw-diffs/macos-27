@@ -1,0 +1,314 @@
+## StoreKit
+
+> `/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit`
+
+```diff
+
+-816.1.16.0.0
+-  __TEXT.__text: 0x19f110
+-  __TEXT.__objc_methlist: 0x262c
+-  __TEXT.__const: 0x1843c
++816.2.10.0.0
++  __TEXT.__text: 0x1ad274
++  __TEXT.__objc_methlist: 0x268c
++  __TEXT.__const: 0x192a8
+   __TEXT.__gcc_except_tab: 0x6b8
+-  __TEXT.__cstring: 0x6184
+-  __TEXT.__oslogstring: 0x10ca
++  __TEXT.__cstring: 0x6a5f
++  __TEXT.__oslogstring: 0x1149
+   __TEXT.__dlopen_cstrs: 0xa8
+-  __TEXT.__constg_swiftt: 0x4490
+-  __TEXT.__swift5_typeref: 0x6057
+-  __TEXT.__swift5_builtin: 0x1b8
+-  __TEXT.__swift5_reflstr: 0x3992
+-  __TEXT.__swift5_fieldmd: 0x55a0
+-  __TEXT.__swift5_assocty: 0xbf8
+-  __TEXT.__swift5_proto: 0x1530
+-  __TEXT.__swift5_types: 0x6c8
+-  __TEXT.__swift5_capture: 0x3590
+-  __TEXT.__swift_as_entry: 0x6dc
+-  __TEXT.__swift_as_cont: 0xfd8
+-  __TEXT.__swift_as_ret: 0x738
+-  __TEXT.__swift5_mpenum: 0x58
++  __TEXT.__constg_swiftt: 0x4664
++  __TEXT.__swift5_typeref: 0x6355
++  __TEXT.__swift5_builtin: 0x1cc
++  __TEXT.__swift5_reflstr: 0x3cb2
++  __TEXT.__swift5_fieldmd: 0x5960
++  __TEXT.__swift5_assocty: 0xc58
++  __TEXT.__swift5_proto: 0x15f4
++  __TEXT.__swift5_types: 0x708
++  __TEXT.__swift5_capture: 0x35e8
++  __TEXT.__swift_as_entry: 0x720
++  __TEXT.__swift_as_cont: 0x10b8
++  __TEXT.__swift_as_ret: 0x790
++  __TEXT.__swift5_mpenum: 0xb8
+   __TEXT.__swift5_protos: 0x30
+-  __TEXT.__unwind_info: 0xa340
+-  __TEXT.__eh_frame: 0x11028
++  __TEXT.__unwind_info: 0xa918
++  __TEXT.__eh_frame: 0x11e10
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__const: 0x708
+   __DATA_CONST.__objc_classlist: 0x260
+   __DATA_CONST.__objc_catlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0x230
++  __DATA_CONST.__objc_protolist: 0x248
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x15e0
+-  __DATA_CONST.__objc_protorefs: 0x130
++  __DATA_CONST.__objc_selrefs: 0x1608
++  __DATA_CONST.__objc_protorefs: 0x140
+   __DATA_CONST.__objc_superrefs: 0xe0
+-  __DATA_CONST.__got: 0x888
+-  __AUTH_CONST.__const: 0x16c11
++  __DATA_CONST.__got: 0x890
++  __AUTH_CONST.__const: 0x17b11
+   __AUTH_CONST.__cfstring: 0x23c0
+-  __AUTH_CONST.__objc_const: 0xb6e0
+-  __AUTH_CONST.__auth_got: 0x16e0
++  __AUTH_CONST.__objc_const: 0xb728
++  __AUTH_CONST.__auth_got: 0x16f0
+   __AUTH.__objc_data: 0xfd8
+-  __AUTH.__data: 0x2288
++  __AUTH.__data: 0x2200
+   __DATA.__objc_ivar: 0x274
+-  __DATA.__data: 0x4e48
+-  __DATA.__bss: 0x220b0
++  __DATA.__data: 0x5040
++  __DATA.__bss: 0x237b0
+   __DATA.__common: 0x60
+   __DATA_DIRTY.__objc_data: 0x8d0
+   __DATA_DIRTY.__data: 0x2388
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 13946
+-  Symbols:   5488
+-  CStrings:  953
++  Functions: 14463
++  Symbols:   5578
++  CStrings:  1003
+ 
+Symbols:
++ _OUTLINED_FUNCTION_615
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_DataSharingConsentEligibilityService
++ __OBJC_$_PROTOCOL_METHOD_TYPES_DataSharingConsentEligibilityService
++ __OBJC_LABEL_PROTOCOL_$_DataSharingConsentEligibilityService
++ __OBJC_PROTOCOL_$_DataSharingConsentEligibilityService
++ __PROTOCOL_INSTANCE_METHODS__TtP8StoreKit33DataSharingConsentDisplayProtocol_
++ __PROTOCOL_INSTANCE_METHODS__TtP8StoreKit34MultiSeatInvitationDisplayProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP8StoreKit33DataSharingConsentDisplayProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP8StoreKit34MultiSeatInvitationDisplayProtocol_
++ __PROTOCOL__TtP8StoreKit33DataSharingConsentDisplayProtocol_
++ __PROTOCOL__TtP8StoreKit34MultiSeatInvitationDisplayProtocol_
++ ___swift_closure_destructor.14Tm
++ ___swift_closure_destructor.54Tm
++ ___swift_memcpy200_8
++ ___swift_memcpy248_8
++ ___swift_memcpy472_8
++ ___swift_memcpy57_8
++ _associated conformance 8StoreKit11TransactionV010AdditionalC6ReasonVSHAASQ
++ _associated conformance 8StoreKit11TransactionV13MultiSeatInfoV20InvitationManagementVSHAASQ
++ _associated conformance 8StoreKit11TransactionV13MultiSeatInfoV9PriceTierVSHAASQ
++ _associated conformance 8StoreKit11TransactionV13MultiSeatInfoVSHAASQ
++ _associated conformance 8StoreKit11TransactionV20AdvancedCommerceInfoV13SeatPriceTierV10CodingKeys33_EAF109AC20735074DE4C5B547264B0AALLOSHAASQ
++ _associated conformance 8StoreKit11TransactionV20AdvancedCommerceInfoV13SeatPriceTierV10CodingKeys33_EAF109AC20735074DE4C5B547264B0AALLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit11TransactionV20AdvancedCommerceInfoV13SeatPriceTierV10CodingKeys33_EAF109AC20735074DE4C5B547264B0AALLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit11TransactionV20AdvancedCommerceInfoV13SeatPriceTierVSHAASQ
++ _associated conformance 8StoreKit21SKUIEngagementRequestV4KindO28DataSharingConsentCodingKeys33_76ECC7C06851441D86DD3ECCE2F96D98LLOSHAASQ
++ _associated conformance 8StoreKit21SKUIEngagementRequestV4KindO28DataSharingConsentCodingKeys33_76ECC7C06851441D86DD3ECCE2F96D98LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit21SKUIEngagementRequestV4KindO28DataSharingConsentCodingKeys33_76ECC7C06851441D86DD3ECCE2F96D98LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit21SKUIEngagementRequestV4KindO29MultiSeatInvitationCodingKeys33_76ECC7C06851441D86DD3ECCE2F96D98LLOSHAASQ
++ _associated conformance 8StoreKit21SKUIEngagementRequestV4KindO29MultiSeatInvitationCodingKeys33_76ECC7C06851441D86DD3ECCE2F96D98LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit21SKUIEngagementRequestV4KindO29MultiSeatInvitationCodingKeys33_76ECC7C06851441D86DD3ECCE2F96D98LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit33DataSharingConsentEligibilityInfoO10CodingKeys33_5C5F8D6A5B7A6FCAA1782D88B0512B6BLLOSHAASQ
++ _associated conformance 8StoreKit33DataSharingConsentEligibilityInfoO10CodingKeys33_5C5F8D6A5B7A6FCAA1782D88B0512B6BLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit33DataSharingConsentEligibilityInfoO10CodingKeys33_5C5F8D6A5B7A6FCAA1782D88B0512B6BLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit33DataSharingConsentEligibilityInfoO18EligibleCodingKeys33_5C5F8D6A5B7A6FCAA1782D88B0512B6BLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit33DataSharingConsentEligibilityInfoO18EligibleCodingKeys33_5C5F8D6A5B7A6FCAA1782D88B0512B6BLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit33DataSharingConsentEligibilityInfoO20IneligibleCodingKeys33_5C5F8D6A5B7A6FCAA1782D88B0512B6BLLOSHAASQ
++ _associated conformance 8StoreKit33DataSharingConsentEligibilityInfoO20IneligibleCodingKeys33_5C5F8D6A5B7A6FCAA1782D88B0512B6BLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit33DataSharingConsentEligibilityInfoO20IneligibleCodingKeys33_5C5F8D6A5B7A6FCAA1782D88B0512B6BLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit7ProductV16SubscriptionInfoV07BillingE0VSHAASQ
++ _associated conformance 8StoreKit7ProductV16SubscriptionInfoV07RenewalE0V09MultiSeatE0VSHAASQ
++ _associated conformance 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsV09SeatBasedF0V9PriceTierVSHAASQ
++ _associated conformance 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsV09SeatBasedF0VSHAASQ
++ _associated conformance 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsV0F5ModelOSHAASQ
++ _associated conformance 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsV11SinglePriceVSHAASQ
++ _associated conformance 8StoreKit7ProductV16SubscriptionInfoV38MultiSeatDataSharingConsentEligibilityO19IneligibilityReasonVSHAASQ
++ _associated conformance 8StoreKit7ProductV16SubscriptionInfoV38MultiSeatDataSharingConsentEligibilityOSHAASQ
++ _flat unique So36DataSharingConsentEligibilityService_p
++ _objc_msgSend$cachedDataSharingConsentEligibilityForGroupID:reply:
++ _objc_msgSend$dataSharingConsentEligibilityForGroupID:reply:
++ _objc_msgSend$invalidateDataSharingConsentEligibilityForGroupID:reply:
++ _storekit_dyld_2026_SU_C_os_versions
++ _symbolic $s8StoreKit33DataSharingConsentDisplayProtocolP
++ _symbolic $s8StoreKit34MultiSeatInvitationDisplayProtocolP
++ _symbolic SS19subscriptionGroupID_t
++ _symbolic SS6reason_t
++ _symbolic Say_____G 8StoreKit11TransactionV13MultiSeatInfoV9PriceTierV
++ _symbolic Say_____G 8StoreKit11TransactionV20AdvancedCommerceInfoV13SeatPriceTierV
++ _symbolic Say_____G 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsV09SeatBasedF0V9PriceTierV
++ _symbolic _____ 8StoreKit11TransactionV010AdditionalC6ReasonV
++ _symbolic _____ 8StoreKit11TransactionV13MultiSeatInfoV
++ _symbolic _____ 8StoreKit11TransactionV13MultiSeatInfoV20InvitationManagementV
++ _symbolic _____ 8StoreKit11TransactionV13MultiSeatInfoV9PriceTierV
++ _symbolic _____ 8StoreKit11TransactionV20AdvancedCommerceInfoV13SeatPriceTierV
++ _symbolic _____ 8StoreKit11TransactionV20AdvancedCommerceInfoV13SeatPriceTierV10CodingKeys33_EAF109AC20735074DE4C5B547264B0AALLO
++ _symbolic _____ 8StoreKit21SKUIEngagementRequestV4KindO28DataSharingConsentCodingKeys33_76ECC7C06851441D86DD3ECCE2F96D98LLO
++ _symbolic _____ 8StoreKit21SKUIEngagementRequestV4KindO29MultiSeatInvitationCodingKeys33_76ECC7C06851441D86DD3ECCE2F96D98LLO
++ _symbolic _____ 8StoreKit33DataSharingConsentEligibilityInfoO
++ _symbolic _____ 8StoreKit33DataSharingConsentEligibilityInfoO10CodingKeys33_5C5F8D6A5B7A6FCAA1782D88B0512B6BLLO
++ _symbolic _____ 8StoreKit33DataSharingConsentEligibilityInfoO18EligibleCodingKeys33_5C5F8D6A5B7A6FCAA1782D88B0512B6BLLO
++ _symbolic _____ 8StoreKit33DataSharingConsentEligibilityInfoO20IneligibleCodingKeys33_5C5F8D6A5B7A6FCAA1782D88B0512B6BLLO
++ _symbolic _____ 8StoreKit7ProductV16SubscriptionInfoV07BillingE0V
++ _symbolic _____ 8StoreKit7ProductV16SubscriptionInfoV07RenewalE0V09MultiSeatE0V
++ _symbolic _____ 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsV09SeatBasedF0V
++ _symbolic _____ 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsV09SeatBasedF0V9PriceTierV
++ _symbolic _____ 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsV0F5ModelO
++ _symbolic _____ 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsV11SinglePriceV
++ _symbolic _____ 8StoreKit7ProductV16SubscriptionInfoV38MultiSeatDataSharingConsentEligibilityO
++ _symbolic _____ 8StoreKit7ProductV16SubscriptionInfoV38MultiSeatDataSharingConsentEligibilityO19IneligibilityReasonV
++ _symbolic _____Sg 8StoreKit11TransactionV010AdditionalC6ReasonV
++ _symbolic _____Sg 8StoreKit11TransactionV13MultiSeatInfoV
++ _symbolic _____Sg 8StoreKit11TransactionV13MultiSeatInfoV9PriceTierV
++ _symbolic _____Sg 8StoreKit11TransactionV20AdvancedCommerceInfoV13SeatPriceTierV
++ _symbolic _____Sg 8StoreKit23AdvancedCommerceProductV
++ _symbolic _____Sg 8StoreKit33DataSharingConsentEligibilityInfoO
++ _symbolic _____Sg 8StoreKit7ProductV16SubscriptionInfoV07RenewalE0V09MultiSeatE0V
++ _symbolic _____Sg 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsV
++ _symbolic _____Sg 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsV09SeatBasedF0V9PriceTierV
++ _symbolic ______AAt 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsV0F5ModelO
++ _symbolic ______p So36DataSharingConsentEligibilityServiceP
++ _symbolic ______pScCy___________pGIegnn_ So36DataSharingConsentEligibilityServiceP 10Foundation0A0V s5ErrorP
++ _symbolic ______pScCyyt______pGIegnn_ So36DataSharingConsentEligibilityServiceP s5ErrorP
++ _symbolic ______p_____Sg______pSgIeghng_Iegng_ So36DataSharingConsentEligibilityServiceP 10Foundation0A0V s5ErrorP
++ _symbolic ______p______pSgIeghg_Iegng_ So36DataSharingConsentEligibilityServiceP s5ErrorP
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s15CollectionOfOneV 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit21SKUIEngagementRequestV4KindO28DataSharingConsentCodingKeys33_76ECC7C06851441D86DD3ECCE2F96D98LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit21SKUIEngagementRequestV4KindO29MultiSeatInvitationCodingKeys33_76ECC7C06851441D86DD3ECCE2F96D98LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit33DataSharingConsentEligibilityInfoO10CodingKeys33_5C5F8D6A5B7A6FCAA1782D88B0512B6BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit33DataSharingConsentEligibilityInfoO18EligibleCodingKeys33_5C5F8D6A5B7A6FCAA1782D88B0512B6BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit33DataSharingConsentEligibilityInfoO20IneligibleCodingKeys33_5C5F8D6A5B7A6FCAA1782D88B0512B6BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit21SKUIEngagementRequestV4KindO28DataSharingConsentCodingKeys33_76ECC7C06851441D86DD3ECCE2F96D98LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit21SKUIEngagementRequestV4KindO29MultiSeatInvitationCodingKeys33_76ECC7C06851441D86DD3ECCE2F96D98LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit33DataSharingConsentEligibilityInfoO10CodingKeys33_5C5F8D6A5B7A6FCAA1782D88B0512B6BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit33DataSharingConsentEligibilityInfoO18EligibleCodingKeys33_5C5F8D6A5B7A6FCAA1782D88B0512B6BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit33DataSharingConsentEligibilityInfoO20IneligibleCodingKeys33_5C5F8D6A5B7A6FCAA1782D88B0512B6BLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8StoreKit11TransactionV13MultiSeatInfoV9PriceTierV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8StoreKit11TransactionV20AdvancedCommerceInfoV13SeatPriceTierV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsV09SeatBasedI0V9PriceTierV
++ _symbolic _____y_____G_Sit 8StoreKit15DecodingContextV AA15ProductResponseV3KeyO
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 8StoreKit11TransactionV13MultiSeatInfoV9PriceTierV
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 8StoreKit11TransactionV20AdvancedCommerceInfoV13SeatPriceTierV
++ _symbolic _____y______G 8StoreKit15DecodingContextV0C5ErrorO AA11TransactionV20AdvancedCommerceInfoV13SeatPriceTierV10CodingKeys33_EAF109AC20735074DE4C5B547264B0AALLO
++ _symbolic _____y______pG 8StoreKit23ClientServiceConnectionV So029DataSharingConsentEligibilityD0P
++ _symbolic _____y_____y_____G_SitG s23_ContiguousArrayStorageC 8StoreKit15DecodingContextV AC15ProductResponseV3KeyO
++ _type_layout_string 8StoreKit11TransactionV13MultiSeatInfoV
++ _type_layout_string 8StoreKit11TransactionV13MultiSeatInfoV9PriceTierV
++ _type_layout_string 8StoreKit11TransactionV20AdvancedCommerceInfoV13SeatPriceTierV
++ _type_layout_string 8StoreKit33DataSharingConsentEligibilityInfoO
++ _type_layout_string 8StoreKit7ProductV16SubscriptionInfoV07RenewalE0V09MultiSeatE0V
++ _type_layout_string 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsV09SeatBasedF0V
++ _type_layout_string 8StoreKit7ProductV16SubscriptionInfoV38MultiSeatDataSharingConsentEligibilityO
+- ___swift_closure_destructor.60Tm
+- ___swift_closure_destructor.89Tm
+- ___swift_memcpy136_8
+- ___swift_memcpy144_8
+- ___swift_memcpy192_8
+- ___swift_memcpy360_8
+- _associated conformance 8StoreKit19InAppReviewResponseV10CodingKeys33_D077A3D4D78AADD1849BB180859159C1LLOSHAASQ
+- _associated conformance 8StoreKit19InAppReviewResponseV10CodingKeys33_D077A3D4D78AADD1849BB180859159C1LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 8StoreKit19InAppReviewResponseV10CodingKeys33_D077A3D4D78AADD1849BB180859159C1LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8StoreKit25DisplayMacReviewUIRequestV10CodingKeys017_6A88CACE9D96CA75K13AE85ECD7C27F7LLOSHAASQ
+- _associated conformance 8StoreKit25DisplayMacReviewUIRequestV10CodingKeys017_6A88CACE9D96CA75K13AE85ECD7C27F7LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 8StoreKit25DisplayMacReviewUIRequestV10CodingKeys017_6A88CACE9D96CA75K13AE85ECD7C27F7LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _flat unique So13ReviewService_p
+- _objc_msgSend$displayMacReviewUI:reply:
+- _objc_msgSend$requestReviewWithRequest:reply:
+- _symbolic _____ 8StoreKit19InAppReviewResponseV
+- _symbolic _____ 8StoreKit19InAppReviewResponseV10CodingKeys33_D077A3D4D78AADD1849BB180859159C1LLO
+- _symbolic _____ 8StoreKit25DisplayMacReviewUIRequestV
+- _symbolic _____ 8StoreKit25DisplayMacReviewUIRequestV10CodingKeys017_6A88CACE9D96CA75K13AE85ECD7C27F7LLO
+- _symbolic ______p So13ReviewServiceP
+- _symbolic ______pScCy___________pGIegnn_ So13ReviewServiceP 10Foundation4DataV s5ErrorP
+- _symbolic ______pScCyyt______pGIegnn_ So13ReviewServiceP s5ErrorP
+- _symbolic ______p_____ABSg______pSgIeghng_Iegngg_ So13ReviewServiceP 10Foundation4DataV s5ErrorP
+- _symbolic ______p___________pSgIeghg_Iegngg_ So13ReviewServiceP 10Foundation4DataV s5ErrorP
+- _symbolic _____y_____G 8StoreKit11ServiceTaskV AA18InAppReviewRequestV
+- _symbolic _____y_____G 8StoreKit11ServiceTaskV AA25DisplayMacReviewUIRequestV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit19InAppReviewResponseV10CodingKeys33_D077A3D4D78AADD1849BB180859159C1LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit25DisplayMacReviewUIRequestV10CodingKeys017_6A88CACE9D96CA75N13AE85ECD7C27F7LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit19InAppReviewResponseV10CodingKeys33_D077A3D4D78AADD1849BB180859159C1LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit25DisplayMacReviewUIRequestV10CodingKeys017_6A88CACE9D96CA75N13AE85ECD7C27F7LLO
+- _symbolic _____y______pG 8StoreKit23ClientServiceConnectionV So06ReviewD0P
+- _type_layout_string 8StoreKit19InAppReviewResponseV
+CStrings:
++ " from multi-seat price band"
++ "\" as Decimal (minimumSeats: "
++ "02:52:43"
++ "ALREADY_CONSENTED"
++ "Data sharing consent eligibility hasn't been checked for subscription group "
++ "DataSharingConsentEligibilityInfo"
++ "ERROR_MULTI_SEAT_DISABLED_REASON"
++ "ERROR_MULTI_SEAT_DISABLED_RECOVERY"
++ "ERROR_SEAT_REDUCTION_NOT_ALLOWED_REASON"
++ "ERROR_SEAT_REDUCTION_NOT_ALLOWED_RECOVERY"
++ "Failed to cast service as DataSharingConsentEligibilityService"
++ "Failed to decode `displayPricePerSeat` from multi-seat price band (minimumSeats: "
++ "Failed to decode `minimumSeats` from multi-seat price band"
++ "Failed to decode `pricePerSeatString` from multi-seat price band (minimumSeats: "
++ "Failed to fetch cached data sharing consent eligibility: "
++ "Failed to fetch data sharing consent eligibility: "
++ "Failed to invalidate data sharing consent eligibility: "
++ "Failed to parse `pricePerSeatString` \""
++ "Failed to present data sharing consent sheet: %{public}@"
++ "Failed to present multi-seat invitation sheet: %{public}@"
++ "Invalid negative `minimumSeats` value "
++ "Invalid subscription group ID to check data sharing consent eligibility"
++ "NOT_APPLE_MANAGED"
++ "NO_OWNED_ACTIVE_GROUP_SUB"
++ "No account to check data sharing consent eligibility"
++ "No account to present the data sharing consent sheet"
++ "Oct 29 2026"
++ "Optional<DataSharingConsentEligibilityInfo>"
++ "StoreKit/DataSharingConsent"
++ "StoreKit/DataSharingConsentEligibility"
++ "StoreKit/ManageSubscriptions"
++ "StoreKit/MultiSeatInvitation"
++ "Subscriber isn't eligible for the data sharing consent sheet: "
++ "Window must be visible to present data sharing consent sheet"
++ "Window must be visible to present manage subscriptions sheet"
++ "Window must be visible to present multi-seat invitation sheet"
++ "[In-App Review Prompt] This feature is not supported on beta builds."
++ "additionalTransactionReason"
++ "dataSharingConsent"
++ "invitationManagement"
++ "maximumSeatQuantity"
++ "minimumSeats"
++ "multiSeatInfo"
++ "multiSeatInvitation"
++ "multiseatPriceBands"
++ "multiseatPricingDisabled"
++ "pricePerSeatFormatted"
++ "pricePerSeatString"
++ "priceTiers"
++ "renewalPriceTiers"
++ "renewalQuantity"
++ "revokedSeatQuantity"
++ "seatPriceTiers"
++ "seatRenewalPriceTiers"
++ "suppressInvitationSheet"
+- "23:07:02"
+- "Failed to cast service as ReviewService"
+- "InAppReviewResponse"
+- "Oct  6 2026"
+- "]: Error requesting review: "
+```

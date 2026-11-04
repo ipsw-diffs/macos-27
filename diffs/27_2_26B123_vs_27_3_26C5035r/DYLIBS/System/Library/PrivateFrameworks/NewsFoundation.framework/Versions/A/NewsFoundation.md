@@ -1,0 +1,699 @@
+## NewsFoundation
+
+> `/System/Library/PrivateFrameworks/NewsFoundation.framework/Versions/A/NewsFoundation`
+
+```diff
+
+-5971.0.0.0.0
++6006.0.0.0.0
+   __TEXT.__text: 0x8700
+   __TEXT.__objc_methlist: 0xd4c
+   __TEXT.__const: 0x70
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   Functions: 355
+-  Symbols:   854
++  Symbols:   176
+   CStrings:  81
+ 
+Symbols:
+- +[NFPromise new]
+- +[NFPromise(Delay) asDelay:onQueue:withError:]
+- +[NFPromise(Delay) asDelay:onQueue:withValue:]
+- +[NFPromise(Delay) asDelay:withError:]
+- +[NFPromise(Delay) asDelay:withValue:]
+- +[NFPromise(Firstly) firstly:]
+- +[NFPromise(Void) asVoid:]
+- +[NFPromise(Void) asVoid]
+- +[NFReachability _currentNetworkStatus]
+- +[NFReachability sharedInstance]
+- +[NSError(NFStateMachine) fc_createStateMachineErrorForCode:userInfo:]
+- +[NSKeyedUnarchiver(FRAdditions) nf_securelyUnarchiveObjectOfClass:withData:]
+- +[NSKeyedUnarchiver(FRAdditions) nf_securelyUnarchiveObjectOfClass:withFile:]
+- +[NSKeyedUnarchiver(FRAdditions) nf_securelyUnarchiveObjectOfClasses:withData:]
+- +[NSKeyedUnarchiver(FRAdditions) nf_securelyUnarchiveObjectOfClasses:withFile:]
+- +[NSObject(NFAdditions) nf_compareObject:toObject:]
+- +[NSObject(NFAdditions) nf_object:isEqualToObject:]
+- +[NSValue(NFAdditions) nf_valueWithCGPoint:]
+- +[NSValue(NFAdditions) nf_valueWithCGRect:]
+- -[NFArchiver archiveDirectory:toLocation:]
+- -[NFArchiver unarchive:toLocation:]
+- -[NFEventManager .cxx_destruct]
+- -[NFEventManager attemptTriggersForCurrentEvent:]
+- -[NFEventManager events]
+- -[NFEventManager fireEvent:]
+- -[NFEventManager handleAlwaysTrigger:event:]
+- -[NFEventManager handleOnceTrigger:event:]
+- -[NFEventManager init]
+- -[NFEventManager triggerAlwaysWhenAllEventsHaveOccurred:block:]
+- -[NFEventManager triggerOnAnyEvent:block:]
+- -[NFEventManager triggerOnEvent:block:]
+- -[NFEventManager triggerOnceWhenAllEventsHaveOccurred:block:]
+- -[NFEventManager triggerOnceWhenAnyEventHasOccurred:block:]
+- -[NFEventManager triggers]
+- -[NFEventTrigger .cxx_destruct]
+- -[NFEventTrigger block]
+- -[NFEventTrigger events]
+- -[NFEventTrigger fireOnAny]
+- -[NFEventTrigger fireOnce]
+- -[NFEventTrigger initWithKey:fireOnce:fireOnAny:events:block:]
+- -[NFEventTrigger key]
+- -[NFLazy .cxx_destruct]
+- -[NFLazy constructor]
+- -[NFLazy initWithConstructor:]
+- -[NFLazy lock]
+- -[NFLazy reset]
+- -[NFLazy value]
+- -[NFMultiDelegate .cxx_destruct]
+- -[NFMultiDelegate addDelegate:]
+- -[NFMultiDelegate children]
+- -[NFMultiDelegate conformsToProtocol:]
+- -[NFMultiDelegate delegateProtocol]
+- -[NFMultiDelegate delegate]
+- -[NFMultiDelegate forwardInvocation:]
+- -[NFMultiDelegate initWithDelegate:delegateProtocol:]
+- -[NFMultiDelegate initWithDelegate:delegateProtocol:options:]
+- -[NFMultiDelegate lock]
+- -[NFMultiDelegate methodSignatureForSelector:]
+- -[NFMultiDelegate removeDelegate:]
+- -[NFMultiDelegate replaceDelegate:withDelegate:]
+- -[NFMultiDelegate respondsToSelector:]
+- -[NFMultiDelegate setLock:]
+- -[NFMutexLock dealloc]
+- -[NFMutexLock initWithOptions:]
+- -[NFMutexLock init]
+- -[NFMutexLock lock]
+- -[NFMutexLock performWithLockSync:]
+- -[NFMutexLock unlock]
+- -[NFPendingPromise .cxx_destruct]
+- -[NFPendingPromise init]
+- -[NFPendingPromise promise]
+- -[NFPendingPromise reject]
+- -[NFPendingPromise resolve]
+- -[NFPendingPromise setPromise:]
+- -[NFPendingPromise setReject:]
+- -[NFPendingPromise setResolve:]
+- -[NFPromise .cxx_destruct]
+- -[NFPromise always:]
+- -[NFPromise alwaysOn:always:]
+- -[NFPromise dealloc]
+- -[NFPromise delayOn]
+- -[NFPromise delay]
+- -[NFPromise error:]
+- -[NFPromise errorOn:error:]
+- -[NFPromise errorOn]
+- -[NFPromise error]
+- -[NFPromise initWithError:]
+- -[NFPromise initWithResolver:]
+- -[NFPromise initWithValue:]
+- -[NFPromise init]
+- -[NFPromise pipeOn]
+- -[NFPromise pipe]
+- -[NFPromise resolveOn]
+- -[NFPromise resolve]
+- -[NFPromise seal]
+- -[NFPromise setSeal:]
+- -[NFPromise then:]
+- -[NFPromise thenOn:then:]
+- -[NFPromise thenOn]
+- -[NFPromise then]
+- -[NFPromise(Timeout) timeoutAfter:]
+- -[NFPromise(Timeout) timeoutAfter:on:]
+- -[NFPromiseSeal .cxx_destruct]
+- -[NFPromiseSeal alwaysOn:always:]
+- -[NFPromiseSeal dealloc]
+- -[NFPromiseSeal error]
+- -[NFPromiseSeal handlers]
+- -[NFPromiseSeal initWithError:]
+- -[NFPromiseSeal initWithValue:]
+- -[NFPromiseSeal init]
+- -[NFPromiseSeal lock]
+- -[NFPromiseSeal registerHandler:]
+- -[NFPromiseSeal reject:]
+- -[NFPromiseSeal resolve:]
+- -[NFPromiseSeal resolveOn:reject:resolve:]
+- -[NFPromiseSeal seal:error:resolution:]
+- -[NFPromiseSeal setError:]
+- -[NFPromiseSeal setHandlers:]
+- -[NFPromiseSeal setState:]
+- -[NFPromiseSeal setValue:]
+- -[NFPromiseSeal state]
+- -[NFPromiseSeal value]
+- -[NFReachability .cxx_destruct]
+- -[NFReachability _statusFromNetworkPath:]
+- -[NFReachability _updateCurrentNetworkPath:]
+- -[NFReachability _updateCurrentReachabilityStatus:]
+- -[NFReachability currentNetworkPath]
+- -[NFReachability currentReachabilityStatus]
+- -[NFReachability dealloc]
+- -[NFReachability flushStatusUpdates]
+- -[NFReachability init]
+- -[NFReachability networkPathMonitor]
+- -[NFReachability observationQueue]
+- -[NFReachability setCurrentNetworkPath:]
+- -[NFReachability setCurrentReachabilityStatus:]
+- -[NFReachability setNetworkPathMonitor:]
+- -[NFReachability setObservationQueue:]
+- -[NFStateMachine .cxx_destruct]
+- -[NFStateMachine activateIfNeeded]
+- -[NFStateMachine activate]
+- -[NFStateMachine addEvent:]
+- -[NFStateMachine addState:]
+- -[NFStateMachine deactivateIfNeeded]
+- -[NFStateMachine deactivate]
+- -[NFStateMachine debugDescription]
+- -[NFStateMachine description]
+- -[NFStateMachine events]
+- -[NFStateMachine fireEventWithName:withContext:]
+- -[NFStateMachine initWithState:withOwner:]
+- -[NFStateMachine lock]
+- -[NFStateMachine owner]
+- -[NFStateMachine setEvents:]
+- -[NFStateMachine setLock:]
+- -[NFStateMachine setOwner:]
+- -[NFStateMachine setState:]
+- -[NFStateMachine setStates:]
+- -[NFStateMachine setStatus:]
+- -[NFStateMachine setStatusToken:]
+- -[NFStateMachine state]
+- -[NFStateMachine states]
+- -[NFStateMachine statusToken]
+- -[NFStateMachine status]
+- -[NFStateMachineEvent .cxx_destruct]
+- -[NFStateMachineEvent description]
+- -[NFStateMachineEvent destinationState]
+- -[NFStateMachineEvent fireBlock]
+- -[NFStateMachineEvent fired:withOwner:]
+- -[NFStateMachineEvent hash]
+- -[NFStateMachineEvent initWithName:transitionFromStates:toState:]
+- -[NFStateMachineEvent isEqual:]
+- -[NFStateMachineEvent name]
+- -[NFStateMachineEvent onFire:]
+- -[NFStateMachineEvent setDestinationState:]
+- -[NFStateMachineEvent setFireBlock:]
+- -[NFStateMachineEvent setName:]
+- -[NFStateMachineEvent setStates:]
+- -[NFStateMachineEvent states]
+- -[NFStateMachineState .cxx_destruct]
+- -[NFStateMachineState canTryBlock]
+- -[NFStateMachineState description]
+- -[NFStateMachineState didEnterBlock]
+- -[NFStateMachineState didExitBlock]
+- -[NFStateMachineState hash]
+- -[NFStateMachineState initWithName:]
+- -[NFStateMachineState isEqual:]
+- -[NFStateMachineState name]
+- -[NFStateMachineState onCanTry:]
+- -[NFStateMachineState onDidEnter:]
+- -[NFStateMachineState onDidExit:]
+- -[NFStateMachineState onWillEnter:]
+- -[NFStateMachineState onWillExit:]
+- -[NFStateMachineState setCanTryBlock:]
+- -[NFStateMachineState setDidEnterBlock:]
+- -[NFStateMachineState setDidExitBlock:]
+- -[NFStateMachineState setName:]
+- -[NFStateMachineState setWillEnterBlock:]
+- -[NFStateMachineState setWillExitBlock:]
+- -[NFStateMachineState willEnterBlock]
+- -[NFStateMachineState willExitBlock]
+- -[NFStateMachineState(Private) canTry:withOwner:]
+- -[NFStateMachineState(Private) didEnter:withOwner:]
+- -[NFStateMachineState(Private) didExit:withOwner:]
+- -[NFStateMachineState(Private) willEnter:withOwner:]
+- -[NFStateMachineState(Private) willExit:withOwner:]
+- -[NFStateMachineTransition .cxx_destruct]
+- -[NFStateMachineTransition context]
+- -[NFStateMachineTransition description]
+- -[NFStateMachineTransition event]
+- -[NFStateMachineTransition fromState]
+- -[NFStateMachineTransition initWithStateMachine:event:fromState:toState:context:]
+- -[NFStateMachineTransition setContext:]
+- -[NFStateMachineTransition setEvent:]
+- -[NFStateMachineTransition setFromState:]
+- -[NFStateMachineTransition setStateMachine:]
+- -[NFStateMachineTransition setToState:]
+- -[NFStateMachineTransition stateMachine]
+- -[NFStateMachineTransition toState]
+- -[NFUnfairLock assertLocked]
+- -[NFUnfairLock assertNotLocked]
+- -[NFUnfairLock initWithOptions:]
+- -[NFUnfairLock init]
+- -[NFUnfairLock lock]
+- -[NFUnfairLock performWithLockSync:]
+- -[NFUnfairLock unlock]
+- -[NFVoid copyWithZone:]
+- -[NSError(NFStateMachine) fc_isStateMachineError:]
+- -[NSKeyedUnarchiver(FRAdditions) nf_securelyUnarchiveObjectOfClass:]
+- -[NSString(NFAdditions) nf_sha1]
+- -[NSString(NFAdditions) nf_stringByReversingString]
+- -[NSUserDefaults(NFAdditions) nf_migrateObjectForKey:toKey:]
+- -[NSValue(NFAdditions) nf_CGPointValue]
+- -[NSValue(NFAdditions) nf_CGRectValue]
+- GCC_except_table19
+- GCC_except_table2
+- _NFArchiverCopyFileFinishedHandler
+- _NFDeviceHasExtendedColorDisplay.hasExtendedColorDisplay
+- _NFDeviceHasExtendedColorDisplay.onceToken
+- _NFDevicePlatform.onceToken
+- _NFDevicePlatform.s_platformString
+- _NFInternalBuild.internalBuild
+- _NFInternalBuild.onceToken
+- _NFStoreDemoMode.onceToken
+- _NFStoreDemoMode.storeDemoMode
+- _OBJC_IVAR_$_NFEventManager._events
+- _OBJC_IVAR_$_NFEventManager._triggers
+- _OBJC_IVAR_$_NFEventTrigger._block
+- _OBJC_IVAR_$_NFEventTrigger._events
+- _OBJC_IVAR_$_NFEventTrigger._fireOnAny
+- _OBJC_IVAR_$_NFEventTrigger._fireOnce
+- _OBJC_IVAR_$_NFEventTrigger._key
+- _OBJC_IVAR_$_NFLazy._constructor
+- _OBJC_IVAR_$_NFLazy._lock
+- _OBJC_IVAR_$_NFLazy._value
+- _OBJC_IVAR_$_NFMultiDelegate._children
+- _OBJC_IVAR_$_NFMultiDelegate._delegateProtocol
+- _OBJC_IVAR_$_NFMultiDelegate._lock
+- _OBJC_IVAR_$_NFMutexLock._lock
+- _OBJC_IVAR_$_NFPendingPromise._promise
+- _OBJC_IVAR_$_NFPendingPromise._reject
+- _OBJC_IVAR_$_NFPendingPromise._resolve
+- _OBJC_IVAR_$_NFPromise._seal
+- _OBJC_IVAR_$_NFPromiseSeal._error
+- _OBJC_IVAR_$_NFPromiseSeal._handlers
+- _OBJC_IVAR_$_NFPromiseSeal._lock
+- _OBJC_IVAR_$_NFPromiseSeal._state
+- _OBJC_IVAR_$_NFPromiseSeal._value
+- _OBJC_IVAR_$_NFReachability._currentNetworkPath
+- _OBJC_IVAR_$_NFReachability._currentReachabilityStatus
+- _OBJC_IVAR_$_NFReachability._networkPathMonitor
+- _OBJC_IVAR_$_NFReachability._observationQueue
+- _OBJC_IVAR_$_NFStateMachine._events
+- _OBJC_IVAR_$_NFStateMachine._lock
+- _OBJC_IVAR_$_NFStateMachine._owner
+- _OBJC_IVAR_$_NFStateMachine._state
+- _OBJC_IVAR_$_NFStateMachine._states
+- _OBJC_IVAR_$_NFStateMachine._status
+- _OBJC_IVAR_$_NFStateMachine._statusToken
+- _OBJC_IVAR_$_NFStateMachineEvent._destinationState
+- _OBJC_IVAR_$_NFStateMachineEvent._fireBlock
+- _OBJC_IVAR_$_NFStateMachineEvent._name
+- _OBJC_IVAR_$_NFStateMachineEvent._states
+- _OBJC_IVAR_$_NFStateMachineState._canTryBlock
+- _OBJC_IVAR_$_NFStateMachineState._didEnterBlock
+- _OBJC_IVAR_$_NFStateMachineState._didExitBlock
+- _OBJC_IVAR_$_NFStateMachineState._name
+- _OBJC_IVAR_$_NFStateMachineState._willEnterBlock
+- _OBJC_IVAR_$_NFStateMachineState._willExitBlock
+- _OBJC_IVAR_$_NFStateMachineTransition._context
+- _OBJC_IVAR_$_NFStateMachineTransition._event
+- _OBJC_IVAR_$_NFStateMachineTransition._fromState
+- _OBJC_IVAR_$_NFStateMachineTransition._stateMachine
+- _OBJC_IVAR_$_NFStateMachineTransition._toState
+- _OBJC_IVAR_$_NFUnfairLock._unfairLock
+- _OBJC_IVAR_$_NFUnfairLock._unfairLockOptions
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSError_$_NFStateMachine
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSKeyedUnarchiver_$_FRAdditions
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSObject_$_NFAdditions
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSValue_$_NFAdditions
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSError_$_NFStateMachine
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSKeyedUnarchiver_$_FRAdditions
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSString_$_NFAdditions
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSUserDefaults_$_NFAdditions
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSValue_$_NFAdditions
+- __OBJC_$_CATEGORY_NSError_$_NFStateMachine
+- __OBJC_$_CATEGORY_NSKeyedUnarchiver_$_FRAdditions
+- __OBJC_$_CATEGORY_NSObject_$_NFAdditions
+- __OBJC_$_CATEGORY_NSString_$_NFAdditions
+- __OBJC_$_CATEGORY_NSUserDefaults_$_NFAdditions
+- __OBJC_$_CATEGORY_NSValue_$_NFAdditions
+- __OBJC_$_CLASS_METHODS_NFPromise(Firstly|Void|Delay|Timeout)
+- __OBJC_$_CLASS_METHODS_NFReachability
+- __OBJC_$_CLASS_PROP_LIST_NFReachability
+- __OBJC_$_INSTANCE_METHODS_NFArchiver
+- __OBJC_$_INSTANCE_METHODS_NFEventManager
+- __OBJC_$_INSTANCE_METHODS_NFEventTrigger
+- __OBJC_$_INSTANCE_METHODS_NFLazy
+- __OBJC_$_INSTANCE_METHODS_NFMultiDelegate
+- __OBJC_$_INSTANCE_METHODS_NFMutexLock
+- __OBJC_$_INSTANCE_METHODS_NFPendingPromise
+- __OBJC_$_INSTANCE_METHODS_NFPromise(Firstly|Void|Delay|Timeout)
+- __OBJC_$_INSTANCE_METHODS_NFPromiseSeal
+- __OBJC_$_INSTANCE_METHODS_NFReachability
+- __OBJC_$_INSTANCE_METHODS_NFStateMachine
+- __OBJC_$_INSTANCE_METHODS_NFStateMachineEvent
+- __OBJC_$_INSTANCE_METHODS_NFStateMachineState(Private)
+- __OBJC_$_INSTANCE_METHODS_NFStateMachineTransition
+- __OBJC_$_INSTANCE_METHODS_NFUnfairLock
+- __OBJC_$_INSTANCE_METHODS_NFVoid
+- __OBJC_$_INSTANCE_VARIABLES_NFEventManager
+- __OBJC_$_INSTANCE_VARIABLES_NFEventTrigger
+- __OBJC_$_INSTANCE_VARIABLES_NFLazy
+- __OBJC_$_INSTANCE_VARIABLES_NFMultiDelegate
+- __OBJC_$_INSTANCE_VARIABLES_NFMutexLock
+- __OBJC_$_INSTANCE_VARIABLES_NFPendingPromise
+- __OBJC_$_INSTANCE_VARIABLES_NFPromise
+- __OBJC_$_INSTANCE_VARIABLES_NFPromiseSeal
+- __OBJC_$_INSTANCE_VARIABLES_NFReachability
+- __OBJC_$_INSTANCE_VARIABLES_NFStateMachine
+- __OBJC_$_INSTANCE_VARIABLES_NFStateMachineEvent
+- __OBJC_$_INSTANCE_VARIABLES_NFStateMachineState
+- __OBJC_$_INSTANCE_VARIABLES_NFStateMachineTransition
+- __OBJC_$_INSTANCE_VARIABLES_NFUnfairLock
+- __OBJC_$_PROP_LIST_NFArchiver
+- __OBJC_$_PROP_LIST_NFEventManager
+- __OBJC_$_PROP_LIST_NFEventTrigger
+- __OBJC_$_PROP_LIST_NFLazy
+- __OBJC_$_PROP_LIST_NFMultiDelegate
+- __OBJC_$_PROP_LIST_NFPendingPromise
+- __OBJC_$_PROP_LIST_NFPromise
+- __OBJC_$_PROP_LIST_NFPromiseSeal
+- __OBJC_$_PROP_LIST_NFReachability
+- __OBJC_$_PROP_LIST_NFStateMachine
+- __OBJC_$_PROP_LIST_NFStateMachineEvent
+- __OBJC_$_PROP_LIST_NFStateMachineState
+- __OBJC_$_PROP_LIST_NFStateMachineTransition
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFArchiver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSLocking
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFArchiver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSLocking
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_REFS_NFArchiver
+- __OBJC_$_PROTOCOL_REFS_NFLocking
+- __OBJC_CLASS_PROTOCOLS_$_NFArchiver
+- __OBJC_CLASS_PROTOCOLS_$_NFMutexLock
+- __OBJC_CLASS_PROTOCOLS_$_NFUnfairLock
+- __OBJC_CLASS_PROTOCOLS_$_NFVoid
+- __OBJC_CLASS_RO_$_NFArchiver
+- __OBJC_CLASS_RO_$_NFEventManager
+- __OBJC_CLASS_RO_$_NFEventTrigger
+- __OBJC_CLASS_RO_$_NFLazy
+- __OBJC_CLASS_RO_$_NFMultiDelegate
+- __OBJC_CLASS_RO_$_NFMutexLock
+- __OBJC_CLASS_RO_$_NFPendingPromise
+- __OBJC_CLASS_RO_$_NFPromise
+- __OBJC_CLASS_RO_$_NFPromiseSeal
+- __OBJC_CLASS_RO_$_NFReachability
+- __OBJC_CLASS_RO_$_NFStateMachine
+- __OBJC_CLASS_RO_$_NFStateMachineEvent
+- __OBJC_CLASS_RO_$_NFStateMachineState
+- __OBJC_CLASS_RO_$_NFStateMachineTransition
+- __OBJC_CLASS_RO_$_NFUnfairLock
+- __OBJC_CLASS_RO_$_NFVoid
+- __OBJC_LABEL_PROTOCOL_$_NFArchiver
+- __OBJC_LABEL_PROTOCOL_$_NFLocking
+- __OBJC_LABEL_PROTOCOL_$_NSCopying
+- __OBJC_LABEL_PROTOCOL_$_NSLocking
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_METACLASS_RO_$_NFArchiver
+- __OBJC_METACLASS_RO_$_NFEventManager
+- __OBJC_METACLASS_RO_$_NFEventTrigger
+- __OBJC_METACLASS_RO_$_NFLazy
+- __OBJC_METACLASS_RO_$_NFMultiDelegate
+- __OBJC_METACLASS_RO_$_NFMutexLock
+- __OBJC_METACLASS_RO_$_NFPendingPromise
+- __OBJC_METACLASS_RO_$_NFPromise
+- __OBJC_METACLASS_RO_$_NFPromiseSeal
+- __OBJC_METACLASS_RO_$_NFReachability
+- __OBJC_METACLASS_RO_$_NFStateMachine
+- __OBJC_METACLASS_RO_$_NFStateMachineEvent
+- __OBJC_METACLASS_RO_$_NFStateMachineState
+- __OBJC_METACLASS_RO_$_NFStateMachineTransition
+- __OBJC_METACLASS_RO_$_NFUnfairLock
+- __OBJC_METACLASS_RO_$_NFVoid
+- __OBJC_PROTOCOL_$_NFArchiver
+- __OBJC_PROTOCOL_$_NFLocking
+- __OBJC_PROTOCOL_$_NSCopying
+- __OBJC_PROTOCOL_$_NSLocking
+- __OBJC_PROTOCOL_$_NSObject
+- ___17-[NFPromise pipe]_block_invoke
+- ___17-[NFPromise pipe]_block_invoke_2
+- ___17-[NFPromise then]_block_invoke
+- ___18-[NFPromise delay]_block_invoke
+- ___18-[NFPromise delay]_block_invoke_2
+- ___18-[NFPromise error]_block_invoke
+- ___19-[NFPromise pipeOn]_block_invoke
+- ___19-[NFPromise pipeOn]_block_invoke_2
+- ___19-[NFPromise thenOn]_block_invoke
+- ___20-[NFPromise delayOn]_block_invoke
+- ___20-[NFPromise delayOn]_block_invoke_2
+- ___20-[NFPromise errorOn]_block_invoke
+- ___20-[NFPromise resolve]_block_invoke
+- ___20-[NFPromise resolve]_block_invoke_2
+- ___20-[NFPromise resolve]_block_invoke_3
+- ___22-[NFPromise resolveOn]_block_invoke
+- ___22-[NFPromise resolveOn]_block_invoke_2
+- ___22-[NFPromise resolveOn]_block_invoke_3
+- ___22-[NFReachability init]_block_invoke
+- ___24-[NFPendingPromise init]_block_invoke
+- ___25-[NFPromise thenOn:then:]_block_invoke
+- ___25-[NFPromise thenOn:then:]_block_invoke_2
+- ___25-[NFPromise thenOn:then:]_block_invoke_3
+- ___27-[NFPromise errorOn:error:]_block_invoke
+- ___30-[NFPromise initWithResolver:]_block_invoke
+- ___32+[NFReachability sharedInstance]_block_invoke
+- ___33-[NFPromiseSeal alwaysOn:always:]_block_invoke
+- ___33-[NFPromiseSeal alwaysOn:always:]_block_invoke_2
+- ___38-[NFPromise(Timeout) timeoutAfter:on:]_block_invoke
+- ___38-[NFPromise(Timeout) timeoutAfter:on:]_block_invoke_2
+- ___38-[NFPromise(Timeout) timeoutAfter:on:]_block_invoke_3
+- ___42-[NFPromiseSeal resolveOn:reject:resolve:]_block_invoke
+- ___42-[NFPromiseSeal resolveOn:reject:resolve:]_block_invoke_2
+- ___46+[NFPromise(Delay) asDelay:onQueue:withError:]_block_invoke
+- ___46+[NFPromise(Delay) asDelay:onQueue:withError:]_block_invoke_2
+- ___46+[NFPromise(Delay) asDelay:onQueue:withValue:]_block_invoke
+- ___46+[NFPromise(Delay) asDelay:onQueue:withValue:]_block_invoke_2
+- ___48-[NFStateMachine fireEventWithName:withContext:]_block_invoke
+- ___48-[NFStateMachine fireEventWithName:withContext:]_block_invoke_2
+- ___48-[NFStateMachine fireEventWithName:withContext:]_block_invoke_3
+- ___51-[NFReachability _updateCurrentReachabilityStatus:]_block_invoke
+- ___NFDeviceHasExtendedColorDisplay_block_invoke
+- ___NFDevicePlatform_block_invoke
+- ___NFInternalBuild_block_invoke
+- ___NFStoreDemoMode_block_invoke
+- ___block_descriptor_32_e17_v16?0"NSError"8l
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_32_e8_v16?08l
+- ___block_descriptor_40_e8_16?08l
+- ___block_descriptor_40_e8_32bs_e5_v8?0l
+- ___block_descriptor_40_e8_32bs_e8_16?08l
+- ___block_descriptor_40_e8_32s_e17_v16?0"NSError"8l
+- ___block_descriptor_40_e8_32s_e19_"NFPromise"16?08l
+- ___block_descriptor_40_e8_32s_e19_"NFPromise"16?0d8l
+- ___block_descriptor_40_e8_32s_e26_"NFPromise"16?0?<?>8l
+- ___block_descriptor_40_e8_32s_e26_"NFPromise"16?0?<v?>8l
+- ___block_descriptor_40_e8_32s_e34_v24?0?<v?>8?<v?"NSError">16l
+- ___block_descriptor_40_e8_32s_e51_"NFPromise"16?0?<v??<v?>?<v?"NSError">>8l
+- ___block_descriptor_40_e8_32s_e51_"NFPromise"24?0"NSObject<OS_dispatch_queue>"816l
+- ___block_descriptor_40_e8_32s_e51_"NFPromise"24?0"NSObject<OS_dispatch_queue>"8d16l
+- ___block_descriptor_40_e8_32s_e58_"NFPromise"24?0"NSObject<OS_dispatch_queue>"8?<?>16l
+- ___block_descriptor_40_e8_32s_e58_"NFPromise"24?0"NSObject<OS_dispatch_queue>"8?<v?>16l
+- ___block_descriptor_40_e8_32s_e5_v8?0l
+- ___block_descriptor_40_e8_32s_e83_"NFPromise"24?0"NSObject<OS_dispatch_queue>"8?<v??<v?>?<v?"NSError">>16l
+- ___block_descriptor_40_e8_32s_e8_16?08l
+- ___block_descriptor_40_e8_32s_e8_v16?08l
+- ___block_descriptor_40_e8_32w_e30_v16?0"NSObject<OS_nw_path>"8l
+- ___block_descriptor_48_e8_32bs40bs_e17_v16?0"NSError"8l
+- ___block_descriptor_48_e8_32bs40bs_e5_v8?0l
+- ___block_descriptor_48_e8_32bs40bs_e8_16?08l
+- ___block_descriptor_48_e8_32bs40r_e5_v8?0l
+- ___block_descriptor_48_e8_32s40bs_e23_v32?0Q816"NSError"24l
+- ___block_descriptor_48_e8_32s40bs_e34_v24?0?<v?>8?<v?"NSError">16l
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0l
+- ___block_descriptor_48_e8_32s40r_e14_v16?0?<v?>8l
+- ___block_descriptor_48_e8_32s_e8_16?08l
+- ___block_descriptor_56_e8_32s40bs48bs_e23_v32?0Q816"NSError"24l
+- ___block_descriptor_56_e8_32s40s48bs_e34_v24?0?<v?>8?<v?"NSError">16l
+- ___block_descriptor_56_e8_32s40s48s_e16_"NFPromise"8?0l
+- ___block_descriptor_56_e8_32s40s48s_e8_16?08l
+- ___block_descriptor_56_e8_32s40s_e34_v24?0?<v?>8?<v?"NSError">16l
+- ___block_descriptor_64_e8_32s40bs48bs56bs_e8_v16?08l
+- ___block_descriptor_64_e8_32s40s48bs56bs_e5_v8?0l
+- ___block_literal_global
+- ___copy_helper_block_e8_32b
+- ___copy_helper_block_e8_32b40b
+- ___copy_helper_block_e8_32b40r
+- ___copy_helper_block_e8_32s
+- ___copy_helper_block_e8_32s40b
+- ___copy_helper_block_e8_32s40b48b
+- ___copy_helper_block_e8_32s40b48b56b
+- ___copy_helper_block_e8_32s40r
+- ___copy_helper_block_e8_32s40s
+- ___copy_helper_block_e8_32s40s48b
+- ___copy_helper_block_e8_32s40s48b56b
+- ___copy_helper_block_e8_32s40s48s
+- ___copy_helper_block_e8_32w
+- ___destroy_helper_block_e8_32s
+- ___destroy_helper_block_e8_32s40r
+- ___destroy_helper_block_e8_32s40s
+- ___destroy_helper_block_e8_32s40s48s
+- ___destroy_helper_block_e8_32s40s48s56s
+- ___destroy_helper_block_e8_32w
+- ___zalgoIfMain_block_invoke
+- ___zalgo_block_invoke
+- __getNSValueBytes
+- _objc_msgSend$UUID
+- _objc_msgSend$UUIDString
+- _objc_msgSend$_currentNetworkStatus
+- _objc_msgSend$_statusFromNetworkPath:
+- _objc_msgSend$_updateCurrentNetworkPath:
+- _objc_msgSend$_updateCurrentReachabilityStatus:
+- _objc_msgSend$activate
+- _objc_msgSend$addObject:
+- _objc_msgSend$allValues
+- _objc_msgSend$alwaysOn:always:
+- _objc_msgSend$appendFormat:
+- _objc_msgSend$appendString:
+- _objc_msgSend$array
+- _objc_msgSend$asDelay:onQueue:withError:
+- _objc_msgSend$asDelay:onQueue:withValue:
+- _objc_msgSend$asDelay:withValue:
+- _objc_msgSend$asVoid
+- _objc_msgSend$asVoid:
+- _objc_msgSend$attemptTriggersForCurrentEvent:
+- _objc_msgSend$block
+- _objc_msgSend$bytes
+- _objc_msgSend$canTry:withOwner:
+- _objc_msgSend$canTryBlock
+- _objc_msgSend$characterAtIndex:
+- _objc_msgSend$children
+- _objc_msgSend$code
+- _objc_msgSend$compare:
+- _objc_msgSend$constructor
+- _objc_msgSend$containsObject:
+- _objc_msgSend$context
+- _objc_msgSend$copy
+- _objc_msgSend$count
+- _objc_msgSend$countByEnumeratingWithState:objects:count:
+- _objc_msgSend$currentNetworkPath
+- _objc_msgSend$currentReachabilityStatus
+- _objc_msgSend$dataUsingEncoding:
+- _objc_msgSend$dataWithContentsOfFile:
+- _objc_msgSend$deactivate
+- _objc_msgSend$decodeObjectOfClass:forKey:
+- _objc_msgSend$decodeObjectOfClasses:forKey:
+- _objc_msgSend$defaultCenter
+- _objc_msgSend$defaultManager
+- _objc_msgSend$delegateProtocol
+- _objc_msgSend$destinationState
+- _objc_msgSend$dictionaryWithObject:forKey:
+- _objc_msgSend$dictionaryWithObjects:forKeys:count:
+- _objc_msgSend$didEnter:withOwner:
+- _objc_msgSend$didEnterBlock
+- _objc_msgSend$didExit:withOwner:
+- _objc_msgSend$didExitBlock
+- _objc_msgSend$domain
+- _objc_msgSend$error
+- _objc_msgSend$errorOn:error:
+- _objc_msgSend$errorWithDomain:code:userInfo:
+- _objc_msgSend$event
+- _objc_msgSend$events
+- _objc_msgSend$exceptionWithName:reason:userInfo:
+- _objc_msgSend$fc_createStateMachineErrorForCode:userInfo:
+- _objc_msgSend$fileSystemRepresentation
+- _objc_msgSend$fireBlock
+- _objc_msgSend$fireOnAny
+- _objc_msgSend$fireOnce
+- _objc_msgSend$fired:withOwner:
+- _objc_msgSend$firstly:
+- _objc_msgSend$fromState
+- _objc_msgSend$getValue:
+- _objc_msgSend$handleAlwaysTrigger:event:
+- _objc_msgSend$handleOnceTrigger:event:
+- _objc_msgSend$handlers
+- _objc_msgSend$hash
+- _objc_msgSend$hashTableWithOptions:
+- _objc_msgSend$init
+- _objc_msgSend$initForReadingFromData:error:
+- _objc_msgSend$initWithDelegate:delegateProtocol:options:
+- _objc_msgSend$initWithDomain:code:userInfo:
+- _objc_msgSend$initWithError:
+- _objc_msgSend$initWithFormat:
+- _objc_msgSend$initWithKey:fireOnce:fireOnAny:events:block:
+- _objc_msgSend$initWithOptions:
+- _objc_msgSend$initWithResolver:
+- _objc_msgSend$initWithStateMachine:event:fromState:toState:context:
+- _objc_msgSend$initWithUTF8String:
+- _objc_msgSend$initWithValue:
+- _objc_msgSend$invokeWithTarget:
+- _objc_msgSend$isEqual:
+- _objc_msgSend$isEqualToString:
+- _objc_msgSend$isMainThread
+- _objc_msgSend$key
+- _objc_msgSend$length
+- _objc_msgSend$lock
+- _objc_msgSend$methodSignatureForSelector:
+- _objc_msgSend$name
+- _objc_msgSend$nf_securelyUnarchiveObjectOfClass:
+- _objc_msgSend$nf_securelyUnarchiveObjectOfClass:withData:
+- _objc_msgSend$nf_securelyUnarchiveObjectOfClasses:withData:
+- _objc_msgSend$numberWithInteger:
+- _objc_msgSend$numberWithUnsignedInteger:
+- _objc_msgSend$objCType
+- _objc_msgSend$objectForKey:
+- _objc_msgSend$owner
+- _objc_msgSend$performWithLockSync:
+- _objc_msgSend$postNotificationName:object:
+- _objc_msgSend$registerHandler:
+- _objc_msgSend$reject:
+- _objc_msgSend$removeAllObjects
+- _objc_msgSend$removeObject:
+- _objc_msgSend$removeObjectForKey:
+- _objc_msgSend$resolve:
+- _objc_msgSend$resolveOn:reject:resolve:
+- _objc_msgSend$seal
+- _objc_msgSend$seal:error:resolution:
+- _objc_msgSend$selector
+- _objc_msgSend$setCanTryBlock:
+- _objc_msgSend$setCurrentNetworkPath:
+- _objc_msgSend$setCurrentReachabilityStatus:
+- _objc_msgSend$setDidEnterBlock:
+- _objc_msgSend$setDidExitBlock:
+- _objc_msgSend$setError:
+- _objc_msgSend$setFireBlock:
+- _objc_msgSend$setObject:forKey:
+- _objc_msgSend$setSeal:
+- _objc_msgSend$setState:
+- _objc_msgSend$setStatus:
+- _objc_msgSend$setStatusToken:
+- _objc_msgSend$setValue:
+- _objc_msgSend$setWillEnterBlock:
+- _objc_msgSend$setWillExitBlock:
+- _objc_msgSend$setWithObject:
+- _objc_msgSend$state
+- _objc_msgSend$states
+- _objc_msgSend$status
+- _objc_msgSend$statusToken
+- _objc_msgSend$stringWithCapacity:
+- _objc_msgSend$stringWithFileSystemRepresentation:length:
+- _objc_msgSend$stringWithFormat:
+- _objc_msgSend$then:
+- _objc_msgSend$thenOn:then:
+- _objc_msgSend$timeoutAfter:on:
+- _objc_msgSend$toState
+- _objc_msgSend$triggerOnAnyEvent:block:
+- _objc_msgSend$triggers
+- _objc_msgSend$unlock
+- _objc_msgSend$value
+- _objc_msgSend$valueWithBytes:objCType:
+- _objc_msgSend$willEnter:withOwner:
+- _objc_msgSend$willEnterBlock
+- _objc_msgSend$willExit:withOwner:
+- _objc_msgSend$willExitBlock
+- _sharedInstance.onceToken
+- _sharedInstance.s_reachability
+- _zalgo.queue
+- _zalgo.token
+- _zalgoIfMain.queue
+- _zalgoIfMain.token
+```

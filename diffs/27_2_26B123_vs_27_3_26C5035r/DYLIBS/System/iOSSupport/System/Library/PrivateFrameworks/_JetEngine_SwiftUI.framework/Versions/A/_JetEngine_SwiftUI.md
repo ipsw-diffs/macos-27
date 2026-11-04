@@ -1,0 +1,116 @@
+## _JetEngine_SwiftUI
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/_JetEngine_SwiftUI.framework/Versions/A/_JetEngine_SwiftUI`
+
+```diff
+
+-10.1.11.0.0
+-  __TEXT.__text: 0x14e28c
++10.2.10.0.0
++  __TEXT.__text: 0x1505b0
+   __TEXT.__objc_methlist: 0x18c
+-  __TEXT.__const: 0x10590
+-  __TEXT.__constg_swiftt: 0xa668
+-  __TEXT.__swift5_typeref: 0xabf3
++  __TEXT.__const: 0x10710
++  __TEXT.__constg_swiftt: 0xa774
++  __TEXT.__swift5_typeref: 0xad73
+   __TEXT.__swift5_builtin: 0x140
+-  __TEXT.__swift5_reflstr: 0x3387
+-  __TEXT.__swift5_fieldmd: 0x3e00
+-  __TEXT.__swift5_assocty: 0x1808
+-  __TEXT.__swift5_proto: 0x5a0
+-  __TEXT.__swift5_types: 0x548
+-  __TEXT.__cstring: 0x3d61
++  __TEXT.__swift5_reflstr: 0x33b7
++  __TEXT.__swift5_fieldmd: 0x3ea0
++  __TEXT.__swift5_assocty: 0x1838
++  __TEXT.__swift5_proto: 0x5ac
++  __TEXT.__swift5_types: 0x558
++  __TEXT.__cstring: 0x3e11
+   __TEXT.__swift5_mpenum: 0x8c
+-  __TEXT.__swift5_capture: 0x346c
++  __TEXT.__swift5_capture: 0x347c
+   __TEXT.__swift5_protos: 0x44
+   __TEXT.__oslogstring: 0xdc
+   __TEXT.__swift_as_entry: 0x134
+   __TEXT.__swift_as_cont: 0x230
+   __TEXT.__swift_as_ret: 0x11c
+-  __TEXT.__unwind_info: 0x5ce8
++  __TEXT.__unwind_info: 0x5d70
+   __TEXT.__eh_frame: 0x44bc
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x398
+   __DATA_CONST.__got: 0x1400
+-  __AUTH_CONST.__const: 0xb3f0
++  __AUTH_CONST.__const: 0xb4b8
+   __AUTH_CONST.__objc_const: 0x19d0
+-  __AUTH_CONST.__auth_got: 0x2c98
++  __AUTH_CONST.__auth_got: 0x2d08
+   __AUTH.__objc_data: 0x1f8
+-  __AUTH.__data: 0x8a8
+-  __DATA.__data: 0x24f0
+-  __DATA.__bss: 0x2af0
++  __AUTH.__data: 0x9d0
++  __DATA.__data: 0x25d0
++  __DATA.__bss: 0x2bf0
+   __DATA_DIRTY.__objc_data: 0x870
+-  __DATA_DIRTY.__data: 0x6248
++  __DATA_DIRTY.__data: 0x6208
+   __DATA_DIRTY.__bss: 0x8f28
+   __DATA_DIRTY.__common: 0x88
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 6797
+-  Symbols:   3061
+-  CStrings:  311
++  Functions: 6838
++  Symbols:   3080
++  CStrings:  315
+ 
+Symbols:
++ _associated conformance 18_JetEngine_SwiftUI28_MediaArtworkAltTextModifier023_8FC4452CDC73A1D6B1D415N8A4F9D86FLLV0cD004ViewI0AA4BodyAeFP_AE0S0
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA01_f9Modifier_D0Vy011_JetEngine_aB0020_MediaArtworkAltTextM0023_8FC4452CDC73A1D6B1D415X8A4F9D86FLLVG_Qo_AA0j10AttachmentM0VGARGAaFHPAvaFHPqd__AaFHD2_ASHO_AuA0fM0HPyHCHC_AraFHPyHCHC
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAEyAEyAA7AnyViewVAA12_FrameLayoutVG011_JetEngine_aB028_MediaArtworkAltTextModifier023_8FC4452CDC73A1D6B1D415U8A4F9D86FLLVGAA017_AppearanceActionP0VGAQGAK01_lM23DeprecatedFallbackImageVyAOGGAA0G0HPAsaXHPAraXHPAoaXHPAjaXHPAgaXHPyHC_AiA0gP0HPyHCHC_AnaYHPyHCHC_AqaYHPyHCHC_AqaYHPyHCHC_AvaXHPyHCHC
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVy011_JetEngine_aB019_MediaArtworkValuesVGGAaBHPxAaBHD1__AjA0cI0HPyHCHC
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAHyAA01_c9Modifier_I0Vy011_JetEngine_aB0013ClickLocationcJ0VGAA022_EnvironmentKeyWritingJ0Vy10Foundation4UUIDVSgGGAK03_Onc10AppearanceecJ033_ED754D815C7480BEB533E0D08083DF5ELLVG_AK0mN12RegistrationV9SignatureVQo_HO
++ _symbolic _____ 18_JetEngine_SwiftUI25ClickLocationRegistrationV
++ _symbolic _____ 18_JetEngine_SwiftUI25ClickLocationRegistrationV9SignatureV
++ _symbolic _____ 18_JetEngine_SwiftUI28_MediaArtworkAltTextModifier023_8FC4452CDC73A1D6B1D415N8A4F9D86FLLV
++ _symbolic _____ 18_JetEngine_SwiftUI33_MediaArtworkAltTextPreferenceKeyO
++ _symbolic _____Sg 9JetEngine12MediaArtworkV7AltTextV
++ _symbolic _____Sg 9JetEngine12MediaArtworkV7AltTextV6LengthO
++ _symbolic _____Sg 9JetEngine12MediaArtworkV7AltTextV7VariantV
++ _symbolic _____Sg_ABt 10Foundation4UUIDV
++ _symbolic _____yAAyAAyAAy__________G_____G_____GAGG 7SwiftUI15ModifiedContentV AA7AnyViewV AA12_FrameLayoutV 011_JetEngine_aB028_MediaArtworkAltTextModifier023_8FC4452CDC73A1D6B1D415T8A4F9D86FLLV AA017_AppearanceActionO0V
++ _symbolic _____yAAyAAy__________G_____G_____G 7SwiftUI15ModifiedContentV AA7AnyViewV AA12_FrameLayoutV 011_JetEngine_aB028_MediaArtworkAltTextModifier023_8FC4452CDC73A1D6B1D415T8A4F9D86FLLV AA017_AppearanceActionO0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA7AnyViewV AA12_FrameLayoutV 011_JetEngine_aB028_MediaArtworkAltTextModifier023_8FC4452CDC73A1D6B1D415T8A4F9D86FLLV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 011_JetEngine_aB0020_MediaArtworkAltTextD0023_8FC4452CDC73A1D6B1D415P8A4F9D86FLLV
++ _symbolic _____y_____yAAy_____y_____G_____y_____SgGG_____G______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AA01_c9Modifier_I0V 011_JetEngine_aB0013ClickLocationcJ0V AA022_EnvironmentKeyWritingJ0V 10Foundation4UUIDV AK03_Onc10AppearanceecJ033_ED754D815C7480BEB533E0D08083DF5ELLV AK0mN12RegistrationV9SignatureV
++ _symbolic _____y_____yAByAByABy__________G_____G_____GAHG_____yAGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA7AnyViewV AA12_FrameLayoutV 011_JetEngine_aB028_MediaArtworkAltTextModifier023_8FC4452CDC73A1D6B1D415U8A4F9D86FLLV AA017_AppearanceActionP0V AJ01_lM23DeprecatedFallbackImageV
++ _symbolic _____y_____yAByAByABy__________G_____G_____GAHG_____yAGG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA7AnyViewV AA12_FrameLayoutV 011_JetEngine_aB028_MediaArtworkAltTextModifier023_8FC4452CDC73A1D6B1D415V8A4F9D86FLLV AA017_AppearanceActionQ0V AL01_mN23DeprecatedFallbackImageV
++ _symbolic _____y_____yABy__________G_____GG 18_JetEngine_SwiftUI36_MediaArtworkDeprecatedFallbackImageV 0cD015ModifiedContentV AD7AnyViewV AD12_FrameLayoutV AA01_eF15AltTextModifier023_8FC4452CDC73A1D6B1D415W8A4F9D86FLLV
++ _symbolic _____y_____y_____G_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA01_C16Modifier_ContentV 011_JetEngine_aB0020_MediaArtworkAltTextJ0023_8FC4452CDC73A1D6B1D415V8A4F9D86FLLV
++ _symbolic _____y_____y_____y_____G_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA01_e9Modifier_D0V 011_JetEngine_aB0020_MediaArtworkAltTextL0023_8FC4452CDC73A1D6B1D415W8A4F9D86FLLV AA0i10AttachmentL0V
++ _symbolic _____y_____y_____y_____y_____G_Qo______GAEG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA01_f9Modifier_D0V 011_JetEngine_aB0020_MediaArtworkAltTextM0023_8FC4452CDC73A1D6B1D415X8A4F9D86FLLV AA0j10AttachmentM0V
++ _symbolic _____y_____y_____y_____y_____G_Qo______GAE_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA01_g9Modifier_D0V 011_JetEngine_aB0020_MediaArtworkAltTextN0023_8FC4452CDC73A1D6B1D415Y8A4F9D86FLLV AA0k10AttachmentN0V
++ _type_layout_string 18_JetEngine_SwiftUI28_MediaArtworkAltTextModifier023_8FC4452CDC73A1D6B1D415N8A4F9D86FLLV
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA014_ViewModifier_D0Vy011_JetEngine_aB0013ClickLocationeF0VGAA022_EnvironmentKeyWritingF0Vy10Foundation4UUIDVSgGGAF03_One16AppearanceChangeeF033_ED754D815C7480BEB533E0D08083DF5ELLVGAA0E0HPAqaVHPAiaVHPyHC_ApA0eF0HPyHCHC_AtaWHPyHCHC
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAEyAA7AnyViewVAA12_FrameLayoutVGAA25_AppearanceActionModifierVGALG011_JetEngine_aB036_MediaArtworkDeprecatedFallbackImageVyAJGGAA0G0HPAnaTHPAmaTHPAjaTHPAgaTHPyHC_AiA0gL0HPyHCHC_AlaUHPyHCHC_AlaUHPyHCHC_AraTHPyHCHC
+- _symbolic _____yAAyAAy__________G_____GAEG 7SwiftUI15ModifiedContentV AA7AnyViewV AA12_FrameLayoutV AA25_AppearanceActionModifierV
+- _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA7AnyViewV AA12_FrameLayoutV AA25_AppearanceActionModifierV
+- _symbolic _____y_____yAByABy__________G_____GAFG_____yAEGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA7AnyViewV AA12_FrameLayoutV AA25_AppearanceActionModifierV 011_JetEngine_aB036_MediaArtworkDeprecatedFallbackImageV
+- _symbolic _____y_____yAByABy__________G_____GAFG_____yAEG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA7AnyViewV AA12_FrameLayoutV AA25_AppearanceActionModifierV 011_JetEngine_aB036_MediaArtworkDeprecatedFallbackImageV
+- _symbolic _____y_____y__________GG 18_JetEngine_SwiftUI36_MediaArtworkDeprecatedFallbackImageV 0cD015ModifiedContentV AD7AnyViewV AD12_FrameLayoutV
+CStrings:
++ "AXIgnoreMediaAnalysis"
++ "Optional<Length>"
++ "_JetEngine_SwiftUI/ClickLocationViewModifier.swift"
++ "_MediaArtworkAltTextPreferenceKey"
+```

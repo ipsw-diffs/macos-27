@@ -1,0 +1,28 @@
+## AudioSessionServer
+
+> `/System/Library/PrivateFrameworks/AudioSessionServer.framework/Versions/A/AudioSessionServer`
+
+```diff
+
+-449.205.0.0.0
+-  __TEXT.__text: 0x5348c
++449.302.0.0.0
++  __TEXT.__text: 0x534c0
+   __TEXT.__realtime: 0x40
+   __TEXT.__objc_methlist: 0x934
+   __TEXT.__const: 0xaf0
+-  __TEXT.__gcc_except_tab: 0x8018
++  __TEXT.__gcc_except_tab: 0x8004
+   __TEXT.__cstring: 0x3612
+   __TEXT.__oslogstring: 0x58ff
+   __TEXT.__dlopen_cstrs: 0x6a
+Symbols:
++ __ZN4avas6server20LegacySessionManager27FindSourceSessionForSiblingERK13audit_token_tS4_jPU39objcproto28AVAudioSessionServerDelegate11objc_object
+- __ZN4avas6server20LegacySessionManager27FindSourceSessionForSiblingERK13audit_token_tjPU39objcproto28AVAudioSessionServerDelegate11objc_object
+Functions:
+~ __ZN4avas6server20LegacySessionManager27FindSourceSessionForSiblingERK13audit_token_tjPU39objcproto28AVAudioSessionServerDelegate11objc_object -> __ZN4avas6server20LegacySessionManager27FindSourceSessionForSiblingERK13audit_token_tS4_jPU39objcproto28AVAudioSessionServerDelegate11objc_object : 676 -> 760
+~ __ZZNK4avas6server20LegacySessionManager33FindSessionAndVerifyOwnershipPrivINS0_17SessionCollection25SessionPresentingIteratorEEET_S5_S5_jRKNS0_15ProcessIdentityERKNSt3__18optionalINS1_24EntitlementExceptionTypeEEEENKUlRKS5_E_clINS9_4pairIjNS9_10shared_ptrINS0_18ISessionPresentingEEEEEEEDaSG_ : 440 -> 424
+~ __ZZNK4avas6server20LegacySessionManager33FindSessionAndVerifyOwnershipPrivINSt3__120__map_const_iteratorINS3_21__tree_const_iteratorINS3_12__value_typeIjNS3_10shared_ptrINS0_16AudioSessionInfoEEEEEPNS3_11__tree_nodeISA_PvEElEEEEEET_SH_SH_jRKNS0_15ProcessIdentityERKNS3_8optionalINS1_24EntitlementExceptionTypeEEEENKUlRKSH_E_clINS3_4pairIKjS9_EEEEDaSR_ : 440 -> 424
+~ -[AVAudioSessionRemoteXPCClient createSession:reply:] : 3092 -> 3096
+~ -[AVAudioSessionRemoteXPCClient updateApplicationProperty:clientID:propertyID:propertyValue:context:reply:] : 980 -> 976
+```

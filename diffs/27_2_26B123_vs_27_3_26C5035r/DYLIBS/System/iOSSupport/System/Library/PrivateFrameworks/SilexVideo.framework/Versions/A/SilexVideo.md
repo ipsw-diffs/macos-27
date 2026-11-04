@@ -1,0 +1,1686 @@
+## SilexVideo
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/SilexVideo.framework/Versions/A/SilexVideo`
+
+```diff
+
+-5971.0.0.0.0
+-  __TEXT.__text: 0x10b78
+-  __TEXT.__objc_methlist: 0x21b8
++6006.0.0.0.0
++  __TEXT.__text: 0x10b80
++  __TEXT.__objc_methlist: 0x21c0
+   __TEXT.__const: 0x1a4
+   __TEXT.__cstring: 0x4f3
+   __TEXT.__gcc_except_tab: 0x444
+
+   __DATA_CONST.__objc_catlist: 0x18
+   __DATA_CONST.__objc_protolist: 0xb0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1700
++  __DATA_CONST.__objc_selrefs: 0x1708
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0xd8
+   __DATA_CONST.__objc_arraydata: 0x28
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 606
+-  Symbols:   1931
++  Functions: 607
++  Symbols:   283
+   CStrings:  65
+ 
+Symbols:
+- +[NSError(SVVideoError) errorCodeForUnderlyingErrorDomain:]
+- +[NSError(SVVideoError) videoErrorWithErrorCode:]
+- +[NSError(SVVideoError) videoErrorWithUnderlyingError:]
+- +[SVAdGradientView layerClass]
+- +[SVAdPrivacyButton font]
+- +[SVAdPrivacyButton height]
+- +[SVAdPrivacyButton size]
+- +[SVAdPrivacyButton title]
+- +[SVAudioSession sharedSessionForMode:]
+- +[SVAudioSession sharedSession]
+- +[SVPlayerLayer defaultActionForKey:]
+- +[SVVideoPlayButton disabledPlayImage]
+- +[SVVideoPlayButton enabledPlayImage]
+- -[NSObject(SVAXElementOcclusion) svax_shouldBeOccluded]
+- -[SVAVPlayer .cxx_destruct]
+- -[SVAVPlayer addAudioModeObserversIfNeeded]
+- -[SVAVPlayer addObservers]
+- -[SVAVPlayer audioMode]
+- -[SVAVPlayer cumulativeTimePlayed]
+- -[SVAVPlayer dealloc]
+- -[SVAVPlayer durationChanged]
+- -[SVAVPlayer durationObserver]
+- -[SVAVPlayer duration]
+- -[SVAVPlayer elapsedTime]
+- -[SVAVPlayer frameRate]
+- -[SVAVPlayer initWithPlayerItem:audioMode:]
+- -[SVAVPlayer initWithURL:]
+- -[SVAVPlayer initWithURL:audioMode:]
+- -[SVAVPlayer intendedAudioMode]
+- -[SVAVPlayer isEffectivelySilent]
+- -[SVAVPlayer loadFrameRate]
+- -[SVAVPlayer loadedTimeRangesChanged]
+- -[SVAVPlayer loadedTimeRangesObserver]
+- -[SVAVPlayer loadingProgressBlock]
+- -[SVAVPlayer muteObserver]
+- -[SVAVPlayer playbackPosition]
+- -[SVAVPlayer playbackProgressBlock]
+- -[SVAVPlayer playbackStatusBlock]
+- -[SVAVPlayer playbackStatus]
+- -[SVAVPlayer playedToEnd:]
+- -[SVAVPlayer seekToStartWithCompletionBlock:]
+- -[SVAVPlayer setCumulativeTimePlayed:]
+- -[SVAVPlayer setDuration:]
+- -[SVAVPlayer setDurationObserver:]
+- -[SVAVPlayer setElapsedTime:]
+- -[SVAVPlayer setElapsedTime:duration:]
+- -[SVAVPlayer setFrameRate:]
+- -[SVAVPlayer setIntendedAudioMode:]
+- -[SVAVPlayer setLoadedTimeRangesObserver:]
+- -[SVAVPlayer setLoadingProgressBlock:]
+- -[SVAVPlayer setMuteObserver:]
+- -[SVAVPlayer setPlaybackPosition:]
+- -[SVAVPlayer setPlaybackProgressBlock:]
+- -[SVAVPlayer setPlaybackStatus:]
+- -[SVAVPlayer setPlaybackStatusBlock:]
+- -[SVAVPlayer setStatusObserver:]
+- -[SVAVPlayer setTimeControlStatusObserver:]
+- -[SVAVPlayer setTimeObserver:]
+- -[SVAVPlayer setVolumeObserver:]
+- -[SVAVPlayer startTimeObserver]
+- -[SVAVPlayer statusChanged]
+- -[SVAVPlayer statusObserver]
+- -[SVAVPlayer stopTimeObserver]
+- -[SVAVPlayer timeControlStatusChanged]
+- -[SVAVPlayer timeControlStatusObserver]
+- -[SVAVPlayer timeObserver]
+- -[SVAVPlayer totalTimePlayed]
+- -[SVAVPlayer updateEffectiveAudioMode]
+- -[SVAVPlayer updateTime:duration:]
+- -[SVAVPlayer volumeObserver]
+- -[SVAVPlayerFactory .cxx_destruct]
+- -[SVAVPlayerFactory audioMode]
+- -[SVAVPlayerFactory createPlayerWithURL:]
+- -[SVAVPlayerFactory initWithAudioMode:playerItemFactory:]
+- -[SVAVPlayerFactory playerItemFactory]
+- -[SVAVPlayerItemFactory .cxx_destruct]
+- -[SVAVPlayerItemFactory assetFactory]
+- -[SVAVPlayerItemFactory automaticallyLoadedAssetKeys]
+- -[SVAVPlayerItemFactory createPlayerItemWithURL:]
+- -[SVAVPlayerItemFactory initWithAutomaticallyLoadedAssetKeys:assetFactory:preferredForwardBufferDuration:]
+- -[SVAVPlayerItemFactory preferredForwardBufferDuration]
+- -[SVAVURLAssetFactory .cxx_destruct]
+- -[SVAVURLAssetFactory createURLAssetWithURL:]
+- -[SVAVURLAssetFactory initWithOptions:]
+- -[SVAVURLAssetFactory options]
+- -[SVAdGradientView initWithFrame:]
+- -[SVAdPrivacyButton accessibilityElements]
+- -[SVAdPrivacyButton accessibilityLabel]
+- -[SVAdPrivacyButton initWithFrame:]
+- -[SVAdPrivacyButton intrinsicContentSize]
+- -[SVAdPrivacyButton isAccessibilityElement]
+- -[SVAudioSession .cxx_destruct]
+- -[SVAudioSession activateAudioSessionCategory]
+- -[SVAudioSession addInterestForPlayer:withMode:]
+- -[SVAudioSession audioSession]
+- -[SVAudioSession canDeactivateAudioSession]
+- -[SVAudioSession deactivateAudioSessionCategory]
+- -[SVAudioSession desiredAudioSessionConfiguration]
+- -[SVAudioSession initWithAudioSession:]
+- -[SVAudioSession isAudioSessionActive]
+- -[SVAudioSession needsToSetupAudioSessionCategory]
+- -[SVAudioSession playbackController]
+- -[SVAudioSession players]
+- -[SVAudioSession registerPlaybackControlForPlayer:withMode:]
+- -[SVAudioSession removeInterestForPlayer:]
+- -[SVAudioSession semaphore]
+- -[SVAudioSession setAudioSessionActive:]
+- -[SVAudioSession setupAudioSessionCategory]
+- -[SVAudioSession shouldActivateAudioSession]
+- -[SVAudioSessionConfiguration .cxx_destruct]
+- -[SVAudioSessionConfiguration category]
+- -[SVAudioSessionConfiguration initWithCategory:mode:policy:]
+- -[SVAudioSessionConfiguration isEqualToConfiguration:]
+- -[SVAudioSessionConfiguration mode]
+- -[SVAudioSessionConfiguration routeSharingPolicy]
+- -[SVAudioSessionConfiguration setCategory:]
+- -[SVAudioSessionConfiguration setMode:]
+- -[SVAudioSessionConfiguration setRouteSharingPolicy:]
+- -[SVAutomaticFullscreenVideoPlaybackBehaviorManager .cxx_destruct]
+- -[SVAutomaticFullscreenVideoPlaybackBehaviorManager behavior]
+- -[SVAutomaticFullscreenVideoPlaybackBehaviorManager conditionsChanged]
+- -[SVAutomaticFullscreenVideoPlaybackBehaviorManager delegate]
+- -[SVAutomaticFullscreenVideoPlaybackBehaviorManager fullscreenPlaybackRequiredForCurrentConditions]
+- -[SVAutomaticFullscreenVideoPlaybackBehaviorManager playbackCoordinatorResumedPlayback:]
+- -[SVAutomaticFullscreenVideoPlaybackBehaviorManager playbackCoordinatorStartedPlayback:]
+- -[SVAutomaticFullscreenVideoPlaybackBehaviorManager setBehavior:]
+- -[SVAutomaticFullscreenVideoPlaybackBehaviorManager setDelegate:]
+- -[SVAutomaticFullscreenVideoPlaybackBehaviorManager setVideoBounds:]
+- -[SVAutomaticFullscreenVideoPlaybackBehaviorManager videoBounds]
+- -[SVButton .cxx_destruct]
+- -[SVButton _privateButtonTapped]
+- -[SVButton initWithFrame:]
+- -[SVButton onTouchUpInside:]
+- -[SVButton pointInside:withEvent:]
+- -[SVButton setTouchInsets:]
+- -[SVButton touchInsets]
+- -[SVButton touchUpInsideBlock]
+- -[SVImageLayer .cxx_destruct]
+- -[SVImageLayer identifier]
+- -[SVImageLayer image]
+- -[SVImageLayer setIdentifier:]
+- -[SVImageLayer setImage:]
+- -[SVKeyValueObserver .cxx_destruct]
+- -[SVKeyValueObserver change]
+- -[SVKeyValueObserver dealloc]
+- -[SVKeyValueObserver initWithKeyPath:ofObject:withOptions:change:]
+- -[SVKeyValueObserver keyPath]
+- -[SVKeyValueObserver object]
+- -[SVKeyValueObserver observeValueForKeyPath:ofObject:change:context:]
+- -[SVKeyValueObserver options]
+- -[SVLearnMoreButton .cxx_destruct]
+- -[SVLearnMoreButton accessibilityElements]
+- -[SVLearnMoreButton accessibilityLabel]
+- -[SVLearnMoreButton condensedTitle]
+- -[SVLearnMoreButton height]
+- -[SVLearnMoreButton initWithFrame:]
+- -[SVLearnMoreButton intrinsicContentSize]
+- -[SVLearnMoreButton isAccessibilityElement]
+- -[SVLearnMoreButton isCondensed]
+- -[SVLearnMoreButton playerState]
+- -[SVLearnMoreButton regularTitle]
+- -[SVLearnMoreButton setCondensedTitle:]
+- -[SVLearnMoreButton setHeight:]
+- -[SVLearnMoreButton setHighlighted:]
+- -[SVLearnMoreButton setIsCondensed:]
+- -[SVLearnMoreButton setPlayerState:]
+- -[SVLearnMoreButton setRegularTitle:]
+- -[SVLearnMoreButton traitCollectionDidChange:]
+- -[SVLearnMoreButton updateHeight]
+- -[SVLearnMoreButton updateLabelForSize:]
+- -[SVLearnMoreButton updateProperties]
+- -[SVLooper .cxx_destruct]
+- -[SVLooper durationObserver]
+- -[SVLooper initWithPlayer:]
+- -[SVLooper player]
+- -[SVMaterialButton .cxx_destruct]
+- -[SVMaterialButton backgroundView]
+- -[SVMaterialButton initWithFrame:]
+- -[SVMaterialButton layoutSubviews]
+- -[SVMediaPlaybackController .cxx_destruct]
+- -[SVMediaPlaybackController currentlyPlaying]
+- -[SVMediaPlaybackController init]
+- -[SVMediaPlaybackController registerPlayer:]
+- -[SVMediaPlaybackController setCurrentlyPlaying:]
+- -[SVMediaPlaybackController timeControlStatusObservers]
+- -[SVMediaPlaybackController unregisterPlayer:]
+- -[SVMediaPlaybackController updateCurrentlyPlaying:]
+- -[SVNonAnimatingDelegate actionForLayer:forKey:]
+- -[SVPlaybackCoordinator .cxx_destruct]
+- -[SVPlaybackCoordinator addMuteStateObserver]
+- -[SVPlaybackCoordinator addPlaybackBufferObserver]
+- -[SVPlaybackCoordinator addPlaybackLikelyToKeepUpObserver]
+- -[SVPlaybackCoordinator addPlaybackObserver:]
+- -[SVPlaybackCoordinator addPlayerItemPresentationSizeObserver]
+- -[SVPlaybackCoordinator cancelHandler]
+- -[SVPlaybackCoordinator configureTimeline]
+- -[SVPlaybackCoordinator dealloc]
+- -[SVPlaybackCoordinator dimensions]
+- -[SVPlaybackCoordinator duration]
+- -[SVPlaybackCoordinator error]
+- -[SVPlaybackCoordinator finishedLoadingVideoURL:]
+- -[SVPlaybackCoordinator framerate]
+- -[SVPlaybackCoordinator host]
+- -[SVPlaybackCoordinator initWithVideo:playerFactory:]
+- -[SVPlaybackCoordinator initiatedPlayback]
+- -[SVPlaybackCoordinator lastReportedTime]
+- -[SVPlaybackCoordinator loadVideoIfNeeded]
+- -[SVPlaybackCoordinator load]
+- -[SVPlaybackCoordinator loadedTimeRangesChanged]
+- -[SVPlaybackCoordinator loadedTimeRanges]
+- -[SVPlaybackCoordinator loadingProgress]
+- -[SVPlaybackCoordinator muteStateChanged]
+- -[SVPlaybackCoordinator muteStateObserver]
+- -[SVPlaybackCoordinator muted]
+- -[SVPlaybackCoordinator naturalSize]
+- -[SVPlaybackCoordinator observers]
+- -[SVPlaybackCoordinator pause]
+- -[SVPlaybackCoordinator pausedAtTime]
+- -[SVPlaybackCoordinator playWithButtonTapped:]
+- -[SVPlaybackCoordinator playbackBufferFullObserver]
+- -[SVPlaybackCoordinator playbackBufferFullStateChanged]
+- -[SVPlaybackCoordinator playbackBufferFull]
+- -[SVPlaybackCoordinator playbackFailedWithError:]
+- -[SVPlaybackCoordinator playbackFinished]
+- -[SVPlaybackCoordinator playbackInitiatedWithButtonTapped:]
+- -[SVPlaybackCoordinator playbackLikelyToKeepUpObserver]
+- -[SVPlaybackCoordinator playbackLikelyToKeepUpStateChanged]
+- -[SVPlaybackCoordinator playbackLikelyToKeepUp]
+- -[SVPlaybackCoordinator playbackPausedAtTime:]
+- -[SVPlaybackCoordinator playbackPaused]
+- -[SVPlaybackCoordinator playbackReadyToStart]
+- -[SVPlaybackCoordinator playbackRequested]
+- -[SVPlaybackCoordinator playbackResumedAtTime:]
+- -[SVPlaybackCoordinator playbackResumed]
+- -[SVPlaybackCoordinator playbackStarted]
+- -[SVPlaybackCoordinator playbackState]
+- -[SVPlaybackCoordinator playerFactory]
+- -[SVPlaybackCoordinator playerItemPresentationSizeObserver]
+- -[SVPlaybackCoordinator player]
+- -[SVPlaybackCoordinator readyForDisplayObserver]
+- -[SVPlaybackCoordinator readyToPlayTimer]
+- -[SVPlaybackCoordinator registerTimeJumpObserver]
+- -[SVPlaybackCoordinator removePlaybackObserver:]
+- -[SVPlaybackCoordinator removePlayerItemPresentationSizeObserver]
+- -[SVPlaybackCoordinator seekLive]
+- -[SVPlaybackCoordinator seekToTime:withCompletionBlock:]
+- -[SVPlaybackCoordinator setCancelHandler:]
+- -[SVPlaybackCoordinator setDimensions:]
+- -[SVPlaybackCoordinator setError:]
+- -[SVPlaybackCoordinator setHost:]
+- -[SVPlaybackCoordinator setInitiatedPlayback:]
+- -[SVPlaybackCoordinator setLastReportedTime:]
+- -[SVPlaybackCoordinator setMuteStateObserver:]
+- -[SVPlaybackCoordinator setMuted:]
+- -[SVPlaybackCoordinator setPausedAtTime:]
+- -[SVPlaybackCoordinator setPlaybackBufferFullObserver:]
+- -[SVPlaybackCoordinator setPlaybackLikelyToKeepUpObserver:]
+- -[SVPlaybackCoordinator setPlaybackRequested:]
+- -[SVPlaybackCoordinator setPlayer:]
+- -[SVPlaybackCoordinator setPlayerItemPresentationSizeObserver:]
+- -[SVPlaybackCoordinator setReadyForDisplayObserver:]
+- -[SVPlaybackCoordinator setReadyToPlayTimer:]
+- -[SVPlaybackCoordinator setState:]
+- -[SVPlaybackCoordinator setTimeJumpNotificationObserver:]
+- -[SVPlaybackCoordinator setVideoURL:]
+- -[SVPlaybackCoordinator setupPlayerWithURL:]
+- -[SVPlaybackCoordinator startedLoadingVideo]
+- -[SVPlaybackCoordinator stateChanged]
+- -[SVPlaybackCoordinator state]
+- -[SVPlaybackCoordinator supportImpressionTracking]
+- -[SVPlaybackCoordinator supportsQuartileTracking]
+- -[SVPlaybackCoordinator timeElapsed:duration:]
+- -[SVPlaybackCoordinator timeJumpNotificationObserver]
+- -[SVPlaybackCoordinator timePlayed]
+- -[SVPlaybackCoordinator time]
+- -[SVPlaybackCoordinator timeline]
+- -[SVPlaybackCoordinator videoURL]
+- -[SVPlaybackCoordinator video]
+- -[SVPlaybackCoordinator volume]
+- -[SVPlayerItemObserver .cxx_destruct]
+- -[SVPlayerItemObserver changeBlock]
+- -[SVPlayerItemObserver initWithPlayer:]
+- -[SVPlayerItemObserver item]
+- -[SVPlayerItemObserver observer]
+- -[SVPlayerItemObserver onChange:]
+- -[SVPlayerItemObserver player]
+- -[SVPlayerItemObserver setItem:]
+- -[SVPlayerLayer .cxx_destruct]
+- -[SVPlayerLayer currentPlaybackKind]
+- -[SVPlayerLayer dealloc]
+- -[SVPlayerLayer initWithCoder:]
+- -[SVPlayerLayer initWithLayer:]
+- -[SVPlayerLayer init]
+- -[SVPlayerLayer initialize]
+- -[SVPlayerLayer layoutSublayers]
+- -[SVPlayerLayer looper]
+- -[SVPlayerLayer nonAnimatingDelegate]
+- -[SVPlayerLayer pause]
+- -[SVPlayerLayer playWithPlaybackKind:looping:]
+- -[SVPlayerLayer play]
+- -[SVPlayerLayer playerLayer]
+- -[SVPlayerLayer player]
+- -[SVPlayerLayer readyForDisplayObserver]
+- -[SVPlayerLayer setCurrentPlaybackKind:]
+- -[SVPlayerLayer setLooper:]
+- -[SVPlayerLayer setNonAnimatingDelegate:]
+- -[SVPlayerLayer setPlayer:]
+- -[SVPlayerLayer setPlayerLayer:]
+- -[SVPlayerLayer setReadyForDisplayObserver:]
+- -[SVPlayerLayer setStatusObserver:]
+- -[SVPlayerLayer setVideoGravity:]
+- -[SVPlayerLayer statusObserver]
+- -[SVPlayerLayer stillImageLayer]
+- -[SVPlayerLayer videoGravity]
+- -[SVTimeBasedAction .cxx_destruct]
+- -[SVTimeBasedAction block]
+- -[SVTimeBasedAction initWithTime:block:]
+- -[SVTimeBasedAction time]
+- -[SVTimeline .cxx_destruct]
+- -[SVTimeline cancelScheduledBlocks]
+- -[SVTimeline dealloc]
+- -[SVTimeline executeActionsForTime:withDuration:]
+- -[SVTimeline init]
+- -[SVTimeline performBlock:at:]
+- -[SVTimeline resetTime]
+- -[SVTimeline setDuration:]
+- -[SVTimeline setTime:]
+- -[SVTouchAbsorbingView isTracking]
+- -[SVTouchForwardingView .cxx_destruct]
+- -[SVTouchForwardingView hitTest:withEvent:]
+- -[SVTouchForwardingView lastTouchTimestamp]
+- -[SVTouchForwardingView onTouch:]
+- -[SVTouchForwardingView setLastTouchTimestamp:]
+- -[SVTouchForwardingView touchedBlock]
+- -[SVVideoAdSkipButton .cxx_destruct]
+- -[SVVideoAdSkipButton height]
+- -[SVVideoAdSkipButton initWithFrame:]
+- -[SVVideoAdSkipButton intrinsicContentSize]
+- -[SVVideoAdSkipButton mode]
+- -[SVVideoAdSkipButton playerState]
+- -[SVVideoAdSkipButton setHeight:]
+- -[SVVideoAdSkipButton setMode:]
+- -[SVVideoAdSkipButton setPlayerState:]
+- -[SVVideoAdSkipButton setSkipDuration:]
+- -[SVVideoAdSkipButton skipDuration]
+- -[SVVideoAdSkipButton titleForDuration:]
+- -[SVVideoAdSkipButton updateHeight]
+- -[SVVideoAdSkipButton updateProperties]
+- -[SVVideoAdViewControllerProvider .cxx_destruct]
+- -[SVVideoAdViewControllerProvider initWithViewControllerProvider:]
+- -[SVVideoAdViewControllerProvider viewControllerForModalPresentation]
+- -[SVVideoAdViewControllerProvider viewControllerProvider]
+- -[SVVideoDurationObserver .cxx_destruct]
+- -[SVVideoDurationObserver changeBlock]
+- -[SVVideoDurationObserver duration]
+- -[SVVideoDurationObserver initWithPlayerItemObserver:]
+- -[SVVideoDurationObserver onChange:]
+- -[SVVideoDurationObserver playerItemDurationObserver]
+- -[SVVideoDurationObserver playerItemObserver]
+- -[SVVideoDurationObserver setDuration:]
+- -[SVVideoDurationObserver setPlayerItemDurationObserver:]
+- -[SVVideoDurationObserver updateDuration:]
+- -[SVVideoPlayButton accessibilityHint]
+- -[SVVideoPlayButton accessibilityLabel]
+- -[SVVideoPlayButton dealloc]
+- -[SVVideoPlayButton displayAsPaused]
+- -[SVVideoPlayButton initWithFrame:]
+- -[SVVideoPlayButton isAccessibilityElement]
+- -[SVVideoPlayButton layoutSubviews]
+- -[SVVideoPlaybackQueue .cxx_destruct]
+- -[SVVideoPlaybackQueue advance]
+- -[SVVideoPlaybackQueue appendItem:]
+- -[SVVideoPlaybackQueue count]
+- -[SVVideoPlaybackQueue init]
+- -[SVVideoPlaybackQueue insertItem:afterItem:]
+- -[SVVideoPlaybackQueue playbackCoordinator:loadingProgressed:]
+- -[SVVideoPlaybackQueue playbackCoordinator:playbackFailedWithError:]
+- -[SVVideoPlaybackQueue playbackCoordinator:timeElapsed:duration:]
+- -[SVVideoPlaybackQueue playbackCoordinatorStartedLoadingVideo:]
+- -[SVVideoPlaybackQueue prefetchItemAfterCoordinatorIfPossible:]
+- -[SVVideoPlaybackQueue prependItem:]
+- -[SVVideoPlaybackQueue queue]
+- -[SVVideoPlayerViewController .cxx_destruct]
+- -[SVVideoPlayerViewController activityIndicatorView]
+- -[SVVideoPlayerViewController adGradientView]
+- -[SVVideoPlayerViewController adPrivacyButton]
+- -[SVVideoPlayerViewController adSkipButtonTapped:]
+- -[SVVideoPlayerViewController addDebuggerAction:]
+- -[SVVideoPlayerViewController advanceWithMuted:]
+- -[SVVideoPlayerViewController advance]
+- -[SVVideoPlayerViewController audioMode]
+- -[SVVideoPlayerViewController calculatePlayerWidth]
+- -[SVVideoPlayerViewController coordinator]
+- -[SVVideoPlayerViewController dataSource]
+- -[SVVideoPlayerViewController dealloc]
+- -[SVVideoPlayerViewController delegate]
+- -[SVVideoPlayerViewController dismissFullScreenVideoPlayer]
+- -[SVVideoPlayerViewController embedPlayerViewController]
+- -[SVVideoPlayerViewController embedVideoPlayerIfNeeded]
+- -[SVVideoPlayerViewController enablePictureInPictureBehaviors]
+- -[SVVideoPlayerViewController enterFullscreenWithCompletionBlock:]
+- -[SVVideoPlayerViewController exitFullscreenWithCompletionBlock:]
+- -[SVVideoPlayerViewController finished]
+- -[SVVideoPlayerViewController flashPlaybackControlsWithDuration:]
+- -[SVVideoPlayerViewController fullscreenBehaviorManagerRequiresFullscreenPlayback:]
+- -[SVVideoPlayerViewController fullscreenBehaviorManager]
+- -[SVVideoPlayerViewController fullscreenBehavior]
+- -[SVVideoPlayerViewController gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:]
+- -[SVVideoPlayerViewController initWithAudioMode:]
+- -[SVVideoPlayerViewController init]
+- -[SVVideoPlayerViewController isAudioSuppressed]
+- -[SVVideoPlayerViewController isFullscreenInProgress]
+- -[SVVideoPlayerViewController isFullscreen]
+- -[SVVideoPlayerViewController isLoading]
+- -[SVVideoPlayerViewController isMuted]
+- -[SVVideoPlayerViewController isPictureInPictureActive]
+- -[SVVideoPlayerViewController isPlaying]
+- -[SVVideoPlayerViewController learnMoreButtonTapped:]
+- -[SVVideoPlayerViewController learnMoreButton]
+- -[SVVideoPlayerViewController loadView]
+- -[SVVideoPlayerViewController makePlayerViewController]
+- -[SVVideoPlayerViewController mode]
+- -[SVVideoPlayerViewController pause]
+- -[SVVideoPlayerViewController playButtonTapped]
+- -[SVVideoPlayerViewController playWithButtonTapped:]
+- -[SVVideoPlayerViewController playWithButtonTapped:muted:]
+- -[SVVideoPlayerViewController playWithButtonTapped:muted:seekLive:]
+- -[SVVideoPlayerViewController playbackAllowedForPlaybackCoordinator:]
+- -[SVVideoPlayerViewController playbackCoordinator:playbackFailedWithError:]
+- -[SVVideoPlayerViewController playbackCoordinator:timeElapsed:duration:]
+- -[SVVideoPlayerViewController playbackCoordinatorFinishedLoadingVideoURL:]
+- -[SVVideoPlayerViewController playbackCoordinatorFinishedPlayback:]
+- -[SVVideoPlayerViewController playbackCoordinatorPausedPlayback:]
+- -[SVVideoPlayerViewController playbackCoordinatorResumedPlayback:]
+- -[SVVideoPlayerViewController playbackCoordinatorStartedPlayback:]
+- -[SVVideoPlayerViewController playbackCoordinatorStateChanged:]
+- -[SVVideoPlayerViewController playerState]
+- -[SVVideoPlayerViewController playerViewController:metricsCollectionEventOccured:]
+- -[SVVideoPlayerViewController playerViewController:restoreUserInterfaceForPictureInPictureStopWithCompletionHandler:]
+- -[SVVideoPlayerViewController playerViewController:shouldExitFullScreenWithReason:]
+- -[SVVideoPlayerViewController playerViewController:willBeginFullScreenPresentationWithAnimationCoordinator:]
+- -[SVVideoPlayerViewController playerViewController:willEndFullScreenPresentationWithAnimationCoordinator:]
+- -[SVVideoPlayerViewController playerViewController:willTransitionToVisibilityOfPlaybackControls:withAnimationCoordinator:]
+- -[SVVideoPlayerViewController playerViewControllerDidStartPictureInPicture:]
+- -[SVVideoPlayerViewController playerViewControllerDidStopPictureInPicture:]
+- -[SVVideoPlayerViewController playerViewControllerWillStartPictureInPicture:]
+- -[SVVideoPlayerViewController playerViewControllerWillStopPictureInPicture:]
+- -[SVVideoPlayerViewController playerViewController]
+- -[SVVideoPlayerViewController playerWidth]
+- -[SVVideoPlayerViewController primaryContentCoordinator]
+- -[SVVideoPlayerViewController queue]
+- -[SVVideoPlayerViewController rebuildPlayerViewController]
+- -[SVVideoPlayerViewController refreshControlsForPlaybackCoordinator:]
+- -[SVVideoPlayerViewController removeVideoPlayerIfNeeded]
+- -[SVVideoPlayerViewController setActivityIndicatorView:]
+- -[SVVideoPlayerViewController setAdGradientView:]
+- -[SVVideoPlayerViewController setAdPrivacyButton:]
+- -[SVVideoPlayerViewController setAudioMode:]
+- -[SVVideoPlayerViewController setAudioSuppressed:]
+- -[SVVideoPlayerViewController setCoordinator:]
+- -[SVVideoPlayerViewController setDataSource:]
+- -[SVVideoPlayerViewController setDelegate:]
+- -[SVVideoPlayerViewController setEnablePictureInPictureBehaviors:]
+- -[SVVideoPlayerViewController setFullscreen:]
+- -[SVVideoPlayerViewController setFullscreenBehavior:]
+- -[SVVideoPlayerViewController setLearnMoreButton:]
+- -[SVVideoPlayerViewController setMode:]
+- -[SVVideoPlayerViewController setMuted:]
+- -[SVVideoPlayerViewController setPlayButtonTapped:]
+- -[SVVideoPlayerViewController setPlayerState:]
+- -[SVVideoPlayerViewController setPlayerViewController:]
+- -[SVVideoPlayerViewController setPlayerWidth:]
+- -[SVVideoPlayerViewController setPrimaryContentCoordinator:]
+- -[SVVideoPlayerViewController setQueue:]
+- -[SVVideoPlayerViewController setShowsPlaybackControls:]
+- -[SVVideoPlayerViewController setSkipButton:]
+- -[SVVideoPlayerViewController setVideoAd:]
+- -[SVVideoPlayerViewController setVideoBoundsObserver:]
+- -[SVVideoPlayerViewController setVolumeObserver:]
+- -[SVVideoPlayerViewController setupQueueIfNeeded]
+- -[SVVideoPlayerViewController showsPlaybackControls]
+- -[SVVideoPlayerViewController skipButton]
+- -[SVVideoPlayerViewController startPictureInPictureIfPossible]
+- -[SVVideoPlayerViewController startPlaybackForCoordinatorIfAllowed:]
+- -[SVVideoPlayerViewController stopPictureInPicture]
+- -[SVVideoPlayerViewController tapGesture]
+- -[SVVideoPlayerViewController tapped]
+- -[SVVideoPlayerViewController transitionToCoordinator:]
+- -[SVVideoPlayerViewController updateAdsButtonsVisibility]
+- -[SVVideoPlayerViewController updatePlayerWidthIfNeeded]
+- -[SVVideoPlayerViewController updateSkipButtonWithThreshold:time:]
+- -[SVVideoPlayerViewController updateViewConstraints]
+- -[SVVideoPlayerViewController videoAd]
+- -[SVVideoPlayerViewController videoBoundsObserver]
+- -[SVVideoPlayerViewController viewControllerForModalPresentation]
+- -[SVVideoPlayerViewController viewDidAppear:]
+- -[SVVideoPlayerViewController viewDidDisappear:]
+- -[SVVideoPlayerViewController viewDidLayoutSubviews]
+- -[SVVideoPlayerViewController viewDidLoad]
+- -[SVVideoPlayerViewController volumeObserver]
+- -[SVVideoPlayerViewController willUnload]
+- -[SVVideoVolumeObserver .cxx_destruct]
+- -[SVVideoVolumeObserver audioSession]
+- -[SVVideoVolumeObserver initWithPlaybackCoordinator:audioSession:]
+- -[SVVideoVolumeObserver muteStateChangeBlock]
+- -[SVVideoVolumeObserver muted]
+- -[SVVideoVolumeObserver onMuteStateChange:]
+- -[SVVideoVolumeObserver onVolumeChange:]
+- -[SVVideoVolumeObserver outputVolumeObserver]
+- -[SVVideoVolumeObserver playbackCoordinatorMuteStateChanged:]
+- -[SVVideoVolumeObserver playbackCoordinator]
+- -[SVVideoVolumeObserver updateWithVolume:muted:]
+- -[SVVideoVolumeObserver volumeChangeBlock]
+- -[SVVideoVolumeObserver volumeChanged:]
+- -[SVVideoVolumeObserver volume]
+- -[UIView(SVAdditions) setHidden:withShowDelay:]
+- GCC_except_table0
+- GCC_except_table1
+- GCC_except_table11
+- GCC_except_table12
+- GCC_except_table15
+- GCC_except_table17
+- GCC_except_table19
+- GCC_except_table2
+- GCC_except_table23
+- GCC_except_table25
+- GCC_except_table4
+- GCC_except_table42
+- GCC_except_table45
+- GCC_except_table48
+- GCC_except_table5
+- GCC_except_table51
+- GCC_except_table54
+- GCC_except_table6
+- GCC_except_table67
+- GCC_except_table7
+- GCC_except_table8
+- _OBJC_IVAR_$_SVAVPlayer._audioMode
+- _OBJC_IVAR_$_SVAVPlayer._cumulativeTimePlayed
+- _OBJC_IVAR_$_SVAVPlayer._duration
+- _OBJC_IVAR_$_SVAVPlayer._durationObserver
+- _OBJC_IVAR_$_SVAVPlayer._elapsedTime
+- _OBJC_IVAR_$_SVAVPlayer._frameRate
+- _OBJC_IVAR_$_SVAVPlayer._intendedAudioMode
+- _OBJC_IVAR_$_SVAVPlayer._loadedTimeRangesObserver
+- _OBJC_IVAR_$_SVAVPlayer._loadingProgressBlock
+- _OBJC_IVAR_$_SVAVPlayer._muteObserver
+- _OBJC_IVAR_$_SVAVPlayer._playbackPosition
+- _OBJC_IVAR_$_SVAVPlayer._playbackProgressBlock
+- _OBJC_IVAR_$_SVAVPlayer._playbackStatus
+- _OBJC_IVAR_$_SVAVPlayer._playbackStatusBlock
+- _OBJC_IVAR_$_SVAVPlayer._statusObserver
+- _OBJC_IVAR_$_SVAVPlayer._timeControlStatusObserver
+- _OBJC_IVAR_$_SVAVPlayer._timeObserver
+- _OBJC_IVAR_$_SVAVPlayer._volumeObserver
+- _OBJC_IVAR_$_SVAVPlayerFactory._audioMode
+- _OBJC_IVAR_$_SVAVPlayerFactory._playerItemFactory
+- _OBJC_IVAR_$_SVAVPlayerItemFactory._assetFactory
+- _OBJC_IVAR_$_SVAVPlayerItemFactory._automaticallyLoadedAssetKeys
+- _OBJC_IVAR_$_SVAVPlayerItemFactory._preferredForwardBufferDuration
+- _OBJC_IVAR_$_SVAVURLAssetFactory._options
+- _OBJC_IVAR_$_SVAudioSession._audioSession
+- _OBJC_IVAR_$_SVAudioSession._audioSessionActive
+- _OBJC_IVAR_$_SVAudioSession._playbackController
+- _OBJC_IVAR_$_SVAudioSession._players
+- _OBJC_IVAR_$_SVAudioSession._semaphore
+- _OBJC_IVAR_$_SVAudioSessionConfiguration._category
+- _OBJC_IVAR_$_SVAudioSessionConfiguration._mode
+- _OBJC_IVAR_$_SVAudioSessionConfiguration._routeSharingPolicy
+- _OBJC_IVAR_$_SVAutomaticFullscreenVideoPlaybackBehaviorManager._behavior
+- _OBJC_IVAR_$_SVAutomaticFullscreenVideoPlaybackBehaviorManager._delegate
+- _OBJC_IVAR_$_SVAutomaticFullscreenVideoPlaybackBehaviorManager._videoBounds
+- _OBJC_IVAR_$_SVButton._touchInsets
+- _OBJC_IVAR_$_SVButton._touchUpInsideBlock
+- _OBJC_IVAR_$_SVImageLayer._identifier
+- _OBJC_IVAR_$_SVImageLayer._image
+- _OBJC_IVAR_$_SVKeyValueObserver._change
+- _OBJC_IVAR_$_SVKeyValueObserver._keyPath
+- _OBJC_IVAR_$_SVKeyValueObserver._object
+- _OBJC_IVAR_$_SVKeyValueObserver._options
+- _OBJC_IVAR_$_SVLearnMoreButton._condensedTitle
+- _OBJC_IVAR_$_SVLearnMoreButton._height
+- _OBJC_IVAR_$_SVLearnMoreButton._isCondensed
+- _OBJC_IVAR_$_SVLearnMoreButton._playerState
+- _OBJC_IVAR_$_SVLearnMoreButton._regularTitle
+- _OBJC_IVAR_$_SVLooper._durationObserver
+- _OBJC_IVAR_$_SVLooper._player
+- _OBJC_IVAR_$_SVMaterialButton._backgroundView
+- _OBJC_IVAR_$_SVMediaPlaybackController._currentlyPlaying
+- _OBJC_IVAR_$_SVMediaPlaybackController._timeControlStatusObservers
+- _OBJC_IVAR_$_SVPlaybackCoordinator._cancelHandler
+- _OBJC_IVAR_$_SVPlaybackCoordinator._dimensions
+- _OBJC_IVAR_$_SVPlaybackCoordinator._error
+- _OBJC_IVAR_$_SVPlaybackCoordinator._host
+- _OBJC_IVAR_$_SVPlaybackCoordinator._initiatedPlayback
+- _OBJC_IVAR_$_SVPlaybackCoordinator._lastReportedTime
+- _OBJC_IVAR_$_SVPlaybackCoordinator._muteStateObserver
+- _OBJC_IVAR_$_SVPlaybackCoordinator._muted
+- _OBJC_IVAR_$_SVPlaybackCoordinator._observers
+- _OBJC_IVAR_$_SVPlaybackCoordinator._pausedAtTime
+- _OBJC_IVAR_$_SVPlaybackCoordinator._playbackBufferFull
+- _OBJC_IVAR_$_SVPlaybackCoordinator._playbackBufferFullObserver
+- _OBJC_IVAR_$_SVPlaybackCoordinator._playbackLikelyToKeepUp
+- _OBJC_IVAR_$_SVPlaybackCoordinator._playbackLikelyToKeepUpObserver
+- _OBJC_IVAR_$_SVPlaybackCoordinator._playbackRequested
+- _OBJC_IVAR_$_SVPlaybackCoordinator._player
+- _OBJC_IVAR_$_SVPlaybackCoordinator._playerFactory
+- _OBJC_IVAR_$_SVPlaybackCoordinator._playerItemPresentationSizeObserver
+- _OBJC_IVAR_$_SVPlaybackCoordinator._readyForDisplayObserver
+- _OBJC_IVAR_$_SVPlaybackCoordinator._readyToPlayTimer
+- _OBJC_IVAR_$_SVPlaybackCoordinator._state
+- _OBJC_IVAR_$_SVPlaybackCoordinator._timeJumpNotificationObserver
+- _OBJC_IVAR_$_SVPlaybackCoordinator._timeline
+- _OBJC_IVAR_$_SVPlaybackCoordinator._video
+- _OBJC_IVAR_$_SVPlaybackCoordinator._videoURL
+- _OBJC_IVAR_$_SVPlayerItemObserver._changeBlock
+- _OBJC_IVAR_$_SVPlayerItemObserver._item
+- _OBJC_IVAR_$_SVPlayerItemObserver._observer
+- _OBJC_IVAR_$_SVPlayerItemObserver._player
+- _OBJC_IVAR_$_SVPlayerLayer._currentPlaybackKind
+- _OBJC_IVAR_$_SVPlayerLayer._looper
+- _OBJC_IVAR_$_SVPlayerLayer._nonAnimatingDelegate
+- _OBJC_IVAR_$_SVPlayerLayer._playerLayer
+- _OBJC_IVAR_$_SVPlayerLayer._readyForDisplayObserver
+- _OBJC_IVAR_$_SVPlayerLayer._statusObserver
+- _OBJC_IVAR_$_SVPlayerLayer._stillImageLayer
+- _OBJC_IVAR_$_SVTimeBasedAction._block
+- _OBJC_IVAR_$_SVTimeBasedAction._time
+- _OBJC_IVAR_$_SVTimeline._actions
+- _OBJC_IVAR_$_SVTimeline._duration
+- _OBJC_IVAR_$_SVTimeline._time
+- _OBJC_IVAR_$_SVTouchForwardingView._lastTouchTimestamp
+- _OBJC_IVAR_$_SVTouchForwardingView._touchedBlock
+- _OBJC_IVAR_$_SVVideoAdSkipButton._height
+- _OBJC_IVAR_$_SVVideoAdSkipButton._mode
+- _OBJC_IVAR_$_SVVideoAdSkipButton._playerState
+- _OBJC_IVAR_$_SVVideoAdSkipButton._skipDuration
+- _OBJC_IVAR_$_SVVideoAdViewControllerProvider._viewControllerProvider
+- _OBJC_IVAR_$_SVVideoDurationObserver._duration
+- _OBJC_IVAR_$_SVVideoDurationObserver._playerItemDurationObserver
+- _OBJC_IVAR_$_SVVideoDurationObserver._playerItemObserver
+- _OBJC_IVAR_$_SVVideoDurationObserver.changeBlock
+- _OBJC_IVAR_$_SVVideoPlaybackQueue._queue
+- _OBJC_IVAR_$_SVVideoPlayerViewController._activityIndicatorView
+- _OBJC_IVAR_$_SVVideoPlayerViewController._adGradientView
+- _OBJC_IVAR_$_SVVideoPlayerViewController._adPrivacyButton
+- _OBJC_IVAR_$_SVVideoPlayerViewController._audioMode
+- _OBJC_IVAR_$_SVVideoPlayerViewController._coordinator
+- _OBJC_IVAR_$_SVVideoPlayerViewController._dataSource
+- _OBJC_IVAR_$_SVVideoPlayerViewController._delegate
+- _OBJC_IVAR_$_SVVideoPlayerViewController._enablePictureInPictureBehaviors
+- _OBJC_IVAR_$_SVVideoPlayerViewController._fullscreen
+- _OBJC_IVAR_$_SVVideoPlayerViewController._fullscreenBehavior
+- _OBJC_IVAR_$_SVVideoPlayerViewController._fullscreenBehaviorManager
+- _OBJC_IVAR_$_SVVideoPlayerViewController._learnMoreButton
+- _OBJC_IVAR_$_SVVideoPlayerViewController._mode
+- _OBJC_IVAR_$_SVVideoPlayerViewController._playButtonTapped
+- _OBJC_IVAR_$_SVVideoPlayerViewController._playerState
+- _OBJC_IVAR_$_SVVideoPlayerViewController._playerViewController
+- _OBJC_IVAR_$_SVVideoPlayerViewController._playerWidth
+- _OBJC_IVAR_$_SVVideoPlayerViewController._primaryContentCoordinator
+- _OBJC_IVAR_$_SVVideoPlayerViewController._queue
+- _OBJC_IVAR_$_SVVideoPlayerViewController._showsPlaybackControls
+- _OBJC_IVAR_$_SVVideoPlayerViewController._skipButton
+- _OBJC_IVAR_$_SVVideoPlayerViewController._tapGesture
+- _OBJC_IVAR_$_SVVideoPlayerViewController._videoAd
+- _OBJC_IVAR_$_SVVideoPlayerViewController._videoBoundsObserver
+- _OBJC_IVAR_$_SVVideoPlayerViewController._volumeObserver
+- _OBJC_IVAR_$_SVVideoVolumeObserver._audioSession
+- _OBJC_IVAR_$_SVVideoVolumeObserver._muteStateChangeBlock
+- _OBJC_IVAR_$_SVVideoVolumeObserver._muted
+- _OBJC_IVAR_$_SVVideoVolumeObserver._outputVolumeObserver
+- _OBJC_IVAR_$_SVVideoVolumeObserver._playbackCoordinator
+- _OBJC_IVAR_$_SVVideoVolumeObserver._volume
+- _OBJC_IVAR_$_SVVideoVolumeObserver._volumeChangeBlock
+- _SVBundle.__SVBundle
+- _SVBundle.onceToken
+- _SVKeyValueObserverContext
+- __DATA_SVVideoPlayerState
+- __DATA__TtC10SilexVideoP33_2D3EC0F5525179769DFEBC6B0418D5C619ResourceBundleClass
+- __INSTANCE_METHODS_SVVideoPlayerState
+- __IVARS_SVVideoPlayerState
+- __METACLASS_DATA_SVVideoPlayerState
+- __METACLASS_DATA__TtC10SilexVideoP33_2D3EC0F5525179769DFEBC6B0418D5C619ResourceBundleClass
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSError_$_SVVideoError
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSObject_$_SVAXElementOcclusion
+- __OBJC_$_CATEGORY_NSError_$_SVVideoError
+- __OBJC_$_CATEGORY_NSObject_$_SVAXElementOcclusion
+- __OBJC_$_CATEGORY_UIView_$_SVAdditions
+- __OBJC_$_CLASS_METHODS_SVAdGradientView
+- __OBJC_$_CLASS_METHODS_SVAdPrivacyButton
+- __OBJC_$_CLASS_METHODS_SVAudioSession
+- __OBJC_$_CLASS_METHODS_SVPlayerLayer
+- __OBJC_$_CLASS_METHODS_SVVideoPlayButton
+- __OBJC_$_INSTANCE_METHODS_SVAVPlayer
+- __OBJC_$_INSTANCE_METHODS_SVAVPlayerFactory
+- __OBJC_$_INSTANCE_METHODS_SVAVPlayerItemFactory
+- __OBJC_$_INSTANCE_METHODS_SVAVURLAssetFactory
+- __OBJC_$_INSTANCE_METHODS_SVAdGradientView
+- __OBJC_$_INSTANCE_METHODS_SVAdPrivacyButton
+- __OBJC_$_INSTANCE_METHODS_SVAudioSession
+- __OBJC_$_INSTANCE_METHODS_SVAudioSessionConfiguration
+- __OBJC_$_INSTANCE_METHODS_SVAutomaticFullscreenVideoPlaybackBehaviorManager
+- __OBJC_$_INSTANCE_METHODS_SVButton
+- __OBJC_$_INSTANCE_METHODS_SVImageLayer
+- __OBJC_$_INSTANCE_METHODS_SVKeyValueObserver
+- __OBJC_$_INSTANCE_METHODS_SVLearnMoreButton
+- __OBJC_$_INSTANCE_METHODS_SVLooper
+- __OBJC_$_INSTANCE_METHODS_SVMaterialButton
+- __OBJC_$_INSTANCE_METHODS_SVMediaPlaybackController
+- __OBJC_$_INSTANCE_METHODS_SVNonAnimatingDelegate
+- __OBJC_$_INSTANCE_METHODS_SVPlaybackCoordinator
+- __OBJC_$_INSTANCE_METHODS_SVPlayerItemObserver
+- __OBJC_$_INSTANCE_METHODS_SVPlayerLayer
+- __OBJC_$_INSTANCE_METHODS_SVTimeBasedAction
+- __OBJC_$_INSTANCE_METHODS_SVTimeline
+- __OBJC_$_INSTANCE_METHODS_SVTouchAbsorbingView
+- __OBJC_$_INSTANCE_METHODS_SVTouchForwardingView
+- __OBJC_$_INSTANCE_METHODS_SVVideoAdSkipButton
+- __OBJC_$_INSTANCE_METHODS_SVVideoAdViewControllerProvider
+- __OBJC_$_INSTANCE_METHODS_SVVideoDurationObserver
+- __OBJC_$_INSTANCE_METHODS_SVVideoPlayButton
+- __OBJC_$_INSTANCE_METHODS_SVVideoPlaybackQueue
+- __OBJC_$_INSTANCE_METHODS_SVVideoPlayerViewController
+- __OBJC_$_INSTANCE_METHODS_SVVideoVolumeObserver
+- __OBJC_$_INSTANCE_METHODS_UIView(SVAdditions|SilexVideo)
+- __OBJC_$_INSTANCE_VARIABLES_SVAVPlayer
+- __OBJC_$_INSTANCE_VARIABLES_SVAVPlayerFactory
+- __OBJC_$_INSTANCE_VARIABLES_SVAVPlayerItemFactory
+- __OBJC_$_INSTANCE_VARIABLES_SVAVURLAssetFactory
+- __OBJC_$_INSTANCE_VARIABLES_SVAudioSession
+- __OBJC_$_INSTANCE_VARIABLES_SVAudioSessionConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_SVAutomaticFullscreenVideoPlaybackBehaviorManager
+- __OBJC_$_INSTANCE_VARIABLES_SVButton
+- __OBJC_$_INSTANCE_VARIABLES_SVImageLayer
+- __OBJC_$_INSTANCE_VARIABLES_SVKeyValueObserver
+- __OBJC_$_INSTANCE_VARIABLES_SVLearnMoreButton
+- __OBJC_$_INSTANCE_VARIABLES_SVLooper
+- __OBJC_$_INSTANCE_VARIABLES_SVMaterialButton
+- __OBJC_$_INSTANCE_VARIABLES_SVMediaPlaybackController
+- __OBJC_$_INSTANCE_VARIABLES_SVPlaybackCoordinator
+- __OBJC_$_INSTANCE_VARIABLES_SVPlayerItemObserver
+- __OBJC_$_INSTANCE_VARIABLES_SVPlayerLayer
+- __OBJC_$_INSTANCE_VARIABLES_SVTimeBasedAction
+- __OBJC_$_INSTANCE_VARIABLES_SVTimeline
+- __OBJC_$_INSTANCE_VARIABLES_SVTouchForwardingView
+- __OBJC_$_INSTANCE_VARIABLES_SVVideoAdSkipButton
+- __OBJC_$_INSTANCE_VARIABLES_SVVideoAdViewControllerProvider
+- __OBJC_$_INSTANCE_VARIABLES_SVVideoDurationObserver
+- __OBJC_$_INSTANCE_VARIABLES_SVVideoPlaybackQueue
+- __OBJC_$_INSTANCE_VARIABLES_SVVideoPlayerViewController
+- __OBJC_$_INSTANCE_VARIABLES_SVVideoVolumeObserver
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROP_LIST_SVAVPlayer
+- __OBJC_$_PROP_LIST_SVAVPlayerFactory
+- __OBJC_$_PROP_LIST_SVAVPlayerItemFactory
+- __OBJC_$_PROP_LIST_SVAVURLAssetFactory
+- __OBJC_$_PROP_LIST_SVAudioSession
+- __OBJC_$_PROP_LIST_SVAudioSessionConfiguration
+- __OBJC_$_PROP_LIST_SVAutomaticFullscreenVideoPlaybackBehaviorManager
+- __OBJC_$_PROP_LIST_SVButton
+- __OBJC_$_PROP_LIST_SVImageLayer
+- __OBJC_$_PROP_LIST_SVKeyValueObserver
+- __OBJC_$_PROP_LIST_SVLearnMoreButton
+- __OBJC_$_PROP_LIST_SVLooper
+- __OBJC_$_PROP_LIST_SVMaterialButton
+- __OBJC_$_PROP_LIST_SVMediaPlaybackController
+- __OBJC_$_PROP_LIST_SVNonAnimatingDelegate
+- __OBJC_$_PROP_LIST_SVPlaybackCoordinator
+- __OBJC_$_PROP_LIST_SVPlayerItemObserver
+- __OBJC_$_PROP_LIST_SVPlayerItemObserving
+- __OBJC_$_PROP_LIST_SVPlayerLayer
+- __OBJC_$_PROP_LIST_SVTouchForwardingView
+- __OBJC_$_PROP_LIST_SVVideoAdProviding
+- __OBJC_$_PROP_LIST_SVVideoAdSkipButton
+- __OBJC_$_PROP_LIST_SVVideoAdViewControllerProvider
+- __OBJC_$_PROP_LIST_SVVideoAdViewControllerProviding
+- __OBJC_$_PROP_LIST_SVVideoDurationObserver
+- __OBJC_$_PROP_LIST_SVVideoDurationObserving
+- __OBJC_$_PROP_LIST_SVVideoEventTracker
+- __OBJC_$_PROP_LIST_SVVideoMetadata
+- __OBJC_$_PROP_LIST_SVVideoPlaybackQueue
+- __OBJC_$_PROP_LIST_SVVideoPlayerViewController
+- __OBJC_$_PROP_LIST_SVVideoVolumeObserver
+- __OBJC_$_PROP_LIST_SVVideoVolumeObserving
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVPlayerItemDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVPlayerViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVPlayerViewControllerDelegatePrivate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVPlayerViewControllerDelegate_WebKitOnly
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_CALayerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SVVideoAdProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SVVideoEventTracker
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SVVideoPlaybackObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIGestureRecognizerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SVAVPlayerFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SVAVPlayerItemFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SVAVURLAssetFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SVAutomaticFullscreenVideoPlaybackBehaviorManagerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SVPlayerItemObserving
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SVVideoAdEventTracker
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SVVideoAdProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SVVideoAdViewControllerProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SVVideoDurationObserving
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SVVideoMetadata
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SVVideoURLProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SVVideoVolumeObserving
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AVPlayerItemDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AVPlayerViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AVPlayerViewControllerDelegatePrivate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AVPlayerViewControllerDelegate_WebKitOnly
+- __OBJC_$_PROTOCOL_METHOD_TYPES_CALayerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SVAVPlayerFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SVAVPlayerItemFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SVAVURLAssetFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SVAutomaticFullscreenVideoPlaybackBehaviorManagerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SVPlayerItemObserving
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SVVideoAdEventTracker
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SVVideoAdProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SVVideoAdViewControllerProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SVVideoDurationObserving
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SVVideoEventTracker
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SVVideoMetadata
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SVVideoPlaybackObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SVVideoURLProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SVVideoVolumeObserving
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIGestureRecognizerDelegate
+- __OBJC_$_PROTOCOL_REFS_AVPlayerItemDelegate
+- __OBJC_$_PROTOCOL_REFS_AVPlayerViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_AVPlayerViewControllerDelegatePrivate
+- __OBJC_$_PROTOCOL_REFS_AVPlayerViewControllerDelegate_WebKitOnly
+- __OBJC_$_PROTOCOL_REFS_CALayerDelegate
+- __OBJC_$_PROTOCOL_REFS_SVAVPlayerFactory
+- __OBJC_$_PROTOCOL_REFS_SVAVPlayerItemFactory
+- __OBJC_$_PROTOCOL_REFS_SVAVURLAssetFactory
+- __OBJC_$_PROTOCOL_REFS_SVAutomaticFullscreenVideoPlaybackBehaviorManagerDelegate
+- __OBJC_$_PROTOCOL_REFS_SVPlayerItemObserving
+- __OBJC_$_PROTOCOL_REFS_SVVideoAdEventTracker
+- __OBJC_$_PROTOCOL_REFS_SVVideoAdProviding
+- __OBJC_$_PROTOCOL_REFS_SVVideoAdViewControllerProviding
+- __OBJC_$_PROTOCOL_REFS_SVVideoDurationObserving
+- __OBJC_$_PROTOCOL_REFS_SVVideoEventTracker
+- __OBJC_$_PROTOCOL_REFS_SVVideoMetadata
+- __OBJC_$_PROTOCOL_REFS_SVVideoPlaybackObserver
+- __OBJC_$_PROTOCOL_REFS_SVVideoProviding
+- __OBJC_$_PROTOCOL_REFS_SVVideoURLProviding
+- __OBJC_$_PROTOCOL_REFS_SVVideoVolumeObserving
+- __OBJC_$_PROTOCOL_REFS_UIGestureRecognizerDelegate
+- __OBJC_CLASS_PROTOCOLS_$_SVAVPlayer
+- __OBJC_CLASS_PROTOCOLS_$_SVAVPlayerFactory
+- __OBJC_CLASS_PROTOCOLS_$_SVAVPlayerItemFactory
+- __OBJC_CLASS_PROTOCOLS_$_SVAVURLAssetFactory
+- __OBJC_CLASS_PROTOCOLS_$_SVAutomaticFullscreenVideoPlaybackBehaviorManager
+- __OBJC_CLASS_PROTOCOLS_$_SVNonAnimatingDelegate
+- __OBJC_CLASS_PROTOCOLS_$_SVPlaybackCoordinator
+- __OBJC_CLASS_PROTOCOLS_$_SVPlayerItemObserver
+- __OBJC_CLASS_PROTOCOLS_$_SVVideoAdViewControllerProvider
+- __OBJC_CLASS_PROTOCOLS_$_SVVideoDurationObserver
+- __OBJC_CLASS_PROTOCOLS_$_SVVideoPlaybackQueue
+- __OBJC_CLASS_PROTOCOLS_$_SVVideoPlayerViewController
+- __OBJC_CLASS_PROTOCOLS_$_SVVideoVolumeObserver
+- __OBJC_CLASS_RO_$_SVAVPlayer
+- __OBJC_CLASS_RO_$_SVAVPlayerFactory
+- __OBJC_CLASS_RO_$_SVAVPlayerItemFactory
+- __OBJC_CLASS_RO_$_SVAVURLAssetFactory
+- __OBJC_CLASS_RO_$_SVAdGradientView
+- __OBJC_CLASS_RO_$_SVAdPrivacyButton
+- __OBJC_CLASS_RO_$_SVAudioSession
+- __OBJC_CLASS_RO_$_SVAudioSessionConfiguration
+- __OBJC_CLASS_RO_$_SVAutomaticFullscreenVideoPlaybackBehaviorManager
+- __OBJC_CLASS_RO_$_SVBundleClass
+- __OBJC_CLASS_RO_$_SVButton
+- __OBJC_CLASS_RO_$_SVImageLayer
+- __OBJC_CLASS_RO_$_SVKeyValueObserver
+- __OBJC_CLASS_RO_$_SVLearnMoreButton
+- __OBJC_CLASS_RO_$_SVLooper
+- __OBJC_CLASS_RO_$_SVMaterialButton
+- __OBJC_CLASS_RO_$_SVMediaPlaybackController
+- __OBJC_CLASS_RO_$_SVNonAnimatingDelegate
+- __OBJC_CLASS_RO_$_SVPlaybackCoordinator
+- __OBJC_CLASS_RO_$_SVPlayerItemObserver
+- __OBJC_CLASS_RO_$_SVPlayerLayer
+- __OBJC_CLASS_RO_$_SVTimeBasedAction
+- __OBJC_CLASS_RO_$_SVTimeline
+- __OBJC_CLASS_RO_$_SVTouchAbsorbingView
+- __OBJC_CLASS_RO_$_SVTouchForwardingView
+- __OBJC_CLASS_RO_$_SVVideoAdSkipButton
+- __OBJC_CLASS_RO_$_SVVideoAdViewControllerProvider
+- __OBJC_CLASS_RO_$_SVVideoDurationObserver
+- __OBJC_CLASS_RO_$_SVVideoPlayButton
+- __OBJC_CLASS_RO_$_SVVideoPlaybackQueue
+- __OBJC_CLASS_RO_$_SVVideoPlayerViewController
+- __OBJC_CLASS_RO_$_SVVideoVolumeObserver
+- __OBJC_LABEL_PROTOCOL_$_AVPlayerItemDelegate
+- __OBJC_LABEL_PROTOCOL_$_AVPlayerViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_AVPlayerViewControllerDelegatePrivate
+- __OBJC_LABEL_PROTOCOL_$_AVPlayerViewControllerDelegate_WebKitOnly
+- __OBJC_LABEL_PROTOCOL_$_CALayerDelegate
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_LABEL_PROTOCOL_$_SVAVPlayerFactory
+- __OBJC_LABEL_PROTOCOL_$_SVAVPlayerItemFactory
+- __OBJC_LABEL_PROTOCOL_$_SVAVURLAssetFactory
+- __OBJC_LABEL_PROTOCOL_$_SVAutomaticFullscreenVideoPlaybackBehaviorManagerDelegate
+- __OBJC_LABEL_PROTOCOL_$_SVPlayerItemObserving
+- __OBJC_LABEL_PROTOCOL_$_SVVideoAdEventTracker
+- __OBJC_LABEL_PROTOCOL_$_SVVideoAdProviding
+- __OBJC_LABEL_PROTOCOL_$_SVVideoAdViewControllerProviding
+- __OBJC_LABEL_PROTOCOL_$_SVVideoDurationObserving
+- __OBJC_LABEL_PROTOCOL_$_SVVideoEventTracker
+- __OBJC_LABEL_PROTOCOL_$_SVVideoMetadata
+- __OBJC_LABEL_PROTOCOL_$_SVVideoPlaybackObserver
+- __OBJC_LABEL_PROTOCOL_$_SVVideoProviding
+- __OBJC_LABEL_PROTOCOL_$_SVVideoURLProviding
+- __OBJC_LABEL_PROTOCOL_$_SVVideoVolumeObserving
+- __OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
+- __OBJC_METACLASS_RO_$_SVAVPlayer
+- __OBJC_METACLASS_RO_$_SVAVPlayerFactory
+- __OBJC_METACLASS_RO_$_SVAVPlayerItemFactory
+- __OBJC_METACLASS_RO_$_SVAVURLAssetFactory
+- __OBJC_METACLASS_RO_$_SVAdGradientView
+- __OBJC_METACLASS_RO_$_SVAdPrivacyButton
+- __OBJC_METACLASS_RO_$_SVAudioSession
+- __OBJC_METACLASS_RO_$_SVAudioSessionConfiguration
+- __OBJC_METACLASS_RO_$_SVAutomaticFullscreenVideoPlaybackBehaviorManager
+- __OBJC_METACLASS_RO_$_SVBundleClass
+- __OBJC_METACLASS_RO_$_SVButton
+- __OBJC_METACLASS_RO_$_SVImageLayer
+- __OBJC_METACLASS_RO_$_SVKeyValueObserver
+- __OBJC_METACLASS_RO_$_SVLearnMoreButton
+- __OBJC_METACLASS_RO_$_SVLooper
+- __OBJC_METACLASS_RO_$_SVMaterialButton
+- __OBJC_METACLASS_RO_$_SVMediaPlaybackController
+- __OBJC_METACLASS_RO_$_SVNonAnimatingDelegate
+- __OBJC_METACLASS_RO_$_SVPlaybackCoordinator
+- __OBJC_METACLASS_RO_$_SVPlayerItemObserver
+- __OBJC_METACLASS_RO_$_SVPlayerLayer
+- __OBJC_METACLASS_RO_$_SVTimeBasedAction
+- __OBJC_METACLASS_RO_$_SVTimeline
+- __OBJC_METACLASS_RO_$_SVTouchAbsorbingView
+- __OBJC_METACLASS_RO_$_SVTouchForwardingView
+- __OBJC_METACLASS_RO_$_SVVideoAdSkipButton
+- __OBJC_METACLASS_RO_$_SVVideoAdViewControllerProvider
+- __OBJC_METACLASS_RO_$_SVVideoDurationObserver
+- __OBJC_METACLASS_RO_$_SVVideoPlayButton
+- __OBJC_METACLASS_RO_$_SVVideoPlaybackQueue
+- __OBJC_METACLASS_RO_$_SVVideoPlayerViewController
+- __OBJC_METACLASS_RO_$_SVVideoVolumeObserver
+- __OBJC_PROTOCOL_$_AVPlayerItemDelegate
+- __OBJC_PROTOCOL_$_AVPlayerViewControllerDelegate
+- __OBJC_PROTOCOL_$_AVPlayerViewControllerDelegatePrivate
+- __OBJC_PROTOCOL_$_AVPlayerViewControllerDelegate_WebKitOnly
+- __OBJC_PROTOCOL_$_CALayerDelegate
+- __OBJC_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_SVAVPlayerFactory
+- __OBJC_PROTOCOL_$_SVAVPlayerItemFactory
+- __OBJC_PROTOCOL_$_SVAVURLAssetFactory
+- __OBJC_PROTOCOL_$_SVAutomaticFullscreenVideoPlaybackBehaviorManagerDelegate
+- __OBJC_PROTOCOL_$_SVPlayerItemObserving
+- __OBJC_PROTOCOL_$_SVVideoAdEventTracker
+- __OBJC_PROTOCOL_$_SVVideoAdProviding
+- __OBJC_PROTOCOL_$_SVVideoAdViewControllerProviding
+- __OBJC_PROTOCOL_$_SVVideoDurationObserving
+- __OBJC_PROTOCOL_$_SVVideoEventTracker
+- __OBJC_PROTOCOL_$_SVVideoMetadata
+- __OBJC_PROTOCOL_$_SVVideoPlaybackObserver
+- __OBJC_PROTOCOL_$_SVVideoProviding
+- __OBJC_PROTOCOL_$_SVVideoURLProviding
+- __OBJC_PROTOCOL_$_SVVideoVolumeObserving
+- __OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
+- __OBJC_PROTOCOL_REFERENCE_$_SVVideoAdProviding
+- __PROPERTIES_SVVideoPlayerState
+- ___106-[SVVideoPlayerViewController playerViewController:willEndFullScreenPresentationWithAnimationCoordinator:]_block_invoke
+- ___108-[SVVideoPlayerViewController playerViewController:willBeginFullScreenPresentationWithAnimationCoordinator:]_block_invoke
+- ___122-[SVVideoPlayerViewController playerViewController:willTransitionToVisibilityOfPlaybackControls:withAnimationCoordinator:]_block_invoke
+- ___122-[SVVideoPlayerViewController playerViewController:willTransitionToVisibilityOfPlaybackControls:withAnimationCoordinator:]_block_invoke_2
+- ___26-[SVAVPlayer addObservers]_block_invoke
+- ___26-[SVAVPlayer addObservers]_block_invoke_2
+- ___26-[SVAVPlayer addObservers]_block_invoke_3
+- ___26-[SVAVPlayer addObservers]_block_invoke_4
+- ___27-[SVAVPlayer loadFrameRate]_block_invoke
+- ___27-[SVAVPlayer loadFrameRate]_block_invoke_2
+- ___27-[SVLooper initWithPlayer:]_block_invoke
+- ___27-[SVPlayerLayer setPlayer:]_block_invoke
+- ___30-[SVTimeline performBlock:at:]_block_invoke
+- ___31+[SVAudioSession sharedSession]_block_invoke
+- ___31-[SVAVPlayer startTimeObserver]_block_invoke
+- ___37+[SVVideoPlayButton enabledPlayImage]_block_invoke
+- ___38+[SVVideoPlayButton disabledPlayImage]_block_invoke
+- ___39-[SVPlayerItemObserver initWithPlayer:]_block_invoke
+- ___42-[SVAudioSession removeInterestForPlayer:]_block_invoke
+- ___42-[SVPlaybackCoordinator configureTimeline]_block_invoke
+- ___42-[SVPlaybackCoordinator configureTimeline]_block_invoke_2
+- ___42-[SVPlaybackCoordinator configureTimeline]_block_invoke_3
+- ___42-[SVPlaybackCoordinator configureTimeline]_block_invoke_4
+- ___42-[SVPlaybackCoordinator configureTimeline]_block_invoke_5
+- ___42-[SVPlaybackCoordinator loadVideoIfNeeded]_block_invoke
+- ___43-[SVAVPlayer addAudioModeObserversIfNeeded]_block_invoke
+- ___43-[SVAVPlayer addAudioModeObserversIfNeeded]_block_invoke_2
+- ___44-[SVMediaPlaybackController registerPlayer:]_block_invoke
+- ___44-[SVPlaybackCoordinator setupPlayerWithURL:]_block_invoke
+- ___44-[SVPlaybackCoordinator setupPlayerWithURL:]_block_invoke_2
+- ___44-[SVPlaybackCoordinator setupPlayerWithURL:]_block_invoke_3
+- ___44-[SVPlaybackCoordinator setupPlayerWithURL:]_block_invoke_4
+- ___45-[SVAVPlayer seekToStartWithCompletionBlock:]_block_invoke
+- ___45-[SVPlaybackCoordinator addMuteStateObserver]_block_invoke
+- ___46-[SVPlayerLayer playWithPlaybackKind:looping:]_block_invoke
+- ___46-[SVPlayerLayer playWithPlaybackKind:looping:]_block_invoke_2
+- ___47-[UIView(SVAdditions) setHidden:withShowDelay:]_block_invoke
+- ___49-[SVPlaybackCoordinator registerTimeJumpObserver]_block_invoke
+- ___50-[SVPlaybackCoordinator addPlaybackBufferObserver]_block_invoke
+- ___54-[SVVideoDurationObserver initWithPlayerItemObserver:]_block_invoke
+- ___54-[SVVideoDurationObserver initWithPlayerItemObserver:]_block_invoke_2
+- ___54-[SVVideoDurationObserver initWithPlayerItemObserver:]_block_invoke_3
+- ___55-[SVVideoPlayerViewController makePlayerViewController]_block_invoke
+- ___55-[SVVideoPlayerViewController transitionToCoordinator:]_block_invoke
+- ___56-[SVPlaybackCoordinator seekToTime:withCompletionBlock:]_block_invoke
+- ___56-[SVPlaybackCoordinator seekToTime:withCompletionBlock:]_block_invoke_2
+- ___58-[SVPlaybackCoordinator addPlaybackLikelyToKeepUpObserver]_block_invoke
+- ___62-[SVPlaybackCoordinator addPlayerItemPresentationSizeObserver]_block_invoke
+- ___65-[SVVideoPlayerViewController exitFullscreenWithCompletionBlock:]_block_invoke
+- ___66-[SVVideoPlayerViewController enterFullscreenWithCompletionBlock:]_block_invoke
+- ___66-[SVVideoVolumeObserver initWithPlaybackCoordinator:audioSession:]_block_invoke
+- ___SVBundle_block_invoke
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_40_e8_32bs_e33_v16?0"<SVPlayerItemObserving>"8ls32l8
+- ___block_descriptor_40_e8_32bs_e45_v24?0"SVKeyValueObserver"8"NSDictionary"16ls32l8
+- ___block_descriptor_40_e8_32bs_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32bs_e8_v12?0B8ls32l8
+- ___block_descriptor_40_e8_32s_e36_v16?0"<SVVideoDurationObserving>"8ls32l8
+- ___block_descriptor_40_e8_32s_e56_v16?0"<UIViewControllerTransitionCoordinatorContext>"8ls32l8
+- ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32w_e17_v16?0"NSTimer"8lw32l8
+- ___block_descriptor_40_e8_32w_e22_v16?0"AVPlayerItem"8lw32l8
+- ___block_descriptor_40_e8_32w_e23_v20?0"SVAVPlayer"8i16lw32l8
+- ___block_descriptor_40_e8_32w_e24_v16?0"NSNotification"8lw32l8
+- ___block_descriptor_40_e8_32w_e26_v32?0"SVAVPlayer"8d16d24lw32l8
+- ___block_descriptor_40_e8_32w_e32_v24?0"SVAVPlayer"8"NSArray"16lw32l8
+- ___block_descriptor_40_e8_32w_e34_"<SVVideoMetadata>"16?0"NSURL"8lw32l8
+- ___block_descriptor_40_e8_32w_e45_v24?0"SVKeyValueObserver"8"NSDictionary"16lw32l8
+- ___block_descriptor_40_e8_32w_e5_v8?0lw32l8
+- ___block_descriptor_40_e8_32w_e8_v16?0Q8lw32l8
+- ___block_descriptor_41_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_41_e8_32s_e8_v12?0B8ls32l8
+- ___block_descriptor_48_e8_32bs40w_e20_v20?0B8"NSError"12lw40l8s32l8
+- ___block_descriptor_48_e8_32bs40w_e27_v16?0"SVTimeBasedAction"8ls32l8w40l8
+- ___block_descriptor_48_e8_32bs40w_e8_v12?0B8lw40l8s32l8
+- ___block_descriptor_48_e8_32r40w_e15_v32?0{?=qiIq}8lw40l8r32l8
+- ___block_descriptor_48_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40w_e34_v16?0"<SVVideoVolumeObserving>"8ls32l8w40l8
+- ___block_descriptor_48_e8_32s40w_e45_v24?0"SVKeyValueObserver"8"NSDictionary"16lw40l8s32l8
+- ___block_descriptor_48_e8_32w40w_e45_v24?0"SVKeyValueObserver"8"NSDictionary"16lw32l8w40l8
+- ___block_literal_global
+- ___swift_allocate_boxed_opaque_existential_1
+- ___swift_instantiateConcreteTypeFromMangledNameV2
+- ___swift_reflection_version
+- __swift_FORCE_LOAD_$_swiftAVFoundation_$_SilexVideo
+- __swift_FORCE_LOAD_$_swiftCoreAudio_$_SilexVideo
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_SilexVideo
+- __swift_FORCE_LOAD_$_swiftCoreImage_$_SilexVideo
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_SilexVideo
+- __swift_FORCE_LOAD_$_swiftCoreMIDI_$_SilexVideo
+- __swift_FORCE_LOAD_$_swiftDispatch_$_SilexVideo
+- __swift_FORCE_LOAD_$_swiftFoundation_$_SilexVideo
+- __swift_FORCE_LOAD_$_swiftIOKit_$_SilexVideo
+- __swift_FORCE_LOAD_$_swiftMetal_$_SilexVideo
+- __swift_FORCE_LOAD_$_swiftOSLog_$_SilexVideo
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_SilexVideo
+- __swift_FORCE_LOAD_$_swiftQuartzCore_$_SilexVideo
+- __swift_FORCE_LOAD_$_swiftSpatial_$_SilexVideo
+- __swift_FORCE_LOAD_$_swiftUIKit_$_SilexVideo
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_SilexVideo
+- __swift_FORCE_LOAD_$_swiftXPC_$_SilexVideo
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_SilexVideo
+- __swift_FORCE_LOAD_$_swiftos_$_SilexVideo
+- __swift_FORCE_LOAD_$_swiftsimd_$_SilexVideo
+- _disabledPlayImage.image
+- _disabledPlayImage.onceToken
+- _enabledPlayImage.image
+- _enabledPlayImage.onceToken
+- _objc_msgSend$CGColor
+- _objc_msgSend$CGImage
+- _objc_msgSend$CGRectValue
+- _objc_msgSend$CMTimeRangeValue
+- _objc_msgSend$CMTimeValue
+- _objc_msgSend$_setContinuousCornerRadius:
+- _objc_msgSend$_setSuppressesAudioRendering:
+- _objc_msgSend$_suppressesAudioRendering
+- _objc_msgSend$accessibilityContainer
+- _objc_msgSend$activateAudioSessionCategory
+- _objc_msgSend$activityIndicatorView
+- _objc_msgSend$adGradientView
+- _objc_msgSend$adPrivacyButton
+- _objc_msgSend$addAttribute:value:range:
+- _objc_msgSend$addAudioModeObserversIfNeeded
+- _objc_msgSend$addChildViewController:
+- _objc_msgSend$addCoordinatedAnimations:completion:
+- _objc_msgSend$addGestureRecognizer:
+- _objc_msgSend$addInterestForPlayer:withMode:
+- _objc_msgSend$addMuteStateObserver
+- _objc_msgSend$addObject:
+- _objc_msgSend$addObserver:forKeyPath:options:context:
+- _objc_msgSend$addObserver:selector:name:object:
+- _objc_msgSend$addObserverForName:object:queue:usingBlock:
+- _objc_msgSend$addObservers
+- _objc_msgSend$addPeriodicTimeObserverForInterval:queue:usingBlock:
+- _objc_msgSend$addPlaybackBufferObserver
+- _objc_msgSend$addPlaybackLikelyToKeepUpObserver
+- _objc_msgSend$addPlaybackObserver:
+- _objc_msgSend$addPlayerItemPresentationSizeObserver
+- _objc_msgSend$addSublayer:
+- _objc_msgSend$addSubview:
+- _objc_msgSend$addTarget:action:forControlEvents:
+- _objc_msgSend$advance
+- _objc_msgSend$advanceWithMuted:
+- _objc_msgSend$allObjects
+- _objc_msgSend$allowsPictureInPicturePlayback
+- _objc_msgSend$animateAlongsideTransition:completion:
+- _objc_msgSend$animatedUnobscuredCenterAreaLayoutGuide
+- _objc_msgSend$appendAttributedString:
+- _objc_msgSend$appendItem:
+- _objc_msgSend$array
+- _objc_msgSend$arrayWithObjects:
+- _objc_msgSend$arrayWithObjects:count:
+- _objc_msgSend$asset
+- _objc_msgSend$assetFactory
+- _objc_msgSend$assetTrack
+- _objc_msgSend$assetWithURL:
+- _objc_msgSend$attributedStringWithAttachment:
+- _objc_msgSend$attributedStringWithAttachment:attributes:
+- _objc_msgSend$audioMode
+- _objc_msgSend$audioSession
+- _objc_msgSend$automaticallyLoadedAssetKeys
+- _objc_msgSend$backgroundView
+- _objc_msgSend$begin
+- _objc_msgSend$behavior
+- _objc_msgSend$blackColor
+- _objc_msgSend$bottomAnchor
+- _objc_msgSend$bounds
+- _objc_msgSend$bundleForClass:
+- _objc_msgSend$calculatePlayerWidth
+- _objc_msgSend$canDeactivateAudioSession
+- _objc_msgSend$cancelHandler
+- _objc_msgSend$capHeight
+- _objc_msgSend$category
+- _objc_msgSend$centerXAnchor
+- _objc_msgSend$centerYAnchor
+- _objc_msgSend$change
+- _objc_msgSend$changeBlock
+- _objc_msgSend$colorWithRed:green:blue:alpha:
+- _objc_msgSend$colorWithWhite:alpha:
+- _objc_msgSend$commit
+- _objc_msgSend$condensedTitle
+- _objc_msgSend$conditionsChanged
+- _objc_msgSend$configurationWithPointSize:
+- _objc_msgSend$configurationWithPointSize:weight:
+- _objc_msgSend$configureTimeline
+- _objc_msgSend$conformsToProtocol:
+- _objc_msgSend$constraintEqualToAnchor:
+- _objc_msgSend$constraintEqualToAnchor:constant:
+- _objc_msgSend$containsObject:
+- _objc_msgSend$contentOverlayView
+- _objc_msgSend$coordinator
+- _objc_msgSend$copy
+- _objc_msgSend$count
+- _objc_msgSend$countByEnumeratingWithState:objects:count:
+- _objc_msgSend$countForObject:
+- _objc_msgSend$createPlayerItemWithURL:
+- _objc_msgSend$createPlayerWithURL:
+- _objc_msgSend$createURLAssetWithURL:
+- _objc_msgSend$cumulativeTimePlayed
+- _objc_msgSend$currentDevice
+- _objc_msgSend$currentItem
+- _objc_msgSend$currentTime
+- _objc_msgSend$currentlyPlaying
+- _objc_msgSend$customControlHeight
+- _objc_msgSend$customControlsView
+- _objc_msgSend$dataSource
+- _objc_msgSend$deactivateAudioSessionCategory
+- _objc_msgSend$defaultCenter
+- _objc_msgSend$delegate
+- _objc_msgSend$desiredAudioSessionConfiguration
+- _objc_msgSend$dictionaryWithObjects:forKeys:count:
+- _objc_msgSend$didMoveToParentViewController:
+- _objc_msgSend$disabledPlayImage
+- _objc_msgSend$dismissViewControllerAnimated:completion:
+- _objc_msgSend$displayAsPaused
+- _objc_msgSend$domain
+- _objc_msgSend$duration
+- _objc_msgSend$durationChanged
+- _objc_msgSend$elapsedTime
+- _objc_msgSend$embedPlayerViewController
+- _objc_msgSend$enablePictureInPictureBehaviors
+- _objc_msgSend$enabledPlayImage
+- _objc_msgSend$enterFullScreenAnimated:completionHandler:
+- _objc_msgSend$enterFullscreenWithCompletionBlock:
+- _objc_msgSend$enteredFullscreen
+- _objc_msgSend$error
+- _objc_msgSend$errorCodeForUnderlyingErrorDomain:
+- _objc_msgSend$errorWithDomain:code:userInfo:
+- _objc_msgSend$exitFullScreenAnimated:completionHandler:
+- _objc_msgSend$exitedFullscreen
+- _objc_msgSend$finished
+- _objc_msgSend$finishedLoadingVideoURL:
+- _objc_msgSend$finishedLoadingVideoWithURL:
+- _objc_msgSend$firstObject
+- _objc_msgSend$flashPlaybackControlsWithDuration:
+- _objc_msgSend$font
+- _objc_msgSend$frameRate
+- _objc_msgSend$fullscreenBehaviorManager
+- _objc_msgSend$fullscreenBehaviorManagerRequiresFullscreenPlayback:
+- _objc_msgSend$fullscreenPlaybackRequiredForCurrentConditions
+- _objc_msgSend$hasAction
+- _objc_msgSend$hasPrefix:
+- _objc_msgSend$height
+- _objc_msgSend$host
+- _objc_msgSend$imageView
+- _objc_msgSend$imageWithTintColor:
+- _objc_msgSend$impressionThreshold
+- _objc_msgSend$indexOfObject:
+- _objc_msgSend$init
+- _objc_msgSend$initWithActivityIndicatorStyle:
+- _objc_msgSend$initWithAudioMode:
+- _objc_msgSend$initWithAudioMode:playerItemFactory:
+- _objc_msgSend$initWithAudioSession:
+- _objc_msgSend$initWithAutomaticallyLoadedAssetKeys:assetFactory:preferredForwardBufferDuration:
+- _objc_msgSend$initWithCategory:mode:policy:
+- _objc_msgSend$initWithFormat:
+- _objc_msgSend$initWithKeyPath:ofObject:withOptions:change:
+- _objc_msgSend$initWithOptions:
+- _objc_msgSend$initWithPlaybackCoordinator:audioSession:
+- _objc_msgSend$initWithPlayer:
+- _objc_msgSend$initWithPlayerItem:audioMode:
+- _objc_msgSend$initWithPlayerItemObserver:
+- _objc_msgSend$initWithString:
+- _objc_msgSend$initWithTarget:action:
+- _objc_msgSend$initWithTitle:type:
+- _objc_msgSend$initWithURL:audioMode:
+- _objc_msgSend$initWithURL:options:
+- _objc_msgSend$initWithVideo:playerFactory:
+- _objc_msgSend$initialize
+- _objc_msgSend$initiatedPlayback
+- _objc_msgSend$insertObject:atIndex:
+- _objc_msgSend$intrinsicContentSize
+- _objc_msgSend$invalidate
+- _objc_msgSend$invalidateIntrinsicContentSize
+- _objc_msgSend$isAudioSessionActive
+- _objc_msgSend$isAudioSuppressed
+- _objc_msgSend$isCancelled
+- _objc_msgSend$isCondensed
+- _objc_msgSend$isEffectivelySilent
+- _objc_msgSend$isEqualToConfiguration:
+- _objc_msgSend$isEqualToString:
+- _objc_msgSend$isFullscreen
+- _objc_msgSend$isFullscreenInProgress
+- _objc_msgSend$isMuted
+- _objc_msgSend$isPictureInPictureActive
+- _objc_msgSend$isPictureInPictureSupported
+- _objc_msgSend$isPlaybackBufferFull
+- _objc_msgSend$isPlaybackLikelyToKeepUp
+- _objc_msgSend$isPlaying
+- _objc_msgSend$isReadyForDisplay
+- _objc_msgSend$isValid
+- _objc_msgSend$item
+- _objc_msgSend$keyPath
+- _objc_msgSend$lastObject
+- _objc_msgSend$lastReportedTime
+- _objc_msgSend$lastTouchTimestamp
+- _objc_msgSend$layer
+- _objc_msgSend$layoutIfNeeded
+- _objc_msgSend$leadingAnchor
+- _objc_msgSend$learnMoreButton
+- _objc_msgSend$length
+- _objc_msgSend$load
+- _objc_msgSend$loadFrameRate
+- _objc_msgSend$loadValuesAsynchronouslyForKeys:completionHandler:
+- _objc_msgSend$loadVideoIfNeeded
+- _objc_msgSend$loadWithCompletionBlock:
+- _objc_msgSend$loadedTimeRanges
+- _objc_msgSend$loadedTimeRangesChanged
+- _objc_msgSend$loadingProgress
+- _objc_msgSend$loadingProgressBlock
+- _objc_msgSend$localizedStringForKey:value:table:
+- _objc_msgSend$mainBundle
+- _objc_msgSend$mainQueue
+- _objc_msgSend$makePlayerViewController
+- _objc_msgSend$metricsForTextStyle:
+- _objc_msgSend$metricsView
+- _objc_msgSend$mode
+- _objc_msgSend$muteStateChangeBlock
+- _objc_msgSend$muteStateChanged
+- _objc_msgSend$muteStateChanged:
+- _objc_msgSend$muted
+- _objc_msgSend$naturalSize
+- _objc_msgSend$needsToSetupAudioSessionCategory
+- _objc_msgSend$nextVideoStartedPlaying
+- _objc_msgSend$nominalFrameRate
+- _objc_msgSend$null
+- _objc_msgSend$numberWithDouble:
+- _objc_msgSend$numberWithFloat:
+- _objc_msgSend$numberWithInt:
+- _objc_msgSend$numberWithUnsignedInteger:
+- _objc_msgSend$object
+- _objc_msgSend$objectAtIndexedSubscript:
+- _objc_msgSend$objectEnumerator
+- _objc_msgSend$objectForKey:
+- _objc_msgSend$observers
+- _objc_msgSend$onChange:
+- _objc_msgSend$onMuteStateChange:
+- _objc_msgSend$options
+- _objc_msgSend$outputVolume
+- _objc_msgSend$parentViewController
+- _objc_msgSend$pause
+- _objc_msgSend$pausedAtTime
+- _objc_msgSend$play
+- _objc_msgSend$playButtonTapped
+- _objc_msgSend$playWithButtonTapped:
+- _objc_msgSend$playWithButtonTapped:muted:seekLive:
+- _objc_msgSend$playWithPlaybackKind:looping:
+- _objc_msgSend$playbackAllowedForPlaybackCoordinator:
+- _objc_msgSend$playbackBufferFull
+- _objc_msgSend$playbackBufferFullStateChanged
+- _objc_msgSend$playbackController
+- _objc_msgSend$playbackCoordinator:loadingProgressed:
+- _objc_msgSend$playbackCoordinator:playbackFailedWithError:
+- _objc_msgSend$playbackCoordinator:timeElapsed:duration:
+- _objc_msgSend$playbackCoordinatorFinishedLoadingVideoURL:
+- _objc_msgSend$playbackCoordinatorFinishedPlayback:
+- _objc_msgSend$playbackCoordinatorMuteStateChanged:
+- _objc_msgSend$playbackCoordinatorPausedPlayback:
+- _objc_msgSend$playbackCoordinatorPlaybackBufferFullStateChanged:
+- _objc_msgSend$playbackCoordinatorPlaybackLikelyToKeepUpStateChanged:
+- _objc_msgSend$playbackCoordinatorResumedPlayback:
+- _objc_msgSend$playbackCoordinatorStartedLoadingVideo:
+- _objc_msgSend$playbackCoordinatorStartedPlayback:
+- _objc_msgSend$playbackCoordinatorStateChanged:
+- _objc_msgSend$playbackFailedWithError:
+- _objc_msgSend$playbackFinished
+- _objc_msgSend$playbackInitiatedWithButtonTapped:
+- _objc_msgSend$playbackLikelyToKeepUp
+- _objc_msgSend$playbackLikelyToKeepUpStateChanged
+- _objc_msgSend$playbackPassedImpressionThreshold
+- _objc_msgSend$playbackPassedQuartile:
+- _objc_msgSend$playbackPaused
+- _objc_msgSend$playbackPausedAtTime:
+- _objc_msgSend$playbackPosition
+- _objc_msgSend$playbackProgressBlock
+- _objc_msgSend$playbackReadyToStart
+- _objc_msgSend$playbackResumed
+- _objc_msgSend$playbackResumedAtTime:
+- _objc_msgSend$playbackSkippedFromTime:toTime:
+- _objc_msgSend$playbackStarted
+- _objc_msgSend$playbackStatus
+- _objc_msgSend$playbackStatusBlock
+- _objc_msgSend$player
+- _objc_msgSend$playerFactory
+- _objc_msgSend$playerItemFactory
+- _objc_msgSend$playerItemObserver
+- _objc_msgSend$playerItemWithAsset:automaticallyLoadedAssetKeys:
+- _objc_msgSend$playerLayer
+- _objc_msgSend$playerState
+- _objc_msgSend$playerViewController
+- _objc_msgSend$playerWidth
+- _objc_msgSend$players
+- _objc_msgSend$preferredContentSizeCategory
+- _objc_msgSend$preferredForwardBufferDuration
+- _objc_msgSend$preferredLocalizations
+- _objc_msgSend$prefetchItemAfterCoordinatorIfPossible:
+- _objc_msgSend$prerollReadyToPlayTimeout
+- _objc_msgSend$presentAction
+- _objc_msgSend$presentationSize
+- _objc_msgSend$presentedViewController
+- _objc_msgSend$privacyMarker
+- _objc_msgSend$queue
+- _objc_msgSend$readyToPlayTimer
+- _objc_msgSend$rebuildPlayerViewController
+- _objc_msgSend$refreshControlsForPlaybackCoordinator:
+- _objc_msgSend$registerPlaybackControlForPlayer:withMode:
+- _objc_msgSend$registerPlayer:
+- _objc_msgSend$registerTimeJumpObserver
+- _objc_msgSend$regularTitle
+- _objc_msgSend$removeAllObjects
+- _objc_msgSend$removeFromParentViewController
+- _objc_msgSend$removeFromSuperview
+- _objc_msgSend$removeGestureRecognizer:
+- _objc_msgSend$removeInterestForPlayer:
+- _objc_msgSend$removeObject:
+- _objc_msgSend$removeObjectForKey:
+- _objc_msgSend$removeObserver:
+- _objc_msgSend$removeObserver:forKeyPath:
+- _objc_msgSend$removeObserver:name:object:
+- _objc_msgSend$removePlaybackObserver:
+- _objc_msgSend$removeTimeObserver:
+- _objc_msgSend$resignFirstResponder
+- _objc_msgSend$routeSharingPolicy
+- _objc_msgSend$scaledFontForFont:
+- _objc_msgSend$scheduledTimerWithTimeInterval:repeats:block:
+- _objc_msgSend$seekLive
+- _objc_msgSend$seekToStartWithCompletionBlock:
+- _objc_msgSend$seekToTime:
+- _objc_msgSend$seekToTime:completionHandler:
+- _objc_msgSend$seekToTime:withCompletionBlock:
+- _objc_msgSend$seekableTimeRanges
+- _objc_msgSend$semaphore
+- _objc_msgSend$setAccessibilityElementsHidden:
+- _objc_msgSend$setAction:
+- _objc_msgSend$setActionAtItemEnd:
+- _objc_msgSend$setActive:
+- _objc_msgSend$setActive:error:
+- _objc_msgSend$setAdPrivacyButton:
+- _objc_msgSend$setAdjustsFontForContentSizeCategory:
+- _objc_msgSend$setAlignment:
+- _objc_msgSend$setAllowedAudioSpatializationFormats:
+- _objc_msgSend$setAllowsPictureInPicturePlayback:
+- _objc_msgSend$setAlpha:
+- _objc_msgSend$setAttributedTitle:forState:
+- _objc_msgSend$setAudioSession:
+- _objc_msgSend$setAudioSessionActive:
+- _objc_msgSend$setAutomaticallyDrawsRoundedCorners:
+- _objc_msgSend$setAutoresizingMask:
+- _objc_msgSend$setBackgroundColor:
+- _objc_msgSend$setBehavior:
+- _objc_msgSend$setBounds:
+- _objc_msgSend$setCanStartPictureInPictureAutomaticallyFromInline:
+- _objc_msgSend$setCancelHandler:
+- _objc_msgSend$setCategory:mode:routeSharingPolicy:options:error:
+- _objc_msgSend$setCenter:
+- _objc_msgSend$setColors:
+- _objc_msgSend$setContentMode:
+- _objc_msgSend$setContents:
+- _objc_msgSend$setCoordinator:
+- _objc_msgSend$setCornerRadius:
+- _objc_msgSend$setCumulativeTimePlayed:
+- _objc_msgSend$setCurrentPlaybackKind:
+- _objc_msgSend$setCurrentlyPlaying:
+- _objc_msgSend$setCustomControlItems:
+- _objc_msgSend$setDelegate:
+- _objc_msgSend$setDimensions:
+- _objc_msgSend$setDuration:
+- _objc_msgSend$setDurationObserver:
+- _objc_msgSend$setElapsedTime:
+- _objc_msgSend$setElapsedTime:duration:
+- _objc_msgSend$setEnabled:
+- _objc_msgSend$setEndPoint:
+- _objc_msgSend$setError:
+- _objc_msgSend$setFont:
+- _objc_msgSend$setFrame:
+- _objc_msgSend$setFrameRate:
+- _objc_msgSend$setFullScreen:
+- _objc_msgSend$setFullscreen:
+- _objc_msgSend$setHeight:
+- _objc_msgSend$setHidden:
+- _objc_msgSend$setHidden:withShowDelay:
+- _objc_msgSend$setHidesWhenStopped:
+- _objc_msgSend$setHost:
+- _objc_msgSend$setImage:
+- _objc_msgSend$setImage:forState:
+- _objc_msgSend$setInitiatedPlayback:
+- _objc_msgSend$setIsCondensed:
+- _objc_msgSend$setIsFullScreen:
+- _objc_msgSend$setItem:
+- _objc_msgSend$setLastReportedTime:
+- _objc_msgSend$setLastTouchTimestamp:
+- _objc_msgSend$setLoadedTimeRangesObserver:
+- _objc_msgSend$setLoadingProgressBlock:
+- _objc_msgSend$setLocations:
+- _objc_msgSend$setLoopTimeRange:
+- _objc_msgSend$setLooper:
+- _objc_msgSend$setModalPresentationStyle:
+- _objc_msgSend$setMode:
+- _objc_msgSend$setMuteObserver:
+- _objc_msgSend$setMuteStateObserver:
+- _objc_msgSend$setMuted:
+- _objc_msgSend$setNeedsUpdateConstraints
+- _objc_msgSend$setObject:forKey:
+- _objc_msgSend$setOverrideUserInterfaceStyle:
+- _objc_msgSend$setPausedAtTime:
+- _objc_msgSend$setPlayButtonTapped:
+- _objc_msgSend$setPlaybackBufferFullObserver:
+- _objc_msgSend$setPlaybackLikelyToKeepUpObserver:
+- _objc_msgSend$setPlaybackPosition:
+- _objc_msgSend$setPlaybackProgressBlock:
+- _objc_msgSend$setPlaybackRequested:
+- _objc_msgSend$setPlaybackStatus:
+- _objc_msgSend$setPlaybackStatusBlock:
+- _objc_msgSend$setPlayer:
+- _objc_msgSend$setPlayerItemDurationObserver:
+- _objc_msgSend$setPlayerItemPresentationSizeObserver:
+- _objc_msgSend$setPlayerState:
+- _objc_msgSend$setPlayerViewController:
+- _objc_msgSend$setPlayerWidth:
+- _objc_msgSend$setPreferredForwardBufferDuration:
+- _objc_msgSend$setPrimaryContentCoordinator:
+- _objc_msgSend$setQueue:
+- _objc_msgSend$setReadyForDisplayObserver:
+- _objc_msgSend$setReadyToPlayTimer:
+- _objc_msgSend$setRequiresLinearPlayback:
+- _objc_msgSend$setShowsPlaybackControls:
+- _objc_msgSend$setSkipDuration:
+- _objc_msgSend$setStartPoint:
+- _objc_msgSend$setState:
+- _objc_msgSend$setStatusObserver:
+- _objc_msgSend$setTextAlignment:
+- _objc_msgSend$setTimeControlStatusObserver:
+- _objc_msgSend$setTimeObserver:
+- _objc_msgSend$setTintColor:
+- _objc_msgSend$setTitle:forState:
+- _objc_msgSend$setTitleColor:forState:
+- _objc_msgSend$setTouchInsets:
+- _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
+- _objc_msgSend$setUpdatesNowPlayingInfoCenter:
+- _objc_msgSend$setUserInteractionEnabled:
+- _objc_msgSend$setValue:forKey:
+- _objc_msgSend$setVideoAd:
+- _objc_msgSend$setVideoBounds:
+- _objc_msgSend$setVideoBoundsObserver:
+- _objc_msgSend$setVideoGravity:
+- _objc_msgSend$setVideoURL:
+- _objc_msgSend$setView:
+- _objc_msgSend$setVolumeObserver:
+- _objc_msgSend$setWithArray:
+- _objc_msgSend$setupAudioSessionCategory
+- _objc_msgSend$setupPlayerWithURL:
+- _objc_msgSend$setupQueueIfNeeded
+- _objc_msgSend$sharedInstance
+- _objc_msgSend$sharedSession
+- _objc_msgSend$sharedSessionForMode:
+- _objc_msgSend$shouldActivateAudioSession
+- _objc_msgSend$shouldOccludeAccessibilityElement:
+- _objc_msgSend$showsPlaybackControls
+- _objc_msgSend$size
+- _objc_msgSend$sizeWithAttributes:
+- _objc_msgSend$skipButton
+- _objc_msgSend$skipDuration
+- _objc_msgSend$skipThreshold
+- _objc_msgSend$skipped
+- _objc_msgSend$startAnimating
+- _objc_msgSend$startPictureInPicture
+- _objc_msgSend$startPlaybackForCoordinatorIfAllowed:
+- _objc_msgSend$startTimeObserver
+- _objc_msgSend$startedLoadingVideo
+- _objc_msgSend$startedPictureInPicture
+- _objc_msgSend$state
+- _objc_msgSend$stateChanged
+- _objc_msgSend$status
+- _objc_msgSend$statusChanged
+- _objc_msgSend$statusOfValueForKey:error:
+- _objc_msgSend$stillImageLayer
+- _objc_msgSend$stopAnimating
+- _objc_msgSend$stopPictureInPicture
+- _objc_msgSend$stopTimeObserver
+- _objc_msgSend$stoppedPictureInPicture
+- _objc_msgSend$stringWithFormat:
+- _objc_msgSend$superview
+- _objc_msgSend$supportImpressionTracking
+- _objc_msgSend$supportsQuartileTracking
+- _objc_msgSend$sv_setGlassBackground
+- _objc_msgSend$sv_setPlayerButtonBackground
+- _objc_msgSend$svax_shouldBeOccluded
+- _objc_msgSend$systemFontOfSize:weight:
+- _objc_msgSend$systemImageNamed:
+- _objc_msgSend$systemImageNamed:withConfiguration:
+- _objc_msgSend$systemTealColor
+- _objc_msgSend$tapGesture
+- _objc_msgSend$tappedToToggleControlVisibility:
+- _objc_msgSend$text
+- _objc_msgSend$time
+- _objc_msgSend$timeControlStatus
+- _objc_msgSend$timeControlStatusChanged
+- _objc_msgSend$timeControlStatusObservers
+- _objc_msgSend$timeElapsed:duration:
+- _objc_msgSend$timeObserver
+- _objc_msgSend$timeline
+- _objc_msgSend$timestamp
+- _objc_msgSend$title
+- _objc_msgSend$titleForDuration:
+- _objc_msgSend$titleLabel
+- _objc_msgSend$topAnchor
+- _objc_msgSend$totalTimePlayed
+- _objc_msgSend$touchInsets
+- _objc_msgSend$touchUpInsideBlock
+- _objc_msgSend$touchedBlock
+- _objc_msgSend$tracks
+- _objc_msgSend$tracksWithMediaType:
+- _objc_msgSend$trailingAnchor
+- _objc_msgSend$traitCollection
+- _objc_msgSend$transitionToCoordinator:
+- _objc_msgSend$transportControlsAreaLayoutGuide
+- _objc_msgSend$type
+- _objc_msgSend$unregisterPlayer:
+- _objc_msgSend$updateAdsButtonsVisibility
+- _objc_msgSend$updateCurrentlyPlaying:
+- _objc_msgSend$updateDuration:
+- _objc_msgSend$updateEffectiveAudioMode
+- _objc_msgSend$updateHeight
+- _objc_msgSend$updateLabelForSize:
+- _objc_msgSend$updatePlayerWidthIfNeeded
+- _objc_msgSend$updateSkipButtonWithThreshold:time:
+- _objc_msgSend$updateTime:duration:
+- _objc_msgSend$updateViewConstraints
+- _objc_msgSend$updateWithVolume:muted:
+- _objc_msgSend$userInterfaceIdiom
+- _objc_msgSend$video
+- _objc_msgSend$videoAd
+- _objc_msgSend$videoAdForVideoPlayerViewController:
+- _objc_msgSend$videoBounds
+- _objc_msgSend$videoErrorWithErrorCode:
+- _objc_msgSend$videoErrorWithUnderlyingError:
+- _objc_msgSend$videoForVideoPlayerViewController:
+- _objc_msgSend$videoGravity
+- _objc_msgSend$videoPlayerViewController:initiatedPlaybackOfVideo:
+- _objc_msgSend$videoPlayerViewController:muteStateDidChangeOfVideo:
+- _objc_msgSend$videoPlayerViewController:pausedPlaybackOfVideo:
+- _objc_msgSend$videoPlayerViewController:restoreUserInterfaceForPictureInPictureStopWithCompletionHandler:
+- _objc_msgSend$videoPlayerViewController:resumedPlaybackOfVideo:
+- _objc_msgSend$videoPlayerViewController:startedPlaybackOfVideo:
+- _objc_msgSend$videoPlayerViewControllerDidExitFullscreen:
+- _objc_msgSend$videoPlayerViewControllerDidStartPictureInPicture:
+- _objc_msgSend$videoPlayerViewControllerDidStopPictureInPicture:
+- _objc_msgSend$videoPlayerViewControllerFinishedVideoPlayback:
+- _objc_msgSend$videoPlayerViewControllerShouldStartPlayback:
+- _objc_msgSend$videoPlayerViewControllerWillEnterFullscreen:
+- _objc_msgSend$videoPlayerViewControllerWillExitFullscreen:
+- _objc_msgSend$videoPlayerViewControllerWillStartPictureInPicture:
+- _objc_msgSend$videoPlayerViewControllerWillStopPictureInPicture:
+- _objc_msgSend$view
+- _objc_msgSend$viewControllerForFullScreenPresentation
+- _objc_msgSend$viewControllerForModalPresentation
+- _objc_msgSend$viewControllerProvider
+- _objc_msgSend$viewForKey:
+- _objc_msgSend$volume
+- _objc_msgSend$volumeChangeBlock
+- _objc_msgSend$volumeChanged:
+- _objc_msgSend$volumeObserver
+- _objc_msgSend$weakObjectsHashTable
+- _objc_msgSend$weakToStrongObjectsMapTable
+- _objc_msgSend$whiteColor
+- _objc_msgSend$willMoveToParentViewController:
+- _objc_msgSend$willUnload
+- _sharedSession.__sharedSession
+- _sharedSession.onceToken
+- _symbolic Sb
+- _symbolic So8NSObjectC
+- _symbolic _____ 10SilexVideo0B11PlayerStateC
+- _symbolic _____ 10SilexVideo19ResourceBundleClass33_2D3EC0F5525179769DFEBC6B0418D5C6LLC
+- _symbolic _____ 11Observation0A9RegistrarV
+- _symbolic _____Sg 5UIKit29_UICornerMaskingConfigurationV
+Functions:
++ sub_2c6a1ac64
+```

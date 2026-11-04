@@ -1,0 +1,2999 @@
+## SilexWeb
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/SilexWeb.framework/Versions/A/SilexWeb`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__objc_imageinfo`
+
+```diff
+
+-5971.0.0.0.0
+-  __TEXT.__text: 0x18668
+-  __TEXT.__objc_methlist: 0x36bc
+-  __TEXT.__const: 0x68
+-  __TEXT.__cstring: 0x1e3d
++6006.0.0.0.0
++  __TEXT.__text: 0x1f3b0
++  __TEXT.__objc_methlist: 0x36ec
++  __TEXT.__const: 0x89c
++  __TEXT.__cstring: 0x180c
+   __TEXT.__gcc_except_tab: 0x164
+   __TEXT.__oslogstring: 0xe
+-  __TEXT.__unwind_info: 0xac8
++  __TEXT.__swift5_typeref: 0x8c0
++  __TEXT.__constg_swiftt: 0xd0
++  __TEXT.__swift5_fieldmd: 0x70
++  __TEXT.__swift5_proto: 0x20
++  __TEXT.__swift5_types: 0x1c
++  __TEXT.__unwind_info: 0xbd0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xa68
+-  __DATA_CONST.__objc_classlist: 0x300
+-  __DATA_CONST.__objc_protolist: 0x1f0
++  __DATA_CONST.__const: 0x5b0
++  __DATA_CONST.__objc_classlist: 0x2c8
++  __DATA_CONST.__objc_protolist: 0x300
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1730
+-  __DATA_CONST.__objc_protorefs: 0x128
+-  __DATA_CONST.__objc_superrefs: 0x278
+-  __DATA_CONST.__got: 0x4b8
+-  __AUTH_CONST.__const: 0x840
+-  __AUTH_CONST.__cfstring: 0x1b00
+-  __AUTH_CONST.__objc_const: 0x9f98
+-  __AUTH_CONST.__auth_got: 0x0
++  __DATA_CONST.__objc_selrefs: 0x1748
++  __DATA_CONST.__objc_protorefs: 0x130
++  __DATA_CONST.__objc_superrefs: 0x270
++  __DATA_CONST.__got: 0x490
++  __AUTH_CONST.__const: 0x1f8
++  __AUTH_CONST.__cfstring: 0x1b20
++  __AUTH_CONST.__objc_const: 0x9998
++  __AUTH_CONST.__auth_got: 0x2f0
+   __AUTH.__objc_data: 0x4b0
+-  __DATA.__objc_ivar: 0x49c
+-  __DATA.__data: 0x1748
+-  __DATA_DIRTY.__objc_data: 0x1950
++  __DATA.__objc_ivar: 0x4a0
++  __DATA.__data: 0x1ab0
++  __DATA.__bss: 0x400
++  __DATA_DIRTY.__objc_data: 0x1720
+   __DATA_DIRTY.__bss: 0x78
+   __DATA_DIRTY.__common: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /System/iOSSupport/System/Library/PrivateFrameworks/UIAccessibility.framework/Versions/A/UIAccessibility
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 957
+-  Symbols:   3174
+-  CStrings:  276
++  - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftIOKit.dylib
++  - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
++  - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswiftos.dylib
++  - /usr/lib/swift/libswiftsimd.dylib
++  Functions: 1034
++  Symbols:   387
++  CStrings:  242
+ 
+Symbols:
++ _OBJC_CLASS_$_SWFactoryBridge
++ _OBJC_METACLASS_$_SWFactoryBridge
++ ___chkstk_darwin
++ __swift_FORCE_LOAD_$_swiftCoreFoundation
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftDispatch
++ __swift_FORCE_LOAD_$_swiftFoundation
++ __swift_FORCE_LOAD_$_swiftIOKit
++ __swift_FORCE_LOAD_$_swiftMetal
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftObjectiveC
++ __swift_FORCE_LOAD_$_swiftQuartzCore
++ __swift_FORCE_LOAD_$_swiftSpatial
++ __swift_FORCE_LOAD_$_swiftUIKit
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swiftXPC
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swiftos
++ __swift_FORCE_LOAD_$_swiftsimd
++ _dispatch_async
++ _objc_allocWithZone
++ _objc_opt_self
++ _objc_retainAutoreleasedReturnValue
++ _objc_retain_x5
++ _swift_allocObject
++ _swift_getObjCClassMetadata
++ _swift_getTypeByMangledNameInContext2
++ _swift_getWitnessTable
++ _swift_unknownObjectRelease
+- +[SWConfiguration(SWContainerConfiguration) configurationWithContainerConfiguration:]
+- +[SWDatastore emptyDatastore]
+- +[SWDatastoreSetupScript source]
+- +[SWDatastoreUpdateScript executableSource]
+- +[SWDatastoreUpdateScript userScriptSource]
+- +[SWInspectionScript executableSource]
+- +[SWLoader loaderWithURL:andBlock:]
+- +[SWLocalDatastoreSetupScript source]
+- +[SWLocalDatastoreUpdateScript executableSource]
+- +[SWLocalDatastoreUpdateScript userScriptSource]
+- +[SWWeakMessageHandler handlerWithMessageHandler:]
+- -[SWActionFactory .cxx_destruct]
+- -[SWActionFactory actionForDictionary:]
+- -[SWActionFactory initWithNavigationManager:]
+- -[SWActionFactory navigationManager]
+- -[SWActionProvider .cxx_destruct]
+- -[SWActionProvider actionBlocks]
+- -[SWActionProvider actionFactory]
+- -[SWActionProvider actionTypeText:]
+- -[SWActionProvider didReceiveMessage:securityOrigin:]
+- -[SWActionProvider initWithMessageHandlerManager:actionFactory:logger:]
+- -[SWActionProvider logger]
+- -[SWActionProvider onAction:]
+- -[SWBackButtonTappedScript .cxx_destruct]
+- -[SWBackButtonTappedScript executableScript]
+- -[SWBackButtonTappedScript identifier]
+- -[SWBackButtonTappedScript queueable]
+- -[SWBackButtonTappedScript userScript]
+- -[SWBackConfiguration initWithHidden:]
+- -[SWBackConfiguration isHidden]
+- -[SWBackConfiguration setHidden:]
+- -[SWConfiguration .cxx_destruct]
+- -[SWConfiguration activePictureInPictureURL]
+- -[SWConfiguration appVersion]
+- -[SWConfiguration contentEnvironment]
+- -[SWConfiguration contentSizeCategory]
+- -[SWConfiguration copyWithZone:]
+- -[SWConfiguration dataSources]
+- -[SWConfiguration description]
+- -[SWConfiguration feedConfiguration]
+- -[SWConfiguration identifier]
+- -[SWConfiguration initWithStoreFront:locale:contentEnvironment:contentSizeCategory:layoutGuide:dataSources:location:sourceURL:activePictureInPictureURL:feedConfiguration:supportsLiveActivities:keyboardConfiguration:networkStatus:isTransitioning:]
+- -[SWConfiguration is24HourTime]
+- -[SWConfiguration isEqualToConfiguration:]
+- -[SWConfiguration isTransitioning]
+- -[SWConfiguration keyboardConfiguration]
+- -[SWConfiguration layoutGuide]
+- -[SWConfiguration locale]
+- -[SWConfiguration location]
+- -[SWConfiguration mutableCopyWithZone:]
+- -[SWConfiguration networkStatus]
+- -[SWConfiguration setActivePictureInPictureURL:]
+- -[SWConfiguration setAppVersion:]
+- -[SWConfiguration setContentEnvironment:]
+- -[SWConfiguration setContentSizeCategory:]
+- -[SWConfiguration setDataSources:]
+- -[SWConfiguration setFeedConfiguration:]
+- -[SWConfiguration setIdentifier:]
+- -[SWConfiguration setIs24HourTime:]
+- -[SWConfiguration setIsTransitioning:]
+- -[SWConfiguration setKeyboardConfiguration:]
+- -[SWConfiguration setLayoutGuide:]
+- -[SWConfiguration setLocale:]
+- -[SWConfiguration setLocation:]
+- -[SWConfiguration setNetworkStatus:]
+- -[SWConfiguration setSourceURL:]
+- -[SWConfiguration setStoreFront:]
+- -[SWConfiguration setSupportsLiveActivities:]
+- -[SWConfiguration setSystemVersion:]
+- -[SWConfiguration sourceURL]
+- -[SWConfiguration storeFront]
+- -[SWConfiguration supportsLiveActivities]
+- -[SWConfiguration systemVersion]
+- -[SWConfigurationManager .cxx_destruct]
+- -[SWConfigurationManager configurationScript]
+- -[SWConfigurationManager configuration]
+- -[SWConfigurationManager initWithWebContentScriptsManager:logger:serializer:]
+- -[SWConfigurationManager logger]
+- -[SWConfigurationManager serializer]
+- -[SWConfigurationManager setConfiguration:]
+- -[SWConfigurationManager setConfigurationScript:]
+- -[SWConfigurationManager webContentScriptsManager]
+- -[SWConfigurationScript .cxx_destruct]
+- -[SWConfigurationScript configuration]
+- -[SWConfigurationScript executableScript]
+- -[SWConfigurationScript identifier]
+- -[SWConfigurationScript initWithConfiguration:]
+- -[SWConfigurationScript queueable]
+- -[SWConfigurationScript userScript]
+- -[SWConfigurationSerializer isNetworkReachableForStatus:]
+- -[SWConfigurationSerializer serializeWebContentConfiguration:]
+- -[SWConfigurationSerializer serializedRectFromCGRect:]
+- -[SWContainerConfiguration .cxx_destruct]
+- -[SWContainerConfiguration activePictureInPictureURL]
+- -[SWContainerConfiguration contentEnvironment]
+- -[SWContainerConfiguration contentSizeCategory]
+- -[SWContainerConfiguration copyWithZone:]
+- -[SWContainerConfiguration dataSources]
+- -[SWContainerConfiguration feedConfiguration]
+- -[SWContainerConfiguration identifier]
+- -[SWContainerConfiguration initWithStoreFront:locale:contentEnvironment:contentSizeCategory:layoutGuide:dataSources:location:sourceURL:activePictureInPictureURL:feedConfiguration:supportsLiveActivities:]
+- -[SWContainerConfiguration layoutGuide]
+- -[SWContainerConfiguration locale]
+- -[SWContainerConfiguration location]
+- -[SWContainerConfiguration setActivePictureInPictureURL:]
+- -[SWContainerConfiguration setContentEnvironment:]
+- -[SWContainerConfiguration setContentSizeCategory:]
+- -[SWContainerConfiguration setDataSources:]
+- -[SWContainerConfiguration setFeedConfiguration:]
+- -[SWContainerConfiguration setIdentifier:]
+- -[SWContainerConfiguration setLayoutGuide:]
+- -[SWContainerConfiguration setLocale:]
+- -[SWContainerConfiguration setLocation:]
+- -[SWContainerConfiguration setSourceURL:]
+- -[SWContainerConfiguration setStoreFront:]
+- -[SWContainerConfiguration setSupportsLiveActivities:]
+- -[SWContainerConfiguration sourceURL]
+- -[SWContainerConfiguration storeFront]
+- -[SWContainerConfiguration supportsLiveActivities]
+- -[SWContainerViewController .cxx_destruct]
+- -[SWContainerViewController URLSchemeHandlerManager]
+- -[SWContainerViewController accessibilityElements]
+- -[SWContainerViewController actionProvider]
+- -[SWContainerViewController addContentRuleList:identifier:]
+- -[SWContainerViewController allowUserInteractionForInteractionType:]
+- -[SWContainerViewController configurationManager]
+- -[SWContainerViewController configuration]
+- -[SWContainerViewController convertedInputAccessoryViewFrame]
+- -[SWContainerViewController convertedKeyboardFrame]
+- -[SWContainerViewController currentScreen]
+- -[SWContainerViewController dealloc]
+- -[SWContainerViewController developerSettings]
+- -[SWContainerViewController errorProvider]
+- -[SWContainerViewController failureProvider]
+- -[SWContainerViewController focusShouldStartInputSession]
+- -[SWContainerViewController handleKeyboardChange:]
+- -[SWContainerViewController handleKeyboardHide:]
+- -[SWContainerViewController handleKeyboardShow:]
+- -[SWContainerViewController handleScreenDidDisconnect:]
+- -[SWContainerViewController initWithWebContentViewController:actionProvider:interactionProvider:errorProvider:failureProvider:navigationBarConfigurationProvider:configurationManager:presentationManager:scaleManager:snapshotManager:preferredSizeManager:]
+- -[SWContainerViewController inputAccessoryViewFrame]
+- -[SWContainerViewController inputAccessoryView]
+- -[SWContainerViewController interactionProvider]
+- -[SWContainerViewController invalidateKeyboardFrameIfScreenChanged]
+- -[SWContainerViewController isKeyboardVisible]
+- -[SWContainerViewController isPencilInputExpected]
+- -[SWContainerViewController isTransitioning]
+- -[SWContainerViewController keyboardCoordinateSpace]
+- -[SWContainerViewController keyboardFrame]
+- -[SWContainerViewController keyboardScreen]
+- -[SWContainerViewController loadHTMLString:baseURL:]
+- -[SWContainerViewController loadLocalDatastore:options:completion:]
+- -[SWContainerViewController loadURL:]
+- -[SWContainerViewController loadURL:cachePolicy:]
+- -[SWContainerViewController loadedURL]
+- -[SWContainerViewController loadingURL]
+- -[SWContainerViewController messageHandlerManager]
+- -[SWContainerViewController navigationBarConfigurationProvider]
+- -[SWContainerViewController networkStatus]
+- -[SWContainerViewController observeValueForKeyPath:ofObject:change:context:]
+- -[SWContainerViewController pocketInsetsForSafeArea]
+- -[SWContainerViewController preferredSizeManager]
+- -[SWContainerViewController presentationManager]
+- -[SWContainerViewController prewarm]
+- -[SWContainerViewController reachabilityChanged:]
+- -[SWContainerViewController removeMenusForIdentifiers:]
+- -[SWContainerViewController scaleManager]
+- -[SWContainerViewController scriptsManager]
+- -[SWContainerViewController setConfiguration:]
+- -[SWContainerViewController setDeveloperSettings:]
+- -[SWContainerViewController setFocusShouldStartInputSession:]
+- -[SWContainerViewController setHiddenPocketEdges:]
+- -[SWContainerViewController setInputAccessoryView:]
+- -[SWContainerViewController setInputAccessoryViewFrame:]
+- -[SWContainerViewController setIsKeyboardVisible:]
+- -[SWContainerViewController setIsPencilInputExpected:]
+- -[SWContainerViewController setIsTransitioning:]
+- -[SWContainerViewController setKeyboardCoordinateSpace:]
+- -[SWContainerViewController setKeyboardFrame:]
+- -[SWContainerViewController setKeyboardScreen:]
+- -[SWContainerViewController setNetworkStatus:]
+- -[SWContainerViewController setPocketInsetsForSafeArea:]
+- -[SWContainerViewController setPocketsEnabled:]
+- -[SWContainerViewController setShortcutsBarWithLeadingGroups:trailingGroups:]
+- -[SWContainerViewController setTextInputTraits:]
+- -[SWContainerViewController snapshotManager]
+- -[SWContainerViewController updateConfiguration]
+- -[SWContainerViewController updateInputAccessoryViewFrame]
+- -[SWContainerViewController updateReachability]
+- -[SWContainerViewController viewDidLayoutSubviews]
+- -[SWContainerViewController viewDidLoad]
+- -[SWContainerViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[SWContainerViewController webContentViewController]
+- -[SWContainerViewController webViewSetNeedsLayout]
+- -[SWContentRuleManager .cxx_destruct]
+- -[SWContentRuleManager addContentRuleList:identifier:]
+- -[SWContentRuleManager configureContentRules]
+- -[SWContentRuleManager dispatchGroup]
+- -[SWContentRuleManager initWithUserContentController:]
+- -[SWContentRuleManager removeAllContentRuleLists]
+- -[SWContentRuleManager removeContentListForIdentifier:]
+- -[SWContentRuleManager ruleListIdentifiers]
+- -[SWContentRuleManager userContentController]
+- -[SWCoreAssembly loadInRegistry:]
+- -[SWCrashRetryThrottler crashed]
+- -[SWCrashRetryThrottler retryPolicy]
+- -[SWCrashRetryThrottler setCrashed:]
+- -[SWCrashRetryThrottler shouldReloadAfterWebProcessCrash]
+- -[SWDatastore .cxx_destruct]
+- -[SWDatastore JSONString]
+- -[SWDatastore description]
+- -[SWDatastore initWithJSONString:]
+- -[SWDatastore isEqual:]
+- -[SWDatastoreFactory .cxx_destruct]
+- -[SWDatastoreFactory createDatastoreFromMessage:]
+- -[SWDatastoreFactory initWithLogger:]
+- -[SWDatastoreFactory logger]
+- -[SWDatastoreManager .cxx_destruct]
+- -[SWDatastoreManager addObserver:]
+- -[SWDatastoreManager datastoreSynchronizationManager]
+- -[SWDatastoreManager datastore]
+- -[SWDatastoreManager documentStateProvider]
+- -[SWDatastoreManager initWithLogger:documentStateProvider:datastoreSynchronizationManager:]
+- -[SWDatastoreManager logger]
+- -[SWDatastoreManager observers]
+- -[SWDatastoreManager privateDatastore]
+- -[SWDatastoreManager removeObserver:]
+- -[SWDatastoreManager setPrivateDatastore:]
+- -[SWDatastoreManager updateDatastore:originatingSession:options:completion:]
+- -[SWDatastoreSetupScript .cxx_destruct]
+- -[SWDatastoreSetupScript datastore]
+- -[SWDatastoreSetupScript identifier]
+- -[SWDatastoreSetupScript initWithDatastore:]
+- -[SWDatastoreSetupScript queueable]
+- -[SWDatastoreSetupScript userScript]
+- -[SWDatastoreSetupTask .cxx_destruct]
+- -[SWDatastoreSetupTask datastoreManager]
+- -[SWDatastoreSetupTask identifier]
+- -[SWDatastoreSetupTask initWithDatastoreManager:scriptsManager:]
+- -[SWDatastoreSetupTask performSetup]
+- -[SWDatastoreSetupTask scriptsManager]
+- -[SWDatastoreSynchronizationManager .cxx_destruct]
+- -[SWDatastoreSynchronizationManager datastoreManager]
+- -[SWDatastoreSynchronizationManager didReceiveMessage:securityOrigin:]
+- -[SWDatastoreSynchronizationManager initWithSettingsFactory:scriptsManager:messageHandlerManager:sessionManager:logger:]
+- -[SWDatastoreSynchronizationManager localDatastoreManager]
+- -[SWDatastoreSynchronizationManager logger]
+- -[SWDatastoreSynchronizationManager scriptsManager]
+- -[SWDatastoreSynchronizationManager sessionManager]
+- -[SWDatastoreSynchronizationManager setDatastoreManager:]
+- -[SWDatastoreSynchronizationManager setLocalDatastoreManager:]
+- -[SWDatastoreSynchronizationManager settingsFactory]
+- -[SWDatastoreSynchronizationManager synchronizeDatastore:from:previousDatastore:originatingSession:queueable:completion:]
+- -[SWDatastoreUpdateScript .cxx_destruct]
+- -[SWDatastoreUpdateScript datastore]
+- -[SWDatastoreUpdateScript executableScript]
+- -[SWDatastoreUpdateScript identifier]
+- -[SWDatastoreUpdateScript initWithDatastore:oldDatastore:originatingSession:queueable:]
+- -[SWDatastoreUpdateScript oldDatastore]
+- -[SWDatastoreUpdateScript originatingSession]
+- -[SWDatastoreUpdateScript queueable]
+- -[SWDatastoreUpdateScript userScript]
+- -[SWDeveloperSettings allowRemoteInspection]
+- -[SWDeveloperSettings initWithAllowRemoteInspection:]
+- -[SWDocumentStateManager .cxx_destruct]
+- -[SWDocumentStateManager documentIsReady]
+- -[SWDocumentStateManager documentStartedLoading]
+- -[SWDocumentStateManager documentWillUnload]
+- -[SWDocumentStateManager initWithUserContentController:]
+- -[SWDocumentStateManager isDocumentReady]
+- -[SWDocumentStateManager onLoad:]
+- -[SWDocumentStateManager onLoadBlocks]
+- -[SWDocumentStateManager onReady:]
+- -[SWDocumentStateManager onReadyBlocks]
+- -[SWDocumentStateManager onUnload:]
+- -[SWDocumentStateManager onUnloadBlocks]
+- -[SWDocumentStateManager stateMachine]
+- -[SWDocumentStateManager userContentController:didReceiveScriptMessage:]
+- -[SWDocumentStateManager userContentController]
+- -[SWEmbedAction .cxx_destruct]
+- -[SWEmbedAction canHandle]
+- -[SWEmbedAction description]
+- -[SWEmbedAction info]
+- -[SWEmbedAction initWithType:info:]
+- -[SWEmbedAction isEqual:]
+- -[SWEmbedAction perform]
+- -[SWEmbedAction type]
+- -[SWErrorManager .cxx_destruct]
+- -[SWErrorManager block]
+- -[SWErrorManager didReceiveMessage:securityOrigin:]
+- -[SWErrorManager error]
+- -[SWErrorManager initWithMessageHandlerManager:timeoutManager:logger:]
+- -[SWErrorManager logger]
+- -[SWErrorManager onError:]
+- -[SWErrorManager reportError:]
+- -[SWFactoryAssembly loadInRegistry:]
+- -[SWFailureManager .cxx_destruct]
+- -[SWFailureManager block]
+- -[SWFailureManager didReceiveMessage:securityOrigin:]
+- -[SWFailureManager initWithMessageHandlerManager:logger:]
+- -[SWFailureManager logger]
+- -[SWFailureManager onEvent:]
+- -[SWFailureManager reportFailure:]
+- -[SWFailureMessage .cxx_destruct]
+- -[SWFailureMessage contentDomain]
+- -[SWFailureMessage embedName]
+- -[SWFailureMessage errorType]
+- -[SWFailureMessage initWithContentDomain:embedName:errorType:]
+- -[SWFeedConfiguration .cxx_destruct]
+- -[SWFeedConfiguration configuration]
+- -[SWFeedConfiguration copyWithZone:]
+- -[SWFeedConfiguration initWithSelectors:configuration:]
+- -[SWFeedConfiguration init]
+- -[SWFeedConfiguration isEqual:]
+- -[SWFeedConfiguration selectors]
+- -[SWFeedConfiguration setConfiguration:]
+- -[SWFeedConfiguration setSelectors:]
+- -[SWFeedConfigurationFactory createFeedConfigurationForViewController:]
+- -[SWFrameworkAssembly .cxx_destruct]
+- -[SWFrameworkAssembly assemblies]
+- -[SWFrameworkAssembly init]
+- -[SWInspection .cxx_destruct]
+- -[SWInspection accessibilityElements]
+- -[SWInspection documentSummary]
+- -[SWInspection initWithObject:]
+- -[SWInspection links]
+- -[SWInspectionAccessibilityElement .cxx_destruct]
+- -[SWInspectionAccessibilityElement frame]
+- -[SWInspectionAccessibilityElement initWithObject:]
+- -[SWInspectionAccessibilityElement setFrame:]
+- -[SWInspectionAccessibilityElement type]
+- -[SWInspectionAccessibilityElement value]
+- -[SWInspectionDocumentSummary bodyChildCount]
+- -[SWInspectionDocumentSummary bodyHeight]
+- -[SWInspectionDocumentSummary bodyWidth]
+- -[SWInspectionDocumentSummary descendantCount]
+- -[SWInspectionDocumentSummary htmlByteLength]
+- -[SWInspectionDocumentSummary initWithObject:]
+- -[SWInspectionDocumentSummary isBlank]
+- -[SWInspectionDocumentSummary loggingDescription]
+- -[SWInspectionDocumentSummary mediaElementCount]
+- -[SWInspectionDocumentSummary visibleTextLength]
+- -[SWInspectionLink .cxx_destruct]
+- -[SWInspectionLink frame]
+- -[SWInspectionLink href]
+- -[SWInspectionLink initWithObject:]
+- -[SWInspectionLink label]
+- -[SWInspectionScript executableScript]
+- -[SWInspectionScript identifier]
+- -[SWInspectionScript init]
+- -[SWInspectionScript queueable]
+- -[SWInteraction description]
+- -[SWInteraction initWithType:]
+- -[SWInteraction isEqual:]
+- -[SWInteraction perform]
+- -[SWInteraction type]
+- -[SWInteractionFactory .cxx_destruct]
+- -[SWInteractionFactory initWithNavigationManager:]
+- -[SWInteractionFactory interactionForDictionary:]
+- -[SWInteractionFactory navigationManager]
+- -[SWInteractionProvider .cxx_destruct]
+- -[SWInteractionProvider blocks]
+- -[SWInteractionProvider didReceiveMessage:securityOrigin:]
+- -[SWInteractionProvider initWithMessageHandlerManager:documentStateProvider:interactionFactory:logger:]
+- -[SWInteractionProvider interactionBlock]
+- -[SWInteractionProvider interactionFactory]
+- -[SWInteractionProvider interaction]
+- -[SWInteractionProvider logger]
+- -[SWInteractionProvider onChange:]
+- -[SWInteractionProvider setInteractionBlock:]
+- -[SWKeyboardConfiguration copyWithZone:]
+- -[SWKeyboardConfiguration description]
+- -[SWKeyboardConfiguration initWithKeyboardFrame:inputAccessoryViewFrame:isKeyboardSplit:isKeyboardFloating:isHardwareKeyboard:isKeyboardVisible:isPencilInputExpected:]
+- -[SWKeyboardConfiguration inputAccessoryViewFrame]
+- -[SWKeyboardConfiguration isEqual:]
+- -[SWKeyboardConfiguration isHardwareKeyboard]
+- -[SWKeyboardConfiguration isKeyboardFloating]
+- -[SWKeyboardConfiguration isKeyboardSplit]
+- -[SWKeyboardConfiguration isKeyboardVisible]
+- -[SWKeyboardConfiguration isPencilInputExpected]
+- -[SWKeyboardConfiguration keyboardFrame]
+- -[SWKeyboardConfiguration setInputAccessoryViewFrame:]
+- -[SWKeyboardConfiguration setIsHardwareKeyboard:]
+- -[SWKeyboardConfiguration setIsKeyboardFloating:]
+- -[SWKeyboardConfiguration setIsKeyboardSplit:]
+- -[SWKeyboardConfiguration setIsKeyboardVisible:]
+- -[SWKeyboardConfiguration setIsPencilInputExpected:]
+- -[SWKeyboardConfiguration setKeyboardFrame:]
+- -[SWLayoutGuide bounds]
+- -[SWLayoutGuide contentFrame]
+- -[SWLayoutGuide contentSafeAreaFrame]
+- -[SWLayoutGuide copyWithZone:]
+- -[SWLayoutGuide description]
+- -[SWLayoutGuide initWithBounds:contentFrame:contentSafeAreaFrame:systemSafeAreaFrame:]
+- -[SWLayoutGuide isEqual:]
+- -[SWLayoutGuide systemSafeAreaFrame]
+- -[SWLoader .cxx_destruct]
+- -[SWLoader URL]
+- -[SWLoader loadBlock]
+- -[SWLoader load]
+- -[SWLoadingPolicyProvider loadingPolicy]
+- -[SWLocalDatastoreSetupScript .cxx_destruct]
+- -[SWLocalDatastoreSetupScript datastore]
+- -[SWLocalDatastoreSetupScript identifier]
+- -[SWLocalDatastoreSetupScript initWithDatastore:]
+- -[SWLocalDatastoreSetupScript queueable]
+- -[SWLocalDatastoreSetupScript userScript]
+- -[SWLocalDatastoreSetupTask .cxx_destruct]
+- -[SWLocalDatastoreSetupTask datastoreManager]
+- -[SWLocalDatastoreSetupTask identifier]
+- -[SWLocalDatastoreSetupTask initWithDatastoreManager:scriptsManager:]
+- -[SWLocalDatastoreSetupTask performSetup]
+- -[SWLocalDatastoreSetupTask scriptsManager]
+- -[SWLocalDatastoreUpdateScript .cxx_destruct]
+- -[SWLocalDatastoreUpdateScript datastore]
+- -[SWLocalDatastoreUpdateScript executableScript]
+- -[SWLocalDatastoreUpdateScript identifier]
+- -[SWLocalDatastoreUpdateScript initWithDatastore:oldDatastore:originatingSession:queueable:]
+- -[SWLocalDatastoreUpdateScript oldDatastore]
+- -[SWLocalDatastoreUpdateScript originatingSession]
+- -[SWLocalDatastoreUpdateScript queueable]
+- -[SWLocalDatastoreUpdateScript userScript]
+- -[SWLocation .cxx_destruct]
+- -[SWLocation URL]
+- -[SWLocation canBecomeFirstResponder]
+- -[SWLocation canBecomeFocused]
+- -[SWLocation context]
+- -[SWLocation copyWithZone:]
+- -[SWLocation initWithContext:URL:]
+- -[SWLocation initWithContext:URL:canBecomeFocused:canBecomeFirstResponder:]
+- -[SWLocation isEqual:]
+- -[SWLogMessageHandler .cxx_destruct]
+- -[SWLogMessageHandler didReceiveMessage:securityOrigin:]
+- -[SWLogMessageHandler initWithLogger:]
+- -[SWLogMessageHandler logger]
+- -[SWLogger .cxx_destruct]
+- -[SWLogger bindValue:forKey:]
+- -[SWLogger constructLogWithMessage:]
+- -[SWLogger init]
+- -[SWLogger log:]
+- -[SWLogger logError:]
+- -[SWLogger logSensitive:]
+- -[SWLogger values]
+- -[SWManagerAssembly loadInRegistry:]
+- -[SWMediaSettings fullScreenEnabled]
+- -[SWMediaSettings initWithMediaTypesRequiringUserActionForPlayback:fullScreenEnabled:]
+- -[SWMediaSettings mediaTypesRequiringUserActionForPlayback]
+- -[SWMessage .cxx_destruct]
+- -[SWMessage body]
+- -[SWMessage initWithDictionary:]
+- -[SWMessage name]
+- -[SWMessageHandlerManager .cxx_destruct]
+- -[SWMessageHandlerManager addMessageHandler:name:]
+- -[SWMessageHandlerManager initWithUserContentController:logger:]
+- -[SWMessageHandlerManager logger]
+- -[SWMessageHandlerManager messageHandlers]
+- -[SWMessageHandlerManager userContentController:didReceiveScriptMessage:]
+- -[SWMessageSecurityOrigin .cxx_destruct]
+- -[SWMessageSecurityOrigin host]
+- -[SWMessageSecurityOrigin initWithProtocol:host:request:]
+- -[SWMessageSecurityOrigin protocol]
+- -[SWMessageSecurityOrigin request]
+- -[SWMutableConfiguration .cxx_destruct]
+- -[SWMutableConfiguration activePictureInPictureURL]
+- -[SWMutableConfiguration contentEnvironment]
+- -[SWMutableConfiguration contentSizeCategory]
+- -[SWMutableConfiguration dataSources]
+- -[SWMutableConfiguration feedConfiguration]
+- -[SWMutableConfiguration is24HourTime]
+- -[SWMutableConfiguration isTransitioning]
+- -[SWMutableConfiguration keyboardConfiguration]
+- -[SWMutableConfiguration layoutGuide]
+- -[SWMutableConfiguration locale]
+- -[SWMutableConfiguration location]
+- -[SWMutableConfiguration networkStatus]
+- -[SWMutableConfiguration setActivePictureInPictureURL:]
+- -[SWMutableConfiguration setContentEnvironment:]
+- -[SWMutableConfiguration setContentSizeCategory:]
+- -[SWMutableConfiguration setDataSources:]
+- -[SWMutableConfiguration setFeedConfiguration:]
+- -[SWMutableConfiguration setIs24HourTime:]
+- -[SWMutableConfiguration setIsTransitioning:]
+- -[SWMutableConfiguration setKeyboardConfiguration:]
+- -[SWMutableConfiguration setLayoutGuide:]
+- -[SWMutableConfiguration setLocale:]
+- -[SWMutableConfiguration setLocation:]
+- -[SWMutableConfiguration setNetworkStatus:]
+- -[SWMutableConfiguration setSourceURL:]
+- -[SWMutableConfiguration setStoreFront:]
+- -[SWMutableConfiguration setSupportsLiveActivities:]
+- -[SWMutableConfiguration sourceURL]
+- -[SWMutableConfiguration storeFront]
+- -[SWMutableConfiguration supportsLiveActivities]
+- -[SWNavigationBarConfiguration .cxx_destruct]
+- -[SWNavigationBarConfiguration backConfiguration]
+- -[SWNavigationBarConfiguration initWithTitle:shareConfiguration:backConfiguration:]
+- -[SWNavigationBarConfiguration setBackConfiguration:]
+- -[SWNavigationBarConfiguration setShareConfiguration:]
+- -[SWNavigationBarConfiguration setTitle:]
+- -[SWNavigationBarConfiguration shareConfiguration]
+- -[SWNavigationBarConfiguration title]
+- -[SWNavigationBarConfigurationManager .cxx_destruct]
+- -[SWNavigationBarConfigurationManager didReceiveMessage:securityOrigin:]
+- -[SWNavigationBarConfigurationManager initWithMessageHandlerManager:logger:]
+- -[SWNavigationBarConfigurationManager logger]
+- -[SWNavigationBarConfigurationManager navigationBarConfigurationBlock]
+- -[SWNavigationBarConfigurationManager setNavigationBarConfigurationBlock:]
+- -[SWNavigationBarConfigurationManager shareItemsFromDictionary:]
+- -[SWNavigationManager .cxx_destruct]
+- -[SWNavigationManager actionForRequest:]
+- -[SWNavigationManager addObserver:]
+- -[SWNavigationManager commitViewController:]
+- -[SWNavigationManager currentPreview]
+- -[SWNavigationManager extensionHandlers]
+- -[SWNavigationManager handlers]
+- -[SWNavigationManager init]
+- -[SWNavigationManager observers]
+- -[SWNavigationManager previewViewControllerForRequest:]
+- -[SWNavigationManager registerHandler:]
+- -[SWNavigationManager registerHandler:extension:]
+- -[SWNavigationManager registerHandler:scheme:]
+- -[SWNavigationManager removeObserver:]
+- -[SWNavigationManager schemeHandlers]
+- -[SWNavigationManager setCurrentPreview:]
+- -[SWNavigationManager shouldPreviewRequest:]
+- -[SWNavigationObserver .cxx_destruct]
+- -[SWNavigationObserver block]
+- -[SWNavigationObserver handledNavigationWithURL:]
+- -[SWNavigationObserver initWithBlock:]
+- -[SWNavigationPreview .cxx_destruct]
+- -[SWNavigationPreview initWithViewController:navigationHandler:URLRequest:]
+- -[SWNavigationPreview navigationHandler]
+- -[SWNavigationPreview request]
+- -[SWNavigationPreview viewController]
+- -[SWPreferredSizeManager .cxx_destruct]
+- -[SWPreferredSizeManager didReceiveMessage:securityOrigin:]
+- -[SWPreferredSizeManager initWithMessageHandlerManager:logger:]
+- -[SWPreferredSizeManager logger]
+- -[SWPreferredSizeManager onPreferredSize:]
+- -[SWPreferredSizeManager preferredSizeBlock]
+- -[SWPresentationDatastore .cxx_destruct]
+- -[SWPresentationDatastore description]
+- -[SWPresentationDatastore identifier]
+- -[SWPresentationDatastore initWithType:identifier:]
+- -[SWPresentationDatastore isEqual:]
+- -[SWPresentationDatastore type]
+- -[SWPresentationManager .cxx_destruct]
+- -[SWPresentationManager datastore]
+- -[SWPresentationManager descriptionForPresentationState:]
+- -[SWPresentationManager didReceiveMessage:securityOrigin:]
+- -[SWPresentationManager heightValue]
+- -[SWPresentationManager height]
+- -[SWPresentationManager initWithWebContentScriptsManager:messageHandlerManager:documentStateProvider:logger:]
+- -[SWPresentationManager inspectionWithCompletion:]
+- -[SWPresentationManager loadBlock]
+- -[SWPresentationManager logger]
+- -[SWPresentationManager onLoad:]
+- -[SWPresentationManager onPresentable:]
+- -[SWPresentationManager presentableBlock]
+- -[SWPresentationManager presentationState]
+- -[SWPresentationManager refresh]
+- -[SWPresentationManager reset]
+- -[SWPresentationManager scriptsManager]
+- -[SWPresentationManager setDatastore:]
+- -[SWPresentationManager setHeightValue:]
+- -[SWPresentationManager setPresentationState:]
+- -[SWPresentationStateScript .cxx_destruct]
+- -[SWPresentationStateScript executableScript]
+- -[SWPresentationStateScript identifier]
+- -[SWPresentationStateScript initWithPresentationState:]
+- -[SWPresentationStateScript presentationState]
+- -[SWPresentationStateScript queueable]
+- -[SWPresentationStateScript userScript]
+- -[SWProcessConfiguration initWithBackgroundPriority:]
+- -[SWProcessConfiguration shouldRunAtBackgroundPriority]
+- -[SWProcessTerminationManager .cxx_destruct]
+- -[SWProcessTerminationManager errorReporter]
+- -[SWProcessTerminationManager initWithTerminationThrottler:errorReporter:]
+- -[SWProcessTerminationManager onRetry:]
+- -[SWProcessTerminationManager onRetryBlocks]
+- -[SWProcessTerminationManager throttler]
+- -[SWProcessTerminationManager webContentProcessTerminated]
+- -[SWProviderAssembly loadInRegistry:]
+- -[SWQueueableScriptWithCompletion .cxx_destruct]
+- -[SWQueueableScriptWithCompletion completion]
+- -[SWQueueableScriptWithCompletion initWithScript:completion:]
+- -[SWQueueableScriptWithCompletion script]
+- -[SWRefreshScript .cxx_destruct]
+- -[SWRefreshScript executableScript]
+- -[SWRefreshScript identifier]
+- -[SWRefreshScript queueable]
+- -[SWRefreshScript userScript]
+- -[SWScaleManager .cxx_destruct]
+- -[SWScaleManager initWithWebView:scale:]
+- -[SWScaleManager scale]
+- -[SWScaleManager setScale:]
+- -[SWScaleManager webView]
+- -[SWScriptsManager .cxx_destruct]
+- -[SWScriptsManager _pauseScriptExecution]
+- -[SWScriptsManager _resumeScriptExecution]
+- -[SWScriptsManager addScript:]
+- -[SWScriptsManager executeQueuedScripts]
+- -[SWScriptsManager executeScript:completion:]
+- -[SWScriptsManager executeScriptWithReturnObject:completion:]
+- -[SWScriptsManager initWithWebView:documentStateProvider:logger:]
+- -[SWScriptsManager logger]
+- -[SWScriptsManager queueExecutableScript:scriptExecutionCompletion:]
+- -[SWScriptsManager queuedExecutableScripts]
+- -[SWScriptsManager readyToExecuteScripts]
+- -[SWScriptsManager removeAllScripts]
+- -[SWScriptsManager removeScript:]
+- -[SWScriptsManager removeScriptByIdentifier:]
+- -[SWScriptsManager scripts]
+- -[SWScriptsManager setReadyToExecuteScripts:]
+- -[SWScriptsManager webView]
+- -[SWScriptsSetupTask .cxx_destruct]
+- -[SWScriptsSetupTask identifier]
+- -[SWScriptsSetupTask initWithScriptsManager:]
+- -[SWScriptsSetupTask performSetup]
+- -[SWScriptsSetupTask scriptsManager]
+- -[SWScrollSettings initWithScrollEnabled:scrollsToTop:showsVerticalScrollIndicator:]
+- -[SWScrollSettings scrollEnabled]
+- -[SWScrollSettings scrollsToTop]
+- -[SWScrollSettings showsVerticalScrollIndicator]
+- -[SWSession .cxx_destruct]
+- -[SWSession identifier]
+- -[SWSession init]
+- -[SWSession isEqual:]
+- -[SWSessionManager .cxx_destruct]
+- -[SWSessionManager initWithScriptsManager:logger:]
+- -[SWSessionManager logger]
+- -[SWSessionManager refresh]
+- -[SWSessionManager scriptsManager]
+- -[SWSessionManager session]
+- -[SWSessionScript .cxx_destruct]
+- -[SWSessionScript identifier]
+- -[SWSessionScript initWithSession:]
+- -[SWSessionScript queueable]
+- -[SWSessionScript session]
+- -[SWSessionScript userScript]
+- -[SWSetupAssembly loadInRegistry:]
+- -[SWSetupManager .cxx_destruct]
+- -[SWSetupManager addTask:]
+- -[SWSetupManager initWithLogger:]
+- -[SWSetupManager logger]
+- -[SWSetupManager performTasks]
+- -[SWSetupManager tasks]
+- -[SWSetupScript .cxx_destruct]
+- -[SWSetupScript executableScript]
+- -[SWSetupScript identifier]
+- -[SWSetupScript queueable]
+- -[SWSetupScript userScript]
+- -[SWShareConfiguration .cxx_destruct]
+- -[SWShareConfiguration initWithTitle:shareItems:]
+- -[SWShareConfiguration setShareItems:]
+- -[SWShareConfiguration setTitle:]
+- -[SWShareConfiguration shareItems]
+- -[SWShareConfiguration title]
+- -[SWSnapshotManager .cxx_destruct]
+- -[SWSnapshotManager configurationManager]
+- -[SWSnapshotManager initWithWebView:configurationManager:]
+- -[SWSnapshotManager takeSnapshotWithCompletionHandler:]
+- -[SWSnapshotManager webView]
+- -[SWTimeoutManager .cxx_destruct]
+- -[SWTimeoutManager didReceiveMessage:securityOrigin:]
+- -[SWTimeoutManager initWithTimeout:messageHandlerManager:documentStateProvider:]
+- -[SWTimeoutManager onTimeout:]
+- -[SWTimeoutManager setTimer:]
+- -[SWTimeoutManager stateMachine]
+- -[SWTimeoutManager timeoutBlocks]
+- -[SWTimeoutManager timer]
+- -[SWURLAction .cxx_destruct]
+- -[SWURLAction URL]
+- -[SWURLAction canHandle]
+- -[SWURLAction description]
+- -[SWURLAction initWithURL:navigationManager:]
+- -[SWURLAction isEqual:]
+- -[SWURLAction navigationManager]
+- -[SWURLAction perform]
+- -[SWURLAction type]
+- -[SWURLInteraction .cxx_destruct]
+- -[SWURLInteraction URL]
+- -[SWURLInteraction description]
+- -[SWURLInteraction initWithURL:navigationManager:]
+- -[SWURLInteraction isEqual:]
+- -[SWURLInteraction navigationManager]
+- -[SWURLInteraction perform]
+- -[SWURLInteraction type]
+- -[SWURLSchemeHandlerManager .cxx_destruct]
+- -[SWURLSchemeHandlerManager configuration]
+- -[SWURLSchemeHandlerManager factories]
+- -[SWURLSchemeHandlerManager handlers]
+- -[SWURLSchemeHandlerManager initWithConfiguration:logger:]
+- -[SWURLSchemeHandlerManager logger]
+- -[SWURLSchemeHandlerManager registerFactory:forScheme:]
+- -[SWURLSchemeHandlerManager registerSession:]
+- -[SWURLSchemeHandlerManager session]
+- -[SWURLSchemeHandlerManager setSession:]
+- -[SWURLSchemeHandlerManager webView:startURLSchemeTask:]
+- -[SWURLSchemeHandlerManager webView:stopURLSchemeTask:]
+- -[SWURLSchemeHandlerSession .cxx_destruct]
+- -[SWURLSchemeHandlerSession endCallbackBlock]
+- -[SWURLSchemeHandlerSession endSessionForHandler:withTask:]
+- -[SWURLSchemeHandlerSession identifier]
+- -[SWURLSchemeHandlerSession initWithStartCallback:endCallback:]
+- -[SWURLSchemeHandlerSession isEqual:]
+- -[SWURLSchemeHandlerSession startCallbackBlock]
+- -[SWURLSchemeHandlerSession startSessionForHandler:withTask:]
+- -[SWURLSchemeHandlerSession trackingTasks]
+- -[SWURLSchemeTask .cxx_destruct]
+- -[SWURLSchemeTask completionBlock]
+- -[SWURLSchemeTask didFailWithError:]
+- -[SWURLSchemeTask didFinish]
+- -[SWURLSchemeTask didReceiveData:]
+- -[SWURLSchemeTask didReceiveResponse:]
+- -[SWURLSchemeTask initWithTask:logger:]
+- -[SWURLSchemeTask logger]
+- -[SWURLSchemeTask onCompletion:]
+- -[SWURLSchemeTask performBlockOnMainThread:]
+- -[SWURLSchemeTask request]
+- -[SWURLSchemeTask setStopped:]
+- -[SWURLSchemeTask stop]
+- -[SWURLSchemeTask stopped]
+- -[SWURLSchemeTask task]
+- -[SWURLShareItem .cxx_destruct]
+- -[SWURLShareItem initWithURL:]
+- -[SWURLShareItem kind]
+- -[SWURLShareItem setUrl:]
+- -[SWURLShareItem url]
+- -[SWViewController .cxx_destruct]
+- -[SWViewController URLSchemeHandlerManager]
+- -[SWViewController URL]
+- -[SWViewController _webView:focusShouldStartInputSession:]
+- -[SWViewController _webView:navigation:didSameDocumentNavigation:]
+- -[SWViewController _webViewCanBecomeFocused:]
+- -[SWViewController _webViewDidEnterElementFullscreen:]
+- -[SWViewController _webViewDidExitElementFullscreen:]
+- -[SWViewController accessibilityElements]
+- -[SWViewController allowsRemoteInspection]
+- -[SWViewController contentRuleManager]
+- -[SWViewController datastoreSynchronizationManager]
+- -[SWViewController documentStateReporter]
+- -[SWViewController errorReporter]
+- -[SWViewController focusShouldStartInputSession]
+- -[SWViewController initWithWebView:setupManager:scriptsManager:messageHandlerManager:navigationManager:errorReporter:documentStateReporter:timeoutManager:terminationManager:contentRuleManager:reachabilityProvider:logger:sessionManager:datastoreSynchronizationManager:localDatastoreManager:URLSchemeHandlerManager:]
+- -[SWViewController initiateLoadingWithLoader:]
+- -[SWViewController inputAccessoryView]
+- -[SWViewController isWebViewPresentingInFullScreen]
+- -[SWViewController loadHTMLString:baseURL:]
+- -[SWViewController loadLocalDatastore:options:completion:]
+- -[SWViewController loadURL:]
+- -[SWViewController loadURL:cachePolicy:]
+- -[SWViewController loader]
+- -[SWViewController loadingURL]
+- -[SWViewController localDatastoreManager]
+- -[SWViewController logger]
+- -[SWViewController messageHandlerManager]
+- -[SWViewController navigationManager]
+- -[SWViewController pocketInsetsForSafeArea]
+- -[SWViewController prewarm]
+- -[SWViewController reachabilityProvider]
+- -[SWViewController removeMenusForIdentifiers:]
+- -[SWViewController scriptsManager]
+- -[SWViewController sessionManager]
+- -[SWViewController setAllowsRemoteInspection:]
+- -[SWViewController setFocusShouldStartInputSession:]
+- -[SWViewController setHiddenPocketEdges:]
+- -[SWViewController setInputAccessoryView:]
+- -[SWViewController setIsWebViewPresentingInFullScreen:]
+- -[SWViewController setLoader:]
+- -[SWViewController setPocketInsetsForSafeArea:]
+- -[SWViewController setPocketsEnabled:]
+- -[SWViewController setShortcutsBarWithLeadingGroups:trailingGroups:]
+- -[SWViewController setTextInputTraits:]
+- -[SWViewController setWebViewCanBecomeFirstResponder:]
+- -[SWViewController setWebViewCanBecomeFocused:]
+- -[SWViewController setupManager]
+- -[SWViewController terminationManager]
+- -[SWViewController timeoutManager]
+- -[SWViewController viewDidDisappear:]
+- -[SWViewController viewDidLayoutSubviews]
+- -[SWViewController viewDidLoad]
+- -[SWViewController webView:commitPreviewingViewController:]
+- -[SWViewController webView:decidePolicyForNavigationAction:decisionHandler:]
+- -[SWViewController webView:didFailNavigation:withError:]
+- -[SWViewController webView:didFailProvisionalNavigation:withError:]
+- -[SWViewController webView:previewingViewControllerForElement:defaultActions:]
+- -[SWViewController webView:shouldPreviewElement:]
+- -[SWViewController webViewCanBecomeFirstResponder]
+- -[SWViewController webViewCanBecomeFocused]
+- -[SWViewController webViewSetNeedsLayout]
+- -[SWViewController webViewWebContentProcessDidTerminate:]
+- -[SWViewController webView]
+- -[SWViewControllerAssembly loadInRegistry:]
+- -[SWWeakMessageHandler .cxx_destruct]
+- -[SWWeakMessageHandler didReceiveMessage:securityOrigin:]
+- -[SWWeakMessageHandler messageHandler]
+- -[SWWeakScriptMessageHandler .cxx_destruct]
+- -[SWWeakScriptMessageHandler initWithScriptMessageHandler:]
+- -[SWWeakScriptMessageHandler scriptMessageHandler]
+- -[SWWeakScriptMessageHandler userContentController:didReceiveScriptMessage:]
+- -[SWWeakURLSchemeHandler .cxx_destruct]
+- -[SWWeakURLSchemeHandler URLSchemeHandler]
+- -[SWWeakURLSchemeHandler initWithURLSchemeHandler:]
+- -[SWWeakURLSchemeHandler webView:startURLSchemeTask:]
+- -[SWWeakURLSchemeHandler webView:stopURLSchemeTask:]
+- -[SWWebView .cxx_destruct]
+- -[SWWebView _textInputTraits]
+- -[SWWebView accessoryView]
+- -[SWWebView buildMenuWithBuilder:]
+- -[SWWebView canBecomeFirstResponder]
+- -[SWWebView canBecomeFocused]
+- -[SWWebView inputAccessoryView]
+- -[SWWebView overridenTraits]
+- -[SWWebView pocketInsetsForSafeArea]
+- -[SWWebView removeMenusForIdentifiers:]
+- -[SWWebView removedMenuIdentifiers]
+- -[SWWebView safeAreaInsetsDidChange]
+- -[SWWebView setAccessoryView:]
+- -[SWWebView setInputAccessoryView:]
+- -[SWWebView setOverridenTraits:]
+- -[SWWebView setPocketInsetsForSafeArea:]
+- -[SWWebView setRemovedMenuIdentifiers:]
+- -[SWWebView setShortcutsBarWithLeadingGroups:trailingGroups:]
+- -[SWWebView setTextInputTraits:]
+- -[SWWebView setWebViewCanBecomeFirstResponder:]
+- -[SWWebView setWebViewCanBecomeFocused:]
+- -[SWWebView updatePocketInsetsForSafeArea]
+- -[SWWebView webViewCanBecomeFirstResponder]
+- -[SWWebView webViewCanBecomeFocused]
+- -[SWWebViewConfigurationFactory .cxx_destruct]
+- -[SWWebViewConfigurationFactory createWebViewConfigurationWithUserContentController:mediaSettings:]
+- -[SWWebViewConfigurationFactory initWithProcessPool:websiteDataStore:]
+- -[SWWebViewConfigurationFactory processPool]
+- -[SWWebViewConfigurationFactory websiteDataStore]
+- -[SWWebViewFactory .cxx_destruct]
+- -[SWWebViewFactory createWebViewWithWebViewConfiguration:scrollSettings:]
+- -[SWWebViewFactory init]
+- -[SWWebViewFactory webViews]
+- GCC_except_table0
+- GCC_except_table11
+- GCC_except_table12
+- GCC_except_table14
+- GCC_except_table15
+- GCC_except_table2
+- GCC_except_table3
+- GCC_except_table4
+- GCC_except_table5
+- _OBJC_CLASS_$_SWCoreAssembly
+- _OBJC_CLASS_$_SWFactoryAssembly
+- _OBJC_CLASS_$_SWFrameworkAssembly
+- _OBJC_CLASS_$_SWManagerAssembly
+- _OBJC_CLASS_$_SWProviderAssembly
+- _OBJC_CLASS_$_SWSetupAssembly
+- _OBJC_CLASS_$_SWSwiftFrameWorkAssembly
+- _OBJC_CLASS_$_SWViewControllerAssembly
+- _OBJC_IVAR_$_SWActionFactory._navigationManager
+- _OBJC_IVAR_$_SWActionProvider._actionBlocks
+- _OBJC_IVAR_$_SWActionProvider._actionFactory
+- _OBJC_IVAR_$_SWActionProvider._logger
+- _OBJC_IVAR_$_SWBackButtonTappedScript.userScript
+- _OBJC_IVAR_$_SWBackConfiguration._hidden
+- _OBJC_IVAR_$_SWConfiguration._activePictureInPictureURL
+- _OBJC_IVAR_$_SWConfiguration._appVersion
+- _OBJC_IVAR_$_SWConfiguration._contentEnvironment
+- _OBJC_IVAR_$_SWConfiguration._contentSizeCategory
+- _OBJC_IVAR_$_SWConfiguration._dataSources
+- _OBJC_IVAR_$_SWConfiguration._feedConfiguration
+- _OBJC_IVAR_$_SWConfiguration._identifier
+- _OBJC_IVAR_$_SWConfiguration._is24HourTime
+- _OBJC_IVAR_$_SWConfiguration._isTransitioning
+- _OBJC_IVAR_$_SWConfiguration._keyboardConfiguration
+- _OBJC_IVAR_$_SWConfiguration._layoutGuide
+- _OBJC_IVAR_$_SWConfiguration._locale
+- _OBJC_IVAR_$_SWConfiguration._location
+- _OBJC_IVAR_$_SWConfiguration._networkStatus
+- _OBJC_IVAR_$_SWConfiguration._sourceURL
+- _OBJC_IVAR_$_SWConfiguration._storeFront
+- _OBJC_IVAR_$_SWConfiguration._supportsLiveActivities
+- _OBJC_IVAR_$_SWConfiguration._systemVersion
+- _OBJC_IVAR_$_SWConfigurationManager._configuration
+- _OBJC_IVAR_$_SWConfigurationManager._configurationScript
+- _OBJC_IVAR_$_SWConfigurationManager._logger
+- _OBJC_IVAR_$_SWConfigurationManager._serializer
+- _OBJC_IVAR_$_SWConfigurationManager._webContentScriptsManager
+- _OBJC_IVAR_$_SWConfigurationScript._configuration
+- _OBJC_IVAR_$_SWConfigurationScript.userScript
+- _OBJC_IVAR_$_SWContainerConfiguration._activePictureInPictureURL
+- _OBJC_IVAR_$_SWContainerConfiguration._contentEnvironment
+- _OBJC_IVAR_$_SWContainerConfiguration._contentSizeCategory
+- _OBJC_IVAR_$_SWContainerConfiguration._dataSources
+- _OBJC_IVAR_$_SWContainerConfiguration._feedConfiguration
+- _OBJC_IVAR_$_SWContainerConfiguration._identifier
+- _OBJC_IVAR_$_SWContainerConfiguration._layoutGuide
+- _OBJC_IVAR_$_SWContainerConfiguration._locale
+- _OBJC_IVAR_$_SWContainerConfiguration._location
+- _OBJC_IVAR_$_SWContainerConfiguration._sourceURL
+- _OBJC_IVAR_$_SWContainerConfiguration._storeFront
+- _OBJC_IVAR_$_SWContainerConfiguration._supportsLiveActivities
+- _OBJC_IVAR_$_SWContainerViewController._URLSchemeHandlerManager
+- _OBJC_IVAR_$_SWContainerViewController._actionProvider
+- _OBJC_IVAR_$_SWContainerViewController._configuration
+- _OBJC_IVAR_$_SWContainerViewController._configurationManager
+- _OBJC_IVAR_$_SWContainerViewController._developerSettings
+- _OBJC_IVAR_$_SWContainerViewController._errorProvider
+- _OBJC_IVAR_$_SWContainerViewController._failureProvider
+- _OBJC_IVAR_$_SWContainerViewController._inputAccessoryViewFrame
+- _OBJC_IVAR_$_SWContainerViewController._interactionProvider
+- _OBJC_IVAR_$_SWContainerViewController._isKeyboardVisible
+- _OBJC_IVAR_$_SWContainerViewController._isPencilInputExpected
+- _OBJC_IVAR_$_SWContainerViewController._isTransitioning
+- _OBJC_IVAR_$_SWContainerViewController._keyboardCoordinateSpace
+- _OBJC_IVAR_$_SWContainerViewController._keyboardFrame
+- _OBJC_IVAR_$_SWContainerViewController._keyboardScreen
+- _OBJC_IVAR_$_SWContainerViewController._navigationBarConfigurationProvider
+- _OBJC_IVAR_$_SWContainerViewController._networkStatus
+- _OBJC_IVAR_$_SWContainerViewController._preferredSizeManager
+- _OBJC_IVAR_$_SWContainerViewController._presentationManager
+- _OBJC_IVAR_$_SWContainerViewController._scaleManager
+- _OBJC_IVAR_$_SWContainerViewController._snapshotManager
+- _OBJC_IVAR_$_SWContainerViewController._webContentViewController
+- _OBJC_IVAR_$_SWContentRuleManager._dispatchGroup
+- _OBJC_IVAR_$_SWContentRuleManager._ruleListIdentifiers
+- _OBJC_IVAR_$_SWContentRuleManager._userContentController
+- _OBJC_IVAR_$_SWCrashRetryThrottler._crashed
+- _OBJC_IVAR_$_SWCrashRetryThrottler.retryPolicy
+- _OBJC_IVAR_$_SWDatastore._JSONString
+- _OBJC_IVAR_$_SWDatastoreFactory._logger
+- _OBJC_IVAR_$_SWDatastoreManager._datastoreSynchronizationManager
+- _OBJC_IVAR_$_SWDatastoreManager._documentStateProvider
+- _OBJC_IVAR_$_SWDatastoreManager._logger
+- _OBJC_IVAR_$_SWDatastoreManager._observers
+- _OBJC_IVAR_$_SWDatastoreManager._privateDatastore
+- _OBJC_IVAR_$_SWDatastoreSetupScript._datastore
+- _OBJC_IVAR_$_SWDatastoreSetupTask._datastoreManager
+- _OBJC_IVAR_$_SWDatastoreSetupTask._scriptsManager
+- _OBJC_IVAR_$_SWDatastoreSynchronizationManager._datastoreManager
+- _OBJC_IVAR_$_SWDatastoreSynchronizationManager._localDatastoreManager
+- _OBJC_IVAR_$_SWDatastoreSynchronizationManager._logger
+- _OBJC_IVAR_$_SWDatastoreSynchronizationManager._scriptsManager
+- _OBJC_IVAR_$_SWDatastoreSynchronizationManager._sessionManager
+- _OBJC_IVAR_$_SWDatastoreSynchronizationManager._settingsFactory
+- _OBJC_IVAR_$_SWDatastoreUpdateScript._datastore
+- _OBJC_IVAR_$_SWDatastoreUpdateScript._oldDatastore
+- _OBJC_IVAR_$_SWDatastoreUpdateScript._originatingSession
+- _OBJC_IVAR_$_SWDatastoreUpdateScript._queueable
+- _OBJC_IVAR_$_SWDeveloperSettings._allowRemoteInspection
+- _OBJC_IVAR_$_SWDocumentStateManager._onLoadBlocks
+- _OBJC_IVAR_$_SWDocumentStateManager._onReadyBlocks
+- _OBJC_IVAR_$_SWDocumentStateManager._onUnloadBlocks
+- _OBJC_IVAR_$_SWDocumentStateManager._stateMachine
+- _OBJC_IVAR_$_SWDocumentStateManager._userContentController
+- _OBJC_IVAR_$_SWEmbedAction._info
+- _OBJC_IVAR_$_SWEmbedAction._type
+- _OBJC_IVAR_$_SWErrorManager._block
+- _OBJC_IVAR_$_SWErrorManager._error
+- _OBJC_IVAR_$_SWErrorManager._logger
+- _OBJC_IVAR_$_SWFailureManager._block
+- _OBJC_IVAR_$_SWFailureManager._logger
+- _OBJC_IVAR_$_SWFailureMessage._contentDomain
+- _OBJC_IVAR_$_SWFailureMessage._embedName
+- _OBJC_IVAR_$_SWFailureMessage._errorType
+- _OBJC_IVAR_$_SWFeedConfiguration._configuration
+- _OBJC_IVAR_$_SWFeedConfiguration._selectors
+- _OBJC_IVAR_$_SWFrameworkAssembly._assemblies
+- _OBJC_IVAR_$_SWInspection._accessibilityElements
+- _OBJC_IVAR_$_SWInspection._documentSummary
+- _OBJC_IVAR_$_SWInspection._links
+- _OBJC_IVAR_$_SWInspectionAccessibilityElement._frame
+- _OBJC_IVAR_$_SWInspectionAccessibilityElement._type
+- _OBJC_IVAR_$_SWInspectionAccessibilityElement._value
+- _OBJC_IVAR_$_SWInspectionDocumentSummary._bodyChildCount
+- _OBJC_IVAR_$_SWInspectionDocumentSummary._bodyHeight
+- _OBJC_IVAR_$_SWInspectionDocumentSummary._bodyWidth
+- _OBJC_IVAR_$_SWInspectionDocumentSummary._descendantCount
+- _OBJC_IVAR_$_SWInspectionDocumentSummary._htmlByteLength
+- _OBJC_IVAR_$_SWInspectionDocumentSummary._mediaElementCount
+- _OBJC_IVAR_$_SWInspectionDocumentSummary._visibleTextLength
+- _OBJC_IVAR_$_SWInspectionLink._frame
+- _OBJC_IVAR_$_SWInspectionLink._href
+- _OBJC_IVAR_$_SWInspectionLink._label
+- _OBJC_IVAR_$_SWInteraction._type
+- _OBJC_IVAR_$_SWInteractionFactory._navigationManager
+- _OBJC_IVAR_$_SWInteractionProvider._blocks
+- _OBJC_IVAR_$_SWInteractionProvider._interaction
+- _OBJC_IVAR_$_SWInteractionProvider._interactionBlock
+- _OBJC_IVAR_$_SWInteractionProvider._interactionFactory
+- _OBJC_IVAR_$_SWInteractionProvider._logger
+- _OBJC_IVAR_$_SWKeyboardConfiguration._inputAccessoryViewFrame
+- _OBJC_IVAR_$_SWKeyboardConfiguration._isHardwareKeyboard
+- _OBJC_IVAR_$_SWKeyboardConfiguration._isKeyboardFloating
+- _OBJC_IVAR_$_SWKeyboardConfiguration._isKeyboardSplit
+- _OBJC_IVAR_$_SWKeyboardConfiguration._isKeyboardVisible
+- _OBJC_IVAR_$_SWKeyboardConfiguration._isPencilInputExpected
+- _OBJC_IVAR_$_SWKeyboardConfiguration._keyboardFrame
+- _OBJC_IVAR_$_SWLayoutGuide._bounds
+- _OBJC_IVAR_$_SWLayoutGuide._contentFrame
+- _OBJC_IVAR_$_SWLayoutGuide._contentSafeAreaFrame
+- _OBJC_IVAR_$_SWLayoutGuide._systemSafeAreaFrame
+- _OBJC_IVAR_$_SWLoader._URL
+- _OBJC_IVAR_$_SWLoader._loadBlock
+- _OBJC_IVAR_$_SWLocalDatastoreSetupScript._datastore
+- _OBJC_IVAR_$_SWLocalDatastoreSetupTask._datastoreManager
+- _OBJC_IVAR_$_SWLocalDatastoreSetupTask._scriptsManager
+- _OBJC_IVAR_$_SWLocalDatastoreUpdateScript._datastore
+- _OBJC_IVAR_$_SWLocalDatastoreUpdateScript._oldDatastore
+- _OBJC_IVAR_$_SWLocalDatastoreUpdateScript._originatingSession
+- _OBJC_IVAR_$_SWLocalDatastoreUpdateScript._queueable
+- _OBJC_IVAR_$_SWLocation._URL
+- _OBJC_IVAR_$_SWLocation._canBecomeFirstResponder
+- _OBJC_IVAR_$_SWLocation._canBecomeFocused
+- _OBJC_IVAR_$_SWLocation._context
+- _OBJC_IVAR_$_SWLogMessageHandler._logger
+- _OBJC_IVAR_$_SWLogger._values
+- _OBJC_IVAR_$_SWMediaSettings._fullScreenEnabled
+- _OBJC_IVAR_$_SWMediaSettings._mediaTypesRequiringUserActionForPlayback
+- _OBJC_IVAR_$_SWMessage._body
+- _OBJC_IVAR_$_SWMessage._name
+- _OBJC_IVAR_$_SWMessageHandlerManager._logger
+- _OBJC_IVAR_$_SWMessageHandlerManager._messageHandlers
+- _OBJC_IVAR_$_SWMessageSecurityOrigin._host
+- _OBJC_IVAR_$_SWMessageSecurityOrigin._protocol
+- _OBJC_IVAR_$_SWMessageSecurityOrigin._request
+- _OBJC_IVAR_$_SWMutableConfiguration.activePictureInPictureURL
+- _OBJC_IVAR_$_SWMutableConfiguration.contentEnvironment
+- _OBJC_IVAR_$_SWMutableConfiguration.contentSizeCategory
+- _OBJC_IVAR_$_SWMutableConfiguration.dataSources
+- _OBJC_IVAR_$_SWMutableConfiguration.feedConfiguration
+- _OBJC_IVAR_$_SWMutableConfiguration.is24HourTime
+- _OBJC_IVAR_$_SWMutableConfiguration.isTransitioning
+- _OBJC_IVAR_$_SWMutableConfiguration.keyboardConfiguration
+- _OBJC_IVAR_$_SWMutableConfiguration.layoutGuide
+- _OBJC_IVAR_$_SWMutableConfiguration.locale
+- _OBJC_IVAR_$_SWMutableConfiguration.location
+- _OBJC_IVAR_$_SWMutableConfiguration.networkStatus
+- _OBJC_IVAR_$_SWMutableConfiguration.sourceURL
+- _OBJC_IVAR_$_SWMutableConfiguration.storeFront
+- _OBJC_IVAR_$_SWMutableConfiguration.supportsLiveActivities
+- _OBJC_IVAR_$_SWNavigationBarConfiguration._backConfiguration
+- _OBJC_IVAR_$_SWNavigationBarConfiguration._shareConfiguration
+- _OBJC_IVAR_$_SWNavigationBarConfiguration._title
+- _OBJC_IVAR_$_SWNavigationBarConfigurationManager._logger
+- _OBJC_IVAR_$_SWNavigationBarConfigurationManager._navigationBarConfigurationBlock
+- _OBJC_IVAR_$_SWNavigationManager._currentPreview
+- _OBJC_IVAR_$_SWNavigationManager._extensionHandlers
+- _OBJC_IVAR_$_SWNavigationManager._handlers
+- _OBJC_IVAR_$_SWNavigationManager._observers
+- _OBJC_IVAR_$_SWNavigationManager._schemeHandlers
+- _OBJC_IVAR_$_SWNavigationObserver._block
+- _OBJC_IVAR_$_SWNavigationPreview._navigationHandler
+- _OBJC_IVAR_$_SWNavigationPreview._request
+- _OBJC_IVAR_$_SWNavigationPreview._viewController
+- _OBJC_IVAR_$_SWPreferredSizeManager._logger
+- _OBJC_IVAR_$_SWPreferredSizeManager.preferredSizeBlock
+- _OBJC_IVAR_$_SWPresentationDatastore._identifier
+- _OBJC_IVAR_$_SWPresentationDatastore._type
+- _OBJC_IVAR_$_SWPresentationManager._datastore
+- _OBJC_IVAR_$_SWPresentationManager._heightValue
+- _OBJC_IVAR_$_SWPresentationManager._logger
+- _OBJC_IVAR_$_SWPresentationManager._presentationState
+- _OBJC_IVAR_$_SWPresentationManager._scriptsManager
+- _OBJC_IVAR_$_SWPresentationManager.loadBlock
+- _OBJC_IVAR_$_SWPresentationManager.presentableBlock
+- _OBJC_IVAR_$_SWPresentationStateScript._presentationState
+- _OBJC_IVAR_$_SWPresentationStateScript.userScript
+- _OBJC_IVAR_$_SWProcessConfiguration._shouldRunAtBackgroundPriority
+- _OBJC_IVAR_$_SWProcessTerminationManager._errorReporter
+- _OBJC_IVAR_$_SWProcessTerminationManager._onRetryBlocks
+- _OBJC_IVAR_$_SWProcessTerminationManager._throttler
+- _OBJC_IVAR_$_SWQueueableScriptWithCompletion._completion
+- _OBJC_IVAR_$_SWQueueableScriptWithCompletion._script
+- _OBJC_IVAR_$_SWRefreshScript.userScript
+- _OBJC_IVAR_$_SWScaleManager._scale
+- _OBJC_IVAR_$_SWScaleManager._webView
+- _OBJC_IVAR_$_SWScriptsManager._logger
+- _OBJC_IVAR_$_SWScriptsManager._queuedExecutableScripts
+- _OBJC_IVAR_$_SWScriptsManager._readyToExecuteScripts
+- _OBJC_IVAR_$_SWScriptsManager._scripts
+- _OBJC_IVAR_$_SWScriptsManager._webView
+- _OBJC_IVAR_$_SWScriptsSetupTask._scriptsManager
+- _OBJC_IVAR_$_SWScrollSettings._scrollEnabled
+- _OBJC_IVAR_$_SWScrollSettings._scrollsToTop
+- _OBJC_IVAR_$_SWScrollSettings._showsVerticalScrollIndicator
+- _OBJC_IVAR_$_SWSession._identifier
+- _OBJC_IVAR_$_SWSessionManager._logger
+- _OBJC_IVAR_$_SWSessionManager._scriptsManager
+- _OBJC_IVAR_$_SWSessionManager._session
+- _OBJC_IVAR_$_SWSessionScript._session
+- _OBJC_IVAR_$_SWSetupManager._logger
+- _OBJC_IVAR_$_SWSetupManager._tasks
+- _OBJC_IVAR_$_SWSetupScript.executableScript
+- _OBJC_IVAR_$_SWSetupScript.queueable
+- _OBJC_IVAR_$_SWShareConfiguration._shareItems
+- _OBJC_IVAR_$_SWShareConfiguration._title
+- _OBJC_IVAR_$_SWSnapshotManager._configurationManager
+- _OBJC_IVAR_$_SWSnapshotManager._webView
+- _OBJC_IVAR_$_SWTimeoutManager._stateMachine
+- _OBJC_IVAR_$_SWTimeoutManager._timeoutBlocks
+- _OBJC_IVAR_$_SWTimeoutManager._timer
+- _OBJC_IVAR_$_SWURLAction._URL
+- _OBJC_IVAR_$_SWURLAction._navigationManager
+- _OBJC_IVAR_$_SWURLInteraction._URL
+- _OBJC_IVAR_$_SWURLInteraction._navigationManager
+- _OBJC_IVAR_$_SWURLSchemeHandlerManager._configuration
+- _OBJC_IVAR_$_SWURLSchemeHandlerManager._factories
+- _OBJC_IVAR_$_SWURLSchemeHandlerManager._handlers
+- _OBJC_IVAR_$_SWURLSchemeHandlerManager._logger
+- _OBJC_IVAR_$_SWURLSchemeHandlerManager._session
+- _OBJC_IVAR_$_SWURLSchemeHandlerSession._endCallbackBlock
+- _OBJC_IVAR_$_SWURLSchemeHandlerSession._identifier
+- _OBJC_IVAR_$_SWURLSchemeHandlerSession._startCallbackBlock
+- _OBJC_IVAR_$_SWURLSchemeHandlerSession._trackingTasks
+- _OBJC_IVAR_$_SWURLSchemeTask._completionBlock
+- _OBJC_IVAR_$_SWURLSchemeTask._logger
+- _OBJC_IVAR_$_SWURLSchemeTask._stopped
+- _OBJC_IVAR_$_SWURLSchemeTask._task
+- _OBJC_IVAR_$_SWURLShareItem._kind
+- _OBJC_IVAR_$_SWURLShareItem._url
+- _OBJC_IVAR_$_SWViewController._URLSchemeHandlerManager
+- _OBJC_IVAR_$_SWViewController._contentRuleManager
+- _OBJC_IVAR_$_SWViewController._datastoreSynchronizationManager
+- _OBJC_IVAR_$_SWViewController._documentStateReporter
+- _OBJC_IVAR_$_SWViewController._errorReporter
+- _OBJC_IVAR_$_SWViewController._focusShouldStartInputSession
+- _OBJC_IVAR_$_SWViewController._isWebViewPresentingInFullScreen
+- _OBJC_IVAR_$_SWViewController._loader
+- _OBJC_IVAR_$_SWViewController._localDatastoreManager
+- _OBJC_IVAR_$_SWViewController._logger
+- _OBJC_IVAR_$_SWViewController._messageHandlerManager
+- _OBJC_IVAR_$_SWViewController._navigationManager
+- _OBJC_IVAR_$_SWViewController._reachabilityProvider
+- _OBJC_IVAR_$_SWViewController._scriptsManager
+- _OBJC_IVAR_$_SWViewController._sessionManager
+- _OBJC_IVAR_$_SWViewController._setupManager
+- _OBJC_IVAR_$_SWViewController._terminationManager
+- _OBJC_IVAR_$_SWViewController._timeoutManager
+- _OBJC_IVAR_$_SWViewController._webView
+- _OBJC_IVAR_$_SWViewController._webViewCanBecomeFirstResponder
+- _OBJC_IVAR_$_SWViewController._webViewCanBecomeFocused
+- _OBJC_IVAR_$_SWWeakMessageHandler._messageHandler
+- _OBJC_IVAR_$_SWWeakScriptMessageHandler._scriptMessageHandler
+- _OBJC_IVAR_$_SWWeakURLSchemeHandler._URLSchemeHandler
+- _OBJC_IVAR_$_SWWebView._accessoryView
+- _OBJC_IVAR_$_SWWebView._overridenTraits
+- _OBJC_IVAR_$_SWWebView._pocketInsetsForSafeArea
+- _OBJC_IVAR_$_SWWebView._removedMenuIdentifiers
+- _OBJC_IVAR_$_SWWebView._webViewCanBecomeFirstResponder
+- _OBJC_IVAR_$_SWWebView._webViewCanBecomeFocused
+- _OBJC_IVAR_$_SWWebViewConfigurationFactory._processPool
+- _OBJC_IVAR_$_SWWebViewConfigurationFactory._websiteDataStore
+- _OBJC_IVAR_$_SWWebViewFactory._webViews
+- _OBJC_METACLASS_$_SWCoreAssembly
+- _OBJC_METACLASS_$_SWFactoryAssembly
+- _OBJC_METACLASS_$_SWFrameworkAssembly
+- _OBJC_METACLASS_$_SWManagerAssembly
+- _OBJC_METACLASS_$_SWProviderAssembly
+- _OBJC_METACLASS_$_SWSetupAssembly
+- _OBJC_METACLASS_$_SWSwiftFrameWorkAssembly
+- _OBJC_METACLASS_$_SWViewControllerAssembly
+- _SWInspectionFloatValue
+- _SWInspectionIntegerValue
+- _SWSetupLogging.onceToken
+- _TFCallbackScopeAny
+- _TFCallbackScopeName
+- __OBJC_$_CLASS_METHODS_SWConfiguration(SWContainerConfiguration)
+- __OBJC_$_CLASS_METHODS_SWDatastore
+- __OBJC_$_CLASS_METHODS_SWDatastoreSetupScript
+- __OBJC_$_CLASS_METHODS_SWDatastoreUpdateScript
+- __OBJC_$_CLASS_METHODS_SWInspectionScript
+- __OBJC_$_CLASS_METHODS_SWLoader
+- __OBJC_$_CLASS_METHODS_SWLocalDatastoreSetupScript
+- __OBJC_$_CLASS_METHODS_SWLocalDatastoreUpdateScript
+- __OBJC_$_CLASS_METHODS_SWWeakMessageHandler
+- __OBJC_$_CLASS_PROP_LIST_SWDatastore
+- __OBJC_$_INSTANCE_METHODS_SWActionFactory
+- __OBJC_$_INSTANCE_METHODS_SWActionProvider
+- __OBJC_$_INSTANCE_METHODS_SWBackButtonTappedScript
+- __OBJC_$_INSTANCE_METHODS_SWBackConfiguration
+- __OBJC_$_INSTANCE_METHODS_SWConfiguration
+- __OBJC_$_INSTANCE_METHODS_SWConfigurationManager
+- __OBJC_$_INSTANCE_METHODS_SWConfigurationScript
+- __OBJC_$_INSTANCE_METHODS_SWConfigurationSerializer
+- __OBJC_$_INSTANCE_METHODS_SWContainerConfiguration
+- __OBJC_$_INSTANCE_METHODS_SWContainerViewController
+- __OBJC_$_INSTANCE_METHODS_SWContentRuleManager
+- __OBJC_$_INSTANCE_METHODS_SWCoreAssembly
+- __OBJC_$_INSTANCE_METHODS_SWCrashRetryThrottler
+- __OBJC_$_INSTANCE_METHODS_SWDatastore
+- __OBJC_$_INSTANCE_METHODS_SWDatastoreFactory
+- __OBJC_$_INSTANCE_METHODS_SWDatastoreManager
+- __OBJC_$_INSTANCE_METHODS_SWDatastoreSetupScript
+- __OBJC_$_INSTANCE_METHODS_SWDatastoreSetupTask
+- __OBJC_$_INSTANCE_METHODS_SWDatastoreSynchronizationManager
+- __OBJC_$_INSTANCE_METHODS_SWDatastoreUpdateScript
+- __OBJC_$_INSTANCE_METHODS_SWDeveloperSettings
+- __OBJC_$_INSTANCE_METHODS_SWDocumentStateManager
+- __OBJC_$_INSTANCE_METHODS_SWEmbedAction
+- __OBJC_$_INSTANCE_METHODS_SWErrorManager
+- __OBJC_$_INSTANCE_METHODS_SWFactoryAssembly
+- __OBJC_$_INSTANCE_METHODS_SWFailureManager
+- __OBJC_$_INSTANCE_METHODS_SWFailureMessage
+- __OBJC_$_INSTANCE_METHODS_SWFeedConfiguration
+- __OBJC_$_INSTANCE_METHODS_SWFeedConfigurationFactory
+- __OBJC_$_INSTANCE_METHODS_SWFrameworkAssembly
+- __OBJC_$_INSTANCE_METHODS_SWInspection
+- __OBJC_$_INSTANCE_METHODS_SWInspectionAccessibilityElement
+- __OBJC_$_INSTANCE_METHODS_SWInspectionDocumentSummary
+- __OBJC_$_INSTANCE_METHODS_SWInspectionLink
+- __OBJC_$_INSTANCE_METHODS_SWInspectionScript
+- __OBJC_$_INSTANCE_METHODS_SWInteraction
+- __OBJC_$_INSTANCE_METHODS_SWInteractionFactory
+- __OBJC_$_INSTANCE_METHODS_SWInteractionProvider
+- __OBJC_$_INSTANCE_METHODS_SWKeyboardConfiguration
+- __OBJC_$_INSTANCE_METHODS_SWLayoutGuide
+- __OBJC_$_INSTANCE_METHODS_SWLoader
+- __OBJC_$_INSTANCE_METHODS_SWLoadingPolicyProvider
+- __OBJC_$_INSTANCE_METHODS_SWLocalDatastoreSetupScript
+- __OBJC_$_INSTANCE_METHODS_SWLocalDatastoreSetupTask
+- __OBJC_$_INSTANCE_METHODS_SWLocalDatastoreUpdateScript
+- __OBJC_$_INSTANCE_METHODS_SWLocation
+- __OBJC_$_INSTANCE_METHODS_SWLogMessageHandler
+- __OBJC_$_INSTANCE_METHODS_SWLogger
+- __OBJC_$_INSTANCE_METHODS_SWManagerAssembly
+- __OBJC_$_INSTANCE_METHODS_SWMediaSettings
+- __OBJC_$_INSTANCE_METHODS_SWMessage
+- __OBJC_$_INSTANCE_METHODS_SWMessageHandlerManager
+- __OBJC_$_INSTANCE_METHODS_SWMessageSecurityOrigin
+- __OBJC_$_INSTANCE_METHODS_SWMutableConfiguration
+- __OBJC_$_INSTANCE_METHODS_SWNavigationBarConfiguration
+- __OBJC_$_INSTANCE_METHODS_SWNavigationBarConfigurationManager
+- __OBJC_$_INSTANCE_METHODS_SWNavigationManager
+- __OBJC_$_INSTANCE_METHODS_SWNavigationObserver
+- __OBJC_$_INSTANCE_METHODS_SWNavigationPreview
+- __OBJC_$_INSTANCE_METHODS_SWPreferredSizeManager
+- __OBJC_$_INSTANCE_METHODS_SWPresentationDatastore
+- __OBJC_$_INSTANCE_METHODS_SWPresentationManager
+- __OBJC_$_INSTANCE_METHODS_SWPresentationStateScript
+- __OBJC_$_INSTANCE_METHODS_SWProcessConfiguration
+- __OBJC_$_INSTANCE_METHODS_SWProcessTerminationManager
+- __OBJC_$_INSTANCE_METHODS_SWProviderAssembly
+- __OBJC_$_INSTANCE_METHODS_SWQueueableScriptWithCompletion
+- __OBJC_$_INSTANCE_METHODS_SWRefreshScript
+- __OBJC_$_INSTANCE_METHODS_SWScaleManager
+- __OBJC_$_INSTANCE_METHODS_SWScriptsManager
+- __OBJC_$_INSTANCE_METHODS_SWScriptsSetupTask
+- __OBJC_$_INSTANCE_METHODS_SWScrollSettings
+- __OBJC_$_INSTANCE_METHODS_SWSession
+- __OBJC_$_INSTANCE_METHODS_SWSessionManager
+- __OBJC_$_INSTANCE_METHODS_SWSessionScript
+- __OBJC_$_INSTANCE_METHODS_SWSetupAssembly
+- __OBJC_$_INSTANCE_METHODS_SWSetupManager
+- __OBJC_$_INSTANCE_METHODS_SWSetupScript
+- __OBJC_$_INSTANCE_METHODS_SWShareConfiguration
+- __OBJC_$_INSTANCE_METHODS_SWSnapshotManager
+- __OBJC_$_INSTANCE_METHODS_SWTimeoutManager
+- __OBJC_$_INSTANCE_METHODS_SWURLAction
+- __OBJC_$_INSTANCE_METHODS_SWURLInteraction
+- __OBJC_$_INSTANCE_METHODS_SWURLSchemeHandlerManager
+- __OBJC_$_INSTANCE_METHODS_SWURLSchemeHandlerSession
+- __OBJC_$_INSTANCE_METHODS_SWURLSchemeTask
+- __OBJC_$_INSTANCE_METHODS_SWURLShareItem
+- __OBJC_$_INSTANCE_METHODS_SWViewController
+- __OBJC_$_INSTANCE_METHODS_SWViewControllerAssembly
+- __OBJC_$_INSTANCE_METHODS_SWWeakMessageHandler
+- __OBJC_$_INSTANCE_METHODS_SWWeakScriptMessageHandler
+- __OBJC_$_INSTANCE_METHODS_SWWeakURLSchemeHandler
+- __OBJC_$_INSTANCE_METHODS_SWWebView
+- __OBJC_$_INSTANCE_METHODS_SWWebViewConfigurationFactory
+- __OBJC_$_INSTANCE_METHODS_SWWebViewFactory
+- __OBJC_$_INSTANCE_VARIABLES_SWActionFactory
+- __OBJC_$_INSTANCE_VARIABLES_SWActionProvider
+- __OBJC_$_INSTANCE_VARIABLES_SWBackButtonTappedScript
+- __OBJC_$_INSTANCE_VARIABLES_SWBackConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_SWConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_SWConfigurationManager
+- __OBJC_$_INSTANCE_VARIABLES_SWConfigurationScript
+- __OBJC_$_INSTANCE_VARIABLES_SWContainerConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_SWContainerViewController
+- __OBJC_$_INSTANCE_VARIABLES_SWContentRuleManager
+- __OBJC_$_INSTANCE_VARIABLES_SWCrashRetryThrottler
+- __OBJC_$_INSTANCE_VARIABLES_SWDatastore
+- __OBJC_$_INSTANCE_VARIABLES_SWDatastoreFactory
+- __OBJC_$_INSTANCE_VARIABLES_SWDatastoreManager
+- __OBJC_$_INSTANCE_VARIABLES_SWDatastoreSetupScript
+- __OBJC_$_INSTANCE_VARIABLES_SWDatastoreSetupTask
+- __OBJC_$_INSTANCE_VARIABLES_SWDatastoreSynchronizationManager
+- __OBJC_$_INSTANCE_VARIABLES_SWDatastoreUpdateScript
+- __OBJC_$_INSTANCE_VARIABLES_SWDeveloperSettings
+- __OBJC_$_INSTANCE_VARIABLES_SWDocumentStateManager
+- __OBJC_$_INSTANCE_VARIABLES_SWEmbedAction
+- __OBJC_$_INSTANCE_VARIABLES_SWErrorManager
+- __OBJC_$_INSTANCE_VARIABLES_SWFailureManager
+- __OBJC_$_INSTANCE_VARIABLES_SWFailureMessage
+- __OBJC_$_INSTANCE_VARIABLES_SWFeedConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_SWFrameworkAssembly
+- __OBJC_$_INSTANCE_VARIABLES_SWInspection
+- __OBJC_$_INSTANCE_VARIABLES_SWInspectionAccessibilityElement
+- __OBJC_$_INSTANCE_VARIABLES_SWInspectionDocumentSummary
+- __OBJC_$_INSTANCE_VARIABLES_SWInspectionLink
+- __OBJC_$_INSTANCE_VARIABLES_SWInteraction
+- __OBJC_$_INSTANCE_VARIABLES_SWInteractionFactory
+- __OBJC_$_INSTANCE_VARIABLES_SWInteractionProvider
+- __OBJC_$_INSTANCE_VARIABLES_SWKeyboardConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_SWLayoutGuide
+- __OBJC_$_INSTANCE_VARIABLES_SWLoader
+- __OBJC_$_INSTANCE_VARIABLES_SWLocalDatastoreSetupScript
+- __OBJC_$_INSTANCE_VARIABLES_SWLocalDatastoreSetupTask
+- __OBJC_$_INSTANCE_VARIABLES_SWLocalDatastoreUpdateScript
+- __OBJC_$_INSTANCE_VARIABLES_SWLocation
+- __OBJC_$_INSTANCE_VARIABLES_SWLogMessageHandler
+- __OBJC_$_INSTANCE_VARIABLES_SWLogger
+- __OBJC_$_INSTANCE_VARIABLES_SWMediaSettings
+- __OBJC_$_INSTANCE_VARIABLES_SWMessage
+- __OBJC_$_INSTANCE_VARIABLES_SWMessageHandlerManager
+- __OBJC_$_INSTANCE_VARIABLES_SWMessageSecurityOrigin
+- __OBJC_$_INSTANCE_VARIABLES_SWMutableConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_SWNavigationBarConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_SWNavigationBarConfigurationManager
+- __OBJC_$_INSTANCE_VARIABLES_SWNavigationManager
+- __OBJC_$_INSTANCE_VARIABLES_SWNavigationObserver
+- __OBJC_$_INSTANCE_VARIABLES_SWNavigationPreview
+- __OBJC_$_INSTANCE_VARIABLES_SWPreferredSizeManager
+- __OBJC_$_INSTANCE_VARIABLES_SWPresentationDatastore
+- __OBJC_$_INSTANCE_VARIABLES_SWPresentationManager
+- __OBJC_$_INSTANCE_VARIABLES_SWPresentationStateScript
+- __OBJC_$_INSTANCE_VARIABLES_SWProcessConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_SWProcessTerminationManager
+- __OBJC_$_INSTANCE_VARIABLES_SWQueueableScriptWithCompletion
+- __OBJC_$_INSTANCE_VARIABLES_SWRefreshScript
+- __OBJC_$_INSTANCE_VARIABLES_SWScaleManager
+- __OBJC_$_INSTANCE_VARIABLES_SWScriptsManager
+- __OBJC_$_INSTANCE_VARIABLES_SWScriptsSetupTask
+- __OBJC_$_INSTANCE_VARIABLES_SWScrollSettings
+- __OBJC_$_INSTANCE_VARIABLES_SWSession
+- __OBJC_$_INSTANCE_VARIABLES_SWSessionManager
+- __OBJC_$_INSTANCE_VARIABLES_SWSessionScript
+- __OBJC_$_INSTANCE_VARIABLES_SWSetupManager
+- __OBJC_$_INSTANCE_VARIABLES_SWSetupScript
+- __OBJC_$_INSTANCE_VARIABLES_SWShareConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_SWSnapshotManager
+- __OBJC_$_INSTANCE_VARIABLES_SWTimeoutManager
+- __OBJC_$_INSTANCE_VARIABLES_SWURLAction
+- __OBJC_$_INSTANCE_VARIABLES_SWURLInteraction
+- __OBJC_$_INSTANCE_VARIABLES_SWURLSchemeHandlerManager
+- __OBJC_$_INSTANCE_VARIABLES_SWURLSchemeHandlerSession
+- __OBJC_$_INSTANCE_VARIABLES_SWURLSchemeTask
+- __OBJC_$_INSTANCE_VARIABLES_SWURLShareItem
+- __OBJC_$_INSTANCE_VARIABLES_SWViewController
+- __OBJC_$_INSTANCE_VARIABLES_SWWeakMessageHandler
+- __OBJC_$_INSTANCE_VARIABLES_SWWeakScriptMessageHandler
+- __OBJC_$_INSTANCE_VARIABLES_SWWeakURLSchemeHandler
+- __OBJC_$_INSTANCE_VARIABLES_SWWebView
+- __OBJC_$_INSTANCE_VARIABLES_SWWebViewConfigurationFactory
+- __OBJC_$_INSTANCE_VARIABLES_SWWebViewFactory
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROP_LIST_SWActionFactory
+- __OBJC_$_PROP_LIST_SWActionProvider
+- __OBJC_$_PROP_LIST_SWBackButtonTappedScript
+- __OBJC_$_PROP_LIST_SWBackConfiguration
+- __OBJC_$_PROP_LIST_SWConfiguration
+- __OBJC_$_PROP_LIST_SWConfigurationManager
+- __OBJC_$_PROP_LIST_SWConfigurationScript
+- __OBJC_$_PROP_LIST_SWConfigurationSerializer
+- __OBJC_$_PROP_LIST_SWContainerConfiguration
+- __OBJC_$_PROP_LIST_SWContainerViewController
+- __OBJC_$_PROP_LIST_SWContentRuleManager
+- __OBJC_$_PROP_LIST_SWCoreAssembly
+- __OBJC_$_PROP_LIST_SWCrashRetryThrottler
+- __OBJC_$_PROP_LIST_SWDatastore
+- __OBJC_$_PROP_LIST_SWDatastoreFactory
+- __OBJC_$_PROP_LIST_SWDatastoreManager
+- __OBJC_$_PROP_LIST_SWDatastoreSetupScript
+- __OBJC_$_PROP_LIST_SWDatastoreSetupTask
+- __OBJC_$_PROP_LIST_SWDatastoreSynchronizationManager
+- __OBJC_$_PROP_LIST_SWDatastoreUpdateScript
+- __OBJC_$_PROP_LIST_SWDeveloperSettings
+- __OBJC_$_PROP_LIST_SWDocumentStateManager
+- __OBJC_$_PROP_LIST_SWEmbedAction
+- __OBJC_$_PROP_LIST_SWErrorManager
+- __OBJC_$_PROP_LIST_SWErrorProvider
+- __OBJC_$_PROP_LIST_SWFactoryAssembly
+- __OBJC_$_PROP_LIST_SWFailureManager
+- __OBJC_$_PROP_LIST_SWFailureMessage
+- __OBJC_$_PROP_LIST_SWFailureProvider
+- __OBJC_$_PROP_LIST_SWFeedConfiguration
+- __OBJC_$_PROP_LIST_SWFeedConfigurationFactory
+- __OBJC_$_PROP_LIST_SWFrameworkAssembly
+- __OBJC_$_PROP_LIST_SWInspection
+- __OBJC_$_PROP_LIST_SWInspectionAccessibilityElement
+- __OBJC_$_PROP_LIST_SWInspectionDocumentSummary
+- __OBJC_$_PROP_LIST_SWInspectionLink
+- __OBJC_$_PROP_LIST_SWInspectionScript
+- __OBJC_$_PROP_LIST_SWInteraction
+- __OBJC_$_PROP_LIST_SWInteractionFactory
+- __OBJC_$_PROP_LIST_SWInteractionProvider
+- __OBJC_$_PROP_LIST_SWKeyboardConfiguration
+- __OBJC_$_PROP_LIST_SWLayoutGuide
+- __OBJC_$_PROP_LIST_SWLoader
+- __OBJC_$_PROP_LIST_SWLoadingPolicyProvider
+- __OBJC_$_PROP_LIST_SWLocalDatastoreSetupScript
+- __OBJC_$_PROP_LIST_SWLocalDatastoreSetupTask
+- __OBJC_$_PROP_LIST_SWLocalDatastoreUpdateScript
+- __OBJC_$_PROP_LIST_SWLocation
+- __OBJC_$_PROP_LIST_SWLogMessageHandler
+- __OBJC_$_PROP_LIST_SWLogger
+- __OBJC_$_PROP_LIST_SWManagerAssembly
+- __OBJC_$_PROP_LIST_SWMediaSettings
+- __OBJC_$_PROP_LIST_SWMessage
+- __OBJC_$_PROP_LIST_SWMessageHandlerManager
+- __OBJC_$_PROP_LIST_SWMessageSecurityOrigin
+- __OBJC_$_PROP_LIST_SWMutableConfiguration
+- __OBJC_$_PROP_LIST_SWNavigationBarConfiguration
+- __OBJC_$_PROP_LIST_SWNavigationBarConfigurationManager
+- __OBJC_$_PROP_LIST_SWNavigationManager
+- __OBJC_$_PROP_LIST_SWNavigationObserver
+- __OBJC_$_PROP_LIST_SWNavigationPreview
+- __OBJC_$_PROP_LIST_SWPreferredSizeManager
+- __OBJC_$_PROP_LIST_SWPresentationDatastore
+- __OBJC_$_PROP_LIST_SWPresentationManager
+- __OBJC_$_PROP_LIST_SWPresentationStateScript
+- __OBJC_$_PROP_LIST_SWProcessConfiguration
+- __OBJC_$_PROP_LIST_SWProcessTerminationManager
+- __OBJC_$_PROP_LIST_SWProcessTerminationPolicyDecider
+- __OBJC_$_PROP_LIST_SWProviderAssembly
+- __OBJC_$_PROP_LIST_SWQueueableScriptWithCompletion
+- __OBJC_$_PROP_LIST_SWRefreshScript
+- __OBJC_$_PROP_LIST_SWScaleManager
+- __OBJC_$_PROP_LIST_SWScript
+- __OBJC_$_PROP_LIST_SWScriptsManager
+- __OBJC_$_PROP_LIST_SWScriptsSetupTask
+- __OBJC_$_PROP_LIST_SWScrollSettings
+- __OBJC_$_PROP_LIST_SWSession
+- __OBJC_$_PROP_LIST_SWSessionManager
+- __OBJC_$_PROP_LIST_SWSessionScript
+- __OBJC_$_PROP_LIST_SWSetupAssembly
+- __OBJC_$_PROP_LIST_SWSetupManager
+- __OBJC_$_PROP_LIST_SWSetupScript
+- __OBJC_$_PROP_LIST_SWSetupTask
+- __OBJC_$_PROP_LIST_SWShareConfiguration
+- __OBJC_$_PROP_LIST_SWShareItem
+- __OBJC_$_PROP_LIST_SWSnapshotManager
+- __OBJC_$_PROP_LIST_SWTimeoutManager
+- __OBJC_$_PROP_LIST_SWURLAction
+- __OBJC_$_PROP_LIST_SWURLInteraction
+- __OBJC_$_PROP_LIST_SWURLSchemeHandlerManager
+- __OBJC_$_PROP_LIST_SWURLSchemeHandlerSession
+- __OBJC_$_PROP_LIST_SWURLSchemeTask
+- __OBJC_$_PROP_LIST_SWURLShareItem
+- __OBJC_$_PROP_LIST_SWViewController
+- __OBJC_$_PROP_LIST_SWViewControllerAssembly
+- __OBJC_$_PROP_LIST_SWWeakMessageHandler
+- __OBJC_$_PROP_LIST_SWWeakScriptMessageHandler
+- __OBJC_$_PROP_LIST_SWWeakURLSchemeHandler
+- __OBJC_$_PROP_LIST_SWWebView
+- __OBJC_$_PROP_LIST_SWWebViewConfigurationFactory
+- __OBJC_$_PROP_LIST_SWWebViewFactory
+- __OBJC_$_PROP_LIST_TFBundleAssembly
+- __OBJC_$_PROP_LIST_WKURLSchemeTask
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSMutableCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_WKNavigationDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_WKUIDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT__WKFullscreenDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWActionFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWActionProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWBackConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWConfigurationManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWConfigurationSerializer
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWContentRuleManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWDatastoreFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWDatastoreManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWDatastoreSynchronizationManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWDocumentStateProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWDocumentStateReporting
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWEmbedAction
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWErrorProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWErrorReporting
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWFailureProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWFeedConfigurationFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWInteraction
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWInteractionFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWLoadingPolicyProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWLocation
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWLogger
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWMessage
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWMessageHandler
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWMessageHandlerManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWMessageSecurityOrigin
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWNavigationBarConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWNavigationManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWNavigationObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWPreferredSizeManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWPresentationManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWProcessConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWProcessTerminationManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWProcessTerminationPolicyDecider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWScaleManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWScript
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWScriptsManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWSession
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWSessionManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWSetupManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWSetupTask
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWShareConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWShareItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWSnapshotManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWTimeoutManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWURLSchemeHandlerManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWWebViewConfigurationFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWWebViewFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TFAssembly
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TFBundleAssembly
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_WKScriptMessageHandler
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_WKURLSchemeHandler
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_WKURLSchemeTask
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSMutableCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWActionFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWActionProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWBackConfiguration
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWConfigurationManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWConfigurationSerializer
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWContentRuleManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWDatastoreFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWDatastoreManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWDatastoreSynchronizationManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWDocumentStateProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWDocumentStateReporting
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWEmbedAction
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWErrorProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWErrorReporting
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWFailureProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWFeedConfigurationFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWInteraction
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWInteractionFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWLoadingPolicyProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWLocation
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWLogger
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWMessage
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWMessageHandler
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWMessageHandlerManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWMessageSecurityOrigin
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWNavigationBarConfiguration
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWNavigationManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWNavigationObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWPreferredSizeManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWPresentationManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWProcessConfiguration
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWProcessTerminationManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWProcessTerminationPolicyDecider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWScaleManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWScript
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWScriptsManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWSession
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWSessionManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWSetupManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWSetupTask
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWShareConfiguration
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWShareItem
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWSnapshotManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWTimeoutManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWURLSchemeHandlerManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWWebViewConfigurationFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWWebViewFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TFAssembly
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TFBundleAssembly
+- __OBJC_$_PROTOCOL_METHOD_TYPES_WKNavigationDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_WKScriptMessageHandler
+- __OBJC_$_PROTOCOL_METHOD_TYPES_WKUIDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_WKURLSchemeHandler
+- __OBJC_$_PROTOCOL_METHOD_TYPES_WKURLSchemeTask
+- __OBJC_$_PROTOCOL_METHOD_TYPES__WKFullscreenDelegate
+- __OBJC_$_PROTOCOL_REFS_SWActionFactory
+- __OBJC_$_PROTOCOL_REFS_SWActionProvider
+- __OBJC_$_PROTOCOL_REFS_SWBackConfiguration
+- __OBJC_$_PROTOCOL_REFS_SWConfigurationManager
+- __OBJC_$_PROTOCOL_REFS_SWConfigurationSerializer
+- __OBJC_$_PROTOCOL_REFS_SWContentRuleManager
+- __OBJC_$_PROTOCOL_REFS_SWDatastoreFactory
+- __OBJC_$_PROTOCOL_REFS_SWDatastoreManager
+- __OBJC_$_PROTOCOL_REFS_SWDatastoreSynchronizationManager
+- __OBJC_$_PROTOCOL_REFS_SWDocumentStateProviding
+- __OBJC_$_PROTOCOL_REFS_SWDocumentStateReporting
+- __OBJC_$_PROTOCOL_REFS_SWEmbedAction
+- __OBJC_$_PROTOCOL_REFS_SWErrorProvider
+- __OBJC_$_PROTOCOL_REFS_SWErrorReporting
+- __OBJC_$_PROTOCOL_REFS_SWFailureProvider
+- __OBJC_$_PROTOCOL_REFS_SWFeedConfigurationFactory
+- __OBJC_$_PROTOCOL_REFS_SWInteraction
+- __OBJC_$_PROTOCOL_REFS_SWInteractionFactory
+- __OBJC_$_PROTOCOL_REFS_SWLoadingPolicyProvider
+- __OBJC_$_PROTOCOL_REFS_SWLocation
+- __OBJC_$_PROTOCOL_REFS_SWLogger
+- __OBJC_$_PROTOCOL_REFS_SWMessage
+- __OBJC_$_PROTOCOL_REFS_SWMessageHandler
+- __OBJC_$_PROTOCOL_REFS_SWMessageHandlerManager
+- __OBJC_$_PROTOCOL_REFS_SWMessageSecurityOrigin
+- __OBJC_$_PROTOCOL_REFS_SWNavigationBarConfiguration
+- __OBJC_$_PROTOCOL_REFS_SWNavigationManager
+- __OBJC_$_PROTOCOL_REFS_SWNavigationObserver
+- __OBJC_$_PROTOCOL_REFS_SWPreferredSizeManager
+- __OBJC_$_PROTOCOL_REFS_SWPresentationManager
+- __OBJC_$_PROTOCOL_REFS_SWProcessConfiguration
+- __OBJC_$_PROTOCOL_REFS_SWProcessTerminationManager
+- __OBJC_$_PROTOCOL_REFS_SWProcessTerminationPolicyDecider
+- __OBJC_$_PROTOCOL_REFS_SWScaleManager
+- __OBJC_$_PROTOCOL_REFS_SWScript
+- __OBJC_$_PROTOCOL_REFS_SWScriptsManager
+- __OBJC_$_PROTOCOL_REFS_SWSession
+- __OBJC_$_PROTOCOL_REFS_SWSessionManager
+- __OBJC_$_PROTOCOL_REFS_SWSetupManager
+- __OBJC_$_PROTOCOL_REFS_SWSetupTask
+- __OBJC_$_PROTOCOL_REFS_SWShareConfiguration
+- __OBJC_$_PROTOCOL_REFS_SWShareItem
+- __OBJC_$_PROTOCOL_REFS_SWSnapshotManager
+- __OBJC_$_PROTOCOL_REFS_SWTimeoutManager
+- __OBJC_$_PROTOCOL_REFS_SWURLSchemeHandlerManager
+- __OBJC_$_PROTOCOL_REFS_SWWebViewConfigurationFactory
+- __OBJC_$_PROTOCOL_REFS_SWWebViewFactory
+- __OBJC_$_PROTOCOL_REFS_TFAssembly
+- __OBJC_$_PROTOCOL_REFS_TFBundleAssembly
+- __OBJC_$_PROTOCOL_REFS_TFFrameworkAssembly
+- __OBJC_$_PROTOCOL_REFS_WKNavigationDelegate
+- __OBJC_$_PROTOCOL_REFS_WKScriptMessageHandler
+- __OBJC_$_PROTOCOL_REFS_WKUIDelegate
+- __OBJC_$_PROTOCOL_REFS_WKURLSchemeHandler
+- __OBJC_$_PROTOCOL_REFS_WKURLSchemeTask
+- __OBJC_$_PROTOCOL_REFS__WKFullscreenDelegate
+- __OBJC_CLASS_PROTOCOLS_$_SWActionFactory
+- __OBJC_CLASS_PROTOCOLS_$_SWActionProvider
+- __OBJC_CLASS_PROTOCOLS_$_SWBackButtonTappedScript
+- __OBJC_CLASS_PROTOCOLS_$_SWBackConfiguration
+- __OBJC_CLASS_PROTOCOLS_$_SWConfiguration
+- __OBJC_CLASS_PROTOCOLS_$_SWConfigurationManager
+- __OBJC_CLASS_PROTOCOLS_$_SWConfigurationScript
+- __OBJC_CLASS_PROTOCOLS_$_SWConfigurationSerializer
+- __OBJC_CLASS_PROTOCOLS_$_SWContainerConfiguration
+- __OBJC_CLASS_PROTOCOLS_$_SWContentRuleManager
+- __OBJC_CLASS_PROTOCOLS_$_SWCoreAssembly
+- __OBJC_CLASS_PROTOCOLS_$_SWCrashRetryThrottler
+- __OBJC_CLASS_PROTOCOLS_$_SWDatastoreFactory
+- __OBJC_CLASS_PROTOCOLS_$_SWDatastoreManager
+- __OBJC_CLASS_PROTOCOLS_$_SWDatastoreSetupScript
+- __OBJC_CLASS_PROTOCOLS_$_SWDatastoreSetupTask
+- __OBJC_CLASS_PROTOCOLS_$_SWDatastoreSynchronizationManager
+- __OBJC_CLASS_PROTOCOLS_$_SWDatastoreUpdateScript
+- __OBJC_CLASS_PROTOCOLS_$_SWDocumentStateManager
+- __OBJC_CLASS_PROTOCOLS_$_SWEmbedAction
+- __OBJC_CLASS_PROTOCOLS_$_SWErrorManager
+- __OBJC_CLASS_PROTOCOLS_$_SWFactoryAssembly
+- __OBJC_CLASS_PROTOCOLS_$_SWFailureManager
+- __OBJC_CLASS_PROTOCOLS_$_SWFeedConfigurationFactory
+- __OBJC_CLASS_PROTOCOLS_$_SWFrameworkAssembly
+- __OBJC_CLASS_PROTOCOLS_$_SWInspectionScript
+- __OBJC_CLASS_PROTOCOLS_$_SWInteraction
+- __OBJC_CLASS_PROTOCOLS_$_SWInteractionFactory
+- __OBJC_CLASS_PROTOCOLS_$_SWInteractionProvider
+- __OBJC_CLASS_PROTOCOLS_$_SWKeyboardConfiguration
+- __OBJC_CLASS_PROTOCOLS_$_SWLoadingPolicyProvider
+- __OBJC_CLASS_PROTOCOLS_$_SWLocalDatastoreSetupScript
+- __OBJC_CLASS_PROTOCOLS_$_SWLocalDatastoreSetupTask
+- __OBJC_CLASS_PROTOCOLS_$_SWLocalDatastoreUpdateScript
+- __OBJC_CLASS_PROTOCOLS_$_SWLocation
+- __OBJC_CLASS_PROTOCOLS_$_SWLogMessageHandler
+- __OBJC_CLASS_PROTOCOLS_$_SWLogger
+- __OBJC_CLASS_PROTOCOLS_$_SWManagerAssembly
+- __OBJC_CLASS_PROTOCOLS_$_SWMessage
+- __OBJC_CLASS_PROTOCOLS_$_SWMessageHandlerManager
+- __OBJC_CLASS_PROTOCOLS_$_SWMessageSecurityOrigin
+- __OBJC_CLASS_PROTOCOLS_$_SWNavigationBarConfiguration
+- __OBJC_CLASS_PROTOCOLS_$_SWNavigationBarConfigurationManager
+- __OBJC_CLASS_PROTOCOLS_$_SWNavigationManager
+- __OBJC_CLASS_PROTOCOLS_$_SWNavigationObserver
+- __OBJC_CLASS_PROTOCOLS_$_SWPreferredSizeManager
+- __OBJC_CLASS_PROTOCOLS_$_SWPresentationManager
+- __OBJC_CLASS_PROTOCOLS_$_SWPresentationStateScript
+- __OBJC_CLASS_PROTOCOLS_$_SWProcessConfiguration
+- __OBJC_CLASS_PROTOCOLS_$_SWProcessTerminationManager
+- __OBJC_CLASS_PROTOCOLS_$_SWProviderAssembly
+- __OBJC_CLASS_PROTOCOLS_$_SWRefreshScript
+- __OBJC_CLASS_PROTOCOLS_$_SWScaleManager
+- __OBJC_CLASS_PROTOCOLS_$_SWScriptsManager
+- __OBJC_CLASS_PROTOCOLS_$_SWScriptsSetupTask
+- __OBJC_CLASS_PROTOCOLS_$_SWSession
+- __OBJC_CLASS_PROTOCOLS_$_SWSessionManager
+- __OBJC_CLASS_PROTOCOLS_$_SWSessionScript
+- __OBJC_CLASS_PROTOCOLS_$_SWSetupAssembly
+- __OBJC_CLASS_PROTOCOLS_$_SWSetupManager
+- __OBJC_CLASS_PROTOCOLS_$_SWSetupScript
+- __OBJC_CLASS_PROTOCOLS_$_SWShareConfiguration
+- __OBJC_CLASS_PROTOCOLS_$_SWSnapshotManager
+- __OBJC_CLASS_PROTOCOLS_$_SWTimeoutManager
+- __OBJC_CLASS_PROTOCOLS_$_SWURLAction
+- __OBJC_CLASS_PROTOCOLS_$_SWURLInteraction
+- __OBJC_CLASS_PROTOCOLS_$_SWURLSchemeHandlerManager
+- __OBJC_CLASS_PROTOCOLS_$_SWURLSchemeTask
+- __OBJC_CLASS_PROTOCOLS_$_SWURLShareItem
+- __OBJC_CLASS_PROTOCOLS_$_SWViewController
+- __OBJC_CLASS_PROTOCOLS_$_SWViewControllerAssembly
+- __OBJC_CLASS_PROTOCOLS_$_SWWeakMessageHandler
+- __OBJC_CLASS_PROTOCOLS_$_SWWeakScriptMessageHandler
+- __OBJC_CLASS_PROTOCOLS_$_SWWeakURLSchemeHandler
+- __OBJC_CLASS_PROTOCOLS_$_SWWebViewConfigurationFactory
+- __OBJC_CLASS_PROTOCOLS_$_SWWebViewFactory
+- __OBJC_CLASS_RO_$_SWActionFactory
+- __OBJC_CLASS_RO_$_SWActionProvider
+- __OBJC_CLASS_RO_$_SWBackButtonTappedScript
+- __OBJC_CLASS_RO_$_SWBackConfiguration
+- __OBJC_CLASS_RO_$_SWConfiguration
+- __OBJC_CLASS_RO_$_SWConfigurationManager
+- __OBJC_CLASS_RO_$_SWConfigurationScript
+- __OBJC_CLASS_RO_$_SWConfigurationSerializer
+- __OBJC_CLASS_RO_$_SWContainerConfiguration
+- __OBJC_CLASS_RO_$_SWContainerViewController
+- __OBJC_CLASS_RO_$_SWContentRuleManager
+- __OBJC_CLASS_RO_$_SWCoreAssembly
+- __OBJC_CLASS_RO_$_SWCrashRetryThrottler
+- __OBJC_CLASS_RO_$_SWDatastore
+- __OBJC_CLASS_RO_$_SWDatastoreFactory
+- __OBJC_CLASS_RO_$_SWDatastoreManager
+- __OBJC_CLASS_RO_$_SWDatastoreSetupScript
+- __OBJC_CLASS_RO_$_SWDatastoreSetupTask
+- __OBJC_CLASS_RO_$_SWDatastoreSynchronizationManager
+- __OBJC_CLASS_RO_$_SWDatastoreUpdateScript
+- __OBJC_CLASS_RO_$_SWDeveloperSettings
+- __OBJC_CLASS_RO_$_SWDocumentStateManager
+- __OBJC_CLASS_RO_$_SWEmbedAction
+- __OBJC_CLASS_RO_$_SWErrorManager
+- __OBJC_CLASS_RO_$_SWFactoryAssembly
+- __OBJC_CLASS_RO_$_SWFailureManager
+- __OBJC_CLASS_RO_$_SWFailureMessage
+- __OBJC_CLASS_RO_$_SWFeedConfiguration
+- __OBJC_CLASS_RO_$_SWFeedConfigurationFactory
+- __OBJC_CLASS_RO_$_SWFrameworkAssembly
+- __OBJC_CLASS_RO_$_SWInspection
+- __OBJC_CLASS_RO_$_SWInspectionAccessibilityElement
+- __OBJC_CLASS_RO_$_SWInspectionDocumentSummary
+- __OBJC_CLASS_RO_$_SWInspectionLink
+- __OBJC_CLASS_RO_$_SWInspectionScript
+- __OBJC_CLASS_RO_$_SWInteraction
+- __OBJC_CLASS_RO_$_SWInteractionFactory
+- __OBJC_CLASS_RO_$_SWInteractionProvider
+- __OBJC_CLASS_RO_$_SWKeyboardConfiguration
+- __OBJC_CLASS_RO_$_SWLayoutGuide
+- __OBJC_CLASS_RO_$_SWLoader
+- __OBJC_CLASS_RO_$_SWLoadingPolicyProvider
+- __OBJC_CLASS_RO_$_SWLocalDatastoreSetupScript
+- __OBJC_CLASS_RO_$_SWLocalDatastoreSetupTask
+- __OBJC_CLASS_RO_$_SWLocalDatastoreUpdateScript
+- __OBJC_CLASS_RO_$_SWLocation
+- __OBJC_CLASS_RO_$_SWLogMessageHandler
+- __OBJC_CLASS_RO_$_SWLogger
+- __OBJC_CLASS_RO_$_SWManagerAssembly
+- __OBJC_CLASS_RO_$_SWMediaSettings
+- __OBJC_CLASS_RO_$_SWMessage
+- __OBJC_CLASS_RO_$_SWMessageHandlerManager
+- __OBJC_CLASS_RO_$_SWMessageSecurityOrigin
+- __OBJC_CLASS_RO_$_SWMutableConfiguration
+- __OBJC_CLASS_RO_$_SWNavigationBarConfiguration
+- __OBJC_CLASS_RO_$_SWNavigationBarConfigurationManager
+- __OBJC_CLASS_RO_$_SWNavigationManager
+- __OBJC_CLASS_RO_$_SWNavigationObserver
+- __OBJC_CLASS_RO_$_SWNavigationPreview
+- __OBJC_CLASS_RO_$_SWPreferredSizeManager
+- __OBJC_CLASS_RO_$_SWPresentationDatastore
+- __OBJC_CLASS_RO_$_SWPresentationManager
+- __OBJC_CLASS_RO_$_SWPresentationStateScript
+- __OBJC_CLASS_RO_$_SWProcessConfiguration
+- __OBJC_CLASS_RO_$_SWProcessTerminationManager
+- __OBJC_CLASS_RO_$_SWProviderAssembly
+- __OBJC_CLASS_RO_$_SWQueueableScriptWithCompletion
+- __OBJC_CLASS_RO_$_SWRefreshScript
+- __OBJC_CLASS_RO_$_SWScaleManager
+- __OBJC_CLASS_RO_$_SWScriptsManager
+- __OBJC_CLASS_RO_$_SWScriptsSetupTask
+- __OBJC_CLASS_RO_$_SWScrollSettings
+- __OBJC_CLASS_RO_$_SWSession
+- __OBJC_CLASS_RO_$_SWSessionManager
+- __OBJC_CLASS_RO_$_SWSessionScript
+- __OBJC_CLASS_RO_$_SWSetupAssembly
+- __OBJC_CLASS_RO_$_SWSetupManager
+- __OBJC_CLASS_RO_$_SWSetupScript
+- __OBJC_CLASS_RO_$_SWShareConfiguration
+- __OBJC_CLASS_RO_$_SWSnapshotManager
+- __OBJC_CLASS_RO_$_SWSwiftFrameWorkAssembly
+- __OBJC_CLASS_RO_$_SWTimeoutManager
+- __OBJC_CLASS_RO_$_SWURLAction
+- __OBJC_CLASS_RO_$_SWURLInteraction
+- __OBJC_CLASS_RO_$_SWURLSchemeHandlerManager
+- __OBJC_CLASS_RO_$_SWURLSchemeHandlerSession
+- __OBJC_CLASS_RO_$_SWURLSchemeTask
+- __OBJC_CLASS_RO_$_SWURLShareItem
+- __OBJC_CLASS_RO_$_SWViewController
+- __OBJC_CLASS_RO_$_SWViewControllerAssembly
+- __OBJC_CLASS_RO_$_SWWeakMessageHandler
+- __OBJC_CLASS_RO_$_SWWeakScriptMessageHandler
+- __OBJC_CLASS_RO_$_SWWeakURLSchemeHandler
+- __OBJC_CLASS_RO_$_SWWebView
+- __OBJC_CLASS_RO_$_SWWebViewConfigurationFactory
+- __OBJC_CLASS_RO_$_SWWebViewFactory
+- __OBJC_LABEL_PROTOCOL_$_NSCopying
+- __OBJC_LABEL_PROTOCOL_$_NSMutableCopying
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_LABEL_PROTOCOL_$_SWActionFactory
+- __OBJC_LABEL_PROTOCOL_$_SWActionProvider
+- __OBJC_LABEL_PROTOCOL_$_SWBackConfiguration
+- __OBJC_LABEL_PROTOCOL_$_SWConfigurationManager
+- __OBJC_LABEL_PROTOCOL_$_SWConfigurationSerializer
+- __OBJC_LABEL_PROTOCOL_$_SWContentRuleManager
+- __OBJC_LABEL_PROTOCOL_$_SWDatastoreFactory
+- __OBJC_LABEL_PROTOCOL_$_SWDatastoreManager
+- __OBJC_LABEL_PROTOCOL_$_SWDatastoreSynchronizationManager
+- __OBJC_LABEL_PROTOCOL_$_SWDocumentStateProviding
+- __OBJC_LABEL_PROTOCOL_$_SWDocumentStateReporting
+- __OBJC_LABEL_PROTOCOL_$_SWEmbedAction
+- __OBJC_LABEL_PROTOCOL_$_SWErrorProvider
+- __OBJC_LABEL_PROTOCOL_$_SWErrorReporting
+- __OBJC_LABEL_PROTOCOL_$_SWFailureProvider
+- __OBJC_LABEL_PROTOCOL_$_SWFeedConfigurationFactory
+- __OBJC_LABEL_PROTOCOL_$_SWInteraction
+- __OBJC_LABEL_PROTOCOL_$_SWInteractionFactory
+- __OBJC_LABEL_PROTOCOL_$_SWInteractionProvider
+- __OBJC_LABEL_PROTOCOL_$_SWLoadingPolicyProvider
+- __OBJC_LABEL_PROTOCOL_$_SWLocation
+- __OBJC_LABEL_PROTOCOL_$_SWLogger
+- __OBJC_LABEL_PROTOCOL_$_SWMessage
+- __OBJC_LABEL_PROTOCOL_$_SWMessageHandler
+- __OBJC_LABEL_PROTOCOL_$_SWMessageHandlerManager
+- __OBJC_LABEL_PROTOCOL_$_SWMessageSecurityOrigin
+- __OBJC_LABEL_PROTOCOL_$_SWNavigationBarConfiguration
+- __OBJC_LABEL_PROTOCOL_$_SWNavigationBarConfigurationProvider
+- __OBJC_LABEL_PROTOCOL_$_SWNavigationManager
+- __OBJC_LABEL_PROTOCOL_$_SWNavigationObserver
+- __OBJC_LABEL_PROTOCOL_$_SWPreferredSizeManager
+- __OBJC_LABEL_PROTOCOL_$_SWPresentationManager
+- __OBJC_LABEL_PROTOCOL_$_SWProcessConfiguration
+- __OBJC_LABEL_PROTOCOL_$_SWProcessTerminationManager
+- __OBJC_LABEL_PROTOCOL_$_SWProcessTerminationPolicyDecider
+- __OBJC_LABEL_PROTOCOL_$_SWReachabilityProvider
+- __OBJC_LABEL_PROTOCOL_$_SWScaleManager
+- __OBJC_LABEL_PROTOCOL_$_SWScript
+- __OBJC_LABEL_PROTOCOL_$_SWScriptsManager
+- __OBJC_LABEL_PROTOCOL_$_SWSession
+- __OBJC_LABEL_PROTOCOL_$_SWSessionManager
+- __OBJC_LABEL_PROTOCOL_$_SWSetupManager
+- __OBJC_LABEL_PROTOCOL_$_SWSetupTask
+- __OBJC_LABEL_PROTOCOL_$_SWShareConfiguration
+- __OBJC_LABEL_PROTOCOL_$_SWShareItem
+- __OBJC_LABEL_PROTOCOL_$_SWSnapshotManager
+- __OBJC_LABEL_PROTOCOL_$_SWTimeoutManager
+- __OBJC_LABEL_PROTOCOL_$_SWURLSchemeHandlerManager
+- __OBJC_LABEL_PROTOCOL_$_SWWebViewConfigurationFactory
+- __OBJC_LABEL_PROTOCOL_$_SWWebViewFactory
+- __OBJC_LABEL_PROTOCOL_$_TFAssembly
+- __OBJC_LABEL_PROTOCOL_$_TFBundleAssembly
+- __OBJC_LABEL_PROTOCOL_$_TFFrameworkAssembly
+- __OBJC_LABEL_PROTOCOL_$_WKNavigationDelegate
+- __OBJC_LABEL_PROTOCOL_$_WKScriptMessageHandler
+- __OBJC_LABEL_PROTOCOL_$_WKUIDelegate
+- __OBJC_LABEL_PROTOCOL_$_WKURLSchemeHandler
+- __OBJC_LABEL_PROTOCOL_$_WKURLSchemeTask
+- __OBJC_LABEL_PROTOCOL_$__WKFullscreenDelegate
+- __OBJC_METACLASS_RO_$_SWActionFactory
+- __OBJC_METACLASS_RO_$_SWActionProvider
+- __OBJC_METACLASS_RO_$_SWBackButtonTappedScript
+- __OBJC_METACLASS_RO_$_SWBackConfiguration
+- __OBJC_METACLASS_RO_$_SWConfiguration
+- __OBJC_METACLASS_RO_$_SWConfigurationManager
+- __OBJC_METACLASS_RO_$_SWConfigurationScript
+- __OBJC_METACLASS_RO_$_SWConfigurationSerializer
+- __OBJC_METACLASS_RO_$_SWContainerConfiguration
+- __OBJC_METACLASS_RO_$_SWContainerViewController
+- __OBJC_METACLASS_RO_$_SWContentRuleManager
+- __OBJC_METACLASS_RO_$_SWCoreAssembly
+- __OBJC_METACLASS_RO_$_SWCrashRetryThrottler
+- __OBJC_METACLASS_RO_$_SWDatastore
+- __OBJC_METACLASS_RO_$_SWDatastoreFactory
+- __OBJC_METACLASS_RO_$_SWDatastoreManager
+- __OBJC_METACLASS_RO_$_SWDatastoreSetupScript
+- __OBJC_METACLASS_RO_$_SWDatastoreSetupTask
+- __OBJC_METACLASS_RO_$_SWDatastoreSynchronizationManager
+- __OBJC_METACLASS_RO_$_SWDatastoreUpdateScript
+- __OBJC_METACLASS_RO_$_SWDeveloperSettings
+- __OBJC_METACLASS_RO_$_SWDocumentStateManager
+- __OBJC_METACLASS_RO_$_SWEmbedAction
+- __OBJC_METACLASS_RO_$_SWErrorManager
+- __OBJC_METACLASS_RO_$_SWFactoryAssembly
+- __OBJC_METACLASS_RO_$_SWFailureManager
+- __OBJC_METACLASS_RO_$_SWFailureMessage
+- __OBJC_METACLASS_RO_$_SWFeedConfiguration
+- __OBJC_METACLASS_RO_$_SWFeedConfigurationFactory
+- __OBJC_METACLASS_RO_$_SWFrameworkAssembly
+- __OBJC_METACLASS_RO_$_SWInspection
+- __OBJC_METACLASS_RO_$_SWInspectionAccessibilityElement
+- __OBJC_METACLASS_RO_$_SWInspectionDocumentSummary
+- __OBJC_METACLASS_RO_$_SWInspectionLink
+- __OBJC_METACLASS_RO_$_SWInspectionScript
+- __OBJC_METACLASS_RO_$_SWInteraction
+- __OBJC_METACLASS_RO_$_SWInteractionFactory
+- __OBJC_METACLASS_RO_$_SWInteractionProvider
+- __OBJC_METACLASS_RO_$_SWKeyboardConfiguration
+- __OBJC_METACLASS_RO_$_SWLayoutGuide
+- __OBJC_METACLASS_RO_$_SWLoader
+- __OBJC_METACLASS_RO_$_SWLoadingPolicyProvider
+- __OBJC_METACLASS_RO_$_SWLocalDatastoreSetupScript
+- __OBJC_METACLASS_RO_$_SWLocalDatastoreSetupTask
+- __OBJC_METACLASS_RO_$_SWLocalDatastoreUpdateScript
+- __OBJC_METACLASS_RO_$_SWLocation
+- __OBJC_METACLASS_RO_$_SWLogMessageHandler
+- __OBJC_METACLASS_RO_$_SWLogger
+- __OBJC_METACLASS_RO_$_SWManagerAssembly
+- __OBJC_METACLASS_RO_$_SWMediaSettings
+- __OBJC_METACLASS_RO_$_SWMessage
+- __OBJC_METACLASS_RO_$_SWMessageHandlerManager
+- __OBJC_METACLASS_RO_$_SWMessageSecurityOrigin
+- __OBJC_METACLASS_RO_$_SWMutableConfiguration
+- __OBJC_METACLASS_RO_$_SWNavigationBarConfiguration
+- __OBJC_METACLASS_RO_$_SWNavigationBarConfigurationManager
+- __OBJC_METACLASS_RO_$_SWNavigationManager
+- __OBJC_METACLASS_RO_$_SWNavigationObserver
+- __OBJC_METACLASS_RO_$_SWNavigationPreview
+- __OBJC_METACLASS_RO_$_SWPreferredSizeManager
+- __OBJC_METACLASS_RO_$_SWPresentationDatastore
+- __OBJC_METACLASS_RO_$_SWPresentationManager
+- __OBJC_METACLASS_RO_$_SWPresentationStateScript
+- __OBJC_METACLASS_RO_$_SWProcessConfiguration
+- __OBJC_METACLASS_RO_$_SWProcessTerminationManager
+- __OBJC_METACLASS_RO_$_SWProviderAssembly
+- __OBJC_METACLASS_RO_$_SWQueueableScriptWithCompletion
+- __OBJC_METACLASS_RO_$_SWRefreshScript
+- __OBJC_METACLASS_RO_$_SWScaleManager
+- __OBJC_METACLASS_RO_$_SWScriptsManager
+- __OBJC_METACLASS_RO_$_SWScriptsSetupTask
+- __OBJC_METACLASS_RO_$_SWScrollSettings
+- __OBJC_METACLASS_RO_$_SWSession
+- __OBJC_METACLASS_RO_$_SWSessionManager
+- __OBJC_METACLASS_RO_$_SWSessionScript
+- __OBJC_METACLASS_RO_$_SWSetupAssembly
+- __OBJC_METACLASS_RO_$_SWSetupManager
+- __OBJC_METACLASS_RO_$_SWSetupScript
+- __OBJC_METACLASS_RO_$_SWShareConfiguration
+- __OBJC_METACLASS_RO_$_SWSnapshotManager
+- __OBJC_METACLASS_RO_$_SWSwiftFrameWorkAssembly
+- __OBJC_METACLASS_RO_$_SWTimeoutManager
+- __OBJC_METACLASS_RO_$_SWURLAction
+- __OBJC_METACLASS_RO_$_SWURLInteraction
+- __OBJC_METACLASS_RO_$_SWURLSchemeHandlerManager
+- __OBJC_METACLASS_RO_$_SWURLSchemeHandlerSession
+- __OBJC_METACLASS_RO_$_SWURLSchemeTask
+- __OBJC_METACLASS_RO_$_SWURLShareItem
+- __OBJC_METACLASS_RO_$_SWViewController
+- __OBJC_METACLASS_RO_$_SWViewControllerAssembly
+- __OBJC_METACLASS_RO_$_SWWeakMessageHandler
+- __OBJC_METACLASS_RO_$_SWWeakScriptMessageHandler
+- __OBJC_METACLASS_RO_$_SWWeakURLSchemeHandler
+- __OBJC_METACLASS_RO_$_SWWebView
+- __OBJC_METACLASS_RO_$_SWWebViewConfigurationFactory
+- __OBJC_METACLASS_RO_$_SWWebViewFactory
+- __OBJC_PROTOCOL_$_NSCopying
+- __OBJC_PROTOCOL_$_NSMutableCopying
+- __OBJC_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_SWActionFactory
+- __OBJC_PROTOCOL_$_SWActionProvider
+- __OBJC_PROTOCOL_$_SWBackConfiguration
+- __OBJC_PROTOCOL_$_SWConfigurationManager
+- __OBJC_PROTOCOL_$_SWConfigurationSerializer
+- __OBJC_PROTOCOL_$_SWContentRuleManager
+- __OBJC_PROTOCOL_$_SWDatastoreFactory
+- __OBJC_PROTOCOL_$_SWDatastoreManager
+- __OBJC_PROTOCOL_$_SWDatastoreSynchronizationManager
+- __OBJC_PROTOCOL_$_SWDocumentStateProviding
+- __OBJC_PROTOCOL_$_SWDocumentStateReporting
+- __OBJC_PROTOCOL_$_SWEmbedAction
+- __OBJC_PROTOCOL_$_SWErrorProvider
+- __OBJC_PROTOCOL_$_SWErrorReporting
+- __OBJC_PROTOCOL_$_SWFailureProvider
+- __OBJC_PROTOCOL_$_SWFeedConfigurationFactory
+- __OBJC_PROTOCOL_$_SWInteraction
+- __OBJC_PROTOCOL_$_SWInteractionFactory
+- __OBJC_PROTOCOL_$_SWInteractionProvider
+- __OBJC_PROTOCOL_$_SWLoadingPolicyProvider
+- __OBJC_PROTOCOL_$_SWLocation
+- __OBJC_PROTOCOL_$_SWLogger
+- __OBJC_PROTOCOL_$_SWMessage
+- __OBJC_PROTOCOL_$_SWMessageHandler
+- __OBJC_PROTOCOL_$_SWMessageHandlerManager
+- __OBJC_PROTOCOL_$_SWMessageSecurityOrigin
+- __OBJC_PROTOCOL_$_SWNavigationBarConfiguration
+- __OBJC_PROTOCOL_$_SWNavigationBarConfigurationProvider
+- __OBJC_PROTOCOL_$_SWNavigationManager
+- __OBJC_PROTOCOL_$_SWNavigationObserver
+- __OBJC_PROTOCOL_$_SWPreferredSizeManager
+- __OBJC_PROTOCOL_$_SWPresentationManager
+- __OBJC_PROTOCOL_$_SWProcessConfiguration
+- __OBJC_PROTOCOL_$_SWProcessTerminationManager
+- __OBJC_PROTOCOL_$_SWProcessTerminationPolicyDecider
+- __OBJC_PROTOCOL_$_SWReachabilityProvider
+- __OBJC_PROTOCOL_$_SWScaleManager
+- __OBJC_PROTOCOL_$_SWScript
+- __OBJC_PROTOCOL_$_SWScriptsManager
+- __OBJC_PROTOCOL_$_SWSession
+- __OBJC_PROTOCOL_$_SWSessionManager
+- __OBJC_PROTOCOL_$_SWSetupManager
+- __OBJC_PROTOCOL_$_SWSetupTask
+- __OBJC_PROTOCOL_$_SWShareConfiguration
+- __OBJC_PROTOCOL_$_SWShareItem
+- __OBJC_PROTOCOL_$_SWSnapshotManager
+- __OBJC_PROTOCOL_$_SWTimeoutManager
+- __OBJC_PROTOCOL_$_SWURLSchemeHandlerManager
+- __OBJC_PROTOCOL_$_SWWebViewConfigurationFactory
+- __OBJC_PROTOCOL_$_SWWebViewFactory
+- __OBJC_PROTOCOL_$_TFAssembly
+- __OBJC_PROTOCOL_$_TFBundleAssembly
+- __OBJC_PROTOCOL_$_TFFrameworkAssembly
+- __OBJC_PROTOCOL_$_WKNavigationDelegate
+- __OBJC_PROTOCOL_$_WKScriptMessageHandler
+- __OBJC_PROTOCOL_$_WKUIDelegate
+- __OBJC_PROTOCOL_$_WKURLSchemeHandler
+- __OBJC_PROTOCOL_$_WKURLSchemeTask
+- __OBJC_PROTOCOL_$__WKFullscreenDelegate
+- __OBJC_PROTOCOL_REFERENCE_$_SWActionFactory
+- __OBJC_PROTOCOL_REFERENCE_$_SWActionProvider
+- __OBJC_PROTOCOL_REFERENCE_$_SWConfigurationManager
+- __OBJC_PROTOCOL_REFERENCE_$_SWConfigurationSerializer
+- __OBJC_PROTOCOL_REFERENCE_$_SWContentRuleManager
+- __OBJC_PROTOCOL_REFERENCE_$_SWDatastoreFactory
+- __OBJC_PROTOCOL_REFERENCE_$_SWDatastoreManager
+- __OBJC_PROTOCOL_REFERENCE_$_SWDatastoreSynchronizationManager
+- __OBJC_PROTOCOL_REFERENCE_$_SWDocumentStateProviding
+- __OBJC_PROTOCOL_REFERENCE_$_SWDocumentStateReporting
+- __OBJC_PROTOCOL_REFERENCE_$_SWErrorProvider
+- __OBJC_PROTOCOL_REFERENCE_$_SWErrorReporting
+- __OBJC_PROTOCOL_REFERENCE_$_SWFailureProvider
+- __OBJC_PROTOCOL_REFERENCE_$_SWFeedConfigurationFactory
+- __OBJC_PROTOCOL_REFERENCE_$_SWInteractionFactory
+- __OBJC_PROTOCOL_REFERENCE_$_SWInteractionProvider
+- __OBJC_PROTOCOL_REFERENCE_$_SWLoadingPolicyProvider
+- __OBJC_PROTOCOL_REFERENCE_$_SWLocation
+- __OBJC_PROTOCOL_REFERENCE_$_SWLogger
+- __OBJC_PROTOCOL_REFERENCE_$_SWMessageHandlerManager
+- __OBJC_PROTOCOL_REFERENCE_$_SWNavigationBarConfigurationProvider
+- __OBJC_PROTOCOL_REFERENCE_$_SWNavigationManager
+- __OBJC_PROTOCOL_REFERENCE_$_SWPreferredSizeManager
+- __OBJC_PROTOCOL_REFERENCE_$_SWPresentationManager
+- __OBJC_PROTOCOL_REFERENCE_$_SWProcessConfiguration
+- __OBJC_PROTOCOL_REFERENCE_$_SWProcessTerminationManager
+- __OBJC_PROTOCOL_REFERENCE_$_SWProcessTerminationPolicyDecider
+- __OBJC_PROTOCOL_REFERENCE_$_SWReachabilityProvider
+- __OBJC_PROTOCOL_REFERENCE_$_SWScaleManager
+- __OBJC_PROTOCOL_REFERENCE_$_SWScriptsManager
+- __OBJC_PROTOCOL_REFERENCE_$_SWSessionManager
+- __OBJC_PROTOCOL_REFERENCE_$_SWSetupManager
+- __OBJC_PROTOCOL_REFERENCE_$_SWSnapshotManager
+- __OBJC_PROTOCOL_REFERENCE_$_SWTimeoutManager
+- __OBJC_PROTOCOL_REFERENCE_$_SWURLSchemeHandlerManager
+- __OBJC_PROTOCOL_REFERENCE_$_SWWebViewConfigurationFactory
+- __OBJC_PROTOCOL_REFERENCE_$_SWWebViewFactory
+- ___103-[SWInteractionProvider initWithMessageHandlerManager:documentStateProvider:interactionFactory:logger:]_block_invoke
+- ___109-[SWPresentationManager initWithWebContentScriptsManager:messageHandlerManager:documentStateProvider:logger:]_block_invoke
+- ___23-[SWURLSchemeTask stop]_block_invoke
+- ___26-[SWURLSchemeTask request]_block_invoke
+- ___28-[SWURLSchemeTask didFinish]_block_invoke
+- ___314-[SWViewController initWithWebView:setupManager:scriptsManager:messageHandlerManager:navigationManager:errorReporter:documentStateReporter:timeoutManager:terminationManager:contentRuleManager:reachabilityProvider:logger:sessionManager:datastoreSynchronizationManager:localDatastoreManager:URLSchemeHandlerManager:]_block_invoke
+- ___314-[SWViewController initWithWebView:setupManager:scriptsManager:messageHandlerManager:navigationManager:errorReporter:documentStateReporter:timeoutManager:terminationManager:contentRuleManager:reachabilityProvider:logger:sessionManager:datastoreSynchronizationManager:localDatastoreManager:URLSchemeHandlerManager:]_block_invoke_2
+- ___32+[SWDatastoreSetupScript source]_block_invoke
+- ___33-[SWCoreAssembly loadInRegistry:]_block_invoke
+- ___33-[SWCoreAssembly loadInRegistry:]_block_invoke_2
+- ___34-[SWSetupAssembly loadInRegistry:]_block_invoke
+- ___34-[SWSetupAssembly loadInRegistry:]_block_invoke_2
+- ___34-[SWSetupAssembly loadInRegistry:]_block_invoke_3
+- ___34-[SWSetupAssembly loadInRegistry:]_block_invoke_4
+- ___34-[SWURLSchemeTask didReceiveData:]_block_invoke
+- ___36-[SWFactoryAssembly loadInRegistry:]_block_invoke
+- ___36-[SWFactoryAssembly loadInRegistry:]_block_invoke_10
+- ___36-[SWFactoryAssembly loadInRegistry:]_block_invoke_11
+- ___36-[SWFactoryAssembly loadInRegistry:]_block_invoke_12
+- ___36-[SWFactoryAssembly loadInRegistry:]_block_invoke_2
+- ___36-[SWFactoryAssembly loadInRegistry:]_block_invoke_3
+- ___36-[SWFactoryAssembly loadInRegistry:]_block_invoke_4
+- ___36-[SWFactoryAssembly loadInRegistry:]_block_invoke_5
+- ___36-[SWFactoryAssembly loadInRegistry:]_block_invoke_6
+- ___36-[SWFactoryAssembly loadInRegistry:]_block_invoke_7
+- ___36-[SWFactoryAssembly loadInRegistry:]_block_invoke_8
+- ___36-[SWFactoryAssembly loadInRegistry:]_block_invoke_9
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_10
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_11
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_12
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_13
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_14
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_15
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_16
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_17
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_18
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_19
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_2
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_20
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_21
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_22
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_23
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_24
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_25
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_26
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_27
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_28
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_29
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_3
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_30
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_31
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_32
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_33
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_4
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_5
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_6
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_7
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_8
+- ___36-[SWManagerAssembly loadInRegistry:]_block_invoke_9
+- ___36-[SWURLSchemeTask didFailWithError:]_block_invoke
+- ___37+[SWLocalDatastoreSetupScript source]_block_invoke
+- ___37-[SWProviderAssembly loadInRegistry:]_block_invoke
+- ___37-[SWProviderAssembly loadInRegistry:]_block_invoke_2
+- ___37-[SWProviderAssembly loadInRegistry:]_block_invoke_3
+- ___37-[SWProviderAssembly loadInRegistry:]_block_invoke_4
+- ___37-[SWProviderAssembly loadInRegistry:]_block_invoke_5
+- ___37-[SWProviderAssembly loadInRegistry:]_block_invoke_6
+- ___38+[SWInspectionScript executableSource]_block_invoke
+- ___38-[SWURLSchemeTask didReceiveResponse:]_block_invoke
+- ___40-[SWContainerViewController viewDidLoad]_block_invoke
+- ___40-[SWViewController loadURL:cachePolicy:]_block_invoke
+- ___40-[SWViewController loadURL:cachePolicy:]_block_invoke_2
+- ___43+[SWDatastoreUpdateScript executableSource]_block_invoke
+- ___43+[SWDatastoreUpdateScript userScriptSource]_block_invoke
+- ___43-[SWViewController loadHTMLString:baseURL:]_block_invoke
+- ___43-[SWViewController loadHTMLString:baseURL:]_block_invoke_2
+- ___43-[SWViewControllerAssembly loadInRegistry:]_block_invoke
+- ___43-[SWViewControllerAssembly loadInRegistry:]_block_invoke_2
+- ___43-[SWViewControllerAssembly loadInRegistry:]_block_invoke_3
+- ___45-[SWContentRuleManager configureContentRules]_block_invoke
+- ___45-[SWContentRuleManager configureContentRules]_block_invoke_2
+- ___45-[SWScriptsManager executeScript:completion:]_block_invoke
+- ___48+[SWLocalDatastoreUpdateScript executableSource]_block_invoke
+- ___48+[SWLocalDatastoreUpdateScript userScriptSource]_block_invoke
+- ___50-[SWPresentationManager inspectionWithCompletion:]_block_invoke
+- ___54-[SWContentRuleManager addContentRuleList:identifier:]_block_invoke
+- ___55-[SWContentRuleManager removeContentListForIdentifier:]_block_invoke
+- ___55-[SWSnapshotManager takeSnapshotWithCompletionHandler:]_block_invoke
+- ___55-[SWSnapshotManager takeSnapshotWithCompletionHandler:]_block_invoke_2
+- ___56-[SWDocumentStateManager initWithUserContentController:]_block_invoke
+- ___56-[SWDocumentStateManager initWithUserContentController:]_block_invoke_2
+- ___56-[SWDocumentStateManager initWithUserContentController:]_block_invoke_3
+- ___56-[SWURLSchemeHandlerManager webView:startURLSchemeTask:]_block_invoke
+- ___61-[SWScriptsManager executeScriptWithReturnObject:completion:]_block_invoke
+- ___61-[SWScriptsManager executeScriptWithReturnObject:completion:]_block_invoke_2
+- ___62-[SWConfigurationSerializer serializeWebContentConfiguration:]_block_invoke
+- ___65-[SWScriptsManager initWithWebView:documentStateProvider:logger:]_block_invoke
+- ___65-[SWScriptsManager initWithWebView:documentStateProvider:logger:]_block_invoke_2
+- ___65-[SWScriptsManager initWithWebView:documentStateProvider:logger:]_block_invoke_3
+- ___70-[SWErrorManager initWithMessageHandlerManager:timeoutManager:logger:]_block_invoke
+- ___80-[SWContainerViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+- ___80-[SWTimeoutManager initWithTimeout:messageHandlerManager:documentStateProvider:]_block_invoke
+- ___80-[SWTimeoutManager initWithTimeout:messageHandlerManager:documentStateProvider:]_block_invoke_2
+- ___80-[SWTimeoutManager initWithTimeout:messageHandlerManager:documentStateProvider:]_block_invoke_3
+- ___80-[SWTimeoutManager initWithTimeout:messageHandlerManager:documentStateProvider:]_block_invoke_4
+- ___80-[SWTimeoutManager initWithTimeout:messageHandlerManager:documentStateProvider:]_block_invoke_5
+- ___80-[SWTimeoutManager initWithTimeout:messageHandlerManager:documentStateProvider:]_block_invoke_6
+- ___80-[SWTimeoutManager initWithTimeout:messageHandlerManager:documentStateProvider:]_block_invoke_7
+- ___Block_byref_object_copy_
+- ___Block_byref_object_dispose_
+- ___SWSetupLogging_block_invoke
+- ___block_descriptor_32_e22_16?0"<TFResolver>"8l
+- ___block_descriptor_32_e25_v24?08"<TFResolver>"16l
+- ___block_descriptor_32_e33_"WKWebView"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e34_"<SWLogger>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e37_"WKProcessPool"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e38_"SWErrorManager"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e40_"SWFailureManager"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e40_"SWViewController"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e41_"<SWActionFactory>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e41_"<SWErrorProvider>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e42_"<SWActionProvider>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e42_"<SWErrorReporting>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e42_"<SWScriptsManager>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e42_"<SWTimeoutManager>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e42_"<SWWebViewFactory>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e43_"<SWFailureProvider>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e43_"SWLogMessageHandler"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e43_v24?0"<SWSetupManager>"8"<TFResolver>"16l
+- ___block_descriptor_32_e45_"<SWNavigationManager>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e45_v24?0"<TFResolver>"8"WKWebsiteDataStore"16l
+- ___block_descriptor_32_e46_"<SWContentRuleManager>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e46_"<SWInteractionFactory>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e46_"SWDocumentStateManager"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e47_"<SWInteractionProvider>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e47_"<SWPresentationManager>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e47_"WKUserContentController"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e48_"<SWConfigurationManager>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e48_"<SWPreferredSizeManager>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e48_"<SWProcessConfiguration>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e49_"<SWLoadingPolicyProvider>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e49_"<SWMessageHandlerManager>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e49_"SWContainerViewController"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e50_"<SWDocumentStateProviding>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e50_"<SWDocumentStateReporting>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e51_"_WKProcessPoolConfiguration"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e52_"<SWFeedConfigurationFactory>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e52_v24?0"<TFResolver>"8"<SWMessageHandlerManager>"16l
+- ___block_descriptor_32_e53_"<SWProcessTerminationManager>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e54_v24?0"<TFResolver>"8"_WKProcessPoolConfiguration"16l
+- ___block_descriptor_32_e55_v24?0"NFStateMachineTransition"8"SWTimeoutManager"16l
+- ___block_descriptor_32_e59_"<SWProcessTerminationPolicyDecider>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_32_e60_v24?0"<TFResolver>"8"SWDatastoreSynchronizationManager"16l
+- ___block_descriptor_32_e61_v24?0"NFStateMachineTransition"8"SWDocumentStateManager"16l
+- ___block_descriptor_32_e62_"<SWNavigationBarConfigurationProvider>"16?0"<TFResolver>"8l
+- ___block_descriptor_40_e55_v24?0"NFStateMachineTransition"8"SWTimeoutManager"16l
+- ___block_descriptor_40_e5_v8?0l
+- ___block_descriptor_40_e8_32bs_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32bs_e8_v16?08ls32l8
+- ___block_descriptor_40_e8_32s_e17_v16?0"NSTimer"8ls32l8
+- ___block_descriptor_40_e8_32s_e32_v32?0"NSString"8"NSURL"16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e34_v24?0?<v?>8?<v?"NSError">16ls32l8
+- ___block_descriptor_40_e8_32s_e39_v24?0"WKContentRuleList"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32w_e25_v16?0"<SWInteraction>"8lw32l8
+- ___block_descriptor_40_e8_32w_e56_v16?0"<UIViewControllerTransitionCoordinatorContext>"8lw32l8
+- ___block_descriptor_40_e8_32w_e5_v8?0lw32l8
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0ls40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e5_v8?0lr40l8s32l8
+- ___block_descriptor_48_e8_32s40s_e39_v24?0"WKContentRuleList"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40w_e27_v16?0"<WKURLSchemeTask>"8lw40l8s32l8
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48w_e5_v8?0lw48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48w_e8_16?08ls32l8w48l8s40l8
+- ___block_descriptor_56_e8_32s40w_e5_v8?0lw40l8s32l8
+- ___block_descriptor_56_e8_32s40w_e8_16?08ls32l8w40l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e20_v24?08"NSError"16ls32l8s40l8s48l8s56l8
+- ___block_literal_global
+- _executableSource.onceToken
+- _executableSource.source
+- _objc_msgSend$CGRectValue
+- _objc_msgSend$JSONString
+- _objc_msgSend$URL
+- _objc_msgSend$URLByDeletingLastPathComponent
+- _objc_msgSend$URLForResource:withExtension:
+- _objc_msgSend$URLSchemeHandler
+- _objc_msgSend$URLSchemeHandlerManager
+- _objc_msgSend$URLWithString:
+- _objc_msgSend$UUID
+- _objc_msgSend$UUIDString
+- _objc_msgSend$_allowsRemoteInspection
+- _objc_msgSend$_doAfterNextPresentationUpdate:
+- _objc_msgSend$_initWithConfiguration:
+- _objc_msgSend$_pauseScriptExecution
+- _objc_msgSend$_pocketInsets
+- _objc_msgSend$_removeUserScript:
+- _objc_msgSend$_resumeScriptExecution
+- _objc_msgSend$_setDeveloperExtrasEnabled:
+- _objc_msgSend$_setFullScreenEnabled:
+- _objc_msgSend$_setFullscreenDelegate:
+- _objc_msgSend$_setHiddenPocketEdges:
+- _objc_msgSend$_setInlineMediaPlaybackRequiresPlaysInlineAttribute:
+- _objc_msgSend$_setInputDelegate:
+- _objc_msgSend$_setOverrideContentSecurityPolicy:
+- _objc_msgSend$_setPocketInsets:
+- _objc_msgSend$_setPocketsEnabled:
+- _objc_msgSend$_setResourceLoadStatisticsEnabled:
+- _objc_msgSend$_setShouldAllowUserInstalledFonts:
+- _objc_msgSend$_setUseSystemAppearance:
+- _objc_msgSend$_setViewScale:
+- _objc_msgSend$_setWaitsForPaintAfterViewDidMoveToWindow:
+- _objc_msgSend$_viewScale
+- _objc_msgSend$absoluteString
+- _objc_msgSend$accessibilityElements
+- _objc_msgSend$accessoryView
+- _objc_msgSend$actionBlocks
+- _objc_msgSend$actionFactory
+- _objc_msgSend$actionForDictionary:
+- _objc_msgSend$actionForRequest:
+- _objc_msgSend$actionTypeText:
+- _objc_msgSend$activate
+- _objc_msgSend$activateIfNeeded
+- _objc_msgSend$activePictureInPictureURL
+- _objc_msgSend$addChildViewController:
+- _objc_msgSend$addContentRuleList:
+- _objc_msgSend$addContentRuleList:identifier:
+- _objc_msgSend$addEvent:
+- _objc_msgSend$addMessageHandler:name:
+- _objc_msgSend$addObject:
+- _objc_msgSend$addObserver:forKeyPath:options:context:
+- _objc_msgSend$addObserver:selector:name:object:
+- _objc_msgSend$addPointer:
+- _objc_msgSend$addScript:
+- _objc_msgSend$addScriptMessageHandler:name:
+- _objc_msgSend$addState:
+- _objc_msgSend$addSubview:
+- _objc_msgSend$addTask:
+- _objc_msgSend$addUserScript:
+- _objc_msgSend$allObjects
+- _objc_msgSend$allowRemoteInspection
+- _objc_msgSend$allowUserInteractionForInteractionType:
+- _objc_msgSend$animateAlongsideTransition:completion:
+- _objc_msgSend$appVersion
+- _objc_msgSend$appendFormat:
+- _objc_msgSend$appendString:
+- _objc_msgSend$array
+- _objc_msgSend$arrayWithArray:
+- _objc_msgSend$arrayWithObjects:count:
+- _objc_msgSend$becomeFirstResponder
+- _objc_msgSend$bindValue:forKey:
+- _objc_msgSend$block
+- _objc_msgSend$blocks
+- _objc_msgSend$body
+- _objc_msgSend$boolValue
+- _objc_msgSend$bounds
+- _objc_msgSend$bundleForClass:
+- _objc_msgSend$callback
+- _objc_msgSend$canBecomeFirstResponder
+- _objc_msgSend$canBecomeFocused
+- _objc_msgSend$cancel
+- _objc_msgSend$clearColor
+- _objc_msgSend$code
+- _objc_msgSend$commitViewController:
+- _objc_msgSend$commitViewController:URLRequest:
+- _objc_msgSend$compileContentRuleListForIdentifier:encodedContentRuleList:completionHandler:
+- _objc_msgSend$completion
+- _objc_msgSend$configuration
+- _objc_msgSend$configurationManager
+- _objc_msgSend$configurationScript
+- _objc_msgSend$configurationWithContainerConfiguration:
+- _objc_msgSend$configureContentRules
+- _objc_msgSend$conformsToProtocol:
+- _objc_msgSend$constructLogWithMessage:
+- _objc_msgSend$containsObject:
+- _objc_msgSend$containsString:
+- _objc_msgSend$contentEnvironment
+- _objc_msgSend$contentFrame
+- _objc_msgSend$contentRuleManager
+- _objc_msgSend$contentSafeAreaFrame
+- _objc_msgSend$contentSizeCategory
+- _objc_msgSend$context
+- _objc_msgSend$convertRect:toCoordinateSpace:
+- _objc_msgSend$convertedInputAccessoryViewFrame
+- _objc_msgSend$convertedKeyboardFrame
+- _objc_msgSend$coordinateSpace
+- _objc_msgSend$copy
+- _objc_msgSend$count
+- _objc_msgSend$countByEnumeratingWithState:objects:count:
+- _objc_msgSend$crashed
+- _objc_msgSend$createDatastoreFromMessage:
+- _objc_msgSend$createURLSchemeHandlerWithTask:
+- _objc_msgSend$createWebViewConfigurationWithUserContentController:mediaSettings:
+- _objc_msgSend$createWebViewWithWebViewConfiguration:scrollSettings:
+- _objc_msgSend$currentDevice
+- _objc_msgSend$currentPreview
+- _objc_msgSend$currentReachabilityStatus
+- _objc_msgSend$currentScreen
+- _objc_msgSend$dataSources
+- _objc_msgSend$dataWithJSONObject:options:error:
+- _objc_msgSend$datastore
+- _objc_msgSend$datastoreManager
+- _objc_msgSend$datastoreManager:didChangeFromDatastore:toDatastore:originatingSession:
+- _objc_msgSend$datastoreSynchronizationManager
+- _objc_msgSend$dateFormatFromTemplate:options:locale:
+- _objc_msgSend$deactivateIfNeeded
+- _objc_msgSend$defaultCenter
+- _objc_msgSend$defaultDataStore
+- _objc_msgSend$defaultStore
+- _objc_msgSend$description
+- _objc_msgSend$descriptionForPresentationState:
+- _objc_msgSend$dictionary
+- _objc_msgSend$dictionaryWithObjects:forKeys:count:
+- _objc_msgSend$didFailWithError:
+- _objc_msgSend$didFinish
+- _objc_msgSend$didMoveToParentViewController:
+- _objc_msgSend$didReceiveData:
+- _objc_msgSend$didReceiveMessage:securityOrigin:
+- _objc_msgSend$didReceiveResponse:
+- _objc_msgSend$dispatchGroup
+- _objc_msgSend$documentIsReady
+- _objc_msgSend$documentStartedLoading
+- _objc_msgSend$documentStateReporter
+- _objc_msgSend$documentWillUnload
+- _objc_msgSend$doubleValue
+- _objc_msgSend$emptyDatastore
+- _objc_msgSend$endCallbackBlock
+- _objc_msgSend$endSessionForHandler:withTask:
+- _objc_msgSend$enumerateKeysAndObjectsUsingBlock:
+- _objc_msgSend$error
+- _objc_msgSend$errorReporter
+- _objc_msgSend$errorWithDomain:code:userInfo:
+- _objc_msgSend$evaluateJavaScript:completionHandler:
+- _objc_msgSend$executableScript
+- _objc_msgSend$executableSource
+- _objc_msgSend$executeQueuedScripts
+- _objc_msgSend$executeScript:completion:
+- _objc_msgSend$executeScriptWithReturnObject:completion:
+- _objc_msgSend$extensionHandlers
+- _objc_msgSend$factories
+- _objc_msgSend$feedConfiguration
+- _objc_msgSend$finish
+- _objc_msgSend$fireEventWithName:withContext:
+- _objc_msgSend$firstResponder
+- _objc_msgSend$floatValue
+- _objc_msgSend$focusShouldStartInputSession
+- _objc_msgSend$forceDisableDictation
+- _objc_msgSend$frameInfo
+- _objc_msgSend$fullScreenEnabled
+- _objc_msgSend$handleRequest:
+- _objc_msgSend$handledNavigationWithURL:
+- _objc_msgSend$handlerWithMessageHandler:
+- _objc_msgSend$handlers
+- _objc_msgSend$hidePrediction
+- _objc_msgSend$host
+- _objc_msgSend$identifier
+- _objc_msgSend$inScope:
+- _objc_msgSend$initWithAllowRemoteInspection:
+- _objc_msgSend$initWithBackgroundPriority:
+- _objc_msgSend$initWithConfiguration:
+- _objc_msgSend$initWithConfiguration:logger:
+- _objc_msgSend$initWithContentDomain:embedName:errorType:
+- _objc_msgSend$initWithContext:URL:
+- _objc_msgSend$initWithContext:URL:canBecomeFocused:canBecomeFirstResponder:
+- _objc_msgSend$initWithData:encoding:
+- _objc_msgSend$initWithDatastore:
+- _objc_msgSend$initWithDatastore:oldDatastore:originatingSession:queueable:
+- _objc_msgSend$initWithDatastoreManager:scriptsManager:
+- _objc_msgSend$initWithDictionary:
+- _objc_msgSend$initWithFrame:configuration:
+- _objc_msgSend$initWithHidden:
+- _objc_msgSend$initWithJSONString:
+- _objc_msgSend$initWithKeyboardFrame:inputAccessoryViewFrame:isKeyboardSplit:isKeyboardFloating:isHardwareKeyboard:isKeyboardVisible:isPencilInputExpected:
+- _objc_msgSend$initWithLogger:
+- _objc_msgSend$initWithLogger:documentStateProvider:datastoreSynchronizationManager:
+- _objc_msgSend$initWithMediaTypesRequiringUserActionForPlayback:fullScreenEnabled:
+- _objc_msgSend$initWithMessageHandlerManager:actionFactory:logger:
+- _objc_msgSend$initWithMessageHandlerManager:documentStateProvider:interactionFactory:logger:
+- _objc_msgSend$initWithMessageHandlerManager:logger:
+- _objc_msgSend$initWithMessageHandlerManager:timeoutManager:logger:
+- _objc_msgSend$initWithName:
+- _objc_msgSend$initWithName:transitionFromStates:toState:
+- _objc_msgSend$initWithNavigationManager:
+- _objc_msgSend$initWithObject:
+- _objc_msgSend$initWithPresentationState:
+- _objc_msgSend$initWithProcessPool:websiteDataStore:
+- _objc_msgSend$initWithProtocol:host:request:
+- _objc_msgSend$initWithResolver:
+- _objc_msgSend$initWithScript:completion:
+- _objc_msgSend$initWithScriptMessageHandler:
+- _objc_msgSend$initWithScriptsManager:
+- _objc_msgSend$initWithScriptsManager:logger:
+- _objc_msgSend$initWithScrollEnabled:scrollsToTop:showsVerticalScrollIndicator:
+- _objc_msgSend$initWithSelectors:configuration:
+- _objc_msgSend$initWithSession:
+- _objc_msgSend$initWithSettingsFactory:scriptsManager:messageHandlerManager:sessionManager:logger:
+- _objc_msgSend$initWithSource:injectionTime:forMainFrameOnly:
+- _objc_msgSend$initWithState:withOwner:
+- _objc_msgSend$initWithStoreFront:locale:contentEnvironment:contentSizeCategory:layoutGuide:dataSources:location:sourceURL:activePictureInPictureURL:feedConfiguration:supportsLiveActivities:
+- _objc_msgSend$initWithStoreFront:locale:contentEnvironment:contentSizeCategory:layoutGuide:dataSources:location:sourceURL:activePictureInPictureURL:feedConfiguration:supportsLiveActivities:keyboardConfiguration:networkStatus:isTransitioning:
+- _objc_msgSend$initWithString:
+- _objc_msgSend$initWithTask:logger:
+- _objc_msgSend$initWithTerminationThrottler:errorReporter:
+- _objc_msgSend$initWithTimeout:messageHandlerManager:documentStateProvider:
+- _objc_msgSend$initWithTitle:shareConfiguration:backConfiguration:
+- _objc_msgSend$initWithTitle:shareItems:
+- _objc_msgSend$initWithType:
+- _objc_msgSend$initWithType:identifier:
+- _objc_msgSend$initWithType:info:
+- _objc_msgSend$initWithURL:
+- _objc_msgSend$initWithURL:navigationManager:
+- _objc_msgSend$initWithURL:resolvingAgainstBaseURL:
+- _objc_msgSend$initWithURLSchemeHandler:
+- _objc_msgSend$initWithUserContentController:
+- _objc_msgSend$initWithUserContentController:logger:
+- _objc_msgSend$initWithViewController:navigationHandler:URLRequest:
+- _objc_msgSend$initWithWebContentScriptsManager:logger:serializer:
+- _objc_msgSend$initWithWebContentScriptsManager:messageHandlerManager:documentStateProvider:logger:
+- _objc_msgSend$initWithWebContentViewController:actionProvider:interactionProvider:errorProvider:failureProvider:navigationBarConfigurationProvider:configurationManager:presentationManager:scaleManager:snapshotManager:preferredSizeManager:
+- _objc_msgSend$initWithWebView:configurationManager:
+- _objc_msgSend$initWithWebView:documentStateProvider:logger:
+- _objc_msgSend$initWithWebView:scale:
+- _objc_msgSend$initWithWebView:setupManager:scriptsManager:messageHandlerManager:navigationManager:errorReporter:documentStateReporter:timeoutManager:terminationManager:contentRuleManager:reachabilityProvider:logger:sessionManager:datastoreSynchronizationManager:localDatastoreManager:URLSchemeHandlerManager:
+- _objc_msgSend$initiateLoadingWithLoader:
+- _objc_msgSend$inputAccessoryView
+- _objc_msgSend$inputAccessoryViewFrame
+- _objc_msgSend$inputAssistantItem
+- _objc_msgSend$integerValue
+- _objc_msgSend$interaction
+- _objc_msgSend$interactionBlock
+- _objc_msgSend$interactionFactory
+- _objc_msgSend$interactionForDictionary:
+- _objc_msgSend$interactionProvider
+- _objc_msgSend$invalidate
+- _objc_msgSend$invalidateKeyboardFrameIfScreenChanged
+- _objc_msgSend$is24HourTime
+- _objc_msgSend$isEqual:
+- _objc_msgSend$isEqualToConfiguration:
+- _objc_msgSend$isEqualToDictionary:
+- _objc_msgSend$isEqualToSet:
+- _objc_msgSend$isEqualToString:
+- _objc_msgSend$isFileURL
+- _objc_msgSend$isFirstResponder
+- _objc_msgSend$isFloating
+- _objc_msgSend$isHardwareKeyboard
+- _objc_msgSend$isInHardwareKeyboardMode
+- _objc_msgSend$isKeyboardFloating
+- _objc_msgSend$isKeyboardSplit
+- _objc_msgSend$isKeyboardVisible
+- _objc_msgSend$isMainThread
+- _objc_msgSend$isNetworkReachableForStatus:
+- _objc_msgSend$isPencilInputExpected
+- _objc_msgSend$isSplit
+- _objc_msgSend$isTransitioning
+- _objc_msgSend$keyboardConfiguration
+- _objc_msgSend$keyboardCoordinateSpace
+- _objc_msgSend$keyboardFrame
+- _objc_msgSend$keyboardScreen
+- _objc_msgSend$layoutGuide
+- _objc_msgSend$layoutIfNeeded
+- _objc_msgSend$length
+- _objc_msgSend$linkURL
+- _objc_msgSend$load
+- _objc_msgSend$loadBlock
+- _objc_msgSend$loadFileRequest:allowingReadAccessToURL:
+- _objc_msgSend$loadHTMLString:baseURL:
+- _objc_msgSend$loadLocalDatastore:options:completion:
+- _objc_msgSend$loadRequest:
+- _objc_msgSend$loadSimulatedRequest:responseHTMLString:
+- _objc_msgSend$loadURL:
+- _objc_msgSend$loadURL:cachePolicy:
+- _objc_msgSend$loader
+- _objc_msgSend$loaderWithURL:andBlock:
+- _objc_msgSend$loadingURL
+- _objc_msgSend$localDatastoreManager
+- _objc_msgSend$locale
+- _objc_msgSend$localeIdentifier
+- _objc_msgSend$localizedDescription
+- _objc_msgSend$location
+- _objc_msgSend$log:
+- _objc_msgSend$logError:
+- _objc_msgSend$logger
+- _objc_msgSend$lookUpContentRuleListForIdentifier:completionHandler:
+- _objc_msgSend$mainBundle
+- _objc_msgSend$mediaTypesRequiringUserActionForPlayback
+- _objc_msgSend$messageHandler
+- _objc_msgSend$messageHandlerManager
+- _objc_msgSend$messageHandlers
+- _objc_msgSend$mutableCopy
+- _objc_msgSend$name
+- _objc_msgSend$navigationBarConfigurationBlock
+- _objc_msgSend$navigationHandler
+- _objc_msgSend$navigationManager
+- _objc_msgSend$navigationType
+- _objc_msgSend$networkStatus
+- _objc_msgSend$numberWithBool:
+- _objc_msgSend$numberWithDouble:
+- _objc_msgSend$object
+- _objc_msgSend$objectForInfoDictionaryKey:
+- _objc_msgSend$objectForKey:
+- _objc_msgSend$objectForKeyedSubscript:
+- _objc_msgSend$observers
+- _objc_msgSend$oldDatastore
+- _objc_msgSend$onChange:
+- _objc_msgSend$onCompletion:
+- _objc_msgSend$onLoad:
+- _objc_msgSend$onLoadBlocks
+- _objc_msgSend$onReady:
+- _objc_msgSend$onReadyBlocks
+- _objc_msgSend$onRetry:
+- _objc_msgSend$onRetryBlocks
+- _objc_msgSend$onTimeout:
+- _objc_msgSend$onUnload:
+- _objc_msgSend$onUnloadBlocks
+- _objc_msgSend$onWillEnter:
+- _objc_msgSend$onWillExit:
+- _objc_msgSend$operatingSystemVersion
+- _objc_msgSend$orderedSet
+- _objc_msgSend$originatingSession
+- _objc_msgSend$overrideWithPrivateTraits:
+- _objc_msgSend$overrideWithTraits:
+- _objc_msgSend$overridenTraits
+- _objc_msgSend$pathExtension
+- _objc_msgSend$pauseAllMediaPlaybackWithCompletionHandler:
+- _objc_msgSend$performBlockOnMainThread:
+- _objc_msgSend$performSetup
+- _objc_msgSend$performTasks
+- _objc_msgSend$pocketInsetsForSafeArea
+- _objc_msgSend$preferences
+- _objc_msgSend$preferredSizeBlock
+- _objc_msgSend$presentableBlock
+- _objc_msgSend$presentationState
+- _objc_msgSend$previewViewControllerForRequest:
+- _objc_msgSend$prewarm
+- _objc_msgSend$privateContainer
+- _objc_msgSend$processInfo
+- _objc_msgSend$processPool
+- _objc_msgSend$protocol
+- _objc_msgSend$publicContainer
+- _objc_msgSend$queueExecutableScript:scriptExecutionCompletion:
+- _objc_msgSend$queueable
+- _objc_msgSend$queuedExecutableScripts
+- _objc_msgSend$readyToExecuteScripts
+- _objc_msgSend$refresh
+- _objc_msgSend$registerClass:factory:
+- _objc_msgSend$registerClass:name:factory:
+- _objc_msgSend$registerProtocol:factory:
+- _objc_msgSend$registerProtocol:name:factory:
+- _objc_msgSend$reloadInputViews
+- _objc_msgSend$removeAllContentRuleLists
+- _objc_msgSend$removeAllObjects
+- _objc_msgSend$removeAllUserScripts
+- _objc_msgSend$removeContentRuleList:
+- _objc_msgSend$removeMenuForIdentifier:
+- _objc_msgSend$removeMenusForIdentifiers:
+- _objc_msgSend$removeObject:
+- _objc_msgSend$removeObjectForKey:
+- _objc_msgSend$removeObserver:
+- _objc_msgSend$removeObserver:forKeyPath:
+- _objc_msgSend$removeScript:
+- _objc_msgSend$removeScriptByIdentifier:
+- _objc_msgSend$removedMenuIdentifiers
+- _objc_msgSend$reportError:
+- _objc_msgSend$reportFailure:
+- _objc_msgSend$request
+- _objc_msgSend$requestWithURL:
+- _objc_msgSend$requestWithURL:cachePolicy:timeoutInterval:
+- _objc_msgSend$resolveClass:
+- _objc_msgSend$resolveClass:name:
+- _objc_msgSend$resolveProtocol:
+- _objc_msgSend$resolveProtocol:name:
+- _objc_msgSend$retryPolicy
+- _objc_msgSend$ruleListIdentifiers
+- _objc_msgSend$safeAreaInsets
+- _objc_msgSend$scheduledTimerWithTimeInterval:repeats:block:
+- _objc_msgSend$scheme
+- _objc_msgSend$schemeHandlers
+- _objc_msgSend$screen
+- _objc_msgSend$script
+- _objc_msgSend$scriptMessageHandler
+- _objc_msgSend$scripts
+- _objc_msgSend$scriptsManager
+- _objc_msgSend$scrollEnabled
+- _objc_msgSend$scrollView
+- _objc_msgSend$scrollsToTop
+- _objc_msgSend$securityOrigin
+- _objc_msgSend$selectors
+- _objc_msgSend$serializeWebContentConfiguration:
+- _objc_msgSend$serializedRectFromCGRect:
+- _objc_msgSend$serializer
+- _objc_msgSend$session
+- _objc_msgSend$sessionManager
+- _objc_msgSend$set
+- _objc_msgSend$setAccessoryView:
+- _objc_msgSend$setActivePictureInPictureURL:
+- _objc_msgSend$setAfterScreenUpdates:
+- _objc_msgSend$setAllowsAirPlayForMediaPlayback:
+- _objc_msgSend$setAllowsInlineMediaPlayback:
+- _objc_msgSend$setAllowsPictureInPictureMediaPlayback:
+- _objc_msgSend$setAllowsRemoteInspection:
+- _objc_msgSend$setAlwaysRunsAtBackgroundPriority:
+- _objc_msgSend$setAppVersion:
+- _objc_msgSend$setAttribution:
+- _objc_msgSend$setBackgroundColor:
+- _objc_msgSend$setConfiguration:
+- _objc_msgSend$setConfigurationScript:
+- _objc_msgSend$setContentEnvironment:
+- _objc_msgSend$setContentInsetAdjustmentBehavior:
+- _objc_msgSend$setContentSizeCategory:
+- _objc_msgSend$setCrashed:
+- _objc_msgSend$setCurrentPreview:
+- _objc_msgSend$setDataSources:
+- _objc_msgSend$setDatastoreManager:
+- _objc_msgSend$setFeedConfiguration:
+- _objc_msgSend$setFocusShouldStartInputSession:
+- _objc_msgSend$setForceDisableDictation:
+- _objc_msgSend$setFragment:
+- _objc_msgSend$setFrame:
+- _objc_msgSend$setHiddenPocketEdges:
+- _objc_msgSend$setHidePrediction:
+- _objc_msgSend$setIdentifier:
+- _objc_msgSend$setInputAccessoryView:
+- _objc_msgSend$setInputAccessoryViewFrame:
+- _objc_msgSend$setInspectable:
+- _objc_msgSend$setIs24HourTime:
+- _objc_msgSend$setIsHardwareKeyboard:
+- _objc_msgSend$setIsKeyboardFloating:
+- _objc_msgSend$setIsKeyboardSplit:
+- _objc_msgSend$setIsKeyboardVisible:
+- _objc_msgSend$setIsPencilInputExpected:
+- _objc_msgSend$setIsTransitioning:
+- _objc_msgSend$setIsWebViewPresentingInFullScreen:
+- _objc_msgSend$setKeyboardConfiguration:
+- _objc_msgSend$setKeyboardCoordinateSpace:
+- _objc_msgSend$setKeyboardFrame:
+- _objc_msgSend$setKeyboardScreen:
+- _objc_msgSend$setLayoutGuide:
+- _objc_msgSend$setLeadingBarButtonGroups:
+- _objc_msgSend$setLoader:
+- _objc_msgSend$setLocalDatastoreManager:
+- _objc_msgSend$setLocale:
+- _objc_msgSend$setLocation:
+- _objc_msgSend$setMediaTypesRequiringUserActionForPlayback:
+- _objc_msgSend$setNavigationDelegate:
+- _objc_msgSend$setNeedsLayout
+- _objc_msgSend$setNetworkStatus:
+- _objc_msgSend$setObject:forKey:
+- _objc_msgSend$setOpaque:
+- _objc_msgSend$setOverridenTraits:
+- _objc_msgSend$setPocketInsetsForSafeArea:
+- _objc_msgSend$setPocketsEnabled:
+- _objc_msgSend$setPreferences:
+- _objc_msgSend$setProcessPool:
+- _objc_msgSend$setQuery:
+- _objc_msgSend$setReadyToExecuteScripts:
+- _objc_msgSend$setRect:
+- _objc_msgSend$setRemovedMenuIdentifiers:
+- _objc_msgSend$setScale:
+- _objc_msgSend$setScrollEnabled:
+- _objc_msgSend$setScrollsToTop:
+- _objc_msgSend$setSession:
+- _objc_msgSend$setShortcutsBarWithLeadingGroups:trailingGroups:
+- _objc_msgSend$setShowsHorizontalScrollIndicator:
+- _objc_msgSend$setShowsVerticalScrollIndicator:
+- _objc_msgSend$setSourceURL:
+- _objc_msgSend$setStoreFront:
+- _objc_msgSend$setSupportsLiveActivities:
+- _objc_msgSend$setSystemVersion:
+- _objc_msgSend$setTextInputTraits:
+- _objc_msgSend$setTimer:
+- _objc_msgSend$setTrailingBarButtonGroups:
+- _objc_msgSend$setUIDelegate:
+- _objc_msgSend$setURLSchemeHandler:forURLScheme:
+- _objc_msgSend$setUserContentController:
+- _objc_msgSend$setUserInteractionEnabled:
+- _objc_msgSend$setUsesSingleWebProcess:
+- _objc_msgSend$setWebViewCanBecomeFirstResponder:
+- _objc_msgSend$setWebViewCanBecomeFocused:
+- _objc_msgSend$setWebsiteDataStore:
+- _objc_msgSend$setWithArray:
+- _objc_msgSend$setWithObject:
+- _objc_msgSend$setWithObjects:
+- _objc_msgSend$setWritingToolsBehavior:
+- _objc_msgSend$settingsFactory
+- _objc_msgSend$shareItemsFromDictionary:
+- _objc_msgSend$sharedInstance
+- _objc_msgSend$shouldPreviewRequest:
+- _objc_msgSend$shouldReloadAfterWebProcessCrash
+- _objc_msgSend$shouldRunAtBackgroundPriority
+- _objc_msgSend$showsVerticalScrollIndicator
+- _objc_msgSend$source
+- _objc_msgSend$sourceURL
+- _objc_msgSend$start
+- _objc_msgSend$startCallbackBlock
+- _objc_msgSend$startSessionForHandler:withTask:
+- _objc_msgSend$state
+- _objc_msgSend$stateMachine
+- _objc_msgSend$stop
+- _objc_msgSend$storeFront
+- _objc_msgSend$stringWithContentsOfURL:encoding:error:
+- _objc_msgSend$stringWithFormat:
+- _objc_msgSend$strongToStrongObjectsMapTable
+- _objc_msgSend$superview
+- _objc_msgSend$supportsLiveActivities
+- _objc_msgSend$synchronizeDatastore:from:previousDatastore:originatingSession:queueable:completion:
+- _objc_msgSend$systemSafeAreaFrame
+- _objc_msgSend$systemVersion
+- _objc_msgSend$takeSnapshotWithConfiguration:completionHandler:
+- _objc_msgSend$task
+- _objc_msgSend$tasks
+- _objc_msgSend$terminationManager
+- _objc_msgSend$then:
+- _objc_msgSend$throttler
+- _objc_msgSend$timeoutBlocks
+- _objc_msgSend$timer
+- _objc_msgSend$trackingTasks
+- _objc_msgSend$type
+- _objc_msgSend$underlyingErrors
+- _objc_msgSend$updateConfiguration
+- _objc_msgSend$updateDatastore:originatingSession:options:completion:
+- _objc_msgSend$updateInputAccessoryViewFrame
+- _objc_msgSend$updatePocketInsetsForSafeArea
+- _objc_msgSend$updateReachability
+- _objc_msgSend$userContentController
+- _objc_msgSend$userContentController:didReceiveScriptMessage:
+- _objc_msgSend$userInfo
+- _objc_msgSend$userInterfaceIdiom
+- _objc_msgSend$userScript
+- _objc_msgSend$userScriptSource
+- _objc_msgSend$values
+- _objc_msgSend$view
+- _objc_msgSend$viewController
+- _objc_msgSend$viewIfLoaded
+- _objc_msgSend$weakObjectsHashTable
+- _objc_msgSend$weakObjectsPointerArray
+- _objc_msgSend$webContentProcessTerminated
+- _objc_msgSend$webContentScriptsManager
+- _objc_msgSend$webContentViewController
+- _objc_msgSend$webView
+- _objc_msgSend$webView:startURLSchemeTask:
+- _objc_msgSend$webView:stopURLSchemeTask:
+- _objc_msgSend$webViewCanBecomeFirstResponder
+- _objc_msgSend$webViewCanBecomeFocused
+- _objc_msgSend$webViewSetNeedsLayout
+- _objc_msgSend$webViews
+- _objc_msgSend$websiteDataStore
+- _objc_msgSend$whenResolvingClass:scope:callbackBlock:
+- _objc_msgSend$whenResolvingProtocol:scope:callbackBlock:
+- _objc_msgSend$window
+- _objc_msgSend$windowScene
+- _objc_msgSend$withConfiguration:
+- _source.onceToken
+- _source.source
+- _userScriptSource.onceToken
+- _userScriptSource.source
+CStrings:
++ "; verticalBarEdge: %@"
++ "Fatal error"
++ "SilexWeb/SWCoreModernAssembly.swift"
++ "SilexWeb/SWFactoryModernAssembly.swift"
++ "SilexWeb/SWManagerModernAssembly.swift"
++ "SilexWeb/SWProviderModernAssembly.swift"
++ "SilexWeb/SWViewControllerModernAssembly.swift"
++ "nil"
++ "reachabilityProvider must be registered by the app assembly"
++ "verticalBarEdge"
+- "@\"<SWActionFactory>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWActionProvider>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWConfigurationManager>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWContentRuleManager>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWDocumentStateProviding>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWDocumentStateReporting>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWErrorProvider>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWErrorReporting>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWFailureProvider>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWFeedConfigurationFactory>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWInteractionFactory>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWInteractionProvider>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWLoadingPolicyProvider>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWLogger>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWMessageHandlerManager>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWNavigationBarConfigurationProvider>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWNavigationManager>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWPreferredSizeManager>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWPresentationManager>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWProcessConfiguration>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWProcessTerminationManager>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWProcessTerminationPolicyDecider>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWScriptsManager>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWTimeoutManager>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWWebViewFactory>\"16@?0@\"<TFResolver>\"8"
+- "@\"SWContainerViewController\"16@?0@\"<TFResolver>\"8"
+- "@\"SWDocumentStateManager\"16@?0@\"<TFResolver>\"8"
+- "@\"SWErrorManager\"16@?0@\"<TFResolver>\"8"
+- "@\"SWFailureManager\"16@?0@\"<TFResolver>\"8"
+- "@\"SWLogMessageHandler\"16@?0@\"<TFResolver>\"8"
+- "@\"SWViewController\"16@?0@\"<TFResolver>\"8"
+- "@\"WKProcessPool\"16@?0@\"<TFResolver>\"8"
+- "@\"WKUserContentController\"16@?0@\"<TFResolver>\"8"
+- "@\"WKWebView\"16@?0@\"<TFResolver>\"8"
+- "@\"_WKProcessPoolConfiguration\"16@?0@\"<TFResolver>\"8"
+- "@16@?0@\"<TFResolver>\"8"
+- "local"
+- "v24@?0@\"<SWSetupManager>\"8@\"<TFResolver>\"16"
+- "v24@?0@\"<TFResolver>\"8@\"<SWMessageHandlerManager>\"16"
+- "v24@?0@\"<TFResolver>\"8@\"SWDatastoreSynchronizationManager\"16"
+- "v24@?0@\"<TFResolver>\"8@\"WKWebsiteDataStore\"16"
+- "v24@?0@\"<TFResolver>\"8@\"_WKProcessPoolConfiguration\"16"
+- "v24@?0@8@\"<TFResolver>\"16"
+- "web-content"
+```

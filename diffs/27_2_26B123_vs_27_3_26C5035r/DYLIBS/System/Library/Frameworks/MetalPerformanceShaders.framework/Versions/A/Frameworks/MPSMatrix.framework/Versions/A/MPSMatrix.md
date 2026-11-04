@@ -1,0 +1,20 @@
+## MPSMatrix
+
+> `/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Frameworks/MPSMatrix.framework/Versions/A/MPSMatrix`
+
+```diff
+
+-130.1.4.0.0
+-  __TEXT.__text: 0x23e14
++130.2.2.0.0
++  __TEXT.__text: 0x23e30
+   __TEXT.__objc_methlist: 0xdc4
+   __TEXT.__const: 0x3580
+   __TEXT.__gcc_except_tab: 0x370
+Symbols:
++ __ZN10MPSLibrary19CreateUberShaderKeyEP8NSStringRK23MPSFunctionConstantListyPFPU22objcproto11MTLFunction11objc_objectPU21objcproto10MTLLibrary11objc_objectPK13MPSKernelInfoS4_RK33MPSFunctionConstructorExtraParamsPP7NSErrorEy30MPSThreadGroupSizeMultipleType24MPSDriverCompilerOptions23MPSForwardProgressUsageP18MPSKernelDAGObjectS1_mP20MPSKernelUserDAGInfoP7NSArrayIS6_EPSR_ISO_Em
+- __ZN10MPSLibrary19CreateUberShaderKeyEP8NSStringRK23MPSFunctionConstantListyPFPU22objcproto11MTLFunction11objc_objectPU21objcproto10MTLLibrary11objc_objectPK13MPSKernelInfoS4_RK33MPSFunctionConstructorExtraParamsPP7NSErrorEy30MPSThreadGroupSizeMultipleType24MPSDriverCompilerOptions23MPSForwardProgressUsageP18MPSKernelDAGObjectS1_mP20MPSKernelUserDAGInfoP7NSArrayIS6_EPSR_ISO_E
+Functions:
+~ sub_243e26e54 -> sub_244e3ce54 : 12628 -> 12648
+~ sub_243e300b8 -> sub_244e460cc : 1256 -> 1264
+```

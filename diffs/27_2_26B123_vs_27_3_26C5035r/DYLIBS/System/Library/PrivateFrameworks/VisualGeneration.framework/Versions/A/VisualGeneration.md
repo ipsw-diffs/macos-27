@@ -1,0 +1,340 @@
+## VisualGeneration
+
+> `/System/Library/PrivateFrameworks/VisualGeneration.framework/Versions/A/VisualGeneration`
+
+```diff
+
+-144.0.0.0.0
+-  __TEXT.__text: 0x2bbeac
++148.0.0.0.0
++  __TEXT.__text: 0x2dc9bc
+   __TEXT.__objc_methlist: 0x574
+-  __TEXT.__const: 0x22848
++  __TEXT.__const: 0x244e8
+   __TEXT.__gcc_except_tab: 0x9c
+-  __TEXT.__cstring: 0x7a63
++  __TEXT.__cstring: 0x84a3
+   __TEXT.__dlopen_cstrs: 0xbc
+-  __TEXT.__constg_swiftt: 0x7c10
+-  __TEXT.__swift5_typeref: 0x813e
+-  __TEXT.__swift5_builtin: 0x4c4
+-  __TEXT.__swift5_reflstr: 0x8f91
+-  __TEXT.__swift5_fieldmd: 0x9150
+-  __TEXT.__swift5_assocty: 0xf50
+-  __TEXT.__swift5_proto: 0x1b9c
+-  __TEXT.__swift5_types: 0xa10
++  __TEXT.__constg_swiftt: 0x80ec
++  __TEXT.__swift5_typeref: 0x85cc
++  __TEXT.__swift5_builtin: 0x4ec
++  __TEXT.__swift5_reflstr: 0x93f1
++  __TEXT.__swift5_fieldmd: 0x987c
++  __TEXT.__swift5_assocty: 0x1058
++  __TEXT.__swift5_proto: 0x1d50
++  __TEXT.__swift5_types: 0xaa0
+   __TEXT.__swift5_protos: 0x180
+-  __TEXT.__oslogstring: 0x59d0
++  __TEXT.__oslogstring: 0x5c40
+   __TEXT.__swift5_capture: 0x103c
+-  __TEXT.__swift_as_entry: 0x71c
+-  __TEXT.__swift_as_ret: 0x6bc
+-  __TEXT.__swift_as_cont: 0x1188
+-  __TEXT.__swift5_mpenum: 0x1cc
+-  __TEXT.__unwind_info: 0xb1d8
+-  __TEXT.__eh_frame: 0x17c5c
++  __TEXT.__swift_as_entry: 0x72c
++  __TEXT.__swift_as_ret: 0x6e4
++  __TEXT.__swift_as_cont: 0x11c8
++  __TEXT.__swift5_mpenum: 0x1e4
++  __TEXT.__unwind_info: 0xb8b8
++  __TEXT.__eh_frame: 0x1899c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_classlist: 0x2e8
+   __DATA_CONST.__objc_protolist: 0x68
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x910
++  __DATA_CONST.__objc_selrefs: 0x918
+   __DATA_CONST.__objc_protorefs: 0x30
+   __DATA_CONST.__objc_superrefs: 0x70
+-  __DATA_CONST.__got: 0x11c8
+-  __AUTH_CONST.__const: 0x15ab8
++  __DATA_CONST.__got: 0x1270
++  __AUTH_CONST.__const: 0x171b8
+   __AUTH_CONST.__objc_const: 0x5588
+-  __AUTH_CONST.__auth_got: 0x2d18
++  __AUTH_CONST.__auth_got: 0x2e48
++  __AUTH.__data: 0x2b0
+   __DATA.__objc_ivar: 0x48
+-  __DATA.__data: 0x34d8
+-  __DATA.__bss: 0x258b0
+-  __DATA.__common: 0xd0
++  __DATA.__data: 0x3928
++  __DATA.__bss: 0x28f30
++  __DATA.__common: 0x140
+   __DATA_DIRTY.__objc_data: 0xdc0
+-  __DATA_DIRTY.__data: 0x9de0
++  __DATA_DIRTY.__data: 0x9e70
+   __DATA_DIRTY.__bss: 0x9c30
+-  __DATA_DIRTY.__common: 0x200
++  __DATA_DIRTY.__common: 0x1a0
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 11522
+-  Symbols:   4329
+-  CStrings:  1244
++  Functions: 11969
++  Symbols:   4467
++  CStrings:  1326
+ 
+Symbols:
++ _OBJC_CLASS_$_NSHTTPURLResponse
++ ___swift_memcpy183_8
++ _associated conformance 16VisualGeneration18PromptAnalyzerDataV10CodingKeys33_4DCD6B89B9F9BF4E9A3FBB801A2A26FELLOSHAASQ
++ _associated conformance 16VisualGeneration18PromptAnalyzerDataV10CodingKeys33_4DCD6B89B9F9BF4E9A3FBB801A2A26FELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 16VisualGeneration18PromptAnalyzerDataV10CodingKeys33_4DCD6B89B9F9BF4E9A3FBB801A2A26FELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16VisualGeneration18PromptAnalyzerDataV6PersonV10CodingKeys33_4DCD6B89B9F9BF4E9A3FBB801A2A26FELLOSHAASQ
++ _associated conformance 16VisualGeneration18PromptAnalyzerDataV6PersonV10CodingKeys33_4DCD6B89B9F9BF4E9A3FBB801A2A26FELLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 16VisualGeneration18PromptAnalyzerDataV6PersonV10CodingKeys33_4DCD6B89B9F9BF4E9A3FBB801A2A26FELLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16VisualGeneration18SafetyRejectReasonOSHAASQ
++ _associated conformance 16VisualGeneration23SafetyPostProcessResultV10CodingKeys33_CC29B02FF76D1A97110CF17850344313LLOSHAASQ
++ _associated conformance 16VisualGeneration23SafetyPostProcessResultV10CodingKeys33_CC29B02FF76D1A97110CF17850344313LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 16VisualGeneration23SafetyPostProcessResultV10CodingKeys33_CC29B02FF76D1A97110CF17850344313LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16VisualGeneration23SafetyPostProcessResultV4jsonSSSgvg11JSONWrapperL_V10CodingKeysOSHAASQ
++ _associated conformance 16VisualGeneration23SafetyPostProcessResultV4jsonSSSgvg11JSONWrapperL_V10CodingKeysOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 16VisualGeneration23SafetyPostProcessResultV4jsonSSSgvg11JSONWrapperL_V10CodingKeysOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16VisualGeneration23SafetyPostProcessSourceOSHAASQ
++ _associated conformance 16VisualGeneration24BoltChatCompletionClientV5ErrorO10CodingKeys33_20BE3E114315C929DAC6F308155382F8LLOSHAASQ
++ _associated conformance 16VisualGeneration24BoltChatCompletionClientV5ErrorO10CodingKeys33_20BE3E114315C929DAC6F308155382F8LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 16VisualGeneration24BoltChatCompletionClientV5ErrorO10CodingKeys33_20BE3E114315C929DAC6F308155382F8LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16VisualGeneration24BoltChatCompletionClientV5ErrorO20HttpStatusCodingKeys33_20BE3E114315C929DAC6F308155382F8LLOSHAASQ
++ _associated conformance 16VisualGeneration24BoltChatCompletionClientV5ErrorO20HttpStatusCodingKeys33_20BE3E114315C929DAC6F308155382F8LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 16VisualGeneration24BoltChatCompletionClientV5ErrorO20HttpStatusCodingKeys33_20BE3E114315C929DAC6F308155382F8LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16VisualGeneration24BoltChatCompletionClientV5ErrorO22UnauthorizedCodingKeys33_20BE3E114315C929DAC6F308155382F8LLOSHAASQ
++ _associated conformance 16VisualGeneration24BoltChatCompletionClientV5ErrorO22UnauthorizedCodingKeys33_20BE3E114315C929DAC6F308155382F8LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 16VisualGeneration24BoltChatCompletionClientV5ErrorO22UnauthorizedCodingKeys33_20BE3E114315C929DAC6F308155382F8LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16VisualGeneration24BoltChatCompletionClientV5ErrorO27MalformedResponseCodingKeys33_20BE3E114315C929DAC6F308155382F8LLOSHAASQ
++ _associated conformance 16VisualGeneration24BoltChatCompletionClientV5ErrorO27MalformedResponseCodingKeys33_20BE3E114315C929DAC6F308155382F8LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 16VisualGeneration24BoltChatCompletionClientV5ErrorO27MalformedResponseCodingKeys33_20BE3E114315C929DAC6F308155382F8LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16VisualGeneration28BoltSafetyCheckConfigurationV5ErrorO10CodingKeys33_2FC5FEB6328BA67629E4DBB8AB5B552FLLOSHAASQ
++ _associated conformance 16VisualGeneration28BoltSafetyCheckConfigurationV5ErrorO10CodingKeys33_2FC5FEB6328BA67629E4DBB8AB5B552FLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 16VisualGeneration28BoltSafetyCheckConfigurationV5ErrorO10CodingKeys33_2FC5FEB6328BA67629E4DBB8AB5B552FLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16VisualGeneration28BoltSafetyCheckConfigurationV5ErrorO24InvalidSettingCodingKeys33_2FC5FEB6328BA67629E4DBB8AB5B552FLLOSHAASQ
++ _associated conformance 16VisualGeneration28BoltSafetyCheckConfigurationV5ErrorO24InvalidSettingCodingKeys33_2FC5FEB6328BA67629E4DBB8AB5B552FLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 16VisualGeneration28BoltSafetyCheckConfigurationV5ErrorO24InvalidSettingCodingKeys33_2FC5FEB6328BA67629E4DBB8AB5B552FLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16VisualGeneration33OutputGuardrailsBoltConfigurationV5CheckOSHAASQ
++ _associated conformance 16VisualGeneration33OutputGuardrailsBoltConfigurationV5CheckOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 16VisualGeneration34SafetyPostProcessModelOutputParserO014ParsedTwoImagefG033_7A038507F78BA8CA2E6DC27EDDD92B63LLV10CodingKeysOSHAASQ
++ _associated conformance 16VisualGeneration34SafetyPostProcessModelOutputParserO014ParsedTwoImagefG033_7A038507F78BA8CA2E6DC27EDDD92B63LLV10CodingKeysOs0T3KeyAAs23CustomStringConvertible
++ _associated conformance 16VisualGeneration34SafetyPostProcessModelOutputParserO014ParsedTwoImagefG033_7A038507F78BA8CA2E6DC27EDDD92B63LLV10CodingKeysOs0T3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16VisualGeneration34SafetyPostProcessModelOutputParserO06ParsedfG033_7A038507F78BA8CA2E6DC27EDDD92B63LLV10CodingKeysOSHAASQ
++ _associated conformance 16VisualGeneration34SafetyPostProcessModelOutputParserO06ParsedfG033_7A038507F78BA8CA2E6DC27EDDD92B63LLV10CodingKeysOs0R3KeyAAs23CustomStringConvertible
++ _associated conformance 16VisualGeneration34SafetyPostProcessModelOutputParserO06ParsedfG033_7A038507F78BA8CA2E6DC27EDDD92B63LLV10CodingKeysOs0R3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16VisualGeneration34SafetyPostProcessModelOutputParserO10NudityEnum33_7A038507F78BA8CA2E6DC27EDDD92B63LLOSHAASQ
++ _associated conformance 16VisualGeneration34SafetyPostProcessModelOutputParserO14FlagAndMapEnum33_7A038507F78BA8CA2E6DC27EDDD92B63LLOSHAASQ
++ _associated conformance 16VisualGeneration34SafetyPostProcessModelOutputParserO18PhotorealisticEnum33_7A038507F78BA8CA2E6DC27EDDD92B63LLOSHAASQ
++ _associated conformance 16VisualGeneration34SafetyPostProcessModelOutputParserO19ViolenceAndGoreEnum33_7A038507F78BA8CA2E6DC27EDDD92B63LLOSHAASQ
++ _exp2
++ _get_enum_tag_for_layout_string 16VisualGeneration21BoltOutputSafetyCheckV10Comparison33_D884B73205B564850CF71A087A02CA29LLO
++ _get_enum_tag_for_layout_string 16VisualGeneration24BoltChatCompletionClientV5ErrorO
++ _get_enum_tag_for_layout_string 16VisualGeneration33OutputGuardrailsBoltConfigurationVSg
++ _objc_msgSend$statusCode
++ _os_variant_has_internal_content
++ _symbolic SDy__________G 16VisualGeneration33OutputGuardrailsBoltConfigurationV5CheckO AC8EndpointV
++ _symbolic SS7dataURL_t
++ _symbolic Say_____G 16VisualGeneration18PromptAnalyzerDataV6PersonV
++ _symbolic Say_____G 16VisualGeneration33OutputGuardrailsBoltConfigurationV5CheckO
++ _symbolic Say_____GSg 16VisualGeneration18PromptAnalyzerDataV6PersonV
++ _symbolic Sb_____Ybc 10PegasusAPI21GenmojiPromptMetadataV
++ _symbolic Si_SSt
++ _symbolic So12NSURLSessionC
++ _symbolic _____ 16VisualGeneration18ImageSpecificationV6Sizing33_554AF63144659C3BE17B5690794E50BFLLO
++ _symbolic _____ 16VisualGeneration18PromptAnalyzerDataV
++ _symbolic _____ 16VisualGeneration18PromptAnalyzerDataV10CodingKeys33_4DCD6B89B9F9BF4E9A3FBB801A2A26FELLO
++ _symbolic _____ 16VisualGeneration18PromptAnalyzerDataV6PersonV
++ _symbolic _____ 16VisualGeneration18PromptAnalyzerDataV6PersonV10CodingKeys33_4DCD6B89B9F9BF4E9A3FBB801A2A26FELLO
++ _symbolic _____ 16VisualGeneration18SafetyRejectReasonO
++ _symbolic _____ 16VisualGeneration19GenmojiCacheManagerC12PromptFilterV
++ _symbolic _____ 16VisualGeneration19ModelCatalogHelpersO
++ _symbolic _____ 16VisualGeneration21BoltOutputSafetyCheckV
++ _symbolic _____ 16VisualGeneration21BoltOutputSafetyCheckV10Comparison33_D884B73205B564850CF71A087A02CA29LLO
++ _symbolic _____ 16VisualGeneration23SafetyPostProcessResultV
++ _symbolic _____ 16VisualGeneration23SafetyPostProcessResultV10CodingKeys33_CC29B02FF76D1A97110CF17850344313LLO
++ _symbolic _____ 16VisualGeneration23SafetyPostProcessResultV4jsonSSSgvg11JSONWrapperL_V
++ _symbolic _____ 16VisualGeneration23SafetyPostProcessResultV4jsonSSSgvg11JSONWrapperL_V10CodingKeysO
++ _symbolic _____ 16VisualGeneration23SafetyPostProcessSourceO
++ _symbolic _____ 16VisualGeneration24BoltChatCompletionClientV
++ _symbolic _____ 16VisualGeneration24BoltChatCompletionClientV5ErrorO
++ _symbolic _____ 16VisualGeneration24BoltChatCompletionClientV5ErrorO10CodingKeys33_20BE3E114315C929DAC6F308155382F8LLO
++ _symbolic _____ 16VisualGeneration24BoltChatCompletionClientV5ErrorO20HttpStatusCodingKeys33_20BE3E114315C929DAC6F308155382F8LLO
++ _symbolic _____ 16VisualGeneration24BoltChatCompletionClientV5ErrorO22UnauthorizedCodingKeys33_20BE3E114315C929DAC6F308155382F8LLO
++ _symbolic _____ 16VisualGeneration24BoltChatCompletionClientV5ErrorO27MalformedResponseCodingKeys33_20BE3E114315C929DAC6F308155382F8LLO
++ _symbolic _____ 16VisualGeneration28BoltSafetyCheckConfigurationV
++ _symbolic _____ 16VisualGeneration28BoltSafetyCheckConfigurationV5ErrorO
++ _symbolic _____ 16VisualGeneration28BoltSafetyCheckConfigurationV5ErrorO10CodingKeys33_2FC5FEB6328BA67629E4DBB8AB5B552FLLO
++ _symbolic _____ 16VisualGeneration28BoltSafetyCheckConfigurationV5ErrorO24InvalidSettingCodingKeys33_2FC5FEB6328BA67629E4DBB8AB5B552FLLO
++ _symbolic _____ 16VisualGeneration33OutputGuardrailsBoltConfigurationV
++ _symbolic _____ 16VisualGeneration33OutputGuardrailsBoltConfigurationV5CheckO
++ _symbolic _____ 16VisualGeneration33OutputGuardrailsBoltConfigurationV8EndpointV
++ _symbolic _____ 16VisualGeneration34SafetyPostProcessModelOutputParserO
++ _symbolic _____ 16VisualGeneration34SafetyPostProcessModelOutputParserO014ParsedTwoImagefG033_7A038507F78BA8CA2E6DC27EDDD92B63LLV
++ _symbolic _____ 16VisualGeneration34SafetyPostProcessModelOutputParserO014ParsedTwoImagefG033_7A038507F78BA8CA2E6DC27EDDD92B63LLV10CodingKeysO
++ _symbolic _____ 16VisualGeneration34SafetyPostProcessModelOutputParserO06ParsedfG033_7A038507F78BA8CA2E6DC27EDDD92B63LLV
++ _symbolic _____ 16VisualGeneration34SafetyPostProcessModelOutputParserO06ParsedfG033_7A038507F78BA8CA2E6DC27EDDD92B63LLV10CodingKeysO
++ _symbolic _____ 16VisualGeneration34SafetyPostProcessModelOutputParserO10NudityEnum33_7A038507F78BA8CA2E6DC27EDDD92B63LLO
++ _symbolic _____ 16VisualGeneration34SafetyPostProcessModelOutputParserO14FlagAndMapEnum33_7A038507F78BA8CA2E6DC27EDDD92B63LLO
++ _symbolic _____ 16VisualGeneration34SafetyPostProcessModelOutputParserO18PhotorealisticEnum33_7A038507F78BA8CA2E6DC27EDDD92B63LLO
++ _symbolic _____ 16VisualGeneration34SafetyPostProcessModelOutputParserO19ViolenceAndGoreEnum33_7A038507F78BA8CA2E6DC27EDDD92B63LLO
++ _symbolic _____11aspectRatio______10resolutiont 16VisualGeneration18ImageSpecificationV11AspectRatioO AC10ResolutionO
++ _symbolic _____Sg 10PegasusAPI21GenmojiPromptMetadataV
++ _symbolic _____Sg 16VisualGeneration18SafetyRejectReasonO
++ _symbolic _____Sg 16VisualGeneration21BoltOutputSafetyCheckV
++ _symbolic _____Sg 16VisualGeneration28BoltSafetyCheckConfigurationV
++ _symbolic _____Sg 16VisualGeneration33OutputGuardrailsBoltConfigurationV
++ _symbolic _____Sg 16VisualGeneration34SafetyPostProcessModelOutputParserO10NudityEnum33_7A038507F78BA8CA2E6DC27EDDD92B63LLO
++ _symbolic _____Sg 16VisualGeneration34SafetyPostProcessModelOutputParserO14FlagAndMapEnum33_7A038507F78BA8CA2E6DC27EDDD92B63LLO
++ _symbolic _____Sg 16VisualGeneration34SafetyPostProcessModelOutputParserO18PhotorealisticEnum33_7A038507F78BA8CA2E6DC27EDDD92B63LLO
++ _symbolic _____Sg 16VisualGeneration34SafetyPostProcessModelOutputParserO19ViolenceAndGoreEnum33_7A038507F78BA8CA2E6DC27EDDD92B63LLO
++ _symbolic _____Sg 26SensitiveContentAnalysisML34VisualGenerationGuardrailViolationO
++ _symbolic _____Sg17debiasingMetadata_Sb8isEditAIt 10Foundation4DataV
++ _symbolic _____Sg9violation_SS8rawValuet 26SensitiveContentAnalysisML34VisualGenerationGuardrailViolationO
++ _symbolic _____Sg_ABt 26SensitiveContentAnalysisML34VisualGenerationGuardrailViolationO
++ _symbolic ______p 16VisualGeneration13EditAIRequestP
++ _symbolic _____ySDySSypGG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s11_SetStorageC 10Foundation8URLErrorV4CodeV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration18PromptAnalyzerDataV10CodingKeys33_4DCD6B89B9F9BF4E9A3FBB801A2A26FELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration18PromptAnalyzerDataV6PersonV10CodingKeys33_4DCD6B89B9F9BF4E9A3FBB801A2A26FELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration24BoltChatCompletionClientV5ErrorO10CodingKeys33_20BE3E114315C929DAC6F308155382F8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration24BoltChatCompletionClientV5ErrorO20HttpStatusCodingKeys33_20BE3E114315C929DAC6F308155382F8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration24BoltChatCompletionClientV5ErrorO22UnauthorizedCodingKeys33_20BE3E114315C929DAC6F308155382F8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration24BoltChatCompletionClientV5ErrorO27MalformedResponseCodingKeys33_20BE3E114315C929DAC6F308155382F8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration28BoltSafetyCheckConfigurationV5ErrorO10CodingKeys33_2FC5FEB6328BA67629E4DBB8AB5B552FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration28BoltSafetyCheckConfigurationV5ErrorO24InvalidSettingCodingKeys33_2FC5FEB6328BA67629E4DBB8AB5B552FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration34SafetyPostProcessModelOutputParserO014ParsedTwoImageiJ033_7A038507F78BA8CA2E6DC27EDDD92B63LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration34SafetyPostProcessModelOutputParserO06ParsediJ033_7A038507F78BA8CA2E6DC27EDDD92B63LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration23SafetyPostProcessResultV10CodingKeys33_CC29B02FF76D1A97110CF17850344313LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration23SafetyPostProcessResultV4jsonSSSgvg11JSONWrapperL_V10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration24BoltChatCompletionClientV5ErrorO10CodingKeys33_20BE3E114315C929DAC6F308155382F8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration24BoltChatCompletionClientV5ErrorO20HttpStatusCodingKeys33_20BE3E114315C929DAC6F308155382F8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration24BoltChatCompletionClientV5ErrorO22UnauthorizedCodingKeys33_20BE3E114315C929DAC6F308155382F8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration24BoltChatCompletionClientV5ErrorO27MalformedResponseCodingKeys33_20BE3E114315C929DAC6F308155382F8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration28BoltSafetyCheckConfigurationV5ErrorO10CodingKeys33_2FC5FEB6328BA67629E4DBB8AB5B552FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration28BoltSafetyCheckConfigurationV5ErrorO24InvalidSettingCodingKeys33_2FC5FEB6328BA67629E4DBB8AB5B552FLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation8URLErrorV4CodeV
++ _symbolic _____y_____Sg9violation_SS8rawValuetG s23_ContiguousArrayStorageC 26SensitiveContentAnalysisML34VisualGenerationGuardrailViolationO
++ _symbolic _____y__________G s18_DictionaryStorageC 16VisualGeneration33OutputGuardrailsBoltConfigurationV5CheckO AE8EndpointV
++ _type_layout_string 16VisualGeneration18PromptAnalyzerDataV
++ _type_layout_string 16VisualGeneration18PromptAnalyzerDataV6PersonV
++ _type_layout_string 16VisualGeneration19GenmojiCacheManagerC12PromptFilterV
++ _type_layout_string 16VisualGeneration21BoltOutputSafetyCheckV10Comparison33_D884B73205B564850CF71A087A02CA29LLO
++ _type_layout_string 16VisualGeneration24BoltChatCompletionClientV5ErrorO
++ _type_layout_string 16VisualGeneration28BoltSafetyCheckConfigurationV5ErrorO
++ _type_layout_string 16VisualGeneration33OutputGuardrailsBoltConfigurationV
++ _type_layout_string 16VisualGeneration33OutputGuardrailsBoltConfigurationV8EndpointV
++ _type_layout_string 16VisualGeneration34SafetyPostProcessModelOutputParserO014ParsedTwoImagefG033_7A038507F78BA8CA2E6DC27EDDD92B63LLV
++ _type_layout_string 16VisualGeneration34SafetyPostProcessModelOutputParserO06ParsedfG033_7A038507F78BA8CA2E6DC27EDDD92B63LLV
+- ___swift_memcpy147_8
+- ___swift_project_boxed_opaque_existential_0Tm
+- _get_enum_tag_for_layout_string 16VisualGeneration18FaceRepresentationVSg
+- _symbolic SDySSSdG
+- _symbolic SDySSSo27SCMLImageSanitizationSignalCG
+- _symbolic _____ 16VisualGeneration19ModelCatalogHelpersV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 16VisualGeneration15ForensicsReportV
+CStrings:
++ " cannot be read: "
++ " exceeds the maximum of "
++ " is missing, empty or not a string."
++ " is smaller than the minimum of "
++ " to provide exactly one base image."
++ " unauthorized, Bolt token rejected or expired: "
++ "\" has unknown fields "
++ "\" is not a JSON object."
++ "\" is not a check the Bolt config supports today; use "
++ "-component pixel buffer to a "
++ ".bolt guardrails are not supported with a boltServerURL; that route runs no guardrails."
++ "/Library/Application Support/com.apple.VisualGeneration/BoltSafetyCheck"
++ "A field is missing or carries an unrecognized label."
++ "A oneImage configuration cannot judge against the base image."
++ "A twoImage configuration cannot judge the output alone."
++ "Base image of %{public}ld pixels exceeds the maximum of %{public}ld accepted by request type: %{public}s."
++ "Base image of %{public}s is smaller than the minimum of %{public}s accepted by request type: %{public}s."
++ "Bolt token is empty."
++ "BoltChatCompletionClient: HTTP "
++ "BoltChatCompletionClient: malformed response: "
++ "BoltSafetyCheckConfiguration: "
++ "Cannot convert a "
++ "Encoding SafetyPostProcessResult failed."
++ "Guardrails are still .bolt when the request is built; the Bolt check resolves them to .disabled or .normal first."
++ "ImageSpecification.matchingBaseImage is not supported by "
++ "ImageSpecification.matchingBaseImage is not supported by request type: %{public}s."
++ "ImageSpecification.matchingBaseImage is only supported for requests that provide a base image."
++ "ImageSpecification.matchingBaseImage requires "
++ "Input guardrails do not support .bolt yet, future PR pending."
++ "Mirkwood FeatureFlag is enabled for Genmoji"
++ "Mirkwood FeatureFlag is enabled for Personalization"
++ "Mirkwood FeatureFlag is enabled for PersonalizedGenmoji"
++ "Model output parse error: "
++ "Output guardrails are .bolt on a customer build."
++ "Output guardrails are .bolt without an OutputGuardrailsBoltConfiguration."
++ "PCCLargeImageGenerationGenmoji"
++ "PCCLargeImageGenerationPersonalization"
++ "PCCLargeImageGenerationPersonalizedGenmoji"
++ "PCCProFlowMXFP8Enabled"
++ "Please enable PCCLargeImageGenerationGenmoji FF for Genmoji"
++ "Please enable PCCLargeImageGenerationPersonalization FF for Personalization"
++ "Please enable PCCLargeImageGenerationPersonalizedGenmoji for PersonalizationGenmoji"
++ "The Bolt config is not a JSON object."
++ "The Bolt config names no check."
++ "Using the Bolt safety check in place of PCC's output check"
++ "[BoltSafety] attempt %ld/%ld failed (%s); retrying in %ss"
++ "any"
++ "aspectRatio"
++ "blocked"
++ "bolt"
++ "buttocks"
++ "chat/completions"
++ "explicit"
++ "failedToDecode"
++ "female_breast"
++ "flag"
++ "flag-and-map"
++ "genitals"
++ "gore"
++ "guardrailViolation"
++ "invalidJson"
++ "leaning photorealistic"
++ "male_breast"
++ "malformedResponse"
++ "map"
++ "matchesBaseImage"
++ "non-HTTP response"
++ "non-photorealistic"
++ "none"
++ "nudity-detection"
++ "oneImage"
++ "photorealistic"
++ "photorealistic-detection"
++ "racy"
++ "rejectReasonEnum"
++ "resolution"
++ "safe"
++ "self-harm"
++ "systemPromptFile"
++ "systemPromptFile is not a file name: "
++ "twoImage"
++ "undressing_occurred"
++ "unrecognized"
++ "url is not an https URL with a host: "
++ "violence"
++ "violence-detection"
+- "FeatureFlag enabled for outFill 3K"
+- "PCCLargeImageGenerationOutfill"
+- "Please enable PCCLargeImageGenerationOutfill FF for 3K/4K Outpainting"
+- "rejectedConcepts"
+```

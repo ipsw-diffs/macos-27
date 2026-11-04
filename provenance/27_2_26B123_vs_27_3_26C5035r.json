@@ -1,0 +1,107 @@
+{
+  "catalog_commit": "7b58a3f509c377de579482fd554a9e7aab6912d6",
+  "discovery": {
+    "anchor": {
+      "appledb_path": "osFiles/macOS/26x - 27.x/26A428.json",
+      "beta": false,
+      "build": "26A428",
+      "rc": false,
+      "released": "2026-09-14T00:00:00Z",
+      "source": {
+        "input": "UniversalMac_27.0_26A428_Restore.ipsw",
+        "sha256": "2a5d3c695d501022b7fad9adaffcf2627bcb867d993fb5662dcd41bac99a2836",
+        "size": 26626436228,
+        "url": "https://updates.cdn-apple.com/2026FallFCS/afcfc88e-bbe6-44bf-a5da-07c56eebc06c/UniversalMac_27.0_26A428_Restore.ipsw"
+      },
+      "version": "27.0"
+    },
+    "appledb": {
+      "commit": "c8f12ae3c50d2157a7cc524cc18e021bfc4db4d1",
+      "repository": "https://github.com/littlebyteorg/appledb"
+    },
+    "appledb_platform": "macOS",
+    "device": "Mac18,5",
+    "edges": [
+      {
+        "from": {
+          "appledb_path": "osFiles/macOS/26x - 27.x/26B123.json",
+          "beta": false,
+          "build": "26B123",
+          "rc": false,
+          "released": "2026-10-26T00:00:00Z",
+          "source": {
+            "input": "UniversalMac_27.2_26B123_Restore.ipsw",
+            "sha256": "6613b34e8589db2202a01ec37a2648afb141ece13428175183f8f3e38438534f",
+            "size": 25595669503,
+            "url": "https://updates.cdn-apple.com/2026FallFCS/c9671975-52db-4fb5-9af2-00217169ba8d/UniversalMac_27.2_26B123_Restore.ipsw"
+          },
+          "version": "27.2"
+        },
+        "to": {
+          "appledb_path": "osFiles/macOS/26x - 27.x/26C5035r.json",
+          "beta": true,
+          "build": "26C5035r",
+          "rc": false,
+          "released": "2026-11-03T00:00:00Z",
+          "source": {
+            "input": "UniversalMac_27.3_26C5035r_Restore.ipsw",
+            "sha256": "1f372fa17c2a6c7e10fd135213b928028e9fbe73d54b949deb6c04bea57c93fa",
+            "size": 27206093542,
+            "url": "https://updates.cdn-apple.com/2026FallSeed/53df7654-4865-4259-8dae-30177b76f104/UniversalMac_27.3_26C5035r_Restore.ipsw"
+          },
+          "version": "27.3 beta"
+        }
+      }
+    ],
+    "latest": {
+      "appledb_path": "osFiles/macOS/26x - 27.x/26C5035r.json",
+      "beta": true,
+      "build": "26C5035r",
+      "rc": false,
+      "released": "2026-11-03T00:00:00Z",
+      "source": {
+        "input": "UniversalMac_27.3_26C5035r_Restore.ipsw",
+        "sha256": "1f372fa17c2a6c7e10fd135213b928028e9fbe73d54b949deb6c04bea57c93fa",
+        "size": 27206093542,
+        "url": "https://updates.cdn-apple.com/2026FallSeed/53df7654-4865-4259-8dae-30177b76f104/UniversalMac_27.3_26C5035r_Restore.ipsw"
+      },
+      "version": "27.3 beta"
+    },
+    "major_version": 27,
+    "platform": "macOS",
+    "schema_version": 2,
+    "source_inventory": {
+      "observed": 9,
+      "selected": 3
+    },
+    "status": "candidate",
+    "track_id": "macos-27"
+  },
+  "generator": {
+    "name": "ipsw",
+    "version": "Version: 3.1.741, BuildCommit: 126b1d5ec810a3a7a94a9d4942aaa76ca03fb350"
+  },
+  "inputs": [
+    {
+      "role": "previous",
+      "sha256": "6613b34e8589db2202a01ec37a2648afb141ece13428175183f8f3e38438534f",
+      "size": 25595669503,
+      "url": "https://updates.cdn-apple.com/2026FallFCS/c9671975-52db-4fb5-9af2-00217169ba8d/UniversalMac_27.2_26B123_Restore.ipsw"
+    },
+    {
+      "role": "next",
+      "sha256": "1f372fa17c2a6c7e10fd135213b928028e9fbe73d54b949deb6c04bea57c93fa",
+      "size": 27206093542,
+      "url": "https://updates.cdn-apple.com/2026FallSeed/53df7654-4865-4259-8dae-30177b76f104/UniversalMac_27.3_26C5035r_Restore.ipsw"
+    }
+  ],
+  "schema_version": 1,
+  "signatures": {
+    "commit": "81178cfe6c8869612ef092f6471fce3e17d95b20",
+    "repository": "https://github.com/blacktop/symbolicator"
+  },
+  "source_commit": "4bfcd02c3382dab41183096f6bc69dd7d2788b8a",
+  "source_tag": "payload/27_2_26B123_vs_27_3_26C5035r",
+  "workflow_commit": "ff4bb34f70f4b8d2868f446fa138ed0ce1f0a9e4",
+  "workflow_run": "https://github.com/ipsw-diffs/macos-27/actions/runs/41740248017"
+}

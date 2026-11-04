@@ -1,0 +1,31 @@
+## GenerativeAssistantActions
+
+> `/System/Library/PrivateFrameworks/GenerativeAssistantActions.framework/Versions/A/GenerativeAssistantActions`
+
+```diff
+
+-3605.4.1.0.0
+-  __TEXT.__text: 0xb2234
++3610.4.1.0.0
++  __TEXT.__text: 0xb2208
+   __TEXT.__const: 0x41c8
+   __TEXT.__constg_swiftt: 0x131c
+   __TEXT.__swift5_typeref: 0x110a
+
+   __TEXT.__swift_as_cont: 0x450
+   __TEXT.__swift5_mpenum: 0x18
+   __TEXT.__unwind_info: 0x20f0
+-  __TEXT.__eh_frame: 0x5078
++  __TEXT.__eh_frame: 0x5070
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+Functions:
+~ _$s26GenerativeAssistantActions31GenerateTextFromMediaControllerV19generateRichContent9userQuery15requestMetadata21intentCallbackManagerAA17GeneratedResponseVSS_AA0a7RequestO0VAA06IntentqR0VtYaKF : 888 -> 892
+~ _$s26GenerativeAssistantActions31GenerateTextFromMediaControllerV19generateRichContent9userQuery15requestMetadata21intentCallbackManagerAA17GeneratedResponseVSS_AA0a7RequestO0VAA06IntentqR0VtYaKFTY0_ : 1096 -> 1348
+~ _$s26GenerativeAssistantActions31GenerateTextFromMediaControllerV19generateRichContent9userQuery15requestMetadata21intentCallbackManagerAA17GeneratedResponseVSS_AA0a7RequestO0VAA06IntentqR0VtYaKFTY2_ : 804 -> 584
+~ _$s26GenerativeAssistantActions31GenerateTextFromMediaControllerV19generateRichContent9userQuery15requestMetadata21intentCallbackManagerAA17GeneratedResponseVSS_AA0a7RequestO0VAA06IntentqR0VtYaKFTY8_ : 4124 -> 4084
+~ _$s26GenerativeAssistantActions31GenerateTextFromMediaControllerV19generateRichContent9userQuery15requestMetadata21intentCallbackManagerAA17GeneratedResponseVSS_AA0a7RequestO0VAA06IntentqR0VtYaKFTY9_ : 4124 -> 4084
+~ _$s26GenerativeAssistantActions21IntentCallbackManagerV19requestConfirmation6result22confirmationActionName10showPrompty10AppIntents0D6Result_p_AH0hkL0VSbtYaKF -> _$s26GenerativeAssistantActions21IntentCallbackManagerV06updateD8Progress2toyAA0abH5LevelO_tF : 216 -> 440
+~ _$s26GenerativeAssistantActions21IntentCallbackManagerV06updateD8Progress2toyAA0abH5LevelO_tF -> _$s26GenerativeAssistantActions21IntentCallbackManagerV19requestConfirmation6result22confirmationActionName10showPrompty10AppIntents0D6Result_p_AH0hkL0VSbtYaKF : 440 -> 216
+```
