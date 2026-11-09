@@ -12,9 +12,17 @@ release sequence is implied.
 
 | Device | Comparison | Manifest |
 | --- | --- | --- |
+| `Mac17,6` | [27.0 (26A428) → 27.2 (26B5086k)](diffs/27_0_26A428_vs_27_2_26B5086k/README.md) | [provenance](manifests/27_0_26A428_vs_27_2_26B5086k.json) |
 | `Mac17,6` | [27.0 (26A5421a) → 27.0 (26A5425a)](diffs/27_0_26A5421a_vs_27_0_26A5425a/README.md) | [provenance](manifests/27_0_26A5421a_vs_27_0_26A5425a.json) |
 | `Mac17,6` | [27.0 (26A5425a) → 27.0 (26A428)](diffs/27_0_26A5425a_vs_27_0_26A428/README.md) | [provenance](manifests/27_0_26A5425a_vs_27_0_26A428.json) |
+| `Mac18,5` | [27.0 (26A428) → 27.0.1 (26A434)](diffs/27_0_26A428_vs_27_0_1_26A434/README.md) | [provenance](manifests/27_0_26A428_vs_27_0_1_26A434.json) |
+| `Mac18,5` | [27.2 (26B118) → 27.2 (26B123)](diffs/27_2_26B118_vs_27_2_26B123/README.md) | [provenance](manifests/27_2_26B118_vs_27_2_26B123.json) |
+| `Mac18,5` | [27.2 (26B123) → 27.2.1 (26B131)](diffs/27_2_26B123_vs_27_2_1_26B131/README.md) | [provenance](manifests/27_2_26B123_vs_27_2_1_26B131.json) |
 | `Mac18,5` | [27.2 (26B123) → 27.3 (26C5035r)](diffs/27_2_26B123_vs_27_3_26C5035r/README.md) | [provenance](manifests/27_2_26B123_vs_27_3_26C5035r.json) |
+| `Mac18,5` | [27.2 (26B5086k) → 27.2 (26B5091g)](diffs/27_2_26B5086k_vs_27_2_26B5091g/README.md) | [provenance](manifests/27_2_26B5086k_vs_27_2_26B5091g.json) |
+| `Mac18,5` | [27.2 (26B5091g) → 27.2 (26B5101f)](diffs/27_2_26B5091g_vs_27_2_26B5101f/README.md) | [provenance](manifests/27_2_26B5091g_vs_27_2_26B5101f.json) |
+| `Mac18,5` | [27.2 (26B5101f) → 27.2 (26B5112a)](diffs/27_2_26B5101f_vs_27_2_26B5112a/README.md) | [provenance](manifests/27_2_26B5101f_vs_27_2_26B5112a.json) |
+| `Mac18,5` | [27.2 (26B5112a) → 27.2 (26B118)](diffs/27_2_26B5112a_vs_27_2_26B118/README.md) | [provenance](manifests/27_2_26B5112a_vs_27_2_26B118.json) |
 
 ## Layout and integrity
 
