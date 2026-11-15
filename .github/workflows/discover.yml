@@ -2,6 +2,8 @@ name: Discover macOS 27 firmware
 
 on:
   schedule:
+    # A backstop only: poll.yml dispatches this within minutes of a new build, while GitHub
+    # runs this schedule hours late.
     - cron: "33 * * * *"
   pull_request:
     paths:
@@ -22,7 +24,7 @@ jobs:
   discover:
     permissions:
       contents: read
-    uses: ipsw-diffs/catalog/.github/workflows/discover.yml@a6f7709a5618291be4d55b99d55118274b74a4db
+    uses: ipsw-diffs/catalog/.github/workflows/discover.yml@088a1cbe94897f292acf9b540f8f7b62e2953665
     with:
       policy-path: track.json
       manifests-dir: manifests
@@ -36,6 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      issues: read
     outputs:
       build: ${{ steps.state.outputs.build }}
       branch: ${{ steps.state.outputs.branch }}
@@ -45,13 +48,18 @@ jobs:
         id: state
         env:
           DECISION: ${{ needs.discover.outputs.result }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           build="$(jq --exit-status --raw-output '.edges[0].to.build' <<< "$DECISION")"
           [[ "$build" =~ ^[A-Za-z0-9]+$ ]]
           branch="generated/macos-27-$build"
           state=new
-          if git ls-remote --exit-code --heads \
+          paused="$(gh issue list --repo "$GITHUB_REPOSITORY" --label generation-failed \
+            --state open --json number --jq length)"
+          if [ "$paused" != 0 ]; then
+            state=paused
+          elif git ls-remote --exit-code --heads \
             "https://github.com/$GITHUB_REPOSITORY.git" \
             "refs/heads/$branch" >/dev/null 2>&1; then
             state=existing
@@ -74,20 +82,22 @@ jobs:
             echo "- build: $BUILD"
             echo "- branch: $BRANCH"
             echo "- prior state: $STATE"
-            if [ "$STATE" = new ]; then
-              echo '- result: start one reusable generation job'
-            else
-              echo '- result: no-op; this build is already published for review'
-            fi
+            case "$STATE" in
+              new) echo '- result: start one reusable generation job' ;;
+              paused) echo '- result: no-op; close the open generation-failed issue to retry' ;;
+              *) echo '- result: no-op; this build already has a generated branch' ;;
+            esac
           } >> "$GITHUB_STEP_SUMMARY"
 
   generate:
-    needs: prepare-generation
+    needs: [discover, prepare-generation]
     if: needs.prepare-generation.outputs.state == 'new'
     permissions:
       contents: write
+      issues: write
       pull-requests: write
-    uses: ipsw-diffs/catalog/.github/workflows/generate.yml@a6f7709a5618291be4d55b99d55118274b74a4db
+    uses: ipsw-diffs/catalog/.github/workflows/generate.yml@088a1cbe94897f292acf9b540f8f7b62e2953665
     with:
       policy-path: track.json
       manifests-dir: manifests
+      input-kind: ${{ needs.discover.outputs.edge-kind }}
