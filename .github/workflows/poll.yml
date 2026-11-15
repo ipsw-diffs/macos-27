@@ -1,0 +1,26 @@
+name: Poll for new macOS 27 firmware
+
+on:
+  schedule:
+    # Only restarts the poller if its chain of self-dispatches breaks; GitHub runs these late.
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: macos-27-poll
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    permissions:
+      actions: write
+      contents: read
+      issues: read
+    uses: ipsw-diffs/catalog/.github/workflows/poll.yml@088a1cbe94897f292acf9b540f8f7b62e2953665
+    with:
+      policy-path: track.json
+      manifests-dir: manifests
+      discover-workflow: discover.yml
+      poll-workflow: poll.yml
