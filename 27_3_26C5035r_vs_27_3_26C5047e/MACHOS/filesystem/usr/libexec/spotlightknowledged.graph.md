@@ -1,0 +1,16 @@
+## spotlightknowledged.graph
+
+> `/usr/libexec/spotlightknowledged.graph`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-2465.2.7.400.0
++2465.2.13.400.0
+   __TEXT.__text: 0x4
+   __TEXT.__auth_stubs: 0x10
+   __TEXT.__const: 0x58
+```

@@ -1,0 +1,1787 @@
+## AXVisualSupportAgent
+
+> `/System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/Current/Resources/AXVisualSupportAgent.app/Contents/MacOS/AXVisualSupportAgent`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA_CONST.__objc_doubleobj`
+
+```diff
+
+-780.3.11.0.1
+-  __TEXT.__text: 0x7bd70
+-  __TEXT.__auth_stubs: 0x1f00
+-  __TEXT.__objc_stubs: 0x19520
+-  __TEXT.__objc_methlist: 0xbb1c
+-  __TEXT.__const: 0x8a8
+-  __TEXT.__objc_classname: 0x1970
+-  __TEXT.__objc_methname: 0x24413
+-  __TEXT.__objc_methtype: 0x624c
+-  __TEXT.__constg_swiftt: 0x498
+-  __TEXT.__swift5_typeref: 0x916
+-  __TEXT.__swift5_reflstr: 0x24c
+-  __TEXT.__swift5_fieldmd: 0x244
+-  __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__cstring: 0x1d61
+-  __TEXT.__swift5_capture: 0x144
+-  __TEXT.__swift5_assocty: 0x78
+-  __TEXT.__swift5_proto: 0x2c
+-  __TEXT.__swift5_types: 0x38
+-  __TEXT.__swift_as_entry: 0x20
+-  __TEXT.__swift_as_ret: 0x28
+-  __TEXT.__swift_as_cont: 0x30
+-  __TEXT.__gcc_except_tab: 0x5c4
+-  __TEXT.__oslogstring: 0x1d18
++780.3.24.0.0
++  __TEXT.__text: 0xd6e18
++  __TEXT.__auth_stubs: 0x3950
++  __TEXT.__objc_stubs: 0x1b920
++  __TEXT.__objc_methlist: 0xcfa0
++  __TEXT.__const: 0x47a8
++  __TEXT.__objc_classname: 0x2160
++  __TEXT.__objc_methname: 0x27b2e
++  __TEXT.__objc_methtype: 0x6ba3
++  __TEXT.__constg_swiftt: 0x173c
++  __TEXT.__swift5_typeref: 0x5946
++  __TEXT.__swift5_reflstr: 0xf9c
++  __TEXT.__swift5_fieldmd: 0x1660
++  __TEXT.__swift5_builtin: 0xf0
++  __TEXT.__cstring: 0x2edf
++  __TEXT.__swift5_capture: 0x798
++  __TEXT.__oslogstring: 0x29d7
++  __TEXT.__swift5_assocty: 0x2e8
++  __TEXT.__swift5_proto: 0x230
++  __TEXT.__swift5_types: 0x1a0
++  __TEXT.__swift5_mpenum: 0x10
++  __TEXT.__swift_as_entry: 0x4c
++  __TEXT.__swift_as_ret: 0x54
++  __TEXT.__swift_as_cont: 0x98
++  __TEXT.__swift5_protos: 0xc
++  __TEXT.__gcc_except_tab: 0x870
+   __TEXT.__ustring: 0x20
+-  __TEXT.__unwind_info: 0x2a40
+-  __TEXT.__eh_frame: 0x410
+-  __DATA_CONST.__const: 0x1a40
+-  __DATA_CONST.__cfstring: 0x21a0
+-  __DATA_CONST.__objc_classlist: 0x4b8
++  __TEXT.__unwind_info: 0x4388
++  __TEXT.__eh_frame: 0x1e48
++  __DATA_CONST.__const: 0x43a8
++  __DATA_CONST.__cfstring: 0x2920
++  __DATA_CONST.__objc_classlist: 0x608
+   __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x208
++  __DATA_CONST.__objc_protolist: 0x270
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x18
+-  __DATA_CONST.__objc_superrefs: 0x2e8
++  __DATA_CONST.__objc_protorefs: 0x48
++  __DATA_CONST.__objc_superrefs: 0x328
++  __DATA_CONST.__objc_intobj: 0x90
+   __DATA_CONST.__objc_arraydata: 0x70
+   __DATA_CONST.__objc_arrayobj: 0x78
+   __DATA_CONST.__objc_doubleobj: 0x60
+-  __DATA_CONST.__objc_intobj: 0x78
+-  __DATA_CONST.__auth_got: 0xf90
+-  __DATA_CONST.__got: 0x998
+-  __DATA_CONST.__auth_ptr: 0x258
+-  __DATA.__objc_const: 0x11ba0
+-  __DATA.__objc_selrefs: 0x7448
+-  __DATA.__objc_ivar: 0xc90
+-  __DATA.__objc_data: 0x3150
+-  __DATA.__data: 0x1fa8
+-  __DATA.__bss: 0x700
+-  __DATA.__common: 0x10
++  __DATA_CONST.__auth_got: 0x1cb8
++  __DATA_CONST.__got: 0xfb0
++  __DATA_CONST.__auth_ptr: 0x930
++  __DATA.__objc_const: 0x15398
++  __DATA.__objc_selrefs: 0x7e80
++  __DATA.__objc_ivar: 0xdc4
++  __DATA.__objc_data: 0x46b0
++  __DATA.__data: 0x4628
++  __DATA.__bss: 0x4720
++  __DATA.__common: 0xe8
+   __CGPreLoginApp.__cgpreloginapp: 0x0
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility
++  - /System/Library/Frameworks/ActivityKit.framework/Versions/A/ActivityKit
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+   - /System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+
+   - /System/Library/PrivateFrameworks/AccessibilitySupport.framework/Versions/A/AccessibilitySupport
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/Versions/A/AccessibilityUtilities
+   - /System/Library/PrivateFrameworks/AdaptiveVoiceShortcuts.framework/Versions/A/AdaptiveVoiceShortcuts
++  - /System/Library/PrivateFrameworks/ElementRegistryClient.framework/Versions/A/ElementRegistryClient
++  - /System/Library/PrivateFrameworks/ElementRegistryFoundation.framework/Versions/A/ElementRegistryFoundation
++  - /System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+   - /System/Library/PrivateFrameworks/MonitorPanel.framework/Versions/A/MonitorPanel
+   - /System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport
+   - /System/Library/PrivateFrameworks/NameRecognition.framework/Versions/A/NameRecognition
+   - /System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+   - /System/Library/PrivateFrameworks/SpeechObjects.framework/Versions/A/SpeechObjects
++  - /System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+   - /System/Library/PrivateFrameworks/TextToSpeech.framework/Versions/A/TextToSpeech
+   - /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Libraries/libUAPreferences.dylib
+   - /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/UniversalAccess
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 4014
+-  Symbols:   914
+-  CStrings:  6550
++  Functions: 5908
++  Symbols:   1653
++  CStrings:  7447
+ 
+Symbols:
++ _$s10Foundation12CharacterSetV22whitespacesAndNewlinesACvgZ
++ _$s10Foundation12CharacterSetV8containsySbs7UnicodeO6ScalarVF
++ _$s10Foundation12CharacterSetVMa
++ _$s10Foundation14DateComponentsV19_bridgeToObjectiveCSo06NSDateC0CyF
++ _$s10Foundation14DateComponentsV3daySiSgvg
++ _$s10Foundation14DateComponentsV8calendar8timeZone3era4year5month3day4hour6minute6second10nanosecond7weekday0O7Ordinal7quarter11weekOfMonth0rS4Year0h7ForWeeksU0AcA8CalendarVSg_AA04TimeF0VSgSiSgA13ZtcfC
++ _$s10Foundation14DateComponentsVMa
++ _$s10Foundation18IntegerFormatStyleV6localeACyxGAA6LocaleV_tcfC
++ _$s10Foundation18IntegerFormatStyleVMn
++ _$s10Foundation18IntegerFormatStyleVyxGAA0cD0AAMc
++ _$s10Foundation19PropertyListDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
++ _$s10Foundation19PropertyListDecoderCACycfc
++ _$s10Foundation19PropertyListDecoderCMa
++ _$s10Foundation19PropertyListEncoderC12outputFormatSo010NSPropertycF0VvsTj
++ _$s10Foundation19PropertyListEncoderC6encodeyAA4DataVxKSERzlFTj
++ _$s10Foundation19PropertyListEncoderCACycfc
++ _$s10Foundation19PropertyListEncoderCMa
++ _$s10Foundation3URLV016standardizedFileB0ACvg
++ _$s10Foundation3URLV15fileURLWithPath11isDirectoryACSSh_SbtcfC
++ _$s10Foundation3URLV15fileURLWithPathACSSh_tcfC
++ _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
++ _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ
++ _$s10Foundation3URLV4pathSSvg
++ _$s10Foundation3URLV6stringACSgSSh_tcfC
++ _$s10Foundation3URLVMa
++ _$s10Foundation3URLVMn
++ _$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF
++ _$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ
++ _$s10Foundation4DateV026timeIntervalSinceReferenceB0ACSd_tcfC
++ _$s10Foundation4DateV026timeIntervalSinceReferenceB0Sdvg
++ _$s10Foundation4DateV17timeIntervalSinceySdACF
++ _$s10Foundation4DateV19_bridgeToObjectiveCSo6NSDateCyF
++ _$s10Foundation4DateVACycfC
++ _$s10Foundation4DateVMa
++ _$s10Foundation4DateVMn
++ _$s10Foundation4DateVSQAAMc
++ _$s10Foundation4UUIDVACycfC
++ _$s10Foundation4UUIDVMa
++ _$s10Foundation4UUIDVMn
++ _$s10Foundation4UUIDVSHAAMc
++ _$s10Foundation4UUIDVSQAAMc
++ _$s10Foundation6LocaleV19_bridgeToObjectiveCSo8NSLocaleCyF
++ _$s10Foundation6LocaleV19autoupdatingCurrentACvgZ
++ _$s10Foundation6LocaleVMn
++ _$s10Foundation8CalendarV10startOfDay3forAA4DateVAG_tF
++ _$s10Foundation8CalendarV14dateComponents_4from2toAA04DateD0VShyAC9ComponentOG_AA0G0VAMtF
++ _$s10Foundation8CalendarV19_bridgeToObjectiveCSo10NSCalendarCyF
++ _$s10Foundation8CalendarV19autoupdatingCurrentACvgZ
++ _$s10Foundation8CalendarV6isDate_11inSameDayAsSbAA0D0V_AGtF
++ _$s10Foundation8CalendarV6localeAA6LocaleVSgvs
++ _$s10Foundation8CalendarV8timeZoneAA04TimeD0Vvs
++ _$s10Foundation8CalendarV9ComponentO3dayyA2EmFWC
++ _$s10Foundation8CalendarV9ComponentOMa
++ _$s10Foundation8CalendarV9ComponentOMn
++ _$s10Foundation8CalendarV9ComponentOSHAAMc
++ _$s10Foundation8CalendarV9ComponentOSQAAMc
++ _$s10Foundation8CalendarVMa
++ _$s10Foundation8CalendarVMn
++ _$s10Foundation8TimeZoneV19_bridgeToObjectiveCSo06NSTimeC0CyF
++ _$s10Foundation8TimeZoneV19autoupdatingCurrentACvgZ
++ _$s10Foundation8TimeZoneVMa
++ _$s10Foundation8TimeZoneVMn
++ _$s10ObjectiveC8ObjCBoolVMn
++ _$s11ActivityKit0A0C0A12StateUpdatesV17makeAsyncIteratorAE0G0Vyx__GyF
++ _$s11ActivityKit0A0C0A12StateUpdatesV8IteratorVMn
++ _$s11ActivityKit0A0C0A12StateUpdatesV8IteratorVyx__GScIAAMc
++ _$s11ActivityKit0A0C0A12StateUpdatesVMn
++ _$s11ActivityKit0A0C10activitiesSayACyxGGvgZ
++ _$s11ActivityKit0A0C20activityStateUpdatesAC0adE0Vyx_GvgTj
++ _$s11ActivityKit0A0C2idSSvg
++ _$s11ActivityKit0A0C3end_15dismissalPolicyyAA0A7ContentVy0F5StateQzGSg_AA0a11UIDismissalE0VtYaFTjTu
++ _$s11ActivityKit0A0C6updateyyAA0A7ContentVy0D5StateQzGYaFTjTu
++ _$s11ActivityKit0A0C7request10attributes7content19presentationOptions13platterTarget0E14SourceRequests11isEphemeral0L9UnboundedACyxGx_AA0A7ContentVy0O5StateQzGAA0a12PresentationG0VAA05SceneI0O7RequestOSayAA0aoJ0OAVOGS2btKFZ
++ _$s11ActivityKit0A0CMn
++ _$s11ActivityKit0A10AttributesMp
++ _$s11ActivityKit0A10AttributesP12ContentStateAC_SETn
++ _$s11ActivityKit0A10AttributesP12ContentStateAC_SHTn
++ _$s11ActivityKit0A10AttributesP12ContentStateAC_SeTn
++ _$s11ActivityKit0A10AttributesPSETb
++ _$s11ActivityKit0A10AttributesPSeTb
++ _$s11ActivityKit0A13ContentSourceO7RequestO7processyAeA17ProcessDescriptorVADO_tcAEmFWC
++ _$s11ActivityKit0A13ContentSourceO7RequestOMa
++ _$s11ActivityKit0A13ContentSourceO7RequestOMn
++ _$s11ActivityKit0A17AuthorizationInfoC0A17EnablementUpdatesV17makeAsyncIteratorAE0I0VyF
++ _$s11ActivityKit0A17AuthorizationInfoC0A17EnablementUpdatesV8IteratorVMa
++ _$s11ActivityKit0A17AuthorizationInfoC0A17EnablementUpdatesV8IteratorVScIAAMc
++ _$s11ActivityKit0A17AuthorizationInfoC0A17EnablementUpdatesVMa
++ _$s11ActivityKit0A17AuthorizationInfoC20areActivitiesEnabledSbvg
++ _$s11ActivityKit0A17AuthorizationInfoC25activityEnablementUpdatesAC0afG0Vvg
++ _$s11ActivityKit0A17AuthorizationInfoCACycfc
++ _$s11ActivityKit0A17AuthorizationInfoCMa
++ _$s11ActivityKit0A17AuthorizationInfoCMn
++ _$s11ActivityKit0A17UIDismissalPolicyV9immediateACvgZ
++ _$s11ActivityKit0A17UIDismissalPolicyVMa
++ _$s11ActivityKit0A19PresentationOptionsV0aC11DestinationO19defaultDestinationsSayAEGvgZ
++ _$s11ActivityKit0A19PresentationOptionsV12destinationsACSayAC0aC11DestinationOG_tcfC
++ _$s11ActivityKit0A19PresentationOptionsVMa
++ _$s11ActivityKit0A5StateO2eeoiySbAC_ACtFZ
++ _$s11ActivityKit0A5StateO5endedyA2CmFWC
++ _$s11ActivityKit0A5StateO9dismissedyA2CmFWC
++ _$s11ActivityKit0A5StateOMa
++ _$s11ActivityKit0A5StateOMn
++ _$s11ActivityKit0A7ContentV5state9staleDate14relevanceScoreACyxGx_10Foundation0F0VSgSdtcfC
++ _$s11ActivityKit0A7ContentVMn
++ _$s12ContentState11ActivityKit0C10AttributesPTl
++ _$s12CoreGraphics7CGFloatVN
++ _$s12FeatureFlags02isA7EnabledySbAA0aB3Key_pF
++ _$s12FeatureFlags0aB3KeyMp
++ _$s12FeatureFlags0aB3KeyP6domains12StaticStringVvgTq
++ _$s12FeatureFlags0aB3KeyP7features12StaticStringVvgTq
++ _$s21ElementRegistryClient0aB13SceneGroup_V1V7contentACyxGxyc_tcfC
++ _$s21ElementRegistryClient0aB13SceneGroup_V1VMn
++ _$s21ElementRegistryClient0aB13SceneGroup_V1VyxG7SwiftUI0D0AAMc
++ _$s21ElementRegistryClient0aB14BaseContext_V1C25allowsContinuousAnimationSbvgTj
++ _$s21ElementRegistryClient0aB15ViewProvider_V1V18matchingIdentifier06bannerD0010integratedD5GroupAC0aB10Foundation0ab4Kindh1_F0O_xAA0ab14BannerContext_F0Ccq_AA0ab10Integratedo1_F0Cctc7SwiftUI0D0RzAnOR_r0_lufC
++ _$s21ElementRegistryClient0aB15ViewProvider_V1V7SwiftUI0D0AAMc
++ _$s21ElementRegistryClient0aB15ViewProvider_V1VMa
++ _$s21ElementRegistryClient0aB15ViewProvider_V1VMn
++ _$s21ElementRegistryClient0aB16BannerContext_V1C13bannerMetricsAA0dh1_F0VvgTj
++ _$s21ElementRegistryClient0aB16BannerContext_V1CMa
++ _$s21ElementRegistryClient0aB16BannerContext_V1CMn
++ _$s21ElementRegistryClient0aB20IntegratedContext_V1C10layoutMode0aB10Foundation0d6Layouth1_F0OvgTj
++ _$s21ElementRegistryClient0aB20IntegratedContext_V1C17integratedMetricsAA0dh1_F0VvgTj
++ _$s21ElementRegistryClient0aB20IntegratedContext_V1CMa
++ _$s21ElementRegistryClient0aB20IntegratedContext_V1CMn
++ _$s21ElementRegistryClient16BannerMetrics_V1V11maximumSizeSo6CGSizeVvg
++ _$s21ElementRegistryClient16BannerMetrics_V1V15resizeAnimation7SwiftUI6SpringVvg
++ _$s21ElementRegistryClient16BannerMetrics_V1VMa
++ _$s21ElementRegistryClient18ObstructionMetricsV15obstructionSizeSo6CGSizeVvg
++ _$s21ElementRegistryClient18ObstructionMetricsVMa
++ _$s21ElementRegistryClient20IntegratedMetrics_V1V011obstructionE0AA011ObstructionE0Vvg
++ _$s21ElementRegistryClient20IntegratedMetrics_V1V11maximumSizeSo6CGSizeVvg
++ _$s21ElementRegistryClient20IntegratedMetrics_V1V11minimumSizeSo6CGSizeVvg
++ _$s21ElementRegistryClient20IntegratedMetrics_V1V11obstructionAA0d12Obstruction_F0VSgvg
++ _$s21ElementRegistryClient20IntegratedMetrics_V1V13layoutMargins7SwiftUI10EdgeInsetsVvg
++ _$s21ElementRegistryClient20IntegratedMetrics_V1V15resizeAnimation7SwiftUI6SpringVvg
++ _$s21ElementRegistryClient20IntegratedMetrics_V1VMa
++ _$s21ElementRegistryClient22IntegratedViewGroup_V1V7minimal14compactLeading0I8Trailing8expandedACyxq_q0_q1_GxyXE_q_yXEq0_yXEq1_yXEtcfC
++ _$s21ElementRegistryClient22IntegratedViewGroup_V1VMn
++ _$s21ElementRegistryClient22IntegratedViewGroup_V1Vyxq_q0_q1_G7SwiftUI0E0AAMc
++ _$s21ElementRegistryClient24IntegratedObstruction_V1V4rect3for2inSo6CGRectV7SwiftUI15LayoutDirectionO_So6CGSizeVtF
++ _$s21ElementRegistryClient24IntegratedObstruction_V1V4sizeSo6CGSizeVvg
++ _$s21ElementRegistryClient24IntegratedObstruction_V1VMa
++ _$s21ElementRegistryClient24IntegratedObstruction_V1VMn
++ _$s21ElementRegistryClient33CollapseIntegratedExpansionActionV14callAsFunctionyyF
++ _$s21ElementRegistryClient33CollapseIntegratedExpansionActionVMa
++ _$s21ElementRegistryClient33CollapseIntegratedExpansionActionVMn
++ _$s22UniformTypeIdentifiers6UTTypeV17applicationBundleACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV19_bridgeToObjectiveCSoABCyF
++ _$s22UniformTypeIdentifiers6UTTypeVMa
++ _$s25ElementRegistryFoundation0aB17KindIdentifier_V1O4fromACxm_tc11ActivityKit0H10AttributesRzlufC
++ _$s25ElementRegistryFoundation0aB17KindIdentifier_V1OMa
++ _$s25ElementRegistryFoundation23IntegratedLayoutMode_V1O7compactyA2CmFWC
++ _$s25ElementRegistryFoundation23IntegratedLayoutMode_V1O8expandedyA2CmFWC
++ _$s25ElementRegistryFoundation23IntegratedLayoutMode_V1OMa
++ _$s25ElementRegistryFoundation23IntegratedLayoutMode_V1OMn
++ _$s25ElementRegistryFoundation23IntegratedLayoutMode_V1OSQAAMc
++ _$s2IDs12IdentifiablePTl
++ _$s2os0A4_log_3dso0B0__ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtF
++ _$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg
++ _$s2os6LoggerV9subsystem8categoryACSS_SStcfC
++ _$s2os6LoggerVMa
++ _$s2os6LoggerVMn
++ _$s4Body7SwiftUI11ButtonStylePTl
++ _$s4Body7SwiftUI12ViewModifierPTl
++ _$s4Body7SwiftUI5ScenePTl
++ _$s5Value7SwiftUI14EnvironmentKeyPTl
++ _$s7SwiftUI10EdgeInsetsV4_allAC12CoreGraphics7CGFloatV_tcfC
++ _$s7SwiftUI10ScrollViewVMn
++ _$s7SwiftUI10ScrollViewV_15showsIndicators7contentACyxGAA4AxisO3SetV_SbxyXEtcfC
++ _$s7SwiftUI10ScrollViewVyxGAA0D0AAMc
++ _$s7SwiftUI10_ShapeViewVyxq_GAA0D0AAMc
++ _$s7SwiftUI11ButtonStyleMp
++ _$s7SwiftUI11ButtonStyleP4BodyAC_AA4ViewTn
++ _$s7SwiftUI11ButtonStyleP8makeBody13configuration0F0QzAA0cD13ConfigurationV_tFTq
++ _$s7SwiftUI11ColorSchemeO4darkyA2CmFWC
++ _$s7SwiftUI11ColorSchemeOMa
++ _$s7SwiftUI11ColorSchemeOMn
++ _$s7SwiftUI11EnvironmentV7ContentOMn
++ _$s7SwiftUI11EnvironmentVMa
++ _$s7SwiftUI11EnvironmentVMn
++ _$s7SwiftUI11_ClipEffectVMn
++ _$s7SwiftUI11_ClipEffectVyxGAA12ViewModifierAAMc
++ _$s7SwiftUI12SceneBuilderV10buildBlockyxxAA0C0RzlFZ
++ _$s7SwiftUI12TimelineViewV7ContextV4date10Foundation4DateVvg
++ _$s7SwiftUI12TimelineViewV7ContextVMn
++ _$s7SwiftUI12TimelineViewVA2A0D0R_rlE_7contentACyxq_Gx_q_AC7ContextVyxq__GctcfC
++ _$s7SwiftUI12TimelineViewVMn
++ _$s7SwiftUI12ViewModifierMp
++ _$s7SwiftUI12ViewModifierP05_makeC08modifier6inputs4bodyAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVAiA01_J0V_ANtctFZTq
++ _$s7SwiftUI12ViewModifierP05_makeC4List8modifier6inputs4bodyAA01_cF7OutputsVAA11_GraphValueVyxG_AA01_cF6InputsVAiA01_K0V_ANtctFZTq
++ _$s7SwiftUI12ViewModifierP14_viewListCount6inputs4bodySiSgAA01_cfG6InputsV_AgIXEtFZTq
++ _$s7SwiftUI12ViewModifierP4BodyAC_AA0C0Tn
++ _$s7SwiftUI12ViewModifierP4body7content4BodyQzAA01_cD8_ContentVyxG_tFTq
++ _$s7SwiftUI12ViewModifierPAAE05_makeC08modifier6inputs4bodyAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVAiA01_J0V_ANtctFZ
++ _$s7SwiftUI12ViewModifierPAAE05_makeC4List8modifier6inputs4bodyAA01_cF7OutputsVAA11_GraphValueVyxG_AA01_cF6InputsVAiA01_K0V_ANtctFZ
++ _$s7SwiftUI12ViewModifierPAAE14_viewListCount6inputs4bodySiSgAA01_cfG6InputsV_AgIXEtFZ
++ _$s7SwiftUI12_ScaleEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI12_ScaleEffectVMn
++ _$s7SwiftUI12_ScaleEffectVN
++ _$s7SwiftUI13AnyTransitionVyACxcAA0D0RzlufC
++ _$s7SwiftUI13GeometryProxyV4sizeSo6CGSizeVvg
++ _$s7SwiftUI13NSHostingViewC04rootD0ACyxGx_tcfc
++ _$s7SwiftUI13NSHostingViewC13sizingOptionsAA0c6SizingF0VvsTj
++ _$s7SwiftUI13NSHostingViewCMn
++ _$s7SwiftUI13_HStackLayoutVMn
++ _$s7SwiftUI13_OffsetEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI13_OffsetEffectVMn
++ _$s7SwiftUI13_OffsetEffectVN
++ _$s7SwiftUI13_VStackLayoutVMn
++ _$s7SwiftUI13withAnimationyxAA0D0VSg_xyKXEtKlF
++ _$s7SwiftUI14EnvironmentKeyMp
++ _$s7SwiftUI14EnvironmentKeyP12_valuesEqualySb5ValueQz_AFtFZTq
++ _$s7SwiftUI14EnvironmentKeyP12defaultValue0F0QzvgZTq
++ _$s7SwiftUI14EnvironmentKeyPAASQ5ValueRpzrlE12_valuesEqualySbAE_AEtFZ
++ _$s7SwiftUI14LinearGradientV8gradient10startPoint03endG0AcA0D0V_AA04UnitG0VAJtcfC
++ _$s7SwiftUI14LinearGradientVMn
++ _$s7SwiftUI14_OpacityEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI14_OpacityEffectVMn
++ _$s7SwiftUI14_OpacityEffectVN
++ _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI14_PaddingLayoutVMn
++ _$s7SwiftUI14_PaddingLayoutVN
++ _$s7SwiftUI15LayoutDirectionOMa
++ _$s7SwiftUI15LayoutDirectionOMn
++ _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE17accessibilityHintyACyxAEGqd__SyRd__lF
++ _$s7SwiftUI15_HiddenModifierVMn
++ _$s7SwiftUI15_RotationEffectVMn
++ _$s7SwiftUI16PlainButtonStyleVAA09PrimitivedE0AAMc
++ _$s7SwiftUI16PlainButtonStyleVACycfC
++ _$s7SwiftUI16PlainButtonStyleVMa
++ _$s7SwiftUI16PlainButtonStyleVMn
++ _$s7SwiftUI16RoundedRectangleVAA5ShapeAAMc
++ _$s7SwiftUI16_FixedSizeLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI16_FixedSizeLayoutVMn
++ _$s7SwiftUI16_FixedSizeLayoutVN
++ _$s7SwiftUI16_FlexFrameLayoutV8minWidth05idealG003maxG00F6Height0hJ00iJ09alignmentAC12CoreGraphics7CGFloatVSg_A5nA9AlignmentVtcfC
++ _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI16_FlexFrameLayoutVMn
++ _$s7SwiftUI16_FlexFrameLayoutVN
++ _$s7SwiftUI16_OverlayModifierVMn
++ _$s7SwiftUI16_OverlayModifierVyxGAA04ViewD0AAMc
++ _$s7SwiftUI17ContentTransitionV11numericText5valueACSd_tFZ
++ _$s7SwiftUI17ContentTransitionVMa
++ _$s7SwiftUI17ContentTransitionVMn
++ _$s7SwiftUI17EnvironmentValuesV11colorSchemeAA05ColorF0Ovg
++ _$s7SwiftUI17EnvironmentValuesV11colorSchemeAA05ColorF0OvpMV
++ _$s7SwiftUI17EnvironmentValuesV11colorSchemeAA05ColorF0Ovs
++ _$s7SwiftUI17EnvironmentValuesV13appearsActiveSbvg
++ _$s7SwiftUI17EnvironmentValuesV13appearsActiveSbvpMV
++ _$s7SwiftUI17EnvironmentValuesV13appearsActiveSbvs
++ _$s7SwiftUI17EnvironmentValuesV15layoutDirectionAA06LayoutF0Ovg
++ _$s7SwiftUI17EnvironmentValuesV15layoutDirectionAA06LayoutF0OvpMV
++ _$s7SwiftUI17EnvironmentValuesV15layoutDirectionAA06LayoutF0Ovs
++ _$s7SwiftUI17EnvironmentValuesV17contentTransitionAA07ContentF0Vvg
++ _$s7SwiftUI17EnvironmentValuesV17contentTransitionAA07ContentF0VvpMV
++ _$s7SwiftUI17EnvironmentValuesV17contentTransitionAA07ContentF0Vvs
++ _$s7SwiftUI17EnvironmentValuesV21ElementRegistryClientE27collapseIntegratedExpansionAD08CollapseiJ6ActionVvg
++ _$s7SwiftUI17EnvironmentValuesV21ElementRegistryClientE27collapseIntegratedExpansionAD08CollapseiJ6ActionVvpMV
++ _$s7SwiftUI17EnvironmentValuesV21ElementRegistryClientE27collapseIntegratedExpansionAD08CollapseiJ6ActionVvs
++ _$s7SwiftUI17EnvironmentValuesV25accessibilityReduceMotionSbvg
++ _$s7SwiftUI17EnvironmentValuesV25accessibilityReduceMotionSbvpMV
++ _$s7SwiftUI17EnvironmentValuesV4fontAA4FontVSgvg
++ _$s7SwiftUI17EnvironmentValuesV4fontAA4FontVSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV4fontAA4FontVSgvs
++ _$s7SwiftUI17EnvironmentValuesV9isEnabledSbvg
++ _$s7SwiftUI17EnvironmentValuesV9isEnabledSbvpMV
++ _$s7SwiftUI17EnvironmentValuesV9isEnabledSbvs
++ _$s7SwiftUI17EnvironmentValuesV9lineLimitSiSgvg
++ _$s7SwiftUI17EnvironmentValuesV9lineLimitSiSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV9lineLimitSiSgvs
++ _$s7SwiftUI17EnvironmentValuesVACycfC
++ _$s7SwiftUI17EnvironmentValuesVMa
++ _$s7SwiftUI17EnvironmentValuesVMn
++ _$s7SwiftUI17EnvironmentValuesVy5ValueQzxmcAA0C3KeyRzluig
++ _$s7SwiftUI17EnvironmentValuesVy5ValueQzxmcAA0C3KeyRzluis
++ _$s7SwiftUI17OpacityTransitionVAA0D0AAMc
++ _$s7SwiftUI17OpacityTransitionVACycfC
++ _$s7SwiftUI17OpacityTransitionVMa
++ _$s7SwiftUI17VerticalAlignmentV6centerACvgZ
++ _$s7SwiftUI18TransitionTraitKeyVMn
++ _$s7SwiftUI18_AnimationModifierVMn
++ _$s7SwiftUI18_AnimationModifierVyxGAA04ViewD0AAMc
++ _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI18_AspectRatioLayoutVMn
++ _$s7SwiftUI18_AspectRatioLayoutVN
++ _$s7SwiftUI19HorizontalAlignmentV6centerACvgZ
++ _$s7SwiftUI19HorizontalAlignmentV7leadingACvgZ
++ _$s7SwiftUI19_BackgroundModifierVyxGAA04ViewD0AAMc
++ _$s7SwiftUI19_ConditionalContentV7StorageOMn
++ _$s7SwiftUI19_ConditionalContentVMn
++ _$s7SwiftUI19_ConditionalContentVyxq_GAA4ViewA2aERzAaER_rlMc
++ _$s7SwiftUI21_ContentShapeModifierVMn
++ _$s7SwiftUI21_ContentShapeModifierVyxGAA04ViewE0AAMc
++ _$s7SwiftUI21_TraitWritingModifierVMn
++ _$s7SwiftUI21_ViewModifier_ContentVMn
++ _$s7SwiftUI21_ViewModifier_ContentVyxGAA0C0AAMc
++ _$s7SwiftUI22HierarchicalShapeStyleV8tertiaryACvgZ
++ _$s7SwiftUI22HierarchicalShapeStyleVMn
++ _$s7SwiftUI22NSHostingSizingOptionsVMa
++ _$s7SwiftUI22NSHostingSizingOptionsVMn
++ _$s7SwiftUI22NSHostingSizingOptionsVs10SetAlgebraAAMc
++ _$s7SwiftUI23_GeometryActionModifierVMn
++ _$s7SwiftUI23_GeometryActionModifierVyxGAA04ViewE0AAMc
++ _$s7SwiftUI24ButtonStyleConfigurationV5LabelVAA4ViewAAMc
++ _$s7SwiftUI24ButtonStyleConfigurationV5LabelVMa
++ _$s7SwiftUI24ButtonStyleConfigurationV5LabelVMn
++ _$s7SwiftUI24ButtonStyleConfigurationV5labelAC5LabelVvg
++ _$s7SwiftUI24ButtonStyleConfigurationV9isPressedSbvg
++ _$s7SwiftUI24_ForegroundStyleModifierVMn
++ _$s7SwiftUI24_ForegroundStyleModifierVyxGAA04ViewE0AAMc
++ _$s7SwiftUI25AnimationTimelineScheduleV15minimumInterval6pausedACSdSg_SbtcfC
++ _$s7SwiftUI25AnimationTimelineScheduleVAA0dE0AAMc
++ _$s7SwiftUI25AnimationTimelineScheduleVMa
++ _$s7SwiftUI25AnimationTimelineScheduleVMn
++ _$s7SwiftUI25_AppearanceActionModifierVAA04ViewE0AAMc
++ _$s7SwiftUI25_AppearanceActionModifierVMn
++ _$s7SwiftUI25_AppearanceActionModifierVN
++ _$s7SwiftUI26AccessibilityChildBehaviorV6ignoreACvgZ
++ _$s7SwiftUI26AccessibilityChildBehaviorV7combineACvgZ
++ _$s7SwiftUI26AccessibilityChildBehaviorV7containACvgZ
++ _$s7SwiftUI26AccessibilityChildBehaviorVMa
++ _$s7SwiftUI27EveryMinuteTimelineScheduleVAA0eF0AAMc
++ _$s7SwiftUI27EveryMinuteTimelineScheduleVACycfC
++ _$s7SwiftUI27EveryMinuteTimelineScheduleVMa
++ _$s7SwiftUI27EveryMinuteTimelineScheduleVMn
++ _$s7SwiftUI28NSHostingSceneRepresentationC04rootD0ACyxGxyXE_tcfc
++ _$s7SwiftUI28NSHostingSceneRepresentationCMn
++ _$s7SwiftUI30_EnvironmentKeyWritingModifierVMn
++ _$s7SwiftUI30_EnvironmentKeyWritingModifierVyxGAA04ViewF0AAMc
++ _$s7SwiftUI31AccessibilityAttachmentModifierVAA04ViewE0AAMc
++ _$s7SwiftUI31AccessibilityAttachmentModifierVMa
++ _$s7SwiftUI31AccessibilityAttachmentModifierVMn
++ _$s7SwiftUI32_EnvironmentKeyTransformModifierVMn
++ _$s7SwiftUI32_EnvironmentKeyTransformModifierVyxGAA04ViewF0AAMc
++ _$s7SwiftUI3LogO013runtimeIssuesC0So9OS_os_logCvgZ
++ _$s7SwiftUI4AxisO3SetV8verticalAEvgZ
++ _$s7SwiftUI4EdgeO3SetV10horizontalAEvgZ
++ _$s7SwiftUI4EdgeO3SetV3topAEvgZ
++ _$s7SwiftUI4EdgeO3SetV6bottomAEvgZ
++ _$s7SwiftUI4EdgeO3SetV7leadingAEvgZ
++ _$s7SwiftUI4EdgeO3SetV8trailingAEvgZ
++ _$s7SwiftUI4FontV6DesignOMa
++ _$s7SwiftUI4FontV6DesignOMn
++ _$s7SwiftUI4FontV6WeightV6mediumAEvgZ
++ _$s7SwiftUI4FontV6WeightV7regularAEvgZ
++ _$s7SwiftUI4FontV6WeightV8semiboldAEvgZ
++ _$s7SwiftUI4FontV6WeightVMn
++ _$s7SwiftUI4FontV6system4size6weight6designAC12CoreGraphics7CGFloatV_AC6WeightVSgAC6DesignOSgtFZ
++ _$s7SwiftUI4FontVMn
++ _$s7SwiftUI4FontVN
++ _$s7SwiftUI4TextV15foregroundStyleyACxAA05ShapeE0RzlF
++ _$s7SwiftUI4TextV15monospacedDigitACyF
++ _$s7SwiftUI4TextV4fontyAcA4FontVSgF
++ _$s7SwiftUI4TextVAA4ViewAAMc
++ _$s7SwiftUI4TextVMn
++ _$s7SwiftUI4TextVN
++ _$s7SwiftUI4TextV_6formatAC11FormatInputQz_xtc10Foundation0E5StyleRzSQAFRQSS0E6OutputRtzlufC
++ _$s7SwiftUI4TextVyACxcSyRzlufC
++ _$s7SwiftUI4ViewP21ElementRegistryClientE21integratedKeyLineTintyQrAA5ColorVSgF
++ _$s7SwiftUI4ViewP21ElementRegistryClientE21integratedKeyLineTintyQrAA5ColorVSgFQOMQ
++ _$s7SwiftUI4ViewP21ElementRegistryClientE29integratedPreferredLayoutModeyQr0dE10Foundation010IntegratediJ3_V1OSgF
++ _$s7SwiftUI4ViewP21ElementRegistryClientE29integratedPreferredLayoutModeyQr0dE10Foundation010IntegratediJ3_V1OSgFQOMQ
++ _$s7SwiftUI4ViewPAAE10fontWeightyQrAA4FontV0E0VSgF
++ _$s7SwiftUI4ViewPAAE10fontWeightyQrAA4FontV0E0VSgFQOMQ
++ _$s7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lF
++ _$s7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA06ButtonE0Rd__lF
++ _$s7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA06ButtonE0Rd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lF
++ _$s7SwiftUI4ViewPAAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE16privacySensitiveyQrSbF
++ _$s7SwiftUI4ViewPAAE16privacySensitiveyQrSbFQOMQ
++ _$s7SwiftUI4ViewPAAE18accessibilityLabelyAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGqd__SyRd__lF
++ _$s7SwiftUI4ViewPAAE19accessibilityHiddenyAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSbF
++ _$s7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tF
++ _$s7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOMQ
++ _$s7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lF
++ _$s7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOMQ
++ _$s7SwiftUI5ColorV5clearACvgZ
++ _$s7SwiftUI5ColorV7opacityyACSdF
++ _$s7SwiftUI5ColorVAA10ShapeStyleAAMc
++ _$s7SwiftUI5ColorVAA4ViewAAMc
++ _$s7SwiftUI5ColorV_5white7opacityA2C13RGBColorSpaceO_S2dtcfC
++ _$s7SwiftUI5GroupVyxGAA4ViewA2aERzlMc
++ _$s7SwiftUI5ImageV02nsC0ACSo7NSImageC_tcfC
++ _$s7SwiftUI5ImageV10systemNameACSS_tcfC
++ _$s7SwiftUI5ImageV12ResizingModeO7stretchyA2EmFWC
++ _$s7SwiftUI5ImageV12ResizingModeOMa
++ _$s7SwiftUI5ImageV9resizable9capInsets12resizingModeAcA04EdgeF0V_AC08ResizingH0OtF
++ _$s7SwiftUI5ImageVAA4ViewAAMc
++ _$s7SwiftUI5ImageVMn
++ _$s7SwiftUI5ImageVN
++ _$s7SwiftUI5ImageV_6bundleACSS_So8NSBundleCSgtcfC
++ _$s7SwiftUI5SceneMp
++ _$s7SwiftUI5SceneP05_makeC05scene6inputsAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVtFZTq
++ _$s7SwiftUI5SceneP4BodyAC_AaBTn
++ _$s7SwiftUI5SceneP4body4BodyQzvgTq
++ _$s7SwiftUI5ScenePAAE05_makeC05scene6inputsAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVtFZ
++ _$s7SwiftUI5StateV12wrappedValuexvg
++ _$s7SwiftUI5StateVMn
++ _$s7SwiftUI6ButtonV6action5labelACyxGyyc_xyXEtcfC
++ _$s7SwiftUI6ButtonVMn
++ _$s7SwiftUI6ButtonVyxGAA4ViewAAMc
++ _$s7SwiftUI6HStackVMn
++ _$s7SwiftUI6HStackVyxGAA4ViewAAMc
++ _$s7SwiftUI6SpacerVMn
++ _$s7SwiftUI6SpringVMa
++ _$s7SwiftUI6VStackVMn
++ _$s7SwiftUI6VStackVyxGAA4ViewAAMc
++ _$s7SwiftUI6_GlassV10forceScrimyACSbF
++ _$s7SwiftUI6_GlassV15excludingShadowyACSbF
++ _$s7SwiftUI6_GlassV7regularACvgZ
++ _$s7SwiftUI6_GlassV8adaptiveyACSbF
++ _$s7SwiftUI6_GlassVMa
++ _$s7SwiftUI7BindingV12wrappedValuexvg
++ _$s7SwiftUI7BindingV12wrappedValuexvs
++ _$s7SwiftUI7BindingV14projectedValueACyxGvg
++ _$s7SwiftUI7BindingVMa
++ _$s7SwiftUI7BindingVMn
++ _$s7SwiftUI7ForEachV7contentyq0_7ElementQzcvs
++ _$s7SwiftUI7ForEachVA2A4ViewR0_rlE_2id7contentACyxq_q0_Gx_s7KeyPathCy7ElementQzq_Gq0_AKctcfC
++ _$s7SwiftUI7ForEachVAAE6create_2id7contentACyxq_q0_Gx_s7KeyPathCy7ElementQzq_Gq0_AKctFZ
++ _$s7SwiftUI7ForEachVMn
++ _$s7SwiftUI8BindableV14projectedValueACyxGvg
++ _$s7SwiftUI8BindableVAARlzClE13dynamicMemberAA7BindingVyqd__Gs24ReferenceWritableKeyPathCyxqd__G_tcluig
++ _$s7SwiftUI8GradientV6colorsACSayAA5ColorVG_tcfC
++ _$s7SwiftUI9AlignmentV3topACvgZ
++ _$s7SwiftUI9AlignmentV7leadingACvgZ
++ _$s7SwiftUI9AlignmentV8trailingACvgZ
++ _$s7SwiftUI9AnimationV6spring8response15dampingFraction13blendDurationACSd_S2dtFZ
++ _$s7SwiftUI9AnimationV6spring_13blendDurationAcA6SpringV_SdtFZ
++ _$s7SwiftUI9AnimationV7defaultACvgZ
++ _$s7SwiftUI9AnimationVMn
++ _$s7SwiftUI9EmptyViewVAA0D0AAMc
++ _$s7SwiftUI9EmptyViewVN
++ _$s7SwiftUI9LazyStateV12wrappedValueACyxGxyXA_tcfC
++ _$s7SwiftUI9LazyStateV12wrappedValuexvg
++ _$s7SwiftUI9LazyStateV12wrappedValuexvs
++ _$s7SwiftUI9LazyStateV7StorageO5valueyAEyx_GxcAGmlFWC
++ _$s7SwiftUI9LazyStateV7StorageOMn
++ _$s7SwiftUI9LazyStateVMa
++ _$s7SwiftUI9LazyStateVMn
++ _$s7SwiftUI9RectangleVMn
++ _$s7SwiftUI9UnitPointV6centerACvgZ
++ _$s7SwiftUI9UnitPointV7leadingACvgZ
++ _$s7SwiftUI9UnitPointV8trailingACvgZ
++ _$s8Dispatch0A12TimeIntervalO7secondsyACSicACmFWC
++ _$s8Dispatch0A12TimeIntervalOMa
++ _$s8Dispatch0A13TimeoutResultO2eeoiySbAC_ACtFZ
++ _$s8Dispatch0A4TimeV3nowACyFZ
++ _$s8Dispatch0A4TimeVMa
++ _$s8Dispatch1poiyAA0A4TimeVAD_AA0aB8IntervalOtF
++ _$s8Dispatch1poiyAA0A4TimeVAD_SdtF
++ _$sBbWV
++ _$sBi32_WV
++ _$sBi64_WV
++ _$sSD6ValuesVMn
++ _$sSD6valuesSD6ValuesVyxq__Gvg
++ _$sSD6valuesSD6ValuesVyxq__GvpMV
++ _$sSE6encode2toys7Encoder_p_tKFTq
++ _$sSEMp
++ _$sSH13_rawHashValue4seedS2i_tFTj
++ _$sSJ12isWhitespaceSbvg
++ _$sSQ2eeoiySbx_xtFZTj
++ _$sSS10FoundationE25localizedStringWithFormatyS2S_s7CVarArg_pdtFZ
++ _$sSS10FoundationE6format_S2Sh_s7CVarArg_pdtcfC
++ _$sSS10describingSSx_tclufC
++ _$sSS14_fromSubstringySSSshFZ
++ _$sSS17UnicodeScalarViewV6appendyys0A0O0B0VF
++ _$sSS18_fromUTF8RepairingySS6result_Sb11repairsMadetSRys5UInt8VGFZ
++ _$sSS5countSivg
++ _$sSS5index5afterSS5IndexVAD_tF
++ _$sSS5index_8offsetBy07limitedC0SS5IndexVSgAE_SiAEtF
++ _$sSS6appendyySSF
++ _$sSS7cStringSSSPys4Int8VG_tcfC
++ _$sSS8UTF8ViewV13_foreignCountSiyF
++ _$sSSN
++ _$sSSSysMc
++ _$sSSs7CVarArg10FoundationMc
++ _$sSSySJSS5IndexVcig
++ _$sSSySsSnySS5IndexVGcig
++ _$sSTsSy7ElementRpzrlE6joined9separatorS2S_tF
++ _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyFyXl_Ts5
++ _$sSa16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyXl_Ts5
++ _$sSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZ
++ _$sSa37_appendElementAssumeUniqueAndCapacity_03newB0ySi_xntFyXl_Ts5
++ _$sSaMa
++ _$sSayxGSEsSERzlMc
++ _$sSayxGSesSeRzlMc
++ _$sSayxGSksMc
++ _$sSayxGSlsMc
++ _$sSbN
++ _$sSbSQsWP
++ _$sScI4next7ElementQzSgyYaKFTj
++ _$sScI4next7ElementQzSgyYaKFTjTu
++ _$sScTss5NeverORs_rlE5valuexvg
++ _$sScTss5NeverORs_rlE5valuexvgTu
++ _$sSe4fromxs7Decoder_p_tKcfCTq
++ _$sSeMp
++ _$sSh15minimumCapacityShyxGSi_tcfC
++ _$sSiN
++ _$sSiSQsWP
++ _$sSiSzsMc
++ _$sSis7CVarArgsWP
++ _$sSo13NSApplicationC7SwiftUIE22addSceneRepresentationyyAC09NSHostingeF0CyxGAC0E0RzlF
++ _$sSo13os_log_type_ta0A0E4infoABvgZ
++ _$sSo13os_log_type_ta0A0E5debugABvgZ
++ _$sSo13os_log_type_ta0A0E5errorABvgZ
++ _$sSo13os_log_type_ta0A0E5faultABvgZ
++ _$sSo13os_log_type_ta0A0E7defaultABvgZ
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMa
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMn
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVs10SetAlgebraACMc
++ _$sSo17OS_dispatch_queueC8DispatchE10asyncAfter8deadline3qos5flags7executeyAC0D4TimeV_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
++ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO7inherityA2EmFWC
++ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa
++ _$sSo17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC
++ _$sSo21OS_dispatch_semaphoreC8DispatchE4wait7timeoutAC0D13TimeoutResultOAC0D4TimeV_tF
++ _$sSo21OS_dispatch_semaphoreC8DispatchE6signalSiyF
++ _$sSsN
++ _$sSsSysMc
++ _$sSy10FoundationE24localizedStandardCompareySo18NSComparisonResultVqd__SyRd__lF
++ _$sSy10FoundationE37precomposedStringWithCanonicalMappingSSvg
++ _$ss018_bridgeAnyObjectToB0yypyXlSgF
++ _$ss042_stdlib_isOSVersionAtLeastOrVariantVersiondE0yBi1_Bw_BwBwBwBwBwtF
++ _$ss10_HashTableV11startBucketAB0D0Vvg
++ _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF
++ _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
++ _$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ
++ _$ss11_SetStorageC8allocate8capacityAByxGSi_tFZ
++ _$ss11_SetStorageCMn
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss11_StringGutsV27foreignErrorCorrectedScalar10startingAts7UnicodeO0F0V_Si12scalarLengthtSS5IndexV_tF
++ _$ss11_StringGutsV4growyySiF
++ _$ss11_StringGutsVN
++ _$ss12IdentifiableMp
++ _$ss12IdentifiableP2IDAB_SHTn
++ _$ss12IdentifiableP2id2IDQzvgTq
++ _$ss12StaticStringV11descriptionSSvg
++ _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
++ _$ss15ContiguousArrayV28_allocateBufferUninitialized15minimumCapacitys01_abD0VyxGSi_tFZ
++ _$ss15ContinuousClockV7InstantVMa
++ _$ss15ContinuousClockV7InstantVs0C8ProtocolsMc
++ _$ss15ContinuousClockVMa
++ _$ss15ContinuousClockVs0B0sMc
++ _$ss15InstantProtocolP8advanced2byx8DurationQz_tFTj
++ _$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ
++ _$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ
++ _$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ
++ _$ss18_DictionaryStorageCMn
++ _$ss20__StaticArrayStorageCN
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySSSgSSm_xtKF
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeyqd__Sgqd__m_xtKSeRd__lF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyS2Sm_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyS2bm_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyS2dm_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyS2im_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyS2um_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyqd__qd__m_xtKSeRd__lF
++ _$ss22KeyedDecodingContainerV6decode_6forKeys5Int32VAFm_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeys6UInt64VAFm_xtKF
++ _$ss22KeyedDecodingContainerVMn
++ _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySSSg_xtKF
++ _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyyqd__Sg_xtKSERd__lF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySS_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySb_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySd_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySi_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySu_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyyqd___xtKSERd__lF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyys5Int32V_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyys6UInt64V_xtKF
++ _$ss22KeyedEncodingContainerVMn
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXl_Ts5
++ _$ss22_minimumMergeRunLengthyS2iF
++ _$ss23CustomStringConvertibleMp
++ _$ss23CustomStringConvertibleP11descriptionSSvgTj
++ _$ss23CustomStringConvertibleP11descriptionSSvgTq
++ _$ss27_bridgeAnythingToObjectiveCyyXlxlF
++ _$ss28CustomDebugStringConvertibleMp
++ _$ss28CustomDebugStringConvertibleP16debugDescriptionSSvgTq
++ _$ss32_diagnoseUnexpectedEnumCaseValue4type03rawE0s5NeverOxm_q_tr0_lF
++ _$ss4Int8VN
++ _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _$ss5ClockP3now7InstantQzvgTj
++ _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTj
++ _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTjTu
++ _$ss5ClockPss010ContinuousA0VRszrlE10continuousADvgZ
++ _$ss5Int32VMn
++ _$ss5Int32VN
++ _$ss5Int32Vs23CustomStringConvertiblesWP
++ _$ss5UInt8VMn
++ _$ss6HasherV5_hash4seed_S2i_s6UInt64VtFZ
++ _$ss6HasherV8_combineyySuF
++ _$ss6UInt32VMn
++ _$ss6UInt32VSEsWP
++ _$ss6UInt32VSesWP
++ _$ss6UInt64VMn
++ _$ss6UInt64VN
++ _$ss6UInt64VSHsWP
++ _$ss7CVarArgMp
++ _$ss7DecoderP9container7keyedBys22KeyedDecodingContainerVyqd__Gqd__m_tKs9CodingKeyRd__lFTj
++ _$ss7EncoderP9container7keyedBys22KeyedEncodingContainerVyqd__Gqd__m_ts9CodingKeyRd__lFTj
++ _$ss7UnicodeO15GeneralCategoryO10privateUseyA2DmFWC
++ _$ss7UnicodeO15GeneralCategoryO10unassignedyA2DmFWC
++ _$ss7UnicodeO15GeneralCategoryO11spacingMarkyA2DmFWC
++ _$ss7UnicodeO15GeneralCategoryO13enclosingMarkyA2DmFWC
++ _$ss7UnicodeO15GeneralCategoryO13lineSeparatoryA2DmFWC
++ _$ss7UnicodeO15GeneralCategoryO14nonspacingMarkyA2DmFWC
++ _$ss7UnicodeO15GeneralCategoryO18paragraphSeparatoryA2DmFWC
++ _$ss7UnicodeO15GeneralCategoryO2eeoiySbAD_ADtFZ
++ _$ss7UnicodeO15GeneralCategoryO6formatyA2DmFWC
++ _$ss7UnicodeO15GeneralCategoryO7controlyA2DmFWC
++ _$ss7UnicodeO15GeneralCategoryO9surrogateyA2DmFWC
++ _$ss7UnicodeO15GeneralCategoryOMa
++ _$ss7UnicodeO6ScalarV10PropertiesV15generalCategoryAB07GeneralE0Ovg
++ _$ss7UnicodeO6ScalarV10PropertiesV27isDefaultIgnorableCodePointSbvg
++ _$ss7UnicodeO6ScalarV10PropertiesVMa
++ _$ss7UnicodeO6ScalarV10propertiesAD10PropertiesVvg
++ _$ss8DurationV7secondsyABSdFZ
++ _$ss9CodingKeyMp
++ _$ss9CodingKeyP11stringValueSSvgTq
++ _$ss9CodingKeyP11stringValuexSgSS_tcfCTq
++ _$ss9CodingKeyP8intValueSiSgvgTq
++ _$ss9CodingKeyP8intValuexSgSi_tcfCTq
++ _$ss9CodingKeyPs23CustomStringConvertibleTb
++ _$ss9CodingKeyPs28CustomDebugStringConvertibleTb
++ _$ss9CodingKeyPsE11descriptionSSvg
++ _$ss9CodingKeyPsE16debugDescriptionSSvg
++ _$ss9_typeName_9qualifiedSSypXp_SbtF
++ _$sxSg7SwiftUI4ViewA2bCRzlMc
++ _$syycWV
++ _CFBundleCopyInfoDictionaryForURL
++ _CFErrorGetCode
++ _CFErrorGetDomain
++ _CGGetEventTapList
++ _CGRectContainsPoint
++ _NSFontWeightMedium
++ _NSRunLoopCommonModes
++ _OBJC_CLASS_$_NSAppleEventManager
++ _OBJC_CLASS_$_NSApplication
++ _OBJC_CLASS_$_NSDateFormatter
++ _OBJC_CLASS_$_NSEvent
++ _OBJC_CLASS_$_NSFileManager
++ _OBJC_CLASS_$_NSImageSymbolConfiguration
++ _OBJC_CLASS_$_NSJSONSerialization
++ _OBJC_CLASS_$_NSMutableOrderedSet
++ _OBJC_CLASS_$_NSRelativeDateTimeFormatter
++ _OBJC_CLASS_$_NSRunLoop
++ _OBJC_CLASS_$_NSSortDescriptor
++ _TCCAccessCheckAuditToken
++ __CFBundleCopyBundleURLForExecutableURL
++ ___NSArray0__struct
++ __swiftEmptyDictionarySingleton
++ __swiftEmptySetSingleton
++ __swiftImmortalRefCount
++ __xpc_event_key_name
++ __xpc_type_array
++ __xpc_type_string
++ __xpc_type_uint64
++ _audit_token_to_pidversion
++ _bzero
++ _clock_gettime_nsec_np
++ _dispatch_block_cancel
++ _dispatch_block_create
++ _dlsym
++ _fmod
++ _getaudit_addr
++ _getpid
++ _kCFBundleNameKey
++ _kTCCServiceAccessibility
++ _kTCCServiceListenEvent
++ _kTCCServicePostEvent
++ _mach_port_deallocate
++ _mach_task_self_
++ _malloc_size
++ _memcpy
++ _memmove
++ _notify_cancel
++ _notify_register_dispatch
++ _proc_pidpath
++ _responsibility_get_attribution_for_audittoken
++ _responsibility_identity_get_binary_path
++ _responsibility_identity_get_binary_signing_id
++ _responsibility_identity_get_binary_team_id
++ _responsibility_identity_release
++ _strnlen
++ _swift_arrayDestroy
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_bridgeObjectRelease_n
++ _swift_bridgeObjectRetain_n
++ _swift_cvw_enumFn_getEnumTag
++ _swift_dynamicCastObjCProtocolConditional
++ _swift_errorRetain
++ _swift_getAtKeyPath
++ _swift_getEnumCaseMultiPayload
++ _swift_getFunctionTypeMetadata0
++ _swift_initStackObject
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_once
++ _swift_release_n
++ _swift_retain_n
++ _swift_setDeallocating
++ _swift_slowAlloc
++ _swift_slowDealloc
++ _swift_storeEnumTagMultiPayload
++ _swift_task_getMainExecutor
++ _swift_task_isCurrentExecutor
++ _swift_unknownObjectWeakAssign
++ _swift_weakDestroy
++ _swift_weakInit
++ _swift_weakLoadStrong
++ _swift_willThrowTypedImpl
++ _sysctlbyname
++ _task_info
++ _task_name_for_pid
++ _tcc_authorization_check_audit_token_with_indirect_object
++ _tcc_authorization_record_get_indirect_object
++ _tcc_credential_create_for_process_with_audit_token
++ _tcc_indirect_object_get_indirect_object_identifier
++ _tcc_message_options_create
++ _tcc_message_options_set_reply_handler_policy
++ _tcc_message_options_set_request_prompt_policy
++ _tcc_server_create
++ _tcc_service_singleton_for_CF_name
++ _vproc_swap_string
++ _xpc_array_apply
++ _xpc_array_get_count
++ _xpc_array_get_string
++ _xpc_dictionary_get_count
++ _xpc_dictionary_get_data
++ _xpc_dictionary_get_value
++ _xpc_dictionary_set_data
++ _xpc_set_event_stream_handler
++ _xpc_string_get_string_ptr
++ _xpc_uint64_get_value
+- _xpc_connection_send_barrier
+CStrings:
++ " hasTeam"
++ " platform"
++ " synthetic"
++ "%@|%@"
++ "%@|%@|%@"
++ "%d.%d"
++ "%llu|%@"
++ "%{public}@ | team=%{private}@"
++ "(null)"
++ "<%@ %@%@%@%@>"
++ "?"
++ "@\"<XVSDisplayInUseCancellable>\""
++ "@\"<XVSDisplayInUseCancellable>\"32@0:8d16@?<v@?>24"
++ "@\"<XVSDisplayInUseControllerDelegate>\""
++ "@\"<XVSDisplayInUseEnvironment>\""
++ "@\"<XVSDisplayInUsePresenting>\""
++ "@\"NSArray\"8@?0"
++ "@\"NSEvent\"16@?0@\"NSEvent\"8"
++ "@\"NSMutableOrderedSet\""
++ "@\"XVSDisplayInUseController\""
++ "@\"XVSDisplayInUseHistoryClearer\""
++ "@\"XVSDisplayInUseModule\""
++ "@\"XVSDisplayInUseProcess\""
++ "@\"XVSDisplayInUseRateLimiter\""
++ "@\"XVSDisplayInUseSavedProcess\""
++ "@\"XVSDisplayInUseState\""
++ "@\"XVSDisplayInUseStateManager\""
++ "@\"XVSDisplayInUseSystemEnvironment\""
++ "@\"_TtC20AXVisualSupportAgent18XVSEventTapMonitor\""
++ "@100@0:8{?=[8I]}16@48@56@64@72B80@84@92"
++ "@32@0:8@16@?24"
++ "@32@0:8@16q24"
++ "@36@0:8q16@24B32"
++ "@40@0:8d16Q24Q32"
++ "@44@0:8B16@20@28@?36"
++ "@48@0:8Q16@24d32d40"
++ "@48@0:8{?=[8I]}16"
++ "@56@0:8{?=[8I]}16r^{?=[8I]}48"
++ "@64@0:8@16Q24d32d40@48@56"
++ "@64@0:8{?=[8I]}16r^{?=[8I]}48@56"
++ "@68@0:8{?=[8I]}16I48r^{?=[8I]}52^B60"
++ "@68@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16Q48Q56B64"
++ "@80@0:8{?=[8I]}16{?=[8I]}48"
++ "@84@0:8{?=[8I]}16@48@56@64@72B80"
++ "@92@0:8{?=[8I]}16@48@56@64@72B80@84"
++ "@?<v@?>16@0:8"
++ "AXPerAppTargetAttribution"
++ "AXPerAppTargetResolution"
++ "AXVisualSupportAgent.AXPerAppTargetAttribution"
++ "AXVisualSupportAgent.AXPerAppTargetResolution"
++ "AXVisualSupportAgent.XVSDisplayInUseHistoryClearer"
++ "AXVisualSupportAgent.XVSDisplayInUseHoldBackstop"
++ "AXVisualSupportAgent.XVSDisplayInUseMenuExtraPanel"
++ "AXVisualSupportAgent.XVSDisplayInUsePresenter"
++ "AXVisualSupportAgent.XVSDisplayInUseSavedActivity"
++ "AXVisualSupportAgent.XVSDisplayInUseSavedClient"
++ "AXVisualSupportAgent.XVSDisplayInUseSavedProcess"
++ "AXVisualSupportAgent.XVSDisplayInUseSavedTap"
++ "AXVisualSupportAgent.XVSDisplayInUseTargetAttribution"
++ "AXVisualSupportAgent/XVSDisplayInUseMenuExtraPanel.swift"
++ "AXVisualSupportAgent/XVSEventTapMonitor.swift"
++ "AX_PER_APP_PERMISSIONS"
++ "AX_TRANSPARENCY_INDICATOR"
++ "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
++ "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
++ "Activity was ended outside the agent"
++ "Added the menu extra"
++ "Agent list now has %{public}ld agents"
++ "Agent list unchanged at %{public}ld agents"
++ "Aqua"
++ "B24@0:8@\"XVSDisplayInUseProcess\"16"
++ "B24@?0Q8@\"NSObject<OS_xpc_object>\"16"
++ "B28@0:8^{?=[8I]}16i24"
++ "B48@0:8{?=[8I]}16"
++ "B52@0:8{?=[8I]}16B48"
++ "B56@0:8Q16{?=[8I]}24"
++ "B56@0:8{?=[8I]}16r*48"
++ "B64@0:8{?=[8I]}16@48@56"
++ "B64@0:8{?=[8I]}16r*48r*56"
++ "B72@0:8{?=[8I]}16r^{?=[8I]}48^@56^@64"
++ "B8@?0"
++ "Bundle identifier doesn't match the signing identifier; using the executable path as the TCC subject"
++ "CFBundleDisplayName"
++ "Cleared the usage history: %{public}ld pairs"
++ "Clearing the usage history: %{public}s"
++ "Client %{public}@ ended an event tap"
++ "Client %{public}@ started an event tap"
++ "CollapseIntegratedExpansionAction"
++ "Couldn't bring an app to the front"
++ "Couldn't create the TCC objects for the attribution request"
++ "Couldn't open System & App Protection Override in System Settings"
++ "Couldn't read the event tap list; keeping the last one"
++ "Couldn't save the state"
++ "Couldn't watch Accessibility TCC changes (%u); not caching global approval"
++ "Couldn't watch per-app TCC changes (%{public}u); not caching per-app checks"
++ "Discarded the saved state: reason=%{public}s"
++ "DisplayInUseAlertHistory"
++ "DisplayInUseLiveActivity"
++ "DisplayInUseMenuExtra"
++ "DisplayInUsePresentation"
++ "DisplayInUseShield"
++ "DisplayInUseState"
++ "Dropped event report: %{public}@ is no longer running"
++ "Dropped event tap report: the owner has no input access"
++ "Dropped report: %{public}@ is no longer running"
++ "Dropped report: not from the HIServices relay"
++ "Ended activity"
++ "Ending a leftover activity"
++ "Ignored an unconfirmed %{public}s notification"
++ "Incorrect actor executor assumption; Expected same executor as "
++ "Injecting a synthetic client with %lu targets"
++ "Live Activities are turned %{public}s for the agent"
++ "Live Activities are turned off for the agent"
++ "Live Activity request failed: %{public}s"
++ "No boot or login session; state won't be saved"
++ "Not bringing an app to the front: it is no longer running"
++ "Nothing to save; removed the saved state"
++ "OS_tcc_authorization_record"
++ "OS_tcc_indirect_object"
++ "OS_tcc_object"
++ "Opening System & App Protection Override in System Settings"
++ "Opening the agent list"
++ "Q32@0:8@\"XVSDisplayInUseProcess\"16@\"XVSDisplayInUseProcess\"24"
++ "Recording synthetic usage last %.0f s ago"
++ "Removed the menu extra"
++ "Removing the legacy alert history"
++ "Requested activity"
++ "Restored %lu of %lu saved clients"
++ "Restored %{public}ld of %{public}ld usage pairs; %{public}ld clients to re-validate"
++ "Saved %{public}ld clients, %{public}ld usage pairs"
++ "Saved state is %{public}ld bytes; keeping the %{public}ld most recent usage pairs"
++ "Session unavailable, clearing the listed clients"
++ "Showing %{public}s (reason: %{public}s)"
++ "T@\"<XVSDisplayInUseCancellable>\",&,N,V_expiryTimer"
++ "T@\"<XVSDisplayInUseControllerDelegate>\",W,N,V_delegate"
++ "T@\"<XVSDisplayInUseEnvironment>\",&,N,V_environment"
++ "T@\"<XVSDisplayInUsePresenting>\",&,N,V_presenter"
++ "T@\"<_TtP20AXVisualSupportAgent26XVSEventTapMonitorDelegate_>\",N,W,Vdelegate"
++ "T@\"AXPerAppTargetAttribution\",N,&"
++ "T@\"NSArray\",C,N,V_activities"
++ "T@\"NSArray\",C,N,V_clients"
++ "T@\"NSArray\",C,N,V_targets"
++ "T@\"NSArray\",N,R"
++ "T@\"NSArray\",R,C,N"
++ "T@\"NSArray\",R,C,N,V_groups"
++ "T@\"NSMutableArray\",&,N,V_entries"
++ "T@\"NSMutableDictionary\",&,N,V_exemptionsByKey"
++ "T@\"NSMutableDictionary\",&,N,V_globalApprovalsByInstanceKey"
++ "T@\"NSMutableDictionary\",&,N,V_localTaps"
++ "T@\"NSMutableDictionary\",&,N,V_loggedGlobalApprovalsByInstanceKey"
++ "T@\"NSMutableDictionary\",&,N,V_processesByInstanceKey"
++ "T@\"NSMutableDictionary\",&,N,V_taps"
++ "T@\"NSMutableDictionary\",&,N,V_timedActivities"
++ "T@\"NSMutableDictionary\",&,N,V_windowServerTapChecks"
++ "T@\"NSMutableOrderedSet\",&,N,V_processInstanceKeysByUse"
++ "T@\"NSMutableSet\",&,N,V_loggedAcceptances"
++ "T@\"NSString\",C,N,V_attributionToken"
++ "T@\"NSString\",C,N,V_displayName"
++ "T@\"NSString\",C,N,V_identityKey"
++ "T@\"NSString\",N,R"
++ "T@\"NSString\",R,C,N,V_bundlePath"
++ "T@\"NSString\",R,C,N,V_displayName"
++ "T@\"NSString\",R,C,N,V_identityKey"
++ "T@\"NSString\",R,C,N,V_instanceKey"
++ "T@\"NSString\",R,C,N,V_responsibleIdentityKey"
++ "T@\"NSString\",R,C,N,V_teamIdentifier"
++ "T@\"NSString\",R,C,N,V_viaDisplayName"
++ "T@\"NSURL\",N,R"
++ "T@\"XVSDisplayInUseController\",&,N,V_controller"
++ "T@\"XVSDisplayInUseHistoryClearer\",&,N,V_historyClearer"
++ "T@\"XVSDisplayInUseModule\",&,N,V__displayInUseModule"
++ "T@\"XVSDisplayInUsePerAppTCC\",N,R"
++ "T@\"XVSDisplayInUseProcess\",&,N,V_client"
++ "T@\"XVSDisplayInUseProcess\",&,N,V_target"
++ "T@\"XVSDisplayInUseRateLimiter\",&,N,V_eventSenderLimiter"
++ "T@\"XVSDisplayInUseRateLimiter\",&,N,V_eventTotalLimiter"
++ "T@\"XVSDisplayInUseRateLimiter\",&,N,V_rejectionLogLimiter"
++ "T@\"XVSDisplayInUseRateLimiter\",&,N,V_reportSenderLimiter"
++ "T@\"XVSDisplayInUseRateLimiter\",&,N,V_reportTotalLimiter"
++ "T@\"XVSDisplayInUseRateLimiter\",&,N,V_reporterLimiter"
++ "T@\"XVSDisplayInUseSavedProcess\",N,R,Vclient"
++ "T@\"XVSDisplayInUseSavedProcess\",N,R,Vtarget"
++ "T@\"XVSDisplayInUseState\",&,N,V_state"
++ "T@\"XVSDisplayInUseStateManager\",&,N,V_stateManager"
++ "T@\"XVSDisplayInUseSystemEnvironment\",&,N,V_environment"
++ "T@\"_TtC20AXVisualSupportAgent18XVSEventTapMonitor\",&,N,V_eventTapMonitor"
++ "T@?,C,N,V_block"
++ "T@?,C,N,V_liveStateChangedHandler"
++ "T@?,C,N,V_sessionAvailabilityProvider"
++ "T@?,N,C"
++ "TB,N,GisSynthetic,V_synthetic"
++ "TB,N,R"
++ "TB,N,R,VallApps"
++ "TB,N,R,VisCacheable"
++ "TB,N,R,VusesResponsibleIdentity"
++ "TB,N,V_allApps"
++ "TB,N,V_approved"
++ "TB,N,V_eligible"
++ "TB,N,V_hadLiveState"
++ "TB,N,V_ownerHasInputAccess"
++ "TB,R,N,GisPlatformBinary,V_platformBinary"
++ "TB,R,N,GisSynthetic,V_synthetic"
++ "TB,R,N,GisVisible,V_visible"
++ "TCC"
++ "TCC didn't answer the attribution request in time"
++ "TCC's attribution record had no indirect object"
++ "TCC's attribution reply carried an error: %{public}s %{public}ld"
++ "TCC's attribution reply had no record"
++ "TQ,N,R,Vapproval"
++ "TQ,N,R,Videntifier"
++ "TQ,N,V_approval"
++ "Td,N,R"
++ "Td,N,R,VaddedTime"
++ "Td,N,R,VlastAssertedTime"
++ "Td,N,R,VlastTimedActivityTime"
++ "Td,N,R,VstartedTime"
++ "Td,N,V_addedTime"
++ "Td,N,V_assertedTime"
++ "Td,N,V_checkedTime"
++ "Td,N,V_firstSeenTime"
++ "Td,N,V_lastAssertedTime"
++ "Td,N,V_lastTimedActivityTime"
++ "Td,N,V_startedTime"
++ "Ti,N,V_accessibilityChangedToken"
++ "Ti,N,V_ownerPid"
++ "Ti,R,N,V_pid"
++ "Tq,N,R"
++ "Tq,N,R,Vkind"
++ "Tq,N,R,Vresult"
++ "Tq,R,N,V_kind"
++ "T{?=[8I]},N,V_ownerToken"
++ "T{?=[8I]},R,N,V_auditToken"
++ "Usage history %{public}s"
++ "XVSAppDelegate: launch event %{public}s"
++ "XVSAppDelegate: quitting for loginwindow"
++ "XVSAppDelegate: refusing a Quit Apple Event from pid %d while Display In Use has live state"
++ "XVSAppDelegate: rejecting %{public}s from pid %d"
++ "XVSAppDelegate: relayed shield.report without a valid reporterAuditToken"
++ "XVSAppDelegate: shield.events with an invalid targetAuditToken"
++ "XVSAppDelegate: shield.events with an unknown event or no tapIdentifier"
++ "XVSAppDelegate: shield.events with an unsupported version"
++ "XVSAppDelegate: shield.events without a valid event or clientAuditToken"
++ "XVSAppDelegate: shield.report without a valid clientAuditToken"
++ "XVSDisplayInUseActivity"
++ "XVSDisplayInUseCancellable"
++ "XVSDisplayInUseClientGroup"
++ "XVSDisplayInUseController"
++ "XVSDisplayInUseControllerDelegate"
++ "XVSDisplayInUseDisplayName"
++ "XVSDisplayInUseEnvironment"
++ "XVSDisplayInUseHistoryClearer"
++ "XVSDisplayInUseLegacyPreferences"
++ "XVSDisplayInUseModule"
++ "XVSDisplayInUsePerAppTCC"
++ "XVSDisplayInUsePresenter"
++ "XVSDisplayInUsePresenting"
++ "XVSDisplayInUseProcess"
++ "XVSDisplayInUseRateLimiter"
++ "XVSDisplayInUseSavedActivity"
++ "XVSDisplayInUseSavedClient"
++ "XVSDisplayInUseSavedProcess"
++ "XVSDisplayInUseSavedTap"
++ "XVSDisplayInUseState"
++ "XVSDisplayInUseStateManager"
++ "XVSDisplayInUseSystemEnvironment"
++ "XVSDisplayInUseTargetAttribution"
++ "XVSPerAppPermissionsFeature"
++ "XVSTransparencyIndicatorFeature"
++ "_TtC20AXVisualSupportAgent18XVSEventTapMonitor"
++ "_TtC20AXVisualSupportAgent24XVSDisplayInUseUsageText"
++ "_TtC20AXVisualSupportAgent27XVSDisplayInUseUsageHistory"
++ "_TtC20AXVisualSupportAgent28XVSDisplayInUseAgentListFeed"
++ "_TtC20AXVisualSupportAgent28XVSDisplayInUseMenuExtraItem"
++ "_TtC20AXVisualSupportAgent29XVSDisplayInUseAgentListModel"
++ "_TtC20AXVisualSupportAgent29XVSDisplayInUseMenuExtraPanel"
++ "_TtC20AXVisualSupportAgent31XVSDisplayInUsePresentationHold"
++ "_TtC20AXVisualSupportAgent33XVSDisplayInUseMenuExtraPresenter"
++ "_TtC20AXVisualSupportAgent36XVSDisplayInUseLiveActivityPresenter"
++ "_TtC20AXVisualSupportAgent37XVSDisplayInUseUserDefaultsStateStore"
++ "_TtC20AXVisualSupportAgentP33_617208556E3660430D1DD0CBAF82CBF616AXTCCRecordReply"
++ "_TtC20AXVisualSupportAgentP33_ADDDA8C80DD3718DDE94CECCD33E737027XVSDisplayInUseHoldBackstop"
++ "_TtP20AXVisualSupportAgent26XVSEventTapMonitorDelegate_"
++ "_XVSDisplayInUseCachedApproval"
++ "_XVSDisplayInUseClientEntry"
++ "_XVSDisplayInUseDispatchTimer"
++ "_XVSDisplayInUseEventTap"
++ "_XVSLocalTap"
++ "_XVSWindowServerTapCheck"
++ "__displayInUseModule"
++ "_accessibilityChangedToken"
++ "_activities"
++ "_activityLogTokenForEntry:"
++ "_addEntryForClient:"
++ "_addedTime"
++ "_admitEventReportFromClientToken:"
++ "_admitFromSender:senderLimiter:totalLimiter:"
++ "_allApps"
++ "_approval"
++ "_approved"
++ "_assertedTime"
++ "_attributionToken"
++ "_auditToken"
++ "_block"
++ "_bundlePath"
++ "_checkedTime"
++ "_client"
++ "_clientEntryExpired:"
++ "_clients"
++ "_controller"
++ "_debugActivities:"
++ "_displayInUseModule"
++ "_displayName"
++ "_eligible"
++ "_endEventTap:clientInstanceKey:"
++ "_entries"
++ "_entry:forEventReportFromClient:target:kind:"
++ "_entryForClient:"
++ "_entryRestoredFromSavedClient:"
++ "_environment"
++ "_eventSenderLimiter"
++ "_eventTapMonitor"
++ "_eventTotalLimiter"
++ "_exemptionsByKey"
++ "_expiryTimer"
++ "_firstSeenTime"
++ "_globalApprovalsByInstanceKey"
++ "_groups"
++ "_hadLiveState"
++ "_handleShieldCommand:event:"
++ "_handleShieldDebugInject:module:"
++ "_handleShieldDebugState:module:"
++ "_handleShieldEvents:module:"
++ "_handleShieldReport:module:"
++ "_hasEligibleLocalTaps"
++ "_hasGlobalApproval:"
++ "_historyClearer"
++ "_identityKey"
++ "_initializeLaunchEvents"
++ "_instanceKey"
++ "_isAuditToken:exemptForServices:cacheKind:"
++ "_kind"
++ "_lastAssertedTime"
++ "_lastTimedActivityTime"
++ "_list"
++ "_listEventTap:startedByClientToken:targetToken:"
++ "_liveStateChangedHandler"
++ "_localTaps"
++ "_logEntry:result:reporter:activity:"
++ "_logResult:client:reporter:approval:activity:"
++ "_loggedAcceptances"
++ "_loggedGlobalApprovalsByInstanceKey"
++ "_maximumKeys"
++ "_maximumPerKey"
++ "_mergeTargets:allApps:ofKind:into:"
++ "_nextExpiryForEntry:"
++ "_notifyActivity:byClient:target:"
++ "_notifyIfLiveStateChanged"
++ "_openAgent"
++ "_ownerHasInputAccess"
++ "_ownerPid"
++ "_ownerToken"
++ "_pid"
++ "_platformBinary"
++ "_presenter"
++ "_process:isInArray:"
++ "_processForAuditToken:targetOfClient:"
++ "_processInstanceKeysByUse"
++ "_processes:addingUniqueIdentities:"
++ "_processesByInstanceKey"
++ "_pruneWindowServerTapChecksAt:"
++ "_recordTimedActivity:target:forEntry:"
++ "_rejectionLogLimiter"
++ "_removeAllEntries"
++ "_removeEntries:"
++ "_removeLeastRecentlyUsedKey"
++ "_reportSenderLimiter"
++ "_reportTotalLimiter"
++ "_reporterLimiter"
++ "_resolveEventReportClientToken:targetToken:client:target:"
++ "_resolveProcessForAuditToken:codeSigningFlags:targetOfClient:cacheable:"
++ "_responsibleIdentityKey"
++ "_scheduleExpiryForEntry:"
++ "_sessionAvailabilityProvider"
++ "_sessionBecameUnavailable:"
++ "_sessionMayHaveBecomeAvailable"
++ "_startAutoTerminationTimerWithTimeout:"
++ "_startedTime"
++ "_stateManager"
++ "_synthetic"
++ "_taps"
++ "_target"
++ "_targets"
++ "_teamIdentifier"
++ "_timedActivities"
++ "_timesByKey"
++ "_updateState"
++ "_validateEventReportFromClient:"
++ "_validateListableClient:exempt:"
++ "_validateReportFromReporter:client:approval:"
++ "_validateReporter:client:approval:"
++ "_viaDisplayName"
++ "_visible"
++ "_window"
++ "_windowServerTap:ownerHasInputAccess:"
++ "_windowServerTapCheckKey:clientInstanceKey:"
++ "_windowServerTapChecks"
++ "accepted"
++ "accessibility"
++ "accessibilityChangedToken"
++ "activateWithOptions:"
++ "activities"
++ "activity"
++ "activityOfKind:"
++ "activityStateTask"
++ "addGlobalMonitorForEventsMatchingMask:handler:"
++ "addLocalMonitorForEventsMatchingMask:handler:"
++ "addTimer:forMode:"
++ "added"
++ "addedTime"
++ "admitKey:now:"
++ "all"
++ "allApps"
++ "anchor"
++ "approval"
++ "approvalCache"
++ "approvalForClient:reporter:"
++ "approved"
++ "arrayByAddingObject:"
++ "assertedTime"
++ "attributeDescriptorForKeyword:"
++ "attributionToken"
++ "attributionWithPerAppPermissionsEnabled:ownPath:responsiblePath:resolve:"
++ "auditToken"
++ "authorizationTask"
++ "autonomous-control"
++ "availabilityChangedHandler"
++ "backstop"
++ "block"
++ "bundle:"
++ "bundlePath"
++ "bundleURL"
++ "bundleWithURL:"
++ "bytes"
++ "cache"
++ "cachesApprovals"
++ "calendar"
++ "canBecomeKeyWindow"
++ "cancelOperation:"
++ "changeToken"
++ "checkedTime"
++ "clear"
++ "clearAt"
++ "clearHistoryNow"
++ "clickHandler"
++ "clicked:"
++ "client"
++ "clientAuditToken"
++ "clients"
++ "clock"
++ "com.apple.TCC.kTCCServiceAccessibility.authorization.changed"
++ "com.apple.TCC.kTCCServiceAccessibilityPerTarget.authorization.changed"
++ "com.apple.WindowServer"
++ "com.apple.accessibility.per-app-access"
++ "com.apple.accessibility.per-app-target-attribution"
++ "com.apple.coregraphics.eventTapAdded"
++ "com.apple.coregraphics.eventTapRemoved"
++ "com.apple.hiservices-xpcservice"
++ "com.apple.notifyd.matching"
++ "com.apple.private.accessibility.display-in-use-shield.debug"
++ "com.apple.private.accessibility.display-in-use-shield.exempt"
++ "com.apple.private.tcc.allow"
++ "com.apple.tccd"
++ "com.apple.universalaccess"
++ "compare:"
++ "configurationWithPointSize:weight:"
++ "controller"
++ "currentAppleEvent"
++ "data"
++ "dataForKey:"
++ "dataWithJSONObject:options:error:"
++ "dayFormatter"
++ "debug-target:"
++ "debug:"
++ "debugClearClientNamed:"
++ "debugCommandsAllowed"
++ "debugInjectClientNamed:targetNames:perApp:timeToLive:"
++ "debugRecordUsageByClientNamed:targetName:firstUsedAgo:lastUsedAgo:"
++ "debugState"
++ "defaultManager"
++ "defaults"
++ "disableSuddenTermination"
++ "dismissHandler"
++ "displayInUseController:didObserveActivity:byClient:target:"
++ "displayInUseController:didUpdateState:"
++ "displayName"
++ "displayNameAtPath:"
++ "eligible"
++ "enableSuddenTermination"
++ "endHold"
++ "endedHandler"
++ "endedOutsideTheAgent"
++ "entries"
++ "enumerateKeysAndObjectsUsingBlock:"
++ "environment"
++ "error"
++ "event"
++ "event=diu v=%ld side=agent result=%@ client=%@ reporter=%@ approval=%@ activity=%@ attr=%@"
++ "eventMonitors"
++ "eventSenderLimiter"
++ "eventTapMonitor"
++ "eventTapMonitor:observedTap:ownerPid:targetPid:listenOnly:"
++ "eventTapMonitor:tapEnded:"
++ "eventTapOwnerHasInputAccess:listenOnly:"
++ "eventTapsMayHaveChanged"
++ "eventTotalLimiter"
++ "events"
++ "executablePath"
++ "exemptionsByKey"
++ "expired"
++ "expiryTimer"
++ "feed"
++ "finished"
++ "firstAgo"
++ "firstSeenTime"
++ "generation"
++ "getAuditToken:forPid:"
++ "getBytes:length:"
++ "global"
++ "globalApprovalsByInstanceKey"
++ "graceTimer"
++ "groups"
++ "hadLiveState"
++ "hadRecentUsage"
++ "handleEventTap:startedByClient:target:"
++ "handleEventTap:startedByClientToken:targetToken:"
++ "handleEventTapEnded:clientInstanceKey:"
++ "handleEventTapEnded:clientToken:"
++ "handleEventsSentByClient:target:"
++ "handleEventsSentByClientToken:targetToken:"
++ "handleReportFromReporter:client:"
++ "handleReportFromReporterToken:clientToken:relayed:"
++ "hasFinished"
++ "hasLiveState"
++ "hasRecentUsage"
++ "hasRoomForKey:now:"
++ "hasTimedActivity"
++ "held"
++ "hidden"
++ "highlight:"
++ "historyClearer"
++ "hold"
++ "holdEnded"
++ "iconForContentType:"
++ "identifier"
++ "identityKey"
++ "imageNamed:"
++ "imageWithSymbolConfiguration:"
++ "infoDictionary"
++ "init(contentRect:styleMask:backing:defer:)"
++ "initWithAuditToken:identityKey:displayName:viaDisplayName:teamIdentifier:platformBinary:"
++ "initWithAuditToken:identityKey:displayName:viaDisplayName:teamIdentifier:platformBinary:bundlePath:"
++ "initWithAuditToken:identityKey:displayName:viaDisplayName:teamIdentifier:platformBinary:bundlePath:responsibleIdentityKey:"
++ "initWithClient:approval:addedTime:lastTimedActivityTime:activities:taps:"
++ "initWithEnvironment:"
++ "initWithGroups:"
++ "initWithIdentifier:target:startedTime:lastAssertedTime:"
++ "initWithKind:"
++ "initWithKind:targets:allApps:"
++ "initWithProcess:"
++ "initWithStateManager:"
++ "initWithStateManager:sessionAvailabilityProvider:"
++ "initWithWindow:maximumPerKey:maximumKeys:"
++ "injectSyntheticClient:reporters:approval:timeToLive:"
++ "instanceKey"
++ "instances"
++ "interacting"
++ "isAuthorized"
++ "isAvailable"
++ "isCacheable"
++ "isClient:approvedForReporter:"
++ "isEnabled"
++ "isExemptFromAccessibilityReports:"
++ "isExemptFromAccessibilityReportsWithAuditToken:"
++ "isExemptFromEventReports:"
++ "isExemptFromEventReportsWithAuditToken:"
++ "isHolding"
++ "isHoldingPresentation"
++ "isInGrace"
++ "isPlatformBinary"
++ "isPlatformBinary:"
++ "isPlatformBinary:withSigningIdentifier:"
++ "isPlatformBinary:withSigningIdentifier:orSigningIdentifier:"
++ "isPresented"
++ "isProcessAlive:"
++ "isScreenSaverShowing"
++ "isSessionAvailable"
++ "isSessionAway"
++ "isSwitching"
++ "isTornDown"
++ "item"
++ "kTCCServiceAccessibilityPerTarget"
++ "kern.bootsessionuuid"
++ "kind"
++ "lastAgo"
++ "lastAssertedTime"
++ "lastPathComponent"
++ "lastTimedActivityTime"
++ "listChangedHandler"
++ "listening"
++ "liveActivity"
++ "liveActivity.a11y.appCount"
++ "liveActivity.a11y.hideApps"
++ "liveActivity.a11y.settings"
++ "liveActivity.a11y.show"
++ "liveActivity.a11y.showApps"
++ "liveActivity.a11y.symbol"
++ "liveActivity.detail.accessed"
++ "liveActivity.detail.accessedAllApps"
++ "liveActivity.detail.accessedMore"
++ "liveActivity.detail.accessing"
++ "liveActivity.detail.accessingMore"
++ "liveActivity.detail.allApps"
++ "liveActivity.detail.broadAccess"
++ "liveActivity.detail.perAppAccess"
++ "liveActivity.target.allApps"
++ "liveActivity.target.now"
++ "liveStateChangedHandler"
++ "localTaps"
++ "localizedInfoDictionary"
++ "localizedStringFromDateComponents:"
++ "logToken"
++ "loggedAcceptances"
++ "loggedApprovals"
++ "loggedGlobalApprovalsByInstanceKey"
++ "loggedHold"
++ "loggedUnchangedList"
++ "logger"
++ "mainRunLoop"
++ "makeKeyWindow"
++ "makeProcess"
++ "maximumLength"
++ "menuExtra"
++ "menuExtra.a11y.recentActivity"
++ "model"
++ "mouseLocation"
++ "notifyTokens"
++ "now"
++ "numberWithUnsignedLongLong:"
++ "offConsole"
++ "openURL:"
++ "openViews"
++ "orderFrontRegardless"
++ "ownerHasInputAccess"
++ "ownerPid"
++ "ownerToken"
++ "panelOpenChangedHandler"
++ "path:"
++ "pendingChecks"
++ "pendingClearReason"
++ "pendingSave"
++ "pendingUsageChange"
++ "pendingWork"
++ "perApp"
++ "perTargetService"
++ "pid"
++ "platformBinary"
++ "presentState:"
++ "presentation"
++ "presenter"
++ "processForAuditToken:"
++ "processForTargetAuditToken:clientAuditToken:"
++ "processInstanceKeysByUse"
++ "processesByInstanceKey"
++ "q24@0:8@16"
++ "q24@?0@\"XVSDisplayInUseClientGroup\"8@\"XVSDisplayInUseClientGroup\"16"
++ "q28@0:8@16B24"
++ "q40@0:8@16@24^Q32"
++ "q40@0:8Q16@24@32"
++ "q48@0:8^@16@24@32q40"
++ "q8@?0"
++ "query"
++ "reachesAllApps"
++ "recentUsageChangedHandler"
++ "record"
++ "recordUsageByClient:target:"
++ "recordUsageByClient:target:firstUsedAgo:lastUsedAgo:"
++ "refresh"
++ "refreshInterval"
++ "refreshScheduled"
++ "refreshTimer"
++ "rejected:capacity"
++ "rejected:exemptClient"
++ "rejected:rateLimited"
++ "rejected:sameIdentity"
++ "rejected:sameTeam"
++ "rejected:selfReport"
++ "rejected:sessionUnavailable"
++ "rejected:staleClient"
++ "rejected:unapprovedClient"
++ "rejected:unknown"
++ "rejectionLogLimiter"
++ "removeLegacyAlertHistory"
++ "removeMonitor:"
++ "removeObjectForKey:"
++ "removeStatusItem:"
++ "removeSyntheticClientsWithIdentityKey:"
++ "removed"
++ "reportSenderLimiter"
++ "reportTotalLimiter"
++ "reporter"
++ "reporterAuditToken"
++ "reporterLimiter"
++ "requestFailed"
++ "requestRetryDelay"
++ "requestRetryTask"
++ "resolutionForTargetAuditToken:subjectAuditToken:service:"
++ "responsibleIdentityKey"
++ "restore"
++ "restoreSavedClients:"
++ "result"
++ "resultToken"
++ "sanitizedName:"
++ "sanitizedName:maximumLength:"
++ "saveNow"
++ "savedClients"
++ "savedClientsProvider"
++ "savedEmpty"
++ "schedule"
++ "scheduleAfter:block:"
++ "scheduleRefresh"
++ "screenFrame"
++ "screenSaver"
++ "sendingEvents"
++ "sent"
++ "session"
++ "sessionAvailabilityProvider"
++ "sessionBecameUnavailable"
++ "sessionMayHaveComeBack"
++ "sessionMayHaveGoneAway:"
++ "setAccessibilityChangedToken:"
++ "setAccessibilityLabel:"
++ "setActivities:"
++ "setAddedTime:"
++ "setAllApps:"
++ "setApproval:"
++ "setApproved:"
++ "setAssertedTime:"
++ "setAttributionToken:"
++ "setBehavior:"
++ "setBlock:"
++ "setCalendar:"
++ "setCheckedTime:"
++ "setClient:"
++ "setClients:"
++ "setController:"
++ "setDateStyle:"
++ "setDateTimeStyle:"
++ "setDisplayName:"
++ "setEligible:"
++ "setEntries:"
++ "setEnvironment:"
++ "setEventSenderLimiter:"
++ "setEventTapMonitor:"
++ "setEventTotalLimiter:"
++ "setExemptionsByKey:"
++ "setExpiryTimer:"
++ "setFirstSeenTime:"
++ "setFormattingContext:"
++ "setGlobalApprovalsByInstanceKey:"
++ "setHadLiveState:"
++ "setHistoryClearer:"
++ "setIdentityKey:"
++ "setLastAssertedTime:"
++ "setLastTimedActivityTime:"
++ "setLiveStateChangedHandler:"
++ "setLocalTaps:"
++ "setLocale:"
++ "setLoggedAcceptances:"
++ "setLoggedGlobalApprovalsByInstanceKey:"
++ "setNeedsRefresh"
++ "setNeedsSave"
++ "setObject:forKey:"
++ "setOwnerHasInputAccess:"
++ "setOwnerPid:"
++ "setOwnerToken:"
++ "setPresenter:"
++ "setProcessInstanceKeysByUse:"
++ "setProcessesByInstanceKey:"
++ "setRecentUsageChangedHandler:"
++ "setRejectionLogLimiter:"
++ "setReportSenderLimiter:"
++ "setReportTotalLimiter:"
++ "setReporterLimiter:"
++ "setSavedClientsProvider:"
++ "setSessionAvailabilityProvider:"
++ "setShared:"
++ "setStartedTime:"
++ "setStateManager:"
++ "setSynthetic:"
++ "setTaps:"
++ "setTargets:"
++ "setTemplate:"
++ "setTimeStyle:"
++ "setTimeZone:"
++ "setTimedActivities:"
++ "setWindowServerTapChecks:"
++ "set_displayInUseModule:"
++ "sharedAppleEventManager"
++ "sharedApplication"
++ "shield.client.via"
++ "shield.debug.clear"
++ "shield.debug.inject"
++ "shield.debug.state"
++ "shield.debug.usage"
++ "shield.events"
++ "shield.report"
++ "showing"
++ "shown"
++ "showsUsageHistory"
++ "snapshot"
++ "sortDescriptorWithKey:ascending:"
++ "sortWithOptions:usingComparator:"
++ "sortedArrayUsingDescriptors:"
++ "sortedArrayUsingSelector:"
++ "sources"
++ "startedTime"
++ "stateManager"
++ "statusItem"
++ "store"
++ "stringByDeletingPathExtension"
++ "stringFromDate:"
++ "subarrayWithRange:"
++ "suddenTerminationDisabled"
++ "synthetic"
++ "synthetic.%u"
++ "syntheticProcessWithIdentityKey:displayName:"
++ "systemUptime"
++ "tapEnded"
++ "tapIdentifier"
++ "tapStarted"
++ "taps"
++ "target"
++ "targetAuditToken"
++ "targets"
++ "target|"
++ "task"
++ "tcc_indirect_object_create_with_target_app_audit_token"
++ "tcc_indirect_object_get_indirect_object_bundle_path"
++ "tcc_indirect_object_get_indirect_object_identity_type"
++ "tcc_indirect_object_get_target_app_attribution_method"
++ "tcc_server_message_request_authorization_with_indirect_object"
++ "teamIdentifier"
++ "tearDown"
++ "the Live Activity"
++ "timeFormatter"
++ "timedActivities"
++ "timerWithTimeInterval:repeats:block:"
++ "ttl"
++ "undecodable"
++ "unsignedLongLongValue"
++ "usageChangedHandler"
++ "usageHistory"
++ "usesResponsibleIdentity"
++ "v12@?0i8"
++ "v16@?0@\"NSEvent\"8"
++ "v24@0:8@\"XVSDisplayInUseState\"16"
++ "v24@0:8@?<v@?>16"
++ "v24@?0^v8^v16"
++ "v32@0:8@\"XVSDisplayInUseController\"16@\"XVSDisplayInUseState\"24"
++ "v32@0:8@\"_TtC20AXVisualSupportAgent18XVSEventTapMonitor\"16Q24"
++ "v32@0:8r^{?=*qq}16@24"
++ "v32@?0@\"NSNumber\"8@\"_XVSDisplayInUseEventTap\"16^B24"
++ "v40@0:8q16@24@32"
++ "v44@0:8@\"_TtC20AXVisualSupportAgent18XVSEventTapMonitor\"16Q24i32i36B40"
++ "v44@0:8@16@24B32d36"
++ "v44@0:8@16B24q28@36"
++ "v44@0:8@16Q24i32i36B40"
++ "v48@0:8@\"XVSDisplayInUseController\"16q24@\"XVSDisplayInUseProcess\"32@\"XVSDisplayInUseProcess\"40"
++ "v48@0:8@16@24@32@40"
++ "v48@0:8@16@24Q32d40"
++ "v48@0:8@16@24d32d40"
++ "v48@0:8@16q24@32@40"
++ "v48@0:8{?=[8I]}16"
++ "v56@0:8Q16{?=[8I]}24"
++ "v56@0:8q16@24@32Q40q48"
++ "v56@0:8{?=[8I]}16r^{?=[8I]}48"
++ "v64@0:8Q16{?=[8I]}24r^{?=[8I]}56"
++ "v84@0:8{?=[8I]}16{?=[8I]}48B80"
++ "version"
++ "viaDisplayName"
++ "viewOpenHandler"
++ "visible"
++ "visibleFrame"
++ "wallClock"
++ "windowServerTapChecks"
++ "x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Accessibility"
++ "yesterdayFormatter"
++ "{?=\"val\"[8I]}"
++ "{?=[8I]}16@0:8"
+- "\v"
+- "XVSAppDelegate: tearing down XPC connection"
+```

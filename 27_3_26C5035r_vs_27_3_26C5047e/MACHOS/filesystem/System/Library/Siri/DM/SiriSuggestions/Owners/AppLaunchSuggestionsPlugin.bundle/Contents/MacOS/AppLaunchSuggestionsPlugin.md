@@ -1,0 +1,25 @@
+## AppLaunchSuggestionsPlugin
+
+> `/System/Library/Siri/DM/SiriSuggestions/Owners/AppLaunchSuggestionsPlugin.bundle/Contents/MacOS/AppLaunchSuggestionsPlugin`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+
+```diff
+
+-3610.3.1.0.0
+-  __TEXT.__text: 0x4c94
++3610.4.2.0.0
++  __TEXT.__text: 0x4ca0
+   __TEXT.__auth_stubs: 0x750
+   __TEXT.__objc_stubs: 0x80
+   __TEXT.__const: 0x620
+Functions:
+~ sub_5484 : 108 -> 120
+```

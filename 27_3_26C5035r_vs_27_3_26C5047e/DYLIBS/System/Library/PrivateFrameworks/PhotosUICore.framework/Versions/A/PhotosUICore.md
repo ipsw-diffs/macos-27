@@ -1,0 +1,2078 @@
+## PhotosUICore
+
+> `/System/Library/PrivateFrameworks/PhotosUICore.framework/Versions/A/PhotosUICore`
+
+```diff
+
+-920.8.100.0.0
+-  __TEXT.__text: 0x12d1a7c
+-  __TEXT.__objc_methlist: 0x7fd9c
+-  __TEXT.__const: 0x851d0
++920.12.210.0.0
++  __TEXT.__text: 0x12e994c
++  __TEXT.__objc_methlist: 0x7fe54
++  __TEXT.__const: 0x859e0
+   __TEXT.__dlopen_cstrs: 0x3a8
+-  __TEXT.__swift_as_entry: 0x12c8
+-  __TEXT.__swift_as_ret: 0xf70
+-  __TEXT.__swift_as_cont: 0x1ea4
+-  __TEXT.__swift5_typeref: 0x2b8a2
+-  __TEXT.__swift5_capture: 0x16e90
+-  __TEXT.__constg_swiftt: 0x35304
+-  __TEXT.__swift5_reflstr: 0x29824
+-  __TEXT.__swift5_fieldmd: 0x21e70
+-  __TEXT.__swift5_builtin: 0x1284
+-  __TEXT.__swift5_assocty: 0xad78
+-  __TEXT.__oslogstring: 0x45040
+-  __TEXT.__swift5_proto: 0x464c
+-  __TEXT.__swift5_types: 0x2a60
+-  __TEXT.__cstring: 0x960e5
++  __TEXT.__swift_as_entry: 0x12d8
++  __TEXT.__swift_as_ret: 0xf88
++  __TEXT.__swift_as_cont: 0x1edc
++  __TEXT.__swift5_typeref: 0x2bd14
++  __TEXT.__swift5_capture: 0x16fa8
++  __TEXT.__constg_swiftt: 0x35640
++  __TEXT.__swift5_reflstr: 0x29ad4
++  __TEXT.__swift5_fieldmd: 0x22088
++  __TEXT.__swift5_builtin: 0x1298
++  __TEXT.__swift5_assocty: 0xadc0
++  __TEXT.__oslogstring: 0x454d7
++  __TEXT.__swift5_proto: 0x468c
++  __TEXT.__swift5_types: 0x2a90
++  __TEXT.__cstring: 0x964bb
+   __TEXT.__swift5_protos: 0x270
+-  __TEXT.__swift5_mpenum: 0x140
++  __TEXT.__swift5_mpenum: 0x154
+   __TEXT.__gcc_except_tab: 0xc7fc
+   __TEXT.__ustring: 0x2604
+-  __TEXT.__unwind_info: 0x5cb50
+-  __TEXT.__eh_frame: 0x2d19c
++  __TEXT.__unwind_info: 0x5cf80
++  __TEXT.__eh_frame: 0x2d670
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x9da8
+-  __DATA_CONST.__objc_classlist: 0x4b80
++  __DATA_CONST.__const: 0x9de8
++  __DATA_CONST.__objc_classlist: 0x4b98
+   __DATA_CONST.__objc_catlist: 0x328
+   __DATA_CONST.__objc_protolist: 0x1788
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x36f48
++  __DATA_CONST.__objc_selrefs: 0x36fb8
+   __DATA_CONST.__objc_protorefs: 0x5a8
+-  __DATA_CONST.__objc_superrefs: 0x2c60
++  __DATA_CONST.__objc_superrefs: 0x2c68
+   __DATA_CONST.__objc_arraydata: 0x3080
+   __DATA_CONST.__vfx_script_tbl: 0x20
+-  __DATA_CONST.__got: 0xab40
+-  __AUTH_CONST.__const: 0x7d598
+-  __AUTH_CONST.__cfstring: 0x540e0
+-  __AUTH_CONST.__objc_const: 0x1170f8
++  __DATA_CONST.__got: 0xabb8
++  __AUTH_CONST.__const: 0x7dc30
++  __AUTH_CONST.__cfstring: 0x54260
++  __AUTH_CONST.__objc_const: 0x117448
+   __AUTH_CONST.__weak_auth_got: 0x10
+   __AUTH_CONST.__objc_arrayobj: 0x1980
+   __AUTH_CONST.__objc_dictobj: 0xeb0
+   __AUTH_CONST.__objc_intobj: 0x3ca8
+   __AUTH_CONST.__objc_doubleobj: 0x6f0
+   __AUTH_CONST.__objc_floatobj: 0xd0
+-  __AUTH_CONST.__auth_got: 0x9520
+-  __AUTH.__objc_data: 0x30c90
+-  __AUTH.__data: 0x261c8
+-  __DATA.__objc_ivar: 0xae4c
+-  __DATA.__data: 0x2ca78
++  __AUTH_CONST.__auth_got: 0x9588
++  __AUTH.__objc_data: 0x30d98
++  __AUTH.__data: 0x26308
++  __DATA.__objc_ivar: 0xae54
++  __DATA.__data: 0x2cea8
+   __DATA.__objc_stublist: 0x20
+-  __DATA.__bss: 0x79300
+-  __DATA.__common: 0xcc8
+-  __DATA_DIRTY.__objc_data: 0xa408
++  __DATA.__bss: 0x79670
++  __DATA.__common: 0xcd0
++  __DATA_DIRTY.__objc_data: 0xa438
+   __DATA_DIRTY.__data: 0xe1e8
+-  __DATA_DIRTY.__bss: 0x18730
++  __DATA_DIRTY.__bss: 0x18720
+   __DATA_DIRTY.__common: 0x2e0
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 114233
+-  Symbols:   114656
+-  CStrings:  21401
++  Functions: 114554
++  Symbols:   114748
++  CStrings:  21442
+ 
+Symbols:
++ +[PXPhotosGridToggleIncludeSharedAlbumAssetsFilterActionPerformer canPerformActionType:withViewModel:]
++ +[PXSharedAlbumsActivityEntry fetchUnreadNotificationEntriesWithOptions:lastSeenDate:eventLogDate:]
++ +[PXVisualIntelligenceClientActions clientActionsForEventInfo:]
++ +[PXVisualIntelligenceClientActions eventActionForEventInfo:]
++ +[PXVisualIntelligenceManager supportsClientActions]
++ -[PXApplicationState initWithApplication:isExtension:followsApplicationLifecycle:]
++ -[PXContentFilterState includeSharedAlbumAssets]
++ -[PXContentFilterState setIncludeSharedAlbumAssets:]
++ -[PXJoiningMediaProvider enumerateAvailableThumbnailDataFormats:]
++ -[PXJoiningMediaProvider masterThumbnailSize]
++ -[PXPhotosGridToggleIncludeSharedAlbumAssetsFilterActionPerformer localizedTitleForUseCase:]
++ -[PXPhotosGridToggleIncludeSharedAlbumAssetsFilterActionPerformer menuItemState]
++ -[PXPhotosGridToggleIncludeSharedAlbumAssetsFilterActionPerformer performUserInteractionTask]
++ -[PXSelectionContainer containsNonSharedAlbumAssets]
++ -[PXVisualIntelligenceManager requestVKImageAnalysisForVIWithImage:asset:clientActionsIfSupported:resultHandler:]
++ -[_PXVisualIntelligenceRequest clientActions]
++ -[_PXVisualIntelligenceRequest initForVIWithAsset:image:clientActions:requestID:resultHandler:]
++ GCC_except_table10057
++ GCC_except_table10113
++ GCC_except_table10116
++ GCC_except_table10120
++ GCC_except_table10134
++ GCC_except_table10145
++ GCC_except_table10159
++ GCC_except_table10172
++ GCC_except_table10179
++ GCC_except_table10189
++ GCC_except_table10316
++ GCC_except_table10338
++ GCC_except_table10459
++ GCC_except_table10482
++ GCC_except_table10483
++ GCC_except_table10549
++ GCC_except_table10563
++ GCC_except_table10628
++ GCC_except_table10654
++ GCC_except_table10703
++ GCC_except_table10731
++ GCC_except_table10742
++ GCC_except_table10805
++ GCC_except_table10855
++ GCC_except_table10861
++ GCC_except_table10970
++ GCC_except_table10974
++ GCC_except_table11002
++ GCC_except_table11052
++ GCC_except_table11055
++ GCC_except_table11247
++ GCC_except_table11380
++ GCC_except_table11390
++ GCC_except_table11409
++ GCC_except_table11434
++ GCC_except_table11437
++ GCC_except_table11442
++ GCC_except_table11452
++ GCC_except_table11476
++ GCC_except_table11501
++ GCC_except_table11518
++ GCC_except_table11548
++ GCC_except_table11557
++ GCC_except_table11565
++ GCC_except_table11605
++ GCC_except_table11608
++ GCC_except_table11620
++ GCC_except_table11624
++ GCC_except_table11632
++ GCC_except_table11701
++ GCC_except_table11844
++ GCC_except_table11874
++ GCC_except_table11993
++ GCC_except_table11999
++ GCC_except_table12160
++ GCC_except_table12164
++ GCC_except_table12246
++ GCC_except_table12282
++ GCC_except_table12572
++ GCC_except_table12679
++ GCC_except_table12700
++ GCC_except_table12725
++ GCC_except_table13147
++ GCC_except_table13148
++ GCC_except_table13218
++ GCC_except_table13268
++ GCC_except_table13271
++ GCC_except_table13274
++ GCC_except_table13282
++ GCC_except_table13325
++ GCC_except_table13338
++ GCC_except_table13345
++ GCC_except_table13368
++ GCC_except_table13495
++ GCC_except_table13507
++ GCC_except_table13516
++ GCC_except_table13522
++ GCC_except_table13523
++ GCC_except_table13531
++ GCC_except_table13557
++ GCC_except_table13563
++ GCC_except_table13610
++ GCC_except_table13614
++ GCC_except_table13875
++ GCC_except_table13882
++ GCC_except_table13883
++ GCC_except_table13955
++ GCC_except_table14276
++ GCC_except_table14995
++ GCC_except_table15014
++ GCC_except_table15016
++ GCC_except_table15072
++ GCC_except_table15345
++ GCC_except_table15354
++ GCC_except_table15391
++ GCC_except_table15581
++ GCC_except_table15593
++ GCC_except_table15741
++ GCC_except_table15758
++ GCC_except_table15997
++ GCC_except_table16233
++ GCC_except_table16965
++ GCC_except_table17098
++ GCC_except_table17221
++ GCC_except_table17309
++ GCC_except_table17368
++ GCC_except_table17728
++ GCC_except_table17732
++ GCC_except_table18057
++ GCC_except_table18071
++ GCC_except_table18216
++ GCC_except_table18241
++ GCC_except_table18445
++ GCC_except_table18476
++ GCC_except_table18627
++ GCC_except_table18741
++ GCC_except_table18745
++ GCC_except_table18754
++ GCC_except_table18756
++ GCC_except_table18757
++ GCC_except_table18799
++ GCC_except_table18803
++ GCC_except_table18814
++ GCC_except_table18853
++ GCC_except_table18855
++ GCC_except_table18889
++ GCC_except_table18921
++ GCC_except_table18961
++ GCC_except_table19023
++ GCC_except_table19059
++ GCC_except_table19066
++ GCC_except_table19074
++ GCC_except_table19164
++ GCC_except_table19219
++ GCC_except_table19232
++ GCC_except_table19236
++ GCC_except_table19274
++ GCC_except_table19276
++ GCC_except_table19277
++ GCC_except_table19468
++ GCC_except_table19490
++ GCC_except_table19491
++ GCC_except_table19492
++ GCC_except_table19493
++ GCC_except_table19570
++ GCC_except_table19573
++ GCC_except_table19579
++ GCC_except_table19580
++ GCC_except_table19587
++ GCC_except_table19616
++ GCC_except_table19689
++ GCC_except_table19856
++ GCC_except_table19901
++ GCC_except_table19965
++ GCC_except_table19997
++ GCC_except_table20060
++ GCC_except_table20064
++ GCC_except_table20084
++ GCC_except_table20233
++ GCC_except_table20296
++ GCC_except_table20299
++ GCC_except_table20360
++ GCC_except_table20378
++ GCC_except_table20405
++ GCC_except_table20430
++ GCC_except_table20466
++ GCC_except_table20469
++ GCC_except_table20613
++ GCC_except_table20616
++ GCC_except_table20658
++ GCC_except_table20784
++ GCC_except_table20800
++ GCC_except_table20820
++ GCC_except_table20826
++ GCC_except_table20871
++ GCC_except_table21000
++ GCC_except_table21016
++ GCC_except_table21024
++ GCC_except_table21030
++ GCC_except_table21037
++ GCC_except_table21044
++ GCC_except_table21062
++ GCC_except_table21069
++ GCC_except_table21076
++ GCC_except_table21105
++ GCC_except_table21125
++ GCC_except_table21200
++ GCC_except_table21511
++ GCC_except_table21564
++ GCC_except_table21570
++ GCC_except_table21585
++ GCC_except_table21591
++ GCC_except_table21599
++ GCC_except_table21608
++ GCC_except_table21609
++ GCC_except_table21611
++ GCC_except_table21631
++ GCC_except_table21639
++ GCC_except_table21682
++ GCC_except_table21722
++ GCC_except_table21820
++ GCC_except_table21853
++ GCC_except_table21963
++ GCC_except_table22018
++ GCC_except_table22022
++ GCC_except_table22412
++ GCC_except_table22414
++ GCC_except_table22535
++ GCC_except_table22643
++ GCC_except_table22777
++ GCC_except_table22839
++ GCC_except_table22845
++ GCC_except_table22985
++ GCC_except_table23283
++ GCC_except_table23290
++ GCC_except_table23304
++ GCC_except_table23308
++ GCC_except_table23312
++ GCC_except_table23329
++ GCC_except_table23333
++ GCC_except_table23335
++ GCC_except_table23381
++ GCC_except_table23384
++ GCC_except_table23385
++ GCC_except_table23386
++ GCC_except_table23532
++ GCC_except_table23534
++ GCC_except_table23535
++ GCC_except_table23538
++ GCC_except_table23539
++ GCC_except_table23540
++ GCC_except_table23542
++ GCC_except_table23545
++ GCC_except_table23730
++ GCC_except_table23731
++ GCC_except_table23735
++ GCC_except_table23779
++ GCC_except_table23856
++ GCC_except_table23960
++ GCC_except_table24192
++ GCC_except_table24199
++ GCC_except_table24333
++ GCC_except_table24483
++ GCC_except_table24484
++ GCC_except_table24496
++ GCC_except_table24507
++ GCC_except_table24510
++ GCC_except_table24690
++ GCC_except_table24695
++ GCC_except_table24760
++ GCC_except_table24809
++ GCC_except_table25064
++ GCC_except_table25103
++ GCC_except_table25106
++ GCC_except_table25153
++ GCC_except_table25202
++ GCC_except_table25223
++ GCC_except_table25225
++ GCC_except_table25243
++ GCC_except_table25258
++ GCC_except_table25305
++ GCC_except_table25367
++ GCC_except_table25372
++ GCC_except_table25376
++ GCC_except_table25410
++ GCC_except_table25448
++ GCC_except_table25522
++ GCC_except_table25541
++ GCC_except_table25545
++ GCC_except_table25556
++ GCC_except_table25557
++ GCC_except_table25564
++ GCC_except_table25638
++ GCC_except_table25650
++ GCC_except_table25659
++ GCC_except_table25667
++ GCC_except_table25673
++ GCC_except_table25863
++ GCC_except_table26032
++ GCC_except_table26219
++ GCC_except_table26220
++ GCC_except_table26345
++ GCC_except_table26348
++ GCC_except_table26465
++ GCC_except_table26549
++ GCC_except_table26626
++ GCC_except_table26700
++ GCC_except_table26757
++ GCC_except_table26775
++ GCC_except_table26833
++ GCC_except_table26854
++ GCC_except_table26873
++ GCC_except_table26885
++ GCC_except_table26895
++ GCC_except_table26947
++ GCC_except_table26963
++ GCC_except_table27016
++ GCC_except_table27022
++ GCC_except_table27043
++ GCC_except_table27067
++ GCC_except_table27121
++ GCC_except_table27125
++ GCC_except_table27172
++ GCC_except_table27398
++ GCC_except_table27458
++ GCC_except_table27473
++ GCC_except_table27485
++ GCC_except_table27512
++ GCC_except_table27526
++ GCC_except_table27535
++ GCC_except_table27538
++ GCC_except_table27550
++ GCC_except_table27652
++ GCC_except_table27797
++ GCC_except_table28028
++ GCC_except_table28045
++ GCC_except_table28136
++ GCC_except_table28150
++ GCC_except_table28192
++ GCC_except_table28198
++ GCC_except_table28201
++ GCC_except_table28202
++ GCC_except_table28203
++ GCC_except_table28208
++ GCC_except_table28217
++ GCC_except_table28286
++ GCC_except_table28292
++ GCC_except_table28359
++ GCC_except_table28459
++ GCC_except_table28466
++ GCC_except_table28515
++ GCC_except_table28521
++ GCC_except_table28742
++ GCC_except_table28865
++ GCC_except_table28950
++ GCC_except_table28954
++ GCC_except_table29045
++ GCC_except_table29047
++ GCC_except_table29055
++ GCC_except_table29112
++ GCC_except_table29115
++ GCC_except_table29122
++ GCC_except_table29125
++ GCC_except_table29126
++ GCC_except_table29132
++ GCC_except_table29135
++ GCC_except_table29136
++ GCC_except_table29140
++ GCC_except_table29151
++ GCC_except_table29153
++ GCC_except_table29162
++ GCC_except_table29166
++ GCC_except_table29167
++ GCC_except_table29168
++ GCC_except_table29181
++ GCC_except_table29225
++ GCC_except_table29234
++ GCC_except_table29252
++ GCC_except_table29268
++ GCC_except_table29272
++ GCC_except_table29275
++ GCC_except_table29279
++ GCC_except_table29288
++ GCC_except_table29293
++ GCC_except_table29308
++ GCC_except_table29311
++ GCC_except_table29353
++ GCC_except_table29354
++ GCC_except_table29592
++ GCC_except_table29624
++ GCC_except_table29689
++ GCC_except_table29695
++ GCC_except_table29700
++ GCC_except_table29883
++ GCC_except_table29884
++ GCC_except_table29996
++ GCC_except_table30071
++ GCC_except_table30107
++ GCC_except_table30113
++ GCC_except_table30224
++ GCC_except_table30280
++ GCC_except_table30303
++ GCC_except_table30362
++ GCC_except_table30385
++ GCC_except_table30387
++ GCC_except_table30435
++ GCC_except_table30436
++ GCC_except_table30466
++ GCC_except_table30542
++ GCC_except_table30560
++ GCC_except_table30624
++ GCC_except_table30628
++ GCC_except_table30633
++ GCC_except_table30634
++ GCC_except_table30639
++ GCC_except_table30641
++ GCC_except_table30649
++ GCC_except_table30719
++ GCC_except_table30722
++ GCC_except_table30795
++ GCC_except_table30805
++ GCC_except_table30814
++ GCC_except_table30816
++ GCC_except_table31026
++ GCC_except_table31036
++ GCC_except_table31088
++ GCC_except_table31108
++ GCC_except_table31110
++ GCC_except_table31430
++ GCC_except_table31589
++ GCC_except_table31604
++ GCC_except_table31669
++ GCC_except_table31672
++ GCC_except_table31673
++ GCC_except_table31678
++ GCC_except_table31702
++ GCC_except_table31709
++ GCC_except_table31710
++ GCC_except_table31716
++ GCC_except_table31718
++ GCC_except_table31731
++ GCC_except_table31735
++ GCC_except_table31740
++ GCC_except_table31744
++ GCC_except_table31762
++ GCC_except_table31911
++ GCC_except_table31913
++ GCC_except_table31934
++ GCC_except_table31940
++ GCC_except_table31992
++ GCC_except_table32014
++ GCC_except_table32018
++ GCC_except_table32189
++ GCC_except_table32224
++ GCC_except_table32439
++ GCC_except_table32506
++ GCC_except_table32512
++ GCC_except_table32522
++ GCC_except_table32554
++ GCC_except_table32743
++ GCC_except_table32820
++ GCC_except_table32909
++ GCC_except_table32969
++ GCC_except_table33153
++ GCC_except_table33164
++ GCC_except_table33206
++ GCC_except_table33262
++ GCC_except_table33266
++ GCC_except_table33272
++ GCC_except_table33287
++ GCC_except_table33290
++ GCC_except_table33298
++ GCC_except_table33322
++ GCC_except_table33382
++ GCC_except_table33413
++ GCC_except_table33479
++ GCC_except_table33628
++ GCC_except_table33644
++ GCC_except_table33677
++ GCC_except_table33679
++ GCC_except_table33708
++ GCC_except_table33757
++ GCC_except_table33768
++ GCC_except_table33783
++ GCC_except_table33797
++ GCC_except_table33801
++ GCC_except_table33924
++ GCC_except_table34002
++ GCC_except_table34008
++ GCC_except_table34165
++ GCC_except_table34168
++ GCC_except_table34169
++ GCC_except_table34178
++ GCC_except_table34179
++ GCC_except_table34186
++ GCC_except_table34187
++ GCC_except_table34194
++ GCC_except_table34195
++ GCC_except_table34214
++ GCC_except_table34215
++ GCC_except_table34222
++ GCC_except_table34223
++ GCC_except_table34230
++ GCC_except_table34231
++ GCC_except_table34238
++ GCC_except_table34239
++ GCC_except_table34246
++ GCC_except_table34247
++ GCC_except_table34255
++ GCC_except_table34256
++ GCC_except_table34263
++ GCC_except_table34264
++ GCC_except_table34271
++ GCC_except_table34272
++ GCC_except_table34281
++ GCC_except_table34301
++ GCC_except_table34302
++ GCC_except_table34317
++ GCC_except_table34318
++ GCC_except_table34398
++ GCC_except_table34427
++ GCC_except_table34447
++ GCC_except_table34450
++ GCC_except_table34485
++ GCC_except_table34499
++ GCC_except_table34687
++ GCC_except_table34742
++ GCC_except_table34745
++ GCC_except_table34803
++ GCC_except_table34808
++ GCC_except_table34814
++ GCC_except_table34823
++ GCC_except_table34828
++ GCC_except_table34860
++ GCC_except_table34864
++ GCC_except_table34866
++ GCC_except_table34868
++ GCC_except_table34870
++ GCC_except_table34886
++ GCC_except_table34889
++ GCC_except_table35088
++ GCC_except_table35133
++ GCC_except_table35143
++ GCC_except_table35265
++ GCC_except_table35986
++ GCC_except_table36041
++ GCC_except_table36125
++ GCC_except_table36231
++ GCC_except_table36506
++ GCC_except_table36516
++ GCC_except_table36572
++ GCC_except_table36577
++ GCC_except_table36595
++ GCC_except_table36604
++ GCC_except_table36620
++ GCC_except_table36667
++ GCC_except_table36748
++ GCC_except_table36796
++ GCC_except_table36799
++ GCC_except_table36870
++ GCC_except_table36885
++ GCC_except_table36896
++ GCC_except_table36899
++ GCC_except_table36902
++ GCC_except_table36906
++ GCC_except_table36947
++ GCC_except_table36997
++ GCC_except_table37033
++ GCC_except_table37035
++ GCC_except_table37173
++ GCC_except_table37193
++ GCC_except_table37281
++ GCC_except_table37485
++ GCC_except_table37505
++ GCC_except_table37586
++ GCC_except_table37638
++ GCC_except_table37647
++ GCC_except_table37651
++ GCC_except_table37791
++ GCC_except_table37792
++ GCC_except_table37845
++ GCC_except_table37909
++ GCC_except_table38428
++ GCC_except_table38451
++ GCC_except_table38527
++ GCC_except_table38591
++ GCC_except_table38596
++ GCC_except_table38597
++ GCC_except_table38631
++ GCC_except_table38633
++ GCC_except_table38696
++ GCC_except_table38775
++ GCC_except_table38778
++ GCC_except_table38783
++ GCC_except_table38819
++ GCC_except_table38870
++ GCC_except_table38874
++ GCC_except_table38893
++ GCC_except_table38895
++ GCC_except_table38923
++ GCC_except_table39021
++ GCC_except_table39129
++ GCC_except_table39195
++ GCC_except_table39199
++ GCC_except_table39205
++ GCC_except_table39208
++ GCC_except_table39209
++ GCC_except_table39212
++ GCC_except_table39213
++ GCC_except_table39226
++ GCC_except_table39227
++ GCC_except_table39228
++ GCC_except_table39229
++ GCC_except_table39230
++ GCC_except_table39231
++ GCC_except_table39259
++ GCC_except_table39267
++ GCC_except_table39275
++ GCC_except_table39288
++ GCC_except_table39292
++ GCC_except_table39294
++ GCC_except_table39295
++ GCC_except_table39296
++ GCC_except_table39301
++ GCC_except_table39309
++ GCC_except_table39317
++ GCC_except_table39318
++ GCC_except_table39319
++ GCC_except_table39322
++ GCC_except_table39324
++ GCC_except_table39327
++ GCC_except_table39414
++ GCC_except_table39422
++ GCC_except_table39427
++ GCC_except_table39433
++ GCC_except_table39482
++ GCC_except_table39516
++ GCC_except_table39522
++ GCC_except_table40014
++ GCC_except_table40161
++ GCC_except_table40209
++ GCC_except_table40223
++ GCC_except_table40225
++ GCC_except_table40239
++ GCC_except_table40243
++ GCC_except_table40301
++ GCC_except_table40460
++ GCC_except_table40640
++ GCC_except_table40641
++ GCC_except_table40742
++ GCC_except_table40747
++ GCC_except_table40772
++ GCC_except_table40835
++ GCC_except_table40837
++ GCC_except_table40845
++ GCC_except_table40856
++ GCC_except_table40866
++ GCC_except_table40869
++ GCC_except_table40873
++ GCC_except_table40877
++ GCC_except_table40899
++ GCC_except_table40914
++ GCC_except_table40918
++ GCC_except_table40922
++ GCC_except_table40939
++ GCC_except_table40943
++ GCC_except_table40947
++ GCC_except_table40954
++ GCC_except_table40968
++ GCC_except_table40972
++ GCC_except_table40987
++ GCC_except_table41001
++ GCC_except_table41004
++ GCC_except_table41009
++ GCC_except_table41014
++ GCC_except_table41035
++ GCC_except_table41041
++ GCC_except_table41065
++ GCC_except_table41089
++ GCC_except_table41098
++ GCC_except_table41099
++ GCC_except_table41106
++ GCC_except_table41114
++ GCC_except_table41115
++ GCC_except_table41142
++ GCC_except_table41144
++ GCC_except_table41147
++ GCC_except_table41150
++ GCC_except_table41231
++ GCC_except_table41264
++ GCC_except_table41271
++ GCC_except_table41288
++ GCC_except_table41354
++ GCC_except_table41432
++ GCC_except_table41472
++ GCC_except_table41474
++ GCC_except_table41476
++ GCC_except_table41478
++ GCC_except_table41482
++ GCC_except_table41484
++ GCC_except_table41486
++ GCC_except_table41592
++ GCC_except_table41659
++ GCC_except_table41736
++ GCC_except_table41754
++ GCC_except_table5482
++ GCC_except_table5539
++ GCC_except_table5547
++ GCC_except_table5548
++ GCC_except_table5639
++ GCC_except_table5660
++ GCC_except_table5695
++ GCC_except_table5721
++ GCC_except_table5790
++ GCC_except_table5791
++ GCC_except_table5845
++ GCC_except_table5874
++ GCC_except_table5878
++ GCC_except_table5889
++ GCC_except_table5898
++ GCC_except_table5940
++ GCC_except_table5949
++ GCC_except_table5964
++ GCC_except_table5967
++ GCC_except_table6188
++ GCC_except_table6191
++ GCC_except_table6195
++ GCC_except_table6221
++ GCC_except_table6524
++ GCC_except_table6560
++ GCC_except_table6569
++ GCC_except_table6693
++ GCC_except_table6777
++ GCC_except_table6845
++ GCC_except_table6846
++ GCC_except_table6869
++ GCC_except_table6926
++ GCC_except_table7026
++ GCC_except_table7103
++ GCC_except_table7135
++ GCC_except_table7146
++ GCC_except_table7183
++ GCC_except_table7337
++ GCC_except_table7347
++ GCC_except_table7358
++ GCC_except_table7364
++ GCC_except_table7466
++ GCC_except_table7506
++ GCC_except_table7582
++ GCC_except_table7669
++ GCC_except_table7794
++ GCC_except_table7800
++ GCC_except_table7807
++ GCC_except_table7852
++ GCC_except_table7855
++ GCC_except_table8201
++ GCC_except_table8215
++ GCC_except_table8225
++ GCC_except_table8409
++ GCC_except_table8414
++ GCC_except_table8429
++ GCC_except_table8537
++ GCC_except_table8540
++ GCC_except_table8752
++ GCC_except_table8784
++ GCC_except_table8809
++ GCC_except_table8894
++ GCC_except_table8975
++ GCC_except_table8989
++ GCC_except_table9002
++ GCC_except_table9056
++ GCC_except_table9132
++ GCC_except_table9159
++ GCC_except_table9199
++ GCC_except_table9200
++ GCC_except_table9236
++ GCC_except_table9298
++ GCC_except_table9401
++ GCC_except_table9457
++ GCC_except_table9458
++ GCC_except_table9483
++ GCC_except_table9484
++ GCC_except_table9488
++ GCC_except_table9510
++ GCC_except_table9514
++ GCC_except_table9515
++ GCC_except_table9531
++ GCC_except_table9542
++ GCC_except_table9564
++ GCC_except_table9649
++ GCC_except_table9665
++ GCC_except_table9666
++ GCC_except_table9675
++ GCC_except_table9683
++ GCC_except_table9867
++ GCC_except_table9878
++ GCC_except_table9882
++ GCC_except_table9883
++ GCC_except_table9980
++ _OBJC_CLASS_$_PXPhotosGridToggleIncludeSharedAlbumAssetsFilterActionPerformer
++ _OBJC_CLASS_$_PXVisualIntelligenceClientActions
++ _OBJC_IVAR_$_PXApplicationState._followsApplicationLifecycle
++ _OBJC_IVAR_$_PXContentFilterState._includeSharedAlbumAssets
++ _OBJC_IVAR_$__PXVisualIntelligenceRequest._clientActions
++ _OBJC_METACLASS_$_PXPhotosGridToggleIncludeSharedAlbumAssetsFilterActionPerformer
++ _OBJC_METACLASS_$_PXVisualIntelligenceClientActions
++ _PHAssetPropertySetCloudShared
++ _PHAssetPropertySetCollectionShare
++ _PLPhotoSharingHelperErrorDomain
++ _PXMemoryCreationRegionalLocalizedString
++ _PXPhotosGridActionToggleIncludeSharedAlbumAssetsFilter
++ _PXShazamEventPageURL
++ __DATA__TtC12PhotosUICore20LemonadeSidebarState
++ __IVARS__TtC12PhotosUICore20LemonadeSidebarState
++ __METACLASS_DATA__TtC12PhotosUICore20LemonadeSidebarState
++ __OBJC_$_CLASS_METHODS_PXPhotosGridToggleIncludeSharedAlbumAssetsFilterActionPerformer
++ __OBJC_$_CLASS_METHODS_PXVisualIntelligenceClientActions
++ __OBJC_$_INSTANCE_METHODS_PXPhotosGridToggleIncludeSharedAlbumAssetsFilterActionPerformer
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_PHPickerViewControllerDelegate
++ __OBJC_CLASS_RO_$_PXPhotosGridToggleIncludeSharedAlbumAssetsFilterActionPerformer
++ __OBJC_CLASS_RO_$_PXVisualIntelligenceClientActions
++ __OBJC_METACLASS_RO_$_PXPhotosGridToggleIncludeSharedAlbumAssetsFilterActionPerformer
++ __OBJC_METACLASS_RO_$_PXVisualIntelligenceClientActions
++ ___113-[PXVisualIntelligenceManager requestVKImageAnalysisForVIWithImage:asset:clientActionsIfSupported:resultHandler:]_block_invoke
++ ___52-[PXSelectionContainer containsNonSharedAlbumAssets]_block_invoke
++ ___block_descriptor_88_e8_32s40s48s56s64bs72r80r_e5_v8?0l
++ ___swift_closure_destructor.1032Tm
++ ___swift_closure_destructor.1050Tm
++ ___swift_closure_destructor.1080Tm
++ ___swift_closure_destructor.1150Tm
++ ___swift_closure_destructor.123Tm
++ ___swift_closure_destructor.131Tm
++ ___swift_closure_destructor.144Tm
++ ___swift_closure_destructor.1450Tm
++ ___swift_closure_destructor.154Tm
++ ___swift_closure_destructor.175Tm
++ ___swift_closure_destructor.197Tm
++ ___swift_closure_destructor.218Tm
++ ___swift_closure_destructor.227Tm
++ ___swift_closure_destructor.235Tm
++ ___swift_closure_destructor.271Tm
++ ___swift_closure_destructor.298Tm
++ ___swift_closure_destructor.307Tm
++ ___swift_closure_destructor.310Tm
++ ___swift_closure_destructor.314Tm
++ ___swift_closure_destructor.319Tm
++ ___swift_closure_destructor.337Tm
++ ___swift_closure_destructor.347Tm
++ ___swift_closure_destructor.352Tm
++ ___swift_closure_destructor.361Tm
++ ___swift_closure_destructor.369Tm
++ ___swift_closure_destructor.370Tm
++ ___swift_closure_destructor.394Tm
++ ___swift_closure_destructor.403Tm
++ ___swift_closure_destructor.448Tm
++ ___swift_closure_destructor.46Tm
++ ___swift_closure_destructor.476Tm
++ ___swift_closure_destructor.482Tm
++ ___swift_closure_destructor.497Tm
++ ___swift_closure_destructor.503Tm
++ ___swift_closure_destructor.504Tm
++ ___swift_closure_destructor.510Tm
++ ___swift_closure_destructor.576Tm
++ ___swift_closure_destructor.65Tm
++ ___swift_closure_destructor.665Tm
++ ___swift_closure_destructor.683Tm
++ ___swift_closure_destructor.695Tm
++ ___swift_closure_destructor.71Tm
++ ___swift_closure_destructor.840Tm
++ ___swift_closure_destructor.870Tm
++ ___swift_get_extra_inhabitant_index.171Tm
++ ___swift_memcpy136_8
++ ___swift_store_extra_inhabitant_index.172Tm
++ ___unnamed_53
++ _associated conformance 12PhotosUICore27LemonadeFeedSectionModifier33_B75AFA59D32DA7B73096626D1A129360LLV7SwiftUI04ViewF0AA4BodyAeFP_AE0P0
++ _associated conformance 12PhotosUICore28SharedAlbumsRowActionButtonsV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 12PhotosUICore30LemonadeFeedTopPaddingModifier33_B75AFA59D32DA7B73096626D1A129360LLV7SwiftUI04ViewG0AA4BodyAeFP_AE0Q0
++ _associated conformance 12PhotosUICore42SharedCollectionRequestAccessToggleSectionV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 12PhotosUICore43SharedCollectionEditableShareOptionsContentV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance So33PXSharedCollectionParticipantRoleVSHSCSQ
++ _get_enum_tag_for_layout_string 12PhotosUICore41SharedCollectionShareOptionsCommitFailureO
++ _get_enum_tag_for_layout_string 12PhotosUICore43SharedCollectionEditableShareOptionsContentV20RequestAccessEditingO
++ _get_witness_table 12PhotosUICore21LemonadeShelfProviderRz7SwiftUI4ViewRd__r__lAC19_ConditionalContentVyAC08ModifiedJ0VyAHyAHyAHyAC6VStackVyAC05TupleJ0Vyqd___AcDP0afB0E19photosLayoutMarginsyQrAC10EdgeInsetsVFQOyAC01_h9Modifier_J0VyAA0cD4Body33_DF1D597E796E93904C758EC862553B19LLV0J10BackgroundVyx_qd__GG_Qo_QPGGAC08_PaddingO0VGAC011_BackgroundS0VyAC06_ShapeH0VyAC16RoundedRectangleVAC5ColorVGGGA3_GA3_GAZGAcDHPA17_AcDHPA16_AcDHPA15_AcDHPA4_AcDHPA1_AcDHPyHC_A3_AC0hS0HPyHCHC_A14_ACA19_HPyHCHC_A3_ACA19_HPyHCHC_A3_ACA19_HPyHCHC_AzcDHPyHCHC
++ _get_witness_table 12PhotosUICore29LemonadeSectionedFeedProviderRzAA0cde7SectionF05Model_4Item5ValueRPzl7SwiftUI15ModifiedContentVyAJyAH6HStackVyAH4ViewPAHE16scrollIndicators_4axesQrAH25ScrollIndicatorVisibilityV_AH4AxisO3SetVtFQOyAN0akB0E02onA15SolariumEnabledyQrqd__xXEAhMRd__lFQOyAJyAJyAH0tP0VyAJyAJyALyAH7ForEachVySaySi6offset_AD_10IdentifierQZ7elementtGA3_AJyAnHE11toggleStyleyQrqd__AH11ToggleStyleRd__lFQOyAH6ToggleVyAH5GroupVyAH012_ConditionalN0VyA13_yAnHE10labelStyleyQrqd__AH10LabelStyleRd__lFQOyAH5LabelVyAH4TextVAH5ImageVG_AW0A28ToggleLabelTitleAndIconStyleVQo_AnHEA14_yQrqd__AHA15_Rd__lFQOyA17_yA19_AJyA21_AH30_EnvironmentKeyWritingModifierVyA21_5ScaleOGGG_A24_Qo_GA19_GGG_AW0A11ToggleStyleVQo_AH23_GeometryActionModifierVy12CoreGraphics7CGFloatVGGGGAH14_PaddingLayoutVGA46_GGAH16_FlexFrameLayoutVGAH11_ClipEffectVyAH7CapsuleVGG_AnHE12_glassEffect_2inQrAH6_GlassV_qd__tAH5ShapeRd__lFQOyA63__A61_Qo_Qo__Qo_GA56_GA46_GAhMHPA73_AhMHPA72_AhMHPyHC_A56_AH0P8ModifierHPyHCHC_A46_AHA75_HPyHCHC
++ _get_witness_table 12PhotosUICore29LemonadeSectionedFeedProviderRzAA0cde7SectionF05Model_4Item5ValueRPzl7SwiftUI6VStackVyAH12TupleContentVyAH08ModifiedO0VyAH6SpacerVAH12_FrameLayoutVGSg_ANy9SubheaderQzAH05_FlexrS0VGSgAH4ViewPAAE08lemonadeE10TopPadding9isEnabledQrSb_tFQOyAJyANyA0_AHE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAH7ForEachVySayAD_10IdentifierQZGA9_ANyA0_AAE0weG00Z5FirstQrSb_tFQOyAA0cd7StackedE033_74F0D0D0C3698197C2DB8115913F948BLLV0gV0Vyx_G_Qo_AH31AccessibilityAttachmentModifierVGG_A10_Qo_AH25_AppearanceActionModifierVGG_Qo_QPGGAHA_HPyHC
++ _get_witness_table 12PhotosUICore34SharedAlbumsAccessRequestItemModelCRbzlqd__7SwiftUI4ViewHD2_AdEP0A12UIFoundationE7pxAlertyQrAD7BindingVySo20PXAlertConfigurationCSgGFQOyAfDE5alert_11isPresented7actions7messageQrqd___AJySbGqd_0_yXEqd_1_yXEtSyRd__AdERd_0_AdERd_1_r1_lFQOyAD15ModifiedContentVyAUyAD6HStackVyAD05TupleX0VyAA08Lemonadecd6AvatarK0V_AD6VStackVyAYyAfDE4helpyQrqd__SyRd__lFQOyAD4TextV_SSQo__AUyAUyAUyAfDE12labelsHiddenQryFQOyAUyAfDE11buttonStyleyQrqd__AD20PrimitiveButtonStyleRd__lFQOyAfDE11pickerStyleyQrqd__AD11PickerStyleRd__lFQOyAD6PickerVyA4_So33PXSharedCollectionParticipantRoleVAD7ForEachVySayA14_GA14_AfDE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyA4__A14_Qo_GG_AD15MenuPickerStyleVQo__AD21BorderlessButtonStyleVQo_AD30_EnvironmentKeyWritingModifierVyAD11ControlSizeOGG_Qo_AD16_FixedSizeLayoutVGAD19_BackgroundModifierVyAUyAD06_ShapeK0VyAD16RoundedRectangleVAD22HierarchicalShapeStyleVGAD14_PaddingLayoutVGSgGGAD20_HoverRegionModifierVGSgQPGGAD6SpacerVAA0cD16RowActionButtonsVQPGGA49_GAD32_EnvironmentKeyTransformModifierVySbGG_SSAYyAD6ButtonVyA4_G_A73_QPGA4_Qo__Qo_HO
++ _get_witness_table 12PhotosUICore36LemonadeCollectionCustomizationModelRzlqd__7SwiftUI4ViewHD2_AcDP01_ah1_gH0E40_photosPickerDisabledPrivateCapabilitiesyQrSo09_PHPickermN0VFQOyAeFE0jK19ContainerIdentifieryQrSSSgFQOyAeFE01_jK10SourceTypeyQrSo01_orS0VFQOyAeFE0jklN0yQrSo0oN0VFQOyAeFE0jK011isPresented9selection17maxSelectionCount0V8Behavior8matching21preferredItemEncoding12photoLibraryQrAC7BindingVySbG_A_ySayAF0aK4ItemVGGSiSgAF0akxZ0V0aH00O6FilterVSgA2_28EncodingDisambiguationPolicyVSo14PHPhotoLibraryCtFQOyAeFEArstuvwxYQrA0__A4_A5_A7_A11_A13_A15_tFQOyAC01_I16Modifier_ContentVyAA0cdeaK8ModifierVyxGG_Qo__Qo__Qo__Qo__Qo__Qo_HO
++ _get_witness_table 7SwiftUI12TupleContentVyAA4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOy12PhotosUICore40SharedCollectionAccessPermissionsSectionV_So08PXSharedmN10PermissionVQo_Sg_AA012_ConditionalD0VyAI0lm7Requestn6ToggleP0VAI0lmtn10ManagementP0VGSgQPGAaDHPAoaDHpqd0__AaDHD3_ANHO_HC_AwaDHpAvaDHPAsaDHPyHC_AuaDHPyHCHC_HCHX_HC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy12PhotosUICore019LemonadeFeedSectionF033_B75AFA59D32DA7B73096626D1A129360LLVGAA022_EnvironmentKeyWritingF0Vy12CoreGraphics7CGFloatVSgGGAA0E0HPAjaSHPyHC_AqA0eF0HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewP12PhotosUICoreE22lemonadeFeedTopPadding9isEnabledQrSb_tFQOyAF19LazyOrRegularVStackVyAA7ForEachVySayAF22LemonadeFeatureLibraryC5ShelfOGAF0tW10IdentifierOAeFE0hI7Section0L5FirstQrSb_tFQOyAA0Q0VyAA012_ConditionalD0VyAYyAYyAYyAF0tW0VyAF0t6PickerW15ProviderAdapterVyAF0t6AlbumsU0V0W8ProviderV0faG00F15ObservableAlbumCyAF12PhotoKitItemCySo12PHCollectionCGGA6_0F15PickerItemModelHPA13_A6_A15_HPA12_A6_A15_AFyHC_HC_HCg1_A13_A6_A15_HPA12_A6_A15_AFyHC_HCg3_GGA_yA1_yAF0t9BookmarksU0VA4_VGGGAYyA_yA1_yAF0t12SharedAlbumsU0VA4_VA8_yA10_ySo17PHAssetCollectionCGGA6_A15_HPA29_A6_A15_HPA28_A6_A15_AFyHC_HC_HCg1_A29_A6_A15_HPA28_A6_A15_AFyHC_HCg3_GGA_yA1_yAF0t6PeopleW8ProviderVGGGGAYyAYyA_yA1_yAF0t12SocialGroupsW8ProviderVGGA_yA1_yAF0t6EventsU0VA4_VA6_0F15ObservableEventCy0F12UIFoundation0F16ConcatenatedItemOyA29_A29_A29_GA51_A6_0F17MutableCollectionAFA29_A6_A52_HPyHC_A29_A6_A52_HPyHCA29_A6_A52_HPyHCHCg_A51_A48_0F14SelectableItemAFA29_A48_A53_HPyHC_A29_A48_A53_HPyHCA29_A48_A53_HPyHCHCg1_GA6_A15_HPA51_A6_A15_AFA29_A6_A15_HPA28_A6_A15_AFyHC_HC_A29_A6_A15_HPA28_A6_A15_AFyHC_HCA29_A6_A15_HPA28_A6_A15_AFyHC_HCHC_HCg1_A51_A6_A15_AFA29_A6_A15_HPA28_A6_A15_AFyHC_HC_A29_A6_A15_HPA28_A6_A15_AFyHC_HCA29_A6_A15_HPA28_A6_A15_AFyHC_HCHCg3_A51_A48_A53_AFA29_A48_A53_HPyHC_A29_A48_A53_HPyHCA29_A48_A53_HPyHCHCg4_GGGAYyA_yA1_yAF0t5TripsU0VA4_VA6_0F14ObservableTripCyA29_GA6_A15_HPA29_A6_A15_HPA28_A6_A15_AFyHC_HC_HCg1_A29_A6_A15_HPA28_A6_A15_AFyHC_HCg3_GGA_yA1_yAF0t8MemoriesU0VA4_VA6_0F16ObservableMemoryCyA10_ySo8PHMemoryCGGA6_A15_HPA73_A6_A15_HPA72_A6_A15_AFyHC_HC_HCg1_A73_A6_A15_HPA72_A6_A15_AFyHC_HCg3_GGGGGAYyAYyA_yA1_yAF0t10MediaTypesU0VA4_VA6_0F23ObservableListCellModelCyA29_GA6_A15_HPA29_A6_A15_HPA28_A6_A15_AFyHC_HC_HCg1_A29_A6_A15_HPA28_A6_A15_AFyHC_HCg3_GGA_yA1_yAF0t9UtilitiesU0VA4_VA85_A6_A15_HPA29_A6_A15_HPA28_A6_A15_AFyHC_HC_HCg1_A29_A6_A15_HPA28_A6_A15_AFyHC_HCg3_GGGAYyA_yA1_yAF0t11SuggestionsU0VA4_VA6_0F20ObservableCollectionCyA29_GA6_A15_HPA29_A6_A15_HPA28_A6_A15_AFyHC_HC_HCg1_A29_A6_A15_HPA28_A6_A15_AFyHC_HCg3_GGAA05EmptyE0VGGGG_Qo_GG_Qo_AA25_AppearanceActionModifierVGAaDHPqd__AaDHD2_A111_HO_A113_AA0E8ModifierHPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQOyAA6HStackVyAA05TupleD0VyAeAE4helpyQrqd__SyRd__lFQOyAA0I0VyACyAA5GroupVyAA012_ConditionalD0VyACyAA08ProgressE0VyAA05EmptyE0VAVGAA30_EnvironmentKeyWritingModifierVyAA11ControlSizeOGGAeAE10fontWeightyQrAA4FontV0X0VSgFQOyACyAeAE05labelG0yQrqd__AA05LabelG0Rd__lFQOyAA5LabelVyAA4TextVAA5ImageVG_AA013IconOnlyLabelG0VQo_AYyA4_SgGG_Qo_GGAA12_FrameLayoutVGG_SSQo__AeAEALyQrqd__SyRd__lFQOyAeAEAFyQrqd__AaGRd__lFQOyA29__AA017BorderedProminentiG0VQo__SSQo_QPGG_AA08BorderediG0VQo_AYyAA0I11BorderShapeVGGAaDHPqd0__AaDHD3_A39_HO_A42_AA0eT0HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAeAE7toolbar7contentQrqd__yXE_tAaDRd__lFQOyAeAE0K4RoleyQrAA07ToolbarM0VFQOyAA6VStackVyAA05TupleD0VyACyACyARyATy12PhotosUICore37LemonadeSharedAlbumsAccessRequestListV_AU0stu10InvitationX0VQPGGAA16_FlexFrameLayoutVGAA14_PaddingLayoutVG_AU0stU18ActivityFeedLayoutVyAU0tU8PostFeedVGQPGG_Qo__ACyAA6ButtonVyACyAA5ImageVAA16_OverlayModifierVyACyACyAA06_ShapeE0VyAA6CircleVAA5ColorVGAA12_FrameLayoutVGAA13_OffsetEffectVGSgGGGAA31AccessibilityAttachmentModifierVGQo__Qo_AA25_AppearanceActionModifierVGAaDHPqd__AaDHD2_A41_HO_A43_AA0E8ModifierHPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyACyAeAEAfgH_Qrqd___Sbyqd___qd__tctSQRd__lFQOy12PhotosUICore19LazyOrRegularVStackVyAA7ForEachVySayAI22LemonadeFeatureLibraryC5ShelfOGAI0rU10IdentifierOACyAeAE0F4DropAG8delegateQrSay22UniformTypeIdentifiers6UTTypeVG_AA0W8Delegate_ptFQOyAeAE0F4Drag9isEnabled12localContext_0F9LiftEvent0F12SessionBegan0F12SessionEndedQrSb_ypSgSo14NSItemProviderCycyAA13DragLiftEventOcSgyycSgA12_tFQOyAeAE15sensoryFeedback_7triggerQrAA15SensoryFeedbackV_qd__tSQRd__lFQOyACyACyACyACyACyACyAeIE19lemonadeFeedSection7isFirstQrSb_tFQOyACyAA0O0VyAE0jaK0E19photosLoadingStatus2id6status19requiredChildrenIDsQrs11AnyHashableV_A21_0J13LoadingStatusOSgSayA27_GSgtFQOyAA012_ConditionalD0VyA34_yA34_yA34_yA34_yAI0rU0VyAI0r6AlbumsS0V0U8ProviderVGA34_yA36_yAI0r12SharedAlbumsS0V05PostsU8ProviderVGA36_yA43_A39_VGGGA34_yA36_yAI0r20SharedAlbumsActivityS0VA39_VGA36_yAI0r6PeopleU8ProviderVGGGA34_yA34_yA36_yAI0r12SocialGroupsU8ProviderVGA36_yAI0r6EventsS0VA39_VGGA34_yA36_yAI0r5TripsS0VA39_VGA36_yAI0R19ConcatenatedUIShelfVyAI0r8MemoriesS0VA39_VGGGGGA34_yA34_yA34_yA36_yAI0r8FeaturedjS0VA39_VGA36_yAI0r3MapS0VA39_VGGA34_yA36_yAI0r11ICloudLinksU8ProviderVGA36_yAI0r13NotificationsS0VA39_VGGGA34_yA34_yA36_yAI0r10PhototypesS0VA39_VGA36_yAI0r10MediaTypesS0VA39_VGGA34_yA36_yAI0r9UtilitiesS0VA39_VGA36_yAI0r9BookmarksS0VA39_VGGGGGA34_yA36_yAI0r11SuggestionsS0VA39_VGA36_yAI0r23SearchCollectionResultsU8ProviderVGGG_Qo_GAA30_EnvironmentKeyWritingModifierVyAI0rU16HeaderAppearanceCSgGG_Qo_A133_yAI0ruE5ModelCGGA133_ySbGGA133_yAI0R18ShelvesLayoutStyleOGGA133_yAI0r7ShelvesE17ModelDisplayStateOGGAA18_AnimationModifierVyA147_GGAA14_OpacityEffectVG_SbQo__Qo__Qo_AI011ReorderableU13Accessibility33_135EDFD9F379616E5B1D16C4C1BF8BC9LLVGSgGG_SayATGQo_AA25_AppearanceActionModifierVG_ATSgQo_A155_yA171_GGAaDHPqd0__AaDHD3_A177_HO_A178_AA0E8ModifierHPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA014_ViewModifier_D0Vy12PhotosUICore022LemonadeFeedTopPaddingF033_B75AFA59D32DA7B73096626D1A129360LLVGAA01_L6LayoutVGAA022_EnvironmentKeyWritingF0VySbGGAA0E0HPAmaRHPAjaRHPyHC_AlA0eF0HPyHCHC_ApaSHPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACy12PhotosUICore25LemonadeSpecsProviderViewVyAD0g4RootJ5ModelCAD0g12PresentationK0VyAA6ZStackVyACy0eaF00e14TestableScrollJ6ReaderVyAA0J0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAqAEArsT_Qrqd___SbyyctSQRd__lFQOyAqAEArsT_Qrqd___SbyyctSQRd__lFQOyAqAEArsT_Qrqd___SbyyctSQRd__lFQOyAqAE22scrollEdgeEffectHidden_3forQrSb_AA0W0O3SetVtFQOyACyAqME020photosInlinePlaybackpJ7Tracker0rp8PhaseDidS0QryAA0P5PhaseO_A2_AA0p5PhaseS7ContextVtcSg_tFQOyAD0gkpJ033_FC9B67BC9B15E9E7B2BBF74E02965051LLVyACyAA6VStackVyAA05TupleD0VyAA6IDViewVyAA05EmptyJ0VSSG_ACyAD0g24ExpandableCuratedLibraryJ0VAA14_PaddingLayoutVGSgACyACyAqDE22lemonadeFeedTopPadding9isEnabledQrSb_tFQOyA10_yAD0G12ShelvesStackVSgG_Qo_AD0G30ExpandableCuratedLibraryOffsetA7_LLVGAD0g13AccessibilityY0VGQPGGA21_GG_Qo_AA30_SafeAreaRegionsIgnoringLayoutVG_Qo__SiQo__SiQo__SiQo__AH0P7RequestVSgQo_GA43_GGGGAD0G33InlinePlaybackEnvironmentModifierA7_LLVGAA30_EnvironmentKeyWritingModifierVyAM0E22ItemListManagerFactoryCGGA62_ySo14PHPhotoLibraryCSgGGAA24_CoordinateSpaceModifierVySSGGAaPHPA71_AaPHPA66_AaPHPA60_AaPHPA57_AaPHPyHC_A59_AA0J8ModifierHPyHCHC_A65_AAA76_HPyHCHC_A70_AAA76_HPyHCHC_A74_AAA76_HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyACyACyACyAA4ViewP12PhotosUICoreE25observingSceneOrientation14viewControllerQrSo06NSViewL0C_tFQOyAF021LemonadeSpecsProviderE0VyAF0N8FeedSpecCAF0N16PresentationRootVyAF0n21NavigationDestinationE0VGG_Qo_AA30_EnvironmentKeyWritingModifierVy0F12UIFoundation0F19WeakObjectReferenceVyAJGSgGGAWyAF0nU7ContextCSgGGAWySo09PXUIImageP0_pSgGGAWySo14PHPhotoLibraryCSgGGAWy0faG00F13ActionManagerCGGAWyAX0F9Selection_pGGAWyAF19PickerConfigurationCSgGGAWySdSgGGAWySbGGSgAaDHpA34_AaDHPA32_AaDHPA29_AaDHPA24_AaDHPA21_AaDHPA16_AaDHPA11_AaDHPA7_AaDHPA2_AaDHPqd__AaDHD2_AUHO_A1_AA0eZ0HPyHCHC_A6_AAA36_HPyHCHC_A10_AAA36_HPyHCHC_A15_AAA36_HPyHCHC_A20_AAA36_HPyHCHC_A23_AAA36_HPyHCHC_A28_AAA36_HPyHCHC_A31_AAA36_HPyHCHC_A33_AAA36_HPyHCHC_HC
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx12PhotosUICore27LemonadeFeedSectionModifier33_B75AFA59D32DA7B73096626D1A129360LLVGAaBHPxAaBHD1__AhA0cK0HPyHCHC
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx12PhotosUICore30LemonadeFeedTopPaddingModifier33_B75AFA59D32DA7B73096626D1A129360LLVGAaBHPxAaBHD1__AhA0cL0HPyHCHC
++ _get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD5_AaBPAAE5alert_11isPresented10presenting7actions7messageQrqd___AA7BindingVySbGqd_2_Sgqd_0_qd_2_XEqd_1_qd_2_XEtSyRd__AaBRd_0_AaBRd_1_r2_lFQOyx_SSAcAE16keyboardShortcutyQrAA08KeyboardL0VFQOyAA6ButtonVyAA4TextVG_Qo_AS12PhotosUICore41SharedCollectionShareOptionsCommitFailureOQo_HO
++ _get_witness_table 7SwiftUI7ForEachVySaySSGSSAA12TupleContentVyAA08ModifiedF0VyAHy12PhotosUICore26SharedAlbumsInvitationCellVAA16_FlexFrameLayoutVGAA08_PaddingP0VG_AA7DividerVQPGSgGAA4ViewHPAuaWHpAtaWHPAqaWHPAnaWHPAkaWHPyHC_AmA0S8ModifierHPyHCHC_ApaXHPyHCHC_AsaWHPyHCHX_HC_HC_HC
++ _get_witness_table 7SwiftUI7SectionVyAA9EmptyViewVAA0E0PAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaFRd__lFQOyAgAE11buttonStyleyQrqd__AA015PrimitiveButtonN0Rd__lFQOyAA0P0VyAA15ModifiedContentVyAA6HStackVyAA05TupleR0VyAA4TextV_AA6SpacerV12PhotosUICore37SharedAlbumsPendingRequestsCountBadgeVQPGGAA01_R13ShapeModifierVyAA9RectangleVGGG_AA05PlainpN0VQo__AUyAUyA2_08Lemonadeyz18AccessRequestsListE0VAA12_FrameLayoutVGAA16_FixedSizeLayoutVGQo_AEGSgAaFHpA26_AaFHPAeaFHPyHC_qd0__AaFHD3_A25_HOAeaFHPyHCHC_HC
++ _get_witness_table 7SwiftUI7SectionVyAA9EmptyViewVAA6ToggleVyAA6VStackVyAA4TextVGGAKGAA0E0HPAeaOHPyHC_AmaOHPyHCAkaOHPyHCHC
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQOyAA15ModifiedContentVyAcAE16keyboardShortcutyQrAA08KeyboardK0VFQOyAGyAA0G0VyAA6ZStackVyAA05TupleI0VyAGyAA4TextVAA14_OpacityEffectVG_AGyAA08ProgressC0VyAA05EmptyC0VAYGAA30_EnvironmentKeyWritingModifierVyAA11ControlSizeOGGSgQPGGGAA01_tu9TransformW0VySbGG_Qo_AA023AccessibilityAttachmentW0VG_AA017BorderedProminentgE0VQo_HO
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAcAEAdefGQrAJ_AKqd__yctAaBRd__lFQOyAA15ModifiedContentVyAA6VStackVyAA05TupleL0VyAMyAMyAcAE0I7Margins__3forQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgAA0L15MarginPlacementVtFQOyAMyAcAE06scrollL10BackgroundyQrAA10VisibilityOFQOyAcAE9formStyleyQrqd__AA9FormStyleRd__lFQOyAcAE20listHasStackBehaviorQryFQOyAA4FormVyAQyAA7SectionVyAA05EmptyC0VAMyAMyAMyAMyAMyAcAE4boldyQrSbFQOyAMyAcAE12labelsHiddenQryFQOyAA9TextFieldVyAA4TextVG_Qo_AA30_EnvironmentKeyWritingModifierVyAA4FontVSgGG_Qo_A23_ySiSgGGA23_yAA13TextAlignmentOGGAA14_PaddingLayoutVGAA32_EnvironmentKeyTransformModifierVySbGGA23_yAA5ColorVSgGGA13_G_12PhotosUICore21ToggleSettingsSectionVSgA50_37LemonadeSharedAlbumsAccessRequestsRowVSgAA012_ConditionalL0VyA58_yA50_20FamilyMembersSectionVA50_36LegacySharedAlbumParticipantsSectionVGAQyA50_35SharedCollectionParticipantsSectionV_A50_35SharedCollectionShareActionsSectionVAcAE0G6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyA50_036SharedCollectionEditableShareOptionsL0V_So34PXSharedCollectionAccessPermissionVQo_SgQPGGSgAQyA50_27ExpirationManagementSection33_C6699F8479B62BB7D697BA3165AD7848LLVSg_A53_A50_16MigrationSectionVSgA50_35SharedCollectionDeclinedRequestsRowVSgA50_29RemoveUnusedShareLinksSectionVSgA50_18DeleteAlbumSectionVA11_yA13_AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAA6ButtonVyAA6HStackVyAQyA19__AA6SpacerVQPGGG_AA16PlainButtonStyleVQo_A13_GSgQPGSgQPGG_Qo__AA16GroupedFormStyleVQo__Qo_A42_G_Qo_A38_GAA25_AppearanceActionModifierVG_AMyAMyA50_022SharedCollectionStatusC0VAA12_FrameLayoutVGAA12_ScaleEffectVGSgA102_QPGGAA01_Y13StyleModifierVyA45_GG_AMyAA010NavigationC0VyAcAE7toolbarAGQrqd__yXE_tAA07ToolbarL0Rd__lFQOyA50_027SharedCollectionDebugStatusC0V_AQyAA11ToolbarItemVyytA127_G_A148_yytA98_yAA18DefaultButtonLabelVGGQPGQo_GAA16_FlexFrameLayoutVGSgQo__AMyA50_38SharedAlbumParticipantSearchControllerVA129_GQo_HO
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAC18PhotosUIFoundationE7pxAlertyQrAA7BindingVySo20PXAlertConfigurationCSgGFQOyAA15ModifiedContentVyAcAE11safeAreaBar4edge9alignment7spacing7contentQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQOyAcAE06scrollY11EffectStyle_3forQrAA06ScrollY11EffectStyleVSg_AA0Y0O3SetVtFQOyAcAE06scrollP10BackgroundyQrAA10VisibilityOFQOyAcAE9formStyleyQrqd__AA9FormStyleRd__lFQOyAA4FormVyAPy0H6UICore034LemonadeSharedAlbumsAccessRequestsC0VAA14_PaddingLayoutVGG_AA16GroupedFormStyleVQo__Qo__Qo__APyAPyAPyAPyAA4TextVAA16_FlexFrameLayoutVGA22_GA22_GA22_GQo_AA06_InsetC8ModifierVyAA6VStackVyAA05TupleP0VyAA7DividerV_APyAPyAPyAA6HStackVyA44_yAA6SpacerV_AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAA6ButtonVyAA18DefaultButtonLabelVG_AA28BorderedProminentButtonStyleVQo_QPGGA22_GA22_GAA24_BackgroundStyleModifierVyAA5ColorVGGQPGGGG_Qo__SiQo_HO
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAE23scrollContentBackgroundyQrAA10VisibilityOFQOyAcAE9formStyleyQrqd__AA04FormM0Rd__lFQOyAcAE15navigationTitleyQrqd__SyRd__lFQOyAA0N0Vy12PhotosUICore42SharedCollectionBlockedParticipantsSectionVG_SSQo__AA07GroupednM0VQo__Qo__SaySo24PXSharedAlbumParticipantCGQo_HO
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOy12PhotosUICore42SharedCollectionRequestAccessToggleSectionV_SbQo__SbQo_HO
++ _get_witness_table qd0__7SwiftUI4ViewHD4_AaBPAAE5alert_11isPresented7actionsQrqd___AA7BindingVySbGqd_0_yXEtSyRd__AaBRd_0_r0_lFQOyAA15ModifiedContentVyAKyAA6HStackVyAA05TupleJ0Vy12PhotosUICore026LemonadeSharedAlbumsAvatarC0VSg_AA6VStackVyAOyAcAE4helpyQrqd__SyRd__lFQOyAKyAA4TextVAA16_FixedSizeLayoutVG_SSQo__AcAE12onTapGesture5count7performQrSi_yyctFQOyAX_Qo_SgQPGGAA6SpacerVAP0pQ16RowActionButtonsVQPGGAA08_PaddingX0VGAA25_AllowsHitTestingModifierVG_SSAA012_ConditionalJ0VyA21_yAA6ButtonVyAXGAOyA24__A24_QPGGA25_GQo_HO
++ _get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE5alert_11isPresented10presenting7actions7messageQrqd___AA7BindingVySbGqd_2_Sgqd_0_qd_2_XEqd_1_qd_2_XEtSyRd__AaBRd_0_AaBRd_1_r2_lFQOyAA7ForEachVySaySSGSSAA12TupleContentVyAA08ModifiedN0Vy12PhotosUICore37LemonadeSharedAlbumsAccessRequestCellVyAT0stuV9ItemModelCGAA14_PaddingLayoutVG_AA7DividerVQPGSgG_SSAQyAA6ButtonVyAA4TextVG_A10_QPGA9_AT07DeclineV0VQo_HO
++ _get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAcAEAD_AefGQrqd___AJqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAcAEAD_AE10presentingAfGQrqd___AJqd_2_Sgqd_0_qd_2_XEqd_1_qd_2_XEtSyRd__AaBRd_0_AaBRd_1_r2_lFQOyAcAEAD_AekfGQrqd___AjLqd_0_qd_2_XEqd_1_qd_2_XEtSyRd__AaBRd_0_AaBRd_1_r2_lFQOyAcAE15navigationTitleyQrqd__SyRd__lFQOyAA15ModifiedContentVyAcAE11safeAreaBar4edge9alignment7spacing7contentQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQOyAcAE06scrollW11EffectStyle_3forQrAA06ScrollW11EffectStyleVSg_AA0W0O3SetVtFQOyAOyAOyAcAE06scrollN10BackgroundyQrAA10VisibilityOFQOyAcAE9formStyleyQrqd__AA9FormStyleRd__lFQOyAA4FormVyAA7ForEachVySay06PhotosA6UICore21PhotosObservableAlbumCy12PhotosUICore12PhotoKitItemCySo17PHAssetCollectionCGGGSOAOyAA6HStackVyAA05TupleN0VyAOyAOyA22_23LemonadeSharedAlbumCellVyA28_AA05EmptyC0VGAA12_FrameLayoutVGAA30_EnvironmentKeyWritingModifierVyA19_15PhotosCellSpecsVGG_AA6SpacerVA31_yA33_yAA6ButtonVyAA4TextVG_AOyA54_AA24_ForegroundStyleModifierVyAA5ColorVGGQPGGQPGGAA01_Y15WritingModifierVGSgGG_AA16GroupedFormStyleVQo__Qo_A43_yA22_014LemonadeAlbumsC12OptionsModelCGGA43_ySo17PXUIImageProvider_pSgGG_Qo__AOyAOyAOyAOyA53_AA16_FlexFrameLayoutVGAA14_PaddingLayoutVGA88_GA88_GQo_AA06_InsetC8ModifierVyAA6VStackVyA33_yAA7DividerV_AOyAOyAOyA31_yA33_yA49__AcAE16keyboardShortcutyQrAA16KeyboardShortcutVFQOyAcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyA51_yAA18DefaultButtonLabelVG_AA28BorderedProminentButtonStyleVQo__Qo_QPGGA88_GA88_GAA24_BackgroundStyleModifierVyA58_GGQPGGGG_SSQo__SSA33_yA54__AcAEA99_yQrA101_FQOyA54__Qo_QPGA53_A28_Qo__SSA33_yA54__A54_QPGA53_A28_Qo__SSA54_A53_Qo__SSA54_A53_Qo_HO
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBP07_Photosb1_aB0E32photosPickerDisabledCapabilitiesyQrSo08PHPickerH0VFQOyAcDE01_efg7PrivateH0yQrSo01_ijH0VFQOyAcDE0eF19ContainerIdentifieryQrSSSgFQOyAcDE0eF011isPresented9selection17maxSelectionCount0O8Behavior8matching21preferredItemEncoding12photoLibraryQrAA7BindingVySbG_AVySayAD0dfV0VGGSiSgAD0dfqS0V0dB00I6FilterVSgAY0W20DisambiguationPolicyVSo07PHPhotoY0CtFQOyAA15ModifiedContentVyA12_y0D6UICore23SharedAlbumPreviewImageVAA16_OverlayModifierVyA12_yA12_yAcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAcAE9menuStyleyQrqd__AA9MenuStyleRd__lFQOyA12_yAA4MenuVyA12_yA12_yA12_yA12_yAA5ImageVAA12_FrameLayoutVGAA34_InsettableBackgroundShapeModifierVyAA5ColorVAA6CircleV6_InsetVGGAA24_ForegroundStyleModifierVyAA14TintShapeStyleVGGAA31AccessibilityAttachmentModifierVGAA12TupleContentVyAA6ButtonVyAA4TextVG_A12_yA54_AA32_EnvironmentKeyTransformModifierVySbGGQPGGAA14_PaddingLayoutVG_AA15ButtonMenuStyleVQo__AA16PlainButtonStyleVQo_A40_yAA14LinkShapeStyleVGGAA30_EnvironmentKeyWritingModifierVyAA10VisibilityOGGSgGGAA11_ClipEffectVyAA9RectangleVGG_Qo__Qo__Qo__Qo_HO
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBP12PhotosUICoreE30shareOptionsCommitFailureAlertyQrAA7BindingVyAD021SharedCollectionShareghI0OSgGFQOyAcAE13onExitCommand7performQryycSg_tFQOyAA15ModifiedContentVyAcAE0O6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAE26interactiveDismissDisabledyQrSbFQOyAPyAPyAcAE11safeAreaBar4edge9alignment7spacing7contentQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQOyAA6VStackVyAcAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQOyAcAE21scrollEdgeEffectStyle_3forQrAA21ScrollEdgeEffectStyleVSg_AA4EdgeOA14_VtFQOyAA06ScrollC0VyAD014SettingsScrollT033_C6699F8479B62BB7D697BA3165AD7848LLVG_Qo__Qo_G_APyAPyAPyAPyAA4TextVAA16_FlexFrameLayoutVGAA14_PaddingLayoutVGA39_GA39_GQo_AA06_InsetC8ModifierVyA7_yAA05TupleT0VyAA7DividerV_APyAPyAPyAA6HStackVyA47_yAA6SpacerV_AD18SettingsDoneButtonA27_LLVQPGGA39_GA39_GAA24_BackgroundStyleModifierVyAA5ColorVGGQPGGGGA64_G_Qo__SbQo_AD017LemonadeAnalyticsC11TimeTrackerVG_Qo__Qo_HO
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE18scrollClipDisabledyQrSbFQOy06PhotosA6UICore0g14TestableScrollC0VyAC0gH0E08lemonadeJ13ActionHandler0dC5Proxy0dL6SourceQrAA0jcN0V_AH08LemonadejlO0_ptFQOyAcEE18photosKeySelectionAJQrAM_tFQOyAA15ModifiedContentVyAcHE0K14FeedTopPadding9isEnabledQrSb_tFQOyAA6VStackVyAA05TupleU0VyAH0P26PeopleHomeSuggestionBannerV_AH0P22PeopleHomeGroupSectionVSgAH0P23PeopleHomePeopleSectionVSgAUyAWyAH0p16PeopleProcessingC0VSg_AA6SpacerVQPGGQPGG_Qo_AA012_EnvironmentR15WritingModifierVyAH0pv8ContentswX4KindOGG_Qo__Qo_G_Qo_HO
++ _objc_msgSend$addAssets:toSharedCollection:batchComment:assetCreationOptions:completionHandler:
++ _objc_msgSend$clientActions
++ _objc_msgSend$containsSharedAlbumAssets
++ _objc_msgSend$controlCharacterSet
++ _objc_msgSend$enumerateAvailableThumbnailDataFormats:
++ _objc_msgSend$eventActionForEventInfo:
++ _objc_msgSend$eventID
++ _objc_msgSend$eventTitle
++ _objc_msgSend$fetchUnreadNotificationEntriesWithLastSeenDate:eventLogDate:options:
++ _objc_msgSend$fetchUnreadNotificationEntriesWithOptions:lastSeenDate:eventLogDate:
++ _objc_msgSend$hasAnyInsertionsRemovalsOrMoves
++ _objc_msgSend$includeSharedAlbumAssets
++ _objc_msgSend$initForVIWithAsset:image:clientActions:requestID:resultHandler:
++ _objc_msgSend$initWithApplication:isExtension:followsApplicationLifecycle:
++ _objc_msgSend$setClientActions:
++ _objc_msgSend$setIncludeSharedAlbumAssets:
++ _objc_msgSend$setPrimaryButtonType:
++ _objc_msgSend$setWantsSensitiveWarningBadge:
++ _objc_msgSend$supportsClientActions
++ _symbolic Sb13canChangeRole_Sb0a10SetManagerC0tSg
++ _symbolic SbSo17PHAssetCollectionCSgSbIegygy_
++ _symbolic Shy_____G 12PhotosUICore20LemonadeBookmarkCore33_57F4DB02278DC0A660049C9A0E47640BLLV
++ _symbolic Si5Model______10Identifier_____QZ_____y_____y_____y_____y_____yAIy_____y_____y__________G______Qo______yAJyAkFyAL_____y_____GGG_ANQo_GAKGGG______Qo______y_____GGIegynr_ 12PhotosUICore24LemonadeItemViewProviderP 0A12UIFoundation0A5ModelP 7SwiftUI15ModifiedContentV AG0E0PAGE11toggleStyleyQrqd__AG06ToggleN0Rd__lFQO AG0O0V AG5GroupV AG012_ConditionalL0V AkGE05labelN0yQrqd__AG05LabelN0Rd__lFQO AG0S0V AG4TextV AG5ImageV 0aiB00aos12TitleAndIconN0V AkGEATyQrqd__AgURd__lFQO AG30_EnvironmentKeyWritingModifierV A_5ScaleO A0_0aoN0V AG23_GeometryActionModifierV 12CoreGraphics7CGFloatV
++ _symbolic Si6offset_5Model______10Identifier_____QZ7elementt 12PhotosUICore24LemonadeItemViewProviderP 0A12UIFoundation0A5ModelP
++ _symbolic _____ 12PhotosUICore04$s12A124UICore0035LemonadeSegmentedControlswift_IgGGkfMX655_0_33_5FC9D43E1B0AF02010EFC9E7AD585C06Ll7PreviewfMf_15PreviewRegistryfMu_V
++ _symbolic _____ 12PhotosUICore20LemonadeSidebarStateC
++ _symbolic _____ 12PhotosUICore25LemonadeSidebarVisibleKey33_9F05E9FED19B2493E7B498F8B3937757LLV
++ _symbolic _____ 12PhotosUICore25SharedAlbumSheetViewSpecsO
++ _symbolic _____ 12PhotosUICore27LemonadeFeedSectionModifier33_B75AFA59D32DA7B73096626D1A129360LLV
++ _symbolic _____ 12PhotosUICore28SharedAlbumsRowActionButtonsV
++ _symbolic _____ 12PhotosUICore30LemonadeFeedTopPaddingModifier33_B75AFA59D32DA7B73096626D1A129360LLV
++ _symbolic _____ 12PhotosUICore36LemonadeSegmentedControlVisibleWidthO
++ _symbolic _____ 12PhotosUICore41SharedCollectionShareOptionsCommitFailureO
++ _symbolic _____ 12PhotosUICore42SharedCollectionRequestAccessToggleSectionV
++ _symbolic _____ 12PhotosUICore43SharedCollectionEditableShareOptionsContentV
++ _symbolic _____ 12PhotosUICore43SharedCollectionEditableShareOptionsContentV20RequestAccessEditingO
++ _symbolic _____ 17PhotosSwiftUICore0A20SectionPickerContextV4ItemV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV12PhotosUICoreE36__Key_lemonadeFeedProvidesTopPadding33_B75AFA59D32DA7B73096626D1A129360LLV
++ _symbolic _____Sg 12PhotosUICore41SharedCollectionShareOptionsCommitFailureO
++ _symbolic ______pSgXw So25PXPresentationEnvironmentP
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAy_____y_____y__________y_____GG_Qo______y_____ySo16NSViewControllerCGSgGGAIy_____SgGGAIy______pSgGGAIySo14PHPhotoLibraryCSgGGAIy_____GGAIy______pGGAIy_____SgGGAIySdSgGGAIySbGGSg 7SwiftUI15ModifiedContentV AA4ViewP12PhotosUICoreE25observingSceneOrientation14viewControllerQrSo06NSViewL0C_tFQO AF021LemonadeSpecsProviderE0V AF0N8FeedSpecC AF0N16PresentationRootV AF0n21NavigationDestinationE0V AA30_EnvironmentKeyWritingModifierV 0F12UIFoundation0F19WeakObjectReferenceV AF0nU7ContextC So09PXUIImageP0P 0faG00F13ActionManagerC AU0F9SelectionP AF19PickerConfigurationC
++ _symbolic _____yAAyAAyAAy_____y__________y_____yAAy_____y_____y_____y_____y_____y_____yAAy_____y_____yAAy_____y_____y_____y_____SSG_AAy__________GSgAAyAAy_____yAHy_____SgG_Qo______G_____GQPGGANGG_Qo______G_Qo__SiQo__SiQo__SiQo_______SgQo_GA2_GGGG_____G_____y_____GGA18_ySo14PHPhotoLibraryCSgGG_____ySSGG 7SwiftUI15ModifiedContentV 12PhotosUICore25LemonadeSpecsProviderViewV AD0g4RootJ5ModelC AD0g12PresentationK0V AA6ZStackV 0eaF00e14TestableScrollJ6ReaderV AA0J0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AqAEArsT_Qrqd___SbyyctSQRd__lFQO AqAEArsT_Qrqd___SbyyctSQRd__lFQO AqAEArsT_Qrqd___SbyyctSQRd__lFQO AqAE22scrollEdgeEffectHidden_3forQrSb_AA0W0O3SetVtFQO AqME020photosInlinePlaybackpJ7Tracker0rp8PhaseDidS0QryAA0P5PhaseO_A2_AA0p5PhaseS7ContextVtcSg_tFQO AD0gkpJ033_FC9B67BC9B15E9E7B2BBF74E02965051LLV AA6VStackV AA05TupleD0V AA6IDViewV AA05EmptyJ0V AD0g24ExpandableCuratedLibraryJ0V AA14_PaddingLayoutV AqDE22lemonadeFeedTopPadding9isEnabledQrSb_tFQO AD0G12ShelvesStackV AD0G30ExpandableCuratedLibraryOffsetA7_LLV AD0g13AccessibilityY0V AA30_SafeAreaRegionsIgnoringLayoutV AH0P7RequestV AD0G33InlinePlaybackEnvironmentModifierA7_LLV AA30_EnvironmentKeyWritingModifierV AM0E22ItemListManagerFactoryC AA24_CoordinateSpaceModifierV
++ _symbolic _____yAAy_____y_____G_____G_____ySbGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 12PhotosUICore022LemonadeFeedTopPaddingF033_B75AFA59D32DA7B73096626D1A129360LLV AA01_L6LayoutV AA022_EnvironmentKeyWritingF0V
++ _symbolic _____yAAy_____y_____y_____yAAyAAy_____yAAyAAyABy_____ySaySi6offset_5Model______10Identifier_____QZ7elementtGAjAy_____y_____y_____y_____yAOy_____y_____y__________G______Qo______yAPyAqAyAR_____y_____GGG_ATQo_GAQGGG______Qo______y_____GGGG_____GA8_GG_____G_____y_____GG______yA21__A19_Qo_Qo__Qo_GA16_GA8_G 7SwiftUI15ModifiedContentV AA6HStackV AA4ViewPAAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQO AG06PhotosA6UICoreE02onO15SolariumEnabledyQrqd__xXEAaFRd__lFQO AA0jF0V AA7ForEachV 0oP0012LemonadeItemF8ProviderP 0O12UIFoundation0O5ModelP AgAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA5GroupV AA012_ConditionalD0V AgAE10labelStyleyQrqd__AA10LabelStyleRd__lFQO AA5LabelV AA4TextV AA5ImageV AP0O28ToggleLabelTitleAndIconStyleV AgAEA8_yQrqd__AAA9_Rd__lFQO AA30_EnvironmentKeyWritingModifierV A15_5ScaleO AP0O11ToggleStyleV AA23_GeometryActionModifierV 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AA11_ClipEffectV AA7CapsuleV AgAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQO
++ _symbolic _____ySDySi_____GG 7SwiftUI9LazyStateV 12CoreGraphics7CGFloatV
++ _symbolic _____ySaySSGSS_____y_____yADy__________G_____G______QPGSgG 7SwiftUI7ForEachV AA12TupleContentV AA08ModifiedF0V 12PhotosUICore26SharedAlbumsInvitationCellV AA16_FlexFrameLayoutV AA08_PaddingP0V AA7DividerV
++ _symbolic _____y_____G 7SwiftUI8BindableV 12PhotosUICore28SharedAlbumSettingsViewModelC
++ _symbolic _____y_____G 7SwiftUI9LazyStateV So33PXSharedCollectionParticipantRoleV
++ _symbolic _____y_____SgG 7SwiftUI7BindingV 12PhotosUICore41SharedCollectionShareOptionsCommitFailureO
++ _symbolic _____y_____SgG 7SwiftUI9LazyStateV So33PXSharedCollectionParticipantRoleV
++ _symbolic _____y__________y_____y_____GGAEG 7SwiftUI7SectionV AA9EmptyViewV AA6ToggleV AA6VStackV AA4TextV
++ _symbolic _____y__________y_____y_____y_____y_____y_____y________________QPGG_____y_____GGG______Qo__ADyADy__________G_____GQo_ABGSg 7SwiftUI7SectionV AA9EmptyViewV AA0E0PAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaFRd__lFQO AgAE11buttonStyleyQrqd__AA015PrimitiveButtonN0Rd__lFQO AA0P0V AA15ModifiedContentV AA6HStackV AA05TupleR0V AA4TextV AA6SpacerV 12PhotosUICore37SharedAlbumsPendingRequestsCountBadgeV AA01_R13ShapeModifierV AA9RectangleV AA05PlainpN0V A2_08Lemonadeyz18AccessRequestsListE0V AA12_FrameLayoutV AA16_FixedSizeLayoutV
++ _symbolic _____y_____yAAy_____y_____y_____Sg______yACy_____yAAy__________G_SSQo_______yAG_Qo_SgQPGG__________QPGG_____G_____G_SS_____yAWy_____yAGGACyAY_AYQPGGAZGQo_ 7SwiftUI4ViewPAAE5alert_11isPresented7actionsQrqd___AA7BindingVySbGqd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA15ModifiedContentV AA6HStackV AA05TupleJ0V 12PhotosUICore026LemonadeSharedAlbumsAvatarC0V AA6VStackV AcAE4helpyQrqd__SyRd__lFQO AA4TextV AA16_FixedSizeLayoutV AcAE12onTapGesture5count7performQrSi_yyctFQO AA6SpacerV AP0pQ16RowActionButtonsV AA08_PaddingX0V AA25_AllowsHitTestingModifierV AA012_ConditionalJ0V AA6ButtonV
++ _symbolic _____y_____yAAy_____y_____y_____ySay_____G_____AAy_____y_____y_____yAAyAAyAAyAAyAAyAAy_____yAAy_____y_____y_____yAHyAHyAHyAHy_____y_____GAHyAIy_____GAIy_____GGGAHyAIy_____GAIy_____GGGAHyAHyAIy_____GAIy_____GGAHyAIy_____GAIy_____y_____GGGGGAHyAHyAHyAIy_____GAIy_____GGAHyAIy_____GAIy_____GGGAHyAHyAIy_____GAIy_____GGAHyAIy_____GAIy_____GGGGGAHyAIy_____GAIy_____GGG_Qo_G_____y_____SgGG_Qo_A42_y_____GGA42_ySbGGA42_y_____GGA42_y_____GG_____yA53_GG_____G_SbQo__Qo__Qo______GSgGG_SayAFGQo______G_AFSgQo_A59_yA72_GG 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAEAfgH_Qrqd___Sbyqd___qd__tctSQRd__lFQO 12PhotosUICore19LazyOrRegularVStackV AA7ForEachV AI22LemonadeFeatureLibraryC5ShelfO AI0rU10IdentifierO AeAE0F4DropAG8delegateQrSay22UniformTypeIdentifiers6UTTypeVG_AA0W8Delegate_ptFQO AeAE0F4Drag9isEnabled12localContext_0F9LiftEvent0F12SessionBegan0F12SessionEndedQrSb_ypSgSo14NSItemProviderCycyAA13DragLiftEventOcSgyycSgA11_tFQO AeAE15sensoryFeedback_7triggerQrAA15SensoryFeedbackV_qd__tSQRd__lFQO AeIE19lemonadeFeedSection7isFirstQrSb_tFQO AA0O0V AE0jaK0E19photosLoadingStatus2id6status19requiredChildrenIDsQrs11AnyHashableV_A20_0J13LoadingStatusOSgSayA26_GSgtFQO AA012_ConditionalD0V AI0rU0V AI0r6AlbumsS0V0U8ProviderV AI0r12SharedAlbumsS0V05PostsU8ProviderV A41_A38_V AI0r20SharedAlbumsActivityS0VA38_V AI0r6PeopleU8ProviderV AI0r12SocialGroupsU8ProviderV AI0r6EventsS0VA38_V AI0r5TripsS0VA38_V AI0R19ConcatenatedUIShelfV AI0r8MemoriesS0VA38_V AI0r8FeaturedjS0VA38_V AI0r3MapS0VA38_V AI0r11ICloudLinksU8ProviderV AI0r13NotificationsS0VA38_V AI0r10PhototypesS0VA38_V AI0r10MediaTypesS0VA38_V AI0r9UtilitiesS0VA38_V AI0r9BookmarksS0VA38_V AI0r11SuggestionsS0VA38_V AI0r23SearchCollectionResultsU8ProviderV AA30_EnvironmentKeyWritingModifierV AI0rU16HeaderAppearanceC AI0ruE5ModelC AI0R18ShelvesLayoutStyleO AI0r7ShelvesE17ModelDisplayStateO AA18_AnimationModifierV AA14_OpacityEffectV AI011ReorderableU13Accessibility33_135EDFD9F379616E5B1D16C4C1BF8BC9LLV AA25_AppearanceActionModifierV
++ _symbolic _____y_____yAByAByABy_____y_____yqd________y_____y_____yx_qd__GG_Qo_QPGG_____G_____y_____y__________GGGALGALGAHG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6VStackV AA05TupleD0V AA4ViewP06PhotosA6UICoreE19photosLayoutMarginsyQrAA10EdgeInsetsVFQO AA01_h9Modifier_D0V 0iJ017LemonadeShelfBody33_DF1D597E796E93904C758EC862553B19LLV0D10BackgroundV AA08_PaddingL0V AA011_BackgroundP0V AA06_ShapeH0V AA16RoundedRectangleV AA5ColorV
++ _symbolic _____y_____ySaySSGSS_____y_____y_____y_____G_____G______QPGSgG_SSACy_____y_____G_APQPGAO_____Qo_ 7SwiftUI4ViewPAAE5alert_11isPresented10presenting7actions7messageQrqd___AA7BindingVySbGqd_2_Sgqd_0_qd_2_XEqd_1_qd_2_XEtSyRd__AaBRd_0_AaBRd_1_r2_lFQO AA7ForEachV AA12TupleContentV AA08ModifiedN0V 12PhotosUICore37LemonadeSharedAlbumsAccessRequestCellV AS0stuV9ItemModelC AA14_PaddingLayoutV AA7DividerV AA6ButtonV AA4TextV AS07DeclineV0V
++ _symbolic _____y_____y_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 12PhotosUICore019LemonadeFeedSectionF033_B75AFA59D32DA7B73096626D1A129360LLV AA022_EnvironmentKeyWritingF0V 12CoreGraphics7CGFloatV
++ _symbolic _____y_____y______SbQo__SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO 12PhotosUICore42SharedCollectionRequestAccessToggleSectionV
++ _symbolic _____y_____y___________Qo_Sg______y__________GSgQPG 7SwiftUI12TupleContentV AA4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO 12PhotosUICore40SharedCollectionAccessPermissionsSectionV So08PXSharedmN10PermissionV AA012_ConditionalD0V AI0lm7Requestn6ToggleP0V AI0lmtn10ManagementP0V
++ _symbolic _____y_____y_____yAAy_____y_____y___________yACy_____y______SSQo__AAyAAyAAy_____yAAy_____y_____y_____yAF__________ySayAIGAI_____yAF_AIQo_GG______Qo_______Qo______y_____GG_Qo______G_____yAAy_____y__________G_____GSgGG_____GSgQPGG__________QPGGA3_G_____ySbGG_SSACy_____yAFG_A22_QPGAFQo__Qo_ 7SwiftUI4ViewP18PhotosUIFoundationE7pxAlertyQrAA7BindingVySo20PXAlertConfigurationCSgGFQO AcAE5alert_11isPresented7actions7messageQrqd___AGySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQO AA15ModifiedContentV AA6HStackV AA05TupleQ0V 0D6UICore026LemonadeSharedAlbumsAvatarC0V AA6VStackV AcAE4helpyQrqd__SyRd__lFQO AA4TextV AcAE12labelsHiddenQryFQO AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AcAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQO AA6PickerV So33PXSharedCollectionParticipantRoleV AA7ForEachV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA15MenuPickerStyleV AA21BorderlessButtonStyleV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA16_FixedSizeLayoutV AA19_BackgroundModifierV AA06_ShapeC0V AA16RoundedRectangleV AA22HierarchicalShapeStyleV AA14_PaddingLayoutV AA20_HoverRegionModifierV AA6SpacerV AW0vW16RowActionButtonsV AA32_EnvironmentKeyTransformModifierV AA6ButtonV
++ _symbolic _____y_____y_____yAAy_____y_____y_____yAAy__________G_AAy_____y_____AIG_____y_____GGSgQPGGG_____ySbGG_Qo______G______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA15ModifiedContentV AcAE16keyboardShortcutyQrAA08KeyboardK0VFQO AA0G0V AA6ZStackV AA05TupleI0V AA4TextV AA14_OpacityEffectV AA08ProgressC0V AA05EmptyC0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA01_tu9TransformW0V AA023AccessibilityAttachmentW0V AA017BorderedProminentgE0V
++ _symbolic _____y_____y_____y__________GSg_ACy9Subheader_____Qz_____GSg_____yAAyACy_____y_____ySay5Model______10Identifier_____QZGAsCy_____y_____yx_G_Qo______GG_ATQo______GG_Qo_QPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA6SpacerV AA12_FrameLayoutV 12PhotosUICore29LemonadeSectionedFeedProviderP AA05_FlexhI0V AA4ViewPALE08lemonadeN10TopPadding9isEnabledQrSb_tFQO ArAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA7ForEachV AL0l4ItemqO0P 0J12UIFoundation0J5ModelP ArLE0rN7Section0U5FirstQrSb_tFQO AL0lm7StackedN033_74F0D0D0C3698197C2DB8115913F948BLLV07SectionQ0V AA31AccessibilityAttachmentModifierV AA25_AppearanceActionModifierV
++ _symbolic _____y_____y_____y_____ySay_____G__________y_____y_____yAHyAHyAHy_____y_____y__________y_____ySo12PHCollectionCGG_____HPApRHPAoR12PhotosUICoreyHC_HC_HCg1_ApRHPAorSyHC_HCg3_GGAIyAJy_____GGGAHyAIyAJy_____ALyAMySo17PHAssetCollectionCGGARHPA1_ARHPA0_ArSyHC_HC_HCg1_A1_ARHPA0_ArSyHC_HCg3_GGAIyAJy_____GGGGAHyAHyAIyAJy_____GGAIyAJy__________y_____yA1_A1_A1_GA16______ASA1_A17_HPyHC_A1_A17_HPyHCA1_A17_HPyHCHCg_A16______ASA1_A18_HPyHC_A1_A18_HPyHCA1_A18_HPyHCHCg1_GARHPA16_ArSA1_ARHPA0_ArSyHC_HC_A1_ARHPA0_ArSyHC_HCA1_ARHPA0_ArSyHC_HCHC_HCg1_A16_ArSA1_ARHPA0_ArSyHC_HC_A1_ARHPA0_ArSyHC_HCA1_ARHPA0_ArSyHC_HCHCg3_A16_A18_ASA1_A18_HPyHC_A1_A18_HPyHCA1_A18_HPyHCHCg4_GGGAHyAIyAJy__________yA1_GARHPA1_ARHPA0_ArSyHC_HC_HCg1_A1_ARHPA0_ArSyHC_HCg3_GGAIyAJy__________yAMySo8PHMemoryCGGARHPA32_ARHPA31_ArSyHC_HC_HCg1_A32_ARHPA31_ArSyHC_HCg3_GGGGGAHyAHyAIyAJy__________yA1_GARHPA1_ARHPA0_ArSyHC_HC_HCg1_A1_ARHPA0_ArSyHC_HCg3_GGAIyAJy_____A41_ARHPA1_ARHPA0_ArSyHC_HC_HCg1_A1_ARHPA0_ArSyHC_HCg3_GGGAHyAIyAJy__________yA1_GARHPA1_ARHPA0_ArSyHC_HC_HCg1_A1_ARHPA0_ArSyHC_HCg3_GG_____GGGG_Qo_GG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewP12PhotosUICoreE22lemonadeFeedTopPadding9isEnabledQrSb_tFQO AF19LazyOrRegularVStackV AA7ForEachV AF22LemonadeFeatureLibraryC5ShelfO AF0tW10IdentifierO AeFE0hI7Section0L5FirstQrSb_tFQO AA0Q0V AA012_ConditionalD0V AF0tW0V AF0t6PickerW15ProviderAdapterV AF0t6AlbumsU0V0W8ProviderV 0faG00F15ObservableAlbumC AF12PhotoKitItemC A5_0F15PickerItemModelP AF0t9BookmarksU0VA3_V AF0t12SharedAlbumsU0VA3_V AF0t6PeopleW8ProviderV AF0t12SocialGroupsW8ProviderV AF0t6EventsU0VA3_V A5_0F15ObservableEventC 0F12UIFoundation0F16ConcatenatedItemO A5_0F17MutableCollectionP A27_0F14SelectableItemP AF0t5TripsU0VA3_V A5_0F14ObservableTripC AF0t8MemoriesU0VA3_V A5_0F16ObservableMemoryC AF0t10MediaTypesU0VA3_V A5_0F23ObservableListCellModelC AF0t9UtilitiesU0VA3_V AF0t11SuggestionsU0VA3_V A5_0F20ObservableCollectionC AA05EmptyE0V AA25_AppearanceActionModifierV
++ _symbolic _____y_____y_____y_____y_____yAAyAAy_____yAAy_____y_____y_____y_____yACy_____y_____AAyAAyAAyAAyAAy_____yAAy_____y_____y_____G_Qo______y_____SgGG_Qo_AKySiSgGGAKy_____GG_____G_____ySbGGAKy_____SgGGAFG______Sg_____Sg_____yA9_y__________GACy________________y___________Qo_SgQPGGSgACy_____Sg_A6______Sg_____Sg_____Sg_____AEyAF_____y_____y_____yACyAH______QPGGG______Qo_AFGSgQPGSgQPGG_Qo_______Qo__Qo_AZG_Qo_AWG_____G_AAyAAy__________G_____GSgA33_QPGG_____yA0_GG_AAy_____y_____y______ACy_____yytA54_G_A67_yytA31_y_____GGQPGQo_G_____GSgQo__AAy_____A55_GQo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AcAEAdefGQrAJ_AKqd__yctAaBRd__lFQO AA15ModifiedContentV AA6VStackV AA05TupleL0V AcAE0I7Margins__3forQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgAA0L15MarginPlacementVtFQO AcAE06scrollL10BackgroundyQrAA10VisibilityOFQO AcAE9formStyleyQrqd__AA9FormStyleRd__lFQO AcAE20listHasStackBehaviorQryFQO AA4FormV AA7SectionV AA05EmptyC0V AcAE4boldyQrSbFQO AcAE12labelsHiddenQryFQO AA9TextFieldV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA13TextAlignmentO AA14_PaddingLayoutV AA32_EnvironmentKeyTransformModifierV AA5ColorV 12PhotosUICore21ToggleSettingsSectionV A32_37LemonadeSharedAlbumsAccessRequestsRowV AA012_ConditionalL0V A32_20FamilyMembersSectionV A32_36LegacySharedAlbumParticipantsSectionV A32_35SharedCollectionParticipantsSectionV A32_35SharedCollectionShareActionsSectionV AcAE0G6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A32_036SharedCollectionEditableShareOptionsL0V So34PXSharedCollectionAccessPermissionV A32_27ExpirationManagementSection33_C6699F8479B62BB7D697BA3165AD7848LLV A32_16MigrationSectionV A32_35SharedCollectionDeclinedRequestsRowV A32_29RemoveUnusedShareLinksSectionV A32_18DeleteAlbumSectionV AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA6HStackV AA6SpacerV AA16PlainButtonStyleV AA16GroupedFormStyleV AA25_AppearanceActionModifierV A32_022SharedCollectionStatusC0V AA12_FrameLayoutV AA12_ScaleEffectV AA01_Y13StyleModifierV AA010NavigationC0V AcAE7toolbarAGQrqd__yXE_tAA07ToolbarL0Rd__lFQO A32_027SharedCollectionDebugStatusC0V AA11ToolbarItemV AA18DefaultButtonLabelV AA16_FlexFrameLayoutV A32_38SharedAlbumParticipantSearchControllerV
++ _symbolic _____y_____y_____y_____y_____yAAyAAy_____y_____y_____y_____y_____y_____G_Qo__Qo_G_AAyAAyAAyAAy__________G_____GALGALGQo______yABy_____y______AAyAAyAAy_____yARy___________QPGGALGALG_____y_____GGQPGGGGA1_G_Qo__SbQo______G_Qo__Qo_ 7SwiftUI4ViewP12PhotosUICoreE30shareOptionsCommitFailureAlertyQrAA7BindingVyAD021SharedCollectionShareghI0OSgGFQO AcAE13onExitCommand7performQryycSg_tFQO AA15ModifiedContentV AcAE0O6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE26interactiveDismissDisabledyQrSbFQO AcAE11safeAreaBar4edge9alignment7spacing7contentQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQO AA6VStackV AcAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQO AcAE21scrollEdgeEffectStyle_3forQrAA21ScrollEdgeEffectStyleVSg_AA4EdgeOA14_VtFQO AA06ScrollC0V AD014SettingsScrollT033_C6699F8479B62BB7D697BA3165AD7848LLV AA4TextV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA06_InsetC8ModifierV AA05TupleT0V AA7DividerV AA6HStackV AA6SpacerV AD18SettingsDoneButtonA27_LLV AA24_BackgroundStyleModifierV AA5ColorV AD017LemonadeAnalyticsC11TimeTrackerV
++ _symbolic _____y_____y_____y_____y_____yAAy__________yAAyAAy_____y_____yAAy_____yAAyAAyAAyAAy__________G_____y__________GG_____y_____GG_____G_____y_____y_____G_AAyAV_____ySbGGQPGG_____G______Qo_______Qo_AMy_____GG_____y_____GGSgGG_____y_____GG_Qo__Qo__Qo__Qo_ 7SwiftUI4ViewP07_Photosb1_aB0E32photosPickerDisabledCapabilitiesyQrSo08PHPickerH0VFQO AcDE01_efg7PrivateH0yQrSo01_ijH0VFQO AcDE0eF19ContainerIdentifieryQrSSSgFQO AcDE0eF011isPresented9selection17maxSelectionCount0O8Behavior8matching21preferredItemEncoding12photoLibraryQrAA7BindingVySbG_AVySayAD0dfV0VGGSiSgAD0dfqS0V0dB00I6FilterVSgAY0W20DisambiguationPolicyVSo07PHPhotoY0CtFQO AA15ModifiedContentV 0D6UICore23SharedAlbumPreviewImageV AA16_OverlayModifierV AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AcAE9menuStyleyQrqd__AA9MenuStyleRd__lFQO AA4MenuV AA5ImageV AA12_FrameLayoutV AA34_InsettableBackgroundShapeModifierV AA5ColorV AA6CircleV6_InsetV AA24_ForegroundStyleModifierV AA14TintShapeStyleV AA31AccessibilityAttachmentModifierV AA12TupleContentV AA6ButtonV AA4TextV AA32_EnvironmentKeyTransformModifierV AA14_PaddingLayoutV AA15ButtonMenuStyleV AA16PlainButtonStyleV AA14LinkShapeStyleV AA30_EnvironmentKeyWritingModifierV AA10VisibilityO AA11_ClipEffectV AA9RectangleV
++ _symbolic _____y_____y_____y_____y_____y_____G_SSQo_______Qo__Qo__SaySo24PXSharedAlbumParticipantCGQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE23scrollContentBackgroundyQrAA10VisibilityOFQO AcAE9formStyleyQrqd__AA04FormM0Rd__lFQO AcAE15navigationTitleyQrqd__SyRd__lFQO AA0N0V 12PhotosUICore42SharedCollectionBlockedParticipantsSectionV AA07GroupednM0V
++ _symbolic _____y_____y_____y_____y_____y_____yAAyAAyAByACy___________QPGG_____G_____G______y_____GQPGG_Qo__AAy_____yAAy__________yAAyAAy_____y__________G_____G_____GSgGGG_____GQo__Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AeAE7toolbar7contentQrqd__yXE_tAaDRd__lFQO AeAE0K4RoleyQrAA07ToolbarM0VFQO AA6VStackV AA05TupleD0V 12PhotosUICore37LemonadeSharedAlbumsAccessRequestListV AU0stu10InvitationX0V AA16_FlexFrameLayoutV AA14_PaddingLayoutV AU0stU18ActivityFeedLayoutV AU0tU8PostFeedV AA6ButtonV AA5ImageV AA16_OverlayModifierV AA06_ShapeE0V AA6CircleV AA5ColorV AA12_FrameLayoutV AA13_OffsetEffectV AA31AccessibilityAttachmentModifierV AA25_AppearanceActionModifierV
++ _symbolic _____y_____y_____y_____y_____y_____yAAy_____y_____yAAy_____y_____AHG_____y_____GG_____yAAy_____y_____y__________G______Qo_AJy_____SgGG_Qo_GG_____GG_SSQo_______y_____yA1_______Qo__SSQo_QPGG______Qo_AJy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA6HStackV AA05TupleD0V AeAE4helpyQrqd__SyRd__lFQO AA0I0V AA5GroupV AA012_ConditionalD0V AA08ProgressE0V AA05EmptyE0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AeAE10fontWeightyQrAA4FontV0X0VSgFQO AeAE05labelG0yQrqd__AA05LabelG0Rd__lFQO AA5LabelV AA4TextV AA5ImageV AA013IconOnlyLabelG0V A1_ AA12_FrameLayoutV AeAEALyQrqd__SyRd__lFQO AeAEAFyQrqd__AaGRd__lFQO AA017BorderedProminentiG0V AA08BorderediG0V AA0I11BorderShapeV
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____yAAyAAy_____y_____y_____y_____ySay_____y_____ySo17PHAssetCollectionCGGGSOAAy_____y_____yAAyAAy_____yAI_____G_____G_____y_____GG______AKyALy_____y_____G_AAyAY_____y_____GGQPGGQPGG_____GSgGG______Qo__Qo_ARy_____GGARy______pSgGG_Qo__AAyAAyAAyAAyAX_____G_____GA24_GA24_GQo______y_____yALy______AAyAAyAAyAKyALyAV______y_____yAWy_____G______Qo__Qo_QPGGA24_GA24_G_____yA_GGQPGGGG_SSQo__SSALyAY______yAY_Qo_QPGAxIQo__SSALyAY_AYQPGAxIQo__SSAyXQo__SSAyXQo_ 7SwiftUI4ViewPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQO AcAEAD_AefGQrqd___AJqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQO AcAEAD_AE10presentingAfGQrqd___AJqd_2_Sgqd_0_qd_2_XEqd_1_qd_2_XEtSyRd__AaBRd_0_AaBRd_1_r2_lFQO AcAEAD_AekfGQrqd___AjLqd_0_qd_2_XEqd_1_qd_2_XEtSyRd__AaBRd_0_AaBRd_1_r2_lFQO AcAE15navigationTitleyQrqd__SyRd__lFQO AA15ModifiedContentV AcAE11safeAreaBar4edge9alignment7spacing7contentQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQO AcAE06scrollW11EffectStyle_3forQrAA06ScrollW11EffectStyleVSg_AA0W0O3SetVtFQO AcAE06scrollN10BackgroundyQrAA10VisibilityOFQO AcAE9formStyleyQrqd__AA9FormStyleRd__lFQO AA4FormV AA7ForEachV 06PhotosA6UICore21PhotosObservableAlbumC 12PhotosUICore12PhotoKitItemC AA6HStackV AA05TupleN0V A22_23LemonadeSharedAlbumCellV AA05EmptyC0V AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV A19_15PhotosCellSpecsV AA6SpacerV AA6ButtonV AA4TextV AA24_ForegroundStyleModifierV AA5ColorV AA01_Y15WritingModifierV AA16GroupedFormStyleV A22_014LemonadeAlbumsC12OptionsModelC So17PXUIImageProviderP AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA06_InsetC8ModifierV AA6VStackV AA7DividerV AcAE16keyboardShortcutyQrAA16KeyboardShortcutVFQO AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA18DefaultButtonLabelV AA28BorderedProminentButtonStyleV AA24_BackgroundStyleModifierV AcAEA67_yQrA69_FQO
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____yAAy__________GG______Qo__Qo__Qo__AAyAAyAAyAAy__________GADGADGADGQo______y_____y_____y______AAyAAyAAy_____yATy___________y_____y_____G______Qo_QPGGADGADG_____y_____GGQPGGGG_Qo__SiQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AC18PhotosUIFoundationE7pxAlertyQrAA7BindingVySo20PXAlertConfigurationCSgGFQO AA15ModifiedContentV AcAE11safeAreaBar4edge9alignment7spacing7contentQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQO AcAE06scrollY11EffectStyle_3forQrAA06ScrollY11EffectStyleVSg_AA0Y0O3SetVtFQO AcAE06scrollP10BackgroundyQrAA10VisibilityOFQO AcAE9formStyleyQrqd__AA9FormStyleRd__lFQO AA4FormV 0H6UICore034LemonadeSharedAlbumsAccessRequestsC0V AA14_PaddingLayoutV AA16GroupedFormStyleV AA4TextV AA16_FlexFrameLayoutV AA06_InsetC8ModifierV AA6VStackV AA05TupleP0V AA7DividerV AA6HStackV AA6SpacerV AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA18DefaultButtonLabelV AA28BorderedProminentButtonStyleV AA24_BackgroundStyleModifierV AA5ColorV
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y___________Sg_____SgACyADy_____Sg______QPGGQPGG_Qo______y_____GG_Qo__Qo_G_Qo_ 7SwiftUI4ViewPAAE18scrollClipDisabledyQrSbFQO 06PhotosA6UICore0g14TestableScrollC0V AC0gH0E08lemonadeJ13ActionHandler0dC5Proxy0dL6SourceQrAA0jcN0V_AH08LemonadejlO0_ptFQO AcEE18photosKeySelectionAJQrAM_tFQO AA15ModifiedContentV AcHE0K14FeedTopPadding9isEnabledQrSb_tFQO AA6VStackV AA05TupleU0V AH0P26PeopleHomeSuggestionBannerV AH0P22PeopleHomeGroupSectionV AH0P23PeopleHomePeopleSectionV AH0p16PeopleProcessingC0V AA6SpacerV AA012_EnvironmentR15WritingModifierV AH0pv8ContentswX4KindO
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____yxGG_Qo__Qo__Qo__Qo__Qo__Qo_ 7SwiftUI4ViewP07_Photosb1_aB0E40_photosPickerDisabledPrivateCapabilitiesyQrSo09_PHPickerhI0VFQO AcDE0eF19ContainerIdentifieryQrSSSgFQO AcDE01_eF10SourceTypeyQrSo01_jmN0VFQO AcDE0efgI0yQrSo0jI0VFQO AcDE0eF011isPresented9selection17maxSelectionCount0Q8Behavior8matching21preferredItemEncoding12photoLibraryQrAA7BindingVySbG_AYySayAD0dfX0VGGSiSgAD0dfsU0V0dB00J6FilterVSgA0_0Y20DisambiguationPolicyVSo14PHPhotoLibraryCtFQO AcDEApqrstuvWQrAZ_A2_A3_A5_A9_A11_A13_tFQO AA01_C16Modifier_ContentV 0D6UICore031LemonadeCollectionCustomizationdF8ModifierV
++ _symbolic _____yx_SS_____y_____y_____G_Qo_AB_____Qo_ 7SwiftUI4ViewPAAE5alert_11isPresented10presenting7actions7messageQrqd___AA7BindingVySbGqd_2_Sgqd_0_qd_2_XEqd_1_qd_2_XEtSyRd__AaBRd_0_AaBRd_1_r2_lFQO AcAE16keyboardShortcutyQrAA08KeyboardL0VFQO AA6ButtonV AA4TextV 12PhotosUICore41SharedCollectionShareOptionsCommitFailureO
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 12PhotosUICore27LemonadeFeedSectionModifier33_B75AFA59D32DA7B73096626D1A129360LLV
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 12PhotosUICore30LemonadeFeedTopPaddingModifier33_B75AFA59D32DA7B73096626D1A129360LLV
++ _type_layout_string 12PhotosUICore27LemonadeFeedSectionModifier33_B75AFA59D32DA7B73096626D1A129360LLV
++ _type_layout_string 12PhotosUICore28LemonadePeopleHomeScrollViewV
++ _type_layout_string 12PhotosUICore28SharedAlbumsRowActionButtonsV
++ _type_layout_string 12PhotosUICore41SharedCollectionShareOptionsCommitFailureO
++ _type_layout_string 12PhotosUICore42SharedCollectionRequestAccessToggleSectionV
++ _type_layout_string 12PhotosUICore43SharedCollectionEditableShareOptionsContentV20RequestAccessEditingO
++ _type_layout_string 12PhotosUICore48SharedCollectionAccessRequestParticipantsSectionV
+- -[PXApplicationState initWithApplication:isExtension:]
+- -[PXSharedCollectionsSettings setShowAccessPermissionsInSettings:]
+- -[PXSharedCollectionsSettings showAccessPermissionsInSettings]
+- -[PXVisualIntelligenceManager requestVKImageAnalysisForVIWithImage:asset:resultHandler:]
+- -[_PXVisualIntelligenceRequest initForVIWithAsset:image:requestID:resultHandler:]
+- GCC_except_table10055
+- GCC_except_table10111
+- GCC_except_table10114
+- GCC_except_table10118
+- GCC_except_table10130
+- GCC_except_table10141
+- GCC_except_table10155
+- GCC_except_table10168
+- GCC_except_table10177
+- GCC_except_table10185
+- GCC_except_table10314
+- GCC_except_table10336
+- GCC_except_table10455
+- GCC_except_table10480
+- GCC_except_table10481
+- GCC_except_table10547
+- GCC_except_table10561
+- GCC_except_table10626
+- GCC_except_table10650
+- GCC_except_table10701
+- GCC_except_table10729
+- GCC_except_table10740
+- GCC_except_table10803
+- GCC_except_table10853
+- GCC_except_table10859
+- GCC_except_table10968
+- GCC_except_table10972
+- GCC_except_table11000
+- GCC_except_table11050
+- GCC_except_table11053
+- GCC_except_table11245
+- GCC_except_table11378
+- GCC_except_table11388
+- GCC_except_table11407
+- GCC_except_table11432
+- GCC_except_table11435
+- GCC_except_table11438
+- GCC_except_table11446
+- GCC_except_table11474
+- GCC_except_table11499
+- GCC_except_table11516
+- GCC_except_table11546
+- GCC_except_table11555
+- GCC_except_table11563
+- GCC_except_table11603
+- GCC_except_table11606
+- GCC_except_table11618
+- GCC_except_table11622
+- GCC_except_table11630
+- GCC_except_table11699
+- GCC_except_table11842
+- GCC_except_table11872
+- GCC_except_table11991
+- GCC_except_table11997
+- GCC_except_table12158
+- GCC_except_table12162
+- GCC_except_table12244
+- GCC_except_table12280
+- GCC_except_table12570
+- GCC_except_table12677
+- GCC_except_table12698
+- GCC_except_table12723
+- GCC_except_table13145
+- GCC_except_table13146
+- GCC_except_table13216
+- GCC_except_table13266
+- GCC_except_table13269
+- GCC_except_table13272
+- GCC_except_table13280
+- GCC_except_table13323
+- GCC_except_table13336
+- GCC_except_table13343
+- GCC_except_table13366
+- GCC_except_table13493
+- GCC_except_table13505
+- GCC_except_table13514
+- GCC_except_table13520
+- GCC_except_table13521
+- GCC_except_table13529
+- GCC_except_table13555
+- GCC_except_table13561
+- GCC_except_table13608
+- GCC_except_table13612
+- GCC_except_table13873
+- GCC_except_table13880
+- GCC_except_table13881
+- GCC_except_table13953
+- GCC_except_table14272
+- GCC_except_table14991
+- GCC_except_table15010
+- GCC_except_table15012
+- GCC_except_table15068
+- GCC_except_table15340
+- GCC_except_table15349
+- GCC_except_table15386
+- GCC_except_table15576
+- GCC_except_table15583
+- GCC_except_table15736
+- GCC_except_table15753
+- GCC_except_table15992
+- GCC_except_table16228
+- GCC_except_table16960
+- GCC_except_table17093
+- GCC_except_table17216
+- GCC_except_table17304
+- GCC_except_table17363
+- GCC_except_table17723
+- GCC_except_table17727
+- GCC_except_table18052
+- GCC_except_table18066
+- GCC_except_table18211
+- GCC_except_table18236
+- GCC_except_table18440
+- GCC_except_table18471
+- GCC_except_table18622
+- GCC_except_table18736
+- GCC_except_table18740
+- GCC_except_table18749
+- GCC_except_table18751
+- GCC_except_table18752
+- GCC_except_table18794
+- GCC_except_table18798
+- GCC_except_table18809
+- GCC_except_table18848
+- GCC_except_table18850
+- GCC_except_table18884
+- GCC_except_table18916
+- GCC_except_table18956
+- GCC_except_table19018
+- GCC_except_table19054
+- GCC_except_table19056
+- GCC_except_table19064
+- GCC_except_table19159
+- GCC_except_table19214
+- GCC_except_table19227
+- GCC_except_table19231
+- GCC_except_table19269
+- GCC_except_table19271
+- GCC_except_table19272
+- GCC_except_table19463
+- GCC_except_table19485
+- GCC_except_table19486
+- GCC_except_table19487
+- GCC_except_table19488
+- GCC_except_table19565
+- GCC_except_table19568
+- GCC_except_table19569
+- GCC_except_table19575
+- GCC_except_table19582
+- GCC_except_table19611
+- GCC_except_table19684
+- GCC_except_table19851
+- GCC_except_table19896
+- GCC_except_table19960
+- GCC_except_table19992
+- GCC_except_table20055
+- GCC_except_table20059
+- GCC_except_table20079
+- GCC_except_table20228
+- GCC_except_table20291
+- GCC_except_table20294
+- GCC_except_table20355
+- GCC_except_table20373
+- GCC_except_table20400
+- GCC_except_table20425
+- GCC_except_table20461
+- GCC_except_table20464
+- GCC_except_table20603
+- GCC_except_table20611
+- GCC_except_table20653
+- GCC_except_table20779
+- GCC_except_table20795
+- GCC_except_table20815
+- GCC_except_table20821
+- GCC_except_table20866
+- GCC_except_table20995
+- GCC_except_table21011
+- GCC_except_table21019
+- GCC_except_table21025
+- GCC_except_table21032
+- GCC_except_table21039
+- GCC_except_table21057
+- GCC_except_table21064
+- GCC_except_table21071
+- GCC_except_table21095
+- GCC_except_table21120
+- GCC_except_table21195
+- GCC_except_table21506
+- GCC_except_table21559
+- GCC_except_table21565
+- GCC_except_table21580
+- GCC_except_table21586
+- GCC_except_table21594
+- GCC_except_table21603
+- GCC_except_table21604
+- GCC_except_table21606
+- GCC_except_table21626
+- GCC_except_table21634
+- GCC_except_table21677
+- GCC_except_table21717
+- GCC_except_table21815
+- GCC_except_table21848
+- GCC_except_table21943
+- GCC_except_table22013
+- GCC_except_table22017
+- GCC_except_table22407
+- GCC_except_table22409
+- GCC_except_table22530
+- GCC_except_table22638
+- GCC_except_table22768
+- GCC_except_table22827
+- GCC_except_table22830
+- GCC_except_table22976
+- GCC_except_table23274
+- GCC_except_table23281
+- GCC_except_table23295
+- GCC_except_table23299
+- GCC_except_table23303
+- GCC_except_table23320
+- GCC_except_table23324
+- GCC_except_table23326
+- GCC_except_table23372
+- GCC_except_table23375
+- GCC_except_table23376
+- GCC_except_table23377
+- GCC_except_table23523
+- GCC_except_table23525
+- GCC_except_table23526
+- GCC_except_table23529
+- GCC_except_table23530
+- GCC_except_table23531
+- GCC_except_table23533
+- GCC_except_table23536
+- GCC_except_table23721
+- GCC_except_table23722
+- GCC_except_table23726
+- GCC_except_table23770
+- GCC_except_table23846
+- GCC_except_table23950
+- GCC_except_table24179
+- GCC_except_table24182
+- GCC_except_table24323
+- GCC_except_table24473
+- GCC_except_table24474
+- GCC_except_table24486
+- GCC_except_table24490
+- GCC_except_table24497
+- GCC_except_table24680
+- GCC_except_table24685
+- GCC_except_table24750
+- GCC_except_table24799
+- GCC_except_table25054
+- GCC_except_table25093
+- GCC_except_table25096
+- GCC_except_table25141
+- GCC_except_table25190
+- GCC_except_table25211
+- GCC_except_table25213
+- GCC_except_table25231
+- GCC_except_table25246
+- GCC_except_table25293
+- GCC_except_table25355
+- GCC_except_table25360
+- GCC_except_table25364
+- GCC_except_table25398
+- GCC_except_table25436
+- GCC_except_table25509
+- GCC_except_table25528
+- GCC_except_table25532
+- GCC_except_table25543
+- GCC_except_table25544
+- GCC_except_table25551
+- GCC_except_table25625
+- GCC_except_table25637
+- GCC_except_table25646
+- GCC_except_table25654
+- GCC_except_table25660
+- GCC_except_table25852
+- GCC_except_table26021
+- GCC_except_table26208
+- GCC_except_table26209
+- GCC_except_table26334
+- GCC_except_table26337
+- GCC_except_table26454
+- GCC_except_table26538
+- GCC_except_table26615
+- GCC_except_table26689
+- GCC_except_table26746
+- GCC_except_table26764
+- GCC_except_table26822
+- GCC_except_table26843
+- GCC_except_table26862
+- GCC_except_table26874
+- GCC_except_table26884
+- GCC_except_table26936
+- GCC_except_table26952
+- GCC_except_table27005
+- GCC_except_table27011
+- GCC_except_table27032
+- GCC_except_table27056
+- GCC_except_table27110
+- GCC_except_table27114
+- GCC_except_table27161
+- GCC_except_table27387
+- GCC_except_table27447
+- GCC_except_table27462
+- GCC_except_table27474
+- GCC_except_table27501
+- GCC_except_table27515
+- GCC_except_table27524
+- GCC_except_table27527
+- GCC_except_table27539
+- GCC_except_table27641
+- GCC_except_table27786
+- GCC_except_table28017
+- GCC_except_table28034
+- GCC_except_table28124
+- GCC_except_table28138
+- GCC_except_table28180
+- GCC_except_table28186
+- GCC_except_table28189
+- GCC_except_table28190
+- GCC_except_table28191
+- GCC_except_table28196
+- GCC_except_table28205
+- GCC_except_table28274
+- GCC_except_table28280
+- GCC_except_table28347
+- GCC_except_table28447
+- GCC_except_table28454
+- GCC_except_table28503
+- GCC_except_table28509
+- GCC_except_table28730
+- GCC_except_table28853
+- GCC_except_table28938
+- GCC_except_table28942
+- GCC_except_table29033
+- GCC_except_table29035
+- GCC_except_table29043
+- GCC_except_table29096
+- GCC_except_table29098
+- GCC_except_table29100
+- GCC_except_table29103
+- GCC_except_table29113
+- GCC_except_table29114
+- GCC_except_table29116
+- GCC_except_table29123
+- GCC_except_table29124
+- GCC_except_table29129
+- GCC_except_table29139
+- GCC_except_table29150
+- GCC_except_table29154
+- GCC_except_table29155
+- GCC_except_table29156
+- GCC_except_table29169
+- GCC_except_table29213
+- GCC_except_table29222
+- GCC_except_table29240
+- GCC_except_table29256
+- GCC_except_table29260
+- GCC_except_table29263
+- GCC_except_table29267
+- GCC_except_table29269
+- GCC_except_table29276
+- GCC_except_table29296
+- GCC_except_table29299
+- GCC_except_table29341
+- GCC_except_table29342
+- GCC_except_table29580
+- GCC_except_table29612
+- GCC_except_table29665
+- GCC_except_table29671
+- GCC_except_table29688
+- GCC_except_table29860
+- GCC_except_table29871
+- GCC_except_table29984
+- GCC_except_table30059
+- GCC_except_table30095
+- GCC_except_table30101
+- GCC_except_table30212
+- GCC_except_table30268
+- GCC_except_table30291
+- GCC_except_table30350
+- GCC_except_table30373
+- GCC_except_table30375
+- GCC_except_table30423
+- GCC_except_table30424
+- GCC_except_table30454
+- GCC_except_table30530
+- GCC_except_table30548
+- GCC_except_table30609
+- GCC_except_table30612
+- GCC_except_table30616
+- GCC_except_table30617
+- GCC_except_table30622
+- GCC_except_table30627
+- GCC_except_table30637
+- GCC_except_table30707
+- GCC_except_table30710
+- GCC_except_table30783
+- GCC_except_table30793
+- GCC_except_table30802
+- GCC_except_table30804
+- GCC_except_table31014
+- GCC_except_table31024
+- GCC_except_table31076
+- GCC_except_table31096
+- GCC_except_table31098
+- GCC_except_table31418
+- GCC_except_table31577
+- GCC_except_table31592
+- GCC_except_table31654
+- GCC_except_table31657
+- GCC_except_table31660
+- GCC_except_table31661
+- GCC_except_table31690
+- GCC_except_table31697
+- GCC_except_table31698
+- GCC_except_table31704
+- GCC_except_table31706
+- GCC_except_table31707
+- GCC_except_table31711
+- GCC_except_table31728
+- GCC_except_table31732
+- GCC_except_table31750
+- GCC_except_table31899
+- GCC_except_table31901
+- GCC_except_table31922
+- GCC_except_table31928
+- GCC_except_table31980
+- GCC_except_table32002
+- GCC_except_table32006
+- GCC_except_table32177
+- GCC_except_table32212
+- GCC_except_table32427
+- GCC_except_table32494
+- GCC_except_table32500
+- GCC_except_table32510
+- GCC_except_table32542
+- GCC_except_table32731
+- GCC_except_table32808
+- GCC_except_table32897
+- GCC_except_table32957
+- GCC_except_table33141
+- GCC_except_table33152
+- GCC_except_table33194
+- GCC_except_table33250
+- GCC_except_table33254
+- GCC_except_table33260
+- GCC_except_table33275
+- GCC_except_table33278
+- GCC_except_table33286
+- GCC_except_table33310
+- GCC_except_table33370
+- GCC_except_table33401
+- GCC_except_table33467
+- GCC_except_table33616
+- GCC_except_table33632
+- GCC_except_table33665
+- GCC_except_table33667
+- GCC_except_table33696
+- GCC_except_table33745
+- GCC_except_table33756
+- GCC_except_table33771
+- GCC_except_table33785
+- GCC_except_table33789
+- GCC_except_table33912
+- GCC_except_table33990
+- GCC_except_table33996
+- GCC_except_table34145
+- GCC_except_table34153
+- GCC_except_table34156
+- GCC_except_table34166
+- GCC_except_table34167
+- GCC_except_table34174
+- GCC_except_table34175
+- GCC_except_table34182
+- GCC_except_table34183
+- GCC_except_table34202
+- GCC_except_table34203
+- GCC_except_table34210
+- GCC_except_table34211
+- GCC_except_table34218
+- GCC_except_table34219
+- GCC_except_table34226
+- GCC_except_table34227
+- GCC_except_table34234
+- GCC_except_table34235
+- GCC_except_table34243
+- GCC_except_table34244
+- GCC_except_table34251
+- GCC_except_table34252
+- GCC_except_table34259
+- GCC_except_table34260
+- GCC_except_table34269
+- GCC_except_table34289
+- GCC_except_table34290
+- GCC_except_table34293
+- GCC_except_table34294
+- GCC_except_table34386
+- GCC_except_table34415
+- GCC_except_table34435
+- GCC_except_table34438
+- GCC_except_table34473
+- GCC_except_table34487
+- GCC_except_table34675
+- GCC_except_table34730
+- GCC_except_table34733
+- GCC_except_table34791
+- GCC_except_table34796
+- GCC_except_table34802
+- GCC_except_table34811
+- GCC_except_table34816
+- GCC_except_table34832
+- GCC_except_table34836
+- GCC_except_table34838
+- GCC_except_table34840
+- GCC_except_table34842
+- GCC_except_table34846
+- GCC_except_table34877
+- GCC_except_table35076
+- GCC_except_table35121
+- GCC_except_table35131
+- GCC_except_table35253
+- GCC_except_table35974
+- GCC_except_table36029
+- GCC_except_table36113
+- GCC_except_table36219
+- GCC_except_table36494
+- GCC_except_table36504
+- GCC_except_table36560
+- GCC_except_table36565
+- GCC_except_table36583
+- GCC_except_table36592
+- GCC_except_table36608
+- GCC_except_table36655
+- GCC_except_table36736
+- GCC_except_table36775
+- GCC_except_table36784
+- GCC_except_table36858
+- GCC_except_table36873
+- GCC_except_table36875
+- GCC_except_table36884
+- GCC_except_table36890
+- GCC_except_table36894
+- GCC_except_table36935
+- GCC_except_table36985
+- GCC_except_table37021
+- GCC_except_table37023
+- GCC_except_table37161
+- GCC_except_table37181
+- GCC_except_table37269
+- GCC_except_table37473
+- GCC_except_table37493
+- GCC_except_table37574
+- GCC_except_table37626
+- GCC_except_table37635
+- GCC_except_table37639
+- GCC_except_table37779
+- GCC_except_table37780
+- GCC_except_table37833
+- GCC_except_table37897
+- GCC_except_table38416
+- GCC_except_table38439
+- GCC_except_table38515
+- GCC_except_table38579
+- GCC_except_table38584
+- GCC_except_table38585
+- GCC_except_table38619
+- GCC_except_table38621
+- GCC_except_table38684
+- GCC_except_table38763
+- GCC_except_table38766
+- GCC_except_table38771
+- GCC_except_table38807
+- GCC_except_table38858
+- GCC_except_table38862
+- GCC_except_table38881
+- GCC_except_table38883
+- GCC_except_table38911
+- GCC_except_table39009
+- GCC_except_table39117
+- GCC_except_table39183
+- GCC_except_table39187
+- GCC_except_table39193
+- GCC_except_table39196
+- GCC_except_table39197
+- GCC_except_table39200
+- GCC_except_table39201
+- GCC_except_table39206
+- GCC_except_table39207
+- GCC_except_table39214
+- GCC_except_table39215
+- GCC_except_table39216
+- GCC_except_table39217
+- GCC_except_table39247
+- GCC_except_table39255
+- GCC_except_table39263
+- GCC_except_table39276
+- GCC_except_table39277
+- GCC_except_table39280
+- GCC_except_table39281
+- GCC_except_table39282
+- GCC_except_table39283
+- GCC_except_table39284
+- GCC_except_table39297
+- GCC_except_table39298
+- GCC_except_table39300
+- GCC_except_table39306
+- GCC_except_table39307
+- GCC_except_table39315
+- GCC_except_table39402
+- GCC_except_table39410
+- GCC_except_table39415
+- GCC_except_table39421
+- GCC_except_table39470
+- GCC_except_table39504
+- GCC_except_table39510
+- GCC_except_table40002
+- GCC_except_table40149
+- GCC_except_table40197
+- GCC_except_table40211
+- GCC_except_table40213
+- GCC_except_table40227
+- GCC_except_table40231
+- GCC_except_table40289
+- GCC_except_table40448
+- GCC_except_table40628
+- GCC_except_table40629
+- GCC_except_table40730
+- GCC_except_table40735
+- GCC_except_table40760
+- GCC_except_table40823
+- GCC_except_table40825
+- GCC_except_table40833
+- GCC_except_table40842
+- GCC_except_table40844
+- GCC_except_table40857
+- GCC_except_table40861
+- GCC_except_table40865
+- GCC_except_table40887
+- GCC_except_table40902
+- GCC_except_table40906
+- GCC_except_table40910
+- GCC_except_table40915
+- GCC_except_table40919
+- GCC_except_table40923
+- GCC_except_table40942
+- GCC_except_table40956
+- GCC_except_table40960
+- GCC_except_table40975
+- GCC_except_table40977
+- GCC_except_table40992
+- GCC_except_table40997
+- GCC_except_table41002
+- GCC_except_table41023
+- GCC_except_table41029
+- GCC_except_table41053
+- GCC_except_table41075
+- GCC_except_table41077
+- GCC_except_table41079
+- GCC_except_table41086
+- GCC_except_table41094
+- GCC_except_table41102
+- GCC_except_table41120
+- GCC_except_table41123
+- GCC_except_table41130
+- GCC_except_table41138
+- GCC_except_table41219
+- GCC_except_table41252
+- GCC_except_table41259
+- GCC_except_table41276
+- GCC_except_table41342
+- GCC_except_table41420
+- GCC_except_table41456
+- GCC_except_table41457
+- GCC_except_table41459
+- GCC_except_table41461
+- GCC_except_table41463
+- GCC_except_table41467
+- GCC_except_table41469
+- GCC_except_table41576
+- GCC_except_table41643
+- GCC_except_table41720
+- GCC_except_table41738
+- GCC_except_table5480
+- GCC_except_table5537
+- GCC_except_table5541
+- GCC_except_table5542
+- GCC_except_table5637
+- GCC_except_table5658
+- GCC_except_table5693
+- GCC_except_table5719
+- GCC_except_table5788
+- GCC_except_table5789
+- GCC_except_table5843
+- GCC_except_table5872
+- GCC_except_table5876
+- GCC_except_table5887
+- GCC_except_table5896
+- GCC_except_table5938
+- GCC_except_table5947
+- GCC_except_table5962
+- GCC_except_table5965
+- GCC_except_table6186
+- GCC_except_table6189
+- GCC_except_table6193
+- GCC_except_table6219
+- GCC_except_table6522
+- GCC_except_table6554
+- GCC_except_table6567
+- GCC_except_table6691
+- GCC_except_table6775
+- GCC_except_table6843
+- GCC_except_table6844
+- GCC_except_table6867
+- GCC_except_table6924
+- GCC_except_table7024
+- GCC_except_table7101
+- GCC_except_table7131
+- GCC_except_table7144
+- GCC_except_table7181
+- GCC_except_table7335
+- GCC_except_table7345
+- GCC_except_table7356
+- GCC_except_table7362
+- GCC_except_table7464
+- GCC_except_table7504
+- GCC_except_table7580
+- GCC_except_table7667
+- GCC_except_table7792
+- GCC_except_table7798
+- GCC_except_table7805
+- GCC_except_table7850
+- GCC_except_table7853
+- GCC_except_table8199
+- GCC_except_table8213
+- GCC_except_table8223
+- GCC_except_table8407
+- GCC_except_table8412
+- GCC_except_table8427
+- GCC_except_table8535
+- GCC_except_table8538
+- GCC_except_table8750
+- GCC_except_table8782
+- GCC_except_table8807
+- GCC_except_table8892
+- GCC_except_table8973
+- GCC_except_table8987
+- GCC_except_table9000
+- GCC_except_table9054
+- GCC_except_table9130
+- GCC_except_table9157
+- GCC_except_table9196
+- GCC_except_table9197
+- GCC_except_table9234
+- GCC_except_table9296
+- GCC_except_table9399
+- GCC_except_table9454
+- GCC_except_table9455
+- GCC_except_table9480
+- GCC_except_table9481
+- GCC_except_table9486
+- GCC_except_table9508
+- GCC_except_table9512
+- GCC_except_table9513
+- GCC_except_table9529
+- GCC_except_table9540
+- GCC_except_table9562
+- GCC_except_table9647
+- GCC_except_table9662
+- GCC_except_table9663
+- GCC_except_table9673
+- GCC_except_table9681
+- GCC_except_table9865
+- GCC_except_table9876
+- GCC_except_table9880
+- GCC_except_table9881
+- GCC_except_table9978
+- _OBJC_IVAR_$_PXSharedCollectionsSettings._showAccessPermissionsInSettings
+- ___88-[PXVisualIntelligenceManager requestVKImageAnalysisForVIWithImage:asset:resultHandler:]_block_invoke
+- ___block_descriptor_80_e8_32s40s48s56bs64r72r_e5_v8?0l
+- ___swift_closure_destructor.1005Tm
+- ___swift_closure_destructor.1023Tm
+- ___swift_closure_destructor.102Tm
+- ___swift_closure_destructor.1053Tm
+- ___swift_closure_destructor.1123Tm
+- ___swift_closure_destructor.127Tm
+- ___swift_closure_destructor.1423Tm
+- ___swift_closure_destructor.168Tm
+- ___swift_closure_destructor.171Tm
+- ___swift_closure_destructor.213Tm
+- ___swift_closure_destructor.216Tm
+- ___swift_closure_destructor.225Tm
+- ___swift_closure_destructor.228Tm
+- ___swift_closure_destructor.267Tm
+- ___swift_closure_destructor.285Tm
+- ___swift_closure_destructor.293Tm
+- ___swift_closure_destructor.294Tm
+- ___swift_closure_destructor.315Tm
+- ___swift_closure_destructor.31Tm
+- ___swift_closure_destructor.331Tm
+- ___swift_closure_destructor.333Tm
+- ___swift_closure_destructor.340Tm
+- ___swift_closure_destructor.342Tm
+- ___swift_closure_destructor.348Tm
+- ___swift_closure_destructor.363Tm
+- ___swift_closure_destructor.382Tm
+- ___swift_closure_destructor.387Tm
+- ___swift_closure_destructor.392Tm
+- ___swift_closure_destructor.432Tm
+- ___swift_closure_destructor.460Tm
+- ___swift_closure_destructor.466Tm
+- ___swift_closure_destructor.487Tm
+- ___swift_closure_destructor.543Tm
+- ___swift_closure_destructor.550Tm
+- ___swift_closure_destructor.572Tm
+- ___swift_closure_destructor.644Tm
+- ___swift_closure_destructor.658Tm
+- ___swift_closure_destructor.674Tm
+- ___swift_closure_destructor.813Tm
+- ___swift_closure_destructor.843Tm
+- ___swift_get_extra_inhabitant_index.168Tm
+- ___swift_store_extra_inhabitant_index.169Tm
+- ___unnamed_16
+- ___unnamed_55
+- _associated conformance 12PhotosUICore30ArchivedSharedAlbumButtonStyle33_77FC8CF04FB26E53E8AEA6F1ACF6F7D0LLV7SwiftUI0fG0AA4BodyAeFP_AE4View
+- _associated conformance 12PhotosUICore40SharedCollectionSettingsShareOptionsViewV7SwiftUI0H0AA4BodyAdEP_AdE
+- _associated conformance 12PhotosUICore43SharedCollectionSettingsShareOptionsContentV7SwiftUI4ViewAA4BodyAdEP_AdE
+- _associated conformance 12PhotosUICore49SharedCollectionAccessPermissionManagementSectionV7SwiftUI4ViewAA4BodyAdEP_AdE
+- _get_witness_table 12PhotosUICore21LemonadeShelfProviderRz7SwiftUI4ViewRd__r__lAC19_ConditionalContentVyAC08ModifiedJ0VyAHyAHyAC6VStackVyAC05TupleJ0Vyqd___AC01_h9Modifier_J0VyAA0cD4Body33_DF1D597E796E93904C758EC862553B19LLV0J10BackgroundVyx_qd__GGQPGGAC14_PaddingLayoutVGAC01_wN0VyAC06_ShapeH0VyAC16RoundedRectangleVAC5ColorVGGGAYGAUGAcDHPA10_AcDHPA9_AcDHPAzcDHPAwcDHPyHC_AyC0hN0HPyHCHC_A8_ACA12_HPyHCHC_AyCA12_HPyHCHC_AucDHPyHCHC
+- _get_witness_table 12PhotosUICore29LemonadeSectionedFeedProviderRzAA0cde7SectionF05Model_4Item5ValueRPzl7SwiftUI15ModifiedContentVyAJyAH6HStackVyAH4ViewPAHE16scrollIndicators_4axesQrAH25ScrollIndicatorVisibilityV_AH4AxisO3SetVtFQOyAN0akB0E02onA15SolariumEnabledyQrqd__xXEAhMRd__lFQOyAJyAJyAH0tP0VyAJyAJyALyAH7ForEachVySayAD_10IdentifierQZGA2_AnHE11toggleStyleyQrqd__AH11ToggleStyleRd__lFQOyAH6ToggleVyAH5GroupVyAH012_ConditionalN0VyA11_yAnHE10labelStyleyQrqd__AH10LabelStyleRd__lFQOyAH5LabelVyAH4TextVAH5ImageVG_AW0A28ToggleLabelTitleAndIconStyleVQo_AnHEA12_yQrqd__AHA13_Rd__lFQOyA15_yA17_AJyA19_AH30_EnvironmentKeyWritingModifierVyA19_5ScaleOGGG_A22_Qo_GA17_GGG_AW0A11ToggleStyleVQo_GGAH14_PaddingLayoutVGAH23_GeometryActionModifierVy12CoreGraphics7CGFloatVGGGAH16_FlexFrameLayoutVGAH11_ClipEffectVyAH7CapsuleVGG_AnHE12_glassEffect_2inQrAH6_GlassV_qd__tAH5ShapeRd__lFQOyA60__A58_Qo_Qo__Qo_GA53_GA49_GAhMHPA70_AhMHPA69_AhMHPyHC_A53_AH0P8ModifierHPyHCHC_A49_AHA72_HPyHCHC
+- _get_witness_table 12PhotosUICore29LemonadeSectionedFeedProviderRzAA0cde7SectionF05Model_4Item5ValueRPzl7SwiftUI6VStackVyAH12TupleContentVyAH08ModifiedO0VyAH6SpacerVAH12_FrameLayoutVGSg_ANy9SubheaderQzAH05_FlexrS0VGSgAJyANyAH4ViewPAHE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAH7ForEachVySayAD_10IdentifierQZGA7_ANyAA0cd7StackedE033_74F0D0D0C3698197C2DB8115913F948BLLV0gV0Vyx_GAH31AccessibilityAttachmentModifierVGG_A8_Qo_AH25_AppearanceActionModifierVGGQPGGAHA_HPyHC
+- _get_witness_table 12PhotosUICore34SharedAlbumsAccessRequestItemModelCRbzlqd__7SwiftUI4ViewHD2_AdEP0A12UIFoundationE7pxAlertyQrAD7BindingVySo20PXAlertConfigurationCSgGFQOyAD15ModifiedContentVyAPyAPyAD6VStackVyAD05TupleS0VyAD6HStackVyATyAA08Lemonadecd6AvatarK0V_ARyAD4TextVGAD6SpacerVAPyAfDE11buttonStyleyQrqd__AD20PrimitiveButtonStyleRd__lFQOyAfDE9menuStyleyQrqd__AD9MenuStyleRd__lFQOyAD4MenuVyAD012_ConditionalS0VyAPyAPyAD08ProgressK0VyAD05EmptyK0VA13_GAD30_EnvironmentKeyWritingModifierVyAD11ControlSizeOGGAD12_FrameLayoutVGAPyAPyAPyAD5ImageVA16_yAD5ColorVSgGGA22_GAD01_S13ShapeModifierVyAD9RectangleVGGGATyAD6ButtonVyAZG_A41_QPGG_AD15ButtonMenuStyleVQo__AD16PlainButtonStyleVQo_A16_yAD10VisibilityOGGSgQPGG_APyAfDEA2_yQrqd__AD11ButtonStyleRd__lFQOyAPyAVyATyAPyA41_AD16_OverlayModifierVyAPyAD6ZStackVyATyA27__APyAPyA14_A29_GAD17_BrightnessEffectVGQPGGAD11_ClipEffectVyAD7CapsuleVGGSgGG_A41_QPGGAD32_EnvironmentKeyTransformModifierVySbGG_AA0eF11ButtonStyleVQo_AD14_PaddingLayoutVGSgQPGGA87_GA87_GA81_G_Qo_HO
+- _get_witness_table 12PhotosUICore36LemonadeCollectionCustomizationModelRzlqd__7SwiftUI4ViewHD2_AcDP01_ah1_gH0E40_photosPickerDisabledPrivateCapabilitiesyQrSo09_PHPickermN0VFQOyAeFE01_jK19ContainerIdentifieryQrSSSgFQOyAeFE01_jK10SourceTypeyQrSo01_orS0VFQOyAeFE0jklN0yQrSo0oN0VFQOyAeFE0jK011isPresented9selection17maxSelectionCount0V8Behavior8matching21preferredItemEncoding12photoLibraryQrAC7BindingVySbG_A_ySayAF0aK4ItemVGGSiSgAF0akxZ0V0aH00O6FilterVSgA2_28EncodingDisambiguationPolicyVSo14PHPhotoLibraryCtFQOyAeFEArstuvwxYQrA0__A4_A5_A7_A11_A13_A15_tFQOyAC01_I16Modifier_ContentVyAA0cdeaK8ModifierVyxGG_Qo__Qo__Qo__Qo__Qo__Qo_HO
+- _get_witness_table 7SwiftUI12TupleContentVy12PhotosUICore49SharedCollectionAccessPermissionManagementSectionVSg_AD0gh7RequestikL0VSgQPGAA4ViewHPAgaLHpAfaLHPyHC_HC_AjaLHpAiaLHPyHC_HCHX_HC
+- _get_witness_table 7SwiftUI15ModifiedContentVy12PhotosUICore19LazyOrRegularVStackVyAA7ForEachVySayAD22LemonadeFeatureLibraryC5ShelfOGAD0mP10IdentifierOAA0J0VyAA012_ConditionalD0VyASyASyASyAD0mP0VyAD0m6PickerP15ProviderAdapterVyAD0m6AlbumsN0V0pT0V0eaF00E15ObservableAlbumCyAD12PhotoKitItemCySo12PHCollectionCGGA0_0eS9ItemModelHPA7_A0_A9_HPA6_A0_A9_ADyHC_HC_HCg1_A7_A0_A9_HPA6_A0_A9_ADyHC_HCg3_GGAUyAWyAD0m9BookmarksN0VAZVGGGASyAUyAWyAD0m6SharedvN0VAZVA2_yA4_ySo17PHAssetCollectionCGGA0_A9_HPA23_A0_A9_HPA22_A0_A9_ADyHC_HC_HCg1_A23_A0_A9_HPA22_A0_A9_ADyHC_HCg3_GGAUyAWyAD0m6PeoplepT0VGGGGASyASyAUyAWyAD0m12SocialGroupspT0VGGAUyAWyAD0m6EventsN0VAZVA0_0eW5EventCy0E12UIFoundation0E16ConcatenatedItemOyA23_A23_A23_GA45_A0_0E17MutableCollectionADA23_A0_A46_HPyHC_A23_A0_A46_HPyHCA23_A0_A46_HPyHCHCg_A45_A42_0E14SelectableItemADA23_A42_A47_HPyHC_A23_A42_A47_HPyHCA23_A42_A47_HPyHCHCg1_GA0_A9_HPA45_A0_A9_ADA23_A0_A9_HPA22_A0_A9_ADyHC_HC_A23_A0_A9_HPA22_A0_A9_ADyHC_HCA23_A0_A9_HPA22_A0_A9_ADyHC_HCHC_HCg1_A45_A0_A9_ADA23_A0_A9_HPA22_A0_A9_ADyHC_HC_A23_A0_A9_HPA22_A0_A9_ADyHC_HCA23_A0_A9_HPA22_A0_A9_ADyHC_HCHCg3_A45_A42_A47_ADA23_A42_A47_HPyHC_A23_A42_A47_HPyHCA23_A42_A47_HPyHCHCg4_GGGASyAUyAWyAD0m5TripsN0VAZVA0_0eW4TripCyA23_GA0_A9_HPA23_A0_A9_HPA22_A0_A9_ADyHC_HC_HCg1_A23_A0_A9_HPA22_A0_A9_ADyHC_HCg3_GGAUyAWyAD0m8MemoriesN0VAZVA0_0eW6MemoryCyA4_ySo8PHMemoryCGGA0_A9_HPA67_A0_A9_HPA66_A0_A9_ADyHC_HC_HCg1_A67_A0_A9_HPA66_A0_A9_ADyHC_HCg3_GGGGGASyASyAUyAWyAD0m10MediaTypesN0VAZVA0_0eW13ListCellModelCyA23_GA0_A9_HPA23_A0_A9_HPA22_A0_A9_ADyHC_HC_HCg1_A23_A0_A9_HPA22_A0_A9_ADyHC_HCg3_GGAUyAWyAD0m9UtilitiesN0VAZVA79_A0_A9_HPA23_A0_A9_HPA22_A0_A9_ADyHC_HC_HCg1_A23_A0_A9_HPA22_A0_A9_ADyHC_HCg3_GGGASyAUyAWyAD0m11SuggestionsN0VAZVA0_0eW10CollectionCyA23_GA0_A9_HPA23_A0_A9_HPA22_A0_A9_ADyHC_HC_HCg1_A23_A0_A9_HPA22_A0_A9_ADyHC_HCg3_GGAA9EmptyViewVGGGGGGAA25_AppearanceActionModifierVGAA4ViewHPA103_AAA107_HPyHC_A105_AA12ViewModifierHPyHCHC
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAeAE7toolbar7contentQrqd__yXE_tAaDRd__lFQOyAeAE0K4RoleyQrAA07ToolbarM0VFQOyAA6VStackVyAA05TupleD0VyACyAA5GroupVyATy12PhotosUICore37LemonadeSharedAlbumsAccessRequestListV_AW0tuv10InvitationY0VQPGGAA16_FlexFrameLayoutVG_AW0tuV18ActivityFeedLayoutVyAW0uV8PostFeedVGQPGG_Qo__ACyAA6ButtonVyACyAA5ImageVAA16_OverlayModifierVyACyACyAA06_ShapeE0VyAA6CircleVAA5ColorVGAA12_FrameLayoutVGAA13_OffsetEffectVGSgGGGAA31AccessibilityAttachmentModifierVGQo__Qo_AA25_AppearanceActionModifierVGAaDHPqd__AaDHD2_A40_HO_A42_AA0E8ModifierHPyHCHC
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyACyAeAEAfgH_Qrqd___Sbyqd___qd__tctSQRd__lFQOy12PhotosUICore19LazyOrRegularVStackVyAA7ForEachVySayAI22LemonadeFeatureLibraryC5ShelfOGAI0rU10IdentifierOACyAeAE0F4DropAG8delegateQrSay22UniformTypeIdentifiers6UTTypeVG_AA0W8Delegate_ptFQOyAeAE0F4Drag9isEnabled12localContext_0F9LiftEvent0F12SessionBegan0F12SessionEndedQrSb_ypSgSo14NSItemProviderCycyAA13DragLiftEventOcSgyycSgA12_tFQOyAeAE15sensoryFeedback_7triggerQrAA15SensoryFeedbackV_qd__tSQRd__lFQOyACyACyACyACyACyACyACyAA0O0VyAE0jaK0E19photosLoadingStatus2id6status19requiredChildrenIDsQrs11AnyHashableV_A19_0J13LoadingStatusOSgSayA25_GSgtFQOyAA012_ConditionalD0VyA32_yA32_yA32_yA32_yAI0rU0VyAI0r6AlbumsS0V0U8ProviderVGA32_yA34_yAI0r12SharedAlbumsS0V05PostsU8ProviderVGA34_yA41_A37_VGGGA32_yA34_yAI0r20SharedAlbumsActivityS0VA37_VGA34_yAI0r6PeopleU8ProviderVGGGA32_yA32_yA34_yAI0r12SocialGroupsU8ProviderVGA34_yAI0r6EventsS0VA37_VGGA32_yA34_yAI0r5TripsS0VA37_VGA34_yAI0R19ConcatenatedUIShelfVyAI0r8MemoriesS0VA37_VGGGGGA32_yA32_yA32_yA34_yAI0r8FeaturedjS0VA37_VGA34_yAI0r3MapS0VA37_VGGA32_yA34_yAI0r11ICloudLinksU8ProviderVGA34_yAI0r13NotificationsS0VA37_VGGGA32_yA32_yA34_yAI0r10PhototypesS0VA37_VGA34_yAI0r10MediaTypesS0VA37_VGGA32_yA34_yAI0r9UtilitiesS0VA37_VGA34_yAI0r9BookmarksS0VA37_VGGGGGA32_yA34_yAI0r11SuggestionsS0VA37_VGA34_yAI0r23SearchCollectionResultsU8ProviderVGGG_Qo_GAA30_EnvironmentKeyWritingModifierVyAI0rU16HeaderAppearanceCSgGGA131_yAI0ruE5ModelCGGA131_ySbGGA131_yAI0R18ShelvesLayoutStyleOGGA131_yAI0r7ShelvesE17ModelDisplayStateOGGAA18_AnimationModifierVyA144_GGAA14_OpacityEffectVG_SbQo__Qo__Qo_AI011ReorderableU13Accessibility33_135EDFD9F379616E5B1D16C4C1BF8BC9LLVGSgGG_SayATGQo_AA25_AppearanceActionModifierVG_ATSgQo_A152_yA168_GGAaDHPqd0__AaDHD3_A174_HO_A175_AA0E8ModifierHPyHCHC
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACy12PhotosUICore25LemonadeSpecsProviderViewVyAD0g4RootJ5ModelCAD0g12PresentationK0VyAA6ZStackVyACy0eaF00e14TestableScrollJ6ReaderVyAA0J0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAqAEArsT_Qrqd___SbyyctSQRd__lFQOyAqAEArsT_Qrqd___SbyyctSQRd__lFQOyAqAEArsT_Qrqd___SbyyctSQRd__lFQOyAqAE22scrollEdgeEffectHidden_3forQrSb_AA0W0O3SetVtFQOyACyAqME020photosInlinePlaybackpJ7Tracker0rp8PhaseDidS0QryAA0P5PhaseO_A2_AA0p5PhaseS7ContextVtcSg_tFQOyAD0gkpJ033_FC9B67BC9B15E9E7B2BBF74E02965051LLVyACyAA6VStackVyAA05TupleD0VyAA6IDViewVyAA05EmptyJ0VSSG_ACyAD0g24ExpandableCuratedLibraryJ0VAA14_PaddingLayoutVGSgACyACyA10_yAD0G12ShelvesStackVSgGAD0G30ExpandableCuratedLibraryOffsetA7_LLVGAD0g13AccessibilityY0VGQPGGA21_GG_Qo_AA30_SafeAreaRegionsIgnoringLayoutVG_Qo__SiQo__SiQo__SiQo__AH0P7RequestVSgQo_GA40_GGGGAD0G33InlinePlaybackEnvironmentModifierA7_LLVGAA30_EnvironmentKeyWritingModifierVyAM0E22ItemListManagerFactoryCGGA59_ySo14PHPhotoLibraryCSgGGAA24_CoordinateSpaceModifierVySSGGAaPHPA68_AaPHPA63_AaPHPA57_AaPHPA54_AaPHPyHC_A56_AA0J8ModifierHPyHCHC_A62_AAA73_HPyHCHC_A67_AAA73_HPyHCHC_A71_AAA73_HPyHCHC
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyACyACyAA4ViewP12PhotosUICoreE25observingSceneOrientation14viewControllerQrSo06NSViewL0C_tFQOyAF021LemonadeSpecsProviderE0VyAF0N8FeedSpecCAF0N16PresentationRootVyAF0n21NavigationDestinationE0VGG_Qo_AA30_EnvironmentKeyWritingModifierVy0F12UIFoundation0F19WeakObjectReferenceVyAJGSgGGAWyAF0nU7ContextCSgGGAWySo09PXUIImageP0_pSgGGAWySo14PHPhotoLibraryCSgGGAWy0faG00F13ActionManagerCGGAWyAX0F9Selection_pGGAWyAF19PickerConfigurationCSgGGAWySdSgGGSgAaDHpA32_AaDHPA29_AaDHPA24_AaDHPA21_AaDHPA16_AaDHPA11_AaDHPA7_AaDHPA2_AaDHPqd__AaDHD2_AUHO_A1_AA0eZ0HPyHCHC_A6_AAA34_HPyHCHC_A10_AAA34_HPyHCHC_A15_AAA34_HPyHCHC_A20_AAA34_HPyHCHC_A23_AAA34_HPyHCHC_A28_AAA34_HPyHCHC_A31_AAA34_HPyHCHC_HC
+- _get_witness_table 7SwiftUI7ForEachVySaySSGSSAA12TupleContentVyAA08ModifiedF0Vy12PhotosUICore26SharedAlbumsInvitationCellVAA16_FlexFrameLayoutVG_AA7DividerVQPGSgGAA4ViewHPAraTHpAqaTHPAnaTHPAkaTHPyHC_AmA0R8ModifierHPyHCHC_ApaTHPyHCHX_HC_HC_HC
+- _get_witness_table 7SwiftUI7SectionVyAA9EmptyViewVAA0E0PAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaFRd__lFQOyAgAE11buttonStyleyQrqd__AA015PrimitiveButtonN0Rd__lFQOyAA0P0VyAA15ModifiedContentVyAA6HStackVyAA05TupleR0VyAA4TextV_AA6SpacerV12PhotosUICore37SharedAlbumsPendingRequestsCountBadgeVQPGGAA01_R13ShapeModifierVyAA9RectangleVGGG_AA05PlainpN0VQo__AUyAUyAA15NavigationStackVyAA14NavigationPathVA2_08Lemonadeyz18AccessRequestsListE0VGAA12_FrameLayoutVGAA16_FixedSizeLayoutVGQo_AEGSgAaFHpA31_AaFHPAeaFHPyHC_qd0__AaFHD3_A30_HOAeaFHPyHCHC_HC
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQOyAA15ModifiedContentVyAGyAA0G0VyAA07DefaultG5LabelVGAA32_EnvironmentKeyTransformModifierVySbGGAA023AccessibilityAttachmentO0VG_AA017BorderedProminentgE0VQo_HO
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAcAEAdefGQrAJ_AKqd__yctAaBRd__lFQOyAA15ModifiedContentVyAA6VStackVyAA05TupleL0VyAMyAMyAcAE0I7Margins__3forQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgAA0L15MarginPlacementVtFQOyAcAE06scrollL10BackgroundyQrAA10VisibilityOFQOyAcAE9formStyleyQrqd__AA9FormStyleRd__lFQOyAcAE20listHasStackBehaviorQryFQOyAA4FormVyAQyAA7SectionVyAA05EmptyC0VAMyAMyAMyAMyAMyAcAE4boldyQrSbFQOyAMyAcAE12labelsHiddenQryFQOyAA9TextFieldVyAA4TextVG_Qo_AA30_EnvironmentKeyWritingModifierVyAA4FontVSgGG_Qo_A23_ySiSgGGA23_yAA13TextAlignmentOGGAA14_PaddingLayoutVGAA32_EnvironmentKeyTransformModifierVySbGGA23_yAA5ColorVSgGGA13_G_12PhotosUICore21ToggleSettingsSectionVSgA50_37LemonadeSharedAlbumsAccessRequestsRowVSgAA012_ConditionalL0VyA58_yA50_20FamilyMembersSectionVA50_36LegacySharedAlbumParticipantsSectionVGAQyA50_35SharedCollectionParticipantsSectionV_A50_35SharedCollectionShareActionsSectionVA50_036SharedCollectionSettingsShareOptionsL0VSgQPGGSgAQyA50_27ExpirationManagementSection33_C6699F8479B62BB7D697BA3165AD7848LLVSg_A53_A50_16MigrationSectionVSgA50_35SharedCollectionDeclinedRequestsRowVSgA50_29RemoveUnusedShareLinksSectionVSgA50_18DeleteAlbumSectionVA11_yA13_AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAA6ButtonVyAA6HStackVyAQyA19__AA6SpacerVQPGGG_AA16PlainButtonStyleVQo_A13_GSgQPGSgQPGG_Qo__AA16GroupedFormStyleVQo__Qo__Qo_A38_GAA25_AppearanceActionModifierVG_AMyAMyA50_022SharedCollectionStatusC0VAA12_FrameLayoutVGAA12_ScaleEffectVGSgA96_QPGGAA01_Y13StyleModifierVyA45_GG_AMyAA010NavigationC0VyAcAE7toolbarAGQrqd__yXE_tAA07ToolbarL0Rd__lFQOyA50_027SharedCollectionDebugStatusC0V_AQyAA11ToolbarItemVyytA120_G_A141_yytA92_yAA18DefaultButtonLabelVGGQPGQo_GAA16_FlexFrameLayoutVGSgQo__AMyA50_38SharedAlbumParticipantSearchControllerVA122_GQo_HO
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAcAE15navigationTitleyQrqd__SyRd__lFQOyAcAE9formStyleyQrqd__AA04FormK0Rd__lFQOyAA0L0Vy12PhotosUICore036SharedCollectionSettingsShareOptionsG0VG_AA07GroupedlK0VQo__SSQo__AA0F4ItemVyytAcAE06buttonK0yQrqd__AA015PrimitiveButtonK0Rd__lFQOyAA08ModifiedG0VyAA0X0VyAA07DefaultX5LabelVGAA31AccessibilityAttachmentModifierVG_AA017BorderedProminentxK0VQo_GSgQo_HO
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA7SectionVyAA05EmptyC0VAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA6ToggleVyAA6VStackVyAA4TextVGG_SbQo_APG_SbQo_HO
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAC18PhotosUIFoundationE7pxAlertyQrAA7BindingVySo20PXAlertConfigurationCSgGFQOyAcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAcAE9formStyleyQrqd__AA04FormT0Rd__lFQOyAcAE15navigationTitleyQrqd__SyRd__lFQOyAA0U0VyAA08ModifiedR0Vy0H6UICore034LemonadeSharedAlbumsAccessRequestsC0VAA14_PaddingLayoutVGG_SSQo__AA07GroupeduT0VQo__AA0Q4ItemVyytAA6ButtonVyAA4TextVGGQo__Qo__SiQo_HO
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAE9formStyleyQrqd__AA04FormI0Rd__lFQOyAcAE15navigationTitleyQrqd__SyRd__lFQOyAA0J0Vy12PhotosUICore42SharedCollectionBlockedParticipantsSectionVG_SSQo__AA07GroupedjI0VQo__SaySo24PXSharedAlbumParticipantCGQo_HO
+- _get_witness_table qd0__7SwiftUI4ViewHD4_AaBPAAE5alert_11isPresented7actionsQrqd___AA7BindingVySbGqd_0_yXEtSyRd__AaBRd_0_r0_lFQOyAA15ModifiedContentVyAKyAKyAA6VStackVyAA05TupleJ0VyAMyAOyAA6HStackVyAOy12PhotosUICore026LemonadeSharedAlbumsAvatarC0VSg_AKyAA4TextVAA16_FixedSizeLayoutVGQPGG_AcAE12onTapGesture5count7performQrSi_yyctFQOyAKyAwA08_PaddingW0VG_Qo_SgQPGG_AKyAcAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQOyAQyAOyAKyAA6ButtonVyAWGAA16_OverlayModifierVyAKyAA6ZStackVyAOyAA5ColorV_AKyAKyAA08ProgressC0VyAA05EmptyC0VA25_GAA30_EnvironmentKeyWritingModifierVyA21_SgGGAA17_BrightnessEffectVGQPGGAA11_ClipEffectVyAA7CapsuleVGGSgGG_A45_QPGG_AR24AccessRequestButtonStyleVQo_A5_GQPGGA5_GA5_GAA25_AllowsHitTestingModifierVG_SSAA012_ConditionalJ0VyA60_yA15_AOyA15__A15_QPGGA61_GQo_HO
+- _get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE5alert_11isPresented10presenting7actions7messageQrqd___AA7BindingVySbGqd_2_Sgqd_0_qd_2_XEqd_1_qd_2_XEtSyRd__AaBRd_0_AaBRd_1_r2_lFQOyAA7ForEachVySaySSGSSAA12TupleContentVy12PhotosUICore37LemonadeSharedAlbumsAccessRequestCellVyAR0rstU9ItemModelCG_AA7DividerVQPGSgG_SSAQyAA6ButtonVyAA4TextVG_A5_QPGA4_AR07DeclineU0VQo_HO
+- _get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAEAklM_Qrqd___Sbyqd___qd__tctSQRd__lFQOy12PhotosUICore40SharedCollectionAccessPermissionsSectionV_So08PXSharedqR10PermissionVQo__ARQo__SSAcAE16keyboardShortcutyQrAA08KeyboardX0VFQOyAA6ButtonVyAA4TextVG_Qo_A_Qo_HO
+- _get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAcAEAD_AefGQrqd___AJqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAcAEAD_AE10presentingAfGQrqd___AJqd_2_Sgqd_0_qd_2_XEqd_1_qd_2_XEtSyRd__AaBRd_0_AaBRd_1_r2_lFQOyAcAEAD_AekfGQrqd___AjLqd_0_qd_2_XEqd_1_qd_2_XEtSyRd__AaBRd_0_AaBRd_1_r2_lFQOyAcAE15navigationTitleyQrqd__SyRd__lFQOyAA5GroupVyAA19_ConditionalContentVyAA05EmptyC0VAA08ModifiedO0VyAUyAA4ListVys5NeverOAA7ForEachVySay06PhotosA6UICore0V15ObservableAlbumCy0vW012PhotoKitItemCySo17PHAssetCollectionCGGGSOAUyAUyA3_014LemonadeSharedY4CellVyA9_AcAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQOyAA6HStackVyAA05TupleO0VyAUyAA6ButtonVyAA4TextVGAA24_ForegroundStyleModifierVyAA22HierarchicalShapeStyleVGG_AUyA23_A25_yAA5ColorVGGQPGG_A3_014ArchivedSharedY11ButtonStyle33_77FC8CF04FB26E53E8AEA6F1ACF6F7D0LLVQo_GAA14_PaddingLayoutVGAA25_AlignmentWritingModifierVGSgGGAA30_EnvironmentKeyWritingModifierVyA3_014LemonadeAlbumsC12OptionsModelCGGA51_ySo17PXUIImageProvider_pSgGGGG_SSQo__SSA18_yA23__AcAE16keyboardShortcutyQrAA16KeyboardShortcutVFQOyA23__Qo_QPGA22_A9_Qo__SSA18_yA23__A23_QPGA22_A9_Qo__SSA23_A22_Qo__SSA23_A22_Qo_HO
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBP07_Photosb1_aB0E32photosPickerDisabledCapabilitiesyQrSo08PHPickerH0VFQOyAcDE01_efg7PrivateH0yQrSo01_ijH0VFQOyAcDE01_eF19ContainerIdentifieryQrSSSgFQOyAcDE0eF011isPresented9selection17maxSelectionCount0O8Behavior8matching21preferredItemEncoding12photoLibraryQrAA7BindingVySbG_AVySayAD0dfV0VGGSiSgAD0dfqS0V0dB00I6FilterVSgAY0W20DisambiguationPolicyVSo07PHPhotoY0CtFQOyAA15ModifiedContentVyA12_y0D6UICore23SharedAlbumPreviewImageVAA16_OverlayModifierVyA12_yA12_yAcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAcAE9menuStyleyQrqd__AA9MenuStyleRd__lFQOyA12_yAA4MenuVyA12_yA12_yA12_yA12_yAA5ImageVAA12_FrameLayoutVGAA34_InsettableBackgroundShapeModifierVyAA5ColorVAA6CircleV6_InsetVGGAA24_ForegroundStyleModifierVyAA14TintShapeStyleVGGAA31AccessibilityAttachmentModifierVGAA12TupleContentVyAA6ButtonVyAA4TextVG_A12_yA54_AA32_EnvironmentKeyTransformModifierVySbGGQPGGAA14_PaddingLayoutVG_AA15ButtonMenuStyleVQo__AA16PlainButtonStyleVQo_A40_yAA14LinkShapeStyleVGGAA30_EnvironmentKeyWritingModifierVyAA10VisibilityOGGSgGGAA11_ClipEffectVyAA9RectangleVGG_Qo__Qo__Qo__Qo_HO
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE13onExitCommand7performQryycSg_tFQOyAA15ModifiedContentVyAcAE0D6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAE26interactiveDismissDisabledyQrSbFQOyAHyAHyAcAE11safeAreaBar4edge9alignment7spacing7contentQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQOyAA6VStackVyAcAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQOyAcAE06scrollX11EffectStyle_3forQrAA06ScrollX11EffectStyleVSg_AA0X0OA6_VtFQOyAA06ScrollC0Vy12PhotosUICore014SettingsScrollI033_C6699F8479B62BB7D697BA3165AD7848LLVG_Qo__Qo_G_AHyAHyAHyAHyAA4TextVAA16_FlexFrameLayoutVGAA14_PaddingLayoutVGA32_GA32_GQo_AA06_InsetC8ModifierVyA_yAA05TupleI0VyAA7DividerV_AHyAHyAHyAA6HStackVyA40_yAA6SpacerV_A18_18SettingsDoneButtonA20_LLVQPGGA32_GA32_GAA24_BackgroundStyleModifierVyAA5ColorVGGQPGGGGA57_G_Qo__SbQo_A18_017LemonadeAnalyticsC11TimeTrackerVG_Qo_HO
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE18scrollClipDisabledyQrSbFQOy06PhotosA6UICore0g14TestableScrollC0VyAC0gH0E08lemonadeJ13ActionHandler0dC5Proxy0dL6SourceQrAA0jcN0V_AH08LemonadejlO0_ptFQOyAcEE18photosKeySelectionAJQrAM_tFQOyAA15ModifiedContentVyAQyAA6VStackVyAA05TupleU0VyAH0P26PeopleHomeSuggestionBannerV_AH0pxY12GroupSectionVSgAH0pxyX7SectionVSgASyAUyAH0px10ProcessingC0VSg_AA6SpacerVQPGGQPGGAA14_PaddingLayoutVGAA012_EnvironmentR15WritingModifierVyAH0P26FeedContentsTopPaddingKindOGG_Qo__Qo_G_Qo_HO
+- _objc_msgSend$_setPrimaryButtonType:
+- _objc_msgSend$initForVIWithAsset:image:requestID:resultHandler:
+- _objc_msgSend$initWithApplication:isExtension:
+- _objc_msgSend$shouldShowScreeningDisclosureForSharedCollection:
+- _objc_msgSend$showAccessPermissionsInSettings
+- _symbolic _____ 12PhotosUICore04$s12A124UICore0035LemonadeSegmentedControlswift_IgGGkfMX153_0_33_5FC9D43E1B0AF02010EFC9E7AD585C06Ll7PreviewfMf_15PreviewRegistryfMu_V
+- _symbolic _____ 12PhotosUICore30ArchivedSharedAlbumButtonStyle33_77FC8CF04FB26E53E8AEA6F1ACF6F7D0LLV
+- _symbolic _____ 12PhotosUICore40SharedCollectionSettingsShareOptionsViewV
+- _symbolic _____ 12PhotosUICore43SharedCollectionSettingsShareOptionsContentV
+- _symbolic _____ 12PhotosUICore49SharedCollectionAccessPermissionManagementSectionV
+- _symbolic _____Sg So33PXSharedCollectionParticipantRoleV
+- _symbolic _____yAAyAAyAAyAAyAAyAAyAAy_____y_____y__________y_____GG_Qo______y_____ySo16NSViewControllerCGSgGGAIy_____SgGGAIy______pSgGGAIySo14PHPhotoLibraryCSgGGAIy_____GGAIy______pGGAIy_____SgGGAIySdSgGGSg 7SwiftUI15ModifiedContentV AA4ViewP12PhotosUICoreE25observingSceneOrientation14viewControllerQrSo06NSViewL0C_tFQO AF021LemonadeSpecsProviderE0V AF0N8FeedSpecC AF0N16PresentationRootV AF0n21NavigationDestinationE0V AA30_EnvironmentKeyWritingModifierV 0F12UIFoundation0F19WeakObjectReferenceV AF0nU7ContextC So09PXUIImageP0P 0faG00F13ActionManagerC AU0F9SelectionP AF19PickerConfigurationC
+- _symbolic _____yAAyAAyAAy_____y__________y_____yAAy_____y_____y_____y_____y_____y_____yAAy_____y_____yAAy_____y_____y_____y_____SSG_AAy__________GSgAAyAAyAHy_____SgG_____G_____GQPGGANGG_Qo______G_Qo__SiQo__SiQo__SiQo_______SgQo_GA1_GGGG_____G_____y_____GGA17_ySo14PHPhotoLibraryCSgGG_____ySSGG 7SwiftUI15ModifiedContentV 12PhotosUICore25LemonadeSpecsProviderViewV AD0g4RootJ5ModelC AD0g12PresentationK0V AA6ZStackV 0eaF00e14TestableScrollJ6ReaderV AA0J0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AqAEArsT_Qrqd___SbyyctSQRd__lFQO AqAEArsT_Qrqd___SbyyctSQRd__lFQO AqAEArsT_Qrqd___SbyyctSQRd__lFQO AqAE22scrollEdgeEffectHidden_3forQrSb_AA0W0O3SetVtFQO AqME020photosInlinePlaybackpJ7Tracker0rp8PhaseDidS0QryAA0P5PhaseO_A2_AA0p5PhaseS7ContextVtcSg_tFQO AD0gkpJ033_FC9B67BC9B15E9E7B2BBF74E02965051LLV AA6VStackV AA05TupleD0V AA6IDViewV AA05EmptyJ0V AD0g24ExpandableCuratedLibraryJ0V AA14_PaddingLayoutV AD0G12ShelvesStackV AD0G30ExpandableCuratedLibraryOffsetA7_LLV AD0g13AccessibilityY0V AA30_SafeAreaRegionsIgnoringLayoutV AH0P7RequestV AD0G33InlinePlaybackEnvironmentModifierA7_LLV AA30_EnvironmentKeyWritingModifierV AM0E22ItemListManagerFactoryC AA24_CoordinateSpaceModifierV
+- _symbolic _____yAAy_____y_____y_____yAAyAAy_____yAAyAAyABy_____ySay5Model______10Identifier_____QZGAI_____y_____y_____y_____yAMy_____y_____y__________G______Qo______yANyAoAyAP_____y_____GGG_ARQo_GAOGGG______Qo_GG_____G_____y_____GGG_____G_____y_____GG______yA18__A16_Qo_Qo__Qo_GA13_GA10_G 7SwiftUI15ModifiedContentV AA6HStackV AA4ViewPAAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQO AG06PhotosA6UICoreE02onO15SolariumEnabledyQrqd__xXEAaFRd__lFQO AA0jF0V AA7ForEachV 0oP0012LemonadeItemF8ProviderP 0O12UIFoundation0O5ModelP AgAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA5GroupV AA012_ConditionalD0V AgAE10labelStyleyQrqd__AA10LabelStyleRd__lFQO AA5LabelV AA4TextV AA5ImageV AP0O28ToggleLabelTitleAndIconStyleV AgAEA8_yQrqd__AAA9_Rd__lFQO AA30_EnvironmentKeyWritingModifierV A15_5ScaleO AP0O11ToggleStyleV AA14_PaddingLayoutV AA23_GeometryActionModifierV 12CoreGraphics7CGFloatV AA16_FlexFrameLayoutV AA11_ClipEffectV AA7CapsuleV AgAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQO
+- _symbolic _____ySaySSGSS_____y_____y__________G______QPGSgG 7SwiftUI7ForEachV AA12TupleContentV AA08ModifiedF0V 12PhotosUICore26SharedAlbumsInvitationCellV AA16_FlexFrameLayoutV AA7DividerV
+- _symbolic _____y_____G 7SwiftUI5StateV So34PXSharedCollectionAccessPermissionV
+- _symbolic _____y_____SgG 7SwiftUI9LazyStateV So34PXSharedCollectionAccessPermissionV
+- _symbolic _____y_____Sg______SgQPG 7SwiftUI12TupleContentV 12PhotosUICore49SharedCollectionAccessPermissionManagementSectionV AD0gh7RequestikL0V
+- _symbolic _____y__________y_____y_____y_____y_____y_____y________________QPGG_____y_____GGG______Qo__ADyADy_____y__________G_____G_____GQo_ABGSg 7SwiftUI7SectionV AA9EmptyViewV AA0E0PAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaFRd__lFQO AgAE11buttonStyleyQrqd__AA015PrimitiveButtonN0Rd__lFQO AA0P0V AA15ModifiedContentV AA6HStackV AA05TupleR0V AA4TextV AA6SpacerV 12PhotosUICore37SharedAlbumsPendingRequestsCountBadgeV AA01_R13ShapeModifierV AA9RectangleV AA05PlainpN0V AA15NavigationStackV AA14NavigationPathV A2_08Lemonadeyz18AccessRequestsListE0V AA12_FrameLayoutV AA16_FixedSizeLayoutV
+- _symbolic _____y_____yAAyAAy_____y_____yAByACy_____yACy_____Sg_AAy__________GQPGG______yAAyAG_____G_Qo_SgQPGG_AAy_____yADyACyAAy_____yAGG_____yAAy_____yACy______AAyAAy_____y_____AXG_____yAVSgGG_____GQPGG_____y_____GGSgGG_A12_QPGG______Qo_ALGQPGGALGALG_____G_SS_____yA24_yAsCyAS_ASQPGGA25_GQo_ 7SwiftUI4ViewPAAE5alert_11isPresented7actionsQrqd___AA7BindingVySbGqd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA15ModifiedContentV AA6VStackV AA05TupleJ0V AA6HStackV 12PhotosUICore026LemonadeSharedAlbumsAvatarC0V AA4TextV AA16_FixedSizeLayoutV AcAE12onTapGesture5count7performQrSi_yyctFQO AA08_PaddingW0V AcAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV AA16_OverlayModifierV AA6ZStackV AA5ColorV AA08ProgressC0V AA05EmptyC0V AA30_EnvironmentKeyWritingModifierV AA17_BrightnessEffectV AA11_ClipEffectV AA7CapsuleV AR24AccessRequestButtonStyleV AA25_AllowsHitTestingModifierV AA012_ConditionalJ0V
+- _symbolic _____y_____yAAyAAy_____y_____y_____yACy______ABy_____G_____AAy_____y_____y_____y_____yAAyAAy_____y_____ALG_____y_____GG_____GAAyAAyAAy_____ANy_____SgGGARG_____y_____GGGACy_____yAFG_A4_QPGG______Qo_______Qo_ANy_____GGSgQPGG_AAy_____yAAyADyACyAAyA4______yAAy_____yACyAU_AAyAAyAmWG_____GQPGG_____y_____GGSgGG_A4_QPGG_____ySbGG______Qo______GSgQPGGA38_GA38_GA34_G_Qo_ 7SwiftUI4ViewP18PhotosUIFoundationE7pxAlertyQrAA7BindingVySo20PXAlertConfigurationCSgGFQO AA15ModifiedContentV AA6VStackV AA05TupleL0V AA6HStackV 0D6UICore026LemonadeSharedAlbumsAvatarC0V AA4TextV AA6SpacerV AcAE11buttonStyleyQrqd__AA015PrimitiveButtonX0Rd__lFQO AcAE04menuX0yQrqd__AA04MenuX0Rd__lFQO AA4MenuV AA012_ConditionalL0V AA08ProgressC0V AA05EmptyC0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA12_FrameLayoutV AA5ImageV AA5ColorV AA01_L13ShapeModifierV AA9RectangleV AA0Z0V AA0z4MenuX0V AA05PlainzX0V AA10VisibilityO AcAEA_yQrqd__AA0zX0Rd__lFQO AA16_OverlayModifierV AA6ZStackV AA17_BrightnessEffectV AA11_ClipEffectV AA7CapsuleV AA32_EnvironmentKeyTransformModifierV AT013AccessRequestzX0V AA14_PaddingLayoutV
+- _symbolic _____y_____yAAy_____y_____G_____ySbGG_____G______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA15ModifiedContentV AA0G0V AA07DefaultG5LabelV AA32_EnvironmentKeyTransformModifierV AA023AccessibilityAttachmentO0V AA017BorderedProminentgE0V
+- _symbolic _____y_____yAAy_____y_____y_____ySay_____G_____AAy_____y_____y_____yAAyAAyAAyAAyAAyAAyAAy_____y_____y_____yAHyAHyAHyAHy_____y_____GAHyAIy_____GAIy_____GGGAHyAIy_____GAIy_____GGGAHyAHyAIy_____GAIy_____GGAHyAIy_____GAIy_____y_____GGGGGAHyAHyAHyAIy_____GAIy_____GGAHyAIy_____GAIy_____GGGAHyAHyAIy_____GAIy_____GGAHyAIy_____GAIy_____GGGGGAHyAIy_____GAIy_____GGG_Qo_G_____y_____SgGGA42_y_____GGA42_ySbGGA42_y_____GGA42_y_____GG_____yA52_GG_____G_SbQo__Qo__Qo______GSgGG_SayAFGQo______G_AFSgQo_A58_yA71_GG 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAEAfgH_Qrqd___Sbyqd___qd__tctSQRd__lFQO 12PhotosUICore19LazyOrRegularVStackV AA7ForEachV AI22LemonadeFeatureLibraryC5ShelfO AI0rU10IdentifierO AeAE0F4DropAG8delegateQrSay22UniformTypeIdentifiers6UTTypeVG_AA0W8Delegate_ptFQO AeAE0F4Drag9isEnabled12localContext_0F9LiftEvent0F12SessionBegan0F12SessionEndedQrSb_ypSgSo14NSItemProviderCycyAA13DragLiftEventOcSgyycSgA11_tFQO AeAE15sensoryFeedback_7triggerQrAA15SensoryFeedbackV_qd__tSQRd__lFQO AA0O0V AE0jaK0E19photosLoadingStatus2id6status19requiredChildrenIDsQrs11AnyHashableV_A18_0J13LoadingStatusOSgSayA24_GSgtFQO AA012_ConditionalD0V AI0rU0V AI0r6AlbumsS0V0U8ProviderV AI0r12SharedAlbumsS0V05PostsU8ProviderV A39_A36_V AI0r20SharedAlbumsActivityS0VA36_V AI0r6PeopleU8ProviderV AI0r12SocialGroupsU8ProviderV AI0r6EventsS0VA36_V AI0r5TripsS0VA36_V AI0R19ConcatenatedUIShelfV AI0r8MemoriesS0VA36_V AI0r8FeaturedjS0VA36_V AI0r3MapS0VA36_V AI0r11ICloudLinksU8ProviderV AI0r13NotificationsS0VA36_V AI0r10PhototypesS0VA36_V AI0r10MediaTypesS0VA36_V AI0r9UtilitiesS0VA36_V AI0r9BookmarksS0VA36_V AI0r11SuggestionsS0VA36_V AI0r23SearchCollectionResultsU8ProviderV AA30_EnvironmentKeyWritingModifierV AI0rU16HeaderAppearanceC AI0ruE5ModelC AI0R18ShelvesLayoutStyleO AI0r7ShelvesE17ModelDisplayStateO AA18_AnimationModifierV AA14_OpacityEffectV AI011ReorderableU13Accessibility33_135EDFD9F379616E5B1D16C4C1BF8BC9LLV AA25_AppearanceActionModifierV
+- _symbolic _____y_____yAByABy_____y_____yqd________y_____yx_qd__GGQPGG_____G_____y_____y__________GGGAKGAHG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6VStackV AA05TupleD0V AA014_ViewModifier_D0V 12PhotosUICore17LemonadeShelfBody33_DF1D597E796E93904C758EC862553B19LLV0D10BackgroundV AA14_PaddingLayoutV AA01_vI0V AA06_ShapeH0V AA16RoundedRectangleV AA5ColorV
+- _symbolic _____y_____ySaySSGSS_____y_____y_____G______QPGSgG_SSACy_____y_____G_AMQPGAL_____Qo_ 7SwiftUI4ViewPAAE5alert_11isPresented10presenting7actions7messageQrqd___AA7BindingVySbGqd_2_Sgqd_0_qd_2_XEqd_1_qd_2_XEtSyRd__AaBRd_0_AaBRd_1_r2_lFQO AA7ForEachV AA12TupleContentV 12PhotosUICore37LemonadeSharedAlbumsAccessRequestCellV AQ0rstU9ItemModelC AA7DividerV AA6ButtonV AA4TextV AQ07DeclineU0V
+- _symbolic _____y_____y__________y_____y_____y_____GG_SbQo_AEG_SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA7SectionV AA05EmptyC0V AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6ToggleV AA6VStackV AA4TextV
+- _symbolic _____y_____y_____ySay_____G__________y_____yAHyAHyAHy_____y_____y__________y_____ySo12PHCollectionCGG_____HPApRHPAoR12PhotosUICoreyHC_HC_HCg1_ApRHPAorSyHC_HCg3_GGAIyAJy_____GGGAHyAIyAJy_____ALyAMySo17PHAssetCollectionCGGARHPA1_ARHPA0_ArSyHC_HC_HCg1_A1_ARHPA0_ArSyHC_HCg3_GGAIyAJy_____GGGGAHyAHyAIyAJy_____GGAIyAJy__________y_____yA1_A1_A1_GA16______ASA1_A17_HPyHC_A1_A17_HPyHCA1_A17_HPyHCHCg_A16______ASA1_A18_HPyHC_A1_A18_HPyHCA1_A18_HPyHCHCg1_GARHPA16_ArSA1_ARHPA0_ArSyHC_HC_A1_ARHPA0_ArSyHC_HCA1_ARHPA0_ArSyHC_HCHC_HCg1_A16_ArSA1_ARHPA0_ArSyHC_HC_A1_ARHPA0_ArSyHC_HCA1_ARHPA0_ArSyHC_HCHCg3_A16_A18_ASA1_A18_HPyHC_A1_A18_HPyHCA1_A18_HPyHCHCg4_GGGAHyAIyAJy__________yA1_GARHPA1_ARHPA0_ArSyHC_HC_HCg1_A1_ARHPA0_ArSyHC_HCg3_GGAIyAJy__________yAMySo8PHMemoryCGGARHPA32_ARHPA31_ArSyHC_HC_HCg1_A32_ARHPA31_ArSyHC_HCg3_GGGGGAHyAHyAIyAJy__________yA1_GARHPA1_ARHPA0_ArSyHC_HC_HCg1_A1_ARHPA0_ArSyHC_HCg3_GGAIyAJy_____A41_ARHPA1_ARHPA0_ArSyHC_HC_HCg1_A1_ARHPA0_ArSyHC_HCg3_GGGAHyAIyAJy__________yA1_GARHPA1_ARHPA0_ArSyHC_HC_HCg1_A1_ARHPA0_ArSyHC_HCg3_GG_____GGGGGG_____G 7SwiftUI15ModifiedContentV 12PhotosUICore19LazyOrRegularVStackV AA7ForEachV AD22LemonadeFeatureLibraryC5ShelfO AD0mP10IdentifierO AA0J0V AA012_ConditionalD0V AD0mP0V AD0m6PickerP15ProviderAdapterV AD0m6AlbumsN0V0pT0V 0eaF00E15ObservableAlbumC AD12PhotoKitItemC A_0eS9ItemModelP AD0m9BookmarksN0VAYV AD0m6SharedvN0VAYV AD0m6PeoplepT0V AD0m12SocialGroupspT0V AD0m6EventsN0VAYV A_0eW5EventC 0E12UIFoundation0E16ConcatenatedItemO A_0E17MutableCollectionP A21_0E14SelectableItemP AD0m5TripsN0VAYV A_0eW4TripC AD0m8MemoriesN0VAYV A_0eW6MemoryC AD0m10MediaTypesN0VAYV A_0eW13ListCellModelC AD0m9UtilitiesN0VAYV AD0m11SuggestionsN0VAYV A_0eW10CollectionC AA9EmptyViewV AA25_AppearanceActionModifierV
+- _symbolic _____y_____y_____y__________GSg_ACy9Subheader_____Qz_____GSgAAyACy_____y_____ySay5Model______10Identifier_____QZGAsCy_____yx_G_____GG_ATQo______GGQPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA6SpacerV AA12_FrameLayoutV 12PhotosUICore29LemonadeSectionedFeedProviderP AA05_FlexhI0V AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA7ForEachV AL0l4ItemqO0P 0J12UIFoundation0J5ModelP AL0lm7StackedN033_74F0D0D0C3698197C2DB8115913F948BLLV07SectionQ0V AA31AccessibilityAttachmentModifierV AA25_AppearanceActionModifierV
+- _symbolic _____y_____y_____y___________Qo__ABQo__SS_____y_____y_____G_Qo_AFQo_ 7SwiftUI4ViewPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQO AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAklM_Qrqd___Sbyqd___qd__tctSQRd__lFQO 12PhotosUICore40SharedCollectionAccessPermissionsSectionV So08PXSharedqR10PermissionV AcAE16keyboardShortcutyQrAA08KeyboardX0VFQO AA6ButtonV AA4TextV
+- _symbolic _____y_____y_____y_____yAAyAAy_____y_____y_____y_____y_____y_____G_Qo__Qo_G_AAyAAyAAyAAy__________G_____GALGALGQo______yABy_____y______AAyAAyAAy_____yARy___________QPGGALGALG_____y_____GGQPGGGGA1_G_Qo__SbQo______G_Qo_ 7SwiftUI4ViewPAAE13onExitCommand7performQryycSg_tFQO AA15ModifiedContentV AcAE0D6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE26interactiveDismissDisabledyQrSbFQO AcAE11safeAreaBar4edge9alignment7spacing7contentQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQO AA6VStackV AcAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQO AcAE06scrollX11EffectStyle_3forQrAA06ScrollX11EffectStyleVSg_AA0X0OA6_VtFQO AA06ScrollC0V 12PhotosUICore014SettingsScrollI033_C6699F8479B62BB7D697BA3165AD7848LLV AA4TextV AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA06_InsetC8ModifierV AA05TupleI0V AA7DividerV AA6HStackV AA6SpacerV A18_18SettingsDoneButtonA20_LLV AA24_BackgroundStyleModifierV AA5ColorV A18_017LemonadeAnalyticsC11TimeTrackerV
+- _symbolic _____y_____y_____y_____y_____G_SSQo_______Qo__SaySo24PXSharedAlbumParticipantCGQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE9formStyleyQrqd__AA04FormI0Rd__lFQO AcAE15navigationTitleyQrqd__SyRd__lFQO AA0J0V 12PhotosUICore42SharedCollectionBlockedParticipantsSectionV AA07GroupedjI0V
+- _symbolic _____y_____y_____y_____y_____G______Qo__SSQo_______yyt_____y_____y_____y_____G_____G______Qo_GSgQo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE15navigationTitleyQrqd__SyRd__lFQO AcAE9formStyleyQrqd__AA04FormK0Rd__lFQO AA0L0V 12PhotosUICore036SharedCollectionSettingsShareOptionsG0V AA07GroupedlK0V AA0F4ItemV AcAE06buttonK0yQrqd__AA015PrimitiveButtonK0Rd__lFQO AA08ModifiedG0V AA0X0V AA07DefaultX5LabelV AA31AccessibilityAttachmentModifierV AA017BorderedProminentxK0V
+- _symbolic _____y_____y_____y_____y_____yAAyAAy_____y_____y_____y_____y_____yACy_____y_____AAyAAyAAyAAyAAy_____yAAy_____y_____y_____G_Qo______y_____SgGG_Qo_AKySiSgGGAKy_____GG_____G_____ySbGGAKy_____SgGGAFG______Sg_____Sg_____yA9_y__________GACy________________SgQPGGSgACy_____Sg_A6______Sg_____Sg_____Sg_____AEyAF_____y_____y_____yACyAH______QPGGG______Qo_AFGSgQPGSgQPGG_Qo_______Qo__Qo__Qo_AWG_____G_AAyAAy__________G_____GSgA31_QPGG_____yA0_GG_AAy_____y_____y______ACy_____yytA51_G_A64_yytA29_y_____GGQPGQo_G_____GSgQo__AAy_____A52_GQo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AcAEAdefGQrAJ_AKqd__yctAaBRd__lFQO AA15ModifiedContentV AA6VStackV AA05TupleL0V AcAE0I7Margins__3forQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgAA0L15MarginPlacementVtFQO AcAE06scrollL10BackgroundyQrAA10VisibilityOFQO AcAE9formStyleyQrqd__AA9FormStyleRd__lFQO AcAE20listHasStackBehaviorQryFQO AA4FormV AA7SectionV AA05EmptyC0V AcAE4boldyQrSbFQO AcAE12labelsHiddenQryFQO AA9TextFieldV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA13TextAlignmentO AA14_PaddingLayoutV AA32_EnvironmentKeyTransformModifierV AA5ColorV 12PhotosUICore21ToggleSettingsSectionV A32_37LemonadeSharedAlbumsAccessRequestsRowV AA012_ConditionalL0V A32_20FamilyMembersSectionV A32_36LegacySharedAlbumParticipantsSectionV A32_35SharedCollectionParticipantsSectionV A32_35SharedCollectionShareActionsSectionV A32_036SharedCollectionSettingsShareOptionsL0V A32_27ExpirationManagementSection33_C6699F8479B62BB7D697BA3165AD7848LLV A32_16MigrationSectionV A32_35SharedCollectionDeclinedRequestsRowV A32_29RemoveUnusedShareLinksSectionV A32_18DeleteAlbumSectionV AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA6HStackV AA6SpacerV AA16PlainButtonStyleV AA16GroupedFormStyleV AA25_AppearanceActionModifierV A32_022SharedCollectionStatusC0V AA12_FrameLayoutV AA12_ScaleEffectV AA01_Y13StyleModifierV AA010NavigationC0V AcAE7toolbarAGQrqd__yXE_tAA07ToolbarL0Rd__lFQO A32_027SharedCollectionDebugStatusC0V AA11ToolbarItemV AA18DefaultButtonLabelV AA16_FlexFrameLayoutV A32_38SharedAlbumParticipantSearchControllerV
+- _symbolic _____y_____y_____y_____y_____yAAy__________yAAyAAy_____y_____yAAy_____yAAyAAyAAyAAy__________G_____y__________GG_____y_____GG_____G_____y_____y_____G_AAyAV_____ySbGGQPGG_____G______Qo_______Qo_AMy_____GG_____y_____GGSgGG_____y_____GG_Qo__Qo__Qo__Qo_ 7SwiftUI4ViewP07_Photosb1_aB0E32photosPickerDisabledCapabilitiesyQrSo08PHPickerH0VFQO AcDE01_efg7PrivateH0yQrSo01_ijH0VFQO AcDE01_eF19ContainerIdentifieryQrSSSgFQO AcDE0eF011isPresented9selection17maxSelectionCount0O8Behavior8matching21preferredItemEncoding12photoLibraryQrAA7BindingVySbG_AVySayAD0dfV0VGGSiSgAD0dfqS0V0dB00I6FilterVSgAY0W20DisambiguationPolicyVSo07PHPhotoY0CtFQO AA15ModifiedContentV 0D6UICore23SharedAlbumPreviewImageV AA16_OverlayModifierV AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AcAE9menuStyleyQrqd__AA9MenuStyleRd__lFQO AA4MenuV AA5ImageV AA12_FrameLayoutV AA34_InsettableBackgroundShapeModifierV AA5ColorV AA6CircleV6_InsetV AA24_ForegroundStyleModifierV AA14TintShapeStyleV AA31AccessibilityAttachmentModifierV AA12TupleContentV AA6ButtonV AA4TextV AA32_EnvironmentKeyTransformModifierV AA14_PaddingLayoutV AA15ButtonMenuStyleV AA16PlainButtonStyleV AA14LinkShapeStyleV AA30_EnvironmentKeyWritingModifierV AA10VisibilityO AA11_ClipEffectV AA9RectangleV
+- _symbolic _____y_____y_____y_____y_____yABy_____y_____y___________Sg_____SgACyADy_____Sg______QPGGQPGG_____G_____y_____GG_Qo__Qo_G_Qo_ 7SwiftUI4ViewPAAE18scrollClipDisabledyQrSbFQO 06PhotosA6UICore0g14TestableScrollC0V AC0gH0E08lemonadeJ13ActionHandler0dC5Proxy0dL6SourceQrAA0jcN0V_AH08LemonadejlO0_ptFQO AcEE18photosKeySelectionAJQrAM_tFQO AA15ModifiedContentV AA6VStackV AA05TupleU0V AH0P26PeopleHomeSuggestionBannerV AH0pxY12GroupSectionV AH0pxyX7SectionV AH0px10ProcessingC0V AA6SpacerV AA14_PaddingLayoutV AA012_EnvironmentR15WritingModifierV AH0P26FeedContentsTopPaddingKindO
+- _symbolic _____y_____y_____y_____y_____y_____yAAy_____yACy___________QPGG_____G______y_____GQPGG_Qo__AAy_____yAAy__________yAAyAAy_____y__________G_____G_____GSgGGG_____GQo__Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AeAE7toolbar7contentQrqd__yXE_tAaDRd__lFQO AeAE0K4RoleyQrAA07ToolbarM0VFQO AA6VStackV AA05TupleD0V AA5GroupV 12PhotosUICore37LemonadeSharedAlbumsAccessRequestListV AW0tuv10InvitationY0V AA16_FlexFrameLayoutV AW0tuV18ActivityFeedLayoutV AW0uV8PostFeedV AA6ButtonV AA5ImageV AA16_OverlayModifierV AA06_ShapeE0V AA6CircleV AA5ColorV AA12_FrameLayoutV AA13_OffsetEffectV AA31AccessibilityAttachmentModifierV AA25_AppearanceActionModifierV
+- _symbolic _____y_____y_____y_____y_____y_____y_____y__________GG_SSQo_______Qo_______yyt_____y_____GGQo__Qo__SiQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AC18PhotosUIFoundationE7pxAlertyQrAA7BindingVySo20PXAlertConfigurationCSgGFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE9formStyleyQrqd__AA04FormT0Rd__lFQO AcAE15navigationTitleyQrqd__SyRd__lFQO AA0U0V AA08ModifiedR0V 0H6UICore034LemonadeSharedAlbumsAccessRequestsC0V AA14_PaddingLayoutV AA07GroupeduT0V AA0Q4ItemV AA6ButtonV AA4TextV
+- _symbolic _____y_____y_____y_____y_____y_____y_____y__________yADy_____y__________ySay_____y_____ySo17PHAssetCollectionCGGGSOADyADy_____yAM_____y_____y_____yADy_____y_____G_____y_____GG_ADyAtUy_____GGQPGG______Qo_G_____G_____GSgGG_____y_____GGA12_y______pSgGGGG_SSQo__SSAQyAT______yAT_Qo_QPGAsMQo__SSAQyAT_ATQPGAsMQo__SSAtSQo__SSAtSQo_ 7SwiftUI4ViewPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQO AcAEAD_AefGQrqd___AJqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQO AcAEAD_AE10presentingAfGQrqd___AJqd_2_Sgqd_0_qd_2_XEqd_1_qd_2_XEtSyRd__AaBRd_0_AaBRd_1_r2_lFQO AcAEAD_AekfGQrqd___AjLqd_0_qd_2_XEqd_1_qd_2_XEtSyRd__AaBRd_0_AaBRd_1_r2_lFQO AcAE15navigationTitleyQrqd__SyRd__lFQO AA5GroupV AA19_ConditionalContentV AA05EmptyC0V AA08ModifiedO0V AA4ListV s5NeverO AA7ForEachV 06PhotosA6UICore0V15ObservableAlbumC 0vW012PhotoKitItemC A3_014LemonadeSharedY4CellV AcAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6HStackV AA05TupleO0V AA6ButtonV AA4TextV AA24_ForegroundStyleModifierV AA22HierarchicalShapeStyleV AA5ColorV A3_014ArchivedSharedY11ButtonStyle33_77FC8CF04FB26E53E8AEA6F1ACF6F7D0LLV AA14_PaddingLayoutV AA25_AlignmentWritingModifierV AA30_EnvironmentKeyWritingModifierV A3_014LemonadeAlbumsC12OptionsModelC So17PXUIImageProviderP AcAE16keyboardShortcutyQrAA16KeyboardShortcutVFQO
+- _symbolic _____y_____y_____y_____y_____y_____y_____y_____yxGG_Qo__Qo__Qo__Qo__Qo__Qo_ 7SwiftUI4ViewP07_Photosb1_aB0E40_photosPickerDisabledPrivateCapabilitiesyQrSo09_PHPickerhI0VFQO AcDE01_eF19ContainerIdentifieryQrSSSgFQO AcDE01_eF10SourceTypeyQrSo01_jmN0VFQO AcDE0efgI0yQrSo0jI0VFQO AcDE0eF011isPresented9selection17maxSelectionCount0Q8Behavior8matching21preferredItemEncoding12photoLibraryQrAA7BindingVySbG_AYySayAD0dfX0VGGSiSgAD0dfsU0V0dB00J6FilterVSgA0_0Y20DisambiguationPolicyVSo14PHPhotoLibraryCtFQO AcDEApqrstuvWQrAZ_A2_A3_A5_A9_A11_A13_tFQO AA01_C16Modifier_ContentV 0D6UICore031LemonadeCollectionCustomizationdF8ModifierV
+- _type_layout_string 12PhotosUICore43SharedCollectionSettingsShareOptionsContentV
+CStrings:
++ "\"2"
++ "-[PXApplicationState initWithApplication:isExtension:followsApplicationLifecycle:]"
++ "/event/"
++ "AssetEvent"
++ "Can't map changes of %ld underlying data source(s), publishing without change details"
++ "Execution of %{public}s failed without returning an error"
++ "Failed to apply role %{public}s after approving access request for participant %{public}s in shared album %{public}s. Error: %s"
++ "Failed to change access permission to %s for shared album %{public}s, but returned no error."
++ "Failed to change access permission to %s for shared album %{public}s. Error: %@"
++ "Failed to open Siri settings with error: %s"
++ "Failed to toggle request access to %s for shared album %{public}s, but returned no error."
++ "Failed to toggle request access to %s for shared album %{public}s. Error: %@"
++ "LemonadeSharedAlbumsRequestAccessChangeFailedAlertMessage"
++ "LemonadeSharedAlbumsRequestAccessChangeFailedAlertTitle"
++ "MC is unavailable pending a regional safety update, not proceeding with generation and transitioning to error state"
++ "MemoryCreationRegionSafetyErrorDescription"
++ "MemoryCreationRegionSafetyErrorTitle"
++ "MemoryCreationRegionalLocalizable"
++ "MemoryCreationSafetyPolicyLimitedMessage"
++ "MemoryCreationSafetyPolicyLimitedTitle"
++ "MemoryCreationSafetyUpdateNeededActionSheetMessage"
++ "MemoryCreationSafetyUpdateNeededMessage"
++ "MemoryCreationSafetyUpdateNeededTitle"
++ "MemoryCreationUnavailabilityAlertSafetyRestrictionMessage"
++ "MemoryCreationUnavailabilityAlertSafetyRestrictionTitle"
++ "MemoryCreationUnavailabilityAlertSafetyUpdateNeededSettingsButtonTitle"
++ "Navigated to Siri settings"
++ "No asset collection identifier provided for customization."
++ "No image for %{public}s, error: %@"
++ "Not allowed to post to shared album %s: %@"
++ "PXContentViewOptionsIncludeSharedAlbumAssets"
++ "PXPostAssetsToSharedAlbumAction: Adding %lu assets (of %lu) to legacy shared album: %{public}@"
++ "PXPostAssetsToSharedAlbumAction: Adding %lu assets (of %lu) to shared album: %{public}@"
++ "PXPostAssetsToSharedAlbumAction: Failed to validate any assets (of %lu) to add to shared album: %{public}@"
++ "PXPostAssetsToSharedAlbumAction: Posting assets to shared album with UUID=%{public}@"
++ "Shared albums can't be created: "
++ "Skipping %ld of %ld assets that aren't in the album or can't be expunged"
++ "Skipping %ld of %ld shared album assets that can't be expunged"
++ "VisualIntelligenceEventPill"
++ "addToAnySharedAlbumViewController"
++ "analyticsName"
++ "building.columns"
++ "https://events.shazam.apple.com"
++ "include shared album assets"
++ "moon.stars"
++ "sportscourt"
++ "systemImage"
++ "theatermasks"
++ "ticket"
++ "updateAccessPermission(to:forSharedAlbum:)"
++ "updateRequestAccessEnabled(to:forSharedAlbum:)"
+- "\"1"
+- "-[PXApplicationState initWithApplication:isExtension:]"
+- "Failed to apply pending role change to %{public}s after approving access request for participant %{public}s in shared album %{public}s. Error: %@"
+- "Failed to change access permission to %s for shared album %{public}s"
+- "IPXSharedAlbumPostToAction: Posting assets to shared album with UUID=%{public}@"
+- "No image for %{public}s, error: %s"
+- "SharedAlbumsActivityEntryItemListManager.work.default"
+- "SharedCollectionSettingsShareOptionsViewDoneButton"
+- "Show Access Permissions in Management UI"
+- "localIdentifier url error "
+```

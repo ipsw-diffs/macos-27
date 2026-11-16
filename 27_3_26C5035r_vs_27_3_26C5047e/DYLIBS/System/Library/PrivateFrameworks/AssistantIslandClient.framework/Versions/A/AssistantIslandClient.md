@@ -1,0 +1,154 @@
+## AssistantIslandClient
+
+> `/System/Library/PrivateFrameworks/AssistantIslandClient.framework/Versions/A/AssistantIslandClient`
+
+```diff
+
+-3610.12.3.0.0
+-  __TEXT.__text: 0x440e0
+-  __TEXT.__objc_methlist: 0x1718
+-  __TEXT.__const: 0x9b94
+-  __TEXT.__constg_swiftt: 0x22d0
+-  __TEXT.__swift5_typeref: 0x20d4
++3610.19.2.4.1
++  __TEXT.__text: 0x46870
++  __TEXT.__objc_methlist: 0x1818
++  __TEXT.__swift5_typeref: 0x2250
++  __TEXT.__swift5_fieldmd: 0x1984
++  __TEXT.__const: 0xa1f4
++  __TEXT.__constg_swiftt: 0x23e8
+   __TEXT.__swift5_builtin: 0x64
+-  __TEXT.__swift5_reflstr: 0x5ed
+-  __TEXT.__swift5_fieldmd: 0x184c
+-  __TEXT.__swift5_types: 0x33c
++  __TEXT.__swift5_reflstr: 0x62d
+   __TEXT.__swift5_protos: 0x8
++  __TEXT.__swift5_types: 0x35c
+   __TEXT.__swift5_assocty: 0xc0
+-  __TEXT.__swift5_proto: 0x9d8
++  __TEXT.__swift5_proto: 0xa4c
+   __TEXT.__swift5_mpenum: 0x2c
+-  __TEXT.__swift5_capture: 0x428
++  __TEXT.__swift5_capture: 0x46c
+   __TEXT.__cstring: 0xaf2
+   __TEXT.__oslogstring: 0x3cd
+   __TEXT.__swift_as_entry: 0x8
+   __TEXT.__swift_as_ret: 0x4
+   __TEXT.__swift_as_cont: 0x4
+-  __TEXT.__unwind_info: 0x2e58
+-  __TEXT.__eh_frame: 0x23d8
++  __TEXT.__unwind_info: 0x2fc0
++  __TEXT.__eh_frame: 0x2520
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x1c0
+-  __DATA_CONST.__objc_classlist: 0x1b8
+-  __DATA_CONST.__objc_protolist: 0xc0
++  __DATA_CONST.__objc_classlist: 0x1c0
++  __DATA_CONST.__objc_protolist: 0xc8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x688
+-  __DATA_CONST.__objc_protorefs: 0x90
++  __DATA_CONST.__objc_selrefs: 0x708
++  __DATA_CONST.__objc_protorefs: 0x98
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x50c8
+-  __AUTH_CONST.__objc_const: 0x2650
+-  __AUTH_CONST.__auth_got: 0x638
+-  __AUTH.__objc_data: 0x1578
+-  __AUTH.__data: 0x658
+-  __DATA.__data: 0x1be0
+-  __DATA.__bss: 0x135a0
+-  __DATA_DIRTY.__objc_data: 0x12e0
+-  __DATA_DIRTY.__data: 0x9b8
++  __AUTH_CONST.__const: 0x54d8
++  __AUTH_CONST.__objc_const: 0x28a8
++  __AUTH_CONST.__auth_got: 0x630
++  __AUTH.__objc_data: 0x1628
++  __AUTH.__data: 0x688
++  __DATA.__data: 0x1d20
++  __DATA.__bss: 0x14420
++  __DATA_DIRTY.__objc_data: 0x12f8
++  __DATA_DIRTY.__data: 0x9a8
+   __DATA_DIRTY.__bss: 0x380
+   __DATA_DIRTY.__common: 0x10
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 3692
+-  Symbols:   1624
++  Functions: 3823
++  Symbols:   1684
+   CStrings:  80
+ 
+Symbols:
++ _OBJC_CLASS_$__TtC21AssistantIslandClient41CommonUISceneRevealInputSettingsExtension
++ _OBJC_METACLASS_$__TtC21AssistantIslandClient41CommonUISceneRevealInputSettingsExtension
++ _OUTLINED_FUNCTION_116
++ _OUTLINED_FUNCTION_117
++ _OUTLINED_FUNCTION_118
++ _OUTLINED_FUNCTION_119
++ _OUTLINED_FUNCTION_120
++ _OUTLINED_FUNCTION_121
++ _OUTLINED_FUNCTION_122
++ _OUTLINED_FUNCTION_123
++ _OUTLINED_FUNCTION_124
++ _OUTLINED_FUNCTION_125
++ _OUTLINED_FUNCTION_126
++ _OUTLINED_FUNCTION_127
++ __CLASS_METHODS__TtC21AssistantIslandClient41CommonUISceneRevealInputSettingsExtension
++ __DATA__TtC21AssistantIslandClient41CommonUISceneRevealInputSettingsExtension
++ __INSTANCE_METHODS__TtC21AssistantIslandClient41CommonUISceneRevealInputSettingsExtension
++ __IVARS__TtC21AssistantIslandClient28ActivitySceneClientComponent
++ __METACLASS_DATA__TtC21AssistantIslandClient41CommonUISceneRevealInputSettingsExtension
++ __PROTOCOL_INSTANCE_METHODS__TtP21AssistantIslandClient32CommonUISceneRevealInputSettings_
++ __PROTOCOL_METHOD_TYPES__TtP21AssistantIslandClient32CommonUISceneRevealInputSettings_
++ __PROTOCOL_PROPERTIES__TtP21AssistantIslandClient32CommonUISceneRevealInputSettings_
++ __PROTOCOL__TtP21AssistantIslandClient32CommonUISceneRevealInputSettings_
++ _associated conformance 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV10CodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLOSHAASQ
++ _associated conformance 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV10CodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV10CodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV7StorageO10CodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLOSHAASQ
++ _associated conformance 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV7StorageO10CodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV7StorageO10CodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV7StorageO14SiriCodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV7StorageO14SiriCodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV7StorageO21UnspecifiedCodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV7StorageO21UnspecifiedCodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV7StorageOSHAASQ
++ _associated conformance 21AssistantIslandClient33SystemAuxiliaryStateRequestActionC0G0V7StorageO22LaunchOriginCodingKeys33_E8DF328276AE8AF4EA678BE55C5AD39CLLOSHAASQ
++ _associated conformance 21AssistantIslandClient33SystemAuxiliaryStateRequestActionC0G0V7StorageO22LaunchOriginCodingKeys33_E8DF328276AE8AF4EA678BE55C5AD39CLLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 21AssistantIslandClient33SystemAuxiliaryStateRequestActionC0G0V7StorageO22LaunchOriginCodingKeys33_E8DF328276AE8AF4EA678BE55C5AD39CLLOs0L3KeyAAs28CustomDebugStringConvertible
++ _objc_msgSend$setIsContentDragGestureBlockedForEditingAvoidance:
++ _objc_msgSend$setThinkingIconContextId:
++ _objc_msgSend$setThinkingIconRenderId:
++ _symbolic $s21AssistantIslandClient32CommonUISceneRevealInputSettingsP
++ _symbolic ShySSG
++ _symbolic _____ 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV
++ _symbolic _____ 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV10CodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLO
++ _symbolic _____ 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV7StorageO
++ _symbolic _____ 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV7StorageO10CodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLO
++ _symbolic _____ 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV7StorageO14SiriCodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLO
++ _symbolic _____ 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV7StorageO21UnspecifiedCodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLO
++ _symbolic _____ 21AssistantIslandClient33SystemAuxiliaryStateRequestActionC0G0V7StorageO22LaunchOriginCodingKeys33_E8DF328276AE8AF4EA678BE55C5AD39CLLO
++ _symbolic _____ 21AssistantIslandClient41CommonUISceneRevealInputSettingsExtensionC
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV10CodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV7StorageO10CodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV7StorageO14SiriCodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV7StorageO21UnspecifiedCodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21AssistantIslandClient33SystemAuxiliaryStateRequestActionC0J0V7StorageO22LaunchOriginCodingKeys33_E8DF328276AE8AF4EA678BE55C5AD39CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV10CodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV7StorageO10CodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV7StorageO14SiriCodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV7StorageO21UnspecifiedCodingKeys33_5F6620E92D1F8550EA80CD4630F52047LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21AssistantIslandClient33SystemAuxiliaryStateRequestActionC0J0V7StorageO22LaunchOriginCodingKeys33_E8DF328276AE8AF4EA678BE55C5AD39CLLO
++ _type_layout_string 21AssistantIslandClient15SystemAuxiliaryO12LaunchOriginV
+- _swift_cvw_initEnumMetadataSingleCaseWithLayoutString
+- _swift_getTupleTypeLayout2
+```

@@ -1,0 +1,166 @@
+## MetricKit
+
+> `/System/Library/Frameworks/MetricKit.framework/Versions/A/MetricKit`
+
+```diff
+
+-369.60.4.0.0
+-  __TEXT.__text: 0x8309c
+-  __TEXT.__objc_methlist: 0x293c
+-  __TEXT.__const: 0x94d6
+-  __TEXT.__cstring: 0x1f82
++369.60.5.0.0
++  __TEXT.__text: 0x874c8
++  __TEXT.__objc_methlist: 0x2ac4
++  __TEXT.__const: 0x9526
++  __TEXT.__cstring: 0x1fc2
++  __TEXT.__oslogstring: 0x3c9
+   __TEXT.__gcc_except_tab: 0x18
+-  __TEXT.__oslogstring: 0x349
+-  __TEXT.__swift5_typeref: 0x192e
+-  __TEXT.__swift5_reflstr: 0x1183
++  __TEXT.__swift5_typeref: 0x19e4
++  __TEXT.__swift5_reflstr: 0x1190
+   __TEXT.__swift5_assocty: 0x4b0
+   __TEXT.__constg_swiftt: 0x143c
+-  __TEXT.__swift5_fieldmd: 0x1c30
++  __TEXT.__swift5_fieldmd: 0x1c3c
+   __TEXT.__swift5_builtin: 0x28
+   __TEXT.__swift5_proto: 0x94c
+   __TEXT.__swift5_types: 0x218
+
+   __TEXT.__swift_as_entry: 0x4
+   __TEXT.__swift_as_ret: 0x4
+   __TEXT.__swift_as_cont: 0xc
+-  __TEXT.__unwind_info: 0x2f20
++  __TEXT.__unwind_info: 0x2f60
+   __TEXT.__eh_frame: 0x27e0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x100
++  __DATA_CONST.__const: 0x120
+   __DATA_CONST.__objc_classlist: 0x1b8
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1240
++  __DATA_CONST.__objc_selrefs: 0x1348
+   __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x178
+-  __DATA_CONST.__got: 0x498
+-  __AUTH_CONST.__const: 0x47a9
++  __DATA_CONST.__got: 0x4a0
++  __AUTH_CONST.__const: 0x47d1
+   __AUTH_CONST.__cfstring: 0x1c00
+   __AUTH_CONST.__objc_const: 0x6768
+-  __AUTH_CONST.__auth_got: 0x8e0
++  __AUTH_CONST.__auth_got: 0x928
+   __AUTH.__objc_data: 0x188
+   __AUTH.__data: 0x1c0
+   __DATA.__objc_ivar: 0x440
+-  __DATA.__data: 0x13a0
+-  __DATA.__bss: 0x13820
+-  __DATA.__common: 0x40
++  __DATA.__data: 0x13e0
++  __DATA.__bss: 0x13840
++  __DATA.__common: 0x58
+   __DATA_DIRTY.__objc_data: 0x11b0
+   __DATA_DIRTY.__data: 0x1280
+   __DATA_DIRTY.__bss: 0x378
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 3511
+-  Symbols:   2798
+-  CStrings:  360
++  Functions: 3558
++  Symbols:   2851
++  CStrings:  365
+ 
+Symbols:
++ -[MXAnimationMetric nullableHitchTimeRatio]
++ -[MXAppRunTimeMetric nullableCumulativeBackgroundAudioTime]
++ -[MXAppRunTimeMetric nullableCumulativeBackgroundLocationTime]
++ -[MXAppRunTimeMetric nullableCumulativeBackgroundTime]
++ -[MXAppRunTimeMetric nullableCumulativeForegroundTime]
++ -[MXAverage nullableAverageMeasurement]
++ -[MXCPUMetric nullableCumulativeCPUInstructions]
++ -[MXCPUMetric nullableCumulativeCPUTime]
++ -[MXDiskIOMetric nullableCumulativeLogicalWrites]
++ -[MXDiskSpaceUsageMetric nullableTotalBinaryFileSize]
++ -[MXDiskSpaceUsageMetric nullableTotalCacheFolderSize]
++ -[MXDiskSpaceUsageMetric nullableTotalCloneSize]
++ -[MXDiskSpaceUsageMetric nullableTotalDataFileSize]
++ -[MXDiskSpaceUsageMetric nullableTotalDiskSpaceCapacity]
++ -[MXDiskSpaceUsageMetric nullableTotalDiskSpaceUsedSize]
++ -[MXGPUMetric nullableCumulativeGPUTime]
++ -[MXHistogramBucket nullableBucketEnd]
++ -[MXHistogramBucket nullableBucketStart]
++ -[MXLocationActivityMetric nullableCumulativeBestAccuracyForNavigationTime]
++ -[MXLocationActivityMetric nullableCumulativeBestAccuracyTime]
++ -[MXLocationActivityMetric nullableCumulativeHundredMetersAccuracyTime]
++ -[MXLocationActivityMetric nullableCumulativeKilometerAccuracyTime]
++ -[MXLocationActivityMetric nullableCumulativeNearestTenMetersAccuracyTime]
++ -[MXLocationActivityMetric nullableCumulativeReducedAccuracyTime]
++ -[MXLocationActivityMetric nullableCumulativeThreeKilometersAccuracyTime]
++ -[MXMemoryMetric nullableAverageSuspendedMemory]
++ -[MXMemoryMetric nullablePeakMemoryUsage]
++ -[MXMetalFrameRateMetric nullableActiveDrawingDuration]
++ -[MXMetalFrameRateMetric nullableAverageFrameRate]
++ -[MXNetworkTransferMetric nullableCumulativeCellularDownload]
++ -[MXNetworkTransferMetric nullableCumulativeCellularUpload]
++ -[MXNetworkTransferMetric nullableCumulativeWifiDownload]
++ -[MXNetworkTransferMetric nullableCumulativeWifiUpload]
++ _MXNullableBridgedValue
++ _MXNullableBridgedValue.log
++ _MXNullableBridgedValue.onceToken
++ _NSStringFromClass
++ ___MXNullableBridgedValue_block_invoke
++ ___block_descriptor_32_e5_v8?0l
++ _objc_msgSend$nullableActiveDrawingDuration
++ _objc_msgSend$nullableAverageFrameRate
++ _objc_msgSend$nullableAverageMeasurement
++ _objc_msgSend$nullableBucketEnd
++ _objc_msgSend$nullableBucketStart
++ _objc_msgSend$nullableCumulativeCPUInstructions
++ _objc_msgSend$nullableCumulativeCPUTime
++ _objc_msgSend$nullableCumulativeCellularDownload
++ _objc_msgSend$nullableCumulativeCellularUpload
++ _objc_msgSend$nullableCumulativeGPUTime
++ _objc_msgSend$nullableCumulativeLogicalWrites
++ _objc_msgSend$nullableCumulativeWifiDownload
++ _objc_msgSend$nullableCumulativeWifiUpload
++ _objc_msgSend$nullableHitchTimeRatio
++ _swift_dynamicCastObjCClass
++ _swift_getMetatypeMetadata
++ _swift_unknownObjectRetain
++ _symbolic So14NSUnitDurationCm
++ _symbolic So15NSUnitFrequencyCm
++ _symbolic So24NSUnitInformationStorageCm
++ _symbolic _____ySo15NSUnitFrequencyCGSg 10Foundation11MeasurementV
++ _symbolic _____ySo16MXUnitSignalBarsCGSg 10Foundation11MeasurementV
++ _symbolic _____y_____G 10Foundation11MeasurementV 9MetricKit10SignalBarsC
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y_____GSg 10Foundation11MeasurementV 9MetricKit10SignalBarsC
+- _objc_msgSend$activeDrawingDuration
+- _objc_msgSend$averageFrameRate
+- _objc_msgSend$bucketEnd
+- _objc_msgSend$bucketStart
+- _objc_msgSend$cumulativeCPUInstructions
+- _objc_msgSend$cumulativeCellularDownload
+- _objc_msgSend$cumulativeCellularUpload
+- _objc_msgSend$cumulativeGPUTime
+- _objc_msgSend$cumulativeWifiDownload
+- _objc_msgSend$cumulativeWifiUpload
+- _objc_msgSend$hitchTimeRatio
+CStrings:
++ "MetricReport"
++ "Nonnull declared measurement has unexpected unit: %s (expected %s)"
++ "Nonnull declared nil value encountered: %@.%s (nil)"
++ "averageFrameRate"
++ "averageMeasurement"
+```

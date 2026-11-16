@@ -1,0 +1,553 @@
+## Weather
+
+> `/System/Applications/Weather.app/Contents/MacOS/Weather`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_entry`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA.__objc_stublist`
+
+```diff
+
+-1508.0.0.0.0
+-  __TEXT.__text: 0x9af0f8
+-  __TEXT.__auth_stubs: 0x168d0
+-  __TEXT.__objc_stubs: 0x43c0
+-  __TEXT.__objc_methlist: 0x1618
+-  __TEXT.__const: 0x88674
+-  __TEXT.__oslogstring: 0xba9b
+-  __TEXT.__constg_swiftt: 0x241cc
+-  __TEXT.__swift5_typeref: 0x82334
+-  __TEXT.__cstring: 0x289f3
+-  __TEXT.__objc_classname: 0x65e6
+-  __TEXT.__objc_methname: 0xa64d
+-  __TEXT.__objc_methtype: 0x196a
+-  __TEXT.__swift5_reflstr: 0x2095a
+-  __TEXT.__swift5_fieldmd: 0x24b00
+-  __TEXT.__swift5_builtin: 0x438
+-  __TEXT.__swift5_assocty: 0x50d0
+-  __TEXT.__swift5_capture: 0xbbac
+-  __TEXT.__swift5_proto: 0x644c
+-  __TEXT.__swift5_types: 0x28ec
+-  __TEXT.__swift5_protos: 0x584
+-  __TEXT.__swift_as_entry: 0x2d4
+-  __TEXT.__swift_as_cont: 0x504
+-  __TEXT.__swift_as_ret: 0x298
+-  __TEXT.__swift5_mpenum: 0x160
++1516.0.0.0.0
++  __TEXT.__text: 0x9c6b6c
++  __TEXT.__auth_stubs: 0x16a70
++  __TEXT.__objc_stubs: 0x4500
++  __TEXT.__objc_methlist: 0x1660
++  __TEXT.__const: 0x88034
++  __TEXT.__oslogstring: 0xbadb
++  __TEXT.__constg_swiftt: 0x24288
++  __TEXT.__swift5_typeref: 0x82bc6
++  __TEXT.__cstring: 0x294c3
++  __TEXT.__objc_classname: 0x66c6
++  __TEXT.__objc_methname: 0xa86d
++  __TEXT.__objc_methtype: 0x197a
++  __TEXT.__swift5_reflstr: 0x20cfa
++  __TEXT.__swift5_fieldmd: 0x24d28
++  __TEXT.__swift5_builtin: 0x424
++  __TEXT.__swift5_assocty: 0x50a8
++  __TEXT.__swift5_capture: 0xbba4
++  __TEXT.__swift5_proto: 0x6408
++  __TEXT.__swift5_types: 0x28f0
++  __TEXT.__swift5_protos: 0x580
++  __TEXT.__swift_as_entry: 0x2c0
++  __TEXT.__swift_as_cont: 0x4f0
++  __TEXT.__swift_as_ret: 0x284
++  __TEXT.__swift5_mpenum: 0x158
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0x27cf8
+-  __TEXT.__eh_frame: 0x1b980
+-  __DATA_CONST.__const: 0x471f0
+-  __DATA_CONST.__objc_classlist: 0xf30
++  __TEXT.__unwind_info: 0x27d80
++  __TEXT.__eh_frame: 0x1b644
++  __DATA_CONST.__const: 0x46648
++  __DATA_CONST.__objc_classlist: 0xf48
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x180
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0xf8
+-  __DATA_CONST.__auth_got: 0xb470
+-  __DATA_CONST.__got: 0x6138
+-  __DATA_CONST.__auth_ptr: 0x7e60
+-  __DATA.__objc_const: 0x1ca00
+-  __DATA.__objc_selrefs: 0x1828
+-  __DATA.__objc_data: 0x3f00
+-  __DATA.__data: 0x52150
++  __DATA_CONST.__auth_got: 0xb540
++  __DATA_CONST.__got: 0x61b8
++  __DATA_CONST.__auth_ptr: 0x7eb8
++  __DATA.__objc_const: 0x1cc10
++  __DATA.__objc_selrefs: 0x1890
++  __DATA.__objc_data: 0x4030
++  __DATA.__data: 0x52ce8
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0xb9358
+-  __DATA.__common: 0x23d8
++  __DATA.__bss: 0xb8b38
++  __DATA.__common: 0x23b8
+   - /System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility
+   - /System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 54713
+-  Symbols:   10218
+-  CStrings:  5687
++  Functions: 54899
++  Symbols:   10266
++  CStrings:  5729
+ 
+Symbols:
++ _$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV04FontB0OAA19AttributedStringKeyADMc
++ _$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV04FontB0ON
++ _$s10Foundation16AttributedStringV22MarkdownParsingOptionsV13FailurePolicyO10throwErroryA2GmFWC
++ _$s10Foundation16AttributedStringV22MarkdownParsingOptionsV13FailurePolicyOMa
++ _$s10Foundation16AttributedStringV22MarkdownParsingOptionsV17InterpretedSyntaxO30inlineOnlyPreservingWhitespaceyA2GmFWC
++ _$s10Foundation16AttributedStringV22MarkdownParsingOptionsV17InterpretedSyntaxOMa
++ _$s10Foundation16AttributedStringV22MarkdownParsingOptionsV24allowsExtendedAttributes17interpretedSyntax13failurePolicy12languageCodeAESb_AE011InterpretedK0OAE07FailureM0OSSSgtcfC
++ _$s10Foundation16AttributedStringV22MarkdownParsingOptionsVMa
++ _$s10Foundation16AttributedStringV8markdown7options7baseURLACSS_AC22MarkdownParsingOptionsVAA0G0VSgtKcfC
++ _$s10Foundation16AttributedStringV9WeatherUIE010makeStyledC08markdown4font5colorACSS_05SwiftE04FontVSo7UIColorCSgtFZ
++ _$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF
++ _$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ
++ _$s10WeatherKit013PrecipitationA5EventV11totalAmount10Foundation11MeasurementVySo12NSUnitLengthCGvg
++ _$s10WeatherKit013PrecipitationA5EventV12organizationAA0C12OrganizationOvg
++ _$s10WeatherKit013PrecipitationA5EventV13precipitationAA0C0Ovg
++ _$s10WeatherKit013PrecipitationA5EventV2eeoiySbAC_ACtFZ
++ _$s10WeatherKit013PrecipitationA5EventV9intensityAA08ApparentC9IntensityVvg
++ _$s10WeatherKit013PrecipitationA5EventVMa
++ _$s10WeatherKit013PrecipitationA5EventVMn
++ _$s10WeatherKit0A20ServiceConfigurationV0A2UIE8featuresAC0A4Core08FeaturesD0V_tcfC
++ _$s10WeatherKit0A20ServiceConfigurationVMa
++ _$s10WeatherKit0A5EventV20localizedDescriptionSSvg
++ _$s10WeatherKit0A5EventV26localizedDetailDescriptionSSvg
++ _$s10WeatherKit0A5EventV4KindO13precipitationyAeA013PrecipitationaC0VcAEmFWC
++ _$s10WeatherKit0A5EventV4KindOMa
++ _$s10WeatherKit0A5EventV4kindAC4KindOvg
++ _$s10WeatherKit0A5EventV7endDate10Foundation0E0Vvg
++ _$s10WeatherKit0A5EventV9startDate10Foundation0E0Vvg
++ _$s10WeatherKit0A5EventVMa
++ _$s10WeatherKit0A6EventsV6eventsSayAA0A5EventVGvg
++ _$s10WeatherKit0A6EventsVMa
++ _$s10WeatherKit0A6EventsVMn
++ _$s10WeatherKit0A7ServiceC05fetchA03for9including7options10completionySo10CLLocationC_AA0A5QueryVyxGxQpAA0aC12FetchOptionsVys6ResultOyxxQp_ts5Error_pGctRvzlF
++ _$s10WeatherKit0A7ServiceC17scaleCacheManager8endpoint7caching14networkMonitor13authenticator20fetchOptionsProvider020serviceConfigurationN004unitN013configurationAcA0a8AQIScaleeF0C_AA11WDSEndpointVAA0aC7CachingVypypAA0ac5FetchmN4Type_pAA0cpnW0_pAA0a11RequestUnitN0VSgAA0acP0Vtcfc
++ _$s10WeatherKit0A9ConditionO0A2UIE12ImageOptionsV10isDaylight0G6Filled18forLightBackground15denseCloudCoverAFSb_S3btcfC
++ _$s10WeatherKit0A9ConditionO0A2UIE12ImageOptionsVMa
++ _$s10WeatherKit0A9ConditionO0A2UIE13conditionIcon7optionsAD0acF0VAcDE12ImageOptionsV_tF
++ _$s10WeatherKit0A9ConditionO15isolatedShowersyA2CmFWC
++ _$s10WeatherKit0A9ConditionO16scatteredShowersyA2CmFWC
++ _$s10WeatherKit0A9ConditionO19isolatedSnowShowersyA2CmFWC
++ _$s10WeatherKit0A9ConditionO20scatteredSnowShowersyA2CmFWC
++ _$s10WeatherKit0A9ConditionO24accessibilityDescription10isDaylightSSSb_tF
++ _$s10WeatherKit0A9ConditionOSHAAMc
++ _$s10WeatherKit0A9DataModelV4with6eventsAcA0A6EventsVSg_tF
++ _$s10WeatherKit0A9DataModelV6eventsAA0A6EventsVSgvg
++ _$s10WeatherKit13PrecipitationO8rawValueSSvg
++ _$s10WeatherKit25PrecipitationOrganizationOMa
++ _$s10WeatherKit26ProductRequirementsFactoryC19AppRequiredProductsV6eventsAA0A5QueryVyAA0A6EventsVSgGvg
++ _$s10WeatherKit38ApparentPrecipitationIntensityCategoryO8rawValueSSvg
++ _$s11TeaSettings0B0C11WeatherCoreE8FeaturesV21unlimitedLocationListAA7SettingCyAA12FeatureStateOGvgZ
++ _$s11TeaSettings0B0C11WeatherCoreE8FeaturesV22ScatteredPrecipitationV11showLocallyAA7SettingCySbGvgZ
++ _$s11TeaSettings0B0C11WeatherCoreE8FeaturesV22ScatteredPrecipitationV41simulateEnabledThroughRemoteConfigurationAA7SettingCySbGvgZ
++ _$s11TeaSettings0B0C11WeatherCoreE8FeaturesV22ScatteredPrecipitationV9isEnabled13configurationSbAD0E13ConfigurationV_tFZ
++ _$s11TeaSettings0B0C13WeatherDaemonE0D0V27dummyScatteredPrecipitationAA7SettingCyAD05DummyfG4KindOGvgZ
++ _$s11WeatherCore20FeedbackReporterTypeP029prepareScatteredPrecipitationC8Deeplink5title7summary12locationName12eventDetails10Foundation3URLVSS_S2SSgSaySSGtKFTj
++ _$s11WeatherCore22LocationDisplayContextV08canActAsC10OfInterest09transientE0ACSb_AA09TransientcdE0VtcfC
++ _$s11WeatherMaps0A14MapDisplayModeO017SnapshotAnimationE0O15prefersAnimatedyAeC0f13PlayheadLabelE0O_AC0fjK4SizeOtcAEmFWC
++ _$s11WeatherMaps0A14MapDisplayModeO017SnapshotAnimationE0O6singleyA2EmFWC
++ _$s11WeatherMaps0A14MapDisplayModeO017SnapshotAnimationE0OMa
++ _$s11WeatherMaps0A14MapDisplayModeO017SnapshotAnimationE0OMn
++ _$s11WeatherMaps0A14MapDisplayModeO021SnapshotPlayheadLabelE0O11abbreviatedyA2EmFWC
++ _$s11WeatherMaps0A14MapDisplayModeO021SnapshotPlayheadLabelE0O6hiddenyA2EmFWC
++ _$s11WeatherMaps0A14MapDisplayModeO021SnapshotPlayheadLabelE0O7regularyA2EmFWC
++ _$s11WeatherMaps0A14MapDisplayModeO021SnapshotPlayheadLabelE0OMa
++ _$s11WeatherMaps0A14MapDisplayModeO021SnapshotPlayheadLabelE0OMn
++ _$s11WeatherMaps0A14MapDisplayModeO14SnapshotExtentO5embedAEvgZ
++ _$s11WeatherMaps0A14MapDisplayModeO14SnapshotExtentO9zoomLevelyA2EmFWC
++ _$s11WeatherMaps0A14MapDisplayModeO14SnapshotExtentOMa
++ _$s11WeatherMaps0A14MapDisplayModeO14SnapshotExtentOMn
++ _$s11WeatherMaps0A14MapDisplayModeO16SnapshotDotColorO2eeoiySbAE_AEtFZ
++ _$s11WeatherMaps0A14MapDisplayModeO16SnapshotDotColorO4blueyA2EmFWC
++ _$s11WeatherMaps0A14MapDisplayModeO16SnapshotDotColorO9lightGrayyA2EmFWC
++ _$s11WeatherMaps0A14MapDisplayModeO16SnapshotDotColorO9timeOfDayyA2EmFWC
++ _$s11WeatherMaps0A14MapDisplayModeO16SnapshotDotColorOMa
++ _$s11WeatherMaps0A14MapDisplayModeO16SnapshotDotColorOMn
++ _$s11WeatherMaps0A14MapDisplayModeO16SnapshotDotColorOSHAAMc
++ _$s11WeatherMaps0A14MapDisplayModeO23SnapshotAnnotationStyleO3dotyAESb_AC0F8DotColorOtcAEmFWC
++ _$s11WeatherMaps0A14MapDisplayModeO25SnapshotPlayheadLabelSizeO5smallyA2EmFWC
++ _$s11WeatherMaps0A14MapDisplayModeO25SnapshotPlayheadLabelSizeO7regularyA2EmFWC
++ _$s11WeatherMaps0A14MapDisplayModeO25SnapshotPlayheadLabelSizeOMa
++ _$s11WeatherMaps0A14MapDisplayModeO25SnapshotPlayheadLabelSizeOMn
++ _$s11WeatherMaps0A14MapDisplayModeO8snapshotyA2C22SnapshotSizingBehaviorO_12CoreGraphics7CGFloatVAC0g9AnimationE0OAC0G15AnnotationStyleOAC0G6ExtentOtcACmFWC
++ _$s11WeatherMaps0A27MapPrecipitationOverlayKindOSQAAMc
++ _$s13WeatherDaemon31DummyScatteredPrecipitationKindOMa
++ _$s13WeatherDaemon31DummyScatteredPrecipitationKindOMn
++ _$s13WeatherDaemon31DummyScatteredPrecipitationKindOSYAAMc
++ _$s16WeatherAnalytics9ConditionO16scatteredShowersyA2CmFWC
++ _$s16WeatherAnalytics9ConditionO20scatteredSnowShowersyA2CmFWC
++ _$s17WeatherAppSupport0A18CellTrailingSquareV4side5inset3gap13headerPadding17growsToFillHeight26dropsWhenContentDoesNotFit07maximumO0AC12CoreGraphics7CGFloatV_A3MS2bAMSgtcfC
++ _$s17WeatherAppSupport0A18CellTrailingSquareVMa
++ _$s17WeatherAppSupport0A18CellTrailingSquareVMn
++ _$s17WeatherAppSupport13GridInputDataV3AQIO2eeoiySbAE_AEtFZ
++ _$s17WeatherAppSupport13GridInputDataV6hasNHP11supportsMap3aqi15enabledFeatures4news12severeAlerts8averages20feelsLikeTemperature15notificationTip06reportaV9Placement0G10Highlights38elevatedConditionsShowsAirQualityAloneACSb_SbAC3AQIOAC0M0VAC4NewsOAC05SeverP0OAC8AveragesOAC05FeelssT0OAC012NotificationV0OAC06ReportavX5ValueOS2btcfC
++ _$s17WeatherAppSupport22DetailChartDataElementV10ValueLabelO14conditionImageyAE0A2UI0a9ConditionK8ProviderO_05SwiftL00K0V21TemplateRenderingModeOSgtcAEmFWC
++ _$s17WeatherAppSupport26ScatteredPrecipitationKindO07currentA003dayA014hourlyForecast6eventsACSg0A3Kit07CurrentA0V_AI03DayA0VAI0J0VyAI04HourA0VGSayAI0A5EventVGSgtcfC
++ _$s17WeatherAppSupport26ScatteredPrecipitationKindOMa
++ _$s17WeatherAppSupport26ScatteredPrecipitationKindOMn
++ _$s17WeatherAppSupport27ElevatedConditionsViewModelV0D16ConditionContentO15AirQualityScaleV8fraction13gradientStopsAGSd_Say7SwiftUI8GradientV4StopVGtcfC
++ _$s17WeatherAppSupport27ElevatedConditionsViewModelV0D16ConditionContentO15airQualityScaleyA2E03AirkL0VcAEmFWC
++ _$s17WeatherAppSupport27ElevatedConditionsViewModelV0D9ConditionV19symbolRenderingMode7SwiftUI06SymboljK0Vvg
++ _$s17WeatherAppSupport27ElevatedConditionsViewModelV0D9ConditionV2IDOSHAAMc
++ _$s17WeatherAppSupport27ElevatedConditionsViewModelV0D9ConditionV2id6symbol7summary0K14BelowFullTitle7contentA2E2IDO_AE6SymbolV10Foundation16AttributedStringVAQSgAC0dH7ContentOSgtcfC
++ _$s17WeatherAppSupport27ElevatedConditionsViewModelV0D9ConditionV6SymbolV5image7SwiftUI5ImageVvg
++ _$s17WeatherAppSupport27ElevatedConditionsViewModelV0D9ConditionV6SymbolVSHAAMc
++ _$s17WeatherAppSupport27ElevatedConditionsViewModelV0D9ConditionV6symbolAE6SymbolVvg
++ _$s17WeatherAppSupport27ElevatedConditionsViewModelV10conditions010inflexibleE00I6LockupACSayAC0D9ConditionVG_AISgAC0J0VSgtcfC
++ _$s17WeatherAppSupport27ElevatedConditionsViewModelV6LockupV5title10shortTitle7subhead0J7SubheadAESS_SSSgSSAJtcfC
++ _$s17WeatherAppSupport27ElevatedConditionsViewModelV6LockupV7subheadSSvg
++ _$s17WeatherAppSupport27ElevatedConditionsViewModelV6LockupVMa
++ _$s17WeatherAppSupport27ElevatedConditionsViewModelV6LockupVMn
++ _$s17WeatherAppSupport27ElevatedConditionsViewModelV6LockupVSQAAMc
++ _$s17WeatherAppSupport27ElevatedConditionsViewModelV6lockupAC6LockupVSgvg
++ _$s17WeatherAppSupport27ElevatedConditionsViewModelV8showsMapSbvg
++ _$s17WeatherAppSupport28ElevatedConditionsMapMetricsO13maximumHeight12CoreGraphics7CGFloatVvgZ
++ _$s17WeatherAppSupport28ElevatedConditionsMapMetricsO3gap12CoreGraphics7CGFloatVvgZ
++ _$s17WeatherAppSupport28ElevatedConditionsMapMetricsO4side12CoreGraphics7CGFloatVvgZ
++ _$s17WeatherAppSupport28ElevatedConditionsMapMetricsO5inset12CoreGraphics7CGFloatVvgZ
++ _$s17WeatherAppSupport28PrecipitationTotalHeroStringV09scatteredD0AA09ScatteredD4KindOSgvg
++ _$s17WeatherAppSupport31ConditionDetailChartHeaderInputV4kind9condition14hourlyForecast12selectedDate8timeZone22scatteredPrecipitationA2C0G4KindO_AA0efD0O0A3Kit0L0VyAN04HourA0VG10Foundation0N0VAT04TimeP0VAA09ScatteredrS0OSgtcfC
++ _$s17WeatherAppSupport34SevereAlertComponentStringsBuilderV22summaryDescribesTiming2of11currentDateSbSay0A3Kit0aE0VG_10Foundation0N0VtF
++ _$s17WeatherAppSupport35ScatteredPrecipitationEventResolverO9resolving_2in0A3Kit04HourA0VAH_SayAF0aF0VGSgtFZ
++ _$s17WeatherAppSupport35ScatteredPrecipitationEventResolverO9resolving_2in0A3Kit07CurrentA0VAH_SayAF0aF0VGSgtFZ
++ _$s17WeatherAppSupport35ScatteredPrecipitationEventResolverO9resolving_2in0A3Kit15DayPartForecastVAH_SayAF0aF0VGSgtFZ
++ _$s17WeatherAppSupport35ScatteredPrecipitationEventResolverO9resolving_2in0A3Kit8ForecastVyAF04HourA0VGAK_SayAF0aF0VGSgtFZ
++ _$s17WeatherAppSupport37ConditionDetailChartHeaderStringModelV6symbol0A2UI0aD13ImageProviderOSgvg
++ _$s17WeatherAppSupport37PrecipitationPlatterStringBuilderTypeP09makeTodayF04from03dayA013dailyForecast06hourlyN08timeZone07currenta11LacksPeriodD7Amounts09scatteredD0SS0A3Kit07CurrentA0V_AL03DayA0VAL0N0VyAPGARyAL04HourA0VG10Foundation04TimeQ0VSbAA09ScatteredD4KindOSgtFTj
++ _$s17WeatherAppSupport39PrecipitationTotalHeroStringBuilderTypeP010buildTodayG007currentA014hourlyForecast03dayA08timeZone09scatteredD0AA0defG0V0A3Kit07CurrentA0V_AL0N0VyAL04HourA0VGAL03DayA0V10Foundation04TimeQ0VAA09ScatteredD4KindOSgtFTj
++ _$s17WeatherAppSupport40LocationComponentHeaderShowsFullTitleKeyVMn
++ _$s17WeatherAppSupport40PrecipitationComponentDescriptionContextV07currentA013dailyForecast06hourlyJ08timeZone010heroStringD4Type30isAllowedToShowNext24HourTotal09scatteredD0AC0A3Kit07CurrentA0V_AK0J0VyAK03DayA0VGAOyAK0vA0VG10Foundation04TimeM0VAA08DominantD0OSgSbAA09ScatteredD4KindOSgtcfC
++ _$s7SwiftUI17EnvironmentValuesV17WeatherAppSupportE37locationComponentHeaderShowsFullTitleSbvg
++ _$s7SwiftUI17EnvironmentValuesV17WeatherAppSupportE37locationComponentHeaderShowsFullTitleSbvpMV
++ _$s7SwiftUI17EnvironmentValuesV17WeatherAppSupportE37locationComponentHeaderShowsFullTitleSbvs
++ _$s7SwiftUI4ViewP17WeatherAppSupportE24weatherCellMinimumHeightyQr12CoreGraphics7CGFloatVF
++ _$s7SwiftUI4ViewP17WeatherAppSupportE24weatherCellMinimumHeightyQr12CoreGraphics7CGFloatVFQOMQ
++ _$s7SwiftUI4ViewP17WeatherAppSupportE25weatherCellTrailingSquareyQrAD0dhiJ0VSgF
++ _$s7SwiftUI4ViewP17WeatherAppSupportE25weatherCellTrailingSquareyQrAD0dhiJ0VSgFQOMQ
++ _$s7SwiftUI4ViewP17WeatherAppSupportE30weatherCellContentDrawsHeadingyQrSbF
++ _$s7SwiftUI4ViewP17WeatherAppSupportE30weatherCellContentDrawsHeadingyQrSbFQOMQ
++ _$s7SwiftUI5ImageV5ScaleO2eeoiySbAE_AEtFZ
++ _$s7SwiftUI9UnitPointV13bottomLeadingACvgZ
++ _$s9WeatherUI0A11DescriptionV13TeaFoundation15BinaryDecodableAAMc
++ _$s9WeatherUI0A11DescriptionV13TeaFoundation15BinaryEncodableAAMc
++ _$s9WeatherUI0A13ConditionIconV8providerAA0aC13ImageProviderOvg
++ _$s9WeatherUI0A22ConditionImageProviderO13TeaFoundation15BinaryDecodableAAMc
++ _$s9WeatherUI0A22ConditionImageProviderO13TeaFoundation15BinaryEncodableAAMc
++ _$s9WeatherUI0A22ConditionImageProviderO13bundledSymbolyACSS_tcACmFWC
++ _$s9WeatherUI0A22ConditionImageProviderO2eeoiySbAC_ACtFZ
++ _$s9WeatherUI0A22ConditionImageProviderO5image05SwiftB00D0Vvg
++ _$s9WeatherUI0A22ConditionImageProviderO8SFSymbolyACSS_tcACmFWC
++ _$s9WeatherUI0A22ConditionImageProviderOMa
++ _$s9WeatherUI0A22ConditionImageProviderOMn
++ _$s9WeatherUI0A22ConditionImageProviderOSEAAMc
++ _$s9WeatherUI0A22ConditionImageProviderOSHAAMc
++ _$s9WeatherUI0A22ConditionImageProviderOSQAAMc
++ _$s9WeatherUI0A22ConditionImageProviderOSeAAMc
++ _$s9WeatherUI0A22VFXConditionBackgroundC32foregroundEffectsAreAbleToRender13forLocationIDSbSS_tF
++ _$s9WeatherUI17CloudAltitudeKindOSHAAMc
++ _$s9WeatherUI20CloudCoverCalculatorVAA0cdE4TypeAAWP
++ _$s9WeatherUI20CloudCoverCalculatorVACycfC
++ _$s9WeatherUI20CloudCoverCalculatorVMa
++ _$s9WeatherUI24CloudCoverCalculatorTypeMp
++ _$s9WeatherUI24CloudCoverCalculatorTypeP07isDensecD0ySbSdSgFTj
++ _$s9WeatherUI24CloudCoverCalculatorTypePAAE07isDensecD02in0G5TodaySb0A3Kit03DayA0V_SbtF
++ _$s9WeatherUI24CloudCoverCalculatorTypePAAE07isDensecD02inSb0A3Kit04HourA0V_tF
++ _$sSJ12isWhitespaceSbvg
++ _$sSJ4hash4intoys6HasherVz_tF
++ _$sSJN
++ _$sSd13TeaFoundation15BinaryDecodableAAWP
++ _$sSd13TeaFoundation15BinaryEncodableAAWP
++ _$sSo21UIContentSizeCategorya7SwiftUIEyAbC011DynamicTypeB0OSgcfC
++ _$sSs5index5afterSS5IndexVAD_tF
++ _$sSs5index_8offsetBy07limitedC0SS5IndexVSgAE_SiAEtF
++ _$sSsySJSS5IndexVcig
++ _$sSsySsSnySS5IndexVGcig
++ _$ss12LazySequenceVMn
++ _$ss15ContinuousClockV3nowAB7InstantVvgZ
++ _$ss15ContinuousClockV7InstantV8duration2tos8DurationVAD_tF
++ _$ss15LazyMapSequenceV8IteratorVMn
++ _$ss15LazyMapSequenceVMn
++ _$ss18LazyFilterSequenceV8IteratorVMn
++ _$ss18LazyFilterSequenceVMn
++ _$ss8DurationV1loiySbAB_ABtFZ
++ _OBJC_CLASS_$_NSJSONSerialization
+- _$s10Foundation6LocaleV12LanguageCodeV13stringLiteralAESS_tcfC
+- _$s10Foundation6LocaleV12LanguageCodeVSQAAMc
+- _$s10WeatherKit0A23QueryDailyRelativeRangeV0E2ToO5todayyA2EmFWC
+- _$s10WeatherKit0A23QueryDailyRelativeRangeV0E2ToOMa
+- _$s10WeatherKit0A5QueryV10airQualityACyAA03AirE0VSgGvgZ
+- _$s10WeatherKit0A5QueryV12availabilityACyAA0A12AvailabilityVGvgZ
+- _$s10WeatherKit0A5QueryV21historicalComparisonsACyAA010HistoricalE0VSgGvgZ
+- _$s10WeatherKit0A5QueryV6alertsACySayAA0A5AlertVGSgGvgZ
+- _$s10WeatherKit0A5QueryV6hourlyACyAA8ForecastVyAA04HourA0VGGvgZ
+- _$s10WeatherKit0A5QueryV6minuteACyAA8ForecastVyAA06MinuteA0VGSgGvgZ
+- _$s10WeatherKit0A5QueryV7currentACyAA07CurrentA0VGvgZ
+- _$s10WeatherKit0A5QueryVA2A8ForecastVyAA03DayA0VGRszlE5daily10relativeTo5start3endACyAHGAA0aC18DailyRelativeRangeV0lH0O_S2itFZ
+- _$s10WeatherKit0A7ServiceC17scaleCacheManager8endpoint7caching14networkMonitor13authenticator20fetchOptionsProvider020serviceConfigurationN004unitN0AcA0a8AQIScaleeF0C_AA11WDSEndpointVAA0aC7CachingVypypAA0ac5FetchmN4Type_pAA0cpnV0_pAA0a11RequestUnitN0VSgtcfc
+- _$s10WeatherKit0A7ServiceC17scaleCacheManager8endpoint7caching14networkMonitor13authenticator20fetchOptionsProvider020serviceConfigurationN0AcA0a8AQIScaleeF0C_AA11WDSEndpointVAA0aC7CachingVypypAA0ac5FetchmN4Type_pAA0cpnU0_ptcfC
+- _$s10WeatherKit0A7ServiceC7weather3for9includingxxQp_tSo10CLLocationC_AA0A5QueryVyxGxQptYaKRvzlF
+- _$s10WeatherKit0A7ServiceC7weather3for9includingxxQp_tSo10CLLocationC_AA0A5QueryVyxGxQptYaKRvzlFTu
+- _$s10WeatherKit0A9ConditionO0A2UIE13conditionIcon10isDaylight0G6Filled18forLightBackgroundAD0acF0VSb_S2btF
+- _$s10WeatherKit0A9ConditionO0A2UIE17conditionIconName9isDaytimeSSSgSb_tF
+- _$s11WeatherCore15UnitManagerTypeP21precipitationSnowfallSo12NSUnitLengthCvgTj
+- _$s11WeatherCore15UnitManagerTypeP8windGustSo11NSUnitSpeedCvgTj
+- _$s11WeatherCore20FeedbackReporterTypeP017prepareHighlightsC8Deeplink10statements12locationName10Foundation3URLVSaySSG_SSSgtKFTj
+- _$s11WeatherCore21FeaturesConfigurationV23highlightsStringsEngineAA010HighlightsfgcD0Vvg
+- _$s11WeatherCore21FeaturesConfigurationV32isHighlightsStringsEngineEnabledSbvg
+- _$s11WeatherCore44HighlightsStringsEngineFeaturesConfigurationV12isIceEnabledSbvg
+- _$s11WeatherCore44HighlightsStringsEngineFeaturesConfigurationV12isSkyEnabledSbvg
+- _$s11WeatherCore44HighlightsStringsEngineFeaturesConfigurationV13isRainEnabledSbvg
+- _$s11WeatherCore44HighlightsStringsEngineFeaturesConfigurationV13isSnowEnabledSbvg
+- _$s11WeatherCore44HighlightsStringsEngineFeaturesConfigurationV13isWindEnabledSbvg
+- _$s11WeatherCore44HighlightsStringsEngineFeaturesConfigurationV14isFrostEnabledSbvg
+- _$s11WeatherCore44HighlightsStringsEngineFeaturesConfigurationV14isStormEnabledSbvg
+- _$s11WeatherCore44HighlightsStringsEngineFeaturesConfigurationV18isHeavyRainEnabledSbvg
+- _$s11WeatherCore44HighlightsStringsEngineFeaturesConfigurationV20isTemperatureEnabledSbvg
+- _$s11WeatherCore44HighlightsStringsEngineFeaturesConfigurationVMa
+- _$s11WeatherMaps0A14MapDisplayModeO23SnapshotAnnotationStyleO3dotyA2EmFWC
+- _$s11WeatherMaps0A14MapDisplayModeO8snapshotyA2C22SnapshotSizingBehaviorO_12CoreGraphics7CGFloatVSbAC0G15AnnotationStyleOtcACmFWC
+- _$s11WeatherMaps15RainExpectationOSHAAMc
+- _$s17WeatherAppSupport13GridInputDataV6hasNHP11supportsMap3aqi15enabledFeatures4news12severeAlerts8averages20feelsLikeTemperature15notificationTip06reportaV9Placement0G10HighlightsACSb_SbAC3AQIOAC0M0VAC4NewsOAC05SeverP0OAC8AveragesOAC05FeelssT0OAC012NotificationV0OAC06ReportavX5ValueOSbtcfC
+- _$s17WeatherAppSupport19LocationListSectionV11locationIDsSaySSGvg
+- _$s17WeatherAppSupport19LocationListSectionV4nameSSvg
+- _$s17WeatherAppSupport19LocationListSectionV7isGroupSbvg
+- _$s17WeatherAppSupport19LocationListSectionVMa
+- _$s17WeatherAppSupport25HighlightsAuditDriverTypeMp
+- _$s17WeatherAppSupport25HighlightsAuditDriverTypeP02isD7EnabledSbvgTq
+- _$s17WeatherAppSupport25HighlightsAuditDriverTypeP12resolvePlace5named0A4Core8LocationVSS_tYaKFTq
+- _$s17WeatherAppSupport25HighlightsAuditDriverTypeP8evaluateyAA0dE10EvaluationV0A4Core8LocationVYaKFTq
+- _$s17WeatherAppSupport25HighlightsAuditEvaluationV3RowO10airQualityyAESScAEmFWC
+- _$s17WeatherAppSupport25HighlightsAuditEvaluationV3RowO12severeAlertsyAESaySSGcAEmFWC
+- _$s17WeatherAppSupport25HighlightsAuditEvaluationV3RowO21nextHourPrecipitationyA2EmFWC
+- _$s17WeatherAppSupport25HighlightsAuditEvaluationV3RowO9highlightyAE0A2UI9HighlightVcAEmFWC
+- _$s17WeatherAppSupport25HighlightsAuditEvaluationV3RowOMa
+- _$s17WeatherAppSupport25HighlightsAuditEvaluationV3RowOMn
+- _$s17WeatherAppSupport25HighlightsAuditEvaluationV4rows9decisionsACSayAC3RowOG_SayAC8DecisionVGtcfC
+- _$s17WeatherAppSupport25HighlightsAuditEvaluationV7VerdictO11passedTodayyA2EmFWC
+- _$s17WeatherAppSupport25HighlightsAuditEvaluationV7VerdictO14coveredByAlertyA2EmFWC
+- _$s17WeatherAppSupport25HighlightsAuditEvaluationV7VerdictO17topicAlreadyShownyA2EmFWC
+- _$s17WeatherAppSupport25HighlightsAuditEvaluationV7VerdictO20coveredByNextHourRowyA2EmFWC
+- _$s17WeatherAppSupport25HighlightsAuditEvaluationV7VerdictO5shownyA2EmFWC
+- _$s17WeatherAppSupport25HighlightsAuditEvaluationV7VerdictOMa
+- _$s17WeatherAppSupport25HighlightsAuditEvaluationV8DecisionV9highlight7verdictAE0A2UI9HighlightV_AC7VerdictOtcfC
+- _$s17WeatherAppSupport25HighlightsAuditEvaluationV8DecisionVMa
+- _$s17WeatherAppSupport25HighlightsAuditEvaluationV8DecisionVMn
+- _$s17WeatherAppSupport25LocationListSectionsQueryV2id4name8subtitleACSS_S2SSgtcfC
+- _$s17WeatherAppSupport25LocationListSectionsQueryVMa
+- _$s17WeatherAppSupport25LocationListSectionsQueryVMn
+- _$s17WeatherAppSupport25LocationListSectionsQueryVSQAAMc
+- _$s17WeatherAppSupport27ElevatedConditionsViewModelV0D9ConditionV2IDO9highlightyAGSS_tcAGmFWC
+- _$s17WeatherAppSupport27ElevatedConditionsViewModelV0D9ConditionV2id6symbol7summary7contentA2E2IDO_AE6SymbolV10Foundation16AttributedStringVAC0dH7ContentOSgtcfC
+- _$s17WeatherAppSupport27ElevatedConditionsViewModelV10conditions010inflexibleE0ACSayAC0D9ConditionVG_AHSgtcfC
+- _$s17WeatherAppSupport27LocationListExperimentsTypeP04moveD06withID7toGroupySS_SSSgtFTj
+- _$s17WeatherAppSupport27LocationListExperimentsTypeP10groupNames03forD3IDsSaySSGAF_tFTj
+- _$s17WeatherAppSupport27LocationListExperimentsTypeP11isOrganizedSbvgTj
+- _$s17WeatherAppSupport27LocationListExperimentsTypeP14updateSections3forySayAA0deI5QueryVG_tYaFTj
+- _$s17WeatherAppSupport27LocationListExperimentsTypeP14updateSections3forySayAA0deI5QueryVG_tYaFTjTu
+- _$s17WeatherAppSupport27LocationListExperimentsTypeP16promptToAddGroup06movingD6WithIDySSSg_tFTj
+- _$s17WeatherAppSupport27LocationListExperimentsTypeP17isSectionExpandedy7SwiftUI7BindingVySbGSSFTj
+- _$s17WeatherAppSupport27LocationListExperimentsTypeP8sections03forD3IDsSayAA0dE7SectionVGSgSaySSG_tFTj
+- _$s17WeatherAppSupport27LocationListExperimentsTypeP9groupName03forD2IDSSSgSS_tFTj
+- _$s17WeatherAppSupport31ConditionDetailChartHeaderInputV4kind9condition14hourlyForecast12selectedDate8timeZoneA2C0G4KindO_AA0efD0O0A3Kit0L0VyAM04HourA0VG10Foundation0N0VAS04TimeP0VtcfC
+- _$s17WeatherAppSupport37ConditionDetailChartHeaderStringModelV10symbolNameSSSgvg
+- _$s17WeatherAppSupport37PrecipitationPlatterStringBuilderTypeP09makeTodayF04from03dayA013dailyForecast06hourlyN08timeZone07currenta11LacksPeriodD7AmountsSS0A3Kit07CurrentA0V_AK03DayA0VAK0N0VyAOGAQyAK04HourA0VG10Foundation04TimeQ0VSbtFTj
+- _$s17WeatherAppSupport39PrecipitationTotalHeroStringBuilderTypeP010buildTodayG007currentA014hourlyForecast03dayA08timeZoneAA0defG0V0A3Kit07CurrentA0V_AK0N0VyAK04HourA0VGAK03DayA0V10Foundation04TimeQ0VtFTj
+- _$s17WeatherAppSupport40PrecipitationComponentDescriptionContextV07currentA013dailyForecast06hourlyJ08timeZone010heroStringD4Type30isAllowedToShowNext24HourTotalAC0A3Kit07CurrentA0V_AJ0J0VyAJ03DayA0VGANyAJ0vA0VG10Foundation04TimeM0VAA08DominantD0OSgSbtcfC
+- _$s9WeatherUI0A13ConditionIconV4nameSSvg
+- _$s9WeatherUI0A22VFXConditionBackgroundC32foregroundEffectsAreAbleToRenderSbvg
+- _$s9WeatherUI12RenderLocaleV12WeekdayStyleO4longyA2EmFWC
+- _$s9WeatherUI12RenderLocaleV12WeekdayStyleOMa
+- _$s9WeatherUI12RenderLocaleV15TemperatureUnitO10fahrenheityA2EmFWC
+- _$s9WeatherUI12RenderLocaleV15TemperatureUnitO7celsiusyA2EmFWC
+- _$s9WeatherUI12RenderLocaleV15TemperatureUnitOMa
+- _$s9WeatherUI12RenderLocaleV2id5clock8tempUnit05speedH005depthH004rainH012weekdayStyleACSS_AC5ClockOAC011TemperatureH0OAC05SpeedH0OAC05DepthH0OAC04RainH0OAC07WeekdayM0OtcfC
+- _$s9WeatherUI12RenderLocaleV5ClockO14twentyFourHouryA2EmFWC
+- _$s9WeatherUI12RenderLocaleV5ClockOMa
+- _$s9WeatherUI12RenderLocaleV8RainUnitO11millimetresyA2EmFWC
+- _$s9WeatherUI12RenderLocaleV8RainUnitO6inchesyA2EmFWC
+- _$s9WeatherUI12RenderLocaleV8RainUnitOMa
+- _$s9WeatherUI12RenderLocaleV9DepthUnitO11centimetresyA2EmFWC
+- _$s9WeatherUI12RenderLocaleV9DepthUnitO6inchesyA2EmFWC
+- _$s9WeatherUI12RenderLocaleV9DepthUnitOMa
+- _$s9WeatherUI12RenderLocaleV9SpeedUnitO12milesPerHouryA2EmFWC
+- _$s9WeatherUI12RenderLocaleV9SpeedUnitO17kilometresPerHouryA2EmFWC
+- _$s9WeatherUI12RenderLocaleV9SpeedUnitOMa
+- _$s9WeatherUI12RenderLocaleVMa
+- _$s9WeatherUI23HighlightsStringBuilderC05buildC04from14hourlyForecast05dailyI021historicalComparisons6alerts12locationName8timeZone6localeSayAA9HighlightVG0A3Kit07CurrentA0VSg_AP0I0VyAP04HourA0VGAUyAP03DayA0VGAP010HistoricalL0VSgSayAP0A5AlertVGSS10Foundation04TimeQ0VAA12RenderLocaleVtF
+- _$s9WeatherUI23HighlightsStringBuilderC17allowedConditionsACShyAC9ConditionOG_tcfc
+- _$s9WeatherUI23HighlightsStringBuilderC9ConditionO11temperatureyA2EmFWC
+- _$s9WeatherUI23HighlightsStringBuilderC9ConditionO3iceyA2EmFWC
+- _$s9WeatherUI23HighlightsStringBuilderC9ConditionO3skyyA2EmFWC
+- _$s9WeatherUI23HighlightsStringBuilderC9ConditionO4rainyA2EmFWC
+- _$s9WeatherUI23HighlightsStringBuilderC9ConditionO4snowyA2EmFWC
+- _$s9WeatherUI23HighlightsStringBuilderC9ConditionO4windyA2EmFWC
+- _$s9WeatherUI23HighlightsStringBuilderC9ConditionO5frostyA2EmFWC
+- _$s9WeatherUI23HighlightsStringBuilderC9ConditionO5stormyA2EmFWC
+- _$s9WeatherUI23HighlightsStringBuilderC9ConditionO8allCasesSayAEGvgZ
+- _$s9WeatherUI23HighlightsStringBuilderC9ConditionO8rawValueSSvg
+- _$s9WeatherUI23HighlightsStringBuilderC9ConditionO9heavyRainyA2EmFWC
+- _$s9WeatherUI23HighlightsStringBuilderC9ConditionOMa
+- _$s9WeatherUI23HighlightsStringBuilderC9ConditionOMn
+- _$s9WeatherUI23HighlightsStringBuilderC9ConditionOSHAAMc
+- _$s9WeatherUI23HighlightsStringBuilderC9ConditionOSQAAMc
+- _$s9WeatherUI23HighlightsStringBuilderCMa
+- _$s9WeatherUI9HighlightV13isRecommendedSbvg
+- _$s9WeatherUI9HighlightV13relevantUntil10Foundation4DateVSgvg
+- _$s9WeatherUI9HighlightV2eeoiySbAC_ACtFZ
+- _$s9WeatherUI9HighlightV4text6family8dayIndex6weight9isSerious0I11Recommended13relevantUntilACSS_SSSiSdS2b10Foundation4DateVSgtcfC
+- _$s9WeatherUI9HighlightV4textSSvg
+- _$s9WeatherUI9HighlightV6familySSvg
+- _$s9WeatherUI9HighlightV6weightSdvg
+- _$s9WeatherUI9HighlightV8dayIndexSivg
+- _$s9WeatherUI9HighlightV9isSeriousSbvg
+- _$s9WeatherUI9HighlightVMa
+- _$s9WeatherUI9HighlightVMn
+- _$s9WeatherUI9HighlightVSEAAMc
+- _$s9WeatherUI9HighlightVSQAAMc
+- _$s9WeatherUI9HighlightVSeAAMc
+- _swift_unknownObjectRelease_n
+CStrings:
++ "%1$@ & %2$lld More"
++ "2026 Winter Demos"
++ "55655958dd57075e32b8ef9c71c00eb7"
++ "Accessibility description of a chance of precipitation in the hourly forecast that is too low to show. The argument is a formatted percentage, ex: \"5%\""
++ "Accessibility description of a chance of rain in the hourly forecast that is too low to show. The argument is a formatted percentage, ex: \"5%\""
++ "Accessibility description of a chance of snow in the hourly forecast that is too low to show. The argument is a formatted percentage, ex: \"5%\""
++ "Brief showers possible in the area today."
++ "Brief showers possible in your area today."
++ "Could not rebase the preset's time-sensitive dates"
++ "Dummy Scattered Precipitation Data"
++ "Enable Scattered Precipitation"
++ "File Scattered Precipitation Radar"
++ "Force Scattered Precipitation Remote Config On"
++ "JSONObjectWithData:options:error:"
++ "Map: Prefer Animated"
++ "Map: Show Playhead label"
++ "NSWindowDidEnterFullScreenNotification"
++ "NSWindowDidExitFullScreenNotification"
++ "NSWindowWillEnterFullScreenNotification"
++ "NSWindowWillExitFullScreenNotification"
++ "Optional<InteractiveMapEmbedSelection>"
++ "Possible rain in the area"
++ "Possible rain in your area"
++ "Scattered Precipitation"
++ "Severe Weather Alerts"
++ "Show NHP Ending Soon"
++ "Subhead beneath the title of the Elevated Conditions component on iPad and Mac when it shows only severe weather alerts, counting them. The argument is the number of alerts, always at least 1."
++ "Subhead beneath the title of the Highlights component when its only condition is air quality. The first argument is the air quality category, e.g. 'Hazardous'; the second is the index, e.g. 238."
++ "Subhead beneath the title of the Highlights component when its only condition is next-hour precipitation."
++ "Subhead beneath the title of the Highlights component when its only condition is several severe weather alerts."
++ "The chance of precipitation under an hour's icon in the Conditions mode of the hourly forecast, when the chance is below the argument. \"<\" means \"less than\" and may be replaced by your language's equivalent symbol, word or order. Space is limited. The argument is a formatted percentage, ex: \"5%\""
++ "The summary of the scattered precipitation condition in the Elevated Conditions component, for My Location."
++ "The summary of the scattered precipitation condition in the Elevated Conditions component, for a saved location."
++ "The title of the Elevated Conditions component when the dominant condition is scattered precipitation, for My Location."
++ "The title of the Elevated Conditions component when the dominant condition is scattered precipitation, for a saved location."
++ "The title of the Elevated Conditions component when the only conditions it shows are severe alerts, and either the name of the alert is too long to be the title or the alerts have no times to describe, so the row below names them."
++ "Title of the Elevated Conditions component on iPad and Mac naming the most important of several severe weather alerts, and how many others there are, above a subhead such as 'Severe Weather Alerts'. The first argument is the alert's name, e.g. 'Flood Warning'; the second is the number of other alerts, always at least 1. Plural variations: keep %arg, and keep the name where the language needs it. '&' may be replaced by a conjunction. Use the capitalization of a title."
++ "Unlimited Location List"
++ "View.task @ Weather/MapComponentView.swift:"
++ "Weather/LocationViewerView.swift"
++ "_TtC7Weather28InteractiveMapEmbedSelection"
++ "_TtCV7Weather18LocationViewerViewP33_971182080BE1A8931C9C36EF48C83CFF17HostViewReference"
++ "_TtCV7Weather18LocationViewerViewP33_971182080BE1A8931C9C36EF48C83CFF27HorizontalScrollOffsetGuard"
++ "_TtCV7WeatherP33_D8F32DC99EF207B62A1C71A49B61EDA822NativeSegmentedControl11Coordinator"
++ "_embed"
++ "cloudCoverCalculator"
++ "configurationByApplyingConfiguration:"
++ "configurationWithFont:"
++ "dataWithJSONObject:options:error:"
++ "doubleValue"
++ "drawsHeadingInCellsOfFixedHeight"
++ "elevated_conditions_heading_alert_title_with_more_format"
++ "elevated_conditions_scattered_precipitation_summary_current_location"
++ "elevated_conditions_scattered_precipitation_summary_saved_location"
++ "elevated_conditions_scattered_precipitation_title_current_location"
++ "elevated_conditions_scattered_precipitation_title_saved_location"
++ "elevated_conditions_subhead_air_quality_format"
++ "elevated_conditions_subhead_alert_count_format"
++ "elevated_conditions_subhead_next_hour_precipitation"
++ "elevated_conditions_subhead_severe_weather_alerts"
++ "fullscreenTransitionDidEndWithNotification:"
++ "fullscreenTransitionWillBeginWithNotification:"
++ "hourly_forecast_precipitation_chance_less_than"
++ "hourly_forecast_precipitation_chance_less_than_accessibility"
++ "hourly_forecast_precipitation_chance_less_than_rain_accessibility"
++ "hourly_forecast_precipitation_chance_less_than_snow_accessibility"
++ "isFullscreenTransitioning"
++ "less than %@ chance of precipitation"
++ "less than %@ chance of rain"
++ "less than %@ chance of snow"
++ "makeTitlebarTransparentWhenFullscreen"
++ "observation"
++ "onSelect"
++ "preferredFontForTextStyle:compatibleWithTraitCollection:"
++ "scrollView"
++ "selectedSegmentIndex"
++ "selectionChanged:"
++ "setAccessibilityLabel:"
++ "setContentOffset:"
++ "weather.location.scatteredPrecipitationPrefersAnimatedMap"
++ "weather.location.scatteredPrecipitationShowsPlayheadLabel"
++ "weather.location.showNhpEndingSoon"
+- "2024 Winter Demos"
+- "Enable unlimited location list"
+- "Highlights Engine"
+- "Label for the \"File Radar\" button used to file a radar from the Highlights component. This string is only present in internal builds."
+- "Override Remote Config"
+- "Remove from Group"
+- "Scattered precipitation is expected."
+- "Show Elevated Scattered Precipitation"
+- "Showers In Your Area"
+- "The summary of the scattered precipitation condition in the Elevated Conditions component."
+- "The title of the Elevated Conditions component when the dominant condition is scattered precipitation."
+- "The title of the Elevated Conditions component when the only conditions it shows are severe alerts and the name of the alert is too long to be the title."
+- "View.task @ Weather/ListView.swift:"
+- "When on, the engine runs for the conditions below instead of the app config's. Requires Show Elevated Conditions Component."
+- "_TtC7Weather21HighlightsAuditDriver"
+- "_TtCVE7WeatherC11TeaSettings8Settings8Features32HighlightsStringsEngineOverrides"
+- "cloud.bolt.rain.fill"
+- "cloud.heavyrain.fill"
+- "elevatedConditionsComponentDataPreprocessor"
+- "elevatedConditionsData"
+- "elevated_conditions_scattered_precipitation_summary"
+- "elevated_conditions_scattered_precipitation_title"
+- "enableUnlimitedLocationList"
+- "fa6a9be1ed02cf2d458ac762837ba5a0"
+- "folder.badge.minus"
+- "folder.badge.plus"
+- "highlights_component_file_radar_label"
+- "localSearch"
+- "preprocessor"
+- "weather.features.highlightsStringsEngine.frost"
+- "weather.features.highlightsStringsEngine.heavyRain"
+- "weather.features.highlightsStringsEngine.ice"
+- "weather.features.highlightsStringsEngine.overridesRemoteConfiguration"
+- "weather.features.highlightsStringsEngine.rain"
+- "weather.features.highlightsStringsEngine.sky"
+- "weather.features.highlightsStringsEngine.snow"
+- "weather.features.highlightsStringsEngine.storm"
+- "weather.features.highlightsStringsEngine.temperature"
+- "weather.features.highlightsStringsEngine.wind"
+- "weather.location.showElevatedScatteredPrecipitation"
+```
