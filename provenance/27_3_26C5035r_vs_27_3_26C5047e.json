@@ -1,0 +1,121 @@
+{
+  "catalog_commit": "088a1cbe94897f292acf9b540f8f7b62e2953665",
+  "discovery": {
+    "anchor": {
+      "appledb_path": "osFiles/macOS/26x - 27.x/26A428.json",
+      "beta": false,
+      "build": "26A428",
+      "metadata_source": "appledb",
+      "rc": false,
+      "released": "2026-09-14T00:00:00Z",
+      "source": {
+        "input": "UniversalMac_27.0_26A428_Restore.ipsw",
+        "kind": "ipsw",
+        "sha256": "2a5d3c695d501022b7fad9adaffcf2627bcb867d993fb5662dcd41bac99a2836",
+        "size": 26626436228,
+        "url": "https://updates.cdn-apple.com/2026FallFCS/afcfc88e-bbe6-44bf-a5da-07c56eebc06c/UniversalMac_27.0_26A428_Restore.ipsw"
+      },
+      "version": "27.0"
+    },
+    "appledb": {
+      "commit": "78e311445a3bef5bbe8f240c22c5598ada57dd99",
+      "repository": "https://github.com/littlebyteorg/appledb"
+    },
+    "appledb_platform": "macOS",
+    "device": "Mac18,5",
+    "edges": [
+      {
+        "from": {
+          "appledb_path": "osFiles/macOS/26x - 27.x/26C5035r.json",
+          "beta": true,
+          "build": "26C5035r",
+          "metadata_source": "appledb",
+          "rc": false,
+          "released": "2026-11-03T00:00:00Z",
+          "source": {
+            "input": "UniversalMac_27.3_26C5035r_Restore.ipsw",
+            "kind": "ipsw",
+            "sha256": "1f372fa17c2a6c7e10fd135213b928028e9fbe73d54b949deb6c04bea57c93fa",
+            "size": 27206093542,
+            "url": "https://updates.cdn-apple.com/2026FallSeed/53df7654-4865-4259-8dae-30177b76f104/UniversalMac_27.3_26C5035r_Restore.ipsw"
+          },
+          "version": "27.3 beta"
+        },
+        "kind": "ipsw",
+        "to": {
+          "appledb_path": "osFiles/macOS/26x - 27.x/26C5047e.json",
+          "beta": true,
+          "build": "26C5047e",
+          "metadata_source": "appledb",
+          "rc": false,
+          "released": "2026-11-16T00:00:00Z",
+          "source": {
+            "input": "UniversalMac_27.3_26C5047e_Restore.ipsw",
+            "kind": "ipsw",
+            "sha256": "e9ac191b52d9fa1efa122afa83868f226ee46844e3c6e98be10ff0fab3fa4dbe",
+            "size": 27100231181,
+            "url": "https://updates.cdn-apple.com/2026FallSeed/39fd8acf-0beb-48be-b6eb-4889c1fc3872/UniversalMac_27.3_26C5047e_Restore.ipsw"
+          },
+          "version": "27.3 beta 2"
+        }
+      }
+    ],
+    "latest": {
+      "appledb_path": "osFiles/macOS/26x - 27.x/26C5047e.json",
+      "beta": true,
+      "build": "26C5047e",
+      "metadata_source": "appledb",
+      "rc": false,
+      "released": "2026-11-16T00:00:00Z",
+      "source": {
+        "input": "UniversalMac_27.3_26C5047e_Restore.ipsw",
+        "kind": "ipsw",
+        "sha256": "e9ac191b52d9fa1efa122afa83868f226ee46844e3c6e98be10ff0fab3fa4dbe",
+        "size": 27100231181,
+        "url": "https://updates.cdn-apple.com/2026FallSeed/39fd8acf-0beb-48be-b6eb-4889c1fc3872/UniversalMac_27.3_26C5047e_Restore.ipsw"
+      },
+      "version": "27.3 beta 2"
+    },
+    "major_version": 27,
+    "pallas": {
+      "deferred": [],
+      "queried": false,
+      "used": []
+    },
+    "platform": "macOS",
+    "schema_version": 2,
+    "source_inventory": {
+      "observed": 11,
+      "selected": 3
+    },
+    "status": "candidate",
+    "track_id": "macos-27"
+  },
+  "generator": {
+    "name": "ipsw",
+    "version": "Version: 3.1.749, BuildCommit: a7dfadbcaca8375b424c12a68dae40767e5e07c1"
+  },
+  "inputs": [
+    {
+      "role": "previous",
+      "sha256": "1f372fa17c2a6c7e10fd135213b928028e9fbe73d54b949deb6c04bea57c93fa",
+      "size": 27206093542,
+      "url": "https://updates.cdn-apple.com/2026FallSeed/53df7654-4865-4259-8dae-30177b76f104/UniversalMac_27.3_26C5035r_Restore.ipsw"
+    },
+    {
+      "role": "next",
+      "sha256": "e9ac191b52d9fa1efa122afa83868f226ee46844e3c6e98be10ff0fab3fa4dbe",
+      "size": 27100231181,
+      "url": "https://updates.cdn-apple.com/2026FallSeed/39fd8acf-0beb-48be-b6eb-4889c1fc3872/UniversalMac_27.3_26C5047e_Restore.ipsw"
+    }
+  ],
+  "schema_version": 1,
+  "signatures": {
+    "commit": "81178cfe6c8869612ef092f6471fce3e17d95b20",
+    "repository": "https://github.com/blacktop/symbolicator"
+  },
+  "source_commit": "9b840de97d4ce9188a5b177f9cd1a9422dce20bf",
+  "source_tag": "payload/27_3_26C5035r_vs_27_3_26C5047e",
+  "workflow_commit": "d5a6c5b6a0cb5ec6b021d0381699ff08eee5de35",
+  "workflow_run": "https://github.com/ipsw-diffs/macos-27/actions/runs/43940692329"
+}
