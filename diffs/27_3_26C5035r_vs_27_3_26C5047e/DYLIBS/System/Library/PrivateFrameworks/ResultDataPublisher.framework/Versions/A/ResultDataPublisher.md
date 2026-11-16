@@ -1,0 +1,48 @@
+## ResultDataPublisher
+
+> `/System/Library/PrivateFrameworks/ResultDataPublisher.framework/Versions/A/ResultDataPublisher`
+
+```diff
+
+ 25402.1.0.0.0
+-  __TEXT.__text: 0x4ab3c
++  __TEXT.__text: 0x4accc
+   __TEXT.__const: 0x7038
+   __TEXT.__swift5_typeref: 0x12ed
+   __TEXT.__cstring: 0x613
+
+   __TEXT.__swift5_builtin: 0x3c
+   __TEXT.__swift5_mpenum: 0x1c
+   __TEXT.__swift5_protos: 0xc
+-  __TEXT.__unwind_info: 0x1d98
+-  __TEXT.__eh_frame: 0x30e8
++  __TEXT.__unwind_info: 0x1d90
++  __TEXT.__eh_frame: 0x3088
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+Functions:
+~ _$s19ResultDataPublisher14ResultsChannelC11startAction4uuid6parent0F4Time4name11environment8metadatay10Foundation4UUIDV_AmK4DateVSSSgAA6RecordV11EnvironmentVSDyS2SGSgtKF : 1140 -> 1156
+~ _$s19ResultDataPublisher14ResultsChannelC9startTest4uuid6parent0F4Time8testType0K3URL4name11description4tags17configurationName11destination10parameters9arguments16repetitionPolicy9iteration8metadatay10Foundation4UUIDV_AvT4DateVAA6RecordV0gL0OAT0M0VSgSSSgA4_SaySSGSgA4_AZ6DeviceVSgA6_A6_A4_SiSgSDyS2SGSgtKF : 2628 -> 2656
+~ _$s19ResultDataPublisher14ResultsChannelC16recordDiagnostic4uuid6parent9timestamp7message8severity8category9callStack8metadatay10Foundation4UUIDV_AoM4DateVSSAA6RecordV8SeverityOAS0G8CategoryOSgAS04CallO0VSgSDyS2SGSgtKF : 1148 -> 1192
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19ResultDataPublisher6RecordV9AttributeO_Tg5 : 432 -> 460
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19ResultDataPublisher6RecordV_Tg5 : 432 -> 460
+~ _$s19ResultDataPublisher14ResultsChannelC16uploadAttachment12attachmentId06parentI013fileExtension11baseAddress9byteCounty10Foundation4UUIDV_ALSSSgSVSitKFyyYaKcfU0_TQ1_ : 236 -> 212
+~ _$s19ResultDataPublisher14ResultsChannelC16uploadAttachment12attachmentId06parentI013fileExtension11baseAddress9byteCounty10Foundation4UUIDV_ALSSSgSVSitKFyyYaKcfU0_TY3_ : 944 -> 956
+~ _$s19ResultDataPublisher14ResultsChannelC16uploadAttachment12attachmentId06parentI07fileURLy10Foundation4UUIDV_AjH0L0VtKFyyYaKcfU0_TQ1_ : 236 -> 212
+~ _$s19ResultDataPublisher14ResultsChannelC16uploadAttachment12attachmentId06parentI07fileURLy10Foundation4UUIDV_AjH0L0VtKFyyYaKcfU0_TY2_ : 1340 -> 1308
+~ _$s19ResultDataPublisher14ResultsChannelC16uploadAttachment12attachmentId06parentI07fileURLy10Foundation4UUIDV_AjH0L0VtKFyyYaKcfU0_TY3_ : 944 -> 956
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFScTyyts5Error_pG_Tg5 : 300 -> 324
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 112 -> 124
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19ResultDataPublisher21PayloadTypeIdentifierV9ComponentV_Tg5 : 260 -> 284
+~ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFs0E5SliceVy19ResultDataPublisher21PayloadTypeIdentifierV9ComponentVG_Tg5 : 216 -> 240
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 260 -> 284
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC19ResultDataPublisher7Payload_pXp_Tt1g5 : 128 -> 152
+~ _$s19ResultDataPublisher13HTTPTransportC15writeAttachment33_DB6259463E415BC2CE11C5470F18FB91LL4dataSS10Foundation0B0V_tYaKFTY0_ : 1260 -> 1280
+~ _$s19ResultDataPublisher13HTTPTransportC11writeEvents33_DB6259463E415BC2CE11C5470F18FB91LL4data11batchNumbery10Foundation0B0V_SitYaKFTY0_ : 1432 -> 1468
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 260 -> 284
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4DataV_Tg5 : 260 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19ResultDataPublisher5EventV_Tg5 : 432 -> 460
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_Tg5 : 252 -> 276
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSs_Tg5 : 260 -> 284
+```

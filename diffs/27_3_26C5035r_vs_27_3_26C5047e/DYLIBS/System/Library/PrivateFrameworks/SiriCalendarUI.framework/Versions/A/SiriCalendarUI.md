@@ -1,0 +1,76 @@
+## SiriCalendarUI
+
+> `/System/Library/PrivateFrameworks/SiriCalendarUI.framework/Versions/A/SiriCalendarUI`
+
+```diff
+
+-3610.3.1.0.0
+-  __TEXT.__text: 0x25ef4
+-  __TEXT.__const: 0x1c58
++3610.7.1.0.0
++  __TEXT.__text: 0x26324
++  __TEXT.__const: 0x1c80
+   __TEXT.__constg_swiftt: 0x818
+-  __TEXT.__swift5_typeref: 0x2b0d
++  __TEXT.__swift5_typeref: 0x2b7b
+   __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_reflstr: 0x725
++  __TEXT.__swift5_reflstr: 0x735
+   __TEXT.__swift5_assocty: 0x288
+   __TEXT.__swift5_proto: 0x8c
+   __TEXT.__swift5_types: 0x84
+-  __TEXT.__swift5_fieldmd: 0x6fc
++  __TEXT.__swift5_fieldmd: 0x708
+   __TEXT.__swift5_capture: 0x2e4
+   __TEXT.__cstring: 0x2e3
+   __TEXT.__oslogstring: 0x1f5
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0xcb8
++  __TEXT.__unwind_info: 0xcc0
+   __TEXT.__eh_frame: 0x288
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x68
+-  __DATA_CONST.__got: 0x530
++  __DATA_CONST.__got: 0x548
+   __AUTH_CONST.__const: 0xce8
+   __AUTH_CONST.__objc_const: 0xb8
+-  __AUTH_CONST.__auth_got: 0xaa8
++  __AUTH_CONST.__auth_got: 0xad0
+   __AUTH.__data: 0xbe8
+-  __DATA.__data: 0xdc8
++  __DATA.__data: 0xdf0
+   __DATA.__bss: 0x11b8
+   __DATA.__common: 0x8
+   __DATA_DIRTY.__bss: 0x80
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1059
+-  Symbols:   574
++  Functions: 1061
++  Symbols:   577
+   CStrings:  26
+ 
+Symbols:
++ _get_witness_table 9SnippetUI18DisambiguationViewVy05SwiftB00D0PAAE15ambientDrawable22renderWithDrawingGroupQrSb_tFQOyAD7ForEachVySaySi6offset_012SiriCalendarB015RenderableEventV7elementtGSSAfAE16componentSpacing3top6bottomQr12CoreGraphics7CGFloatV_AVtFQOyAfDE11buttonStyleyQrqd__AD20PrimitiveButtonStyleRd__lFQOyAA13ButtonWrapperVyAL0r4CellD0VG_AD15LinkButtonStyleVQo__Qo_G_Qo_GAdEHPyHC
++ _symbolic Si__________y_____y_____y_____G______Qo__Qo_Iegynr_ 14SiriCalendarUI15RenderableEventV 05SwiftC04ViewP07SnippetC0E16componentSpacing3top6bottomQr12CoreGraphics7CGFloatV_AMtFQO AfDE11buttonStyleyQrqd__AD015PrimitiveButtonQ0Rd__lFQO AG0S7WrapperV AA0e4CellG0V AD04LinksQ0V
++ _symbolic _____Sg 10Foundation6LocaleV9HourCycleO
++ _symbolic _____ySaySi6offset______7elementtGSS_____y_____y_____y_____G______Qo__Qo_G 7SwiftUI7ForEachV 012SiriCalendarB015RenderableEventV AA4ViewP07SnippetB0E16componentSpacing3top6bottomQr12CoreGraphics7CGFloatV_AOtFQO AhAE11buttonStyleyQrqd__AA015PrimitiveButtonS0Rd__lFQO AI0U7WrapperV AD0h4CellI0V AA04LinkuS0V
++ _symbolic _____y_____G 9SnippetUI13ButtonWrapperV 012SiriCalendarB013EventCellViewV
++ _symbolic _____y_____ySaySi6offset______7elementtGSS_____y_____y_____y_____G______Qo__Qo_G_Qo_ 7SwiftUI4ViewP07SnippetB0E15ambientDrawable22renderWithDrawingGroupQrSb_tFQO AA7ForEachV 012SiriCalendarB015RenderableEventV AcDE16componentSpacing3top6bottomQr12CoreGraphics7CGFloatV_AQtFQO AcAE11buttonStyleyQrqd__AA015PrimitiveButtonY0Rd__lFQO AD13ButtonWrapperV AI0p4CellC0V AA010LinkButtonY0V
++ _symbolic _____y_____y_____G______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO 07SnippetB00G7WrapperV 012SiriCalendarB009EventCellC0V AA04LinkgE0V
++ _symbolic _____y_____y_____ySaySi6offset______7elementtGSS_____y_____y_____y_____G______Qo__Qo_G_Qo_G 9SnippetUI18DisambiguationViewV 05SwiftB00D0PAAE15ambientDrawable22renderWithDrawingGroupQrSb_tFQO AD7ForEachV 012SiriCalendarB015RenderableEventV AfAE16componentSpacing3top6bottomQr12CoreGraphics7CGFloatV_AStFQO AfDE11buttonStyleyQrqd__AD015PrimitiveButtonZ0Rd__lFQO AA13ButtonWrapperV AK0q4CellD0V AD010LinkButtonZ0V
++ _symbolic _____y_____y_____y_____G______Qo__Qo_ 7SwiftUI4ViewP07SnippetB0E16componentSpacing3top6bottomQr12CoreGraphics7CGFloatV_AJtFQO AcAE11buttonStyleyQrqd__AA015PrimitiveButtonM0Rd__lFQO AD0O7WrapperV 012SiriCalendarB009EventCellC0V AA04LinkoM0V
+- _get_witness_table 9SnippetUI18DisambiguationViewVy05SwiftB00D0PAAE15ambientDrawable22renderWithDrawingGroupQrSb_tFQOyAD7ForEachVySaySi6offset_012SiriCalendarB015RenderableEventV7elementtGSSAfDE12onTapGesture5count7performQrSi_yyctFQOyAfAE16componentSpacing3top6bottomQr12CoreGraphics7CGFloatV_AYtFQOyAL0r4CellD0V_Qo__Qo_G_Qo_GAdEHPyHC
+- _symbolic Si__________y_____y______Qo__Qo_Iegynr_ 14SiriCalendarUI15RenderableEventV 05SwiftC04ViewPADE12onTapGesture5count7performQrSi_yyctFQO AF07SnippetC0E16componentSpacing3top6bottomQr12CoreGraphics7CGFloatV_APtFQO AA0e4CellG0V
+- _symbolic _____ySaySi6offset______7elementtGSS_____y_____y______Qo__Qo_G 7SwiftUI7ForEachV 012SiriCalendarB015RenderableEventV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AH07SnippetB0E16componentSpacing3top6bottomQr12CoreGraphics7CGFloatV_ARtFQO AD0h4CellI0V
+- _symbolic _____y_____ySaySi6offset______7elementtGSS_____y_____y______Qo__Qo_G_Qo_ 7SwiftUI4ViewP07SnippetB0E15ambientDrawable22renderWithDrawingGroupQrSb_tFQO AA7ForEachV 012SiriCalendarB015RenderableEventV AcAE12onTapGesture5count7performQrSi_yyctFQO AcDE16componentSpacing3top6bottomQr12CoreGraphics7CGFloatV_ATtFQO AI0p4CellC0V
+- _symbolic _____y_____y______Qo__Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AC07SnippetB0E16componentSpacing3top6bottomQr12CoreGraphics7CGFloatV_AMtFQO 012SiriCalendarB009EventCellC0V
+- _symbolic _____y_____y_____ySaySi6offset______7elementtGSS_____y_____y______Qo__Qo_G_Qo_G 9SnippetUI18DisambiguationViewV 05SwiftB00D0PAAE15ambientDrawable22renderWithDrawingGroupQrSb_tFQO AD7ForEachV 012SiriCalendarB015RenderableEventV AfDE12onTapGesture5count7performQrSi_yyctFQO AfAE16componentSpacing3top6bottomQr12CoreGraphics7CGFloatV_AVtFQO AK0q4CellD0V
+```

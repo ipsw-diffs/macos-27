@@ -1,0 +1,32 @@
+## libswiftAVFoundation.dylib
+
+> `/usr/lib/swift/libswiftAVFoundation.dylib`
+
+```diff
+
+-2485.5.1.0.0
+-  __TEXT.__text: 0x3cee0
++2485.8.1.0.0
++  __TEXT.__text: 0x3d0a0
+   __TEXT.__objc_methlist: 0x27c
+   __TEXT.__const: 0x3834
+   __TEXT.__swift5_typeref: 0x18ba
+Functions:
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSs_Tg5 : 260 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 260 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5Error_p_Tg5 : 300 -> 324
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo08AVSampleB13AudioRendererC12AVFoundationE8ReceiverC20SuggestedFlushReasonO_Tg5 : 272 -> 308
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo11CMTimeRangea_Tg5 : 268 -> 304
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12AVFoundation27AVSpatialVideoConfigurationV_Tg5 : 432 -> 460
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyp_Tg5 : 264 -> 288
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSay9CoreMedia5CMTagCG_Tg5Tm : 300 -> 324
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSf_Tg5 : 252 -> 276
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5Int32V_Tg5Tm : 244 -> 268
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 260 -> 284
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo13CMTimeMappinga_Tg5 : 268 -> 304
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo18AVCaptureFlashModeV_Tg5Tm : 244 -> 268
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo17CMVideoDimensionsa_Tg5 : 252 -> 276
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12CoreGraphics7CGFloatV_Tg5 : 252 -> 276
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo7CGPointV_Tg5Tm : 244 -> 268
+~ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlFSo35AVCaptureSynchronizedDataCollectionC_Tgq5 : 632 -> 656
+```

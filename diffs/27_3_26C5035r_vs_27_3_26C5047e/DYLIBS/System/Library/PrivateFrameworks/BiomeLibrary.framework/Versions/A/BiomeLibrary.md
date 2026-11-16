@@ -1,0 +1,883 @@
+## BiomeLibrary
+
+> `/System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary`
+
+```diff
+
+-441.45.0.0.0
+-  __TEXT.__text: 0x78cf9c
+-  __TEXT.__objc_methlist: 0x5038c
+-  __TEXT.__const: 0x4930
++441.45.5.0.0
++  __TEXT.__text: 0x79f218
++  __TEXT.__objc_methlist: 0x511d4
++  __TEXT.__const: 0x4a88
+   __TEXT.__swift5_typeref: 0x184
+   __TEXT.__swift5_capture: 0x30
+-  __TEXT.__cstring: 0x4e872
++  __TEXT.__cstring: 0x4f6fb
+   __TEXT.__constg_swiftt: 0x5e4
+   __TEXT.__swift5_fieldmd: 0x220
+   __TEXT.__swift5_types: 0x88
+   __TEXT.__oslogstring: 0x47
+-  __TEXT.__unwind_info: 0x124b0
++  __TEXT.__unwind_info: 0x12890
+   __TEXT.__eh_frame: 0x40
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1efb8
+-  __DATA_CONST.__objc_classlist: 0x2340
++  __DATA_CONST.__const: 0x1f868
++  __DATA_CONST.__objc_classlist: 0x23a8
+   __DATA_CONST.__objc_protolist: 0x48
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x12760
++  __DATA_CONST.__objc_selrefs: 0x12a48
+   __DATA_CONST.__objc_protorefs: 0x8
+-  __DATA_CONST.__objc_superrefs: 0x1b58
+-  __DATA_CONST.__objc_arraydata: 0xb208
+-  __DATA_CONST.__got: 0x1c28
+-  __AUTH_CONST.__const: 0x9bd8
+-  __AUTH_CONST.__cfstring: 0x4b480
+-  __AUTH_CONST.__objc_const: 0xa3648
+-  __AUTH_CONST.__objc_arrayobj: 0x6630
++  __DATA_CONST.__objc_superrefs: 0x1bb0
++  __DATA_CONST.__objc_arraydata: 0xb3a0
++  __DATA_CONST.__got: 0x1c80
++  __AUTH_CONST.__const: 0x9d98
++  __AUTH_CONST.__cfstring: 0x4c6e0
++  __AUTH_CONST.__objc_const: 0xa5038
++  __AUTH_CONST.__objc_arrayobj: 0x6768
+   __AUTH_CONST.__objc_intobj: 0x300
+   __AUTH_CONST.__auth_got: 0x2b0
+-  __AUTH.__objc_data: 0x9cc8
++  __AUTH.__objc_data: 0x9ea8
+   __AUTH.__data: 0x50
+-  __DATA.__objc_ivar: 0x826c
++  __DATA.__objc_ivar: 0x8384
+   __DATA.__data: 0x328
+   __DATA.__bss: 0x18
+-  __DATA_DIRTY.__objc_data: 0xd078
++  __DATA_DIRTY.__objc_data: 0xd2a8
+   __DATA_DIRTY.__data: 0x520
+   __DATA_DIRTY.__bss: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 28707
+-  Symbols:   60649
+-  CStrings:  9769
++  Functions: 29034
++  Symbols:   61302
++  CStrings:  9916
+ 
+Symbols:
++ +[BMAppleIntelligenceReportFedStatsTransparencyLog columns]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLog eventWithData:dataVersion:]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLog latestDataVersion]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLog protoFields]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLog validKeyPaths]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata columns]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata eventWithData:dataVersion:]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata latestDataVersion]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata protoFields]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata validKeyPaths]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig columns]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig eventWithData:dataVersion:]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig latestDataVersion]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig protoFields]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig validKeyPaths]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig columns]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig eventWithData:dataVersion:]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig latestDataVersion]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig protoFields]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig validKeyPaths]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures columns]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures eventWithData:dataVersion:]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures latestDataVersion]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures protoFields]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures validKeyPaths]
++ +[BMRegionalSafetyAnalysisDisablement columns]
++ +[BMRegionalSafetyAnalysisDisablement eventWithData:dataVersion:]
++ +[BMRegionalSafetyAnalysisDisablement latestDataVersion]
++ +[BMRegionalSafetyAnalysisDisablement protoFields]
++ +[BMRegionalSafetyAnalysisDisablement validKeyPaths]
++ +[BMRegionalSafetyAnalysisEligibility columns]
++ +[BMRegionalSafetyAnalysisEligibility eventWithData:dataVersion:]
++ +[BMRegionalSafetyAnalysisEligibility latestDataVersion]
++ +[BMRegionalSafetyAnalysisEligibility protoFields]
++ +[BMRegionalSafetyAnalysisEligibility validKeyPaths]
++ +[BMRegionalSafetyAnalysisGuardrailResult columns]
++ +[BMRegionalSafetyAnalysisGuardrailResult eventWithData:dataVersion:]
++ +[BMRegionalSafetyAnalysisGuardrailResult latestDataVersion]
++ +[BMRegionalSafetyAnalysisGuardrailResult protoFields]
++ +[BMRegionalSafetyAnalysisGuardrailResult validKeyPaths]
++ +[BMRegionalSafetyAnalysisKeywordID columns]
++ +[BMRegionalSafetyAnalysisKeywordID eventWithData:dataVersion:]
++ +[BMRegionalSafetyAnalysisKeywordID latestDataVersion]
++ +[BMRegionalSafetyAnalysisKeywordID protoFields]
++ +[BMRegionalSafetyAnalysisKeywordID validKeyPaths]
++ +[BMRegionalSafetyAnalysisLiteViolationData columns]
++ +[BMRegionalSafetyAnalysisLiteViolationData eventWithData:dataVersion:]
++ +[BMRegionalSafetyAnalysisLiteViolationData latestDataVersion]
++ +[BMRegionalSafetyAnalysisLiteViolationData protoFields]
++ +[BMRegionalSafetyAnalysisLiteViolationData validKeyPaths]
++ +[BMSafariAutoDarkMode columns]
++ +[BMSafariAutoDarkMode eventWithData:dataVersion:]
++ +[BMSafariAutoDarkMode latestDataVersion]
++ +[BMSafariAutoDarkMode protoFields]
++ +[BMSafariAutoDarkMode validKeyPaths]
++ +[_BMAppleIntelligenceReportLibraryNode FedStatsTransparencyLog]
++ +[_BMAppleIntelligenceReportLibraryNode configurationForFedStatsTransparencyLog]
++ +[_BMAppleIntelligenceReportLibraryNode identifier]
++ +[_BMAppleIntelligenceReportLibraryNode storeConfigurationForFedStatsTransparencyLog]
++ +[_BMAppleIntelligenceReportLibraryNode streamNames]
++ +[_BMAppleIntelligenceReportLibraryNode streamWithName:]
++ +[_BMAppleIntelligenceReportLibraryNode sublibraries]
++ +[_BMAppleIntelligenceReportLibraryNode syncPolicyForFedStatsTransparencyLog]
++ +[_BMAppleIntelligenceReportLibraryNode validKeyPaths]
++ +[_BMRegionalSafetyAnalysisLibraryNode Disablement]
++ +[_BMRegionalSafetyAnalysisLibraryNode Eligibility]
++ +[_BMRegionalSafetyAnalysisLibraryNode GuardrailResult]
++ +[_BMRegionalSafetyAnalysisLibraryNode KeywordID]
++ +[_BMRegionalSafetyAnalysisLibraryNode LiteViolationData]
++ +[_BMRegionalSafetyAnalysisLibraryNode configurationForDisablement]
++ +[_BMRegionalSafetyAnalysisLibraryNode configurationForEligibility]
++ +[_BMRegionalSafetyAnalysisLibraryNode configurationForGuardrailResult]
++ +[_BMRegionalSafetyAnalysisLibraryNode configurationForKeywordID]
++ +[_BMRegionalSafetyAnalysisLibraryNode configurationForLiteViolationData]
++ +[_BMRegionalSafetyAnalysisLibraryNode identifier]
++ +[_BMRegionalSafetyAnalysisLibraryNode storeConfigurationForDisablement]
++ +[_BMRegionalSafetyAnalysisLibraryNode storeConfigurationForEligibility]
++ +[_BMRegionalSafetyAnalysisLibraryNode storeConfigurationForGuardrailResult]
++ +[_BMRegionalSafetyAnalysisLibraryNode storeConfigurationForKeywordID]
++ +[_BMRegionalSafetyAnalysisLibraryNode storeConfigurationForLiteViolationData]
++ +[_BMRegionalSafetyAnalysisLibraryNode streamNames]
++ +[_BMRegionalSafetyAnalysisLibraryNode streamWithName:]
++ +[_BMRegionalSafetyAnalysisLibraryNode sublibraries]
++ +[_BMRegionalSafetyAnalysisLibraryNode syncPolicyForDisablement]
++ +[_BMRegionalSafetyAnalysisLibraryNode syncPolicyForEligibility]
++ +[_BMRegionalSafetyAnalysisLibraryNode syncPolicyForGuardrailResult]
++ +[_BMRegionalSafetyAnalysisLibraryNode syncPolicyForKeywordID]
++ +[_BMRegionalSafetyAnalysisLibraryNode syncPolicyForLiteViolationData]
++ +[_BMRegionalSafetyAnalysisLibraryNode validKeyPaths]
++ +[_BMRootLibraryNode AppleIntelligenceReport]
++ +[_BMRootLibraryNode RegionalSafetyAnalysis]
++ +[_BMSafariLibraryNode AutoDarkMode]
++ +[_BMSafariLibraryNode configurationForAutoDarkMode]
++ +[_BMSafariLibraryNode storeConfigurationForAutoDarkMode]
++ +[_BMSafariLibraryNode syncPolicyForAutoDarkMode]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog .cxx_destruct]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog dataVersion]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog description]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog dimension]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog hasDimension]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog initByReadFrom:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog initWithJSONDictionary:error:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog initWithKey:dimension:metadata:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog isEqual:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog jsonDictionary]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog key]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog metadata]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog serialize]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog setHasDimension:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog writeTo:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata .cxx_destruct]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata dataVersion]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata description]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata initByReadFrom:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata initWithJSONDictionary:error:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata initWithTaskConfig:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata isEqual:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata jsonDictionary]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata serialize]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata taskConfig]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata writeTo:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig .cxx_destruct]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig dataVersion]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig description]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig differentialPrivacyConfig]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig features]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig hasMinBatchSize]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig hasTaskExpiration]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig initByReadFrom:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig initWithJSONDictionary:error:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig initWithTaskExpiration:minBatchSize:features:differentialPrivacyConfig:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig isEqual:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig jsonDictionary]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig minBatchSize]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig serialize]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig setHasMinBatchSize:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig setHasTaskExpiration:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig taskExpiration]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig writeTo:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig dataVersion]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig description]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig hasLocalEpsilon]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig hasTargetCentralDelta]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig hasTargetCentralEpsilon]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig initByReadFrom:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig initWithJSONDictionary:error:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig initWithTargetCentralEpsilon:targetCentralDelta:localEpsilon:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig isEqual:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig jsonDictionary]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig localEpsilon]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig serialize]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig setHasLocalEpsilon:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig setHasTargetCentralDelta:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig setHasTargetCentralEpsilon:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig targetCentralDelta]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig targetCentralEpsilon]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig writeTo:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures dataVersion]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures description]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures hasOhttp]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures hasPrivateAccessToken]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures initByReadFrom:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures initWithJSONDictionary:error:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures initWithPrivateAccessToken:ohttp:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures isEqual:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures jsonDictionary]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures ohttp]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures privateAccessToken]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures serialize]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures setHasOhttp:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures setHasPrivateAccessToken:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures writeTo:]
++ -[BMRegionalSafetyAnalysisDisablement .cxx_destruct]
++ -[BMRegionalSafetyAnalysisDisablement assetVersion]
++ -[BMRegionalSafetyAnalysisDisablement dataVersion]
++ -[BMRegionalSafetyAnalysisDisablement description]
++ -[BMRegionalSafetyAnalysisDisablement didTriggerAutomaticDisablement]
++ -[BMRegionalSafetyAnalysisDisablement hasDidTriggerAutomaticDisablement]
++ -[BMRegionalSafetyAnalysisDisablement initByReadFrom:]
++ -[BMRegionalSafetyAnalysisDisablement initWithDidTriggerAutomaticDisablement:useCaseIdentifier:assetVersion:]
++ -[BMRegionalSafetyAnalysisDisablement initWithJSONDictionary:error:]
++ -[BMRegionalSafetyAnalysisDisablement isEqual:]
++ -[BMRegionalSafetyAnalysisDisablement jsonDictionary]
++ -[BMRegionalSafetyAnalysisDisablement serialize]
++ -[BMRegionalSafetyAnalysisDisablement setHasDidTriggerAutomaticDisablement:]
++ -[BMRegionalSafetyAnalysisDisablement useCaseIdentifier]
++ -[BMRegionalSafetyAnalysisDisablement writeTo:]
++ -[BMRegionalSafetyAnalysisEligibility dataVersion]
++ -[BMRegionalSafetyAnalysisEligibility description]
++ -[BMRegionalSafetyAnalysisEligibility hasIsAppleIntelligenceEligible]
++ -[BMRegionalSafetyAnalysisEligibility hasIsAppleIntelligenceToggledOn]
++ -[BMRegionalSafetyAnalysisEligibility hasIsOnboarded3rdParty]
++ -[BMRegionalSafetyAnalysisEligibility hasIsStaleSafetyData]
++ -[BMRegionalSafetyAnalysisEligibility initByReadFrom:]
++ -[BMRegionalSafetyAnalysisEligibility initWithIsAppleIntelligenceEligible:isAppleIntelligenceToggledOn:isOnboarded3rdParty:isStaleSafetyData:]
++ -[BMRegionalSafetyAnalysisEligibility initWithJSONDictionary:error:]
++ -[BMRegionalSafetyAnalysisEligibility isAppleIntelligenceEligible]
++ -[BMRegionalSafetyAnalysisEligibility isAppleIntelligenceToggledOn]
++ -[BMRegionalSafetyAnalysisEligibility isEqual:]
++ -[BMRegionalSafetyAnalysisEligibility isOnboarded3rdParty]
++ -[BMRegionalSafetyAnalysisEligibility isStaleSafetyData]
++ -[BMRegionalSafetyAnalysisEligibility jsonDictionary]
++ -[BMRegionalSafetyAnalysisEligibility serialize]
++ -[BMRegionalSafetyAnalysisEligibility setHasIsAppleIntelligenceEligible:]
++ -[BMRegionalSafetyAnalysisEligibility setHasIsAppleIntelligenceToggledOn:]
++ -[BMRegionalSafetyAnalysisEligibility setHasIsOnboarded3rdParty:]
++ -[BMRegionalSafetyAnalysisEligibility setHasIsStaleSafetyData:]
++ -[BMRegionalSafetyAnalysisEligibility writeTo:]
++ -[BMRegionalSafetyAnalysisGuardrailResult .cxx_destruct]
++ -[BMRegionalSafetyAnalysisGuardrailResult assetVersion]
++ -[BMRegionalSafetyAnalysisGuardrailResult dataVersion]
++ -[BMRegionalSafetyAnalysisGuardrailResult description]
++ -[BMRegionalSafetyAnalysisGuardrailResult error]
++ -[BMRegionalSafetyAnalysisGuardrailResult hasMarkedUnsafe]
++ -[BMRegionalSafetyAnalysisGuardrailResult identifier]
++ -[BMRegionalSafetyAnalysisGuardrailResult initByReadFrom:]
++ -[BMRegionalSafetyAnalysisGuardrailResult initWithIdentifier:markedUnsafe:sensitivity:useCaseIdentifier:instanceType:assetVersion:error:judgementSource:userRequestID:severity:]
++ -[BMRegionalSafetyAnalysisGuardrailResult initWithJSONDictionary:error:]
++ -[BMRegionalSafetyAnalysisGuardrailResult instanceType]
++ -[BMRegionalSafetyAnalysisGuardrailResult isEqual:]
++ -[BMRegionalSafetyAnalysisGuardrailResult jsonDictionary]
++ -[BMRegionalSafetyAnalysisGuardrailResult judgementSource]
++ -[BMRegionalSafetyAnalysisGuardrailResult markedUnsafe]
++ -[BMRegionalSafetyAnalysisGuardrailResult sensitivity]
++ -[BMRegionalSafetyAnalysisGuardrailResult serialize]
++ -[BMRegionalSafetyAnalysisGuardrailResult setHasMarkedUnsafe:]
++ -[BMRegionalSafetyAnalysisGuardrailResult severity]
++ -[BMRegionalSafetyAnalysisGuardrailResult useCaseIdentifier]
++ -[BMRegionalSafetyAnalysisGuardrailResult userRequestID]
++ -[BMRegionalSafetyAnalysisGuardrailResult writeTo:]
++ -[BMRegionalSafetyAnalysisGuardrailResult(Deprecation) initWithIdentifier:markedUnsafe:sensitivity:useCaseIdentifier:instanceType:assetVersion:error:judgementSource:]
++ -[BMRegionalSafetyAnalysisGuardrailResult(Deprecation) initWithIdentifier:markedUnsafe:sensitivity:useCaseIdentifier:instanceType:assetVersion:error:judgementSource:userRequestID:]
++ -[BMRegionalSafetyAnalysisKeywordID .cxx_destruct]
++ -[BMRegionalSafetyAnalysisKeywordID dataVersion]
++ -[BMRegionalSafetyAnalysisKeywordID description]
++ -[BMRegionalSafetyAnalysisKeywordID identifier]
++ -[BMRegionalSafetyAnalysisKeywordID initByReadFrom:]
++ -[BMRegionalSafetyAnalysisKeywordID initWithIdentifier:keywordIdentifier:safetyDataVersion:violationCategory:instanceType:userRequestID:]
++ -[BMRegionalSafetyAnalysisKeywordID initWithJSONDictionary:error:]
++ -[BMRegionalSafetyAnalysisKeywordID instanceType]
++ -[BMRegionalSafetyAnalysisKeywordID isEqual:]
++ -[BMRegionalSafetyAnalysisKeywordID jsonDictionary]
++ -[BMRegionalSafetyAnalysisKeywordID keywordIdentifier]
++ -[BMRegionalSafetyAnalysisKeywordID safetyDataVersion]
++ -[BMRegionalSafetyAnalysisKeywordID serialize]
++ -[BMRegionalSafetyAnalysisKeywordID userRequestID]
++ -[BMRegionalSafetyAnalysisKeywordID violationCategory]
++ -[BMRegionalSafetyAnalysisKeywordID writeTo:]
++ -[BMRegionalSafetyAnalysisKeywordID(Deprecation) initWithIdentifier:useCaseIdentifier:keywordIdentifier:safetyDataVersion:violationCategory:]
++ -[BMRegionalSafetyAnalysisKeywordID(Deprecation) initWithIdentifier:useCaseIdentifier:keywordIdentifier:safetyDataVersion:violationCategory:instanceType:]
++ -[BMRegionalSafetyAnalysisKeywordID(Deprecation) initWithIdentifier:useCaseIdentifier:keywordIdentifier:safetyDataVersion:violationCategory:instanceType:userRequestID:]
++ -[BMRegionalSafetyAnalysisLiteViolationData .cxx_destruct]
++ -[BMRegionalSafetyAnalysisLiteViolationData dataVersion]
++ -[BMRegionalSafetyAnalysisLiteViolationData description]
++ -[BMRegionalSafetyAnalysisLiteViolationData identifier]
++ -[BMRegionalSafetyAnalysisLiteViolationData initByReadFrom:]
++ -[BMRegionalSafetyAnalysisLiteViolationData initWithIdentifier:useCaseIdentifier:liteViolationCategory:safetyDataVersion:]
++ -[BMRegionalSafetyAnalysisLiteViolationData initWithJSONDictionary:error:]
++ -[BMRegionalSafetyAnalysisLiteViolationData isEqual:]
++ -[BMRegionalSafetyAnalysisLiteViolationData jsonDictionary]
++ -[BMRegionalSafetyAnalysisLiteViolationData liteViolationCategory]
++ -[BMRegionalSafetyAnalysisLiteViolationData safetyDataVersion]
++ -[BMRegionalSafetyAnalysisLiteViolationData serialize]
++ -[BMRegionalSafetyAnalysisLiteViolationData useCaseIdentifier]
++ -[BMRegionalSafetyAnalysisLiteViolationData writeTo:]
++ -[BMRegionalSafetyAnalysisLiteViolationData(Deprecation) initWithIdentifier:useCaseIdentifier:liteViolationCategory:]
++ -[BMSafariAutoDarkMode .cxx_destruct]
++ -[BMSafariAutoDarkMode action]
++ -[BMSafariAutoDarkMode dataVersion]
++ -[BMSafariAutoDarkMode description]
++ -[BMSafariAutoDarkMode domain]
++ -[BMSafariAutoDarkMode hasIsUnsupportedWebsite]
++ -[BMSafariAutoDarkMode initByReadFrom:]
++ -[BMSafariAutoDarkMode initWithDomain:platform:action:isUnsupportedWebsite:]
++ -[BMSafariAutoDarkMode initWithJSONDictionary:error:]
++ -[BMSafariAutoDarkMode isEqual:]
++ -[BMSafariAutoDarkMode isUnsupportedWebsite]
++ -[BMSafariAutoDarkMode jsonDictionary]
++ -[BMSafariAutoDarkMode platform]
++ -[BMSafariAutoDarkMode serialize]
++ -[BMSafariAutoDarkMode setHasIsUnsupportedWebsite:]
++ -[BMSafariAutoDarkMode writeTo:]
++ _BMAppleIntelligenceReportFedStatsTransparencyLogDimensionColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadataTaskConfigColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogIdentifier
++ _BMAppleIntelligenceReportFedStatsTransparencyLogKeyColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogMetadataColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDifferentialPrivacyConfigColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfigLocalEpsilonColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfigTargetCentralDeltaColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfigTargetCentralEpsilonColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeaturesColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeaturesOhttpColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeaturesPrivateAccessTokenColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigMinBatchSizeColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigTaskExpirationColumn
++ _BMRegionalSafetyAnalysisDisablementAssetVersionColumn
++ _BMRegionalSafetyAnalysisDisablementDidTriggerAutomaticDisablementColumn
++ _BMRegionalSafetyAnalysisDisablementIdentifier
++ _BMRegionalSafetyAnalysisDisablementUseCaseIdentifierColumn
++ _BMRegionalSafetyAnalysisEligibilityIdentifier
++ _BMRegionalSafetyAnalysisEligibilityIsAppleIntelligenceEligibleColumn
++ _BMRegionalSafetyAnalysisEligibilityIsAppleIntelligenceToggledOnColumn
++ _BMRegionalSafetyAnalysisEligibilityIsOnboarded3rdPartyColumn
++ _BMRegionalSafetyAnalysisEligibilityIsStaleSafetyDataColumn
++ _BMRegionalSafetyAnalysisGuardrailResultAssetVersionColumn
++ _BMRegionalSafetyAnalysisGuardrailResultErrorAsString
++ _BMRegionalSafetyAnalysisGuardrailResultErrorColumn
++ _BMRegionalSafetyAnalysisGuardrailResultErrorDecode
++ _BMRegionalSafetyAnalysisGuardrailResultErrorFromString
++ _BMRegionalSafetyAnalysisGuardrailResultErrorFromString.sortedEnums
++ _BMRegionalSafetyAnalysisGuardrailResultErrorFromString.sortedStrings
++ _BMRegionalSafetyAnalysisGuardrailResultIdentifier
++ _BMRegionalSafetyAnalysisGuardrailResultIdentifierColumn
++ _BMRegionalSafetyAnalysisGuardrailResultInstanceTypeAsString
++ _BMRegionalSafetyAnalysisGuardrailResultInstanceTypeColumn
++ _BMRegionalSafetyAnalysisGuardrailResultInstanceTypeDecode
++ _BMRegionalSafetyAnalysisGuardrailResultInstanceTypeFromString
++ _BMRegionalSafetyAnalysisGuardrailResultInstanceTypeFromString.sortedStrings
++ _BMRegionalSafetyAnalysisGuardrailResultJudgementSourceAsString
++ _BMRegionalSafetyAnalysisGuardrailResultJudgementSourceColumn
++ _BMRegionalSafetyAnalysisGuardrailResultJudgementSourceDecode
++ _BMRegionalSafetyAnalysisGuardrailResultJudgementSourceFromString
++ _BMRegionalSafetyAnalysisGuardrailResultJudgementSourceFromString.sortedStrings
++ _BMRegionalSafetyAnalysisGuardrailResultMarkedUnsafeColumn
++ _BMRegionalSafetyAnalysisGuardrailResultSensitiveAsString
++ _BMRegionalSafetyAnalysisGuardrailResultSensitiveDecode
++ _BMRegionalSafetyAnalysisGuardrailResultSensitiveFromString
++ _BMRegionalSafetyAnalysisGuardrailResultSensitiveFromString.sortedStrings
++ _BMRegionalSafetyAnalysisGuardrailResultSensitivityColumn
++ _BMRegionalSafetyAnalysisGuardrailResultSeverityAsString
++ _BMRegionalSafetyAnalysisGuardrailResultSeverityColumn
++ _BMRegionalSafetyAnalysisGuardrailResultSeverityDecode
++ _BMRegionalSafetyAnalysisGuardrailResultSeverityFromString
++ _BMRegionalSafetyAnalysisGuardrailResultSeverityFromString.sortedStrings
++ _BMRegionalSafetyAnalysisGuardrailResultUseCaseIdentifierColumn
++ _BMRegionalSafetyAnalysisGuardrailResultUserRequestIDColumn
++ _BMRegionalSafetyAnalysisKeywordIDIdentifier
++ _BMRegionalSafetyAnalysisKeywordIDIdentifierColumn
++ _BMRegionalSafetyAnalysisKeywordIDInstanceTypeAsString
++ _BMRegionalSafetyAnalysisKeywordIDInstanceTypeColumn
++ _BMRegionalSafetyAnalysisKeywordIDInstanceTypeDecode
++ _BMRegionalSafetyAnalysisKeywordIDInstanceTypeFromString
++ _BMRegionalSafetyAnalysisKeywordIDInstanceTypeFromString.sortedStrings
++ _BMRegionalSafetyAnalysisKeywordIDKeywordIdentifierColumn
++ _BMRegionalSafetyAnalysisKeywordIDSafetyDataVersionColumn
++ _BMRegionalSafetyAnalysisKeywordIDUserRequestIDColumn
++ _BMRegionalSafetyAnalysisKeywordIDViolationCategoryAsString
++ _BMRegionalSafetyAnalysisKeywordIDViolationCategoryColumn
++ _BMRegionalSafetyAnalysisKeywordIDViolationCategoryDecode
++ _BMRegionalSafetyAnalysisKeywordIDViolationCategoryFromString
++ _BMRegionalSafetyAnalysisKeywordIDViolationCategoryFromString.sortedEnums
++ _BMRegionalSafetyAnalysisKeywordIDViolationCategoryFromString.sortedStrings
++ _BMRegionalSafetyAnalysisLiteViolationDataIdentifier
++ _BMRegionalSafetyAnalysisLiteViolationDataIdentifierColumn
++ _BMRegionalSafetyAnalysisLiteViolationDataLiteViolationCategoryAsString
++ _BMRegionalSafetyAnalysisLiteViolationDataLiteViolationCategoryColumn
++ _BMRegionalSafetyAnalysisLiteViolationDataLiteViolationCategoryDecode
++ _BMRegionalSafetyAnalysisLiteViolationDataLiteViolationCategoryFromString
++ _BMRegionalSafetyAnalysisLiteViolationDataLiteViolationCategoryFromString.sortedStrings
++ _BMRegionalSafetyAnalysisLiteViolationDataSafetyDataVersionColumn
++ _BMRegionalSafetyAnalysisLiteViolationDataUseCaseIdentifierColumn
++ _BMSafariAutoDarkModeActionAsString
++ _BMSafariAutoDarkModeActionColumn
++ _BMSafariAutoDarkModeActionDecode
++ _BMSafariAutoDarkModeActionFromString
++ _BMSafariAutoDarkModeActionFromString.sortedEnums
++ _BMSafariAutoDarkModeActionFromString.sortedStrings
++ _BMSafariAutoDarkModeDomainColumn
++ _BMSafariAutoDarkModeIdentifier
++ _BMSafariAutoDarkModeIsUnsupportedWebsiteColumn
++ _BMSafariAutoDarkModePlatformAsString
++ _BMSafariAutoDarkModePlatformColumn
++ _BMSafariAutoDarkModePlatformDecode
++ _BMSafariAutoDarkModePlatformFromString
++ _BMSafariAutoDarkModePlatformFromString.sortedEnums
++ _BMSafariAutoDarkModePlatformFromString.sortedStrings
++ _OBJC_CLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLog
++ _OBJC_CLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ _OBJC_CLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ _OBJC_CLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ _OBJC_CLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ _OBJC_CLASS_$_BMRegionalSafetyAnalysisDisablement
++ _OBJC_CLASS_$_BMRegionalSafetyAnalysisEligibility
++ _OBJC_CLASS_$_BMRegionalSafetyAnalysisGuardrailResult
++ _OBJC_CLASS_$_BMRegionalSafetyAnalysisKeywordID
++ _OBJC_CLASS_$_BMRegionalSafetyAnalysisLiteViolationData
++ _OBJC_CLASS_$_BMSafariAutoDarkMode
++ _OBJC_CLASS_$__BMAppleIntelligenceReportLibraryNode
++ _OBJC_CLASS_$__BMRegionalSafetyAnalysisLibraryNode
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLog._dataVersion
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLog._dimension
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLog._hasDimension
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLog._key
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLog._metadata
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata._dataVersion
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata._taskConfig
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig._dataVersion
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig._differentialPrivacyConfig
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig._features
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig._hasMinBatchSize
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig._hasTaskExpiration
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig._minBatchSize
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig._taskExpiration
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig._dataVersion
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig._hasLocalEpsilon
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig._hasTargetCentralDelta
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig._hasTargetCentralEpsilon
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig._localEpsilon
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig._targetCentralDelta
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig._targetCentralEpsilon
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures._dataVersion
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures._hasOhttp
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures._hasPrivateAccessToken
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures._ohttp
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures._privateAccessToken
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisDisablement._assetVersion
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisDisablement._dataVersion
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisDisablement._didTriggerAutomaticDisablement
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisDisablement._hasDidTriggerAutomaticDisablement
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisDisablement._useCaseIdentifier
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisEligibility._dataVersion
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisEligibility._hasIsAppleIntelligenceEligible
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisEligibility._hasIsAppleIntelligenceToggledOn
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisEligibility._hasIsOnboarded3rdParty
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisEligibility._hasIsStaleSafetyData
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisEligibility._isAppleIntelligenceEligible
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisEligibility._isAppleIntelligenceToggledOn
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisEligibility._isOnboarded3rdParty
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisEligibility._isStaleSafetyData
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._assetVersion
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._dataVersion
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._error
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._hasMarkedUnsafe
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._instanceType
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._judgementSource
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._markedUnsafe
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._raw_identifier
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._raw_userRequestID
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._sensitivity
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._severity
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._useCaseIdentifier
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisKeywordID._dataVersion
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisKeywordID._instanceType
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisKeywordID._keywordIdentifier
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisKeywordID._raw_identifier
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisKeywordID._raw_userRequestID
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisKeywordID._safetyDataVersion
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisKeywordID._violationCategory
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisLiteViolationData._dataVersion
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisLiteViolationData._liteViolationCategory
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisLiteViolationData._raw_identifier
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisLiteViolationData._safetyDataVersion
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisLiteViolationData._useCaseIdentifier
++ _OBJC_IVAR_$_BMSafariAutoDarkMode._action
++ _OBJC_IVAR_$_BMSafariAutoDarkMode._dataVersion
++ _OBJC_IVAR_$_BMSafariAutoDarkMode._domain
++ _OBJC_IVAR_$_BMSafariAutoDarkMode._hasIsUnsupportedWebsite
++ _OBJC_IVAR_$_BMSafariAutoDarkMode._isUnsupportedWebsite
++ _OBJC_IVAR_$_BMSafariAutoDarkMode._platform
++ _OBJC_METACLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLog
++ _OBJC_METACLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ _OBJC_METACLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ _OBJC_METACLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ _OBJC_METACLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ _OBJC_METACLASS_$_BMRegionalSafetyAnalysisDisablement
++ _OBJC_METACLASS_$_BMRegionalSafetyAnalysisEligibility
++ _OBJC_METACLASS_$_BMRegionalSafetyAnalysisGuardrailResult
++ _OBJC_METACLASS_$_BMRegionalSafetyAnalysisKeywordID
++ _OBJC_METACLASS_$_BMRegionalSafetyAnalysisLiteViolationData
++ _OBJC_METACLASS_$_BMSafariAutoDarkMode
++ _OBJC_METACLASS_$__BMAppleIntelligenceReportLibraryNode
++ _OBJC_METACLASS_$__BMRegionalSafetyAnalysisLibraryNode
++ __OBJC_$_CLASS_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLog
++ __OBJC_$_CLASS_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ __OBJC_$_CLASS_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ __OBJC_$_CLASS_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ __OBJC_$_CLASS_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ __OBJC_$_CLASS_METHODS_BMRegionalSafetyAnalysisDisablement
++ __OBJC_$_CLASS_METHODS_BMRegionalSafetyAnalysisEligibility
++ __OBJC_$_CLASS_METHODS_BMRegionalSafetyAnalysisGuardrailResult
++ __OBJC_$_CLASS_METHODS_BMRegionalSafetyAnalysisKeywordID
++ __OBJC_$_CLASS_METHODS_BMRegionalSafetyAnalysisLiteViolationData
++ __OBJC_$_CLASS_METHODS_BMSafariAutoDarkMode
++ __OBJC_$_CLASS_METHODS__BMAppleIntelligenceReportLibraryNode
++ __OBJC_$_CLASS_METHODS__BMRegionalSafetyAnalysisLibraryNode
++ __OBJC_$_CLASS_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLog
++ __OBJC_$_CLASS_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ __OBJC_$_CLASS_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ __OBJC_$_CLASS_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ __OBJC_$_CLASS_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ __OBJC_$_CLASS_PROP_LIST_BMRegionalSafetyAnalysisDisablement
++ __OBJC_$_CLASS_PROP_LIST_BMRegionalSafetyAnalysisEligibility
++ __OBJC_$_CLASS_PROP_LIST_BMRegionalSafetyAnalysisGuardrailResult
++ __OBJC_$_CLASS_PROP_LIST_BMRegionalSafetyAnalysisKeywordID
++ __OBJC_$_CLASS_PROP_LIST_BMRegionalSafetyAnalysisLiteViolationData
++ __OBJC_$_CLASS_PROP_LIST_BMSafariAutoDarkMode
++ __OBJC_$_INSTANCE_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLog
++ __OBJC_$_INSTANCE_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ __OBJC_$_INSTANCE_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ __OBJC_$_INSTANCE_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ __OBJC_$_INSTANCE_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ __OBJC_$_INSTANCE_METHODS_BMRegionalSafetyAnalysisDisablement
++ __OBJC_$_INSTANCE_METHODS_BMRegionalSafetyAnalysisEligibility
++ __OBJC_$_INSTANCE_METHODS_BMRegionalSafetyAnalysisGuardrailResult(Deprecation)
++ __OBJC_$_INSTANCE_METHODS_BMRegionalSafetyAnalysisKeywordID(Deprecation)
++ __OBJC_$_INSTANCE_METHODS_BMRegionalSafetyAnalysisLiteViolationData(Deprecation)
++ __OBJC_$_INSTANCE_METHODS_BMSafariAutoDarkMode
++ __OBJC_$_INSTANCE_VARIABLES_BMAppleIntelligenceReportFedStatsTransparencyLog
++ __OBJC_$_INSTANCE_VARIABLES_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ __OBJC_$_INSTANCE_VARIABLES_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ __OBJC_$_INSTANCE_VARIABLES_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ __OBJC_$_INSTANCE_VARIABLES_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ __OBJC_$_INSTANCE_VARIABLES_BMRegionalSafetyAnalysisDisablement
++ __OBJC_$_INSTANCE_VARIABLES_BMRegionalSafetyAnalysisEligibility
++ __OBJC_$_INSTANCE_VARIABLES_BMRegionalSafetyAnalysisGuardrailResult
++ __OBJC_$_INSTANCE_VARIABLES_BMRegionalSafetyAnalysisKeywordID
++ __OBJC_$_INSTANCE_VARIABLES_BMRegionalSafetyAnalysisLiteViolationData
++ __OBJC_$_INSTANCE_VARIABLES_BMSafariAutoDarkMode
++ __OBJC_$_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLog
++ __OBJC_$_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ __OBJC_$_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ __OBJC_$_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ __OBJC_$_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ __OBJC_$_PROP_LIST_BMRegionalSafetyAnalysisDisablement
++ __OBJC_$_PROP_LIST_BMRegionalSafetyAnalysisEligibility
++ __OBJC_$_PROP_LIST_BMRegionalSafetyAnalysisGuardrailResult
++ __OBJC_$_PROP_LIST_BMRegionalSafetyAnalysisKeywordID
++ __OBJC_$_PROP_LIST_BMRegionalSafetyAnalysisLiteViolationData
++ __OBJC_$_PROP_LIST_BMSafariAutoDarkMode
++ __OBJC_CLASS_PROTOCOLS_$_BMAppleIntelligenceReportFedStatsTransparencyLog
++ __OBJC_CLASS_PROTOCOLS_$_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ __OBJC_CLASS_PROTOCOLS_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ __OBJC_CLASS_PROTOCOLS_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ __OBJC_CLASS_PROTOCOLS_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ __OBJC_CLASS_PROTOCOLS_$_BMRegionalSafetyAnalysisDisablement
++ __OBJC_CLASS_PROTOCOLS_$_BMRegionalSafetyAnalysisEligibility
++ __OBJC_CLASS_PROTOCOLS_$_BMRegionalSafetyAnalysisGuardrailResult
++ __OBJC_CLASS_PROTOCOLS_$_BMRegionalSafetyAnalysisKeywordID
++ __OBJC_CLASS_PROTOCOLS_$_BMRegionalSafetyAnalysisLiteViolationData
++ __OBJC_CLASS_PROTOCOLS_$_BMSafariAutoDarkMode
++ __OBJC_CLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLog
++ __OBJC_CLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ __OBJC_CLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ __OBJC_CLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ __OBJC_CLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ __OBJC_CLASS_RO_$_BMRegionalSafetyAnalysisDisablement
++ __OBJC_CLASS_RO_$_BMRegionalSafetyAnalysisEligibility
++ __OBJC_CLASS_RO_$_BMRegionalSafetyAnalysisGuardrailResult
++ __OBJC_CLASS_RO_$_BMRegionalSafetyAnalysisKeywordID
++ __OBJC_CLASS_RO_$_BMRegionalSafetyAnalysisLiteViolationData
++ __OBJC_CLASS_RO_$_BMSafariAutoDarkMode
++ __OBJC_CLASS_RO_$__BMAppleIntelligenceReportLibraryNode
++ __OBJC_CLASS_RO_$__BMRegionalSafetyAnalysisLibraryNode
++ __OBJC_METACLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLog
++ __OBJC_METACLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ __OBJC_METACLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ __OBJC_METACLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ __OBJC_METACLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ __OBJC_METACLASS_RO_$_BMRegionalSafetyAnalysisDisablement
++ __OBJC_METACLASS_RO_$_BMRegionalSafetyAnalysisEligibility
++ __OBJC_METACLASS_RO_$_BMRegionalSafetyAnalysisGuardrailResult
++ __OBJC_METACLASS_RO_$_BMRegionalSafetyAnalysisKeywordID
++ __OBJC_METACLASS_RO_$_BMRegionalSafetyAnalysisLiteViolationData
++ __OBJC_METACLASS_RO_$_BMSafariAutoDarkMode
++ __OBJC_METACLASS_RO_$__BMAppleIntelligenceReportLibraryNode
++ __OBJC_METACLASS_RO_$__BMRegionalSafetyAnalysisLibraryNode
++ ___59+[BMAppleIntelligenceReportFedStatsTransparencyLog columns]_block_invoke
++ ___69+[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig columns]_block_invoke
++ ___69+[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig columns]_block_invoke_2
++ ___75+[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata columns]_block_invoke
++ ___BMRegionalSafetyAnalysisGuardrailResultErrorFromString_block_invoke
++ ___BMRegionalSafetyAnalysisGuardrailResultInstanceTypeFromString_block_invoke
++ ___BMRegionalSafetyAnalysisGuardrailResultJudgementSourceFromString_block_invoke
++ ___BMRegionalSafetyAnalysisGuardrailResultSensitiveFromString_block_invoke
++ ___BMRegionalSafetyAnalysisGuardrailResultSeverityFromString_block_invoke
++ ___BMRegionalSafetyAnalysisKeywordIDInstanceTypeFromString_block_invoke
++ ___BMRegionalSafetyAnalysisKeywordIDViolationCategoryFromString_block_invoke
++ ___BMRegionalSafetyAnalysisLiteViolationDataLiteViolationCategoryFromString_block_invoke
++ ___BMSafariAutoDarkModeActionFromString_block_invoke
++ ___BMSafariAutoDarkModePlatformFromString_block_invoke
++ _objc_msgSend$AppleIntelligenceReport
++ _objc_msgSend$AutoDarkMode
++ _objc_msgSend$Disablement
++ _objc_msgSend$Eligibility
++ _objc_msgSend$FedStatsTransparencyLog
++ _objc_msgSend$KeywordID
++ _objc_msgSend$LiteViolationData
++ _objc_msgSend$RegionalSafetyAnalysis
++ _objc_msgSend$configurationForAutoDarkMode
++ _objc_msgSend$configurationForDisablement
++ _objc_msgSend$configurationForEligibility
++ _objc_msgSend$configurationForFedStatsTransparencyLog
++ _objc_msgSend$configurationForKeywordID
++ _objc_msgSend$configurationForLiteViolationData
++ _objc_msgSend$didTriggerAutomaticDisablement
++ _objc_msgSend$differentialPrivacyConfig
++ _objc_msgSend$dimension
++ _objc_msgSend$hasDidTriggerAutomaticDisablement
++ _objc_msgSend$hasDimension
++ _objc_msgSend$hasIsAppleIntelligenceEligible
++ _objc_msgSend$hasIsAppleIntelligenceToggledOn
++ _objc_msgSend$hasIsOnboarded3rdParty
++ _objc_msgSend$hasIsStaleSafetyData
++ _objc_msgSend$hasIsUnsupportedWebsite
++ _objc_msgSend$hasLocalEpsilon
++ _objc_msgSend$hasMinBatchSize
++ _objc_msgSend$hasOhttp
++ _objc_msgSend$hasPrivateAccessToken
++ _objc_msgSend$hasTargetCentralDelta
++ _objc_msgSend$hasTargetCentralEpsilon
++ _objc_msgSend$hasTaskExpiration
++ _objc_msgSend$initWithDidTriggerAutomaticDisablement:useCaseIdentifier:assetVersion:
++ _objc_msgSend$initWithDomain:platform:action:isUnsupportedWebsite:
++ _objc_msgSend$initWithIdentifier:keywordIdentifier:safetyDataVersion:violationCategory:instanceType:userRequestID:
++ _objc_msgSend$initWithIdentifier:markedUnsafe:sensitivity:useCaseIdentifier:instanceType:assetVersion:error:judgementSource:userRequestID:severity:
++ _objc_msgSend$initWithIdentifier:useCaseIdentifier:liteViolationCategory:safetyDataVersion:
++ _objc_msgSend$initWithIsAppleIntelligenceEligible:isAppleIntelligenceToggledOn:isOnboarded3rdParty:isStaleSafetyData:
++ _objc_msgSend$initWithKey:dimension:metadata:
++ _objc_msgSend$initWithPrivateAccessToken:ohttp:
++ _objc_msgSend$initWithTargetCentralEpsilon:targetCentralDelta:localEpsilon:
++ _objc_msgSend$initWithTaskConfig:
++ _objc_msgSend$initWithTaskExpiration:minBatchSize:features:differentialPrivacyConfig:
++ _objc_msgSend$isAppleIntelligenceEligible
++ _objc_msgSend$isAppleIntelligenceToggledOn
++ _objc_msgSend$isOnboarded3rdParty
++ _objc_msgSend$isStaleSafetyData
++ _objc_msgSend$isUnsupportedWebsite
++ _objc_msgSend$judgementSource
++ _objc_msgSend$keywordIdentifier
++ _objc_msgSend$liteViolationCategory
++ _objc_msgSend$localEpsilon
++ _objc_msgSend$minBatchSize
++ _objc_msgSend$ohttp
++ _objc_msgSend$privateAccessToken
++ _objc_msgSend$safetyDataVersion
++ _objc_msgSend$sensitivity
++ _objc_msgSend$storeConfigurationForAutoDarkMode
++ _objc_msgSend$storeConfigurationForDisablement
++ _objc_msgSend$storeConfigurationForEligibility
++ _objc_msgSend$storeConfigurationForFedStatsTransparencyLog
++ _objc_msgSend$storeConfigurationForKeywordID
++ _objc_msgSend$storeConfigurationForLiteViolationData
++ _objc_msgSend$syncPolicyForAutoDarkMode
++ _objc_msgSend$syncPolicyForDisablement
++ _objc_msgSend$syncPolicyForEligibility
++ _objc_msgSend$syncPolicyForFedStatsTransparencyLog
++ _objc_msgSend$syncPolicyForKeywordID
++ _objc_msgSend$syncPolicyForLiteViolationData
++ _objc_msgSend$targetCentralDelta
++ _objc_msgSend$targetCentralEpsilon
++ _objc_msgSend$taskConfig
++ _objc_msgSend$taskExpiration
++ _objc_msgSend$violationCategory
+- _BMPasswordsChangePasswordForMeDeviceClassFromString.sortedEnums
+CStrings:
++ "3AA4400B-F6AD-4F0B-A6FB-129D7E85ABE8"
++ "3BCF8011-790C-49A1-BD4A-816DE43E9E1A"
++ "58C4A87F-BA2F-485F-B51E-FEF9C2383E2F"
++ "68BF406C-C913-4A9E-9672-FB8BF50B2B9C"
++ "6B998066-E2F5-41E4-AE10-8493A83A2CF3"
++ "A1"
++ "A1a"
++ "A1b"
++ "A1c"
++ "A1d"
++ "A1e"
++ "A1f"
++ "A1g"
++ "A1h"
++ "A2"
++ "A2a"
++ "A2b"
++ "A2c"
++ "A2d"
++ "A2e"
++ "A2f"
++ "A2g"
++ "A2h"
++ "A2i"
++ "A3"
++ "A3a"
++ "A3b"
++ "A3c"
++ "A3d"
++ "A3e"
++ "A4"
++ "A4a"
++ "A4b"
++ "A4c"
++ "A4d"
++ "A4e"
++ "A4f"
++ "A4g"
++ "A5"
++ "A5a"
++ "A5b"
++ "AnnxModuleRunFailed"
++ "AnnxModuleSetupFailed"
++ "AppleIntelligenceReport"
++ "AppleIntelligenceReport.FedStatsTransparencyLog"
++ "AutoDarkMode"
++ "BE29F413-3A3E-4466-9660-1E73A1E56F22"
++ "BMAppleIntelligenceReportFedStatsTransparencyLog with key: %@, dimension: %@, metadata: %@"
++ "BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata with taskConfig: %@"
++ "BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig with taskExpiration: %@, minBatchSize: %@, features: %@, differentialPrivacyConfig: %@"
++ "BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig with targetCentralEpsilon: %@, targetCentralDelta: %@, localEpsilon: %@"
++ "BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures with privateAccessToken: %@, ohttp: %@"
++ "BMRegionalSafetyAnalysisDisablement with didTriggerAutomaticDisablement: %@, useCaseIdentifier: %@, assetVersion: %@"
++ "BMRegionalSafetyAnalysisEligibility with isAppleIntelligenceEligible: %@, isAppleIntelligenceToggledOn: %@, isOnboarded3rdParty: %@, isStaleSafetyData: %@"
++ "BMRegionalSafetyAnalysisGuardrailResult with identifier: %@, markedUnsafe: %@, sensitivity: %@, useCaseIdentifier: %@, instanceType: %@, assetVersion: %@, error: %@, judgementSource: %@, userRequestID: %@, severity: %@"
++ "BMRegionalSafetyAnalysisKeywordID with identifier: %@, keywordIdentifier: %@, safetyDataVersion: %@, violationCategory: %@, instanceType: %@, userRequestID: %@"
++ "BMRegionalSafetyAnalysisLiteViolationData with identifier: %@, useCaseIdentifier: %@, liteViolationCategory: %@, safetyDataVersion: %@"
++ "BMSafariAutoDarkMode with domain: %@, platform: %@, action: %@, isUnsupportedWebsite: %@"
++ "C9D79ADE-C17E-448D-B52D-6EA4D0112194"
++ "CacheAssetsFailed"
++ "CheckOTAIOError"
++ "CheckOTAPackageHeaderError"
++ "CheckOTAPackageProcessError"
++ "ChildNodesIsMiss"
++ "DetectFailed"
++ "Disablement"
++ "Eligibility"
++ "Embedding"
++ "FedStatsTransparencyLog"
++ "FolderIsNotExist"
++ "FolderNotExist"
++ "ImageInferFailed"
++ "IsNotOperatorNode"
++ "IsUnknownNode"
++ "Keyword"
++ "KeywordID"
++ "KfcModuleSetupFailed"
++ "KfcSearchFailed"
++ "LiteViolationData"
++ "LoadAssetsCacheFailed"
++ "MainlandChina"
++ "MarkedSensitive"
++ "MarkedSensitiveAndRedirected"
++ "MarkedSensitiveAndRedirectedAndGotResponse"
++ "MergeFilesFailed"
++ "ModuleIsNotFound"
++ "ModulePreUpdateFailed"
++ "NoConfigForScence"
++ "NoZipperFound"
++ "NodeTypeIsException"
++ "OcrInferFailed"
++ "OcrServiceIsNil"
++ "OperatorIsNotRegister"
++ "ParseResourcesError"
++ "ParseSolutionError"
++ "ParseSolutionPatchError"
++ "PreparseAssetsFailed"
++ "QuakeModuleRunFailed"
++ "QuakeModuleSetupFailed"
++ "Qwen"
++ "RegionalSafetyAnalysis"
++ "RegionalSafetyAnalysis.Disablement"
++ "RegionalSafetyAnalysis.Eligibility"
++ "RegionalSafetyAnalysis.GuardrailResult"
++ "RegionalSafetyAnalysis.KeywordID"
++ "RegionalSafetyAnalysis.LiteViolationData"
++ "RemoveNeedDeletedFilesFailed"
++ "ResourceFileIsNotExist"
++ "ResourceFileNotExist"
++ "RestoreBackupWorkFailed"
++ "RootFolderNotExist"
++ "Safari.AutoDarkMode"
++ "ScenceCodeNotSupport"
++ "ServiceIsLoading"
++ "ServiceNotInit"
++ "ServiceParamsIsMissed"
++ "SolutionIsNotMatchSampleType"
++ "SolutionNotMatchSampleType"
++ "StartAbilityServiceError"
++ "TVOS"
++ "TextInferFailed"
++ "TextSpliteResultIsEmpty"
++ "WatchOS"
++ "didTriggerAutomaticDisablement"
++ "differentialPrivacyConfig"
++ "differentialPrivacyConfig_json"
++ "dimension"
++ "isAppleIntelligenceEligible"
++ "isAppleIntelligenceToggledOn"
++ "isOnboarded3rdParty"
++ "isStaleSafetyData"
++ "isUnsupportedWebsite"
++ "judgementSource"
++ "keywordIdentifier"
++ "liteViolationCategory"
++ "localEpsilon"
++ "minBatchSize"
++ "ohttp"
++ "privateAccessToken"
++ "safetyDataVersion"
++ "sensitivity"
++ "targetCentralDelta"
++ "targetCentralEpsilon"
++ "taskConfig"
++ "taskConfig_json"
++ "taskExpiration"
++ "violationCategory"
+```

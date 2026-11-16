@@ -1,0 +1,204 @@
+## DeclaredAgeRange
+
+> `/System/iOSSupport/System/Library/Frameworks/DeclaredAgeRange.framework/Versions/A/DeclaredAgeRange`
+
+```diff
+
+-28.250.2.0.0
+-  __TEXT.__text: 0x20da0
+-  __TEXT.__const: 0xea8
++28.250.3.0.0
++  __TEXT.__text: 0x1fe4c
++  __TEXT.__const: 0xdb8
+   __TEXT.__cstring: 0x902
+-  __TEXT.__swift5_typeref: 0x4f6
+-  __TEXT.__oslogstring: 0x293
++  __TEXT.__swift5_typeref: 0x4dc
++  __TEXT.__oslogstring: 0x2f2
+   __TEXT.__swift5_capture: 0x804
+-  __TEXT.__constg_swiftt: 0x244
+-  __TEXT.__swift5_fieldmd: 0x27c
+-  __TEXT.__swift5_reflstr: 0x2f6
++  __TEXT.__constg_swiftt: 0x1fc
++  __TEXT.__swift5_fieldmd: 0x248
++  __TEXT.__swift5_reflstr: 0x2d6
+   __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_assocty: 0x120
+-  __TEXT.__swift5_proto: 0xb4
+-  __TEXT.__swift5_types: 0x48
+-  __TEXT.__swift_as_entry: 0x5c
+-  __TEXT.__swift_as_ret: 0x58
+-  __TEXT.__swift_as_cont: 0xf0
+-  __TEXT.__unwind_info: 0xdc8
++  __TEXT.__swift5_assocty: 0x108
++  __TEXT.__swift5_proto: 0xac
++  __TEXT.__swift5_types: 0x44
++  __TEXT.__swift_as_entry: 0x50
++  __TEXT.__swift_as_ret: 0x54
++  __TEXT.__swift_as_cont: 0xd0
++  __TEXT.__unwind_info: 0xd60
+   __TEXT.__eh_frame: 0x710
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+-  __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0xb8
+-  __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xb0
++  __DATA_CONST.__objc_selrefs: 0xa8
+   __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0x18c8
+-  __AUTH_CONST.__objc_const: 0xb8
+-  __AUTH_CONST.__auth_got: 0x698
+-  __DATA.__data: 0x238
+-  __DATA.__bss: 0x15f8
++  __AUTH_CONST.__auth_got: 0x660
++  __DATA.__data: 0x240
++  __DATA.__bss: 0x14e8
+   __DATA.__common: 0x10
+-  __DATA_DIRTY.__data: 0x1c0
+-  __DATA_DIRTY.__bss: 0x148
++  __DATA_DIRTY.__data: 0x110
++  __DATA_DIRTY.__bss: 0x138
+   __DATA_DIRTY.__common: 0x18
+   - /System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/ExtensionFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 831
+-  Symbols:   1468
+-  CStrings:  65
++  Functions: 805
++  Symbols:   1398
++  CStrings:  66
+ 
+Symbols:
++ _$s16DeclaredAgeRange0abC6ActionV14callAsFunction8ageGates__AA0bC7ServiceV8ResponseOSi_SiSgAJtYaKFSo16UIViewControllerCSgyYbScMYcXEfU_
++ _$s16DeclaredAgeRange0abC6ActionV14callAsFunction8ageGates__AA0bC7ServiceV8ResponseOSi_SiSgAJtYaKFSo16UIViewControllerCSgyYbScMYcXEfU_TA
++ _$s16DeclaredAgeRange0abC6ActionV14callAsFunction8ageGates__AA0bC7ServiceV8ResponseOSi_SiSgAJtYaKFSo16UIViewControllerCSgyYbScMYcXEfU_yAMXEfU_
++ _$s16DeclaredAgeRange0abC6ActionV14callAsFunction8ageGates__AA0bC7ServiceV8ResponseOSi_SiSgAJtYaKFSo16UIViewControllerCSgyYbScMYcXEfU_yAMXEfU_TA
++ _$s16DeclaredAgeRange0abC6ActionV14callAsFunction8ageGates__AA0bC7ServiceV8ResponseOSi_SiSgAJtYaKFTQ1_
++ _$s16DeclaredAgeRange0abC6ActionV14callAsFunction8ageGates__AA0bC7ServiceV8ResponseOSi_SiSgAJtYaKFTY6_
++ _$s16DeclaredAgeRange0abC6ActionVyAC7SwiftUI028WithCurrentHostingControllerD0Vc33_B0A84AB007F7F527C313DDC51EA0FB2ALlfC
++ _$s16DeclaredAgeRange0bC7ServiceV013isEligibleForB8FeaturesSbvgTQ0_
++ _$s16DeclaredAgeRange0bC7ServiceV013isEligibleForB8FeaturesSbvgTY1_
++ _$s16DeclaredAgeRange0bC7ServiceV04userB0SivgTQ0_
++ _$s16DeclaredAgeRange0bC7ServiceV04userB0SivgTY1_
++ _$s16DeclaredAgeRange0bC7ServiceV26requiredRegulatoryFeaturesShyAC0F7FeatureOGvgAFSgSSXEfU_
++ _$s16DeclaredAgeRange0bC7ServiceV26requiredRegulatoryFeaturesShyAC0F7FeatureOGvgTQ0_
++ _$s16DeclaredAgeRange0bC7ServiceV26requiredRegulatoryFeaturesShyAC0F7FeatureOGvgTY1_
++ _$s16DeclaredAgeRange23SignificantUpdateActionV14callAsFunction17updateDescriptionySS_tYaKFSo16UIViewControllerCSgyYbScMYcXEfU_
++ _$s16DeclaredAgeRange23SignificantUpdateActionV14callAsFunction17updateDescriptionySS_tYaKFSo16UIViewControllerCSgyYbScMYcXEfU_TA
++ _$s16DeclaredAgeRange23SignificantUpdateActionV14callAsFunction17updateDescriptionySS_tYaKFSo16UIViewControllerCSgyYbScMYcXEfU_yAHXEfU_
++ _$s16DeclaredAgeRange23SignificantUpdateActionV14callAsFunction17updateDescriptionySS_tYaKFSo16UIViewControllerCSgyYbScMYcXEfU_yAHXEfU_TA
++ _$s16DeclaredAgeRange23SignificantUpdateActionV14callAsFunction17updateDescriptionySS_tYaKFTQ1_
++ _$s16DeclaredAgeRange23SignificantUpdateActionV14callAsFunction17updateDescriptionySS_tYaKFTY6_
++ _$s16DeclaredAgeRange23SignificantUpdateActionVyAC7SwiftUI028WithCurrentHostingControllerF0Vc33_B0A84AB007F7F527C313DDC51EA0FB2ALlfC
++ _$sSo16UIViewControllerCSgMR
++ _$sSo16UIViewControllerCSgMd
++ _$sSo16UIViewControllerCSgWOc
++ _symbolic So16UIViewControllerCSg
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLC15unownedExecutorScevg
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLC6sharedADvau
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLC6sharedADvgZ
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLC6sharedADvpZ
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLC6shared_WZ
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLC6shared_Wz
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCADScAAAWL
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCADScAAAWl
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCADycfC
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCADycfCTq
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCADycfc
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCMF
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCMXX
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCMa
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCMf
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCMm
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCMn
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCN
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCScAAAMc
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCScAAAMcMK
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCScAAAScA15unownedExecutorScevgTW
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCfD
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCfd
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCs06GlobalD0AA0D4TypesAEP_ScAWT
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCs06GlobalD0AAMA
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCs06GlobalD0AAMc
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCs06GlobalD0AAMcMK
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCs06GlobalD0AAsAEP21sharedUnownedExecutorScevgZTW
+- _$s16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCs06GlobalD0AAsAEP6shared0D4TypeQzvgZTW
+- _$s16DeclaredAgeRange0abC6ActionV14callAsFunction8ageGates__AA0bC7ServiceV8ResponseOSi_SiSgAJtYaKFTY1_
+- _$s16DeclaredAgeRange0abC6ActionV14callAsFunction8ageGates__AA0bC7ServiceV8ResponseOSi_SiSgAJtYaKFySo16UIViewControllerCSgXEfU_
+- _$s16DeclaredAgeRange0abC6ActionV14callAsFunction8ageGates__AA0bC7ServiceV8ResponseOSi_SiSgAJtYaKFySo16UIViewControllerCSgXEfU_TA
+- _$s16DeclaredAgeRange0abC6ActionV5scene33_B0A84AB007F7F527C313DDC51EA0FB2ALLSo7UISceneCSgvg
+- _$s16DeclaredAgeRange0abC6ActionV_5sceneAC7SwiftUI028WithCurrentHostingControllerD0V_So7UISceneCSgtc33_B0A84AB007F7F527C313DDC51EA0FB2ALlfC
+- _$s16DeclaredAgeRange0bC7ServiceV013isEligibleForB8FeaturesSbvgTQ1_
+- _$s16DeclaredAgeRange0bC7ServiceV013isEligibleForB8FeaturesSbvgTY0_
+- _$s16DeclaredAgeRange0bC7ServiceV013isEligibleForB8FeaturesSbvgTY2_
+- _$s16DeclaredAgeRange0bC7ServiceV018fetchIsEligibleForB8Features33_B0A84AB007F7F527C313DDC51EA0FB2ALLSbyYaKF
+- _$s16DeclaredAgeRange0bC7ServiceV018fetchIsEligibleForB8Features33_B0A84AB007F7F527C313DDC51EA0FB2ALLSbyYaKFTQ0_
+- _$s16DeclaredAgeRange0bC7ServiceV018fetchIsEligibleForB8Features33_B0A84AB007F7F527C313DDC51EA0FB2ALLSbyYaKFTY1_
+- _$s16DeclaredAgeRange0bC7ServiceV018fetchIsEligibleForB8Features33_B0A84AB007F7F527C313DDC51EA0FB2ALLSbyYaKFTY2_
+- _$s16DeclaredAgeRange0bC7ServiceV018fetchIsEligibleForB8Features33_B0A84AB007F7F527C313DDC51EA0FB2ALLSbyYaKFTu
+- _$s16DeclaredAgeRange0bC7ServiceV04userB0SivgTQ1_
+- _$s16DeclaredAgeRange0bC7ServiceV04userB0SivgTY0_
+- _$s16DeclaredAgeRange0bC7ServiceV04userB0SivgTY2_
+- _$s16DeclaredAgeRange0bC7ServiceV09fetchUserB033_B0A84AB007F7F527C313DDC51EA0FB2ALLSiyYaKF
+- _$s16DeclaredAgeRange0bC7ServiceV09fetchUserB033_B0A84AB007F7F527C313DDC51EA0FB2ALLSiyYaKFTQ0_
+- _$s16DeclaredAgeRange0bC7ServiceV09fetchUserB033_B0A84AB007F7F527C313DDC51EA0FB2ALLSiyYaKFTY1_
+- _$s16DeclaredAgeRange0bC7ServiceV09fetchUserB033_B0A84AB007F7F527C313DDC51EA0FB2ALLSiyYaKFTY2_
+- _$s16DeclaredAgeRange0bC7ServiceV09fetchUserB033_B0A84AB007F7F527C313DDC51EA0FB2ALLSiyYaKFTu
+- _$s16DeclaredAgeRange0bC7ServiceV26requiredRegulatoryFeaturesShyAC0F7FeatureOGvgTQ1_
+- _$s16DeclaredAgeRange0bC7ServiceV26requiredRegulatoryFeaturesShyAC0F7FeatureOGvgTY0_
+- _$s16DeclaredAgeRange0bC7ServiceV31fetchRequiredRegulatoryFeatures33_B0A84AB007F7F527C313DDC51EA0FB2ALLShyAC0G7FeatureOGyYaKF
+- _$s16DeclaredAgeRange0bC7ServiceV31fetchRequiredRegulatoryFeatures33_B0A84AB007F7F527C313DDC51EA0FB2ALLShyAC0G7FeatureOGyYaKFAGSgSSXEfU_
+- _$s16DeclaredAgeRange0bC7ServiceV31fetchRequiredRegulatoryFeatures33_B0A84AB007F7F527C313DDC51EA0FB2ALLShyAC0G7FeatureOGyYaKFTQ0_
+- _$s16DeclaredAgeRange0bC7ServiceV31fetchRequiredRegulatoryFeatures33_B0A84AB007F7F527C313DDC51EA0FB2ALLShyAC0G7FeatureOGyYaKFTY1_
+- _$s16DeclaredAgeRange0bC7ServiceV31fetchRequiredRegulatoryFeatures33_B0A84AB007F7F527C313DDC51EA0FB2ALLShyAC0G7FeatureOGyYaKFTY2_
+- _$s16DeclaredAgeRange0bC7ServiceV31fetchRequiredRegulatoryFeatures33_B0A84AB007F7F527C313DDC51EA0FB2ALLShyAC0G7FeatureOGyYaKFTu
+- _$s16DeclaredAgeRange23SignificantUpdateActionV14callAsFunction17updateDescriptionySS_tYaKFTY1_
+- _$s16DeclaredAgeRange23SignificantUpdateActionV14callAsFunction17updateDescriptionySS_tYaKFySo16UIViewControllerCSgXEfU_
+- _$s16DeclaredAgeRange23SignificantUpdateActionV14callAsFunction17updateDescriptionySS_tYaKFySo16UIViewControllerCSgXEfU_TA
+- _$s16DeclaredAgeRange23SignificantUpdateActionV5scene33_B0A84AB007F7F527C313DDC51EA0FB2ALLSo7UISceneCSgvg
+- _$s16DeclaredAgeRange23SignificantUpdateActionV_5sceneAC7SwiftUI028WithCurrentHostingControllerF0V_So7UISceneCSgtc33_B0A84AB007F7F527C313DDC51EA0FB2ALlfC
+- _$s7SwiftUI17EnvironmentValuesV12sceneSessionSo07UISceneF0CSgvg
+- _$s9ActorTypes06GlobalA0PTl
+- _$sBoWV
+- _$sScA15unownedExecutorScevgTq
+- _$sScAMp
+- _$sSceySceBecfC
+- _$sSo7UISceneCML
+- _$sSo7UISceneCMa
+- _$sSo7UISceneCSgML
+- _$sSo7UISceneCSgMa
+- _$sSqMa
+- _$ss11GlobalActorMp
+- _$ss11GlobalActorP0B4TypeAB_ScATn
+- _$ss11GlobalActorP21sharedUnownedExecutorScevgZTq
+- _$ss11GlobalActorP6shared0B4TypeQzvgZTq
+- _$ss11GlobalActorPsE21sharedUnownedExecutorScevgZ
+- _OBJC_CLASS_$_UIScene
+- _OBJC_CLASS_$__TtCs12_SwiftObject
+- _OBJC_METACLASS_$__TtCs12_SwiftObject
+- __DATA__TtC16DeclaredAgeRangeP33_B0A84AB007F7F527C313DDC51EA0FB2A21DeclaredAgeRangeActor
+- __IVARS__TtC16DeclaredAgeRangeP33_B0A84AB007F7F527C313DDC51EA0FB2A21DeclaredAgeRangeActor
+- __METACLASS_DATA__TtC16DeclaredAgeRangeP33_B0A84AB007F7F527C313DDC51EA0FB2A21DeclaredAgeRangeActor
+- __objc_empty_cache
+- _associated conformance 16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLCs06GlobalD0AA0D4TypesAEP_ScA
+- _objc_msgSend$scene
+- _swift_defaultActor_deallocate
+- _swift_defaultActor_destroy
+- _swift_defaultActor_initialize
+- _symbolic $ss11GlobalActorP
+- _symbolic BD
+- _symbolic So7UISceneCSg
+- _symbolic _____ 16DeclaredAgeRange0abC5Actor33_B0A84AB007F7F527C313DDC51EA0FB2ALLC
+CStrings:
++ "Unable to resolve UI anchor for requestAgeRange"
++ "Unable to resolve UI anchor for significant update acknowledgment"
+- "Using Global Actor"
+```

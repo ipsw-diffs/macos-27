@@ -1,0 +1,85 @@
+## TelephonyBlastDoorSupport
+
+> `/System/Library/PrivateFrameworks/TelephonyBlastDoorSupport.framework/Versions/A/TelephonyBlastDoorSupport`
+
+```diff
+
+-331.300.31.0.0
+-  __TEXT.__text: 0x7abbc
++331.300.52.0.0
++  __TEXT.__text: 0x7e60c
+   __TEXT.__objc_methlist: 0x280
+-  __TEXT.__swift5_typeref: 0x27b2
++  __TEXT.__swift5_typeref: 0x2956
+   __TEXT.__swift5_fieldmd: 0x1ea4
+-  __TEXT.__const: 0xb050
++  __TEXT.__const: 0xb240
+   __TEXT.__constg_swiftt: 0x1f54
+   __TEXT.__swift5_protos: 0x20
+   __TEXT.__swift5_reflstr: 0x1502
+
+   __TEXT.__swift5_builtin: 0x64
+   __TEXT.__swift5_mpenum: 0x30
+   __TEXT.__swift5_capture: 0x10
+-  __TEXT.__unwind_info: 0x2660
+-  __TEXT.__eh_frame: 0x4980
++  __TEXT.__unwind_info: 0x2740
++  __TEXT.__eh_frame: 0x4948
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0xb198
+   __AUTH_CONST.__objc_const: 0x638
+-  __AUTH_CONST.__auth_got: 0x1398
++  __AUTH_CONST.__auth_got: 0x1390
+   __AUTH.__objc_data: 0x90
+   __AUTH.__data: 0x98
+-  __DATA.__data: 0x1908
++  __DATA.__data: 0x19f8
+   __DATA.__bss: 0x11190
+   __DATA_DIRTY.__objc_data: 0x1a8
+   __DATA_DIRTY.__data: 0x800
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2668
+-  Symbols:   1227
++  Functions: 2731
++  Symbols:   1257
+   CStrings:  381
+ 
+Symbols:
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC011RCSEnvelopeVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC011RCSFileInfoVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC015RCSPushLocationVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC016SIPResourceListsV12ResourceListVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC016SIPResourceListsV5EntryVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC016SIPResourceListsVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC017BootstrappingInfoVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC017SIPConferenceInfoV08ReferredJ0VAAE03xmlH0AjC0H0C_tKcfc13XMLCodingKeysL_O
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC017SIPConferenceInfoV10SubjectExtVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC017SIPConferenceInfoV11DescriptionVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC017SIPConferenceInfoV27EncryptedSubjectDescriptionVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC017SIPConferenceInfoV5UsersV0H0VAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC017SIPConferenceInfoV5UsersVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC017SIPConferenceInfoV8EndpointVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC017SIPConferenceInfoVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC018CPMGroupManagementV8ResponseVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC018CPMGroupManagementVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC019RCSFileTransferInfoVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC023IMCompositionIndicationVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC025IMDispositionNotificationV010ProcessingJ0VAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC025IMDispositionNotificationV012InterworkingJ0VAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC025IMDispositionNotificationV07DisplayJ0VAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC025IMDispositionNotificationV08DeliveryJ0VAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC025IMDispositionNotificationVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC028RCSClientAuthenticityRequestV6MethodVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC028RCSClientAuthenticityRequestVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC07GeoPrivV12LocationInfoV5PointVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC07GeoPrivV12LocationInfoV6CircleVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC07GeoPrivVAAE13XMLCodingKeysO
++ _symbolic _____y______G 25TelephonyBlastDoorSupport13XMLTreeParserV12KeyedElementV 0bC08IMRevokeVAAE13XMLCodingKeysO
+```
